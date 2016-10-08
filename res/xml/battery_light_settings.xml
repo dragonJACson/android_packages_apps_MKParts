@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,12 +23,12 @@
         android:key="general_section"
         android:title="@string/notification_light_general_title">
 
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        <mokee.preference.MKSystemSettingSwitchPreference
             android:key="battery_light_enabled"
             android:title="@string/battery_light_title"
             android:defaultValue="@bool/def_battery_light_enabled" />
 
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        <mokee.preference.MKSystemSettingSwitchPreference
             android:key="battery_light_pulse"
             android:title="@string/battery_low_pulse_title"
             android:defaultValue="@bool/def_battery_light_pulse"
@@ -41,17 +41,17 @@
         android:title="@string/battery_light_list_title"
         android:dependency="battery_light_enabled" >
 
-        <org.cyanogenmod.cmparts.notificationlight.ApplicationLightPreference
+        <org.mokee.mkparts.notificationlight.ApplicationLightPreference
             android:key="low_color"
             android:title="@string/battery_light_low_color_title"
             android:persistent="false" />
 
-        <org.cyanogenmod.cmparts.notificationlight.ApplicationLightPreference
+        <org.mokee.mkparts.notificationlight.ApplicationLightPreference
             android:key="medium_color"
             android:title="@string/battery_light_medium_color_title"
             android:persistent="false" />
 
-        <org.cyanogenmod.cmparts.notificationlight.ApplicationLightPreference
+        <org.mokee.mkparts.notificationlight.ApplicationLightPreference
             android:key="full_color"
             android:title="@string/battery_light_full_color_title"
             android:persistent="false" />

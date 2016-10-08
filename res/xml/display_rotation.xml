@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The CyanogenMod Project
+<!-- Copyright (C) 2016 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
     <SwitchPreference
         android:key="accelerometer"
         android:title="@string/accelerometer_title" />
-    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+    <mokee.preference.MKSystemSettingSwitchPreference
         android:key="lockscreen_rotation"
         android:title="@string/display_lockscreen_rotation_title"
         android:dependency="accelerometer"
