@@ -83,4 +83,9 @@
           android:fragment="org.mokee.mkparts.privacyguard.PrivacyGuardManager"
           mk:xmlRes="@xml/privacy_guard_prefs" />
 
+    <part android:key="weather_settings"
+          android:title="@string/weather_settings_title"
+          android:fragment="org.mokee.mkparts.weather.WeatherServiceSettings"
+          mk:xmlRes="@xml/weather_settings" />
+
 </parts-catalog>

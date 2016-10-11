@@ -63,6 +63,18 @@
         android:entries="@array/status_bar_battery_percentage_entries"
         android:entryValues="@array/status_bar_battery_percentage_values" />
 
+    <mokee.preference.MKSystemSettingListPreference
+        android:key="qs_quick_pulldown"
+        android:title="@string/status_bar_quick_qs_pulldown_title"
+        android:entries="@array/status_bar_quick_qs_pulldown_entries"
+        android:entryValues="@array/status_bar_quick_qs_pulldown_values" />
+
+    <mokee.preference.MKSystemSettingSwitchPreference
+        android:key="status_bar_show_weather"
+        android:title="@string/status_bar_show_weather_title"
+        android:summary="@string/status_bar_show_weather_summary"
+        android:defaultValue="true" />
+
     <mokee.preference.MKSystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
         android:title="@string/status_bar_toggle_brightness"
@@ -74,12 +86,6 @@
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
-
-    <mokee.preference.MKSystemSettingListPreference
-        android:key="qs_quick_pulldown"
-        android:title="@string/status_bar_quick_qs_pulldown_title"
-        android:entries="@array/status_bar_quick_qs_pulldown_entries"
-        android:entryValues="@array/status_bar_quick_qs_pulldown_values" />
 
     <!-- Double tap to sleep -->
     <mokee.preference.MKSystemSettingSwitchPreference
