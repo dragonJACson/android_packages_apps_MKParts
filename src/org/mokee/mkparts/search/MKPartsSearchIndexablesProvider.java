@@ -23,6 +23,7 @@ import android.util.Log;
 
 import org.mokee.mkparts.search.Searchable.SearchIndexProvider;
 import org.mokee.internal.mkparts.PartInfo;
+import org.mokee.internal.mkparts.PartsList;
 import org.mokee.platform.internal.R;
 
 import java.lang.reflect.Field;
@@ -54,8 +55,6 @@ import static android.provider.SearchIndexablesContract.INDEXABLES_RAW_COLUMNS;
 import static android.provider.SearchIndexablesContract.INDEXABLES_XML_RES_COLUMNS;
 import static android.provider.SearchIndexablesContract.NON_INDEXABLES_KEYS_COLUMNS;
 import static org.mokee.internal.mkparts.PartsList.MKPARTS_ACTIVITY;
-import static org.mokee.internal.mkparts.PartsList.getPartInfo;
-import static org.mokee.internal.mkparts.PartsList.getPartsList;
 
 /**
  * Provides search metadata to the Settings app
@@ -70,12 +69,12 @@ public class MKPartsSearchIndexablesProvider extends SearchIndexablesProvider {
     @Override
     public Cursor queryXmlResources(String[] strings) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
-        final Set<String> keys = getPartsList(getContext());
+        final Set<String> keys = PartsList.get(getContext()).getPartsList();
 
         // return all of the xml resources listed in the resource: attribute
         // from parts_catalog.xml for indexing
         for (String key : keys) {
-            PartInfo i = getPartInfo(getContext(), key);
+            PartInfo i = PartsList.get(getContext()).getPartInfo(key);
             if (i == null || i.getXmlRes() <= 0) {
                 continue;
             }
@@ -97,12 +96,12 @@ public class MKPartsSearchIndexablesProvider extends SearchIndexablesProvider {
     @Override
     public Cursor queryRawData(String[] strings) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_RAW_COLUMNS);
-        final Set<String> keys = getPartsList(getContext());
+        final Set<String> keys = PartsList.get(getContext()).getPartsList();
 
         // we also submit keywords and metadata for all top-level items
         // which don't have an associated XML resource
         for (String key : keys) {
-            PartInfo i = getPartInfo(getContext(), key);
+            PartInfo i = PartsList.get(getContext()).getPartInfo(key);
             if (i == null) {
                 continue;
             }
@@ -155,11 +154,11 @@ public class MKPartsSearchIndexablesProvider extends SearchIndexablesProvider {
     public Cursor queryNonIndexableKeys(String[] strings) {
         MatrixCursor cursor = new MatrixCursor(NON_INDEXABLES_KEYS_COLUMNS);
 
-        final Set<String> keys = getPartsList(getContext());
+        final Set<String> keys = PartsList.get(getContext()).getPartsList();
         final Set<String> nonIndexables = new ArraySet<>();
 
         for (String key : keys) {
-            PartInfo i = getPartInfo(getContext(), key);
+            PartInfo i = PartsList.get(getContext()).getPartInfo(key);
             if (i == null) {
                 continue;
             }

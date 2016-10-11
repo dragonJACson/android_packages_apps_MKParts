@@ -17,19 +17,17 @@
 package org.mokee.mkparts.notificationlight;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
-import android.support.v14.preference.PreferenceFragment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import org.mokee.mkparts.R;
-
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
 import mokee.preference.MKSystemSettingSwitchPreference;
@@ -90,6 +88,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(prefSet.findPreference("colors_list"));
             resetColors();
         }
+
+        addTrigger(MKSettings.System.getUriFor(MKSettings.System.BATTERY_LIGHT_ENABLED));
     }
 
     @Override
@@ -186,7 +186,17 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ApplicationLightPreference lightPref = (ApplicationLightPreference) preference;
         updateValues(lightPref.getKey(), lightPref.getColor());
-
         return true;
     }
+
+    public static final SummaryProvider SUMMARY_PROVIDER = new SummaryProvider() {
+        @Override
+        public String getSummary(Context context, String key) {
+            if (MKSettings.System.getInt(context.getContentResolver(),
+                    MKSettings.System.BATTERY_LIGHT_ENABLED, 1) == 1) {
+                return context.getString(R.string.enabled);
+            }
+            return context.getString(R.string.disabled);
+        }
+    };
 }

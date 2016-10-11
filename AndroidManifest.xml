@@ -36,10 +36,11 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
 
-    <uses-permission android:name="mokee.permission.BIND_CORE_SERVICE" />
+    <uses-permission android:name="mokee.permission.MANAGE_PARTS" />
 
     <protected-broadcast android:name="mokee.platform.app.profiles.PROFILES_STATE_CHANGED" />
     <protected-broadcast android:name="org.mokee.mkparts.PART_CHANGED" />
+    <protected-broadcast android:name="org.mokee.mkparts.REFRESH_PART" />
 
     <application android:label="@string/mkparts_title"
             android:theme="@style/Theme.Settings"
@@ -58,6 +59,12 @@
         <receiver android:name="BootReceiver" android:enabled="true">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".RefreshReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="org.mokee.mkparts.REFRESH_PART" />
             </intent-filter>
         </receiver>
 
