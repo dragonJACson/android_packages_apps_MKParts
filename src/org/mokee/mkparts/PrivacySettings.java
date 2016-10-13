@@ -16,7 +16,10 @@
 
 package org.mokee.mkparts;
 
+import android.content.Context;
 import android.os.Bundle;
+
+import mokee.providers.MKSettings;
 
 /**
  * Privacy settings
@@ -29,4 +32,15 @@ public class PrivacySettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.privacy_settings);
     }
+
+    public static final SummaryProvider SUMMARY_PROVIDER = new SummaryProvider() {
+        @Override
+        public String getSummary(Context context, String key) {
+            if (MKSettings.Secure.getInt(context.getContentResolver(),
+                    MKSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1) {
+                return context.getString(R.string.privacy_guard_default_summary_on);
+            }
+            return null;
+        }
+    };
 }

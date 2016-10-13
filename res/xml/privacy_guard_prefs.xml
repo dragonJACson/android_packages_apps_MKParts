@@ -19,11 +19,11 @@
     android:key="privacy_guard_manager"
     android:title="@*mokee.platform:string/privacy_guard_manager_title">
 
-    <SwitchPreference
+    <mokee.preference.MKSecureSettingSwitchPreference
         android:key="privacy_guard_default"
         android:title="@string/privacy_guard_default_title"
         android:summary="@string/privacy_guard_default_summary"
-        android:persistent="false" />
+        android:defaultValue="false" />
 
     <mokee.preference.MKSecureSettingSwitchPreference
         android:key="privacy_guard_notification"

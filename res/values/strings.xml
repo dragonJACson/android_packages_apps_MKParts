@@ -47,6 +47,7 @@
     <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
     <string name="privacy_guard_dlg_system_app_text">When enabling Privacy Guard for a built-in app, the app will not be able to access or provide personal data. This may cause other apps to misbehave.</string>
     <string name="privacy_guard_default_title">Enabled by default</string>
+    <string name="privacy_guard_default_summary_on">Privacy Guard is enabled</string>
     <string name="privacy_guard_default_summary">Enable by default for newly-installed apps</string>
     <string name="privacy_guard_manager_summary">Manage which apps have access to your personal data</string>
     <string name="privacy_guard_no_user_apps">No apps are installed</string>
@@ -280,6 +281,7 @@
     <string name="profile_menu_delete">Delete</string>
     <string name="profile_settings_title">Profile</string>
     <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+    <string name="profile_settings_summary_off">Profiles are disabled</string>
     <string name="profile_trigger_configure">Configure trigger</string>
     <string name="profile_write_nfc_tag">Write to NFC tag</string>
     <string name="profile_write_touch_tag">Touch tag to write</string>
@@ -505,4 +507,19 @@
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Display the current temperature on the status bar</string>
 
+    <!-- Power: Performance profiles -->
+    <string name="perf_profile_settings_title">Battery saver and performance</string>
+    <string name="perf_profile_settings_summary">Adjust power saving features and device performance</string>
+    <string name="perf_profile_overview_summary">Current profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+    <string name="perf_profile_category_title">Device performance</string>
+    <string name="perf_profile_title">Performance profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+    <string name="perf_profile_fail_toast">The performance profile is currently unavailable</string>
+    <string name="power_save_category_title">Battery saving</string>
+    <string name="power_save_title">Extreme power saver</string>
+    <string name="power_save_summary">Restrict device performance and background activity to save power</string>
+    <string name="auto_power_save_title">Automatic power saver</string>
+    <string name="auto_power_save_summary_on">Automatically enable power save mode at %d percent battery</string>
+    <string name="auto_power_save_summary_off">Do not enable power save mode automatically</string>
+    <string name="app_perf_profiles_title">Automatic optimization</string>
+    <string name="app_perf_profiles_summary">Automatically choose an appropriate performance profile for applications and usage patterns</string>
 </resources>

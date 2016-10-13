@@ -36,7 +36,7 @@ import java.util.UUID;
 
 /**
  * Activity to support writing a profile to an NFC tag.
- * The mime type is "cm/profile" and the payload is the raw bytes of the profile's
+ * The mime type is "mk/profile" and the payload is the raw bytes of the profile's
  * UUID. The payload was intentionally kept small to support writing on 46-byte tags.
  */
 public class NFCProfileWriter extends Activity {

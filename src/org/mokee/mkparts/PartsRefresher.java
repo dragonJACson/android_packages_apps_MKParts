@@ -41,13 +41,14 @@ import java.util.Set;
 import static org.mokee.internal.mkparts.PartsList.ACTION_PART_CHANGED;
 import static org.mokee.internal.mkparts.PartsList.EXTRA_PART;
 import static org.mokee.internal.mkparts.PartsList.EXTRA_PART_KEY;
+import static org.mokee.internal.mkparts.PartsList.EXTRA_PART_SUMMARY;
 
 /**
  * PartsRefresher keeps remote UI clients up to date with any changes in the
  * state of the Part which should be reflected immediately. For preferences,
  * the clear use case is refreshing the summary.
  *
- * This works in conjunction with CMPartsPreference, which will send an
+ * This works in conjunction with MKPartsPreference, which will send an
  * ordered broadcast requesting updated information. The part will be
  * looked up, and checked for a static SUMMARY_INFO field. If an
  * instance of SummaryInfo is found in this field, the result of the
@@ -125,6 +126,7 @@ public class PartsRefresher {
 
         pi.setSummary(si.getSummary(mContext, key));
         bundle.putString(EXTRA_PART_KEY, key);
+        bundle.putString(EXTRA_PART_SUMMARY, pi.getSummary());
         bundle.putParcelable(EXTRA_PART, pi);
         return true;
     }
@@ -178,6 +180,7 @@ public class PartsRefresher {
                     uris.add(contentUri);
                     if (!mRefs.contains(contentUri)) {
                         mResolver.registerContentObserver(contentUri, false, this);
+                        listener.onRefresh(mContext, null);
                     }
                     mRefs.add(contentUri);
                 }

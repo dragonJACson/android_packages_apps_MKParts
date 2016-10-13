@@ -36,7 +36,7 @@ import mokee.providers.MKSettings;
 import org.mokee.mkparts.R;
 
 /**
- * This activity handles NDEF_DISCOVERED intents with the cm/profile mime type.
+ * This activity handles NDEF_DISCOVERED intents with the mk/profile mime type.
  * Tags should be encoded with the 16-byte UUID of the profile to be activated.
  * Tapping a tag while that profile is already active will select the previously
  * active profile.
@@ -47,7 +47,7 @@ public class NFCProfile extends Activity {
 
     private static final String PREFS_PREVIOUS_PROFILE = "previous-profile";
 
-    static final String PROFILE_MIME_TYPE = "cm/profile";
+    static final String PROFILE_MIME_TYPE = "mk/profile";
 
     private ProfileManager mProfileManager;
 

@@ -3,12 +3,13 @@
 -keep class org.mokee.mkparts.*Picker
 -keep class org.mokee.mkparts.*Settings
 
--keep class org.mokee.mkparts.mkstats.*
+-keep class org.mokee.mkparts.stats.*
 -keep class org.mokee.mkparts.contributors.*
 -keep class org.mokee.mkparts.hardware.*
 -keep class org.mokee.mkparts.input.*
 -keep class org.mokee.mkparts.livedisplay.*
 -keep class org.mokee.mkparts.notificationlight.*
+-keep class org.mokee.mkparts.power.*
 -keep class org.mokee.mkparts.privacyguard.*
 -keep class org.mokee.mkparts.profiles.*
 
