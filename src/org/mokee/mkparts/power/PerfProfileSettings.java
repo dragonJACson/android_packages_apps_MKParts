@@ -37,7 +37,7 @@ import android.widget.Toast;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SeekBarPreference;
 import org.mokee.mkparts.SettingsPreferenceFragment;
-import org.mokee.graphics.drawable.StopMotionVectorDrawable;
+import org.cyanogenmod.graphics.drawable.StopMotionVectorDrawable;
 
 import java.util.ArrayList;
 import java.util.List;
