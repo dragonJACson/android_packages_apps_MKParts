@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,6 +32,8 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
 import com.android.settingslib.RestrictedPreference;
+
+import org.mokee.mkparts.R;
 
 /**
  * Based on android.preference.SeekBarPreference, but uses support preference as base.

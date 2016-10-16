@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -34,6 +35,7 @@ import android.widget.Button;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 import org.mokee.mkparts.profiles.NFCProfileTagCallback;
+import org.mokee.mkparts.widget.SwitchBar;
 import org.mokee.internal.mkparts.PartInfo;
 import org.mokee.internal.mkparts.PartsList;
 

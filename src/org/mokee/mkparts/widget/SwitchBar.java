@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -31,6 +31,8 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
+
+import org.mokee.mkparts.R;
 
 import java.util.ArrayList;
 

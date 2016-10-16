@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2012 The CyanogenMod Project
  * Copyright (C) 2012 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +30,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.mokee.mkparts.FloatingActionButton;
+import org.mokee.mkparts.widget.FloatingActionButton;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 import org.mokee.internal.util.ScreenType;

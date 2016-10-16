@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,13 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.SeekBar;
+
+import org.mokee.mkparts.R;
 
 /**
  * Custom SeekBar that allows setting both a minimum and maximum value.

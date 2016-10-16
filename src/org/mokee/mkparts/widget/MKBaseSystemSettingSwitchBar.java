@@ -1,4 +1,5 @@
 /*
+* Copyright (C) 2015 The CyanogenMod Project
 * Copyright (C) 2015 The MoKee Open Source Project
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +15,7 @@
 * limitations under the License.
 */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -25,7 +26,7 @@ import android.widget.Switch;
 
 import mokee.providers.MKSettings;
 
-public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener  {
+public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener {
     private Context mContext;
     private SwitchBar mSwitchBar;
     private SettingsObserver mSettingsObserver;

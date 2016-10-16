@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The MoKee Open Source Project
+ * Copyright (C) 2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,8 +28,8 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import org.mokee.mkparts.CustomDialogPreference;
-import org.mokee.mkparts.IntervalSeekBar;
+import org.mokee.mkparts.widget.CustomDialogPreference;
+import org.mokee.mkparts.widget.IntervalSeekBar;
 import org.mokee.mkparts.R;
 
 import java.util.List;

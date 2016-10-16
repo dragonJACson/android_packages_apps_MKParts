@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
      Copyright (C) 2013-2015 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +38,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <org.mokee.mkparts.IntervalSeekBar android:id="@+id/color_red_seekbar"
+        <org.mokee.mkparts.widget.IntervalSeekBar
+            android:id="@+id/color_red_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_red_text"
@@ -59,7 +61,8 @@
                 android:layout_below="@id/color_red_seekbar"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <org.mokee.mkparts.IntervalSeekBar android:id="@+id/color_green_seekbar"
+        <org.mokee.mkparts.widget.IntervalSeekBar
+            android:id="@+id/color_green_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_green_text"
@@ -81,7 +84,8 @@
                 android:layout_below="@id/color_green_seekbar"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <org.mokee.mkparts.IntervalSeekBar android:id="@+id/color_blue_seekbar"
+        <org.mokee.mkparts.widget.IntervalSeekBar
+            android:id="@+id/color_blue_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_blue_text"

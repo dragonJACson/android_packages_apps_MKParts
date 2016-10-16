@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2010 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
-import android.content.Context;
+import android.app.Dialog;
+
+import org.mokee.mkparts.SettingsPreferenceFragment;
 
 /**
- * Interface for classes whose instances can provide the availability of the preference.
+ * Letting the class, assumed to be Fragment, create a Dialog on it. Should be useful
+ * you want to utilize some capability in {@link SettingsPreferenceFragment} but don't want
+ * the class inherit the class itself (See {@link ProxySelector} for example).
  */
-public interface SelfAvailablePreference {
-    /**
-     * @return the availability of the preference. Please make sure the availability in managed
-     * profile is taken into account.
-     */
-    boolean isAvailable(Context context);
+public interface DialogCreatable {
+
+    public Dialog onCreateDialog(int dialogId);
 }

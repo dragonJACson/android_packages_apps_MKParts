@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

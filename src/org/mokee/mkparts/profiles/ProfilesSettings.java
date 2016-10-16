@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2012 The CyanogenMod Project
  * Copyright (C) 2012 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +38,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.mokee.mkparts.MKBaseSystemSettingSwitchBar;
+import org.mokee.mkparts.widget.MKBaseSystemSettingSwitchBar;
 import org.mokee.mkparts.PartsActivity;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;

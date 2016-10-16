@@ -30,7 +30,8 @@
               android:textColor="@color/switchbar_text_color"
               android:textAlignment="viewStart" />
 
-    <org.mokee.mkparts.ToggleSwitch android:id="@+id/switch_widget"
+    <org.mokee.mkparts.widget.ToggleSwitch
+        android:id="@+id/switch_widget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"

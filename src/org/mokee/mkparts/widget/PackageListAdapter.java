@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2012-2014 The CyanogenMod Project
  * Copyright (C) 2012-2014 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.mokee.mkparts;
+package org.mokee.mkparts.widget;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,6 +32,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.mokee.mkparts.R;
 
 import java.util.Collections;
 import java.util.LinkedList;

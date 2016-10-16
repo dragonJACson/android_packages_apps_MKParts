@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2012 The CyanogenMod Project
  * Copyright (C) 2012 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,8 +42,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-import org.mokee.mkparts.PackageListAdapter;
-import org.mokee.mkparts.PackageListAdapter.PackageItem;
+import org.mokee.mkparts.widget.PackageListAdapter;
+import org.mokee.mkparts.widget.PackageListAdapter.PackageItem;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
