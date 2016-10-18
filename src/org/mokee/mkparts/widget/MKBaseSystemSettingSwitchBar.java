@@ -17,19 +17,18 @@
 
 package org.mokee.mkparts.widget;
 
-import android.content.ContentResolver;
 import android.content.Context;
-import android.database.ContentObserver;
 import android.net.Uri;
-import android.os.Handler;
 import android.widget.Switch;
 
+import mokee.preference.SettingsHelper;
 import mokee.providers.MKSettings;
 
-public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener {
+public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener,
+        SettingsHelper.OnSettingsChangeListener {
+
     private Context mContext;
     private SwitchBar mSwitchBar;
-    private SettingsObserver mSettingsObserver;
     private boolean mListeningToOnSwitchChange = false;
 
     private boolean mStateMachineEvent;
@@ -49,7 +48,6 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
         mSettingKey = key;
         mDefaultState = defaultState ? 1 : 0;
         mCallback = callback;
-        mSettingsObserver = new SettingsObserver(new Handler());
         setupSwitchBar();
     }
 
@@ -74,7 +72,8 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
         mContext = context;
         if (!mListeningToOnSwitchChange) {
             mSwitchBar.addOnSwitchChangeListener(this);
-            mSettingsObserver.observe();
+            SettingsHelper.get(mContext).startWatching(
+                    this, MKSettings.System.getUriFor(mSettingKey));
 
             mListeningToOnSwitchChange = true;
         }
@@ -83,7 +82,7 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
     public void pause() {
         if (mListeningToOnSwitchChange) {
             mSwitchBar.removeOnSwitchChangeListener(this);
-            mSettingsObserver.unobserve();
+            SettingsHelper.get(mContext).stopWatching(this);
 
             mListeningToOnSwitchChange = false;
         }
@@ -122,35 +121,8 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
         }
     }
 
-    class SettingsObserver extends ContentObserver {
-        SettingsObserver(Handler handler) {
-            super(handler);
-        }
-
-        void observe() {
-            ContentResolver resolver = mContext.getContentResolver();
-            resolver.registerContentObserver(MKSettings.System.getUriFor(
-                    mSettingKey), false, this);
-            update();
-        }
-
-        void unobserve() {
-            ContentResolver resolver = mContext.getContentResolver();
-            resolver.unregisterContentObserver(this);
-        }
-
-        @Override
-        public void onChange(boolean selfChange) {
-            update();
-        }
-
-        @Override
-        public void onChange(boolean selfChange, Uri uri) {
-            update();
-        }
-
-        public void update() {
-            setSwitchState();
-        }
+    @Override
+    public void onSettingsChanged(Uri uri) {
+        setSwitchState();
     }
 }

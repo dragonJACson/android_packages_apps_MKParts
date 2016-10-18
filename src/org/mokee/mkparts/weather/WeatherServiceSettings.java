@@ -100,7 +100,7 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         mTemperatureUnit = (ListPreference) ps.findPreference(PREFERENCE_TEMP_UNIT);
         mTemperatureUnit.setOnPreferenceChangeListener(this);
 
-        addTrigger(MKSettings.Secure.getUriFor(MKSettings.Secure.WEATHER_PROVIDER_SERVICE));
+        watch(MKSettings.Secure.getUriFor(MKSettings.Secure.WEATHER_PROVIDER_SERVICE));
     }
 
     @Override
@@ -256,8 +256,9 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
 
         Locale locale = context.getResources().getConfiguration().locale;
         boolean useFahrenheit = locale.equals(Locale.US)
-                || locale.toString().equals("ms_MY") // Malaysia
-                || locale.toString().equals("si_LK"); // Sri Lanka
+                || locale.toString().equals("en_BS")  // Bahamas
+                || locale.toString().equals("en_BZ")  // Belize
+                || locale.toString().equals("en_KY"); // Cayman Islands
         return useFahrenheit
                 ? WeatherContract.WeatherColumns.TempUnit.FAHRENHEIT
                 : WeatherContract.WeatherColumns.TempUnit.CELSIUS;

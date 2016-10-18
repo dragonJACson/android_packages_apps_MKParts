@@ -90,7 +90,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             resetColors();
         }
 
-        addTrigger(MKSettings.System.getUriFor(MKSettings.System.BATTERY_LIGHT_ENABLED));
+        watch(MKSettings.System.getUriFor(MKSettings.System.BATTERY_LIGHT_ENABLED));
     }
 
     @Override

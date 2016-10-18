@@ -40,7 +40,7 @@ public class PrivacyGuardPrefs extends SettingsPreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.privacy_guard_prefs);
-        addTrigger(MKSettings.Secure.getUriFor(MKSettings.Secure.PRIVACY_GUARD_DEFAULT));
+        watch(MKSettings.Secure.getUriFor(MKSettings.Secure.PRIVACY_GUARD_DEFAULT));
     }
 
     @Override

@@ -18,18 +18,16 @@
 package org.mokee.mkparts.hardware;
 
 import android.content.Context;
-import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
+import android.provider.Settings;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceScreen;
-import android.support.v14.preference.SwitchPreference;
-import android.provider.Settings;
 
 import com.android.internal.view.RotationPolicy;
+
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
@@ -101,12 +99,12 @@ public class DisplayRotation extends SettingsPreferenceFragment {
             getPreferenceScreen().removePreference(lockScreenRotation);
         }
 
-        addTrigger(Settings.System.getUriFor(Settings.System.ACCELEROMETER_ROTATION));
+        watch(Settings.System.getUriFor(Settings.System.ACCELEROMETER_ROTATION));
     }
 
     @Override
-    public void onRefresh(Context context, Uri contentUri) {
-        super.onRefresh(context, contentUri);
+    public void onSettingsChanged(Uri contentUri) {
+        super.onSettingsChanged(contentUri);
         updateAccelerometerRotationSwitch();
     }
 
