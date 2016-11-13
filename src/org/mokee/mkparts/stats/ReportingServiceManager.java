@@ -22,7 +22,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.mokee.utils.MoKeeUtils;
 import android.os.UserHandle;
 import android.util.Log;
 
@@ -74,32 +73,30 @@ public class ReportingServiceManager extends BroadcastReceiver {
     }
 
     public static void launchService(Context ctx) {
-        if (MoKeeUtils.isOnline(ctx)) {
-            final SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
-            long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
-            String currentVersion = Utilities.getVersion();
-            String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
+        final SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
+        long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
+        String currentVersion = Utilities.getVersion();
+        String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
 
-            boolean shouldSync = false;
-            if (lastSynced == 0) {
-                shouldSync = true;
-            } else if (System.currentTimeMillis() - lastSynced >= UPDATE_INTERVAL) {
-                shouldSync = true;
-            } else if (!currentVersion.equals(prefVersion)) {
-                shouldSync = true;
-            }
-            if (shouldSync) {
-                Intent sIntent = new Intent();
-                if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0) {
-                    sIntent.setClass(ctx, ReportingService.class);
-                    ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
-                } else {
-                    sIntent.setClass(ctx, UpdatingService.class);
-                    ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
-                }
+        boolean shouldSync = false;
+        if (lastSynced == 0) {
+            shouldSync = true;
+        } else if (System.currentTimeMillis() - lastSynced >= UPDATE_INTERVAL) {
+            shouldSync = true;
+        } else if (!currentVersion.equals(prefVersion)) {
+            shouldSync = true;
+        }
+        if (shouldSync) {
+            Intent sIntent = new Intent();
+            if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0) {
+                sIntent.setClass(ctx, ReportingService.class);
+                ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
             } else {
-                setAlarm(ctx);
+                sIntent.setClass(ctx, UpdatingService.class);
+                ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
             }
+        } else {
+            setAlarm(ctx);
         }
     }
 }
