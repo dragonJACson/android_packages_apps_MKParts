@@ -201,6 +201,10 @@
             android:enabled="true"
             android:exported="false">
         </service>
+
+        <service android:name=".stats.StatsUploadJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
         <!-- MOKEE ANONYMOUS STATISTICS END -->
 
 		<!-- Weather settings -->

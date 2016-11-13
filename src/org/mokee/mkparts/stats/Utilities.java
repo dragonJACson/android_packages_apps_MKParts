@@ -24,6 +24,9 @@ import android.text.TextUtils;
 
 public class Utilities {
 
+    /* package */ static final String KEY_LAST_JOB_ID = "last_job_id";
+    /* package */ static final int QUEUE_MAX_THRESHOLD = 1000;
+
     public static final String TAG = "ReportingServiceManager";
 
     public static String getCarrier(Context ctx) {
@@ -48,4 +51,29 @@ public class Utilities {
         return VERSION.CODENAME.startsWith("MK") ? VERSION.CODENAME : "Unknown";
     }
 
+    public static void updateLastSynced(Context context) {
+        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).edit()
+                .putLong(ReportingServiceManager.ANONYMOUS_LAST_CHECKED, System.currentTimeMillis())
+                .commit();
+    }
+
+    private static int getLastJobId(Context context) {
+        return context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).getInt(KEY_LAST_JOB_ID, 0);
+    }
+
+    private static void setLastJobId(Context context, int id) {
+        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).edit()
+                .putInt(KEY_LAST_JOB_ID, id).commit();
+    }
+
+    public static int getNextJobId(Context context) {
+        int lastId = getLastJobId(context);
+        if (lastId >= QUEUE_MAX_THRESHOLD) {
+            lastId = 1;
+        } else {
+            lastId += 1;
+        }
+        setLastJobId(context, lastId);
+        return lastId;
+    }
 }
