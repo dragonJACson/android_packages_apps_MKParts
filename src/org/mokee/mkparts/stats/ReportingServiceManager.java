@@ -37,32 +37,32 @@ public class ReportingServiceManager extends BroadcastReceiver {
 
     protected static final String ANONYMOUS_LAST_CHECKED = "pref_anonymous_checked_in";
 
-    protected static final String ANONYMOUS_VERSION_CODE = "pref_anonymous_version_code";
+    protected static final String ANONYMOUS_VERSION = "pref_anonymous_version";
 
     private static final long MILLIS_PER_HOUR = 60L * 60L * 1000L;
     private static final long MILLIS_PER_DAY = 24L * MILLIS_PER_HOUR;
-    private static final long UPDATE_INTERVAL = 1L * MILLIS_PER_DAY;
+    private static final long UPDATE_INTERVAL = 3L * MILLIS_PER_DAY;
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
-            setAlarm(ctx, 0);
+            setAlarm(ctx);
         } else {
             launchService(ctx);
         }
     }
 
-    public static void setAlarm(Context ctx, long millisFromNow) {
+    public static void setAlarm(Context ctx) {
         SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
 
-        if (millisFromNow <= 0) {
-            long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
-            if (lastSynced == 0) {
-                launchService(ctx);
-                return;
-            }
-            millisFromNow = (lastSynced + UPDATE_INTERVAL) - System.currentTimeMillis();
+        long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
+        String currentVersion = Utilities.getVersion();
+        String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
+        if (lastSynced == 0 || !currentVersion.equals(prefVersion)) {
+            launchService(ctx);
+            return;
         }
+        long millisFromNow = (lastSynced + UPDATE_INTERVAL) - System.currentTimeMillis();
 
         Intent intent = new Intent(ACTION_LAUNCH_SERVICE);
         intent.setClass(ctx, ReportingServiceManager.class);
@@ -77,15 +77,15 @@ public class ReportingServiceManager extends BroadcastReceiver {
         if (MoKeeUtils.isOnline(ctx)) {
             final SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
             long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
-            String versionCode = Utilities.getVersionCode();
-            String prefVersionCode = prefs.getString(ANONYMOUS_VERSION_CODE, versionCode);
+            String currentVersion = Utilities.getVersion();
+            String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
 
             boolean shouldSync = false;
             if (lastSynced == 0) {
                 shouldSync = true;
             } else if (System.currentTimeMillis() - lastSynced >= UPDATE_INTERVAL) {
                 shouldSync = true;
-            } else if (!versionCode.equals(prefVersionCode)) {
+            } else if (!currentVersion.equals(prefVersion)) {
                 shouldSync = true;
             }
             if (shouldSync) {
@@ -98,7 +98,7 @@ public class ReportingServiceManager extends BroadcastReceiver {
                     ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
                 }
             } else {
-                setAlarm(ctx, 0);
+                setAlarm(ctx);
             }
         }
     }

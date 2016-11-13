@@ -45,7 +45,7 @@ public class StatsUploadJobService extends JobService {
     public static final int JOB_TYPE_REPORT = 1;
     public static final int JOB_TYPE_UPDATE = 2;
 
-    private static final int REQUEST_TIMEOUT = 10000;
+    private static final int REQUEST_TIMEOUT = 60000;
 
     public static final String KEY_UNIQUE_ID = "device_hash";
     public static final String KEY_DEVICE_NAME = "device_name";
@@ -62,8 +62,9 @@ public class StatsUploadJobService extends JobService {
 
     @Override
     public boolean onStartJob(JobParameters jobParameters) {
-        Log.d(Utilities.TAG, "onStartJob() called with " + "jobParameters = [" + jobParameters + "]");
-        switch (jobParameters.getExtras().getInt(KEY_JOB_TYPE)) {
+        int jobType = jobParameters.getExtras().getInt(KEY_JOB_TYPE);
+        Log.d(Utilities.TAG, "onStartJob() called with " + "job type = [" + jobType + "]");
+        switch (jobType) {
             case JOB_TYPE_REPORT:
                 final StatsReportTask reportTask = new StatsReportTask(jobParameters);
                 mReportJobs.put(jobParameters, reportTask);
@@ -148,24 +149,26 @@ public class StatsUploadJobService extends JobService {
         private boolean reportToServer(String deviceId, String deviceName, String deviceVersion,
                 String deviceCountry, String deviceCarrier, String deviceCarrierId) throws IOException {
 
-            final Uri uri = Uri.parse(getString(R.string.stats_report_url)).buildUpon()
-                    .appendQueryParameter(KEY_UNIQUE_ID, deviceId)
-                    .appendQueryParameter(KEY_DEVICE_NAME, deviceName)
-                    .appendQueryParameter(KEY_VERSION, deviceVersion)
-                    .appendQueryParameter(KEY_COUNTRY, deviceCountry)
-                    .appendQueryParameter(KEY_CARRIER, deviceCarrier)
-                    .appendQueryParameter(KEY_CARRIER_ID, deviceCarrierId).build();
-            URL url = new URL(uri.toString());
+            StringBuffer params = new StringBuffer();
+            params.append(KEY_UNIQUE_ID + "=" + deviceId + "&")
+                    .append(KEY_DEVICE_NAME + "=" + deviceName + "&")
+                    .append(KEY_VERSION + "=" + deviceVersion + "&")
+                    .append(KEY_COUNTRY + "=" + deviceCountry + "&")
+                    .append(KEY_CARRIER + "=" + deviceCarrier + "&")
+                    .append(KEY_CARRIER_ID + "=" + deviceCarrierId);
+
+            URL url = new URL(getString(R.string.stats_report_url));
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             try {
                 urlConnection.setInstanceFollowRedirects(true);
                 urlConnection.setRequestMethod("POST");
                 urlConnection.setConnectTimeout(REQUEST_TIMEOUT);
                 urlConnection.setReadTimeout(REQUEST_TIMEOUT);
-                urlConnection.setDoOutput(true);
                 urlConnection.setDoInput(true);
                 urlConnection.setUseCaches(false);
                 urlConnection.setRequestProperty("Accept-Charset", "utf-8");
+                byte[] bytes = params.toString().getBytes();
+                urlConnection.getOutputStream().write(bytes);
                 urlConnection.connect();
 
                 final int responseCode = urlConnection.getResponseCode();
@@ -187,9 +190,8 @@ public class StatsUploadJobService extends JobService {
 
         @Override
         protected void onPostExecute(Boolean result) {
-            long interval;
             if (result) {
-                String versionCode = Utilities.getVersionCode();
+                String currentVersion = Utilities.getVersion();
                 final SharedPreferences prefs = getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0);
                 long device_flash_time = 0;
                 try {
@@ -198,15 +200,13 @@ public class StatsUploadJobService extends JobService {
                     e.printStackTrace();
                 }
                 prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME,
-                        device_flash_time).putString(ReportingServiceManager.ANONYMOUS_VERSION_CODE, versionCode).apply();
-                // use set interval
-                interval = 0;
-            } else {
-                // error, try again in 3 hours
-                interval = 3L * 60L * 60L * 1000L;
+                        device_flash_time).putString(ReportingServiceManager.ANONYMOUS_VERSION, currentVersion).apply();
+
+                // reschedule
+                Utilities.updateLastSynced(getApplicationContext());
+                ReportingServiceManager.setAlarm(getApplicationContext());
             }
-            Utilities.updateLastSynced(getApplicationContext());
-            ReportingServiceManager.setAlarm(getApplicationContext(), interval);
+
             mReportJobs.remove(mJobParams);
             jobFinished(mJobParams, !result);
         }
@@ -246,21 +246,23 @@ public class StatsUploadJobService extends JobService {
 
         private boolean updateToServer(String deviceId, String deviceVersion, String deviceFlashTime) throws IOException {
 
-            final Uri uri = Uri.parse(getString(R.string.stats_update_url)).buildUpon()
-                    .appendQueryParameter(KEY_UNIQUE_ID, deviceId)
-                    .appendQueryParameter(KEY_VERSION, deviceVersion)
-                    .appendQueryParameter(KEY_FLASH_TIME, deviceFlashTime).build();
-            URL url = new URL(uri.toString());
+            StringBuffer params = new StringBuffer();
+            params.append(KEY_UNIQUE_ID + "=" + deviceId + "&")
+                    .append(KEY_VERSION + "=" + deviceVersion + "&")
+                    .append(KEY_FLASH_TIME + "=" + deviceFlashTime);
+
+            URL url = new URL(getString(R.string.stats_update_url));
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             try {
                 urlConnection.setInstanceFollowRedirects(true);
                 urlConnection.setRequestMethod("POST");
                 urlConnection.setConnectTimeout(REQUEST_TIMEOUT);
                 urlConnection.setReadTimeout(REQUEST_TIMEOUT);
-                urlConnection.setDoOutput(true);
                 urlConnection.setDoInput(true);
                 urlConnection.setUseCaches(false);
                 urlConnection.setRequestProperty("Accept-Charset", "utf-8");
+                byte[] bytes = params.toString().getBytes();
+                urlConnection.getOutputStream().write(bytes);
                 urlConnection.connect();
 
                 final int responseCode = urlConnection.getResponseCode();
@@ -279,20 +281,16 @@ public class StatsUploadJobService extends JobService {
 
         @Override
         protected void onPostExecute(Boolean result) {
-            long interval;
             if (result) {
-                String versionCode = Utilities.getVersionCode();
+                String currentVersion = Utilities.getVersion();
                 final SharedPreferences prefs = getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0);
-                prefs.edit().putString(ReportingServiceManager.ANONYMOUS_VERSION_CODE, versionCode).apply();
-                // use set interval
-                interval = 0;
-            } else {
-                // error, try again in 3 hours
-                interval = 3L * 60L * 60L * 1000L;
+                prefs.edit().putString(ReportingServiceManager.ANONYMOUS_VERSION, currentVersion).apply();
+
+                // reschedule
+                Utilities.updateLastSynced(getApplicationContext());
+                ReportingServiceManager.setAlarm(getApplicationContext());
             }
-            Utilities.updateLastSynced(getApplicationContext());
-            ReportingServiceManager.setAlarm(getApplicationContext(), interval);
-            mReportJobs.remove(mJobParams);
+            mUpdateJobs.remove(mJobParams);
             jobFinished(mJobParams, !result);
         }
     }

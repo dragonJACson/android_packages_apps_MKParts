@@ -16,7 +16,7 @@
 
 package org.mokee.mkparts.stats;
 
-import com.mokee.os.Build.VERSION;
+import com.mokee.os.Build;
 
 import android.content.Context;
 import android.telephony.TelephonyManager;
@@ -47,8 +47,8 @@ public class Utilities {
         return TextUtils.isEmpty(countryCode) ? "Unknown" : countryCode;
     }
 
-    public static String getVersionCode() {
-        return VERSION.CODENAME.startsWith("MK") ? VERSION.CODENAME : "Unknown";
+    public static String getVersion() {
+        return Build.VERSION.startsWith("MK") ? Build.VERSION : "Unknown";
     }
 
     public static void updateLastSynced(Context context) {
