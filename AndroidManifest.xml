@@ -179,6 +179,30 @@
                 android:value="status_bar_settings" />
         </activity-alias>
 
+        <!-- MOKEE ANONYMOUS STATISTICS START -->
+        <receiver android:name=".stats.ReportingServiceManager"
+            android:label="ReportingServiceManager"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="org.mokee.mkparts.action.TRIGGER_REPORT_METRICS" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".stats.ReportingService"
+            android:label="ReportingService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+
+        <service android:name=".stats.UpdatingService"
+            android:label="UpdatingService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+        <!-- MOKEE ANONYMOUS STATISTICS END -->
+
 		<!-- Weather settings -->
         <activity-alias
             android:name=".weather.WeatherServiceSettings"
