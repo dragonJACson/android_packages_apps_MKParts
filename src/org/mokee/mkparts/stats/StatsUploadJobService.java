@@ -27,6 +27,7 @@ import android.util.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.mokee.mkparts.R;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -52,20 +53,26 @@ public class StatsUploadJobService extends JobService {
     public static final String KEY_COUNTRY = "device_country";
     public static final String KEY_CARRIER = "device_carrier";
     public static final String KEY_CARRIER_ID = "device_carrier_id";
+    public static final String KEY_FLASH_TIME = "device_flash_time";
 
     private final Map<JobParameters, StatsReportTask> mReportJobs
             = Collections.synchronizedMap(new ArrayMap<JobParameters, StatsReportTask>());
+    private final Map<JobParameters, StatsUpdateTask> mUpdateJobs
+            = Collections.synchronizedMap(new ArrayMap<JobParameters, StatsUpdateTask>());
 
     @Override
     public boolean onStartJob(JobParameters jobParameters) {
         Log.d(Utilities.TAG, "onStartJob() called with " + "jobParameters = [" + jobParameters + "]");
         switch (jobParameters.getExtras().getInt(KEY_JOB_TYPE)) {
             case JOB_TYPE_REPORT:
-                final StatsReportTask uploadTask = new StatsReportTask(jobParameters);
-                mReportJobs.put(jobParameters, uploadTask);
-                uploadTask.execute((Void) null);
+                final StatsReportTask reportTask = new StatsReportTask(jobParameters);
+                mReportJobs.put(jobParameters, reportTask);
+                reportTask.execute((Void) null);
                 break;
             case JOB_TYPE_UPDATE:
+                final StatsUpdateTask updateTask = new StatsUpdateTask(jobParameters);
+                mUpdateJobs.put(jobParameters, updateTask);
+                updateTask.execute((Void) null);
                 break;
         }
         return true;
@@ -76,16 +83,24 @@ public class StatsUploadJobService extends JobService {
         Log.d(Utilities.TAG, "onStopJob() called with " + "jobParameters = [" + jobParameters + "]");
         switch (jobParameters.getExtras().getInt(KEY_JOB_TYPE)) {
             case JOB_TYPE_REPORT:
-                final StatsReportTask cancelledJob;
-                cancelledJob = mReportJobs.remove(jobParameters);
+                final StatsReportTask cancelledReportJob;
+                cancelledReportJob = mReportJobs.remove(jobParameters);
 
-                if (cancelledJob != null) {
+                if (cancelledReportJob != null) {
                     // cancel the ongoing background task
-                    cancelledJob.cancel(true);
+                    cancelledReportJob.cancel(true);
                     return true; // reschedule
                 }
                 break;
             case JOB_TYPE_UPDATE:
+                final StatsUpdateTask cancelledUpdateJob;
+                cancelledUpdateJob = mUpdateJobs.remove(jobParameters);
+
+                if (cancelledUpdateJob != null) {
+                    // cancel the ongoing background task
+                    cancelledUpdateJob.cancel(true);
+                    return true; // reschedule
+                }
                 break;
         }
 
@@ -173,7 +188,6 @@ public class StatsUploadJobService extends JobService {
         @Override
         protected void onPostExecute(Boolean result) {
             long interval;
-
             if (result) {
                 String versionCode = Utilities.getVersionCode();
                 final SharedPreferences prefs = getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0);
@@ -185,6 +199,91 @@ public class StatsUploadJobService extends JobService {
                 }
                 prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME,
                         device_flash_time).putString(ReportingServiceManager.ANONYMOUS_VERSION_CODE, versionCode).apply();
+                // use set interval
+                interval = 0;
+            } else {
+                // error, try again in 3 hours
+                interval = 3L * 60L * 60L * 1000L;
+            }
+            Utilities.updateLastSynced(getApplicationContext());
+            ReportingServiceManager.setAlarm(getApplicationContext(), interval);
+            mReportJobs.remove(mJobParams);
+            jobFinished(mJobParams, !result);
+        }
+    }
+
+    private class StatsUpdateTask extends AsyncTask<Void, Void, Boolean> {
+
+        private JobParameters mJobParams;
+
+        public StatsUpdateTask(JobParameters jobParams) {
+            this.mJobParams = jobParams;
+        }
+
+        @Override
+        protected Boolean doInBackground(Void... params) {
+
+            PersistableBundle extras = mJobParams.getExtras();
+
+            String deviceId = extras.getString(KEY_UNIQUE_ID);
+            String deviceVersion = extras.getString(KEY_VERSION);
+            String deviceFlashTime = extras.getString(KEY_FLASH_TIME);
+
+            boolean success = false;
+            if (!isCancelled()) {
+                try {
+                    success = updateToServer(deviceId, deviceVersion, deviceFlashTime);
+                } catch (IOException e) {
+                    Log.e(Utilities.TAG, "Could not upload stats update to commnity server", e);
+                    success = false;
+                }
+            }
+
+            Log.d(Utilities.TAG, "job id " + mJobParams.getJobId() + ", has finished with success="
+                    + success);
+            return success;
+        }
+
+        private boolean updateToServer(String deviceId, String deviceVersion, String deviceFlashTime) throws IOException {
+
+            final Uri uri = Uri.parse(getString(R.string.stats_update_url)).buildUpon()
+                    .appendQueryParameter(KEY_UNIQUE_ID, deviceId)
+                    .appendQueryParameter(KEY_VERSION, deviceVersion)
+                    .appendQueryParameter(KEY_FLASH_TIME, deviceFlashTime).build();
+            URL url = new URL(uri.toString());
+            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            try {
+                urlConnection.setInstanceFollowRedirects(true);
+                urlConnection.setRequestMethod("POST");
+                urlConnection.setConnectTimeout(REQUEST_TIMEOUT);
+                urlConnection.setReadTimeout(REQUEST_TIMEOUT);
+                urlConnection.setDoOutput(true);
+                urlConnection.setDoInput(true);
+                urlConnection.setUseCaches(false);
+                urlConnection.setRequestProperty("Accept-Charset", "utf-8");
+                urlConnection.connect();
+
+                final int responseCode = urlConnection.getResponseCode();
+
+                Log.d(Utilities.TAG, "mokee server response code=" + responseCode);
+                final boolean success = responseCode == HttpURLConnection.HTTP_OK;
+                if (!success) {
+                    Log.w(Utilities.TAG, "failed sending, server returned: " + getResponse(urlConnection,
+                            !success));
+                }
+                return success;
+            } finally {
+                urlConnection.disconnect();
+            }
+        }
+
+        @Override
+        protected void onPostExecute(Boolean result) {
+            long interval;
+            if (result) {
+                String versionCode = Utilities.getVersionCode();
+                final SharedPreferences prefs = getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0);
+                prefs.edit().putString(ReportingServiceManager.ANONYMOUS_VERSION_CODE, versionCode).apply();
                 // use set interval
                 interval = 0;
             } else {

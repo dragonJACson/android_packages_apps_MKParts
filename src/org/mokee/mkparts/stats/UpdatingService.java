@@ -16,99 +16,51 @@
 
 package org.mokee.mkparts.stats;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
+import android.annotation.Nullable;
+import android.app.IntentService;
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.os.PersistableBundle;
+import android.util.Log;
 
 import com.mokee.os.Build;
 
-import android.app.Service;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.AsyncTask;
-import android.os.IBinder;
-import android.util.Log;
+public class UpdatingService extends IntentService {
 
-public class UpdatingService extends Service {
-
-    private StatsUpdateTask mTask;
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        return null;
+    public UpdatingService() {
+        super(UpdatingService.class.getSimpleName());
     }
 
     @Override
-    public int onStartCommand (Intent intent, int flags, int startId) {
-        Log.d(Utilities.TAG, "User has opted in -- updating.");
+    protected void onHandleIntent(@Nullable Intent intent) {
+        JobScheduler js = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);
 
-        if (mTask == null || mTask.getStatus() == AsyncTask.Status.FINISHED) {
-            mTask = new StatsUpdateTask();
-            mTask.execute();
-        }
+        String deviceId = Build.getUniqueID(getApplicationContext());
+        String deviceVersion = Build.VERSION;
+        String deviceFlashTime = String.valueOf(getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).getLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME, 0));
 
-        return Service.START_REDELIVER_INTENT;
-    }
+        final int jobId = Utilities.getNextJobId(getApplicationContext());
+        Log.d(Utilities.TAG, "scheduling jobs id: " + jobId);
 
-    private class StatsUpdateTask extends AsyncTask<Void, Void, Boolean> {
-        @Override
-        protected Boolean doInBackground(Void... params) {
-            final Context context = UpdatingService.this;
-            String deviceId = Build.getUniqueID(context);
-            String deviceVersion = Build.VERSION;
-            String deviceFlashTime = String.valueOf(getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).getLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME, 0));
+        PersistableBundle updateBundle = new PersistableBundle();
+        updateBundle.putString(StatsUploadJobService.KEY_UNIQUE_ID, deviceId);
+        updateBundle.putString(StatsUploadJobService.KEY_VERSION, deviceVersion);
+        updateBundle.putString(StatsUploadJobService.KEY_FLASH_TIME, deviceFlashTime);
 
-            Log.d(Utilities.TAG, "SERVICE: Device ID=" + deviceId);
-            Log.d(Utilities.TAG, "SERVICE: Device Version=" + deviceVersion);
-            Log.d(Utilities.TAG, "SERVICE: Device Flash Time=" + deviceFlashTime);
+        // set job types
+        updateBundle.putInt(StatsUploadJobService.KEY_JOB_TYPE,
+                StatsUploadJobService.JOB_TYPE_UPDATE);
 
-            // update to the mkstats service
-            HttpClient httpClient = new DefaultHttpClient();
-            HttpPost httpPost = new HttpPost("http://stats.mokeedev.com/index.php/Submit/updatev2");
-            boolean success = false;
-
-            try {
-                List<NameValuePair> kv = new ArrayList<NameValuePair>(1);
-                kv.add(new BasicNameValuePair("device_hash", deviceId));
-                kv.add(new BasicNameValuePair("device_version", deviceVersion));
-                kv.add(new BasicNameValuePair("device_flash_time", deviceFlashTime));
-                httpPost.setEntity(new UrlEncodedFormEntity(kv));
-                httpClient.execute(httpPost);
-
-                success = true;
-            } catch (Exception e) {
-                Log.e(Utilities.TAG, "Could not update stats checkin", e);
-            }
-
-            return success;
-        }
-
-        @Override
-        protected void onPostExecute(Boolean result) {
-            final Context context = UpdatingService.this;
-            long interval;
-
-            if (result) {
-                String versionCode = Utilities.getVersionCode();
-                final SharedPreferences prefs = getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0);
-                prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_LAST_CHECKED,
-                        System.currentTimeMillis()).putString(ReportingServiceManager.ANONYMOUS_VERSION_CODE, versionCode).apply();
-                // use set interval
-                interval = 0;
-            } else {
-                // error, try again in 3 hours
-                interval = 3L * 60L * 60L * 1000L;
-            }
-
-            ReportingServiceManager.setAlarm(context, interval);
-            stopSelf();
-        }
+        // schedule stats upload
+        js.schedule(new JobInfo.Builder(jobId, new ComponentName(getPackageName(),
+                StatsUploadJobService.class.getName()))
+                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
+                .setMinimumLatency(1000)
+                .setExtras(updateBundle)
+                .setPersisted(true)
+                .build());
     }
 }
