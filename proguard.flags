@@ -13,6 +13,13 @@
 -keep class org.mokee.mkparts.privacyguard.*
 -keep class org.mokee.mkparts.profiles.*
 
+-dontwarn cn.jpush.**
+-keep class cn.jpush.** { *;}
+-dontwarn com.google.gson.jpush.**
+-keep class com.google.gson.jpush.** { *;}
+-dontwarn com.google.protobuf.jpush.**
+-keep class com.google.protobuf.jpush.** { *;}
+
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);
