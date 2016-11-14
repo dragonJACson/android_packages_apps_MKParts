@@ -56,6 +56,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "SystemSettings";
 
+    private static final String KEY_NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
     private static final String KEY_HOME_LONG_PRESS = "hardware_keys_home_long_press";
     private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
@@ -127,6 +128,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private ListPreference mNavigationBarHeight;
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
@@ -224,6 +226,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         // Navigation bar left
         mNavigationBarLeftPref = (SwitchPreference) findPreference(KEY_NAVIGATION_BAR_LEFT);
+
+        // Height of navigation bar buttons
+        int statusNavButtonsHeight = MKSettings.System.getInt(getContentResolver(),
+                MKSettings.System.NAVIGATION_BAR_HEIGHT, 48);
+        mNavigationBarHeight = initActionList(KEY_NAVIGATION_BAR_HEIGHT, statusNavButtonsHeight);
 
         Action defaultHomeLongPressAction = Action.fromIntSafe(res.getInteger(
                 com.android.internal.R.integer.config_longPressOnHomeBehavior));
@@ -600,6 +607,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else if (preference == mMenuLongPressAction) {
             handleActionListChange(mMenuLongPressAction, newValue,
                     MKSettings.System.KEY_MENU_LONG_PRESS_ACTION);
+            return true;
+        } else if (preference == mNavigationBarHeight) {
+            handleActionListChange(mNavigationBarHeight, newValue,
+                    MKSettings.System.NAVIGATION_BAR_HEIGHT);
             return true;
         } else if (preference == mAssistPressAction) {
             handleActionListChange(mAssistPressAction, newValue,
