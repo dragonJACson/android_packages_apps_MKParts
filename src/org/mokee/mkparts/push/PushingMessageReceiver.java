@@ -49,7 +49,7 @@ public class PushingMessageReceiver extends BroadcastReceiver {
     public static final int MSG_SET_ALIAS = 1001;
     public static final int MSG_SET_TAGS = 1002;
 
-    private static final String ACTION_UPDATE_CHECK = "com.mokee.mkupdater.action.UPDATE_CHECK";
+    private static final String ACTION_UPDATE_CHECK = "com.mokee.center.action.UPDATE_CHECK";
 
     private SharedPreferences prefs;
 
