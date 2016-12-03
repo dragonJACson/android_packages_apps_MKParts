@@ -17,6 +17,7 @@
 
 package org.mokee.mkparts.notificationlight;
 
+import android.app.NotificationManager;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
@@ -67,13 +68,15 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         mLightEnabledPref = (MKSystemSettingSwitchPreference) prefSet.findPreference(LIGHT_ENABLED_PREF);
         mPulseEnabledPref = (MKSystemSettingSwitchPreference) prefSet.findPreference(PULSE_ENABLED_PREF);
 
-        if (!getResources().getBoolean(com.android.internal.R.bool.config_ledCanPulse) ||
-                getResources().getBoolean(org.mokee.platform.internal.R.bool.config_useSegmentedBatteryLed)) {
+        final NotificationManager nm = getContext().getSystemService(NotificationManager.class);
+
+        if (!nm.doLightsSupport(NotificationManager.LIGHTS_PULSATING_LED) ||
+                nm.doLightsSupport(NotificationManager.LIGHTS_SEGMENTED_BATTERY_LED)) {
             mGeneralPrefs.removePreference(mPulseEnabledPref);
         }
 
-        // Does the Device support changing battery LED colors?
-        if (getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
+        // Does the device support changing battery LED colors?
+        if (nm.doLightsSupport(NotificationManager.LIGHTS_RGB_BATTERY_LED)) {
             setHasOptionsMenu(true);
 
             // Low, Medium and full color preferences
@@ -142,8 +145,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (getResources().getBoolean(
-                com.android.internal.R.bool.config_multiColorBatteryLed)) {
+        final NotificationManager nm = getContext().getSystemService(NotificationManager.class);
+        if (nm.doLightsSupport(NotificationManager.LIGHTS_RGB_BATTERY_LED)) {
             menu.add(0, MENU_RESET, 0, R.string.reset)
                     .setIcon(R.drawable.ic_settings_backup_restore)
                     .setAlphabeticShortcut('r')
