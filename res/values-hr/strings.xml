@@ -17,7 +17,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">LineageOS Postavke</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Učitavanje\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -427,22 +426,7 @@
 <b>Zadnje ažuriranje:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS statistika</string>
-  <string name="anonymous_statistics_summary">Pomozite nam poboljšati LineageOS slanjem anonimnih statističkih izvješća</string>
-  <string name="anonymous_statistics_warning_title">O</string>
-  <string name="anonymous_statistics_warning">Omogućavanjem slanja LineageOS statistike dozvolit će se da se neosobni podaci dostave razvojnom timu LineageOS-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
-  <string name="enable_reporting_title">Omogući izvješća</string>
-  <string name="preview_data_title">Pretpregled podataka</string>
-  <string name="view_stats_title">Vidi statistiku</string>
-  <string name="anonymous_learn_more">Nauči više</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Jedinstveni ID</string>
-  <string name="preview_device_title">Uređaj</string>
-  <string name="preview_version_title">Verzija</string>
-  <string name="preview_country_title">Zemlja</string>
-  <string name="preview_carrier_title">Operater</string>
-  <string name="stats_collection_title">Prikupljene statistike</string>
-  <string name="stats_collection_summary">Kada je omogućeno dozvoljava metričku kolekciju</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Autom. rotacija zaslona</string>
   <string name="display_rotation_title">Postavke rotacije</string>

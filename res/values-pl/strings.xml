@@ -219,16 +219,7 @@
   <string name="contributions_info_menu">Informacje o twórcach</string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statystyki LineageOS</string>
-  <string name="anonymous_statistics_summary">Pomóż ulepszyć LineageOS, pozwalając na wysyłanie anonimowych statystyk</string>
-  <string name="preview_data_title">Podgląd danych</string>
-  <string name="view_stats_title">Zobacz statystyki</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_device_title">Urządzenie</string>
-  <string name="preview_version_title">Wersja</string>
-  <string name="preview_country_title">Kraj</string>
-  <string name="preview_carrier_title">Operator</string>
-  <string name="stats_collection_title">Zbieranie statystyk</string>
   <!-- Display : Rotation  -->
   <string name="display_rotation_unit">stopni(e)</string>
   <string name="display_lockscreen_rotation_title">Autoobracanie ekranu blokady</string>

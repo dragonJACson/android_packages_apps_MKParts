@@ -17,7 +17,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">Configurações LineageOS</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Carregando\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -427,22 +426,7 @@
                  <b>Última atualização:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Estatísticas LineageOS</string>
-  <string name="anonymous_statistics_summary">Ajude a melhorar o LineageOS optando por enviar estatísticas anônimas</string>
-  <string name="anonymous_statistics_warning_title">Sobre</string>
-  <string name="anonymous_statistics_warning">Optar por enviar estatísticas anônimas ao LineageOS permitirá que dados não-pessoais sejam enviados para os desenvolvedores do LineageOS para rastrear instalações únicas em dispositivos. As informações enviadas incluem um identificador único que não compromete sua privacidade ou dados pessoais. Os dados são enviados durante cada inicialização.\n\nPara ver um exemplo dos dados enviados, toque em \'Pré-visualizar dados\'.</string>
-  <string name="enable_reporting_title">Ativar relatório</string>
-  <string name="preview_data_title">Pré-visualizar dados</string>
-  <string name="view_stats_title">Ver estatísticas</string>
-  <string name="anonymous_learn_more">Saiba mais</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">ID único</string>
-  <string name="preview_device_title">Dispositivo</string>
-  <string name="preview_version_title">Versão</string>
-  <string name="preview_country_title">País</string>
-  <string name="preview_carrier_title">Operadora</string>
-  <string name="stats_collection_title">Obtenção de estatísticas</string>
-  <string name="stats_collection_summary">Quando ativado, permite a coleta de métricas</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Girar automaticamente a tela</string>
   <string name="display_rotation_title">Configurações de rotação</string>

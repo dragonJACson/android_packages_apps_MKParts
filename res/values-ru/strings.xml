@@ -17,7 +17,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">Настройки LineageOS</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Загрузка\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -427,22 +426,7 @@
 <b>Последнее обновление:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Отправка статистики</string>
-  <string name="anonymous_statistics_summary">Помогите сделать LineageOS лучше, разрешив отправку анонимной статистики</string>
-  <string name="anonymous_statistics_warning_title">Сведения</string>
-  <string name="anonymous_statistics_warning">Анонимные отчёты позволяют разработчикам LineageOS отслеживать работу ОС на различных устройствах. Отправляемая информация включает название устройства, версию прошивки и уникальный идентификатор, что никаким образом не затрагивает Вашу конфиденциальность. Данные отправляются при каждой загрузке устройства.\n\nЧтобы просмотреть пример, нажмите «Просмотр данных».</string>
-  <string name="enable_reporting_title">Разрешить отправку статистики</string>
-  <string name="preview_data_title">Предварительный просмотр данных</string>
-  <string name="view_stats_title">Просмотр статистики</string>
-  <string name="anonymous_learn_more">Подробнее</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Идентификатор устройства</string>
-  <string name="preview_device_title">Устройство</string>
-  <string name="preview_version_title">Версия</string>
-  <string name="preview_country_title">Страна</string>
-  <string name="preview_carrier_title">Оператор</string>
-  <string name="stats_collection_title">Сбор статистики</string>
-  <string name="stats_collection_summary">Когда включено, разрешается сбор показателей</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Автоповорот экрана</string>
   <string name="display_rotation_title">Параметры вращения</string>
