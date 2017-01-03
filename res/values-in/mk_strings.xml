@@ -20,7 +20,7 @@
   <string name="mkparts_title">Setelan MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Tinggi tombol</string>
-  <string name="navigation_bar_height_48">48dp (standar)</string>
+  <string name="navigation_bar_height_48">48dp (bawaan)</string>
   <string name="navigation_bar_height_0">sembunyikan</string>
   <!-- Show network speed -->
   <string name="show_network_speed_title">Kecepatan jaringan</string>
