@@ -17,15 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">Ustawienia MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Wysokość przycisków</string>
-  <string name="navigation_bar_height_48">48dp (domyślnie)</string>
+  <string name="navigation_bar_height_48">48dp (domyślne)</string>
   <string name="navigation_bar_height_0">ukryj</string>
   <!-- Show network speed -->
   <string name="show_network_speed_title">Prędkość transmisji danych</string>
   <string name="show_network_speed_summary">Pokaż prędkość transmisji danych na pasku stanu</string>
   <string name="status_bar_network_traffic_style_disable">Wyłączone</string>
-  <string name="status_bar_network_traffic_style_up">Wysłania</string>
-  <string name="status_bar_network_traffic_style_down">Pobierania</string>
-  <string name="status_bar_network_traffic_style_all">Wysyłania i pobierania</string>
+  <string name="status_bar_network_traffic_style_up">Wysyłanie</string>
+  <string name="status_bar_network_traffic_style_down">Pobieranie</string>
+  <string name="status_bar_network_traffic_style_all">Wysyłanie i pobieranie</string>
 </resources>
