@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Ausgehend</string>
   <string name="status_bar_network_traffic_style_down">Eingehend</string>
   <string name="status_bar_network_traffic_style_all">Ausgehend und Eingehend</string>
+  <!-- Long-press power for torch -->
 </resources>

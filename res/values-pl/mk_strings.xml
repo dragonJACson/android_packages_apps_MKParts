@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Wysyłanie</string>
   <string name="status_bar_network_traffic_style_down">Pobieranie</string>
   <string name="status_bar_network_traffic_style_all">Wysyłanie i pobieranie</string>
+  <!-- Long-press power for torch -->
 </resources>

@@ -23,4 +23,5 @@
   <string name="status_bar_network_traffic_style_up">Utgående</string>
   <string name="status_bar_network_traffic_style_down">Innkommende</string>
   <string name="status_bar_network_traffic_style_all">Utgående og innkommende</string>
+  <!-- Long-press power for torch -->
 </resources>

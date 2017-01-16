@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Odhodni</string>
   <string name="status_bar_network_traffic_style_down">Dohodni</string>
   <string name="status_bar_network_traffic_style_all">Odhodni in prihodni</string>
+  <!-- Long-press power for torch -->
 </resources>

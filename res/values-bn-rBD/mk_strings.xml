@@ -20,4 +20,5 @@
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">বাটনের উচ্চতা</string>
   <!-- Show network speed -->
+  <!-- Long-press power for torch -->
 </resources>

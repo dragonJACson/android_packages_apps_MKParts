@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Odchozí</string>
   <string name="status_bar_network_traffic_style_down">Příchozí</string>
   <string name="status_bar_network_traffic_style_all">Odchozí a příchozí</string>
+  <!-- Long-press power for torch -->
 </resources>

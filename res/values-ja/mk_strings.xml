@@ -28,4 +28,5 @@
   <string name="status_bar_network_traffic_style_up">発信</string>
   <string name="status_bar_network_traffic_style_down">着信</string>
   <string name="status_bar_network_traffic_style_all">発信と着信</string>
+  <!-- Long-press power for torch -->
 </resources>

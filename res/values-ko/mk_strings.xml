@@ -28,4 +28,5 @@
   <string name="status_bar_network_traffic_style_up">발신</string>
   <string name="status_bar_network_traffic_style_down">수신</string>
   <string name="status_bar_network_traffic_style_all">발신 및 수신</string>
+  <!-- Long-press power for torch -->
 </resources>

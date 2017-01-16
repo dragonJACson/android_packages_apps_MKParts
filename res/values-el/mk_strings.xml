@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Εξερχομενα</string>
   <string name="status_bar_network_traffic_style_down">Εισερχόμενα</string>
   <string name="status_bar_network_traffic_style_all">Εξερχόμενων και εισερχόμενων</string>
+  <!-- Long-press power for torch -->
 </resources>

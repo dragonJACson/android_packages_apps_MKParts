@@ -28,4 +28,5 @@
   <string name="status_bar_network_traffic_style_up">صادرة</string>
   <string name="status_bar_network_traffic_style_down">الوارده</string>
   <string name="status_bar_network_traffic_style_all">الصادرة والواردة</string>
+  <!-- Long-press power for torch -->
 </resources>

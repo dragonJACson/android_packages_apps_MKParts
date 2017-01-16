@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Вихідний</string>
   <string name="status_bar_network_traffic_style_down">Вхідний</string>
   <string name="status_bar_network_traffic_style_all">Вихідний та вхідний</string>
+  <!-- Long-press power for torch -->
 </resources>

@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">Uitgaand</string>
   <string name="status_bar_network_traffic_style_down">Inkomend</string>
   <string name="status_bar_network_traffic_style_all">Uitgaand en inkomend</string>
+  <!-- Long-press power for torch -->
 </resources>

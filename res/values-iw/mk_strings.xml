@@ -28,4 +28,5 @@
   <string name="status_bar_network_traffic_style_up">רק מהירות העלאה</string>
   <string name="status_bar_network_traffic_style_down">רק מהירות הורדה</string>
   <string name="status_bar_network_traffic_style_all">מהירות הורדה והעלאה</string>
+  <!-- Long-press power for torch -->
 </resources>

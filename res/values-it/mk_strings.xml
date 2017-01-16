@@ -29,4 +29,5 @@
   <string name="status_bar_network_traffic_style_up">In uscita</string>
   <string name="status_bar_network_traffic_style_down">In entrata</string>
   <string name="status_bar_network_traffic_style_all">In uscita e in entrata</string>
+  <!-- Long-press power for torch -->
 </resources>
