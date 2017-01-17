@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Gelen</string>
   <string name="status_bar_network_traffic_style_all">Giden ve gelen</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">El feneri için güç düğmesine uzun basın</string>
+  <string name="torch_long_press_power_gesture_desc">El fenerini etkinleştirmek için ekran kapalıyken güç düğmesine uzun basın</string>
 </resources>

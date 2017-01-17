@@ -30,6 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Recebendo</string>
   <string name="status_bar_network_traffic_style_all">Enviando e recebendo</string>
   <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Manter pressionado o botão liga/desliga para acionar lanterna</string>
+  <string name="torch_long_press_power_gesture_title">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
   <string name="torch_long_press_power_gesture_desc">Ativar a lanterna mantendo pressionando o botão liga/desliga enquanto a tela estiver desligada</string>
 </resources>

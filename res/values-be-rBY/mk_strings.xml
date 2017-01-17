@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Уваходныя</string>
   <string name="status_bar_network_traffic_style_all">Выходныя i ўваходныя</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Утрыманне кнопкі сілкавання для уключэння ліхтарыка</string>
+  <string name="torch_long_press_power_gesture_desc">Уключыце ліхтарык доўгім націскам кнопкі сілкавання, пры выключаным экране</string>
 </resources>
