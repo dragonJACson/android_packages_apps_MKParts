@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Вхідний</string>
   <string name="status_bar_network_traffic_style_all">Вихідний та вхідний</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Довге натискання кнопки живлення для увімкнення ліхтарика</string>
+  <string name="torch_long_press_power_gesture_desc">Увімкніть ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
 </resources>
