@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Pobieranie</string>
   <string name="status_bar_network_traffic_style_all">Wysyłanie i pobieranie</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Naciśnij i przytrzymaj przycisk zasilania, aby włączyć latarkę</string>
+  <string name="torch_long_press_power_gesture_desc">Włączanie latarki przez naciśnięcie przycisku zasilania przy wyłączonym ekranie</string>
 </resources>
