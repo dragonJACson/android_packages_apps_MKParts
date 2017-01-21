@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Datos entrantes</string>
   <string name="status_bar_network_traffic_style_all">Salentes y entrantes</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Mantenga presionado el boton de encendido para usar la lampara</string>
+  <string name="torch_long_press_power_gesture_desc">Activar la lampara manteniendo presionado el boto de encendido mientras la pantalla este apagada</string>
 </resources>
