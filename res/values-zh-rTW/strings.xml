@@ -29,7 +29,7 @@
   <string name="name">名稱</string>
   <string name="back">返回</string>
   <string name="finish">完成</string>
-  <string name="next">下個</string>
+  <string name="next">下一步</string>
   <string name="on">開</string>
   <string name="off">關</string>
   <string name="yes">是</string>
@@ -110,7 +110,7 @@
   <string name="live_display_color_temperature_summary">日間：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">日間</string>
-  <string name="live_display_night">夜晚</string>
+  <string name="live_display_night">夜間</string>
   <string name="live_display_outdoor_mode_title">自動戶外模式</string>
   <string name="live_display_outdoor_mode_summary">自動在陽光下提高亮度和飽和度</string>
   <string name="live_display_low_power_title">降低耗電</string>
@@ -187,7 +187,7 @@
   <string name="volume_answer_call_title">接聽電話</string>
   <string name="volume_answer_call_summary">按音量鍵接聽來電</string>
   <string name="home_answer_call_title">接聽電話</string>
-  <string name="home_answer_call_summary">按主螢幕鍵接聽來電</string>
+  <string name="home_answer_call_summary">按主畫面鍵接聽來電</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">背光</string>
   <string name="button_backlight_enabled">開啟按鍵背光</string>
@@ -198,24 +198,24 @@
   <string name="backlight_timeout_unlimited">不要關閉</string>
   <string name="backlight_summary_disabled">已停用</string>
   <string name="backlight_summary_enabled_with_timeout">已啟用 <xliff:g id="timeout">%s</xliff:g></string>
-  <string name="backlight_summary_enabled">已啟用</string>
+  <string name="backlight_summary_enabled">啟用螢幕上的導覽列</string>
   <!-- Buttons - Enable navbar -->
-  <string name="disable_navkeys_title">啟用螢幕上的導航列</string>
-  <string name="disable_navkeys_summary">啟用螢幕上的導航列和停用硬體按鍵</string>
+  <string name="disable_navkeys_title">啟用螢幕上的導覽列</string>
+  <string name="disable_navkeys_summary">啟用螢幕上的導覽列和停用實體按鍵</string>
   <!-- Navigation Bar -->
-  <string name="navigation_bar_category">導航列</string>
+  <string name="navigation_bar_category">導覽列</string>
   <string name="navigation_bar_title">按鍵與配置</string>
   <string name="navigation_bar_left_title">左撇子模式</string>
-  <string name="navigation_bar_left_summary">橫向模式下將導航列置於螢幕左側</string>
+  <string name="navigation_bar_left_summary">橫向模式下將導覽列置於螢幕左側</string>
   <string name="navigation_bar_arrow_keys_title">輸入時顯示方向鍵</string>
   <string name="navigation_bar_arrow_keys_summary">輸入時顯示游標鍵。取代輸入法切換器。</string>
-  <string name="navigation_bar_home_long_press_title">主螢幕鍵長按動作</string>
-  <string name="navigation_bar_home_double_tap_title">主螢幕輕觸兩次動作</string>
+  <string name="navigation_bar_home_long_press_title">主畫面鍵長按動作</string>
+  <string name="navigation_bar_home_double_tap_title">主畫面輕觸兩下動作</string>
   <string name="navigation_bar_recents_title">多工鍵長按動作</string>
   <!-- Power menu -->
   <string name="power_menu_title">電源選單</string>
   <string name="power_menu_reboot_title">重新啟動選單</string>
-  <string name="power_menu_screenshot_title">螢幕截圖</string>
+  <string name="power_menu_screenshot_title">螢幕擷取</string>
   <string name="power_menu_airplane_title">飛航模式</string>
   <string name="power_menu_users_title">使用者切換器</string>
   <string name="power_menu_settings_title">設定捷徑</string>
@@ -226,7 +226,7 @@
   <string name="volume_keys_control_ring_stream_title">控制鈴聲音量</string>
   <string name="volume_keys_control_ring_stream_summary_on">音量鍵控制鈴聲音量</string>
   <string name="volume_keys_control_ring_stream_summary_off">音量鍵控制媒體音量</string>
-  <string name="camera_double_tap_power_gesture_title">按住電源鍵兩次開啟相機</string>
+  <string name="camera_double_tap_power_gesture_title">按住電源鍵兩下開啟相機</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">快速開啟相機，無需解鎖螢幕</string>
   <!-- Profiles -->
@@ -261,7 +261,7 @@
   <string name="profile_empty_list_profiles_off">開啟設定檔功能即可設定與使用設定檔。</string>
   <string name="profile_settings_summary_off">已停用設定檔</string>
   <string name="profile_trigger_configure">設定觸發器</string>
-  <string name="profile_write_nfc_tag">寫入到 NFC 標籤</string>
+  <string name="profile_write_nfc_tag">寫入至 NFC 標籤</string>
   <string name="profile_write_touch_tag">觸碰標籤即可寫入</string>
   <string name="profile_write_success">標籤寫入成功</string>
   <string name="profile_write_failed">標籤寫入失敗！</string>
@@ -269,8 +269,8 @@
   <string name="profile_nfc_text">將設定檔寫入到 NFC 標籤允許透過輕觸標籤來選取此設定檔。再次輕觸將會回到之前選取的設定檔。</string>
   <string name="profile_unknown_nfc_tag">未知的設定檔</string>
   <string name="profile_add_nfc_text">此 NFC 標籤指向了一個未知的設定檔，連結此 NFC 標籤到現有的設定檔將允許您以後選取那個設定檔。</string>
-  <string name="profile_select">選取設定檔</string>
-  <string name="profile_remove_dialog_message">是否移除設定檔「%1$s」？</string>
+  <string name="profile_select">選擇設定檔</string>
+  <string name="profile_remove_dialog_message">移除設定檔「%1$s」？</string>
   <string name="profile_populate_profile_from_state">是否使用目前的裝置設定新增設定檔？</string>
   <string name="profile_menu_fill_from_state">匯入目前裝置的設定</string>
   <string name="profile_remove_current_profile">無法刪除目前的設定檔</string>
@@ -290,7 +290,7 @@
   <string name="rename_dialog_hint">輸入設定檔名稱</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">回復預設</string>
-  <string name="profile_reset_message">是否刪除所有使用者建立的設定檔與應用程式群組並還原至預設值？</string>
+  <string name="profile_reset_message">刪除所有使用者建立的設定檔與應用程式群組並還原爲預設值？</string>
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">是否移除此應用程式？</string>
   <!-- Profile network mode -->
@@ -336,10 +336,10 @@
   <string name="profile_choose_app">選擇應用程式</string>
   <!-- Profiles - system settings -->
   <string name="profile_system_settings_title">系統設定</string>
-  <string name="profile_lockmode_title">鎖定螢幕模式</string>
+  <string name="profile_lockmode_title">鎖定畫面模式</string>
   <string name="profile_lockmode_policy_disabled_summary">此設定檔被裝置管理員停用</string>
   <string name="profile_lockmode_insecure_summary">不要詢問 PIN 碼或密碼</string>
-  <string name="profile_lockmode_disabled_summary">停用鎖定螢幕</string>
+  <string name="profile_lockmode_disabled_summary">停用鎖定畫面</string>
   <string name="profile_airplanemode_title">飛航模式</string>
   <string name="profile_brightness_title">螢幕亮度</string>
   <string name="profile_brightness_override_summary">設為 %1$d%%</string>
@@ -404,8 +404,8 @@
   <string name="status_bar_icons_title">狀態列圖示</string>
   <string name="status_bar_icons_summary">控制顯示哪些狀態列圖示</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">輕觸兩次即可休眠</string>
-  <string name="status_bar_double_tap_to_sleep_summary">輕觸兩次狀態列來關閉螢幕</string>
+  <string name="status_bar_double_tap_to_sleep_title">輕觸兩下即可休眠</string>
+  <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下螢幕即可開啟螢幕</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">受保護的應用程式</string>
   <string name="protected_apps_manager_summary">管理安全鎖下隱藏的應用程式</string>
@@ -428,7 +428,7 @@
   <string name="display_rotation_enabled">啟用自動旋轉</string>
   <string name="display_rotation_disabled">停用自動旋轉</string>
   <string name="display_rotation_unit">度</string>
-  <string name="display_lockscreen_rotation_title">旋轉鎖定螢幕</string>
+  <string name="display_lockscreen_rotation_title">旋轉鎖定畫面</string>
   <string name="display_rotation_category_title">旋轉模式</string>
   <string name="display_rotation_0_title">0 度</string>
   <string name="display_rotation_90_title">90 度</string>
@@ -450,7 +450,7 @@
   <string name="status_bar_show_weather_title">顯示天氣資訊</string>
   <string name="status_bar_show_weather_summary">在狀態列上顯示目前溫度</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">電池保護與效能</string>
+  <string name="perf_profile_settings_title">省電與效能</string>
   <string name="perf_profile_settings_summary">調整電源省電功能與裝置效能</string>
   <string name="perf_profile_overview_summary">目前設定檔︰ <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">裝置效能</string>
@@ -459,7 +459,7 @@
   <string name="power_save_category_title">省電模式</string>
   <string name="power_save_title">極度省電</string>
   <string name="power_save_summary">限制裝置效能和背景活動，即可節省電源</string>
-  <string name="auto_power_save_title">電源自動保護程式</string>
+  <string name="auto_power_save_title">自動省電</string>
   <string name="auto_power_save_summary_on">在 %d \u0025 電量時自動啟用省電模式</string>
   <string name="auto_power_save_summary_off">不要自動啟用省電模式</string>
   <string name="app_perf_profiles_title">自動最佳化</string>
@@ -467,12 +467,12 @@
   <string name="auto_power_save_never">永不</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">延伸桌面</string>
-  <string name="expanded_desktop_settings_summary">透過隱藏狀態列、 導航列，或兩者都延伸您可用的桌面空間</string>
+  <string name="expanded_desktop_settings_summary">透過隱藏狀態列、 導覽列，或兩者都延伸您可用的桌面空間</string>
   <string name="expanded_desktop_options_title">自訂選項</string>
   <string name="expanded_desktop_style_title">延伸桌面樣式</string>
   <string name="expanded_desktop_style_hide_nothing">不隱藏</string>
   <string name="expanded_desktop_style_hide_status">隱藏狀態列</string>
-  <string name="expanded_desktop_style_hide_navigation">隱藏導航列</string>
+  <string name="expanded_desktop_style_hide_navigation">隱藏導覽列</string>
   <string name="expanded_desktop_style_hide_both">全部隱藏</string>
   <string name="expanded_desktop_nothing_to_show_text">關閉此開關即可根據每個應用程式自訂延伸桌面</string>
   <!-- Sounds: Charging sounds -->
