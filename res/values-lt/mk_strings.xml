@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height_48">48dp (numatytas)</string>
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
 </resources>

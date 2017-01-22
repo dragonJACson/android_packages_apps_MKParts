@@ -18,6 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height_48">48dp (predefinição)</string>
+  <string name="navigation_bar_height_0">ocultar</string>
   <!-- Show network speed -->
+  <string name="show_network_speed_title">Velocidade de rede</string>
   <!-- Long-press power for torch -->
 </resources>

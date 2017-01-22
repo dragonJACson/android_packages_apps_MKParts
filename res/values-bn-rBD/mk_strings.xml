@@ -19,6 +19,7 @@
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">বাটনের উচ্চতা</string>
+  <string name="navigation_bar_height_48">48dp (default)</string>
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
 </resources>
