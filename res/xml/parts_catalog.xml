@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016 The CyanogenMod Project
-     Copyright (C) 2016 The MoKee Open Source Project
+     Copyright (C) 2016-2017 The MoKee Open Source Project
+                   2017 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -100,5 +101,10 @@
           android:summary="@string/expanded_desktop_settings_summary"
           android:fragment="org.mokee.mkparts.applications.ExpandedDesktopSettings"
           mk:xmlRes="@xml/expanded_desktop_prefs" />
+
+    <part android:key="charging_sounds_settings"
+          android:title="@string/charging_sounds_settings_title"
+          android:fragment="org.mokee.mkparts.sounds.ChargingSoundsSettings"
+          mk:xmlRes="@xml/charging_sounds_settings" />
 
 </parts-catalog>
