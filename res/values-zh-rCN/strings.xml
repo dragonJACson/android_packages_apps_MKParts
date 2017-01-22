@@ -104,7 +104,7 @@
   <string name="led_notification_text">LED 灯被“设置”启用</string>
   <string name="notification_light_no_apps_summary">若要添加单个应用控制，请激活“%1$s”并按下菜单栏上的“\u002b”</string>
   <!-- LiveDisplay -->
-  <string name="live_display_summary">基于时间和环境条件来优化您的屏幕以改善可读性和减少眼睛疲劳</string>
+  <string name="live_display_summary">基于时间和环境条件优化您的屏幕，从而改善可读性，缓解眼睛疲劳</string>
   <string name="live_display_mode">显示模式</string>
   <string name="live_display_color_temperature_title">色温</string>
   <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -177,8 +177,8 @@
   <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键切换音乐</string>
   <string name="volbtn_cursor_control_title">键盘光标控制</string>
   <string name="volbtn_cursor_control_off">已禁用</string>
-  <string name="volbtn_cursor_control_on">音量+/-光标左/右移动</string>
-  <string name="volbtn_cursor_control_on_reverse">音量+/-光标右/左移动</string>
+  <string name="volbtn_cursor_control_on">音量+/-光标控制左/右移动</string>
+  <string name="volbtn_cursor_control_on_reverse">音量+/-光标控制右/左移动</string>
   <string name="power_end_call_title">结束通话</string>
   <string name="power_end_call_summary">按电源按钮结束当前通话</string>
   <string name="swap_volume_buttons_title">重新调整</string>
@@ -248,7 +248,7 @@
   <string name="wireless_networks_settings_title">无线和网络</string>
   <!-- Profile triggers -->
   <string name="no_bluetooth_triggers">没有已配对的蓝牙设备。\n配置触发器前轻按以配对蓝牙设备。</string>
-  <string name="no_wifi_triggers">没有已配置的 Wi\u2011Fi 接入点。\n配置触发器前轻按以连接 Wi\u2011Fi。</string>
+  <string name="no_wifi_triggers">没有已配置的 WLAN 接入点。\n配置触发器前轻按以连接 WLAN。</string>
   <string name="no_triggers_configured">没有配置触发器。轻按以添加更多。</string>
   <string name="no_triggers_configured_nfc">轻按以设置一个新的 NFC 触发器。</string>
   <string name="profile_setup_setup_triggers_description">请选择将激活此情景的触发器</string>
@@ -261,7 +261,7 @@
   <string name="profile_empty_list_profiles_off">如果您想配置并使用系统情景，请先开启情景模式。</string>
   <string name="profile_settings_summary_off">已禁用情景模式</string>
   <string name="profile_trigger_configure">设定触发条件</string>
-  <string name="profile_write_nfc_tag">写到 NFC 标签</string>
+  <string name="profile_write_nfc_tag">写入 NFC 标签</string>
   <string name="profile_write_touch_tag">触摸标签以便写入</string>
   <string name="profile_write_success">标签写入成功</string>
   <string name="profile_write_failed">标签写入失败！</string>
@@ -346,13 +346,13 @@
   <string name="profile_brightness_override_checkbox_label">覆盖亮度</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifi">WLAN</string>
-  <string name="toggleWifiAp">便携式 Wi\u2011Fi 热点</string>
+  <string name="toggleWifiAp">便携式 WLAN 热点</string>
   <string name="toggleBluetooth">蓝牙</string>
   <string name="toggleGPS">GPS</string>
   <string name="toggleData">数据连接</string>
   <string name="toggleSync">自动同步数据</string>
   <string name="toggle2g3g4g">首选网络类型</string>
-  <string name="toggle2g3g4g_msim">首选网络类型 (%1$s)</string>
+  <string name="toggle2g3g4g_msim">首选网络类型（%1$s）</string>
   <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">响铃模式</string>
@@ -368,7 +368,7 @@
   <!-- Status bar -->
   <string name="status_bar_title">状态栏</string>
   <string name="status_bar_toggle_brightness">亮度控制</string>
-  <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
+  <string name="status_bar_toggle_brightness_summary">滑动状态栏调整亮度</string>
   <string name="status_bar_notif_count_title">显示通知数量</string>
   <string name="status_bar_notif_count_summary">显示未读通知的数量</string>
   <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
@@ -383,7 +383,7 @@
   <string name="status_bar_clock_position_right">右侧</string>
   <string name="status_bar_clock_position_left">左侧</string>
   <string name="status_bar_clock_position_center">中间</string>
-  <string name="status_bar_am_pm_title">上午 / 下午样式</string>
+  <string name="status_bar_am_pm_title">上午/下午样式</string>
   <string name="status_bar_am_pm_info">24 小时制时钟已启用</string>
   <string name="status_bar_am_pm_normal">正常</string>
   <string name="status_bar_am_pm_small">较小</string>
@@ -402,7 +402,7 @@
   <string name="status_bar_battery_percentage_text_next">图标旁</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">状态栏图标</string>
-  <string name="status_bar_icons_summary">控制显示哪些状态栏图标</string>
+  <string name="status_bar_icons_summary">控制状态栏显示的图标</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">双击以睡眠</string>
   <string name="status_bar_double_tap_to_sleep_summary">双击状态栏以关闭屏幕显示</string>
@@ -459,27 +459,27 @@
   <string name="perf_profile_fail_toast">性能配置当前不可用</string>
   <string name="power_save_category_title">省电</string>
   <string name="power_save_title">极致省电</string>
-  <string name="power_save_summary">限制设备性能与后台活动以降低电量消耗</string>
+  <string name="power_save_summary">限制设备性能与后台活动从而降低电量消耗</string>
   <string name="auto_power_save_title">自动省电</string>
-  <string name="auto_power_save_summary_on">电量 %s 时自动启用省电</string>
-  <string name="auto_power_save_summary_off">不要自动启用省电</string>
+  <string name="auto_power_save_summary_on">电量剩余 %s 时启用自动省电</string>
+  <string name="auto_power_save_summary_off">不要启用自动省电</string>
   <string name="app_perf_profiles_title">自动优化</string>
   <string name="app_perf_profiles_summary">自动为各种应用和使用模式选择适当的性能配置</string>
   <string name="auto_power_save_never">永不</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">扩展桌面</string>
-  <string name="expanded_desktop_settings_summary">通过隐藏状态栏、 导航栏或都隐藏以扩大您的可用桌面空间</string>
+  <string name="expanded_desktop_settings_summary">通过隐藏状态栏、导航栏或都隐藏从而扩大您的可用桌面空间</string>
   <string name="expanded_desktop_options_title">自定义选项</string>
   <string name="expanded_desktop_style_title">扩展桌面样式</string>
   <string name="expanded_desktop_style_hide_nothing">不隐藏</string>
   <string name="expanded_desktop_style_hide_status">隐藏状态栏</string>
   <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
   <string name="expanded_desktop_style_hide_both">同时隐藏</string>
-  <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
+  <string name="expanded_desktop_nothing_to_show_text">关闭开关并自定义每个应用的扩展桌面</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充电提示音</string>
   <string name="charging_sounds_enabled_title">启用</string>
-  <string name="charging_sounds_enabled_summary">连接或断开充电器时播放提示音</string>
+  <string name="charging_sounds_enabled_summary">连接或断开电源时发出声音</string>
   <string name="power_notifications_vibrate_title">振动</string>
   <string name="charging_sounds_ringtone_title">通知声音</string>
   <string name="charging_sounds_ringtone_silent">静音</string>
