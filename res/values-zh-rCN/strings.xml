@@ -134,6 +134,8 @@
   <string name="live_display_color_profile_basic_summary">使用未校准的屏幕</string>
   <string name="live_display_color_profile_adaptive_title">自适应</string>
   <string name="live_display_color_profile_adaptive_summary">环境条件颜色自适应</string>
+  <string name="live_display_color_profile_reading_title">正在读取</string>
+  <string name="live_display_color_profile_reading_summary">使用暖色调以缓解眼睛疲劳</string>
   <string name="color_calibration_title">颜色校准</string>
   <string name="color_calibration_summary">校准屏幕颜色</string>
   <string name="color_red_title">红</string>
@@ -468,7 +470,7 @@
   <string name="auto_power_save_never">永不</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">扩展桌面</string>
-  <string name="expanded_desktop_settings_summary">通过隐藏状态栏、导航栏或都隐藏从而扩大您的可用桌面空间</string>
+  <string name="expanded_desktop_settings_summary">通过隐藏状态栏、 导航栏或都隐藏以扩大您的可用桌面空间</string>
   <string name="expanded_desktop_options_title">自定义选项</string>
   <string name="expanded_desktop_style_title">扩展桌面样式</string>
   <string name="expanded_desktop_style_hide_nothing">不隐藏</string>

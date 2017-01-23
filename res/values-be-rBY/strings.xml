@@ -43,6 +43,7 @@
   <string name="privacy_guard_switch_label">Задзейнічаць рэжым абароны прыватнасці</string>
   <string name="privacy_guard_dlg_title">Задзейнічаць рэжым абароны прыватнасці?</string>
   <string name="privacy_guard_dlg_text">Калі рэжым абароны прыватнасці задзейнічаны, дадаткі не змогуць атрымліваць особістыя дадзеныя, такія як кантакты, паведамленьні ці сьпіс выклікаў.</string>
+  <string name="privacy_guard_dlg_system_app_text">Сістэмныя прыкладання ў абароненым рэжыме не змогуць атрымліваць або прадастаўляць доступ да персанальных дадзеных. Гэта можа выклікаць нестабільную працу іншых прыкладанняў.</string>
   <string name="privacy_guard_default_title">Задзейнічаны па змаўчаньню</string>
   <string name="privacy_guard_default_summary_on">Задзейнічана абароны прыватнасці</string>
   <string name="privacy_guard_default_summary">Задзейнічаць рэжым абароны для ўсіх новых дадаткаў</string>
@@ -88,12 +89,41 @@
   <string name="notification_light_advanced_title">Падрабязьней</string>
   <string name="notification_light_applist_title">Дадаткі</string>
   <string name="notification_light_phonelist_title">Тэлефон</string>
+  <string name="notification_light_use_custom">Уласныя значэння</string>
   <string name="notification_light_default_value">Па змаўчанні</string>
+  <string name="notification_light_missed_call_title">Прапушчаны выклік</string>
+  <string name="notification_light_voicemail_title">Галасавая пошта</string>
+  <string name="notification_light_screen_on">Індыкатар пры ўключаным экране</string>
+  <string name="notification_light_zen_mode">Індыкатар ў рэжыме «Не турбаваць»</string>
+  <string name="notification_light_use_multiple_leds">Некалькі светадыёдаў</string>
+  <string name="keywords_lights_brightness_level">паменшыць яркасць</string>
+  <string name="notification_light_automagic">Падбіраць колеру аўтаматычна</string>
+  <string name="notification_light_automagic_summary">Выбар колеру аўтаматычна</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Індыкатар падзей</string>
+  <string name="led_notification_text">Светадыёд уключаны ў наладах</string>
+  <string name="notification_light_no_apps_summary">Каб дазваліць кіраванне праграмамі, уключыце «%1$s» і націсніце «\u002b» у радку меню</string>
   <!-- LiveDisplay -->
+  <string name="live_display_summary">Аптымізацыя вашага экрана ў залежнасці ад часу сутак і ўмоў навакольнага асяроддзя для паляпшэння чытальнасці тэксту і зніжэння стамляльнасці вачэй</string>
+  <string name="live_display_mode">Рэжым прагляду</string>
+  <string name="live_display_color_temperature_title">Каляровая тэмпература</string>
+  <string name="live_display_color_temperature_summary">Дзень: <xliff:g id="day_temperature">%1$d </xliff:g>K Ноч: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Дзень</string>
   <string name="live_display_night">Ноч</string>
+  <string name="live_display_outdoor_mode_title">Аўтаматычны рэжым для вуліцы</string>
+  <string name="live_display_outdoor_mode_summary">Павялічыць яркасць і насычанасць аўтаматычна пры яркім сонечным святле</string>
+  <string name="live_display_low_power_title">Знізіць энергаспажыванне</string>
+  <string name="live_display_low_power_summary">Падладжваць экран для нізкага энергаспажывання без пагаршэння якасці</string>
+  <string name="live_display_enhance_color_title">Паляпшэнне колераперадачы</string>
+  <string name="live_display_enhance_color_summary">Палепшыць сакавітасць адценняў скуры, пейзажаў і іншых малюнкаў</string>
+  <string name="live_display_color_profile_title">Каляровы профіль</string>
+  <string name="live_display_color_profile_standard_title">Стандартны</string>
+  <string name="live_display_color_profile_standard_summary">Дакладная колераперадача і яркія белыя тоны</string>
   <string name="live_display_color_profile_natural_title">Натуральнае гучанне</string>
+  <string name="live_display_color_profile_natural_summary">Натуральныя колеры і адценні скуры</string>
+  <string name="live_display_color_profile_dynamic_title">Дынамічны</string>
+  <string name="live_display_color_profile_dynamic_summary">Насычаныя колеры і падвышаная кантраснасць</string>
   <string name="live_display_color_profile_cinema_title">Кіно</string>
   <string name="live_display_color_profile_cinema_summary">Ідэальная колераперадача для відэа</string>
   <string name="live_display_color_profile_astronomy_title">Астраномія</string>
@@ -103,6 +133,8 @@
   <string name="live_display_color_profile_basic_title">Асноўны</string>
   <string name="live_display_color_profile_basic_summary">Выкарыстоўваць неадкалібраваны дысплэй</string>
   <string name="live_display_color_profile_adaptive_title">Адаптыўны</string>
+  <string name="live_display_color_profile_adaptive_summary">Колеру адаптуюцца да ўмоў навакольнага асяроддзя</string>
+  <string name="live_display_color_profile_reading_title">Чытанне</string>
   <string name="color_calibration_title">Калібраваньне колераў</string>
   <string name="color_calibration_summary">Налада колераперадачы экрана</string>
   <string name="color_red_title">Чырвоны</string>
@@ -300,6 +332,7 @@
   <string name="status_bar_am_pm_hidden">Схаваць</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_title">Варыянт адлюстроўваньня жывелкі</string>
+  <string name="status_bar_battery_style_text">Тэкст</string>
   <string name="status_bar_battery_style_hidden">Схаваць</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_default">Схаваць</string>
