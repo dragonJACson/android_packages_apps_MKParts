@@ -87,7 +87,7 @@
   <string name="notification_light_title">Luz de notificação</string>
   <string name="notification_light_general_title">Geral</string>
   <string name="notification_light_advanced_title">Avançado</string>
-  <string name="notification_light_applist_title">Aplicações</string>
+  <string name="notification_light_applist_title">Apps</string>
   <string name="notification_light_phonelist_title">Telefone</string>
   <string name="notification_light_use_custom">Usar valores personalizados</string>
   <string name="notification_light_default_value">Padrão</string>
@@ -108,6 +108,7 @@
   <string name="live_display_mode">Modo da tela</string>
   <string name="live_display_color_temperature_title">Temperatura da cor</string>
   <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Dia</string>
   <string name="live_display_night">Noite</string>
   <string name="live_display_outdoor_mode_title">Modo automático ao ar livre</string>
@@ -123,6 +124,7 @@
   <string name="live_display_color_profile_natural_summary">Cores e tons de pele realistas</string>
   <string name="live_display_color_profile_dynamic_title">Dinâmico</string>
   <string name="live_display_color_profile_dynamic_summary">Cores melhoradas e brancos brilhantes</string>
+  <string name="live_display_color_profile_cinema_title">Cinema</string>
   <string name="live_display_color_profile_cinema_summary">Reprodução de cor perfeita para vídeo</string>
   <string name="live_display_color_profile_astronomy_title">Astronomia</string>
   <string name="live_display_color_profile_astronomy_summary">Vermelho profundo para preservar a visão noturna</string>
@@ -132,6 +134,8 @@
   <string name="live_display_color_profile_basic_summary">Use o visor não calibrado</string>
   <string name="live_display_color_profile_adaptive_title">Adaptável</string>
   <string name="live_display_color_profile_adaptive_summary">As cores adaptam-se às condições do ambiente</string>
+  <string name="live_display_color_profile_reading_title">Leitura</string>
+  <string name="live_display_color_profile_reading_summary">Cores mais quentes para menos fadiga ocular</string>
   <string name="color_calibration_title">Calibração de cores</string>
   <string name="color_calibration_summary">Calibra as cores da tela</string>
   <string name="color_red_title">Vermelho</string>
@@ -235,6 +239,7 @@
   <string name="profile_action_enable">Ativar</string>
   <string name="profile_trigger_a2dp_connect">Ao conectar o A2DP</string>
   <string name="profile_trigger_a2dp_disconnect">Ao desconectar o A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Gatilhos que ativarão este perfil</string>
@@ -291,7 +296,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Remover este app?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
   <string name="profile_networkmode_4g">4G  LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Substituições de volume</string>
   <string name="connection_state_enabled">Ativar</string>
@@ -319,7 +328,7 @@
   <string name="soundtone_title">Toque de notificação</string>
   <!-- Title for application group setting screen -->
   <string name="profile_appgroups_title">Grupos de app</string>
-  <string name="profile_applist_title">Aplicações</string>
+  <string name="profile_applist_title">Apps</string>
   <string name="profile_new_appgroup">Novo grupo de app</string>
   <string name="profile_delete_appgroup">Excluir este grupo de app?</string>
   <string name="profile_appgroup_name_prompt">Digite um nome para o novo grupo de app</string>
@@ -338,6 +347,7 @@
   <string name="profile_brightness_override_summary">Definir para %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Controlar o brilho</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Ponto de acesso Wi\u2011Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
@@ -437,6 +447,8 @@
   <string name="weather_settings_general_settings_title">Geral</string>
   <string name="weather_settings_providers_title">Provedores</string>
   <string name="weather_settings_temp_units_title">Unidade de temperatura</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">previsão do tempo</string>
   <string name="status_bar_show_weather_title">Mostrar previsão do tempo</string>
   <string name="status_bar_show_weather_summary">Exibir a temperatura atual na barra de status</string>
@@ -467,7 +479,10 @@
   <string name="expanded_desktop_style_hide_both">Ocultar ambas</string>
   <string name="expanded_desktop_nothing_to_show_text">Desligue o alternador para personalizar a área de trabalho expandida por aplicativo</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Notificação de carregamento</string>
   <string name="charging_sounds_enabled_title">Habilitar</string>
+  <string name="charging_sounds_enabled_summary">Tocar um som quando conectar ou desconectar o carregador</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
+  <string name="charging_sounds_ringtone_title">Som de notificação</string>
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
 </resources>

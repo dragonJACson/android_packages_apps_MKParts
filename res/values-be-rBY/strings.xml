@@ -264,7 +264,9 @@
   <string name="profile_entries_on">Задзейнічана</string>
   <string name="profile_entries_off">Не задзейнічана</string>
   <!-- Add Profile -->
+  <string name="profile_name_title">Імя</string>
   <!-- Rename Dialog  -->
+  <string name="rename_dialog_title">Перайменаваць</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Скінуць</string>
   <!-- Delete confimation messages -->
@@ -277,6 +279,7 @@
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
   <string name="profile_applist_title">Дадаткі</string>
+  <string name="profile_appgroup_name_title">Імя</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Абраць дадатак</string>
   <!-- Profiles - system settings -->

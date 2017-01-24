@@ -22,10 +22,13 @@
   <string name="dlg_ok">Aceptar</string>
   <string name="cancel">Cancelar</string>
   <string name="add">Añadir</string>
+  <string name="choose_app">Elegir aplicación</string>
   <string name="reset">Restablecer</string>
+  <string name="advanced">Opciones avanzadas</string>
   <string name="settings">Configuración</string>
   <string name="name">Nombre </string>
   <string name="back">Atrás</string>
+  <string name="finish">Finalizar</string>
   <string name="next">Siguiente</string>
   <string name="on">Activada</string>
   <string name="off">Desactivado</string>
@@ -40,6 +43,7 @@
   <string name="privacy_guard_help_title">Ayuda</string>
   <string name="privacy_guard_reset_title">Restablecer</string>
   <string name="privacy_guard_manager_show_system_apps">Mostrar aplicaciones del sistema</string>
+  <string name="privacy_guard_advanced_settings_title">Opciones avanzadas</string>
   <!-- Notification light dialogs -->
   <string name="default_time">Normal</string>
   <string name="custom_time">Personalizado</string>
@@ -49,6 +53,7 @@
   <string name="pulse_speed_normal">Normal</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_advanced_title">Opciones avanzadas</string>
   <string name="notification_light_phonelist_title">Teléfono</string>
   <string name="notification_light_default_value">Predeterminado</string>
   <!-- Lights settings, LED notification -->
@@ -104,6 +109,7 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroup_name_title">Nombre </string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Elegir aplicación</string>
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>

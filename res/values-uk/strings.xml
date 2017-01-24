@@ -138,6 +138,11 @@
   <string name="display_rotation_270_title">270 градусів</string>
   <!-- Weather -->
   <string name="weather_settings_general_settings_title">Загальні</string>
+  <string name="weather_settings_providers_title">Постачальники</string>
+  <string name="weather_settings_temp_units_title">Одиниця температури</string>
+  <string name="weather_settings_temp_celsius">Цельсій</string>
+  <string name="weather_settings_temp_fahrenheit">Фаренгейт</string>
+  <string name="weather_settings_keyword">погода</string>
   <string name="status_bar_show_weather_title">Показати погоду</string>
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">Ніколи</string>
