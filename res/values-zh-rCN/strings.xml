@@ -249,10 +249,10 @@
   <string name="profile_setup_actions_title_config">重新配置操作</string>
   <string name="wireless_networks_settings_title">无线和网络</string>
   <!-- Profile triggers -->
-  <string name="no_bluetooth_triggers">没有已配对的蓝牙设备。\n配置触发器前轻按以配对蓝牙设备。</string>
-  <string name="no_wifi_triggers">没有已配置的 WLAN 接入点。\n配置触发器前轻按以连接 WLAN。</string>
-  <string name="no_triggers_configured">没有配置触发器。轻按以添加更多。</string>
-  <string name="no_triggers_configured_nfc">轻按以设置一个新的 NFC 触发器。</string>
+  <string name="no_bluetooth_triggers">没有已配对的蓝牙设备。\n配置触发器前请点击下面的图标以配对蓝牙设备。</string>
+  <string name="no_wifi_triggers">没有已配置的 WLAN 接入点。\n配置触发器前请点击下面的图标以连接 WLAN。</string>
+  <string name="no_triggers_configured">没有配置触发器。点击以添加。</string>
+  <string name="no_triggers_configured_nfc">点击以设置一个新的 NFC 触发器。</string>
   <string name="profile_setup_setup_triggers_description">请选择将激活此情景的触发器</string>
   <string name="profile_setup_actions_description">现在配置当情景激活时，将发生的操作</string>
   <!-- Profiles settings  -->
@@ -268,7 +268,7 @@
   <string name="profile_write_success">标签写入成功</string>
   <string name="profile_write_failed">标签写入失败！</string>
   <string name="profile_selected">选择的情景：%1$s</string>
-  <string name="profile_nfc_text">将一个情景写入 NFC 标签能够允许您通过触摸标签的行为更改情景。再次触摸将会返回到您之前选择的情景。</string>
+  <string name="profile_nfc_text">将一个情景写入 NFC 标签后，您可以通过轻触标签更改情景。再次轻触则会返回到您之前选择的情景。</string>
   <string name="profile_unknown_nfc_tag">未知情景</string>
   <string name="profile_add_nfc_text">此 NFC 标签是与一个未知的情景相连的。把此 NFC 标签连接到一个现有的情景将会允许您以后选择这个情景。</string>
   <string name="profile_select">选择情景</string>
