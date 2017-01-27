@@ -22,10 +22,13 @@
   <string name="dlg_ok">ОК</string>
   <string name="cancel">Скасувати</string>
   <string name="add">Додати</string>
+  <string name="choose_app">Вибрати додаток</string>
   <string name="reset">Скинути</string>
+  <string name="advanced">Розширений</string>
   <string name="settings">Налаштування</string>
   <string name="name">Ім\'я: </string>
   <string name="back">Назад</string>
+  <string name="finish">Завершити</string>
   <string name="next">Далі</string>
   <string name="on">Увімкнено</string>
   <string name="off">Вимкнути</string>
@@ -37,9 +40,15 @@
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Конфіденційність</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_switch_label">Увімкнути Privacy Guard</string>
+  <string name="privacy_guard_dlg_title">Увімкнути Privacy Guard?</string>
+  <string name="privacy_guard_dlg_text">Коли активовано Privacy Guard, додаток не зможуть отримати доступ до особистих даних, наприклад, контакти, повідомлення або журнали викликів.</string>
+  <string name="privacy_guard_dlg_system_app_text">Активуючи Privacy Guard для вбудованих додатків, додатки не зможуть отримати доступ або надати особисті дані. Це може спричинити неправильну роботу з іншими додатками.</string>
+  <string name="privacy_guard_default_title">За замовчуванням увімкнено</string>
   <string name="privacy_guard_help_title">Допомога</string>
   <string name="privacy_guard_reset_title">Скинути</string>
   <string name="privacy_guard_manager_show_system_apps">Показати системні програми</string>
+  <string name="privacy_guard_advanced_settings_title">Розширений</string>
   <!-- Notification light dialogs -->
   <string name="default_time">Нормально</string>
   <string name="custom_time">Визначено користувачем</string>
@@ -51,6 +60,7 @@
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_general_title">Загальні</string>
+  <string name="notification_light_advanced_title">Розширений</string>
   <string name="notification_light_phonelist_title">Телефон</string>
   <string name="notification_light_default_value">Стандартний</string>
   <!-- Lights settings, LED notification -->
@@ -86,6 +96,7 @@
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Видалити</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
   <string name="profiles_add">Додати</string>
@@ -110,9 +121,12 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroup_name_title">Ім\'я: </string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Вибрати додаток</string>
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Нормально</string>
   <string name="ring_mode_vibrate">Вібросигнал</string>

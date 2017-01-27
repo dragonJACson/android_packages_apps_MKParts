@@ -479,7 +479,7 @@
   <string name="expanded_desktop_nothing_to_show_text">關閉此開關即可根據每個應用程式自訂延伸桌面</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充電音效</string>
-  <string name="charging_sounds_enabled_title">啓用</string>
+  <string name="charging_sounds_enabled_title">啟用</string>
   <string name="charging_sounds_enabled_summary">接上或移除電源時播放音效</string>
   <string name="power_notifications_vibrate_title">震動</string>
   <string name="charging_sounds_ringtone_title">通知音效</string>

@@ -256,7 +256,7 @@
   <string name="profile_setup_setup_triggers_description">请选择将激活此情景的触发器</string>
   <string name="profile_setup_actions_description">现在配置当情景激活时，将发生的操作</string>
   <!-- Profiles settings  -->
-  <string name="profiles_settings_title">系统情景</string>
+  <string name="profiles_settings_title">情景模式</string>
   <string name="profiles_add">添加</string>
   <string name="profile_menu_delete">删除</string>
   <string name="profile_settings_title">情景模式</string>
@@ -480,7 +480,7 @@
   <string name="expanded_desktop_nothing_to_show_text">关闭开关并自定义每个应用的扩展桌面</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充电提示音</string>
-  <string name="charging_sounds_enabled_title">启用</string>
+  <string name="charging_sounds_enabled_title">开启</string>
   <string name="charging_sounds_enabled_summary">连接或断开电源时发出声音</string>
   <string name="power_notifications_vibrate_title">振动</string>
   <string name="charging_sounds_ringtone_title">通知声音</string>
