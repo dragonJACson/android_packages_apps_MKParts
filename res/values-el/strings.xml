@@ -30,6 +30,7 @@
   <string name="off">ανενεργό</string>
   <string name="yes">Ναι</string>
   <string name="no">Όχι</string>
+  <string name="search">Αναζήτηση</string>
   <string name="disabled">Απενεργοποιημένο</string>
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Ιδιωτικότητα</string>

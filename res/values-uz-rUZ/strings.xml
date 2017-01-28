@@ -72,6 +72,7 @@
   <!-- Display : Rotation  -->
   <!-- Weather -->
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">Hech qachon</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
 </resources>

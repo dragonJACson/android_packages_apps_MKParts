@@ -340,6 +340,7 @@
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifiAp">Hotspot Wi\u2011Fi portabel</string>
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <string name="toggleData">Koneksi data</string>
   <string name="toggleSync">Otomatis sinkronkan data</string>
   <string name="toggle2g3g4g">Jenis jaringan</string>
@@ -353,6 +354,7 @@
   <string name="ring_volume_title">Volume dering</string>
   <string name="incoming_call_volume_title">Nada dering</string>
   <string name="notification_volume_title">Pemberitahuan</string>
+  <string name="media_volume_title">Media</string>
   <string name="doze_title">Tampilan ambien</string>
   <!-- Status bar -->
   <string name="status_bar_toggle_brightness">Kontrol kecerahan</string>
