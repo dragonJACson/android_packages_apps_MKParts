@@ -135,6 +135,7 @@
   <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
   <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
   <string name="live_display_color_profile_reading_title">Чтение</string>
+  <string name="live_display_color_profile_reading_summary">Тёплые цвета для меньшего напряжения глаз</string>
   <string name="color_calibration_title">Цвет</string>
   <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
   <string name="color_red_title">Красный</string>
