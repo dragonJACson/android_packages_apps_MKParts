@@ -388,9 +388,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Tilapalkin kuvakkeet</string>
   <string name="status_bar_icons_summary">Määritä mitkä tilapalkin kuvakkeet näytetään</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Lepotila kaksoisnapautuksella</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Sulje laitteen näyttö tuplanapauttamalla tilapalkkia</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Suojatut sovellukset</string>
   <string name="protected_apps_manager_summary">Hallitse mitkä sovellukset ovat turvallisen lukituksen takana</string>
@@ -462,4 +459,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Värinä</string>
   <string name="charging_sounds_ringtone_silent">Äänetön</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

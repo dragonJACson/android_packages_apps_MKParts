@@ -404,9 +404,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icone barra di stato</string>
   <string name="status_bar_icons_summary">Scegli quali icone verranno visualizzate nella barra di stato</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Sospensione con doppio tocco</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere il display</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">App protette</string>
   <string name="protected_apps_manager_summary">Gestisci le app protette da un codice di sicurezza</string>
@@ -481,4 +478,6 @@
   <string name="power_notifications_vibrate_title">Vibrazione</string>
   <string name="charging_sounds_ringtone_title">Suono di notifica</string>
   <string name="charging_sounds_ringtone_silent">Silenzioso</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Vibrazione</string>
 </resources>

@@ -116,7 +116,6 @@
   <string name="status_bar_battery_style_text">Κείμενο</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Προστατευμένες εφαρμογές</string>
   <string name="protected_apps_manager_summary">Διαχειριστείτε ποιές εφαρμογές θα είναι κρυμμένες πίσω από ένα ασφαλές κλείδωμα</string>
@@ -137,4 +136,6 @@
   <string name="charging_sounds_enabled_title">Ενεργοποίηση</string>
   <string name="power_notifications_vibrate_title">Δόνηση</string>
   <string name="charging_sounds_ringtone_silent">Αθόρυβο</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Απτική ανάδραση</string>
 </resources>

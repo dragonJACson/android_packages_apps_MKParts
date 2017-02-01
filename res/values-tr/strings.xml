@@ -166,7 +166,6 @@
   <string name="status_bar_battery_style_text">Metin</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Korunan uygulamalar</string>
   <string name="protected_apps_manager_summary">Güvenli kilidin arkasında hangi uygulamaların gizleneceğini yönetin</string>
@@ -187,4 +186,6 @@
   <string name="charging_sounds_enabled_title">Etkinleştir</string>
   <string name="power_notifications_vibrate_title">Titreşim</string>
   <string name="charging_sounds_ringtone_silent">Sessiz</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Dokunmatik geri bildirim</string>
 </resources>

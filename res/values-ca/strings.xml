@@ -379,9 +379,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icones de la barra d\'estat</string>
   <string name="status_bar_icons_summary">Controla quines icones de la barra d\'estat es mostren</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Pica dues vegades per posar en repòs</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Pica dues vegades a la barra d\'estat per apagar la pantalla</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicacions protegides</string>
   <string name="protected_apps_manager_summary">Gestiona quines aplicacions s\'amaguen darrere el bloqueig segur</string>
@@ -452,4 +449,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibració</string>
   <string name="charging_sounds_ringtone_silent">Silenci</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

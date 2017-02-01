@@ -85,7 +85,6 @@
   <string name="status_bar_battery_style_text">Teks</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Beskermde programme</string>
   <string name="protected_apps_manager_summary">Bestuur watter toepassings is verberg agter \'n veilige slot</string>
@@ -101,4 +100,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibreer</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

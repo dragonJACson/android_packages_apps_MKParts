@@ -405,9 +405,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Значкі ў радку стану</string>
   <string name="status_bar_icons_summary">Налада бачнасці значкоў</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Выключаць экран пры падвойным націску</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Двойчы краніце радка стану, каб перавесці прыладу ў спячы рэжым</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Заблакаваць дадаткі</string>
   <string name="protected_apps_manager_summary">Кіраванне праграмамі, для запуску якіх патрабуецца ўвод пароля</string>
@@ -485,4 +482,6 @@
   <string name="power_notifications_vibrate_title">Вібрацыя</string>
   <string name="charging_sounds_ringtone_title">Гукі апавяшчэнняў</string>
   <string name="charging_sounds_ringtone_silent">Ціхі рэжым</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Вібраводгук</string>
 </resources>

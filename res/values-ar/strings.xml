@@ -106,7 +106,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">التطبيقات المحمية</string>
   <string name="protected_apps_manager_summary">إدارة التطبيقات التي تكون مخفية خلف التأمين الآمن</string>
@@ -122,4 +121,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">اهتزاز</string>
   <string name="charging_sounds_ringtone_silent">صامت</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

@@ -76,7 +76,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
@@ -86,4 +85,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">Silent</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

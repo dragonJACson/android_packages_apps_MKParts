@@ -389,9 +389,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony stavového riadku</string>
   <string name="status_bar_icons_summary">Upraviť zobrazenie ikon v stavovom riadku</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Uspať dvojitým poklepaním</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Vypnúť displej dvojitým poklepaním na stavový riadok</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chránené aplikácie</string>
   <string name="protected_apps_manager_summary">Spravovať aplikácie, ktoré sú skryté za bezpečným zámkom</string>
@@ -464,4 +461,5 @@
   <string name="expanded_desktop_nothing_to_show_text">Vypnite prepínač upravenia rozšírenej plochy na základe aplikácií</string>
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibrovať</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

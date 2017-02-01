@@ -85,7 +85,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">সংরক্ষিত অ্যাপগুলি</string>
   <!-- Contributors cloud activity -->
@@ -97,4 +96,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_title">Enable</string>
   <string name="power_notifications_vibrate_title">কম্পন</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

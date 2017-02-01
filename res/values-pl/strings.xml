@@ -405,9 +405,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony paska stanu</string>
   <string name="status_bar_icons_summary">Wybierz, które ikony będą wyświetlane na pasku stanu</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dwukrotnie dotknij, aby uśpić</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Puknij dwukrotnie pasek stanu, aby wyłączyć ekran</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chronione aplikacje</string>
   <string name="protected_apps_manager_summary">Ustal, które aplikacje mają być ukryte za bezpieczną blokadą</string>
@@ -485,4 +482,6 @@
   <string name="power_notifications_vibrate_title">Wibracje</string>
   <string name="charging_sounds_ringtone_title">Dźwięk powiadomienia</string>
   <string name="charging_sounds_ringtone_silent">Cichy</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Wibracja przy dotknięciu</string>
 </resources>

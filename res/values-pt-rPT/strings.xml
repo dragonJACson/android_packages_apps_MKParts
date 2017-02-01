@@ -382,9 +382,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de estado</string>
   <string name="status_bar_icons_summary">Controlar que ícones da barra de estado são mostrados</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar o ecrã</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para desligar o dispositivo</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicações protegidas</string>
   <string name="protected_apps_manager_summary">Gerir as aplicações que estão protegidas pelo bloqueio seguro</string>
@@ -455,4 +452,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

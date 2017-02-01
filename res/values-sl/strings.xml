@@ -393,9 +393,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikone vrstice stanja</string>
   <string name="status_bar_icons_summary">Nadzor prikazanih ikon v vrstici stanja</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dvakrat tapni za spanje</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da izklopite zaslon</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Zaščitene aplikacije</string>
   <string name="protected_apps_manager_summary">Upravljajte, katere aplikacije so skrite z varnim zaklepanjem</string>
@@ -469,4 +466,5 @@
   <string name="charging_sounds_enabled_title">Omogoči</string>
   <string name="power_notifications_vibrate_title">Vibriranje</string>
   <string name="charging_sounds_ringtone_silent">Tiho</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

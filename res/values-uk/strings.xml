@@ -140,7 +140,6 @@
   <string name="status_bar_battery_style_text">Текст</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Заблоковані програми</string>
   <!-- Contributors cloud activity -->
@@ -165,4 +164,6 @@
   <string name="charging_sounds_enabled_title">Увімкнути</string>
   <string name="power_notifications_vibrate_title">Вібросигнал</string>
   <string name="charging_sounds_ringtone_silent">Без звуку</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Вібровідгук</string>
 </resources>

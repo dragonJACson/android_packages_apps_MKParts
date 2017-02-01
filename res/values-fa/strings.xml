@@ -88,7 +88,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">برنامه‌های محافظت شده</string>
   <!-- Contributors cloud activity -->
@@ -101,4 +100,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">لرزش</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

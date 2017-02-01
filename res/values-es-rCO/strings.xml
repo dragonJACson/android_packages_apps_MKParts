@@ -120,7 +120,6 @@
   <string name="status_bar_battery_style_text">Texto</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicaciones protegidas</string>
   <string name="protected_apps_manager_summary">Administrar cuáles aplicaciones se ocultan detrás del bloqueo seguro</string>
@@ -136,4 +135,6 @@
   <string name="charging_sounds_enabled_title">Activado</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <string name="charging_sounds_ringtone_silent">Silencio</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Respuesta táctil</string>
 </resources>

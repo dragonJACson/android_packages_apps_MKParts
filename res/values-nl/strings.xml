@@ -353,7 +353,6 @@
   <string name="status_bar_battery_percentage_default">Verborgen</string>
   <string name="status_bar_battery_percentage_text_inside">In het pictogram</string>
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Beschermde apps</string>
   <string name="protected_apps_manager_summary">Beheren welke apps beschermd zijn</string>
@@ -411,4 +410,6 @@
   <string name="power_notifications_vibrate_title">Trillen</string>
   <string name="charging_sounds_ringtone_title">Notificatie geluid</string>
   <string name="charging_sounds_ringtone_silent">Stil</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Trilsignaal feedback</string>
 </resources>

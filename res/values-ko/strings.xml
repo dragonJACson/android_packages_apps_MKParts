@@ -124,7 +124,6 @@
   <string name="status_bar_battery_style_text">텍스트</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">보호된 애플리케이션</string>
   <string name="protected_apps_manager_summary">보안 잠금 사용시 숨겨질 앱 선택</string>
@@ -145,4 +144,6 @@
   <string name="charging_sounds_enabled_title">활성화</string>
   <string name="power_notifications_vibrate_title">진동</string>
   <string name="charging_sounds_ringtone_silent">음소거</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">진동</string>
 </resources>

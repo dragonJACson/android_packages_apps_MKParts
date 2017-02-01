@@ -117,7 +117,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Các ứng dụng được bảo vệ</string>
   <string name="protected_apps_manager_summary">Quản lý các ứng dụng được ẩn sau khóa an toàn</string>
@@ -134,4 +133,6 @@
   <string name="charging_sounds_enabled_title">Kích hoạt</string>
   <string name="power_notifications_vibrate_title">Rung</string>
   <string name="charging_sounds_ringtone_silent">Im lặng</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Thông tin phản hồi Haptic</string>
 </resources>

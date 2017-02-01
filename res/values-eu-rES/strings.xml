@@ -389,9 +389,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Egoera-barrako ikonoak</string>
   <string name="status_bar_icons_summary">Kontrolatu egoera-barran agertuko diren ikonoak</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Birritan sakatu lokartzeko</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Birritan sakatu egoera-barran pantaila itzaltzeko</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Babesturiko aplikazioak</string>
   <string name="protected_apps_manager_summary">Kudeatu blokeo ziurrarekin ezkutatuko diren aplikazioak</string>
@@ -463,4 +460,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Bibratu</string>
   <string name="charging_sounds_ringtone_silent">Isilik</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

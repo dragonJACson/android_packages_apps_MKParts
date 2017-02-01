@@ -123,7 +123,6 @@
   <string name="status_bar_battery_style_text">Szöveg</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Védett alkalmazások</string>
   <string name="protected_apps_manager_summary">A biztonsági zár mögötti rejtett alkalmazások kezelése</string>
@@ -144,4 +143,6 @@
   <string name="charging_sounds_enabled_title">Engedélyez</string>
   <string name="power_notifications_vibrate_title">Rezgés</string>
   <string name="charging_sounds_ringtone_silent">Néma</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Rezgés visszajelzés</string>
 </resources>

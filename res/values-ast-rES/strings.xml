@@ -70,7 +70,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Apps protexíes</string>
   <string name="protected_apps_manager_summary">Xestiona qu\'aplicaciones s\'anubren darrera d\'un bloquéu de seguranza</string>
@@ -84,4 +83,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

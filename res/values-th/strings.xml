@@ -77,7 +77,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">แอปที่ได้รับการปกป้อง</string>
   <string name="protected_apps_manager_summary">จัดการว่าแอปใดที่จะซ่อนไว้ด้านหลังล็อคที่ปลอดภัย</string>
@@ -89,4 +88,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">สั่น</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

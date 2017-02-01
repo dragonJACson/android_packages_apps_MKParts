@@ -60,7 +60,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>
   <string name="protected_apps_manager_summary">بىخەتەر قۇلۇپ تەرىپىدىن يوشۇرۇپ قويۇلغان ئەپنى باشقۇرۇش</string>
@@ -72,4 +71,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">تىترەت</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

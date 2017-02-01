@@ -229,7 +229,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chráněné aplikace</string>
   <string name="protected_apps_manager_summary">Spravovat, které aplikace jsou skryté za bezpečným zámkem</string>
@@ -254,4 +253,6 @@
   <string name="charging_sounds_enabled_title">Povolit</string>
   <string name="power_notifications_vibrate_title">Vibrace</string>
   <string name="charging_sounds_ringtone_silent">Tichý</string>
+  <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Hmatová odezva</string>
 </resources>
