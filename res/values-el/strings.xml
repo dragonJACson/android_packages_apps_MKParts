@@ -104,6 +104,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_vibrate">Δόνηση</string>
   <string name="ring_mode_mute">Σίγαση</string>
