@@ -42,6 +42,7 @@
     <protected-broadcast android:name="mokee.platform.app.profiles.PROFILES_STATE_CHANGED" />
     <protected-broadcast android:name="org.mokee.mkparts.PART_CHANGED" />
     <protected-broadcast android:name="org.mokee.mkparts.REFRESH_PART" />
+    <protected-broadcast android:name="org.mokee.mkparts.gestures.UPDATE_SETTINGS" />
 
     <!-- MOKEE PUSH PERMISSION START -->
     <permission android:name="org.mokee.mkparts.permission.JPUSH_MESSAGE" android:protectionLevel="signature" />
@@ -152,6 +153,8 @@
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="button_settings" />
         </activity-alias>
+
+        <activity android:name=".gestures.KeyHandler" />
 
         <!-- Profiles settings (dashboard) -->
         <activity-alias

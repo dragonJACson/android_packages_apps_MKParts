@@ -107,4 +107,9 @@
           android:fragment="org.mokee.mkparts.sounds.ChargingSoundsSettings"
           mk:xmlRes="@xml/charging_sounds_settings" />
 
+    <part android:key="touchscreen_gesture_settings"
+          android:title="@string/touchscreen_gesture_settings_title"
+          android:summary="@string/touchscreen_gesture_settings_summary"
+          android:fragment="org.mokee.mkparts.gestures.TouchscreenGestureSettings"
+          mk:xmlRes="@xml/touchscreen_gesture_settings" />
 </parts-catalog>
