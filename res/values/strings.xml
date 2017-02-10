@@ -188,7 +188,7 @@
     <string name="camera_launch_title">Launch camera</string>
     <string name="camera_launch_summary">A longpress and release will launch camera</string>
     <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long-pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
     <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
@@ -250,6 +250,9 @@
 
     <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
+
+    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
+    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
 
     <!-- Profiles -->
     <string name="profile_menu_delete_title">Delete</string>
@@ -424,8 +427,6 @@
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
     <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_quick_qs_pulldown_left">Left</string>
     <string name="status_bar_quick_qs_pulldown_right">Right</string>
@@ -567,6 +568,7 @@
     <string name="touchscreen_gesture_letter_o_title">Draw the letter \"O\"</string>
     <string name="touchscreen_gesture_letter_m_title">Draw the letter \"M\"</string>
     <string name="touchscreen_gesture_letter_s_title">Draw the letter \"S\"</string>
+    <string name="touchscreen_gesture_letter_v_title">Draw the letter \"V\"</string>
     <string name="touchscreen_gesture_letter_w_title">Draw the letter \"W\"</string>
     <string name="touchscreen_gesture_letter_z_title">Draw the letter \"Z\"</string>
 

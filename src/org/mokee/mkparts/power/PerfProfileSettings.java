@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2016 The MoKee Open Source Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,7 +34,6 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import android.text.TextUtils;
 import android.widget.Toast;
 
 import org.mokee.mkparts.R;
@@ -54,7 +54,7 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
     private static final String KEY_PERF_PROFILE_CATEGORY = "perf_profile_category";
     private static final String KEY_AUTO_POWER_SAVE  = "auto_power_save";
     private static final String KEY_POWER_SAVE       = "power_save";
-    private static final String KEY_PER_APP_PROFILES = "app_perf_profiles";
+    private static final String KEY_PER_APP_PROFILES = "app_perf_profiles_enabled";
     private static final String KEY_PERF_SEEKBAR     = "perf_seekbar";
 
     private ListPreference mAutoPowerSavePref;

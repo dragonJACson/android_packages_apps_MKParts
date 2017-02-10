@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
  * Copyright (C) 2014-2015 The MoKee Open Source Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,24 +17,19 @@
  */
 package org.mokee.mkparts.statusbar;
 
-import android.content.ContentResolver;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.format.DateFormat;
 import android.view.View;
 
+import mokee.preference.MKSystemSettingListPreference;
+
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
-import mokee.preference.MKSystemSettingListPreference;
-
 public class StatusBarSettings extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
-
-    private static final String TAG = "StatusBar";
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
@@ -44,76 +40,69 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 
+    private MKSystemSettingListPreference mQuickPulldown;
     private MKSystemSettingListPreference mStatusBarClock;
     private MKSystemSettingListPreference mStatusBarAmPm;
     private MKSystemSettingListPreference mStatusBarBattery;
     private MKSystemSettingListPreference mStatusBarBatteryShowPercent;
-    private MKSystemSettingListPreference mQuickPulldown;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
-        ContentResolver resolver = getActivity().getContentResolver();
-
         mStatusBarClock = (MKSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
-        mStatusBarAmPm = (MKSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
-        mStatusBarBattery = (MKSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
-        mQuickPulldown = (MKSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
 
+        mStatusBarAmPm = (MKSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         if (DateFormat.is24HourFormat(getActivity())) {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
         }
 
+        mStatusBarBattery =
+                (MKSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
-        updatePulldownSummary(mQuickPulldown.getIntValue(0));
+
+        mQuickPulldown =
+                (MKSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        // Adjust clock position for RTL if necessary
-        Configuration config = getResources().getConfiguration();
-        if (config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-                mStatusBarClock.setEntries(getActivity().getResources().getStringArray(
-                        R.array.status_bar_clock_position_entries_rtl));
-                mStatusBarClock.setSummary(mStatusBarClock.getEntry());
+
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
         }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        int batteryStyle = Integer.valueOf((String) newValue);
-        enableStatusBarBatteryDependents(batteryStyle);
-
+        int value = Integer.parseInt((String) newValue);
+        if (preference == mQuickPulldown) {
+            updateQuickPulldownSummary(value);
+        } else if (preference == mStatusBarBattery) {
+            enableStatusBarBatteryDependents(value);
+        }
         return true;
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
-                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
-            mStatusBarBatteryShowPercent.setEnabled(false);
-        } else {
-            mStatusBarBatteryShowPercent.setEnabled(true);
-        }
+        mStatusBarBatteryShowPercent.setEnabled(
+                batteryIconStyle != STATUS_BAR_BATTERY_STYLE_HIDDEN
+                && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
-    private void updatePulldownSummary(int value) {
-        Resources res = getResources();
-
-        if (value == 0) {
-            // quick pulldown deactivated
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
-        } else {
-            String direction = res.getString(value == 2
-                    ? R.string.status_bar_quick_qs_pulldown_summary_left
-                    : R.string.status_bar_quick_qs_pulldown_summary_right);
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
-        }
+    private void updateQuickPulldownSummary(int value) {
+        mQuickPulldown.setSummary(value == 0
+                ? R.string.status_bar_quick_qs_pulldown_off
+                : R.string.status_bar_quick_qs_pulldown_summary);
     }
 }
