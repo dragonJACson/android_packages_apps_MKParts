@@ -75,7 +75,7 @@
         android:dialogTitle="@string/status_bar_battery_percentage_title"
         android:entries="@array/status_bar_battery_percentage_entries"
         android:entryValues="@array/status_bar_battery_percentage_values"
-        android:defaultValue="0" />
+        android:defaultValue="1" />
 
     <mokee.preference.MKSystemSettingListPreference
         android:key="qs_quick_pulldown"
