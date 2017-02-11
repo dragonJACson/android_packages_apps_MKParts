@@ -481,5 +481,26 @@
   <string name="charging_sounds_ringtone_title">Dźwięk powiadomienia</string>
   <string name="charging_sounds_ringtone_silent">Cichy</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Gesty ekranu dotykowego</string>
+  <string name="touchscreen_gesture_settings_summary">Wykonuj różne gesty ekranu dotykowego dla szybkich akcji</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Wibracja przy dotknięciu</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Wibruj po wykryciu gestu ekranu dotykowego</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Przesuń dwoma palcami w dół</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Przesuń palcem w górę</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Przesuń palcem w dół</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Przesuń palcem w lewo</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Przesuń palcem w prawo</string>
+  <string name="touchscreen_gesture_up_arrow_title">Narysuj znak \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Narysuj znak \"V\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Gest akcji</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nic nie rób</string>
+  <string name="touchscreen_gesture_action_flashlight">Przełącznik latarki</string>
+  <string name="touchscreen_gesture_action_camera">Otwórz aparat</string>
+  <string name="touchscreen_gesture_action_browser">Otwórz przeglądarkę</string>
+  <string name="touchscreen_gesture_action_dialer">Otwórz wybieranie numerów</string>
+  <string name="touchscreen_gesture_action_email">Wyświetlanie wiadomości e-mail</string>
+  <string name="touchscreen_gesture_action_messages">Wyświetlanie wiadomości</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Rozpoczęcie/wstrzymanie odtwarzania muzyki</string>
+  <string name="touchscreen_gesture_action_previous_track">Przejdź do poprzedniego utworu muzycznego</string>
+  <string name="touchscreen_gesture_action_next_track">Przejdź do następnego utworu muzycznego</string>
 </resources>
