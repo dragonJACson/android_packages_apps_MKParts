@@ -481,5 +481,36 @@
   <string name="charging_sounds_ringtone_title">Звук уведомления</string>
   <string name="charging_sounds_ringtone_silent">Без звука</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Жесты сенсорного экрана</string>
+  <string name="touchscreen_gesture_settings_summary">Настройка жестов сенсорного экрана для выполнения действий</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Виброотклик</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Вибрация при обнаружении жеста</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Провести вниз двумя пальцами</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Провести вверх одним пальцем</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Провести вниз одним пальцем</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Провести влево одним пальцем</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Провести вправо одним пальцем</string>
+  <string name="touchscreen_gesture_up_arrow_title">Нарисуйте «Λ»</string>
+  <string name="touchscreen_gesture_down_arrow_title">Нарисуйте «V»</string>
+  <string name="touchscreen_gesture_left_arrow_title">Нарисуйте «&lt;»</string>
+  <string name="touchscreen_gesture_right_arrow_title">Нарисуйте «&gt;»</string>
+  <string name="touchscreen_gesture_letter_c_title">Нарисуйте букву «C»</string>
+  <string name="touchscreen_gesture_letter_e_title">Нарисуйте букву «е»</string>
+  <string name="touchscreen_gesture_letter_o_title">Нарисуйте букву «O»</string>
+  <string name="touchscreen_gesture_letter_m_title">Нарисуйте букву «М»</string>
+  <string name="touchscreen_gesture_letter_s_title">Нарисуйте букву «S»</string>
+  <string name="touchscreen_gesture_letter_v_title">Нарисуйте букву «V»</string>
+  <string name="touchscreen_gesture_letter_w_title">Нарисуйте букву «W»</string>
+  <string name="touchscreen_gesture_letter_z_title">Нарисуйте букву «Z»</string>
+  <string name="touchscreen_gesture_action_dialog_title">Действие жеста</string>
+  <string name="touchscreen_gesture_action_do_nothing">Ничего не делать</string>
+  <string name="touchscreen_gesture_action_flashlight">Включить или выключить фонарик</string>
+  <string name="touchscreen_gesture_action_camera">Открыть камеру</string>
+  <string name="touchscreen_gesture_action_browser">Открыть браузер</string>
+  <string name="touchscreen_gesture_action_dialer">Открыть номеронабиратель</string>
+  <string name="touchscreen_gesture_action_email">Просмотр писем</string>
+  <string name="touchscreen_gesture_action_messages">Просмотр сообщений</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Воспроизведение музыки</string>
+  <string name="touchscreen_gesture_action_previous_track">Перейти к предыдущему треку</string>
+  <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
 </resources>
