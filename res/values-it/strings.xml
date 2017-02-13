@@ -478,4 +478,16 @@
   <string name="charging_sounds_ringtone_silent">Silenzioso</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Vibrazione</string>
+  <string name="touchscreen_gesture_letter_c_title">Disegna la lettera \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Disegna la lettera \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Disegna la lettera \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Disegna la lettera \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Disegna la lettera \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Disegna la lettera \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Disegna la lettera \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Disegna la lettera \"Z\"</string>
+  <string name="touchscreen_gesture_action_do_nothing">Non fare nulla</string>
+  <string name="touchscreen_gesture_action_camera">Apri fotocamera</string>
+  <string name="touchscreen_gesture_action_browser">Apri browser</string>
+  <string name="touchscreen_gesture_action_dialer">Apri dialer</string>
 </resources>
