@@ -87,6 +87,7 @@
   <string name="notification_light_title">Benachrichtigungs-LED</string>
   <string name="notification_light_general_title">Allgemein</string>
   <string name="notification_light_advanced_title">Erweitert</string>
+  <string name="notification_light_applist_title">Anwendungen</string>
   <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_use_custom">App-Anpassungen</string>
   <string name="notification_light_default_value">Standard</string>
@@ -133,6 +134,8 @@
   <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
   <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
   <string name="live_display_color_profile_adaptive_summary">Farben an Umgebungsbedingungen anpassen</string>
+  <string name="live_display_color_profile_reading_title">Lesend</string>
+  <string name="live_display_color_profile_reading_summary">Wärmere Farben für geringere Augenbelastung</string>
   <string name="color_calibration_title">Farbkalibrierung</string>
   <string name="color_calibration_summary">Displayfarben kalibrieren</string>
   <string name="color_red_title">Rot</string>
@@ -173,6 +176,7 @@
   <string name="camera_launch_title">Kamera starten</string>
   <string name="camera_launch_summary">Langes Drücken und Loslassen startet die Kamera</string>
   <string name="volbtn_music_controls_title">Wiedergabe steuern</string>
+  <string name="volbtn_music_controls_summary">Bei abgeschaltetem Bildschirm durch langes Drücken der Lautstärketasten Musiktitel suchen</string>
   <string name="volbtn_cursor_control_title">Cursorsteuerung</string>
   <string name="volbtn_cursor_control_off">Deaktiviert</string>
   <string name="volbtn_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
@@ -237,6 +241,7 @@
   <string name="profile_trigger_a2dp_disconnect">Beim Trennen von A2DP</string>
   <string name="profile_tabs_wifi">WLAN</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Auslöser, die dieses Profil aktivieren</string>
   <string name="profile_setup_setup_triggers_title">Schritt 1: Auslöser hinzufügen</string>
   <string name="profile_setup_setup_triggers_title_config">Auslöser ändern: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -291,6 +296,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Diese App entfernen?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Lautstärke festlegen</string>
   <string name="connection_state_enabled">Aktivieren</string>
@@ -318,6 +328,7 @@
   <string name="soundtone_title">Benachrichtigungston</string>
   <!-- Title for application group setting screen -->
   <string name="profile_appgroups_title">App-Gruppen</string>
+  <string name="profile_applist_title">Anwendungen</string>
   <string name="profile_new_appgroup">Neue App-Gruppe</string>
   <string name="profile_delete_appgroup">Diese App-Gruppe löschen?</string>
   <string name="profile_appgroup_name_prompt">Geben Sie einen Namen für die neue App-Gruppe ein.</string>
@@ -339,10 +350,12 @@
   <string name="toggleWifi">WLAN</string>
   <string name="toggleWifiAp">Mobiler WLAN-Hotspot</string>
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <string name="toggleData">Datenverbindung</string>
   <string name="toggleSync">Daten automatisch synchronisieren</string>
   <string name="toggle2g3g4g">Bevorzugter Netzwerktyp</string>
   <string name="toggle2g3g4g_msim">Bevorzugter Netzwerktyp (%1$s)</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Klingelmodus</string>
   <string name="ring_mode_normal">Standard</string>
@@ -380,6 +393,7 @@
   <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
   <string name="status_bar_battery_style_icon_landscape">Symbol (Querformat)</string>
   <string name="status_bar_battery_style_circle">Kreis</string>
+  <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Akkustand in Prozent</string>
@@ -428,6 +442,8 @@
   <string name="weather_settings_general_settings_title">Allgemein</string>
   <string name="weather_settings_providers_title">Anbieter</string>
   <string name="weather_settings_temp_units_title">Temperatureinheit</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">Wetter</string>
   <string name="status_bar_show_weather_title">Wetter anzeigen</string>
   <string name="status_bar_show_weather_summary">Die aktuelle Temperatur in der Statusleiste anzeigen</string>
@@ -458,9 +474,43 @@
   <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
   <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Ladetöne</string>
   <string name="charging_sounds_enabled_title">Aktivieren</string>
+  <string name="charging_sounds_enabled_summary">Beim Anschließen oder Trennen einer Stromquelle einen Ton abspielen</string>
   <string name="power_notifications_vibrate_title">Vibrieren</string>
+  <string name="charging_sounds_ringtone_title">Benachrichtigungston</string>
   <string name="charging_sounds_ringtone_silent">Still</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
+  <string name="touchscreen_gesture_settings_summary">Führen Sie verschiedene Bildschirmgesten für einige schnelle Aktionen aus</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Haptisches Feedback</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibrieren, wenn eine Bildschirmgeste erkannt wurde</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Mit zwei Fingern nach unten wischen</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Mit einem Finger nach oben wischen</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Mit einem Finger nach unten wischen</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Mit einem Finger nach links wischen</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Mit einem Finger nach rechts wischen</string>
+  <string name="touchscreen_gesture_up_arrow_title">Zeichnen Sie ein \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Zeichnen Sie ein \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Zeichnen Sie ein \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Zeichnen Sie ein \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Zeichnen Sie den Buchstaben \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Zeichnen Sie den Buchstaben \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Zeichnen Sie den Buchstaben \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Zeichnen Sie den Buchstaben \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Zeichnen Sie den Buchstaben \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Zeichnen Sie den Buchstaben \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Zeichnen Sie den Buchstaben \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Zeichnen Sie den Buchstaben \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Gestenaktion</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nichts machen</string>
+  <string name="touchscreen_gesture_action_flashlight">Blitzlicht ein- und ausschalten</string>
+  <string name="touchscreen_gesture_action_camera">Die Kamera öffnen</string>
+  <string name="touchscreen_gesture_action_browser">Den Browser öffnen</string>
+  <string name="touchscreen_gesture_action_dialer">Die Telefon-Anwendung öffnen</string>
+  <string name="touchscreen_gesture_action_email">Ihre E-Mails ansehen</string>
+  <string name="touchscreen_gesture_action_messages">Ihre Nachrichten ansehen</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Musikwiedergabe starten/anhalten</string>
+  <string name="touchscreen_gesture_action_previous_track">Zum vorherigen Musiktitel springen</string>
+  <string name="touchscreen_gesture_action_next_track">Zum nächsten Musiktitel springen</string>
 </resources>
