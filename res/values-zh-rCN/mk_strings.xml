@@ -30,6 +30,6 @@
   <string name="status_bar_network_traffic_style_down">显示下载速度</string>
   <string name="status_bar_network_traffic_style_all">显示上传和下载速度</string>
   <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">长按电源按钮以启动手电筒</string>
-  <string name="torch_long_press_power_gesture_desc">在息屏状态下，长按电源按钮以启动手电筒</string>
+  <string name="torch_long_press_power_gesture_title">长按电源键以启动手电筒</string>
+  <string name="torch_long_press_power_gesture_desc">息屏状态下长按电源键以启动手电筒</string>
 </resources>
