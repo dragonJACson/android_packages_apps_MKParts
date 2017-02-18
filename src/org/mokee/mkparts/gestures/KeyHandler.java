@@ -165,8 +165,8 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private boolean hasSetupCompleted() {
-        return MKSettings.Secure.getInt(mContext.getContentResolver(),
-                MKSettings.Secure.MK_SETUP_WIZARD_COMPLETED, 0) != 0;
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.USER_SETUP_COMPLETE, 0) != 0;
     }
 
     private void processEvent(final int action) {
