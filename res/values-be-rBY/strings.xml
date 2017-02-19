@@ -47,14 +47,14 @@
   <string name="privacy_guard_default_title">Уключаны па змаўчанні</string>
   <string name="privacy_guard_default_summary_on">Абаронены рэжым уключаны</string>
   <string name="privacy_guard_default_summary">Уключаць абаронены рэжым для новых праграм</string>
-  <string name="privacy_guard_manager_summary">Абмежаваньне доступу дадаткаў да асабістых дадзеных</string>
-  <string name="privacy_guard_no_user_apps">Няма ўсталяваных дадаткаў</string>
+  <string name="privacy_guard_manager_summary">Абмежаванне доступу праграм да асабістых дадзеных</string>
+  <string name="privacy_guard_no_user_apps">Няма ўсталяваных праграм</string>
   <string name="privacy_guard_help_title">Дапамога</string>
   <string name="privacy_guard_reset_title">Скінуць</string>
   <string name="privacy_guard_reset_text">Скінуць дазволы?</string>
-  <string name="privacy_guard_help_text">У гэтым падзеле ты можаш абраць дадаткі, якія будуць працаваць у абароненым рэжыме, націснуўшы на іх. Такія дадаткі не будуць мець дазвол да асабістых дадзеных, такім як кантакты, паведамленьні ці гісторя выклікаў. Доўгі націск адкрые падрабязныя зьвесткі пра дазволы дадзенага дадатку.\n\nПа змаўчаньню сістэмныя дадаткі ўтоены. Для іх адлюстраваньня ці для пераходу да пашыраных налад абяры адпаведны варыянт у мэню.</string>
+  <string name="privacy_guard_help_text">У гэтым падзеле ты можаш абраць дадаткі, якія будуць працаваць у абароненым рэжыме, націснуўшы на іх. Такія дадаткі не будуць мець дазвол да асабістых дадзеных, такім як кантакты, паведамленьні ці гісторыя выклікаў. Доўгі націск адкрые падрабязныя звесткі пра дазволы дадзенага дадатку.\n\nПа змаўчаньню сістэмныя дадаткі ўтоены. Для іх адлюстраваньня ці для пераходу да пашыраных налад абяры адпаведны варыянт у меню.</string>
   <string name="privacy_guard_manager_show_system_apps">Сістэмныя дадаткі</string>
-  <string name="privacy_guard_advanced_settings_title">Падрабязьней</string>
+  <string name="privacy_guard_advanced_settings_title">Падрабязней</string>
   <string name="privacy_guard_notification_title">Паказваць паведамленьні</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Рэдагаваць налады індыкатару</string>
@@ -142,11 +142,11 @@
   <string name="color_green_title">Зялёны</string>
   <string name="color_blue_title">Сіні</string>
   <!-- LiveDisplay : Picture Adjustment -->
-  <string name="picture_adjustment_title">Рэгуляваньне выявы</string>
-  <string name="picture_adjustment_summary">Адрэгулюй адценьне, насычанасьць, глыбіню і кантраснасьць</string>
+  <string name="picture_adjustment_title">Рэгуляванне выявы</string>
+  <string name="picture_adjustment_summary">Адрэгуляваць адценне, насычанасць, глыбіню і кантраснасць</string>
   <string name="adj_hue_title">Адценьне</string>
   <string name="adj_saturation_title">Насычанасць</string>
-  <string name="adj_intensity_title">Насычанасьць</string>
+  <string name="adj_intensity_title">Насычанасць</string>
   <string name="adj_contrast_title">Кантраснасць</string>
   <!-- Button settings -->
   <string name="button_pref_title">Кнопкі</string>
@@ -220,7 +220,7 @@
   <string name="power_menu_screenshot_title">Здымак экрану</string>
   <string name="power_menu_airplane_title">Рэжым палёту</string>
   <string name="power_menu_users_title">Змяніць карыстальніка</string>
-  <string name="power_menu_settings_title">Ярлык налад</string>
+  <string name="power_menu_settings_title">Налады хуткага доступу</string>
   <string name="power_menu_lockdown_title">Блакаванне прылады</string>
   <string name="power_menu_bug_report_title">Справаздача пра памылкі</string>
   <string name="power_menu_sound_title">Гукавая панэль</string>
@@ -233,7 +233,7 @@
   <string name="camera_double_tap_power_gesture_desc">Хутка запусціць камеру без разблакоўкі прылады</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Выдаліць</string>
-  <string name="profile_action_none">Пакінуць без змяненьня</string>
+  <string name="profile_action_none">Пакінуць без змянення</string>
   <string name="profile_action_system">Па змаўчаньні</string>
   <string name="profile_action_disable">Адключыць</string>
   <string name="profile_action_enable">Уключыць</string>
@@ -246,7 +246,7 @@
   <string name="profile_setup_setup_triggers_title">Крок 1: дадайце ўмовы пераключэння</string>
   <string name="profile_setup_setup_triggers_title_config">Умовы пераключэння: <xliff:g id="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">Крок 2: наладзьце патрабаваныя дзеянні</string>
-  <string name="profile_setup_actions_title_config">Зьмена дзеяньняў</string>
+  <string name="profile_setup_actions_title_config">Змена дзеянняў</string>
   <string name="wireless_networks_settings_title">Бесправадныя сеткі</string>
   <!-- Profile triggers -->
   <string name="no_bluetooth_triggers">Няма спалучаных прыладаў Bluetooth.\nНацісьні, каб дадаць прыладу і стварыць умову пераключэньня на яго аснове.</string>
@@ -262,10 +262,10 @@
   <string name="profile_settings_title">Профіль</string>
   <string name="profile_empty_list_profiles_off">Для выкарыстаньня і наладаў профіляў сістэмы задзейнічай функцыю \"Профілі\".</string>
   <string name="profile_settings_summary_off">Профілі не задзейнічаныя</string>
-  <string name="profile_trigger_configure">Наладзіць пераключэньне</string>
+  <string name="profile_trigger_configure">Наладзіць пераключэнне</string>
   <string name="profile_write_nfc_tag">Запісаць на NFC-пазнаку</string>
   <string name="profile_write_touch_tag">Прыкладзіце пазнаку для яе запісу</string>
-  <string name="profile_write_success">Пазнака пасьпяхова запісана</string>
+  <string name="profile_write_success">Пазнака паспяхова запісана</string>
   <string name="profile_write_failed">Памылка запісу пазнакі!</string>
   <string name="profile_selected">Абраны профіль: %1$s</string>
   <string name="profile_nfc_text">Запіс NFC-пазнакі для профілю дазволіць дотыкам абраць патрэбны профіль. Пры паўторным дотыку будзе адноўлены раней выкарыстоўваны профіль.</string>
@@ -338,7 +338,7 @@
   <string name="profile_choose_app">Абраць праграму</string>
   <!-- Profiles - system settings -->
   <string name="profile_system_settings_title">Налады сістэмы</string>
-  <string name="profile_lockmode_title">Блакаваньне экрану</string>
+  <string name="profile_lockmode_title">Блакаванне экрану</string>
   <string name="profile_lockmode_policy_disabled_summary">Гэты профілю адключаны адміністратарам прылады</string>
   <string name="profile_lockmode_insecure_summary">Не запытваць PIN-код ці пароль</string>
   <string name="profile_lockmode_disabled_summary">Адключыць экран блакавання</string>
@@ -422,12 +422,12 @@
 <b>Апошняе абнаўленне:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Аўтапаварот экрана</string>
-  <string name="display_rotation_title">Параметры кручэння</string>
+  <string name="display_rotation_title">Параметры аўтапаварота</string>
   <string name="display_rotation_enabled">Аўтапаварот уключаны</string>
   <string name="display_rotation_disabled">Аўтапаварот адключаны</string>
   <string name="display_rotation_unit">градусаў</string>
   <string name="display_lockscreen_rotation_title">Аўтапаварот экрана блакавання</string>
-  <string name="display_rotation_category_title">Рэжымы кручэння</string>
+  <string name="display_rotation_category_title">Рэжымы аўтапаварота</string>
   <string name="display_rotation_0_title">0 градусаў</string>
   <string name="display_rotation_90_title">90 градусаў</string>
   <string name="display_rotation_180_title">180 градусаў</string>
