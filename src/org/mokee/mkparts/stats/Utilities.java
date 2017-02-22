@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@ package org.mokee.mkparts.stats;
 import com.mokee.os.Build;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
@@ -76,4 +77,11 @@ public class Utilities {
         setLastJobId(context, lastId);
         return lastId;
     }
+
+    public static boolean isWifiOnly(Context context) {
+        ConnectivityManager cm = (ConnectivityManager)context.getSystemService(
+                Context.CONNECTIVITY_SERVICE);
+        return (cm.isNetworkSupported(ConnectivityManager.TYPE_MOBILE) == false);
+    }
+
 }

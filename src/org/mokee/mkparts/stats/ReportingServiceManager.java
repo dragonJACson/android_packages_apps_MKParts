@@ -22,7 +22,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.SystemProperties;
 import android.os.UserHandle;
+import android.text.TextUtils;
 import android.util.Log;
 
 public class ReportingServiceManager extends BroadcastReceiver {
@@ -86,7 +88,8 @@ public class ReportingServiceManager extends BroadcastReceiver {
         } else if (!currentVersion.equals(prefVersion)) {
             shouldSync = true;
         }
-        if (shouldSync) {
+        if (shouldSync && Utilities.isWifiOnly(ctx) ||
+                shouldSync && !Utilities.isWifiOnly(ctx) && !TextUtils.isEmpty(SystemProperties.get("gsm.version.baseband"))) {
             Intent sIntent = new Intent();
             if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0) {
                 sIntent.setClass(ctx, ReportingService.class);
