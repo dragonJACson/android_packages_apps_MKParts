@@ -99,6 +99,7 @@
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicații protejate</string>
+  <string name="protected_apps_manager_summary">Gestionați care aplicații sunt ascunse după o blocare sigură</string>
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Contribuitori</string>
   <!-- Display : Rotation  -->

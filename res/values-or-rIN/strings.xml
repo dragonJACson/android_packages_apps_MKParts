@@ -20,6 +20,7 @@
   <!-- Generic stuff used everywhere -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
+  <string name="privacy_guard_manager_show_system_apps">ବିଲ୍‍ଟ୍‍-ଇନ୍‍ ଆପ୍ଲିକେସନ୍‍ ପ୍ରଦର୍ଶନ କରନ୍ତୁ</string>
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -52,17 +53,22 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_vibrate">କମ୍ପନ</string>
+  <string name="media_volume_title">ମିଡିଆ</string>
   <!-- Status bar -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
+  <string name="protected_apps_manager_title">ସୁରଷିତ ଆପ୍ଲିକେସନ୍‍ଗୁଡିକ</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <!-- Weather -->
+  <string name="status_bar_show_weather_title">ପାଣିପାଗ ଦେଖାନ୍ତୁ</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="power_notifications_vibrate_title">କମ୍ପନ</string>
   <!-- Gestures: Touchscreen gestures -->
 </resources>
