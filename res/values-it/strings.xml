@@ -368,15 +368,20 @@
   <string name="doze_title">Display Ambient</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra di stato</string>
-  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
-  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
-  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
-  <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
   <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Scorri la barra di stato verso il basso da %1$s per aprire le impostazioni rapide</string>
   <string name="status_bar_quick_qs_pulldown_off">Spenta</string>
   <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
   <string name="status_bar_quick_qs_pulldown_right">Destra</string>
+  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
+  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
+  <string name="status_bar_double_tap_to_sleep_title">Sospensione con doppio tocco</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere il display</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Icone barra di stato</string>
+  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
+  <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
+  <string name="status_bar_system_icons_summary">Scegli quali icone verranno visualizzate nella barra di stato</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Stile orologio</string>
   <string name="status_bar_clock_position_right">Destra</string>

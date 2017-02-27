@@ -369,15 +369,20 @@
   <string name="doze_title">Tela ambiente</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra de status</string>
-  <string name="status_bar_toggle_brightness">Controle de brilho</string>
-  <string name="status_bar_toggle_brightness_summary">Permite ajustar o brilho deslizando através da barra de status</string>
-  <string name="status_bar_notif_count_title">Mostrar contador de notificações</string>
-  <string name="status_bar_notif_count_summary">Mostra o número de notificações pendentes na barra de status</string>
   <string name="status_bar_quick_qs_pulldown_title">Deslizar rápido para baixo</string>
   <string name="status_bar_quick_qs_pulldown_summary">borda %1$s da barra de status puxa as Configurações Rápidas</string>
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
+  <string name="status_bar_toggle_brightness">Controle de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Permite ajustar o brilho deslizando através da barra de status</string>
+  <string name="status_bar_double_tap_to_sleep_title">Toque duplo para dormir</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status para desligar a tela</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Ícones da barra de status</string>
+  <string name="status_bar_notif_count_title">Mostrar contador de notificações</string>
+  <string name="status_bar_notif_count_summary">Mostra o número de notificações pendentes na barra de status</string>
+  <string name="status_bar_system_icons_summary">Controle quais ícones da barra de status são mostrados</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Estilo do relógio</string>
   <string name="status_bar_clock_position_right">Direita</string>

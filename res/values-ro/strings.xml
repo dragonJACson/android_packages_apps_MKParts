@@ -93,6 +93,9 @@
   <string name="ring_mode_mute">Dezact. sunetul</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Oprit</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dublă-apăsare pentru stand-by</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Atingeți de două ori bara de stare pentru a dezactiva afișarea</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

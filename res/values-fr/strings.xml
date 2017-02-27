@@ -266,7 +266,7 @@
   <string name="profile_settings_summary_off">Les profils sont désactivés</string>
   <string name="profile_trigger_configure">Configurer l\'action</string>
   <string name="profile_write_nfc_tag">Programmer le tag NFC</string>
-  <string name="profile_write_touch_tag">Touchez le tag pour l\'enregistrer</string>
+  <string name="profile_write_touch_tag">Toucher le tag pour l\'enregistrer</string>
   <string name="profile_write_success">Tag enregistré avec succès</string>
   <string name="profile_write_failed">Tag non enregistré!</string>
   <string name="profile_selected">Profil sélectionné : %1$s</string>
@@ -290,10 +290,10 @@
   <string name="new_profile_name">&lt;Nouveau profil&gt;</string>
   <!-- Rename Dialog  -->
   <string name="rename_dialog_title">Renommer</string>
-  <string name="rename_dialog_message">Entrez un nouveau nom</string>
+  <string name="rename_dialog_message">Entrer un nouveau nom</string>
   <string name="rename_dialog_hint">Entrez le nom du profil</string>
   <!-- Reset Profiles -->
-  <string name="profile_reset_title">Rétablir</string>
+  <string name="profile_reset_title">Réinitialiser</string>
   <string name="profile_reset_message">Supprimer tous les profils et groupes d\'applications et restaurer la configuration par défaut?</string>
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
@@ -333,11 +333,11 @@
   <string name="profile_applist_title">Applications</string>
   <string name="profile_new_appgroup">Nouveau groupe d\'applications</string>
   <string name="profile_delete_appgroup">Supprimer ce groupe d\'applications?</string>
-  <string name="profile_appgroup_name_prompt">Entrez un nom pour le nouveau groupe d\'applications</string>
+  <string name="profile_appgroup_name_prompt">Entrer un nom pour le nouveau groupe d\'applications</string>
   <string name="profile_appgroup_name_title">Nom: </string>
   <string name="duplicate_appgroup_name">Nom du groupe d\'applications déjà utilisé !</string>
   <!-- Add application dialog box title -->
-  <string name="profile_choose_app">Choisissez une application</string>
+  <string name="profile_choose_app">Choisir une application</string>
   <!-- Profiles - system settings -->
   <string name="profile_system_settings_title">Paramètres Système</string>
   <string name="profile_lockmode_title">Mode de verrouillage de l\'écran</string>
@@ -349,7 +349,7 @@
   <string name="profile_brightness_override_summary">Définir à %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Modifier la luminosité</string>
   <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleWifi">Wi-Fi</string>
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Point d\'accès Wi\u2011Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
@@ -357,7 +357,7 @@
   <string name="toggleSync">Synchronisation automatique des données</string>
   <string name="toggle2g3g4g">Type de réseau préféré</string>
   <string name="toggle2g3g4g_msim">Type de réseau préféré (%1$s)</string>
-  <string name="toggleNfc">CCP</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Sonnerie</string>
   <string name="ring_mode_normal">Standard</string>
@@ -371,16 +371,23 @@
   <string name="doze_title">Affichage ambiant</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barre d\'état</string>
-  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
-  <string name="status_bar_toggle_brightness_summary">Ajuster le niveau de luminosité sur la barre d\'état</string>
-  <string name="status_bar_notif_count_title">Afficher le nombre de notifications</string>
-  <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <string name="status_bar_quick_qs_pulldown_title">Ouverture rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
   <string name="status_bar_quick_qs_pulldown_right">Droite</string>
+  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste le niveau de luminosité sur la barre d\'état</string>
+  <string name="status_bar_double_tap_to_sleep_title">Appui double pour mettre en veille</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Appui double sur la barre d\'état pour éteindre l\'écran</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Icônes de la barre d’état</string>
+  <string name="status_bar_notif_count_title">Afficher le nombre de notifications</string>
+  <string name="status_bar_notif_count_summary">Affiche le nombre de notifications en attente</string>
+  <string name="status_bar_system_icons_title">Préférence d’affichage des icônes système</string>
+  <string name="status_bar_system_icons_summary">Liste les icônes pouvant être affiché ou masqué dans la barre d\'état</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Personnalisation de l\'horloge</string>
   <string name="status_bar_clock_position_title">Position de l’horloge</string>
   <string name="status_bar_clock_position_right">À droite</string>
   <string name="status_bar_clock_position_left">À gauche</string>
@@ -391,20 +398,21 @@
   <string name="status_bar_am_pm_small">Petit</string>
   <string name="status_bar_am_pm_hidden">Masqué</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_title">Affichage du niveau de batterie</string>
-  <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+  <string name="status_bar_battery_title">Personnalisation de la batterie</string>
+  <string name="status_bar_battery_style_title">Type d\'icône de la batterie</string>
+  <string name="status_bar_battery_style_icon_portrait">Icône au format portrait</string>
+  <string name="status_bar_battery_style_icon_landscape">Icône au format paysage</string>
   <string name="status_bar_battery_style_circle">Cercle</string>
   <string name="status_bar_battery_style_text">Texte</string>
   <string name="status_bar_battery_style_hidden">Masqué</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+  <string name="status_bar_battery_percentage_title">Indicateur du niveau de batterie</string>
   <string name="status_bar_battery_percentage_default">Masqué</string>
   <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
   <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icônes de la barre d’état</string>
-  <string name="status_bar_icons_summary">Réorganiser les icônes de la barre d\'état</string>
+  <string name="status_bar_icons_summary">Liste les icônes pouvant être affiché ou masqué dans la barre d\'état</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Applications protégées</string>
   <string name="protected_apps_manager_summary">Gérer quelles applications sont protégées par un verrou de sécurité</string>
@@ -440,7 +448,7 @@
   <string name="weather_settings_no_services_summary">Installer un fournisseur de services météorologiques pour recevoir des Bulletins météo</string>
   <string name="weather_settings_button">Paramètres du fournisseur</string>
   <string name="weather_settings_activity_not_found">Impossible d\'accéder aux paramètres de ce fournisseur</string>
-  <string name="weather_settings_add_weather_provider">Ajouter un fournisseur de météo</string>
+  <string name="weather_settings_add_weather_provider">Ajouter un fournisseur de services météorologiques</string>
   <string name="weather_settings_general_settings_title">Général</string>
   <string name="weather_settings_providers_title">Fournisseurs</string>
   <string name="weather_settings_temp_units_title">Unité de température</string>
@@ -448,26 +456,26 @@
   <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">météo</string>
   <string name="status_bar_show_weather_title">Afficher la météo</string>
-  <string name="status_bar_show_weather_summary">Afficher la température actuelle dans la barre d\'état</string>
+  <string name="status_bar_show_weather_summary">Affiche la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Économiseur de batterie et performances</string>
-  <string name="perf_profile_settings_summary">Régler les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
+  <string name="perf_profile_settings_title">Économiseur de batterie et de performances</string>
+  <string name="perf_profile_settings_summary">Gère les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
   <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">Performances de l\'appareil</string>
   <string name="perf_profile_title">Profil de performance : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">Le profil de performance est actuellement indisponible</string>
   <string name="power_save_category_title">Économie d\'énergie</string>
   <string name="power_save_title">Économie d\'énergie avancée</string>
-  <string name="power_save_summary">Limiter les performances et l\'activité en l\'arrière-plan pour économiser de l\'énergie</string>
-  <string name="auto_power_save_title">Économie d\'énergie automatique</string>
-  <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint%s</string>
+  <string name="power_save_summary">Limite les performances et l\'activité en l\'arrière-plan pour économiser de l\'énergie</string>
+  <string name="auto_power_save_title">Gestion automatique de l\'économie d\'énergie</string>
+  <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint %s</string>
   <string name="auto_power_save_summary_off">Ne pas activer automatiquement le mode d\'économie d\'énergie</string>
   <string name="app_perf_profiles_title">Optimisation automatique</string>
-  <string name="app_perf_profiles_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications et scenarios d\'utilisation</string>
+  <string name="app_perf_profiles_summary">Choisit automatiquement le profil de performance le plus approprié pour les différentes applications et scenarios d\'utilisation</string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Bureau étendu</string>
-  <string name="expanded_desktop_settings_summary">Étendre l\'espace de bureau disponible en cachant la barre d\'état, barre de navigation, ou les deux</string>
+  <string name="expanded_desktop_settings_summary">Étend l\'espace de bureau disponible en cachant la barre d\'état, barre de navigation, ou les deux</string>
   <string name="expanded_desktop_options_title">Options de personnalisation</string>
   <string name="expanded_desktop_style_title">Style de bureau étendu</string>
   <string name="expanded_desktop_style_hide_nothing">Ne rien masquer</string>
@@ -478,7 +486,7 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Tonalité de charge</string>
   <string name="charging_sounds_enabled_title">Activé</string>
-  <string name="charging_sounds_enabled_summary">Émettre un son lors de la connexion ou de la déconnexion d\'une source d\'alimentation</string>
+  <string name="charging_sounds_enabled_summary">Émet un son lors de la connexion ou de la déconnexion d\'une source d\'alimentation</string>
   <string name="power_notifications_vibrate_title">Vibreur</string>
   <string name="charging_sounds_ringtone_title">Son de notification</string>
   <string name="charging_sounds_ringtone_silent">Silencieux</string>

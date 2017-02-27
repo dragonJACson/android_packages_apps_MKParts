@@ -368,15 +368,20 @@
   <string name="doze_title">Ambientní displej</string>
   <!-- Status bar -->
   <string name="status_bar_title">Stavová lišta</string>
-  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
-  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
-  <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
-  <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
   <string name="status_bar_quick_qs_pulldown_title">Rychlé stažení nabídky</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <string name="status_bar_quick_qs_pulldown_left">Levá</string>
   <string name="status_bar_quick_qs_pulldown_right">Pravá</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dvojím klepnutím uspat</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dvakrát klepnout na stavovou lištu pro vypntí displeje</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Ikony stavové lišty</string>
+  <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
+  <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
+  <string name="status_bar_system_icons_summary">Nastavení, které ikony jsou zobrazeny na stavové liště</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Pozice hodin</string>
   <string name="status_bar_clock_position_right">Pravá</string>

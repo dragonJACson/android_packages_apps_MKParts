@@ -76,6 +76,9 @@
   <string name="ring_mode_vibrate">Titrəmə</string>
   <string name="ring_mode_mute">Susdurun</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">Yuxuya keçmək üçün iki dəfə toxun</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Ekranı bağlamaq üçün durum sətrinə iki dəfə toxunun</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

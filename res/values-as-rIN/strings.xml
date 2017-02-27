@@ -56,6 +56,9 @@
   <string name="ring_mode_vibrate">ভাইব্ৰেট</string>
   <string name="media_volume_title">মিডিয়া</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">সুপ্ত কৰিবলৈ দুবাৰ টেপ কৰক</string>
+  <string name="status_bar_double_tap_to_sleep_summary">প্রদর্শন অফ কৰিবলৈ ষ্টেটাছ বাৰত দুবাৰ ক্লিক কৰক</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

@@ -136,6 +136,7 @@
   <string name="live_display_color_profile_adaptive_summary">Колеру адаптуюцца да ўмоў навакольнага асяроддзя</string>
   <string name="live_display_color_profile_reading_title">Чытанне</string>
   <string name="live_display_color_profile_reading_summary">Больш цёплы колеру для меншага напружання вачэй</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="color_calibration_title">Калібраваньне колераў</string>
   <string name="color_calibration_summary">Налада колераперадачы экрана</string>
   <string name="color_red_title">Чырвоны</string>
@@ -369,16 +370,23 @@
   <string name="doze_title">Індыкацыя падзей</string>
   <!-- Status bar -->
   <string name="status_bar_title">Радок стану</string>
-  <string name="status_bar_toggle_brightness">Кіраванне яскравасцю</string>
-  <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
-  <string name="status_bar_notif_count_title">Лічыльнік апавяшчэнняў</string>
-  <string name="status_bar_notif_count_summary">Паказваць колькасць новых апавяшчэнняў у радку стану</string>
   <string name="status_bar_quick_qs_pulldown_title">Хуткі доступ</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s рог радка стану выцягвае хуткія налады</string>
   <string name="status_bar_quick_qs_pulldown_off">Адключаны</string>
   <string name="status_bar_quick_qs_pulldown_left">Улева</string>
   <string name="status_bar_quick_qs_pulldown_right">Управа</string>
+  <string name="status_bar_toggle_brightness">Кіраванне яскравасцю</string>
+  <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
+  <string name="status_bar_double_tap_to_sleep_title">Выключаць экран пры падвойным націску</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Двойчы дакраніцеся радка стану, каб перавесці прыладу ў спячы рэжым</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Значкі ў радку стану</string>
+  <string name="status_bar_notif_count_title">Лічыльнік апавяшчэнняў</string>
+  <string name="status_bar_notif_count_summary">Паказваць колькасць новых апавяшчэнняў у радку стану</string>
+  <string name="status_bar_system_icons_title">Сістэмныя цэтлікі</string>
+  <string name="status_bar_system_icons_summary">Налада бачнасці значкоў</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Гадзіннік</string>
   <string name="status_bar_clock_position_title">Варыянт гадзінніка</string>
   <string name="status_bar_clock_position_right">Управа</string>
   <string name="status_bar_clock_position_left">Улева</string>
@@ -389,6 +397,7 @@
   <string name="status_bar_am_pm_small">Маленькі</string>
   <string name="status_bar_am_pm_hidden">Схаваць</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Індыкатар батарэі</string>
   <string name="status_bar_battery_style_title">Варыянт адлюстроўвання батарэі</string>
   <string name="status_bar_battery_style_icon_portrait">Вертыкальны значок</string>
   <string name="status_bar_battery_style_icon_landscape">Гарызантальны значок</string>

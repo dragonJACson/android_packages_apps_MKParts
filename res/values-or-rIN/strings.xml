@@ -56,6 +56,9 @@
   <string name="ring_mode_vibrate">କମ୍ପନ</string>
   <string name="media_volume_title">ମିଡିଆ</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">ଶୋ‍ଇବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
+  <string name="status_bar_double_tap_to_sleep_summary">ଡିସ୍‍ପ୍ଲେ ଅଫ୍‍ କରିବା ପାଇଁ ଷ୍ଟାଟସ୍‍ ବାର୍‍ରେ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

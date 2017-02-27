@@ -66,6 +66,9 @@
   <string name="ring_mode_vibrate">Vibrar</string>
   <string name="media_volume_title">Multimedia</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">Doble toque pa bloquiar</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Calca dos vegaes na barra d\'estáu p\'apagar la pantalla</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

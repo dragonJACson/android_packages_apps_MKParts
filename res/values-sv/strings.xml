@@ -292,10 +292,14 @@
   <string name="alarm_volume_title">Alarm</string>
   <!-- Status bar -->
   <string name="status_bar_title">Statusfält</string>
-  <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
   <string name="status_bar_quick_qs_pulldown_off">Av</string>
   <string name="status_bar_quick_qs_pulldown_left">Vänster</string>
   <string name="status_bar_quick_qs_pulldown_right">Höger</string>
+  <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dubbeltryck för att släcka</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dubbeltryck på statusfältet för att stänga av skärmen</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Statusfältikoner</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Klockposition</string>
   <string name="status_bar_clock_position_right">Höger</string>

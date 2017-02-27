@@ -74,6 +74,9 @@
   <string name="ring_mode_mute">म्यूट करें</string>
   <string name="media_volume_title">माध्यम</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">निद्रा के लिए दो बार टैप करें</string>
+  <string name="status_bar_double_tap_to_sleep_summary">डिस्प्ले को बंद करने के लिए स्थिति पट्टी पर दो बार टैप करें</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

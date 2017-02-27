@@ -84,6 +84,9 @@
   <string name="ring_mode_mute">بی‌صدا</string>
   <string name="media_volume_title">رسانه</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">دو بار ضربه برای به خواب رفتن</string>
+  <string name="status_bar_double_tap_to_sleep_summary">خاموش شدن صفحه با دوبار ضربه زدن روی نوار وضعیت</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

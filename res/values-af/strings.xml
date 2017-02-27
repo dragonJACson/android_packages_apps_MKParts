@@ -80,6 +80,9 @@
   <string name="ring_mode_vibrate">Vibreer</string>
   <string name="ring_mode_mute">Demp</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">Klop-Klop om te slaap</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dubbel klop op die statusbalk om skerm af te skakel</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Teks</string>

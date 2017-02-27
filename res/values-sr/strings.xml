@@ -105,6 +105,9 @@
   <string name="media_volume_title">Медија</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Искључене</string>
+  <string name="status_bar_double_tap_to_sleep_title">Дупли-додир за спавање</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Двапут додирни статусну траку да искључиш дисплеј</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Текст</string>

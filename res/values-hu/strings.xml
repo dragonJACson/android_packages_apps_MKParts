@@ -119,6 +119,9 @@
   <string name="media_volume_title">Média</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Ki</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dupla érintésre alvó mód</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Érintse meg kétszer az állapotsávot a kijelző kikapcsolásához</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Normál</string>
   <!-- Status bar - Battery -->

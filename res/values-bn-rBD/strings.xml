@@ -81,6 +81,8 @@
   <string name="media_volume_title">মিডিয়া</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Off</string>
+  <string name="status_bar_double_tap_to_sleep_title">দুই টোকা দিয়ে নিদ্রা</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

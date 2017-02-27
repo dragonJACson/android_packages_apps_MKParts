@@ -237,6 +237,9 @@
   <string name="ring_mode_mute">Kutt lyden</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Av</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dobbeltapp for å sove</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dobbelttapp på statuslinjen for å slå av skjermen</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Tekst</string>

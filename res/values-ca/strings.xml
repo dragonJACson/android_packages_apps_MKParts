@@ -345,15 +345,20 @@
   <string name="doze_title">Pantalla ambient</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra d\'estat</string>
-  <string name="status_bar_toggle_brightness">Control de lluminositat</string>
-  <string name="status_bar_toggle_brightness_summary">Ajusta la lluminositat lliscant a través de la barra d\'estat</string>
-  <string name="status_bar_notif_count_title">Mostra comptador de notificacions</string>
-  <string name="status_bar_notif_count_summary">Mostra el nombre de notificacions pendents</string>
   <string name="status_bar_quick_qs_pulldown_title">Baixada ràpida</string>
   <string name="status_bar_quick_qs_pulldown_summary">La vora %1$s de la barra d\'estat desplega el panell d\'ajustos ràpids</string>
   <string name="status_bar_quick_qs_pulldown_off">No</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerra</string>
   <string name="status_bar_quick_qs_pulldown_right">Dreta</string>
+  <string name="status_bar_toggle_brightness">Control de lluminositat</string>
+  <string name="status_bar_toggle_brightness_summary">Ajusta la lluminositat lliscant a través de la barra d\'estat</string>
+  <string name="status_bar_double_tap_to_sleep_title">Pica dues vegades per posar en repòs</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Pica dues vegades a la barra d\'estat per apagar la pantalla</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Icones de la barra d\'estat</string>
+  <string name="status_bar_notif_count_title">Mostra comptador de notificacions</string>
+  <string name="status_bar_notif_count_summary">Mostra el nombre de notificacions pendents</string>
+  <string name="status_bar_system_icons_summary">Controla quines icones de la barra d\'estat es mostren</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Estil del rellotge</string>
   <string name="status_bar_clock_position_right">Dreta</string>

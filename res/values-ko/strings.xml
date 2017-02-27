@@ -127,6 +127,9 @@
   <string name="media_volume_title">미디어</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">끄기</string>
+  <string name="status_bar_double_tap_to_sleep_title">탭하여 화면 끄기</string>
+  <string name="status_bar_double_tap_to_sleep_summary">상태 표시줄에 더블 탭하여 화면 끄기</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">정상</string>
   <!-- Status bar - Battery -->

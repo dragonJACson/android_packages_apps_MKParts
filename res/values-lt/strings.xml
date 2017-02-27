@@ -90,6 +90,9 @@
   <string name="media_volume_title">Medija</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Išjungti</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dukart bakstelėti, kad užmigdyti</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dukart bakstelėti būsenos juostą, kad išjungti ekraną</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

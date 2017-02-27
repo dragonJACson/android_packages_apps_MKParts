@@ -62,6 +62,9 @@
   <string name="ring_mode_vibrate">Vibréieren</string>
   <string name="media_volume_title">Medien</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">Zweemol drécke fir auszemaachen</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Zweemol drécken op der Statusläischt mécht de Schierm aus</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

@@ -101,6 +101,9 @@
   <string name="media_volume_title">מדיה</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">ללא</string>
+  <string name="status_bar_double_tap_to_sleep_title">הקשה כפולה לכיבוי מסך</string>
+  <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים בשורת המצב כדי לכבות את המסך</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">טקסט</string>

@@ -369,15 +369,20 @@
   <string name="doze_title">Inaktivitätsdisplay</string>
   <!-- Status bar -->
   <string name="status_bar_title">Statusleiste</string>
-  <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
-  <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
-  <string name="status_bar_notif_count_title">Benachrichtigungszähler</string>
-  <string name="status_bar_notif_count_summary">Anzahl der ungelesenen Benachrichtigungen in der Statusleiste anzeigen</string>
   <string name="status_bar_quick_qs_pulldown_title">Schnelles Öffnen</string>
   <string name="status_bar_quick_qs_pulldown_summary">Herunterziehen der Benachrichtigungsleiste am %1$s Rand öffnet die Schnelleinstellungen</string>
   <string name="status_bar_quick_qs_pulldown_off">Aus</string>
   <string name="status_bar_quick_qs_pulldown_left">Links</string>
   <string name="status_bar_quick_qs_pulldown_right">Rechts</string>
+  <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+  <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
+  <string name="status_bar_double_tap_to_sleep_title">Standby durch doppeltes Tippen</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppelt auf die Statusleiste tippen, um das Display auszuschalten</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Statusleistensymbole</string>
+  <string name="status_bar_notif_count_title">Benachrichtigungszähler</string>
+  <string name="status_bar_notif_count_summary">Anzahl der ungelesenen Benachrichtigungen in der Statusleiste anzeigen</string>
+  <string name="status_bar_system_icons_summary">Festlegen, welche Statusleistensymbole angezeigt werden</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Darstellung der Uhr</string>
   <string name="status_bar_clock_position_right">Rechts</string>

@@ -65,6 +65,9 @@
   <string name="ring_mode_vibrate">कंपन करा</string>
   <string name="media_volume_title">मीडिया</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">झोपेसाठी दुहेरी-टॅप करा</string>
+  <string name="status_bar_double_tap_to_sleep_summary">प्रदर्शन बंद करण्यासाठी स्थिती बारवर दुहेरी-टॅप करा</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

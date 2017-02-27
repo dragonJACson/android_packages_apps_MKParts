@@ -79,6 +79,9 @@
   <string name="media_volume_title">மீடியா</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">அணை</string>
+  <string name="status_bar_double_tap_to_sleep_title">உறங்குவதற்கு இருமுறை தட்டு</string>
+  <string name="status_bar_double_tap_to_sleep_summary">காட்சியை ஆஃப் செய்ய நிலை பட்டை மீது இருமுறை தட்டு</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

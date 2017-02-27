@@ -369,15 +369,20 @@
   <string name="doze_title">Активація екрана</string>
   <!-- Status bar -->
   <string name="status_bar_title">Рядок стану</string>
-  <string name="status_bar_toggle_brightness">Керування яскравістю</string>
-  <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
-  <string name="status_bar_notif_count_title">Показати лічильник сповіщень</string>
-  <string name="status_bar_notif_count_summary">Показувати кількість очікуючих сповіщень</string>
   <string name="status_bar_quick_qs_pulldown_title">Швидкий доступ</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s край рядка сповіщень відкриває Швидкі налаштування</string>
   <string name="status_bar_quick_qs_pulldown_off">Вимкнути</string>
   <string name="status_bar_quick_qs_pulldown_left">Лівий</string>
   <string name="status_bar_quick_qs_pulldown_right">Правий</string>
+  <string name="status_bar_toggle_brightness">Керування яскравістю</string>
+  <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
+  <string name="status_bar_double_tap_to_sleep_title">Подвійний тап для режиму сну</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Подвійний тап для вимкнення дісплея</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Значки в рядку стану</string>
+  <string name="status_bar_notif_count_title">Показати лічильник сповіщень</string>
+  <string name="status_bar_notif_count_summary">Показувати кількість очікуючих сповіщень</string>
+  <string name="status_bar_system_icons_summary">Керування відображенням піктограм в панелі статусу</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Позиція годинника</string>
   <string name="status_bar_clock_position_right">Праворуч</string>

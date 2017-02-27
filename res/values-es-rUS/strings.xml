@@ -165,6 +165,9 @@
   <string name="media_volume_title">Multimedia</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
+  <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Pulsa dos veces la barra de estado para apagar la pantalla</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Normal</string>
   <!-- Status bar - Battery -->

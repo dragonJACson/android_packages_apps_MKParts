@@ -113,6 +113,9 @@
   <string name="media_volume_title">Phương tiện</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Tắt</string>
+  <string name="status_bar_double_tap_to_sleep_title">Chạm hai lần để tắt màn hình</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái để tắt màn hình hiển thị</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Bình thường</string>
   <!-- Status bar - Battery -->

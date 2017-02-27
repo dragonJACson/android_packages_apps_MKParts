@@ -72,6 +72,7 @@
   <!-- Sound settings screen -->
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">Off</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

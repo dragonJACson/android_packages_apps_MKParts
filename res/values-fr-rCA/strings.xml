@@ -371,16 +371,23 @@
   <string name="doze_title">Affichage ambiant</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barre d\'état</string>
-  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
-  <string name="status_bar_toggle_brightness_summary">Ajuster le niveau de luminosité sur la barre d\'état</string>
-  <string name="status_bar_notif_count_title">Afficher le nombre de notifications</string>
-  <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <string name="status_bar_quick_qs_pulldown_title">Ouverture rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
   <string name="status_bar_quick_qs_pulldown_right">Droite</string>
+  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuster le niveau de luminosité sur la barre d\'état</string>
+  <string name="status_bar_double_tap_to_sleep_title">Double appui pour mettre en veille</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Appui double sur la barre d\'état pour éteindre l\'écran</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Icônes de la barre d’état</string>
+  <string name="status_bar_notif_count_title">Afficher le nombre de notifications</string>
+  <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
+  <string name="status_bar_system_icons_title">Préférence d’affichage des icônes système</string>
+  <string name="status_bar_system_icons_summary">Réorganiser les icônes de la barre d\'état</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Personnalisation de l\'horloge</string>
   <string name="status_bar_clock_position_title">Position de l’horloge</string>
   <string name="status_bar_clock_position_right">Droite</string>
   <string name="status_bar_clock_position_left">Gauche</string>
@@ -391,6 +398,7 @@
   <string name="status_bar_am_pm_small">Petit</string>
   <string name="status_bar_am_pm_hidden">Masqué</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Personnalisation de la batterie</string>
   <string name="status_bar_battery_style_title">Affichage du niveau de batterie</string>
   <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>

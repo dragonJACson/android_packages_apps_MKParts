@@ -73,6 +73,9 @@
   <string name="ring_mode_mute">ปิดเสียง</string>
   <string name="media_volume_title">สื่อ</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">แตะสองครั้งเพื่อปิดจอ</string>
+  <string name="status_bar_double_tap_to_sleep_summary">แตะสองครั้งที่แถบสถานะเพื่อปิดหน้าจอ</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->

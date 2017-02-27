@@ -102,6 +102,9 @@
   <string name="media_volume_title">وسائط</string>
   <!-- Status bar -->
   <string name="status_bar_quick_qs_pulldown_off">إيقاف</string>
+  <string name="status_bar_double_tap_to_sleep_title">المس مرتين لبدء وضع السكون</string>
+  <string name="status_bar_double_tap_to_sleep_summary">الضغط مرتين فوق شريط الحالة لإطفاء الشاشة</string>
+  <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
