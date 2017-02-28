@@ -136,6 +136,8 @@
   <string name="live_display_color_profile_adaptive_summary">As cores adaptam-se às condições do ambiente</string>
   <string name="live_display_color_profile_reading_title">Leitura</string>
   <string name="live_display_color_profile_reading_summary">Cores mais quentes para menos fadiga ocular</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Cores precisas para o espaço de cor sRGB</string>
   <string name="color_calibration_title">Calibração de cores</string>
   <string name="color_calibration_summary">Calibra as cores da tela</string>
   <string name="color_red_title">Vermelho</string>
@@ -382,8 +384,10 @@
   <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_notif_count_title">Mostrar contador de notificações</string>
   <string name="status_bar_notif_count_summary">Mostra o número de notificações pendentes na barra de status</string>
+  <string name="status_bar_system_icons_title">Ícones do sistema</string>
   <string name="status_bar_system_icons_summary">Controle quais ícones da barra de status são mostrados</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Relógio</string>
   <string name="status_bar_clock_position_title">Estilo do relógio</string>
   <string name="status_bar_clock_position_right">Direita</string>
   <string name="status_bar_clock_position_left">Esquerda</string>
@@ -394,6 +398,7 @@
   <string name="status_bar_am_pm_small">Pequeno</string>
   <string name="status_bar_am_pm_hidden">Oculto</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indicador de bateria</string>
   <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
   <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
   <string name="status_bar_battery_style_icon_landscape">Ícone paisagem</string>
