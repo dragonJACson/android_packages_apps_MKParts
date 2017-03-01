@@ -136,6 +136,8 @@
   <string name="live_display_color_profile_adaptive_summary">Přizpůsobit barvy okolním podmínkám</string>
   <string name="live_display_color_profile_reading_title">Čtení</string>
   <string name="live_display_color_profile_reading_summary">Teplejší barvy pro menší namáhání očí</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Barvy s přesností na barevný prostor sRGB</string>
   <string name="color_calibration_title">Kalibrace barev</string>
   <string name="color_calibration_summary">Kalibrovat barvy obrazovky</string>
   <string name="color_red_title">Červená</string>
@@ -302,6 +304,7 @@
   <string name="profile_networkmode_2g3g">2G/3G</string>
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="profile_volumeoverrides_title">Změna hlasitosti</string>
   <string name="connection_state_enabled">Povolit</string>
   <string name="volume_override_summary">Nastavit na %1$s/%2$s</string>
   <string name="profile_volume_override_checkbox_label">Měnit hlasitost</string>
@@ -381,17 +384,21 @@
   <string name="status_bar_icons_title">Ikony stavové lišty</string>
   <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
   <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
+  <string name="status_bar_system_icons_title">Systémové ikony</string>
   <string name="status_bar_system_icons_summary">Nastavení, které ikony jsou zobrazeny na stavové liště</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Hodiny</string>
   <string name="status_bar_clock_position_title">Pozice hodin</string>
   <string name="status_bar_clock_position_right">Pravá</string>
   <string name="status_bar_clock_position_left">Levá</string>
+  <string name="status_bar_clock_position_center">Uprostřed</string>
   <string name="status_bar_am_pm_title">AM/PM styl</string>
   <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
   <string name="status_bar_am_pm_normal">Normální</string>
   <string name="status_bar_am_pm_small">Malý</string>
   <string name="status_bar_am_pm_hidden">Skryté</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indikátor baterie</string>
   <string name="status_bar_battery_style_title">Styl ikony baterie</string>
   <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
   <string name="status_bar_battery_style_icon_landscape">Ikona na šířku</string>
@@ -504,4 +511,16 @@
   <string name="touchscreen_gesture_letter_s_title">Nakreslit písmeno „S“</string>
   <string name="touchscreen_gesture_letter_v_title">Nakreslit písmeno „V“</string>
   <string name="touchscreen_gesture_letter_w_title">Nakreslit písmeno „W“</string>
+  <string name="touchscreen_gesture_letter_z_title">Nakreslit písmeno „Z“</string>
+  <string name="touchscreen_gesture_action_dialog_title">Akce gest</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nedělat nic</string>
+  <string name="touchscreen_gesture_action_flashlight">Přepnout svítilnu</string>
+  <string name="touchscreen_gesture_action_camera">Spustit fotoaparát</string>
+  <string name="touchscreen_gesture_action_browser">Spustit prohlížeč internetu</string>
+  <string name="touchscreen_gesture_action_dialer">Spustit telefon</string>
+  <string name="touchscreen_gesture_action_email">Zobrazit e-maily</string>
+  <string name="touchscreen_gesture_action_messages">Zobrazit vaše zprávy</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Přehrávat / pozastavit hudbu</string>
+  <string name="touchscreen_gesture_action_previous_track">Přejít na předchozí skladbu</string>
+  <string name="touchscreen_gesture_action_next_track">Přeskočit na další skladbu</string>
 </resources>

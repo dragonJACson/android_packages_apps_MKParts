@@ -384,7 +384,7 @@
   <string name="status_bar_notif_count_title">Лічыльнік апавяшчэнняў</string>
   <string name="status_bar_notif_count_summary">Паказваць колькасць новых апавяшчэнняў у радку стану</string>
   <string name="status_bar_system_icons_title">Сістэмныя цэтлікі</string>
-  <string name="status_bar_system_icons_summary">Налада бачнасці значкоў</string>
+  <string name="status_bar_system_icons_summary">Налада выгляду цэтлікаў</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Гадзіннік</string>
   <string name="status_bar_clock_position_title">Варыянт гадзінніка</string>
@@ -411,7 +411,6 @@
   <string name="status_bar_battery_percentage_text_next">Побач са значком</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Значкі ў радку стану</string>
-  <string name="status_bar_icons_summary">Налада бачнасці значкоў</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Заблакаваць дадаткі</string>
   <string name="protected_apps_manager_summary">Кіраванне праграмамі, для запуску якіх патрабуецца ўвод пароля</string>
