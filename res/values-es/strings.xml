@@ -58,6 +58,7 @@
   <string name="privacy_guard_notification_title">Mostrar notificación</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Editar los ajustes de iluminación</string>
+  <string name="pulse_speed_title">Frecuencia y duración del pulso</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Personalizado</string>
   <string name="dialog_delete_title">Borrar</string>
@@ -105,6 +106,11 @@
   <!-- LiveDisplay -->
   <string name="live_display_day">Día</string>
   <string name="live_display_night">Noche</string>
+  <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+  <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
+  <string name="live_display_enhance_color_title">Mejorar colores</string>
+  <string name="live_display_enhance_color_summary">Mejorar la viveza de color de tonos de piel, paisajes y otras imágenes</string>
+  <string name="live_display_color_profile_title">Perfil de color</string>
   <string name="live_display_color_profile_natural_title">Natural</string>
   <string name="color_red_title">Rojo</string>
   <string name="color_green_title">Verde</string>
@@ -159,6 +165,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Normal</string>
   <string name="ring_mode_vibrate">Vibrar</string>
