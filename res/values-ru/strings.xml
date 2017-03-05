@@ -136,6 +136,7 @@
   <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
   <string name="live_display_color_profile_reading_title">Чтение</string>
   <string name="live_display_color_profile_reading_summary">Тёплые цвета для меньшего напряжения глаз</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="color_calibration_title">Цвет</string>
   <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
   <string name="color_red_title">Красный</string>
@@ -171,6 +172,8 @@
   <string name="hardware_keys_action_sleep">Выключить экран</string>
   <string name="hardware_keys_action_last_app">Предыдущее приложение</string>
   <string name="hardware_keys_action_split_screen">Разделение экрана</string>
+  <string name="hardware_keys_action_single_handed_left">Режим одной руки (левая)</string>
+  <string name="hardware_keys_action_single_handed_right">Режим одной руки (правая)</string>
   <string name="camera_sleep_on_release_title">Быстрый просмотр</string>
   <string name="camera_sleep_on_release_summary">Держать экран включённым только при удержании кнопки</string>
   <string name="camera_launch_title">Включить камеру</string>
@@ -382,8 +385,10 @@
   <string name="status_bar_icons_title">Значки в строке состояния</string>
   <string name="status_bar_notif_count_title">Счетчик уведомлений</string>
   <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
+  <string name="status_bar_system_icons_title">Системные значки</string>
   <string name="status_bar_system_icons_summary">Настройка видимости значков</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Часы</string>
   <string name="status_bar_clock_position_title">Стиль часов</string>
   <string name="status_bar_clock_position_right">Справа</string>
   <string name="status_bar_clock_position_left">Слева</string>
@@ -394,6 +399,7 @@
   <string name="status_bar_am_pm_small">Небольшой</string>
   <string name="status_bar_am_pm_hidden">Не показывать</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Значок батареи</string>
   <string name="status_bar_battery_style_title">Индикатор батареи</string>
   <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
   <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>

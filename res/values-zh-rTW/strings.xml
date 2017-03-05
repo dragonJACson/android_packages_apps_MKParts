@@ -173,6 +173,8 @@
   <string name="hardware_keys_action_sleep">關閉螢幕</string>
   <string name="hardware_keys_action_last_app">最後一個應用程式</string>
   <string name="hardware_keys_action_split_screen">分割視窗</string>
+  <string name="hardware_keys_action_single_handed_left">單手模式 (左)</string>
+  <string name="hardware_keys_action_single_handed_right">單手模式 (右)</string>
   <string name="camera_sleep_on_release_title">窺視螢幕</string>
   <string name="camera_sleep_on_release_summary">僅有當按住按鍵時，半按即可保持螢幕開啟。</string>
   <string name="camera_launch_title">開啟相機</string>

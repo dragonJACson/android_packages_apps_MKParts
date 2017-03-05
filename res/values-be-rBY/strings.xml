@@ -173,6 +173,8 @@
   <string name="hardware_keys_action_sleep">Выключыць экран</string>
   <string name="hardware_keys_action_last_app">Апошні дадатак</string>
   <string name="hardware_keys_action_split_screen">Падзяліць экран</string>
+  <string name="hardware_keys_action_single_handed_left">Рэжым адной рукі (левая)</string>
+  <string name="hardware_keys_action_single_handed_right">Рэжым адной рукі (правая)</string>
   <string name="camera_sleep_on_release_title">Хуткі агляд</string>
   <string name="camera_sleep_on_release_summary">Трымаць экран уключаным толькі пры ўтрымліванні кнопкі</string>
   <string name="camera_launch_title">Задзейнічаць камеру</string>
