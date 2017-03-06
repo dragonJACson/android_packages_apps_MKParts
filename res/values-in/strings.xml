@@ -81,7 +81,7 @@
   <string name="battery_low_pulse_title">Berkedip saat baterai lemah</string>
   <string name="battery_light_list_title">Warna</string>
   <string name="battery_light_low_color_title">Baterai lemah</string>
-  <string name="battery_light_medium_color_title">Pengisian Daya</string>
+  <string name="battery_light_medium_color_title">Mengisi</string>
   <string name="battery_light_full_color_title">Terisi penuh</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Lampu notifikasi</string>
@@ -96,12 +96,12 @@
   <string name="notification_light_screen_on">Lampu dengan layar yang menyala</string>
   <string name="notification_light_zen_mode">Lampu di mode Jangan Ganggu</string>
   <string name="notification_light_use_multiple_leds">Beberapa LED</string>
-  <string name="keywords_lights_brightness_level">lED redup kecerahan</string>
+  <string name="keywords_lights_brightness_level">kecerahan Led redup</string>
   <string name="notification_light_automagic">Memilih warna secara otomatis</string>
   <string name="notification_light_automagic_summary">Memilih warna otomatis</string>
   <!-- Lights settings, LED notification -->
-  <string name="led_notification_title">Pengaturan lampu</string>
-  <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
+  <string name="led_notification_title">Setelan lampu</string>
+  <string name="led_notification_text">Lampu LED diaktifkan oleh setelan</string>
   <string name="notification_light_no_apps_summary">Untuk menambahkan kontrol pada setiap aplikasi, aktifkan \'%1$s\' dan tekan \'\u002b\' pada bilah menu</string>
   <!-- LiveDisplay -->
   <string name="live_display_summary">Optimalkan layar berdasarkan waktu dan kondisi ruangan untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
@@ -136,6 +136,7 @@
   <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
   <string name="live_display_color_profile_reading_title">Membaca</string>
   <string name="live_display_color_profile_reading_summary">Warna-warna hangat untuk mengurangi kelelahan mata</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="color_calibration_title">Kalibrasi warna</string>
   <string name="color_calibration_summary">Kalibrasi warna layar</string>
   <string name="color_red_title">Merah</string>
@@ -171,6 +172,8 @@
   <string name="hardware_keys_action_sleep">Matikan layar</string>
   <string name="hardware_keys_action_last_app">Aplikasi terakhir</string>
   <string name="hardware_keys_action_split_screen">Tukar layar</string>
+  <string name="hardware_keys_action_single_handed_left">Satu tangan mode (kiri)</string>
+  <string name="hardware_keys_action_single_handed_right">Satu tangan mode (kanan)</string>
   <string name="camera_sleep_on_release_title">Intip layar</string>
   <string name="camera_sleep_on_release_summary">Menekan setengah akan menyalakan layar hanya saat tombol tertekan</string>
   <string name="camera_launch_title">Buka kamera</string>
@@ -382,8 +385,10 @@
   <string name="status_bar_icons_title">Ikon Status bar</string>
   <string name="status_bar_notif_count_title">Tampilkan hitungan pemberitahuan</string>
   <string name="status_bar_notif_count_summary">Tampilkan jumlah pemberitahuan yang tertunda</string>
+  <string name="status_bar_system_icons_title">Ikon sistem</string>
   <string name="status_bar_system_icons_summary">Atur baris Ikon yang ditampilkan</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Jam</string>
   <string name="status_bar_clock_position_title">Posisi jam</string>
   <string name="status_bar_clock_position_right">Kanan</string>
   <string name="status_bar_clock_position_left">Kiri</string>
@@ -394,6 +399,7 @@
   <string name="status_bar_am_pm_small">Kecil</string>
   <string name="status_bar_am_pm_hidden">Tersembunyi</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indikator Baterai</string>
   <string name="status_bar_battery_style_title">Gaya status baterai</string>
   <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
   <string name="status_bar_battery_style_icon_landscape">Ikon lanskap</string>
