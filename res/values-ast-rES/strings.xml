@@ -33,8 +33,12 @@
   <string name="notification_light_general_title">Xeneral</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Temperatura de color</string>
+  <string name="live_display_color_profile_standard_title">Estándar</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">Llanzar cámara</string>
+  <string name="camera_launch_title">Llanzar cámara</string>
   <!-- Key backlight -->
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
@@ -79,6 +83,10 @@
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Collaboradores</string>
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 graos</string>
+  <string name="display_rotation_90_title">90 graos</string>
+  <string name="display_rotation_180_title">180 graos</string>
+  <string name="display_rotation_270_title">270 graos</string>
   <!-- Weather -->
   <string name="weather_settings_general_settings_title">Xeneral</string>
   <string name="status_bar_show_weather_title">Amosar clima</string>
