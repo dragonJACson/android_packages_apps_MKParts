@@ -173,6 +173,8 @@
   <string name="hardware_keys_action_sleep">Éteindre l\'écran</string>
   <string name="hardware_keys_action_last_app">Dernière application ouverte</string>
   <string name="hardware_keys_action_split_screen">Écran partagé</string>
+  <string name="hardware_keys_action_single_handed_left">Utilisation à une main «Gaucher»</string>
+  <string name="hardware_keys_action_single_handed_right">Utilisation à une main «Droitier»</string>
   <string name="camera_sleep_on_release_title">Aperçu de l’écran</string>
   <string name="camera_sleep_on_release_summary">Un demi appui gardera l\'écran allumé seulement le temps de l\'appui</string>
   <string name="camera_launch_title">Lancer l\'appareil photo</string>
