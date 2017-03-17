@@ -230,8 +230,8 @@
   <string name="power_menu_sound_title">Panneau du son</string>
   <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
   <string name="volume_keys_control_ring_stream_title">Contrôler le volume de la sonnerie</string>
-  <string name="volume_keys_control_ring_stream_summary_on">Contrôle la puissance de la sonnerie avec les boutons de volume</string>
-  <string name="volume_keys_control_ring_stream_summary_off">Contrôler le son des médias avec les boutons de volume</string>
+  <string name="volume_keys_control_ring_stream_summary_on">Ajuste la puissance de la sonnerie avec les boutons de volume</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Ajuste le son des médias avec les boutons de volume</string>
   <string name="camera_double_tap_power_gesture_title">Appuyer deux fois sur le bouton Marche/Arrêt pour lancer l\'appareil photo</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ouvrir rapidement l\'appareil photo sans déverrouiller l\'écran</string>
@@ -280,7 +280,7 @@
   <string name="profile_populate_profile_from_state">Configurer le profil en utilisant les paramètres actuels de l\'appareil?</string>
   <string name="profile_menu_fill_from_state">Importer les paramètres actuels de l\'appareil</string>
   <string name="profile_remove_current_profile">Impossible de supprimer le profil actuel !</string>
-  <string name="profile_app_group_category_title">Supprimer les notifications</string>
+  <string name="profile_app_group_category_title">Modification des notifications</string>
   <string name="profile_app_group_item_instructions">Ajouter ou supprimer des groupes</string>
   <string name="profile_app_group_item_instructions_summary">Modification des paramètres de notification pour les groupes d\'applications dans ce profil</string>
   <!-- Profile mode options. -->
@@ -373,7 +373,7 @@
   <string name="doze_title">Affichage ambiant</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barre d\'état</string>
-  <string name="status_bar_quick_qs_pulldown_title">Ouverture rapide</string>
+  <string name="status_bar_quick_qs_pulldown_title">Déroulement rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
@@ -402,8 +402,8 @@
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_title">Personnalisation de la batterie</string>
   <string name="status_bar_battery_style_title">Type d\'icône de la batterie</string>
-  <string name="status_bar_battery_style_icon_portrait">Icône au format portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icône au format paysage</string>
+  <string name="status_bar_battery_style_icon_portrait">Vertical</string>
+  <string name="status_bar_battery_style_icon_landscape">Horizontal</string>
   <string name="status_bar_battery_style_circle">Cercle</string>
   <string name="status_bar_battery_style_text">Texte</string>
   <string name="status_bar_battery_style_hidden">Masqué</string>
@@ -460,20 +460,20 @@
   <string name="status_bar_show_weather_title">Afficher la météo</string>
   <string name="status_bar_show_weather_summary">Affiche la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Économiseur de batterie et de performances</string>
-  <string name="perf_profile_settings_summary">Gère les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
+  <string name="perf_profile_settings_title">Paramètres des performances et de l\'énergie</string>
+  <string name="perf_profile_settings_summary">Accéder aux fonctions d\'économie d\'énergie et des performances de l\'appareil</string>
   <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">Performances de l\'appareil</string>
   <string name="perf_profile_title">Profil de performance : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">Le profil de performance est actuellement indisponible</string>
   <string name="power_save_category_title">Économie d\'énergie</string>
-  <string name="power_save_title">Économie d\'énergie avancée</string>
-  <string name="power_save_summary">Limite les performances et l\'activité en l\'arrière-plan pour économiser de l\'énergie</string>
-  <string name="auto_power_save_title">Gestion automatique de l\'économie d\'énergie</string>
-  <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint %s</string>
-  <string name="auto_power_save_summary_off">Ne pas activer automatiquement le mode d\'économie d\'énergie</string>
+  <string name="power_save_title">Économiseur d\'énergie</string>
+  <string name="power_save_summary">Limite les performances et l\'activité en arrière-plan pour économiser de l\'énergie</string>
+  <string name="auto_power_save_title">Gestion automatique de l\'énergie</string>
+  <string name="auto_power_save_summary_on">Active l\'économiseur d\'énergie lorsque la batterie atteint %s</string>
+  <string name="auto_power_save_summary_off">Ne pas activer automatiquement l\'économiseur d\'énergie</string>
   <string name="app_perf_profiles_title">Optimisation automatique</string>
-  <string name="app_perf_profiles_summary">Choisit automatiquement le profil de performance le plus approprié pour les différentes applications et scenarios d\'utilisation</string>
+  <string name="app_perf_profiles_summary">Adapte le profil de performance en fonction des applications et des scénarios d\'utilisation</string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Bureau étendu</string>

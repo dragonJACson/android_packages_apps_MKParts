@@ -30,6 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Entrant</string>
   <string name="status_bar_network_traffic_style_all">Sortant et entrant</string>
   <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Appui long sur le bouton d\'alimentation pour la lampe de poche</string>
-  <string name="torch_long_press_power_gesture_desc">Activer la lampe de poche par un appui long sur le bouton d\'alimentation lorsque l\'écran est éteint</string>
+  <string name="torch_long_press_power_gesture_title">Un appui long sur le bouton d\'alimentation active la lampe de poche</string>
+  <string name="torch_long_press_power_gesture_desc">Permet au bouton d\'alimentation d\'activer la lampe torche lorsque l\'écran est éteint</string>
 </resources>
