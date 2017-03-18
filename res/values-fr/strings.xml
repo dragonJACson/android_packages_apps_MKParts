@@ -460,18 +460,18 @@
   <string name="status_bar_show_weather_title">Afficher la météo</string>
   <string name="status_bar_show_weather_summary">Affiche la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Paramètres des performances et de l\'énergie</string>
+  <string name="perf_profile_settings_title">Paramètres des performances et d\'énergie</string>
   <string name="perf_profile_settings_summary">Accéder aux fonctions d\'économie d\'énergie et des performances de l\'appareil</string>
   <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">Performances de l\'appareil</string>
   <string name="perf_profile_title">Profil de performance : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">Le profil de performance est actuellement indisponible</string>
   <string name="power_save_category_title">Économie d\'énergie</string>
-  <string name="power_save_title">Économiseur d\'énergie</string>
+  <string name="power_save_title">Économiseur de batterie</string>
   <string name="power_save_summary">Limite les performances et l\'activité en arrière-plan pour économiser de l\'énergie</string>
-  <string name="auto_power_save_title">Gestion automatique de l\'énergie</string>
-  <string name="auto_power_save_summary_on">Active l\'économiseur d\'énergie lorsque la batterie atteint %s</string>
-  <string name="auto_power_save_summary_off">Ne pas activer automatiquement l\'économiseur d\'énergie</string>
+  <string name="auto_power_save_title">Automatisation de la fonction économiseur</string>
+  <string name="auto_power_save_summary_on">Active l\'économiseur lorsque la batterie atteint %s</string>
+  <string name="auto_power_save_summary_off">Ne pas activer automatiquement l\'économiseur</string>
   <string name="app_perf_profiles_title">Optimisation automatique</string>
   <string name="app_perf_profiles_summary">Adapte le profil de performance en fonction des applications et des scénarios d\'utilisation</string>
   <string name="auto_power_save_never">Jamais</string>
