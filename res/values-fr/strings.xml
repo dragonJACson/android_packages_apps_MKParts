@@ -469,7 +469,7 @@
   <string name="power_save_category_title">Économie d\'énergie</string>
   <string name="power_save_title">Économiseur de batterie</string>
   <string name="power_save_summary">Limite les performances et l\'activité en arrière-plan pour économiser de l\'énergie</string>
-  <string name="auto_power_save_title">Automatisation de la fonction économiseur</string>
+  <string name="auto_power_save_title">Automatisation de l\'économiseur de batterie</string>
   <string name="auto_power_save_summary_on">Active l\'économiseur lorsque la batterie atteint %s</string>
   <string name="auto_power_save_summary_off">Ne pas activer automatiquement l\'économiseur</string>
   <string name="app_perf_profiles_title">Optimisation automatique</string>
