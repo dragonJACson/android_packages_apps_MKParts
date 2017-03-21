@@ -27,9 +27,13 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">رەڭ تېمپېراتۇرىسى</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">كامېرانى قوزغىتىڭ</string>
+  <string name="camera_launch_title">كامېرانى قوزغىتىڭ</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">قارشى نۇر</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -61,6 +65,7 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">تېكىست</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
@@ -68,6 +73,10 @@
   <string name="protected_apps_manager_summary">بىخەتەر قۇلۇپ تەرىپىدىن يوشۇرۇپ قويۇلغان ئەپنى باشقۇرۇش</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 گىرادۇس</string>
+  <string name="display_rotation_90_title">90 گىرادۇس</string>
+  <string name="display_rotation_180_title">180 گىرادۇس</string>
+  <string name="display_rotation_270_title">270 گىرادۇس</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
   <!-- Power: Performance profiles -->

@@ -25,10 +25,12 @@
   <string name="privacy_guard_manager_show_system_apps">Amosar aplicacións do sistema</string>
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_speed_fast">Rápido</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Cor de temperatura</string>
   <string name="live_display_color_profile_standard_title">65% (normal)</string>
   <string name="color_red_title">Vermello</string>
   <string name="color_green_title">Verde</string>
@@ -74,6 +76,7 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">Texto</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->

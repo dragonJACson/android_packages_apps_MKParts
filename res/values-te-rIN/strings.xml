@@ -29,6 +29,7 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">వర్ణ ఉష్ణోగ్రత</string>
   <string name="color_red_title">ఎరుపు రంగు</string>
   <string name="color_green_title">పచ్చ రంగు</string>
   <string name="color_blue_title">నీలి రంగు</string>
@@ -37,7 +38,10 @@
   <string name="adj_saturation_title">సంతృప్తీకరణ</string>
   <string name="adj_contrast_title">కాంట్రాస్ట్</string>
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">కెమెరాను ప్రారంభించు</string>
+  <string name="camera_launch_title">కెమెరాను ప్రారంభించు</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">వెనక లైట్</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -70,12 +74,17 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">పాఠం</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">రక్షించబడిన అనువర్తనాలు</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 డిగ్రీలు</string>
+  <string name="display_rotation_90_title">90 డిగ్రీలు</string>
+  <string name="display_rotation_180_title">180 డిగ్రీలు</string>
+  <string name="display_rotation_270_title">270 డిగ్రీలు</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">వాతావరణాన్ని చూపించు</string>
   <!-- Power: Performance profiles -->

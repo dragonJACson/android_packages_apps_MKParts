@@ -38,6 +38,7 @@
   <string name="notification_light_default_value">இயல்புநிலை</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">நிற தட்பவெப்பம்</string>
   <string name="live_display_day">பகல்</string>
   <string name="live_display_night">இரவு</string>
   <string name="color_red_title">சிவப்பு</string>
@@ -48,7 +49,10 @@
   <string name="adj_saturation_title">நிறைசெறிவுநிலை</string>
   <string name="adj_contrast_title">ஒளி மாறுபாடு</string>
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">கேமராவை தொடங்கு</string>
+  <string name="camera_launch_title">கேமராவை தொடங்கு</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">பேக்லைட்</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -84,12 +88,17 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">உரை</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">பாதுகாக்கப்பட்ட ஆப்ஸ்</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 டிகிரீ</string>
+  <string name="display_rotation_90_title">90 டிகிரீ</string>
+  <string name="display_rotation_180_title">180 டிகிரீ</string>
+  <string name="display_rotation_270_title">270 டிகிரீ</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">வானிலையை காட்டு</string>
   <!-- Power: Performance profiles -->

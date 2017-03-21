@@ -52,6 +52,7 @@
   <string name="dialog_delete_title">삭제</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">정상</string>
+  <string name="pulse_speed_fast">빠르게</string>
   <string name="pulse_speed_normal">정상</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->

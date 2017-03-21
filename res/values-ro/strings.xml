@@ -37,6 +37,7 @@
   <!-- Notification light dialogs -->
   <string name="dialog_delete_title">Ștergeţi</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_speed_fast">Rapid</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_phonelist_title">Telefon</string>
@@ -54,6 +55,8 @@
   <string name="adj_saturation_title">Saturație</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Butonul Meniu</string>
+  <string name="hardware_keys_action_launch_camera">Lansare cameră foto</string>
+  <string name="camera_launch_title">Lansare cameră foto</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Iluminare din spate</string>
   <!-- Buttons - Enable navbar -->

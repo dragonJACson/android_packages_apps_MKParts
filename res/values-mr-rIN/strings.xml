@@ -29,6 +29,7 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">रंग तापमान</string>
   <string name="color_red_title">लाल</string>
   <string name="color_green_title">हिरवा</string>
   <string name="color_blue_title">निळा</string>
@@ -37,7 +38,10 @@
   <string name="adj_saturation_title">संपृक्तता</string>
   <string name="adj_contrast_title">तीव्रता</string>
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">कॅमेरा सुरू करा</string>
+  <string name="camera_launch_title">कॅमेरा सुरू करा</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">पार्श्वप्रकाश</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -70,12 +74,17 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">मजकूर</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">संरक्षित अनुप्रयोग</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 अंश</string>
+  <string name="display_rotation_90_title">90 अंश</string>
+  <string name="display_rotation_180_title">180 अंश</string>
+  <string name="display_rotation_270_title">270 अंश</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">हवामान दर्शवा</string>
   <!-- Power: Performance profiles -->

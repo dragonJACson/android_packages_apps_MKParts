@@ -104,6 +104,7 @@
   <string name="led_notification_text">Luz LED habilitada por la configuración</string>
   <string name="notification_light_no_apps_summary">Para agregar al control de la aplicación, activar el \'%1$s\' y pulse \'\u002b\' en la barra de menú</string>
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Temperatura de color</string>
   <string name="live_display_day">Día</string>
   <string name="live_display_night">Noche</string>
   <string name="live_display_low_power_title">Reducir el consumo de energía</string>
@@ -111,6 +112,7 @@
   <string name="live_display_enhance_color_title">Mejorar colores</string>
   <string name="live_display_enhance_color_summary">Mejorar la viveza de color de tonos de piel, paisajes y otras imágenes</string>
   <string name="live_display_color_profile_title">Perfil de color</string>
+  <string name="live_display_color_profile_standard_title">Estándar</string>
   <string name="live_display_color_profile_natural_title">Natural</string>
   <string name="color_red_title">Rojo</string>
   <string name="color_green_title">Verde</string>
@@ -121,6 +123,8 @@
   <string name="adj_contrast_title">Contraste</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Botón de menú</string>
+  <string name="hardware_keys_action_launch_camera">Iniciar cámara</string>
+  <string name="camera_launch_title">Iniciar cámara</string>
   <string name="volbtn_cursor_control_off">Deshabilitado</string>
   <string name="volume_answer_call_title">Responder llamada</string>
   <string name="home_answer_call_title">Responder llamada</string>
@@ -188,6 +192,10 @@
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Colaboradores</string>
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 grados</string>
+  <string name="display_rotation_90_title">90 grados</string>
+  <string name="display_rotation_180_title">180 grados</string>
+  <string name="display_rotation_270_title">270 grados</string>
   <!-- Weather -->
   <string name="weather_settings_general_settings_title">General</string>
   <string name="status_bar_show_weather_title">Mostrar el clima</string>

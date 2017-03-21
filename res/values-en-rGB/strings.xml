@@ -38,6 +38,7 @@
   <string name="notification_light_default_value">Default</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Colour temperature</string>
   <string name="live_display_day">Day</string>
   <string name="live_display_night">Night</string>
   <!-- LiveDisplay : Picture Adjustment -->

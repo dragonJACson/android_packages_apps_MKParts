@@ -45,6 +45,7 @@
   <string name="dialog_delete_title">Xóa</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">Bình thường</string>
+  <string name="pulse_speed_fast">Nhanh</string>
   <string name="pulse_speed_normal">Bình thường</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
@@ -53,8 +54,10 @@
   <string name="notification_light_default_value">Mặc định</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Nhiệt độ màu</string>
   <string name="live_display_day">Ngày</string>
   <string name="live_display_night">Đêm</string>
+  <string name="live_display_color_profile_standard_title">Tiêu chuẩn</string>
   <string name="live_display_color_profile_natural_title">Tự nhiên</string>
   <string name="color_red_title">Đỏ</string>
   <string name="color_green_title">Lục</string>
@@ -65,10 +68,13 @@
   <string name="adj_contrast_title">Độ tương phản</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Nút trình đơn</string>
+  <string name="hardware_keys_action_launch_camera">Khởi động máy ảnh</string>
+  <string name="camera_launch_title">Khởi động máy ảnh</string>
   <string name="volbtn_cursor_control_off">Đã tắt</string>
   <string name="volume_answer_call_title">Trả lời cuộc gọi</string>
   <string name="home_answer_call_title">Trả lời cuộc gọi</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">Đèn nền</string>
   <string name="backlight_summary_disabled">Đã tắt</string>
   <string name="backlight_summary_enabled">Kích hoạt</string>
   <!-- Buttons - Enable navbar -->
@@ -119,6 +125,7 @@
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Bình thường</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">Văn bản</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
@@ -127,6 +134,10 @@
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Người đóng góp</string>
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 độ</string>
+  <string name="display_rotation_90_title">90 độ</string>
+  <string name="display_rotation_180_title">180 độ</string>
+  <string name="display_rotation_270_title">270 độ</string>
   <!-- Weather -->
   <string name="weather_settings_general_settings_title">Thiết lập chung</string>
   <string name="status_bar_show_weather_title">Hiển thị thời tiết</string>

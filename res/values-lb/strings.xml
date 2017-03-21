@@ -32,10 +32,14 @@
   <string name="notification_light_default_value">Standard</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">Faarftemperatur</string>
   <string name="live_display_night">Nuecht</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">Fotoapparat starten</string>
+  <string name="camera_launch_title">Fotoapparat starten</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">Géigeluucht</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -73,6 +77,10 @@
   <string name="protected_apps_manager_title">Geschützt Appen</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 Grad</string>
+  <string name="display_rotation_90_title">90 Grad</string>
+  <string name="display_rotation_180_title">180 Grad</string>
+  <string name="display_rotation_270_title">270 Grad</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">Wieder uweisen</string>
   <!-- Power: Performance profiles -->

@@ -46,6 +46,7 @@
   <string name="notification_light_default_value">الإفتراضي</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
   <string name="live_display_night">ليلي</string>
   <string name="color_red_title">أحمر</string>
   <string name="color_green_title">أخضر</string>
@@ -56,10 +57,13 @@
   <string name="adj_contrast_title">تباين</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">زر القائمة</string>
+  <string name="hardware_keys_action_launch_camera">تشغيل الكاميرا</string>
+  <string name="camera_launch_title">تشغيل الكاميرا</string>
   <string name="volbtn_cursor_control_off">معطل</string>
   <string name="volume_answer_call_title">الرد على المكالمة</string>
   <string name="home_answer_call_title">الرد على المكالمة</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">الإضاءة الخلفية</string>
   <string name="backlight_summary_disabled">معطل</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
@@ -107,6 +111,7 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">نص</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
@@ -115,6 +120,10 @@
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">المساهمين</string>
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 درجة</string>
+  <string name="display_rotation_90_title">90 درجة</string>
+  <string name="display_rotation_180_title">180 درجة</string>
+  <string name="display_rotation_270_title">270 درجة</string>
   <!-- Weather -->
   <string name="weather_settings_general_settings_title">عام</string>
   <string name="status_bar_show_weather_title">إظهار حالة الطقس</string>

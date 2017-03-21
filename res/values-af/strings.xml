@@ -31,6 +31,7 @@
   <!-- Notification light dialogs -->
   <string name="dialog_delete_title">Vee uit</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_speed_fast">Vinnig</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->

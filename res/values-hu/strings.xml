@@ -46,6 +46,7 @@
   <string name="dialog_delete_title">Törlés</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">Normál</string>
+  <string name="pulse_speed_fast">Gyors</string>
   <string name="pulse_speed_normal">Normál</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->

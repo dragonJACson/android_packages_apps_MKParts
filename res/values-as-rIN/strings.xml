@@ -27,9 +27,13 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">ৰং তাপমাত্ৰা</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
+  <string name="hardware_keys_action_launch_camera">কেমেৰা লান্চ্চ কৰক</string>
+  <string name="camera_launch_title">কেমেৰা লান্চ্চ কৰক</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">বেকলাইট</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -61,12 +65,17 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">টেক্সট</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">প্ৰতিৰোধী এপ্প্</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 ডিগ্ৰী</string>
+  <string name="display_rotation_90_title">90 ডিগ্ৰী</string>
+  <string name="display_rotation_180_title">180 ডিগ্ৰী</string>
+  <string name="display_rotation_270_title">270 ডিগ্ৰী</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">বতৰ প্ৰদৰ্শন কৰক</string>
   <!-- Power: Performance profiles -->

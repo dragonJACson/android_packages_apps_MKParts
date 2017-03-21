@@ -32,6 +32,7 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_color_temperature_title">อุณหภูมิสี</string>
   <string name="color_red_title">แดง</string>
   <string name="color_green_title">เขียว</string>
   <string name="color_blue_title">น้ำเงิน</string>
@@ -41,7 +42,10 @@
   <string name="adj_contrast_title">ความเปรียบต่าง</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">ปุ่มเมนู</string>
+  <string name="hardware_keys_action_launch_camera">เปิดกล้อง</string>
+  <string name="camera_launch_title">เปิดกล้อง</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">แสงไฟ</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -78,6 +82,7 @@
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">ข้อความ</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
@@ -85,6 +90,10 @@
   <string name="protected_apps_manager_summary">จัดการว่าแอปใดที่จะซ่อนไว้ด้านหลังล็อคที่ปลอดภัย</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
+  <string name="display_rotation_0_title">0 องศา</string>
+  <string name="display_rotation_90_title">90 องศา</string>
+  <string name="display_rotation_180_title">180 องศา</string>
+  <string name="display_rotation_270_title">270 องศา</string>
   <!-- Weather -->
   <string name="status_bar_show_weather_title">แสดงสภาพอากาศ</string>
   <!-- Power: Performance profiles -->
