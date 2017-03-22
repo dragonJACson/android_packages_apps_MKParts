@@ -173,6 +173,8 @@
   <string name="hardware_keys_action_sleep">Vypnout obrazovku</string>
   <string name="hardware_keys_action_last_app">Poslední aplikace</string>
   <string name="hardware_keys_action_split_screen">Rozdělené zobrazení</string>
+  <string name="hardware_keys_action_single_handed_left">Režim jedné ruky (vlevo)</string>
+  <string name="hardware_keys_action_single_handed_right">Režim jedné ruky (vpravo)</string>
   <string name="camera_sleep_on_release_title">Náhled obrazovky</string>
   <string name="camera_sleep_on_release_summary">Polovičním stiskem tlačítka bude rozsvícena obrazovka pouze po dobu, po kterou je tlačítko stisknuté</string>
   <string name="camera_launch_title">Spuštění fotoaparátu</string>
