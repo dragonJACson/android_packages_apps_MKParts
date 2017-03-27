@@ -134,6 +134,10 @@
   <string name="live_display_color_profile_basic_summary">Използвате дисплея не калибриран</string>
   <string name="live_display_color_profile_adaptive_title">Адаптивно</string>
   <string name="live_display_color_profile_adaptive_summary">Цветовете се адаптират към условията на околната среда</string>
+  <string name="live_display_color_profile_reading_title">Четене</string>
+  <string name="live_display_color_profile_reading_summary">Топли цветове за по-малко умора на очите</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Цветове съответстващи с sRGB цветово пространство</string>
   <string name="color_calibration_title">Калибриране на цвета</string>
   <string name="color_calibration_summary">Калибриране на цветовете на екрана</string>
   <string name="color_red_title">Червен</string>
@@ -169,6 +173,8 @@
   <string name="hardware_keys_action_sleep">Изключване на екрана</string>
   <string name="hardware_keys_action_last_app">Последното приложение</string>
   <string name="hardware_keys_action_split_screen">Разделяне на екрана</string>
+  <string name="hardware_keys_action_single_handed_left">Режим \"Една ръка\" (лява)</string>
+  <string name="hardware_keys_action_single_handed_right">Режим \"Една ръка\" (дясна)</string>
   <string name="camera_sleep_on_release_title">Поглед на екрана</string>
   <string name="camera_sleep_on_release_summary">Леко натискане ще запази екрана само, докато бутонът е натиснат</string>
   <string name="camera_launch_title">Стартиране на камерата</string>
@@ -237,7 +243,9 @@
   <string name="profile_action_enable">Включване</string>
   <string name="profile_trigger_a2dp_connect">При включена A2DP връзка</string>
   <string name="profile_trigger_a2dp_disconnect">При изключена A2DP връзка</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Блутуут</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Превключватели с които ще се активира този профил</string>
   <string name="profile_setup_setup_triggers_title">Стъпка 1: Добавяне на превключвателите</string>
   <string name="profile_setup_setup_triggers_title_config">Промяна на превключвател: <xliff:g id="profile_name">%1$s </xliff:g></string>
@@ -292,6 +300,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Да премахна ли това приложение?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Сила на звука</string>
   <string name="connection_state_enabled">Разрешено</string>
@@ -338,12 +351,15 @@
   <string name="profile_brightness_override_summary">Задайте на %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Отмени яркостта</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Преносима точка за достъп до Wi\u2011Fi</string>
   <string name="toggleBluetooth">Блутуут</string>
+  <string name="toggleGPS">GPS</string>
   <string name="toggleData">Мобилни данни</string>
   <string name="toggleSync">Авто-синхронизиране на данни</string>
   <string name="toggle2g3g4g">Предпочитан тип мрежа</string>
   <string name="toggle2g3g4g_msim">Предпочитан тип мрежа (%1$s)</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Режим на звънене</string>
   <string name="ring_mode_normal">Нормален</string>
@@ -370,8 +386,10 @@
   <string name="status_bar_icons_title">Икони на лентата</string>
   <string name="status_bar_notif_count_title">Брой известия</string>
   <string name="status_bar_notif_count_summary">Показва броя на новите известия в лентата на състоянието</string>
+  <string name="status_bar_system_icons_title">Системни икони</string>
   <string name="status_bar_system_icons_summary">Изберете, кои икони да се показват в лентата на състоянието</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Часовник</string>
   <string name="status_bar_clock_position_title">Местоположение на часовника</string>
   <string name="status_bar_clock_position_right">Вдясно</string>
   <string name="status_bar_clock_position_left">Вляво</string>
@@ -382,6 +400,7 @@
   <string name="status_bar_am_pm_small">Малък</string>
   <string name="status_bar_am_pm_hidden">Скрит</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Индикатор за батерията</string>
   <string name="status_bar_battery_style_title">Икона на батерията</string>
   <string name="status_bar_battery_style_icon_portrait">Вертикална икона</string>
   <string name="status_bar_battery_style_icon_landscape">Хоризонтална икона</string>
@@ -467,9 +486,40 @@
   <string name="expanded_desktop_style_hide_both">Скрий и двете</string>
   <string name="expanded_desktop_nothing_to_show_text">Изключите персонализирането на вашия разширен екран на база на броя на приложенията</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Звуци при зареждане</string>
   <string name="charging_sounds_enabled_title">Включен</string>
+  <string name="charging_sounds_enabled_summary">Възпроизвежда звук, когато включвате или изключвате източник на захранване</string>
   <string name="power_notifications_vibrate_title">Вибрация</string>
+  <string name="charging_sounds_ringtone_title">Тон за уведомяване</string>
   <string name="charging_sounds_ringtone_silent">Безшумно</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Тъчскрийн жестове</string>
+  <string name="touchscreen_gesture_settings_summary">Изпълнява различни бързи действия чрез жестове върху сензорния екран</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Вибрация при докосване</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Вибрира при засичане на сензорен жест</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Плъзнете надолу с два пръста</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Плъзнете нагоре с един пръст</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Плъзнете надолу с един пръст</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Плъзнете наляво с един пръст</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Плъзнете надясно с един пръст</string>
+  <string name="touchscreen_gesture_up_arrow_title">Начертайте \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Начертайте \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Начертайте \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Начертайте \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Начертайте буквата \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Начертайте буквата \"е\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Начертайте буквата \"О\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Начертайте буквата \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Начертайте буквата \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Начертайте буквата \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Начертайте буквата \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Начертайте буквата \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Действие с жест</string>
+  <string name="touchscreen_gesture_action_do_nothing">Не прави нищо</string>
+  <string name="touchscreen_gesture_action_flashlight">Включване / Изключване на фенерчето</string>
+  <string name="touchscreen_gesture_action_camera">Отваряне на камерата</string>
+  <string name="touchscreen_gesture_action_browser">Отваряне на браузъра</string>
+  <string name="touchscreen_gesture_action_dialer">Отворяне на телефон</string>
+  <string name="touchscreen_gesture_action_email">Преглед на имейли</string>
+  <string name="touchscreen_gesture_action_messages">Преглед на съобщения</string>
 </resources>
