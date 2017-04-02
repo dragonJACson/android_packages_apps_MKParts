@@ -25,7 +25,7 @@
   <!-- Show network speed -->
   <string name="show_network_speed_title">Мрежова скорост</string>
   <string name="show_network_speed_summary">Показва скорост на мрежа в лентата на състоянието</string>
-  <string name="status_bar_network_traffic_style_disable">Забранено</string>
+  <string name="status_bar_network_traffic_style_disable">Деактивирано</string>
   <string name="status_bar_network_traffic_style_up">Изходящ</string>
   <string name="status_bar_network_traffic_style_down">Входящи</string>
   <string name="status_bar_network_traffic_style_all">Изходящи и входящи</string>
