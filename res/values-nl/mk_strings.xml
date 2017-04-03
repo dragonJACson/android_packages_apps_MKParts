@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Inkomend</string>
   <string name="status_bar_network_traffic_style_all">Uitgaand en inkomend</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Aan/uit-knop lang indrukken voor zaklamp</string>
+  <string name="torch_long_press_power_gesture_desc">Zaklamp inschakelen door lang op de aan/uit-knop te drukken als het scherm uit is</string>
 </resources>
