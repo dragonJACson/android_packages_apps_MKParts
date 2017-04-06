@@ -375,6 +375,8 @@
   <string name="status_bar_title">Рядок стану</string>
   <string name="status_bar_quick_qs_pulldown_title">Швидкий доступ</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s край рядка сповіщень відкриває Швидкі налаштування</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Лівий</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Правий</string>
   <string name="status_bar_quick_qs_pulldown_off">Вимкнути</string>
   <string name="status_bar_quick_qs_pulldown_left">Лівий</string>
   <string name="status_bar_quick_qs_pulldown_right">Правий</string>

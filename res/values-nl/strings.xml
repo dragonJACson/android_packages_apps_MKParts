@@ -323,6 +323,8 @@
   <!-- Status bar -->
   <string name="status_bar_title">Statusbalk</string>
   <string name="status_bar_quick_qs_pulldown_title">Snel openen</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Links</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Rechts</string>
   <string name="status_bar_quick_qs_pulldown_off">Uit</string>
   <string name="status_bar_quick_qs_pulldown_left">Links</string>
   <string name="status_bar_quick_qs_pulldown_right">Rechts</string>

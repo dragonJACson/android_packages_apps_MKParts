@@ -375,6 +375,8 @@
   <string name="status_bar_title">Stavová lišta</string>
   <string name="status_bar_quick_qs_pulldown_title">Rychlé stažení nabídky</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Levá</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Pravá</string>
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <string name="status_bar_quick_qs_pulldown_left">Levá</string>
   <string name="status_bar_quick_qs_pulldown_right">Pravá</string>
