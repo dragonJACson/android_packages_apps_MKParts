@@ -21,6 +21,7 @@
   <string name="loading">در حال بارگزاری\u2026</string>
   <string name="add">اضافه کردن</string>
   <string name="reset">بازنشانی</string>
+  <string name="settings">تنظیمات</string>
   <string name="name">نام:</string>
   <string name="on">فعال</string>
   <!-- Privacy Settings Header item -->
@@ -49,6 +50,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">اسکرین شات</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <!-- Profiles -->
   <string name="profile_menu_delete_title">حذف</string>
@@ -100,6 +102,7 @@
   <string name="weather_settings_general_settings_title">کلی</string>
   <string name="status_bar_show_weather_title">نمایش آب و هوا</string>
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">هرگز</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">لرزش</string>

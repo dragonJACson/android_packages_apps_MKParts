@@ -137,6 +137,7 @@
   <string name="live_display_color_profile_reading_title">Okunuyor</string>
   <string name="live_display_color_profile_reading_summary">Daha az göz yorgunluğu için sıcak renkler</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Renkler sRGB renk alanına göre doğru</string>
   <string name="color_calibration_title">Renk kalibrasyonu</string>
   <string name="color_calibration_summary">Ekran renklerini kalibre edin</string>
   <string name="color_red_title">Kırmızı</string>
@@ -172,6 +173,8 @@
   <string name="hardware_keys_action_sleep">Ekranı kapat</string>
   <string name="hardware_keys_action_last_app">Son uygulama</string>
   <string name="hardware_keys_action_split_screen">Bölünmüş ekran</string>
+  <string name="hardware_keys_action_single_handed_left">Tek el modu (sol)</string>
+  <string name="hardware_keys_action_single_handed_right">Tek el modu (sağ)</string>
   <string name="camera_sleep_on_release_title">Peek ekranı</string>
   <string name="camera_sleep_on_release_summary">Sadece tuşa basılı tutulduğunda yarım basış ekranı açık tutacaktır</string>
   <string name="camera_launch_title">Kamerayı başlat</string>
@@ -385,8 +388,10 @@
   <string name="status_bar_icons_title">Durum çubuğu simgeleri</string>
   <string name="status_bar_notif_count_title">Bildirim sayısını göster</string>
   <string name="status_bar_notif_count_summary">Bekleyen bildirim sayısını göster</string>
+  <string name="status_bar_system_icons_title">Sistem simgeleri</string>
   <string name="status_bar_system_icons_summary">Gösterilen durum çubuğu simgelerini kontrol et</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Saat</string>
   <string name="status_bar_clock_position_title">Saat pozisyonu</string>
   <string name="status_bar_clock_position_right">Sağ</string>
   <string name="status_bar_clock_position_left">Sol</string>
@@ -397,6 +402,7 @@
   <string name="status_bar_am_pm_small">Küçük</string>
   <string name="status_bar_am_pm_hidden">Gizli</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Pil göstergesi</string>
   <string name="status_bar_battery_style_title">Pil durumu stili</string>
   <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
   <string name="status_bar_battery_style_icon_landscape">Yatay simge</string>
