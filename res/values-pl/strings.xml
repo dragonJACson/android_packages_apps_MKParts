@@ -136,6 +136,7 @@
   <string name="live_display_color_profile_adaptive_summary">Kolory dostosowują się do warunków otoczenia</string>
   <string name="live_display_color_profile_reading_title">Czytanie</string>
   <string name="live_display_color_profile_reading_summary">Cieplejsze kolory, aby ograniczyć zmęczenie oczu</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="color_calibration_title">Kalibracja kolorów</string>
   <string name="color_calibration_summary">Kalibruje wyświetlane kolory</string>
   <string name="color_red_title">Czerwony</string>
@@ -171,6 +172,8 @@
   <string name="hardware_keys_action_sleep">Wyłącz ekran</string>
   <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
   <string name="hardware_keys_action_split_screen">Podziel ekran</string>
+  <string name="hardware_keys_action_single_handed_left">Tryb dla jednej dłoni (lewa)</string>
+  <string name="hardware_keys_action_single_handed_right">Tryb dla jednej dłoni (prawa)</string>
   <string name="camera_sleep_on_release_title">Podgląd ekranu</string>
   <string name="camera_sleep_on_release_summary">Lekkie naciśnięcie aktywuje ekran tylko do czasu zwolnienia przycisku</string>
   <string name="camera_launch_title">Włącz aparat</string>
@@ -384,6 +387,7 @@
   <string name="status_bar_icons_title">Ikony paska stanu</string>
   <string name="status_bar_notif_count_title">Pokaż liczbę powiadomień</string>
   <string name="status_bar_notif_count_summary">Wyświetla licznik oczekujących powiadomień</string>
+  <string name="status_bar_system_icons_title">Ikony systemowe</string>
   <string name="status_bar_system_icons_summary">Wybierz, które ikony będą wyświetlane na pasku stanu</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Styl zegara</string>
@@ -396,6 +400,7 @@
   <string name="status_bar_am_pm_small">Mały</string>
   <string name="status_bar_am_pm_hidden">Ukryty</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Wskaźnik baterii</string>
   <string name="status_bar_battery_style_title">Styl wskaźnika baterii</string>
   <string name="status_bar_battery_style_icon_portrait">Ikona pionowo</string>
   <string name="status_bar_battery_style_icon_landscape">Ikona poziomo</string>
@@ -499,6 +504,16 @@
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Przesuń palcem w prawo</string>
   <string name="touchscreen_gesture_up_arrow_title">Narysuj znak \"Λ\"</string>
   <string name="touchscreen_gesture_down_arrow_title">Narysuj znak \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Narysuj \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Narysuj \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Narysuj literę \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Narysuj literę \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Narysuj literę \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Narysuj literę \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Narysuj literę \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Narysuj literę \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Narysuj literę \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Narysuj literę \"Z\"</string>
   <string name="touchscreen_gesture_action_dialog_title">Gest akcji</string>
   <string name="touchscreen_gesture_action_do_nothing">Nic nie rób</string>
   <string name="touchscreen_gesture_action_flashlight">Przełącznik latarki</string>
