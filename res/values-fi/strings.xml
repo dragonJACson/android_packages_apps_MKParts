@@ -108,6 +108,7 @@
   <string name="live_display_mode">Näyttötila</string>
   <string name="live_display_color_temperature_title">Värilämpötila</string>
   <string name="live_display_color_temperature_summary">Päivä: <xliff:g id="day_temperature">%1$d</xliff:g>K Yö: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="astetta">%1$d</xliff:g>K</string>
   <string name="live_display_day">Päivä</string>
   <string name="live_display_night">Yö</string>
   <string name="live_display_outdoor_mode_title">Automaattinen ulkoilmatila</string>
@@ -134,7 +135,9 @@
   <string name="live_display_color_profile_adaptive_title">Mukautuva</string>
   <string name="live_display_color_profile_adaptive_summary">Värit sopeutuu ympäristön mukaan</string>
   <string name="live_display_color_profile_reading_title">Luetaan</string>
+  <string name="live_display_color_profile_reading_summary">Lämpimämpi värintoisto vähentämään silmien rasitusta</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Värit tarkentuu sRGB-väritilaan</string>
   <string name="color_calibration_title">Värien kalibrointi</string>
   <string name="color_calibration_summary">Kalibroi näytön värit</string>
   <string name="color_red_title">Punainen</string>
@@ -448,6 +451,8 @@
   <string name="weather_settings_general_settings_title">Yleinen</string>
   <string name="weather_settings_providers_title">Palveluntarjoajat</string>
   <string name="weather_settings_temp_units_title">Lämpötilan yksikkö</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">sää weather</string>
   <string name="status_bar_show_weather_title">Näytä sää</string>
   <string name="status_bar_show_weather_summary">Näytä nykyinen lämpötila tilarivillä</string>
@@ -482,6 +487,8 @@
   <string name="power_notifications_vibrate_title">Värinä</string>
   <string name="charging_sounds_ringtone_silent">Äänetön</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Kosketusnäytön eleet</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Haptinen palaute</string>
   <string name="touchscreen_gestures_haptic_feedback_summary">Värinä kun kosketusnäytön ele tunnistetaan</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Pyyhkäise alas kahdella sormella</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Pyyhkäise ylös yhdellä sormella</string>
