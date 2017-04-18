@@ -186,7 +186,7 @@
   <string name="volbtn_cursor_control_on">Tlačidlá hlasitosti posunú kurzor vľavo/vpravo</string>
   <string name="volbtn_cursor_control_on_reverse">Tlačidlá hlasitosti posunú kurzor vpravo/vľavo</string>
   <string name="power_end_call_title">Ukončiť hovor</string>
-  <string name="power_end_call_summary">Stlačením tlačidla Napájanie sa ukončí aktuálny hovor</string>
+  <string name="power_end_call_summary">Stlačením tlačidla Napájanie sa ukončí prebiehajúci hovor</string>
   <string name="swap_volume_buttons_title">Preorientovať</string>
   <string name="swap_volume_buttons_summary">Po otočení obrazovky prevrátiť aj zmysel tlačidiel hlasitosti</string>
   <string name="button_wake_title">Prebudiť zariadenie</string>
@@ -202,11 +202,11 @@
   <string name="keyboard_backlight_seekbar_title">Intenzita podsvietenia klávesnice</string>
   <string name="backlight_timeout_title">Časový limit podsvietenia</string>
   <string name="backlight_timeout_unlimited">Nevypínať</string>
-  <string name="backlight_summary_disabled">Žiadne</string>
+  <string name="backlight_summary_disabled">Vypnuté</string>
   <string name="backlight_summary_enabled_with_timeout">Zapnúť na <xliff:g id="timeout">%s</xliff:g></string>
-  <string name="backlight_summary_enabled">Použiť</string>
+  <string name="backlight_summary_enabled">Zapnuté</string>
   <!-- Buttons - Enable navbar -->
-  <string name="disable_navkeys_title">Navigačný panel na obrazovke</string>
+  <string name="disable_navkeys_title">Povoliť navigačný panel na obrazovke</string>
   <string name="disable_navkeys_summary">Povoliť navigačný panel na obrazovke a zakázať hardvérové tlačidlá</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Navigačný panel</string>
@@ -215,9 +215,9 @@
   <string name="navigation_bar_left_summary">V režime na šírku umiestniť navigačný panel na ľavú stranu obrazovky</string>
   <string name="navigation_bar_arrow_keys_title">Zobraziť šípky pri písaní</string>
   <string name="navigation_bar_arrow_keys_summary">Zobraziť ľavé a pravé kurzorové tlačidlá pri písaní. Potlačí prepínač metódy vstupu.</string>
-  <string name="navigation_bar_home_long_press_title">Akcia dlhého stlačenia tlačítku Domov</string>
-  <string name="navigation_bar_home_double_tap_title">Akcia dvojkliku na tlačítu Domov</string>
-  <string name="navigation_bar_recents_title">Akcia dlhého stlačenia na tlačítku Nedávne</string>
+  <string name="navigation_bar_home_long_press_title">Akcia dlhého stlačenia tlačidla Domov</string>
+  <string name="navigation_bar_home_double_tap_title">Akcia dvojkliku na tlačidle Domov</string>
+  <string name="navigation_bar_recents_title">Akcia dlhého stlačenia na tlačidle Nedávne</string>
   <!-- Power menu -->
   <string name="power_menu_title">Ponuka po stlačení tlačidla</string>
   <string name="power_menu_reboot_title">Reštart menu</string>
@@ -225,14 +225,14 @@
   <string name="power_menu_airplane_title">Režim v lietadle</string>
   <string name="power_menu_users_title">Prepínač používateľov</string>
   <string name="power_menu_settings_title">Odkaz nastavení</string>
-  <string name="power_menu_lockdown_title">Zamknúť zariadenie</string>
-  <string name="power_menu_bug_report_title">Nahlásiť chybu</string>
+  <string name="power_menu_lockdown_title">Uzamknutie zariadenia</string>
+  <string name="power_menu_bug_report_title">Hlásenie chýb</string>
   <string name="power_menu_sound_title">Panel zvuku</string>
   <string name="power_menu_bug_report_disabled">Hlásenie chýb je zakázané v nastaveniach pre vývojárov</string>
   <string name="volume_keys_control_ring_stream_title">Ovládanie hlasitosti zvonenia</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačidlá hlasitosti ovládajú hlasitosť zvonenia</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačidlá hlasitosti ovládajú hlasitosť médií</string>
-  <string name="camera_double_tap_power_gesture_title">Fotoaparát dvoj. stlačením Napájania</string>
+  <string name="camera_double_tap_power_gesture_title">Fotoaparát dvoj. stlačením tlačidla Napájanie</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Rýchlo spustiť fotoaparát dvojitým stlačením tlačidla Napájanie, bez odomknutia obrazovky</string>
   <!-- Profiles -->
@@ -307,9 +307,9 @@
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Zmena hlasitosti</string>
-  <string name="connection_state_enabled">Použiť</string>
+  <string name="connection_state_enabled">Povoliť</string>
   <string name="volume_override_summary">Nastaviť na %1$s/%2$s</string>
-  <string name="profile_volume_override_checkbox_label">Zmeniť hlasitosť</string>
+  <string name="profile_volume_override_checkbox_label">Meniť hlasitosť</string>
   <!-- Menu item for managing profiles -->
   <string name="profile_profiles_manage">Profily</string>
   <string name="profile_profile_manage">Spravovať profil</string>
@@ -323,11 +323,11 @@
   <!-- Profile Settings sound modes labels -->
   <string name="sound_mode">Režim upozornení</string>
   <string name="ringer_mode">Režim zvonenia</string>
-  <string name="lights_mode">Režim svetiel</string>
+  <string name="lights_mode">Režim svetelnej signalizácie</string>
   <string name="vibrate_mode">Režim vibrácií</string>
   <string name="choose_soundtone">Vyberte tón upozornenia</string>
-  <string name="choose_ringtone">Vyberte zvonenie</string>
-  <string name="ringtone_title">Zvonenie telefónu</string>
+  <string name="choose_ringtone">Vyberte tón zvonenia</string>
+  <string name="ringtone_title">Vyzváňací tón telefónu</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <string name="soundtone_title">Tón oznámenia</string>
   <!-- Title for application group setting screen -->
