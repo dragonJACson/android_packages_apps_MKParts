@@ -61,7 +61,10 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_vibrate">Dridhu</string>
   <!-- Status bar -->
+  <string name="status_bar_double_tap_to_sleep_title">Shtyp dy herë për ta fikur</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Shtyp dy herë shiritin e ekranit për të fikur ekranin</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
@@ -71,8 +74,10 @@
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <!-- Weather -->
+  <string name="status_bar_show_weather_title">Trego motin</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="power_notifications_vibrate_title">Dridhu</string>
   <!-- Gestures: Touchscreen gestures -->
 </resources>

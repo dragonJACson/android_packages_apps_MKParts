@@ -134,7 +134,7 @@
   <string name="live_display_color_profile_basic_summary">Käytä näyttöä kalibroimatta</string>
   <string name="live_display_color_profile_adaptive_title">Mukautuva</string>
   <string name="live_display_color_profile_adaptive_summary">Värit sopeutuu ympäristön mukaan</string>
-  <string name="live_display_color_profile_reading_title">Luku</string>
+  <string name="live_display_color_profile_reading_title">Lukutila</string>
   <string name="live_display_color_profile_reading_summary">Lämpimämpi värintoisto vähentämään silmien rasitusta</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Värit tarkentuu sRGB-väritilaan</string>

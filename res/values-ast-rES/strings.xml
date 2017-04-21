@@ -40,6 +40,7 @@
   <string name="hardware_keys_action_launch_camera">Llanzar cámara</string>
   <string name="camera_launch_title">Llanzar cámara</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">Contralluz</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
