@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="settings">تەڭشەش</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_show_system_apps">سىڭدۈرۈلگەن ئەپنى كۆرسەت</string>
@@ -37,6 +38,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">ئېكراندىن تۇتۇلغان سۈرەت</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <!-- Profiles -->
   <!-- Profile triggers -->
