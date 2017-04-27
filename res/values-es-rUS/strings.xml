@@ -52,7 +52,7 @@
   <string name="privacy_guard_help_title">Ayuda</string>
   <string name="privacy_guard_reset_title">Restablecer</string>
   <string name="privacy_guard_reset_text">¿Restablecer los permisos?</string>
-  <string name="privacy_guard_help_text">En esta pantalla puedes elegir para que aplicaciones estará activa Privacy Guard, tocando sobre ellas. Estas aplicaciones no tendrán acceso a datos personales como contactos, mensajes, histórico de llamadas. Puedes abrir una pantalla de detalles de una aplicación con una pulsación larga sobre ella. \n\nPor defecto no se muestran las aplicaciones del sistema. Si quieres mostrarlas o filtrar tan solo las que solicitan acceso a los datos personales, selecciona la opción correspondiente en el menú.</string>
+  <string name="privacy_guard_help_text">En esta pantalla puedes elegir para que aplicaciones estará activado Privacy Guard, tocando sobre ellas. Estas aplicaciones no tendrán acceso a datos personales como contactos, mensajes, historial de llamadas. Puedes abrir una pantalla de detalles de una aplicación con una pulsación larga sobre ella. \n\nPor defecto no se muestran las aplicaciones del sistema. Si quieres mostrarlas o filtrar tan solo las que solicitan acceso a los datos personales, selecciona la opción correspondiente en el menú.</string>
   <string name="privacy_guard_manager_show_system_apps">Mostrar aplicaciones del sistema</string>
   <string name="privacy_guard_advanced_settings_title">Opciones avanzadas</string>
   <string name="privacy_guard_notification_title">Mostrar notificación</string>
@@ -72,13 +72,13 @@
   <string name="pulse_length_long">Largo</string>
   <string name="pulse_length_very_long">Muy largo</string>
   <string name="pulse_speed_very_fast">Muy rápido</string>
-  <string name="pulse_speed_fast">Rápida</string>
+  <string name="pulse_speed_fast">Rápido</string>
   <string name="pulse_speed_normal">Normal</string>
-  <string name="pulse_speed_slow">Despacio</string>
+  <string name="pulse_speed_slow">Lento</string>
   <string name="pulse_speed_very_slow">Muy lento</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Luz de la bateria</string>
-  <string name="battery_low_pulse_title">Pulsar si la batería es baja</string>
+  <string name="battery_low_pulse_title">Pulsante si la batería es baja</string>
   <string name="battery_light_list_title">Colores</string>
   <string name="battery_light_low_color_title">Batería baja</string>
   <string name="battery_light_medium_color_title">Cargando</string>
@@ -106,7 +106,7 @@
   <!-- LiveDisplay -->
   <string name="live_display_summary">Optimiza la pantalla según la hora del día y las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
   <string name="live_display_mode">Modo de visualización</string>
-  <string name="live_display_color_temperature_title">Temperatura de color</string>
+  <string name="live_display_color_temperature_title">Temperatura del color</string>
   <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Día</string>
