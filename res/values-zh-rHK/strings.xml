@@ -273,7 +273,7 @@
   <string name="profile_write_failed">標籤寫入失敗！</string>
   <string name="profile_selected">選取的設定檔：%1$s</string>
   <string name="profile_nfc_text">將設定檔寫入到 NFC 標籤允許透過輕觸標籤來選取此設定檔。再次輕觸將會回到之前選取的設定檔。</string>
-  <string name="profile_unknown_nfc_tag">未知的設定檔</string>
+  <string name="profile_unknown_nfc_tag">不明設定檔</string>
   <string name="profile_add_nfc_text">此 NFC 標籤指向了一個未知的設定檔，連結此 NFC 標籤到現有的設定檔將允許您以後選取那個設定檔。</string>
   <string name="profile_select">選擇設定檔</string>
   <string name="profile_remove_dialog_message">移除設定檔「%1$s」？</string>
