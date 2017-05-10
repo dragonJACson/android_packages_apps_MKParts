@@ -224,7 +224,7 @@
   <string name="power_menu_screenshot_title">Snímka obrazovky</string>
   <string name="power_menu_airplane_title">Režim v lietadle</string>
   <string name="power_menu_users_title">Prepínač používateľov</string>
-  <string name="power_menu_settings_title">Odkaz nastavení</string>
+  <string name="power_menu_settings_title">Odkaz na nastavenia</string>
   <string name="power_menu_lockdown_title">Uzamknutie zariadenia</string>
   <string name="power_menu_bug_report_title">Hlásenie chýb</string>
   <string name="power_menu_sound_title">Panel zvuku</string>
