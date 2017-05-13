@@ -80,6 +80,8 @@
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">स्क्रीन की रोशनी</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">रक्षित ऐप</string>

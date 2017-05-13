@@ -66,6 +66,8 @@
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">چمکیلا پن</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <!-- Contributors cloud activity -->

@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Вимкнути</string>
   <string name="status_bar_quick_qs_pulldown_left">Лівий</string>
   <string name="status_bar_quick_qs_pulldown_right">Правий</string>
-  <string name="status_bar_toggle_brightness">Керування яскравістю</string>
-  <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
   <string name="status_bar_double_tap_to_sleep_title">Подвійний тап для режиму сну</string>
   <string name="status_bar_double_tap_to_sleep_summary">Подвійний тап для вимкнення дісплея</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,10 @@
   <string name="status_bar_battery_percentage_default">Прихований</string>
   <string name="status_bar_battery_percentage_text_inside">Всередині значка</string>
   <string name="status_bar_battery_percentage_text_next">Поруч зі значком</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Яскравість</string>
+  <string name="status_bar_toggle_brightness">Керування яскравістю</string>
+  <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Значки в рядку стану</string>
   <string name="status_bar_icons_summary">Керування відображенням піктограм в панелі статусу</string>

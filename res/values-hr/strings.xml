@@ -361,8 +361,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Isključen</string>
   <string name="status_bar_quick_qs_pulldown_left">Lijevi</string>
   <string name="status_bar_quick_qs_pulldown_right">Desni</string>
-  <string name="status_bar_toggle_brightness">Kontrola svjetline</string>
-  <string name="status_bar_toggle_brightness_summary">Prilagodite svjetlinu klizanjem po statusnoj traci</string>
   <string name="status_bar_double_tap_to_sleep_title">Dvostruki dodir za spavanje</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvaput dodirnite statusnu traku za isključivanje zaslona</string>
   <!-- Status bar - icons -->
@@ -392,6 +390,10 @@
   <string name="status_bar_battery_percentage_default">Skriveno</string>
   <string name="status_bar_battery_percentage_text_inside">Unutar ikone</string>
   <string name="status_bar_battery_percentage_text_next">Pokraj ikone</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Svjetlina</string>
+  <string name="status_bar_toggle_brightness">Kontrola svjetline</string>
+  <string name="status_bar_toggle_brightness_summary">Prilagodite svjetlinu klizanjem po statusnoj traci</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikone trake statusa</string>
   <string name="status_bar_icons_summary">Uredi prikazane ikone trake statusa</string>

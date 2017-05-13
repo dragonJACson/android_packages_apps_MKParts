@@ -69,6 +69,7 @@
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">تېكىست</string>
   <!-- Status bar - Battery percentage -->
+  <!-- Status bar - Brightness -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>

@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Адключаны</string>
   <string name="status_bar_quick_qs_pulldown_left">Улева</string>
   <string name="status_bar_quick_qs_pulldown_right">Управа</string>
-  <string name="status_bar_toggle_brightness">Кіраванне яскравасцю</string>
-  <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
   <string name="status_bar_double_tap_to_sleep_title">Выключаць экран пры падвойным націску</string>
   <string name="status_bar_double_tap_to_sleep_summary">Двойчы дакраніцеся радка стану, каб перавесці прыладу ў спячы рэжым</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,10 @@
   <string name="status_bar_battery_percentage_default">Схаваць</string>
   <string name="status_bar_battery_percentage_text_inside">Унутры значка</string>
   <string name="status_bar_battery_percentage_text_next">Побач са значком</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Яркасць</string>
+  <string name="status_bar_toggle_brightness">Кіраванне яскравасцю</string>
+  <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Значкі ў радку стану</string>
   <string name="status_bar_icons_summary">Налада выгляду цэтлікаў</string>

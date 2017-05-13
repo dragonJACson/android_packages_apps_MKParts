@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <string name="status_bar_quick_qs_pulldown_left">Levá</string>
   <string name="status_bar_quick_qs_pulldown_right">Pravá</string>
-  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
-  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <string name="status_bar_double_tap_to_sleep_title">Dvojím klepnutím uspat</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvakrát klepnout na stavovou lištu pro vypntí displeje</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,10 @@
   <string name="status_bar_battery_percentage_default">Skryté</string>
   <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
   <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Jas</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony stavové lišty</string>
   <string name="status_bar_icons_summary">Nastavení, které ikony jsou zobrazeny na stavové liště</string>

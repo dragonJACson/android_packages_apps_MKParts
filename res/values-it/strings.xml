@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Spenta</string>
   <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
   <string name="status_bar_quick_qs_pulldown_right">Destra</string>
-  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
-  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
   <string name="status_bar_double_tap_to_sleep_title">Sospensione con doppio tocco</string>
   <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere il display</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,10 @@
   <string name="status_bar_battery_percentage_default">Nascosta</string>
   <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
   <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Luminosità</string>
+  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
+  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icone barra di stato</string>
   <string name="status_bar_icons_summary">Scegli quali icone verranno visualizzate nella barra di stato</string>

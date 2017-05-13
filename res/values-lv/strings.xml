@@ -78,6 +78,8 @@
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Spilgtums</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aizsargātās lietotnes</string>

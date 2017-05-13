@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
   <string name="status_bar_quick_qs_pulldown_left">Izquierda</string>
   <string name="status_bar_quick_qs_pulldown_right">Derecha</string>
-  <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
-  <string name="status_bar_toggle_brightness_summary">Permitir ajustar la luminosidad de la pantalla mediante el deslizamiento por la barra de estado</string>
   <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
   <string name="status_bar_double_tap_to_sleep_summary">Pulsa dos veces la barra de estado para apagar la pantalla</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,14 @@
   <string name="status_bar_battery_percentage_default">Oculto</string>
   <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
   <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Brillo</string>
+  <string name="status_bar_brightness_slider_title">Control deslizante del brillo</string>
+  <string name="status_bar_brightness_slider_summary">Ajusta el brillo desde los ajustes rápidos</string>
+  <string name="status_bar_brightness_slider_auto_title">Brillo automático</string>
+  <string name="status_bar_brightness_slider_auto_summary">Mostrar interruptor para el brillo automático cerca de la barra deslizante</string>
+  <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
+  <string name="status_bar_toggle_brightness_summary">Permitir ajustar la luminosidad de la pantalla mediante el deslizamiento por la barra de estado</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Iconos de la barra de estado</string>
   <string name="status_bar_icons_summary">Elija los iconos que aparecerán en la barra de estado</string>

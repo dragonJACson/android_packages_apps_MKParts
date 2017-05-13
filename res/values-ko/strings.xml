@@ -136,6 +136,8 @@
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">텍스트</string>
   <!-- Status bar - Battery percentage -->
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">밝기</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">보호된 애플리케이션</string>

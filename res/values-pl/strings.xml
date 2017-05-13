@@ -379,8 +379,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Wyłącz</string>
   <string name="status_bar_quick_qs_pulldown_left">Po lewej</string>
   <string name="status_bar_quick_qs_pulldown_right">Po prawej</string>
-  <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
-  <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <string name="status_bar_double_tap_to_sleep_title">Dwukrotnie dotknij, aby uśpić</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dotknij dwukrotnie pasek stanu, aby zablokować ekran</string>
   <!-- Status bar - icons -->
@@ -412,6 +410,10 @@
   <string name="status_bar_battery_percentage_default">Ukryty</string>
   <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
   <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Jasność</string>
+  <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
+  <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony paska stanu</string>
   <string name="status_bar_icons_summary">Wybierz, które ikony będą wyświetlane na pasku stanu</string>

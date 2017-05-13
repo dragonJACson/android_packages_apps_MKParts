@@ -380,8 +380,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
   <string name="status_bar_quick_qs_pulldown_right">Droite</string>
-  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
-  <string name="status_bar_toggle_brightness_summary">Ajuste le niveau de luminosité sur la barre d\'état</string>
   <string name="status_bar_double_tap_to_sleep_title">Appui double pour mettre en veille</string>
   <string name="status_bar_double_tap_to_sleep_summary">Appui double sur la barre d\'état pour éteindre l\'écran</string>
   <!-- Status bar - icons -->
@@ -414,6 +412,10 @@
   <string name="status_bar_battery_percentage_default">Masqué</string>
   <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
   <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Luminosité</string>
+  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste le niveau de luminosité sur la barre d\'état</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Icônes de la barre d’état</string>
   <string name="status_bar_icons_summary">Liste les icônes pouvant être affiché ou masqué dans la barre d\'état</string>

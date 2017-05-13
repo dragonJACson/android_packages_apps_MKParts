@@ -297,7 +297,6 @@
   <string name="status_bar_quick_qs_pulldown_off">Av</string>
   <string name="status_bar_quick_qs_pulldown_left">Vänster</string>
   <string name="status_bar_quick_qs_pulldown_right">Höger</string>
-  <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
   <string name="status_bar_double_tap_to_sleep_title">Dubbeltryck för att släcka</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dubbeltryck på statusfältet för att stänga av skärmen</string>
   <!-- Status bar - icons -->
@@ -320,6 +319,9 @@
   <string name="status_bar_battery_percentage_default">Dold</string>
   <string name="status_bar_battery_percentage_text_inside">Inuti ikonen</string>
   <string name="status_bar_battery_percentage_text_next">Bredvid ikonen</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Ljusstyrka</string>
+  <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Statusfältikoner</string>
   <!-- Protected apps -->
