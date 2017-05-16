@@ -414,6 +414,10 @@
   <string name="status_bar_battery_percentage_text_next">圖示旁</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">光暗度</string>
+  <string name="status_bar_brightness_slider_title">亮度滑動條</string>
+  <string name="status_bar_brightness_slider_summary">在快速設定中調整亮度</string>
+  <string name="status_bar_brightness_slider_auto_title">自動調整亮度</string>
+  <string name="status_bar_brightness_slider_auto_summary">在亮度滑動條附近顯示自動調節亮度開關</string>
   <string name="status_bar_toggle_brightness">亮度控制</string>
   <string name="status_bar_toggle_brightness_summary">在狀態列上左右滑動調整亮度</string>
   <!-- Status bar - icon blacklist -->
