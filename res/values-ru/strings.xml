@@ -414,7 +414,10 @@
   <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Яркость</string>
+  <string name="status_bar_brightness_slider_title">Регулятор яркости</string>
+  <string name="status_bar_brightness_slider_summary">Отрегулируйте яркость в Быстрых Настройках</string>
   <string name="status_bar_brightness_slider_auto_title">Автоматическая яркость</string>
+  <string name="status_bar_brightness_slider_auto_summary">Показывать переключатель для адаптивной регулировки яркости</string>
   <string name="status_bar_toggle_brightness">Управление яркостью</string>
   <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
   <!-- Status bar - icon blacklist -->
