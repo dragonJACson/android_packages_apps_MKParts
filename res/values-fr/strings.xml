@@ -414,6 +414,10 @@
   <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Luminosité</string>
+  <string name="status_bar_brightness_slider_title">Curseur de luminosité</string>
+  <string name="status_bar_brightness_slider_summary">Régler la luminosité des réglages rapides</string>
+  <string name="status_bar_brightness_slider_auto_title">Luminosité automatique</string>
+  <string name="status_bar_brightness_slider_auto_summary">Voir le bouton pour la luminosité adaptative près du curseur</string>
   <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
   <string name="status_bar_toggle_brightness_summary">Ajuste le niveau de luminosité sur la barre d\'état</string>
   <!-- Status bar - icon blacklist -->
