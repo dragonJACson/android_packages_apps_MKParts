@@ -22,13 +22,17 @@
   <string name="dlg_ok">تم</string>
   <string name="cancel">إلغاء</string>
   <string name="add">إضافة</string>
+  <string name="choose_app">اختر التطبيق</string>
   <string name="reset">إعادة تعيين</string>
+  <string name="advanced">خيارات متقدمة</string>
+  <string name="settings">الإعدادات</string>
   <string name="name">الإسم:</string>
   <string name="next">القادم</string>
   <string name="on">تشغيل</string>
   <string name="off">إيقاف</string>
   <string name="yes">نعم</string>
   <string name="no">لا</string>
+  <string name="search">بحث</string>
   <string name="disabled">معطل</string>
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">خصوصيه</string>
@@ -36,12 +40,14 @@
   <string name="privacy_guard_help_title">المساعدة</string>
   <string name="privacy_guard_reset_title">إعادة تعيين</string>
   <string name="privacy_guard_manager_show_system_apps">إظهار تطبيقات مضمنة</string>
+  <string name="privacy_guard_advanced_settings_title">خيارات متقدمة</string>
   <!-- Notification light dialogs -->
   <string name="dialog_delete_title">حذف</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_general_title">عام</string>
+  <string name="notification_light_advanced_title">خيارات متقدمة</string>
   <string name="notification_light_phonelist_title">الهاتف</string>
   <string name="notification_light_default_value">الإفتراضي</string>
   <!-- Lights settings, LED notification -->
@@ -96,6 +102,7 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroup_name_title">الإسم:</string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">اختر التطبيق</string>
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleGPS">نظام تحديد المواقع</string>
