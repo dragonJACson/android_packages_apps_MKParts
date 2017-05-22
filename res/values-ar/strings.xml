@@ -27,6 +27,8 @@
   <string name="advanced">خيارات متقدمة</string>
   <string name="settings">الإعدادات</string>
   <string name="name">الإسم:</string>
+  <string name="back">رجوع</string>
+  <string name="finish">إنهاء</string>
   <string name="next">القادم</string>
   <string name="on">تشغيل</string>
   <string name="off">إيقاف</string>
@@ -37,11 +39,23 @@
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">خصوصيه</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_dlg_title">تفعيل حماية الخصوصية؟</string>
+  <string name="privacy_guard_dlg_text">عند تفعيل \"حماية الخصوصية\"، لن يكون التطبيق قادرًا على الوصول إلى البيانات الشخصية مثل الرسائل أو جهات الاتصال أو سجلات المكالمات.</string>
+  <string name="privacy_guard_dlg_system_app_text">عند تفعيل \"حماية الخصوصية\" لتطبيق مدمج، لن يكون التطبيق قادرًا على الوصول أو تقديم بيانات شخصية. قد يسبب هذا عدم عمل بعض تطبيقات أخرى بشكل جيد.</string>
+  <string name="privacy_guard_default_title">تمكين بشكل افتراضي</string>
+  <string name="privacy_guard_default_summary_on">تم تمكين حماية الخصوصية</string>
+  <string name="privacy_guard_default_summary">تمكين حارس الخصوصية بشكل افتراضي لتطبيقات المثبتة حديثا</string>
+  <string name="privacy_guard_manager_summary">إدارة التطبيقات التي يمكنها الوصول إلى بياناتك الشخصية</string>
   <string name="privacy_guard_help_title">المساعدة</string>
   <string name="privacy_guard_reset_title">إعادة تعيين</string>
   <string name="privacy_guard_manager_show_system_apps">إظهار تطبيقات مضمنة</string>
   <string name="privacy_guard_advanced_settings_title">خيارات متقدمة</string>
+  <string name="privacy_guard_notification_title">إظهار الإشعارات</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">إعدادات Led</string>
+  <string name="pulse_speed_title">طول و سرعة النبض</string>
+  <string name="default_time">عادي</string>
+  <string name="custom_time">مُخصّص</string>
   <string name="dialog_delete_title">حذف</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -95,6 +109,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">تمكين</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -140,6 +155,7 @@
   <string name="auto_power_save_never">أبداً</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">تمكين</string>
   <string name="power_notifications_vibrate_title">اهتزاز</string>
   <string name="charging_sounds_ringtone_silent">صامت</string>
   <!-- Gestures: Touchscreen gestures -->
