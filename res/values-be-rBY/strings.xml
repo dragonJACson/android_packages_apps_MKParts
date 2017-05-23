@@ -370,7 +370,7 @@
   <string name="notification_volume_title">Апавяшчэнне</string>
   <string name="media_volume_title">Медыя</string>
   <string name="alarm_volume_title">Будзільнік</string>
-  <string name="doze_title">Індыкацыя падзей</string>
+  <string name="doze_title">Актыўны дысплей</string>
   <!-- Status bar -->
   <string name="status_bar_title">Радок стану</string>
   <string name="status_bar_quick_qs_pulldown_title">Хуткі доступ</string>
