@@ -36,9 +36,11 @@
   <string name="no">لا</string>
   <string name="search">بحث</string>
   <string name="disabled">معطل</string>
+  <string name="enabled">مفعل</string>
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">خصوصيه</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_switch_label">تفعيل حماية الخصوصية</string>
   <string name="privacy_guard_dlg_title">تفعيل حماية الخصوصية؟</string>
   <string name="privacy_guard_dlg_text">عند تفعيل \"حماية الخصوصية\"، لن يكون التطبيق قادرًا على الوصول إلى البيانات الشخصية مثل الرسائل أو جهات الاتصال أو سجلات المكالمات.</string>
   <string name="privacy_guard_dlg_system_app_text">عند تفعيل \"حماية الخصوصية\" لتطبيق مدمج، لن يكون التطبيق قادرًا على الوصول أو تقديم بيانات شخصية. قد يسبب هذا عدم عمل بعض تطبيقات أخرى بشكل جيد.</string>

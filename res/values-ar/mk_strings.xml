@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">الوارده</string>
   <string name="status_bar_network_traffic_style_all">الصادرة والواردة</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
+  <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
 </resources>
