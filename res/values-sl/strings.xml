@@ -399,6 +399,7 @@
   <string name="status_bar_am_pm_small">Majhno</string>
   <string name="status_bar_am_pm_hidden">Skrito</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Stanje baterije</string>
   <string name="status_bar_battery_style_title">Slog stanja baterije</string>
   <string name="status_bar_battery_style_icon_portrait">Pokončna ikona</string>
   <string name="status_bar_battery_style_icon_landscape">Ležeča ikona</string>
@@ -412,6 +413,10 @@
   <string name="status_bar_battery_percentage_text_next">Poleg ikone</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Svetlost</string>
+  <string name="status_bar_brightness_slider_title">Drsnik za svetlost</string>
+  <string name="status_bar_brightness_slider_summary">Prilagajanje svetlosti iz hitrih nastavitev</string>
+  <string name="status_bar_brightness_slider_auto_title">Samodejna svetlost</string>
+  <string name="status_bar_brightness_slider_auto_summary">Prikaži preklopnik za prilagodljivo svetlost blizu drsnika</string>
   <string name="status_bar_toggle_brightness">Nadzor svetlosti</string>
   <string name="status_bar_toggle_brightness_summary">Prilagodite svetlost tako, da povlečete preko vrstice stanja</string>
   <!-- Status bar - icon blacklist -->
@@ -522,4 +527,9 @@
   <string name="touchscreen_gesture_action_camera">Odpri fotoaparat</string>
   <string name="touchscreen_gesture_action_browser">Odpri brskalnik</string>
   <string name="touchscreen_gesture_action_dialer">Odpri klicalnik</string>
+  <string name="touchscreen_gesture_action_email">Pokaži e-pošto</string>
+  <string name="touchscreen_gesture_action_messages">Pokaži sporočila</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Predvajaj/ustavi predvajanje glasbe</string>
+  <string name="touchscreen_gesture_action_previous_track">Skok na prejšnjo skladbo</string>
+  <string name="touchscreen_gesture_action_next_track">Skok na naslednjo skladbo</string>
 </resources>

@@ -19,6 +19,15 @@
   <!-- Application name -->
   <string name="mkparts_title">Setări Mokee</string>
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height">Înălțime buton</string>
+  <string name="navigation_bar_height_48">48dp (implicit)</string>
+  <string name="navigation_bar_height_0">ascunde</string>
   <!-- Show network speed -->
+  <string name="show_network_speed_title">Viteză internet</string>
+  <string name="show_network_speed_summary">Arată viteza internetului în bara de stare</string>
+  <string name="status_bar_network_traffic_style_disable">Dezactivat</string>
+  <string name="status_bar_network_traffic_style_up">Ieșire</string>
+  <string name="status_bar_network_traffic_style_down">Intrare</string>
+  <string name="status_bar_network_traffic_style_all">Ieșire și intrare</string>
   <!-- Long-press power for torch -->
 </resources>

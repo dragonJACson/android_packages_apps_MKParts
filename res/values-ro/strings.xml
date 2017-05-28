@@ -25,11 +25,13 @@
   <string name="reset">Resetaţi</string>
   <string name="settings">Setări</string>
   <string name="name">Nume: </string>
+  <string name="back">Înapoi</string>
   <string name="next">Mai departe</string>
   <string name="on">Activată</string>
   <string name="off">Oprit</string>
   <string name="yes">Da</string>
   <string name="no">Nu</string>
+  <string name="disabled">Dezactivat</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Ajutor</string>
@@ -48,6 +50,7 @@
   <string name="live_display_color_temperature_title">Temperatura culorii</string>
   <string name="live_display_night">Noapte</string>
   <string name="live_display_color_profile_standard_title">65% (normal)</string>
+  <string name="live_display_color_profile_natural_title">Natural</string>
   <string name="color_red_title">Roșu</string>
   <string name="color_green_title">Verde</string>
   <string name="color_blue_title">Albastru</string>
@@ -58,8 +61,10 @@
   <string name="hardware_keys_menu_key_title">Butonul Meniu</string>
   <string name="hardware_keys_action_launch_camera">Lansare cameră foto</string>
   <string name="camera_launch_title">Lansare cameră foto</string>
+  <string name="volbtn_cursor_control_off">Dezactivat</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Iluminare din spate</string>
+  <string name="backlight_summary_disabled">Dezactivat</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -83,6 +88,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Pornit</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -122,6 +128,7 @@
   <string name="auto_power_save_never">Niciodata</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Pornit</string>
   <string name="power_notifications_vibrate_title">Vibrează</string>
   <string name="charging_sounds_ringtone_silent">Silențios</string>
   <!-- Gestures: Touchscreen gestures -->
