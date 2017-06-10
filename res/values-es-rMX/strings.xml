@@ -104,28 +104,61 @@
   <string name="led_notification_text">Luz LED habilitada por la configuración</string>
   <string name="notification_light_no_apps_summary">Para agregar al control de la aplicación, activar el \'%1$s\' y pulse \'\u002b\' en la barra de menú</string>
   <!-- LiveDisplay -->
+  <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+  <string name="live_display_mode">Modo de pantalla</string>
   <string name="live_display_color_temperature_title">Temperatura de color</string>
+  <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="grados">%1$d</xliff:g>K</string>
   <string name="live_display_day">Día</string>
   <string name="live_display_night">Noche</string>
+  <string name="live_display_outdoor_mode_title">Modo automático en el exterior</string>
+  <string name="live_display_outdoor_mode_summary">Aumentar el brillo y la saturación automáticamente bajo la luz del sol</string>
   <string name="live_display_low_power_title">Reducir el consumo de energía</string>
   <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
   <string name="live_display_enhance_color_title">Mejorar colores</string>
   <string name="live_display_enhance_color_summary">Mejorar la viveza de color de tonos de piel, paisajes y otras imágenes</string>
   <string name="live_display_color_profile_title">Perfil de color</string>
   <string name="live_display_color_profile_standard_title">Estándar</string>
+  <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
   <string name="live_display_color_profile_natural_title">Natural</string>
+  <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+  <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+  <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+  <string name="live_display_color_profile_cinema_title">Cine</string>
+  <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+  <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+  <string name="live_display_color_profile_astronomy_summary">Rojo oscuro para preservar la visión nocturna</string>
+  <string name="live_display_color_profile_photography_title">Fotografía</string>
+  <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
+  <string name="live_display_color_profile_basic_title">Básico</string>
+  <string name="live_display_color_profile_basic_summary">Usar pantalla sin calibrar</string>
+  <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+  <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+  <string name="live_display_color_profile_reading_title">Leyendo</string>
+  <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+  <string name="color_calibration_title">Calibración de color</string>
+  <string name="color_calibration_summary">Calibrar colores de pantalla</string>
   <string name="color_red_title">Rojo</string>
   <string name="color_green_title">Verde</string>
   <string name="color_blue_title">Azul</string>
   <!-- LiveDisplay : Picture Adjustment -->
+  <string name="picture_adjustment_title">Ajuste de imagen</string>
+  <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
   <string name="adj_hue_title">Tonalidad</string>
   <string name="adj_saturation_title">Saturación</string>
+  <string name="adj_intensity_title">Intensidad</string>
   <string name="adj_contrast_title">Contraste</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Botón de menú</string>
   <string name="hardware_keys_action_launch_camera">Iniciar cámara</string>
   <string name="camera_launch_title">Iniciar cámara</string>
   <string name="volbtn_cursor_control_off">Deshabilitado</string>
+  <string name="volbtn_cursor_control_on_reverse">Los botones subir y bajar volumen moverán el cursor a derecha e izquierda respectivamente</string>
+  <string name="power_end_call_title">Finalizar llamada</string>
+  <string name="power_end_call_summary">Finalizar la llamada actual pulsando el botón de encendido</string>
+  <string name="swap_volume_buttons_title">Reorientar</string>
   <string name="volume_answer_call_title">Responder llamada</string>
   <string name="home_answer_call_title">Responder llamada</string>
   <!-- Key backlight -->
@@ -140,6 +173,7 @@
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Borrar</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
   <string name="profiles_add">Añadir</string>
@@ -170,6 +204,7 @@
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Normal</string>
   <string name="ring_mode_vibrate">Vibrar</string>
