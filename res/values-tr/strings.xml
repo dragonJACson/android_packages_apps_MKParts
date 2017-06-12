@@ -137,7 +137,7 @@
   <string name="live_display_color_profile_reading_title">Okunuyor</string>
   <string name="live_display_color_profile_reading_summary">Daha az göz yorgunluğu için sıcak renkler</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
-  <string name="live_display_color_profile_srgb_summary">Renkler sRGB renk alanına göre doğru</string>
+  <string name="live_display_color_profile_srgb_summary">SRGB renk uzayı için doğru renkler</string>
   <string name="color_calibration_title">Renk kalibrasyonu</string>
   <string name="color_calibration_summary">Ekran renklerini kalibre edin</string>
   <string name="color_red_title">Kırmızı</string>
@@ -180,7 +180,7 @@
   <string name="camera_launch_title">Kamerayı başlat</string>
   <string name="camera_launch_summary">Uzun basıp bırakma kamerayı başlatacak</string>
   <string name="volbtn_music_controls_title">Müzik kontrolü</string>
-  <string name="volbtn_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak müziği değiştir</string>
+  <string name="volbtn_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak müziği değiştirin</string>
   <string name="volbtn_cursor_control_title">Klavye imleç kontrolü</string>
   <string name="volbtn_cursor_control_off">Devre Dışı</string>
   <string name="volbtn_cursor_control_on">Ses yukarı/aşağı imleci sola/sağa kaydırır</string>
@@ -380,7 +380,7 @@
   <string name="status_bar_quick_qs_pulldown_off">Kapat</string>
   <string name="status_bar_quick_qs_pulldown_left">Sol</string>
   <string name="status_bar_quick_qs_pulldown_right">Sağ</string>
-  <string name="status_bar_double_tap_to_sleep_title">Uyku için çift dokunun</string>
+  <string name="status_bar_double_tap_to_sleep_title">Uykuya geçmek için iki kez dokun</string>
   <string name="status_bar_double_tap_to_sleep_summary">Ekranı kapatmak için durum çubuğuna çift dokun</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Durum çubuğu simgeleri</string>
@@ -414,6 +414,10 @@
   <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Parlaklık</string>
+  <string name="status_bar_brightness_slider_title">Parlaklık kaydırıcı</string>
+  <string name="status_bar_brightness_slider_summary">Hızlı ayarlardan parlaklığı ayarlayın</string>
+  <string name="status_bar_brightness_slider_auto_title">Otomatik parlaklık</string>
+  <string name="status_bar_brightness_slider_auto_summary">Otomatik parlaklık simgesini hızlı ayarlarda göster</string>
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
   <string name="status_bar_toggle_brightness_summary">Durum çubuğu üzerinde kaydırarak parlaklığı ayarla</string>
   <!-- Status bar - icon blacklist -->
