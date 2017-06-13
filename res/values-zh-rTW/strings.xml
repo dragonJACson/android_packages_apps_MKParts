@@ -477,7 +477,7 @@
   <string name="power_save_title">極度省電</string>
   <string name="power_save_summary">限制裝置效能和背景活動，即可節省電源</string>
   <string name="auto_power_save_title">自動省電</string>
-  <string name="auto_power_save_summary_on">在 %d \u0025 電量時自動啟用省電模式</string>
+  <string name="auto_power_save_summary_on">電量剩餘 %s 自動啟用省電模式</string>
   <string name="auto_power_save_summary_off">不要自動啟用省電模式</string>
   <string name="app_perf_profiles_title">自動最佳化</string>
   <string name="app_perf_profiles_summary">自動為各個應用程式選擇適當的效能設定檔</string>
