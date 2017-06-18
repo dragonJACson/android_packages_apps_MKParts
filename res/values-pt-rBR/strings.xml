@@ -414,6 +414,10 @@
   <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Brilho</string>
+  <string name="status_bar_brightness_slider_title">Controle de brilho</string>
+  <string name="status_bar_brightness_slider_summary">Ajustar brilho da tela nas configurações rápidas</string>
+  <string name="status_bar_brightness_slider_auto_title">Brilho automático</string>
+  <string name="status_bar_brightness_slider_auto_summary">Exibir Ligar/desligar do brilho de tela adaptável próximo ao controle deslizante</string>
   <string name="status_bar_toggle_brightness">Controle de brilho</string>
   <string name="status_bar_toggle_brightness_summary">Permite ajustar o brilho deslizando através da barra de status</string>
   <!-- Status bar - icon blacklist -->
