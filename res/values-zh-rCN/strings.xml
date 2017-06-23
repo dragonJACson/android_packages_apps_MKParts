@@ -235,6 +235,7 @@
   <string name="camera_double_tap_power_gesture_title">连续按两下电源键以启动相机</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">在不解锁屏幕的情况下快速开启相机</string>
+  <string name="torch_long_press_power_timeout_title">自动关闭手电筒</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">删除</string>
   <string name="profile_action_none">保持不变</string>

@@ -235,6 +235,7 @@
   <string name="camera_double_tap_power_gesture_title">Націсніце кнопку выключэння двойчы для запуску камеры</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Хутка запусціць камеру без разблакоўкі прылады</string>
+  <string name="torch_long_press_power_timeout_title">Аўтаматычнае выключэнне ліхтарыка</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Выдаліць</string>
   <string name="profile_action_none">Пакінуць без змянення</string>
@@ -414,6 +415,10 @@
   <string name="status_bar_battery_percentage_text_next">Побач са значком</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Яркасць</string>
+  <string name="status_bar_brightness_slider_title">Рэгулятар яркасці</string>
+  <string name="status_bar_brightness_slider_summary">Налада яркасці ў хуткіх наладах</string>
+  <string name="status_bar_brightness_slider_auto_title">Аўтаматычная яркасць</string>
+  <string name="status_bar_brightness_slider_auto_summary">Паказаць перамыкач для адаптыўнай яркасці слайдера</string>
   <string name="status_bar_toggle_brightness">Кіраванне яскравасцю</string>
   <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
   <!-- Status bar - icon blacklist -->
