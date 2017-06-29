@@ -235,6 +235,7 @@
   <string name="camera_double_tap_power_gesture_title">Kamera için güç düğmesine iki kez basın</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ekran kilidini açmadan hızlı bir şekilde kamerayı açın</string>
+  <string name="torch_long_press_power_timeout_title">El fenerini otomatik olarak kapat</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Sil</string>
   <string name="profile_action_none">Değişmeden Bırak</string>

@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Dohodni</string>
   <string name="status_bar_network_traffic_style_all">Odhodni in prihodni</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Dolg pritisk gumba prižge svetilko</string>
+  <string name="torch_long_press_power_gesture_desc">Z gumbom za vklop/izklop med izključenim zaslonom lahko prižgete svetilko</string>
 </resources>
