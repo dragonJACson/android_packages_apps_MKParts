@@ -234,6 +234,7 @@
   <string name="camera_double_tap_power_gesture_title">Dvakrat pritisnite gumb za vklop/izklop za fotoaparat</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Hitro odprite fotoaparat brez odklepanja zaslona</string>
+  <string name="torch_long_press_power_timeout_title">Samodejno izključi svetilko</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Izbriši</string>
   <string name="profile_action_none">Pusti nespremenjeno</string>
@@ -283,7 +284,7 @@
   <string name="profile_app_group_item_instructions">Dodaj ali odstrani skupine</string>
   <string name="profile_app_group_item_instructions_summary">Dodaj ali odstrani skupine aplikacij za preglasitev obvestil iz tega profila</string>
   <!-- Profile mode options. -->
-  <string name="profile_entries_on">Vkl.</string>
+  <string name="profile_entries_on">Vklopi</string>
   <string name="profile_entries_off">Izk.</string>
   <string name="profile_entries_no_override">Brez preglasitev</string>
   <!-- Add Profile -->
