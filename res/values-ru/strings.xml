@@ -386,12 +386,12 @@
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Значки в строке состояния</string>
   <string name="status_bar_notif_count_title">Счетчик уведомлений</string>
-  <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
+  <string name="status_bar_notif_count_summary">Показывать число новых уведомлений в строке состояния</string>
   <string name="status_bar_system_icons_title">Системные значки</string>
   <string name="status_bar_system_icons_summary">Настройка видимости значков</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Часы</string>
-  <string name="status_bar_clock_position_title">Стиль часов</string>
+  <string name="status_bar_clock_position_title">Позиция часов</string>
   <string name="status_bar_clock_position_right">Справа</string>
   <string name="status_bar_clock_position_left">Слева</string>
   <string name="status_bar_clock_position_center">По центру</string>
@@ -486,7 +486,7 @@
   <string name="auto_power_save_never">Не включать</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Режим расширенного экрана</string>
-  <string name="expanded_desktop_settings_summary">Расширение доступного пространства экрана путем скрытия строки состояния и/или панели навигации</string>
+  <string name="expanded_desktop_settings_summary">Скрыть строку состояния, панель навигации или обе одновременно</string>
   <string name="expanded_desktop_options_title">Настройки</string>
   <string name="expanded_desktop_style_title">Стиль режима расширенного экрана</string>
   <string name="expanded_desktop_style_hide_nothing">Ничего не скрывать</string>
