@@ -235,6 +235,12 @@
   <string name="camera_double_tap_power_gesture_title">Tekan dua kali tombol power untuk ke kamera</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Membuka cepat kamera tanpa membuka layar kunci</string>
+  <string name="torch_long_press_power_timeout_title">Otomatis mematikan senter</string>
+  <string name="torch_long_press_power_timeout_never">Tidak pernah</string>
+  <string name="torch_long_press_power_timeout_1min">1 menit</string>
+  <string name="torch_long_press_power_timeout_2min">2 menit</string>
+  <string name="torch_long_press_power_timeout_5min">5 menit</string>
+  <string name="torch_long_press_power_timeout_10min">10 menit</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Hapus</string>
   <string name="profile_action_none">Tinggalkan tanpa perubahan</string>

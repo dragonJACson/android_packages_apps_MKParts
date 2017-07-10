@@ -47,6 +47,10 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">स्क्रीनशॉट</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_1min">1 मिनट</string>
+  <string name="torch_long_press_power_timeout_2min">2 मिनट</string>
+  <string name="torch_long_press_power_timeout_5min">5 मिनट</string>
+  <string name="torch_long_press_power_timeout_10min">10 मिनट</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">हटाएं</string>
   <!-- Profile triggers -->

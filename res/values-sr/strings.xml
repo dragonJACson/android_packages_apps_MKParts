@@ -73,6 +73,11 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">Снимак екрана</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Никада</string>
+  <string name="torch_long_press_power_timeout_1min">1 минут</string>
+  <string name="torch_long_press_power_timeout_2min">2 минута</string>
+  <string name="torch_long_press_power_timeout_5min">5 минута</string>
+  <string name="torch_long_press_power_timeout_10min">10 минута</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Избриши</string>
   <!-- Profile triggers -->

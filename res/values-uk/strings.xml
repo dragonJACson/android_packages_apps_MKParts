@@ -235,6 +235,11 @@
   <string name="camera_double_tap_power_gesture_title">Двічі натиснути кнопку живлення для Камери</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Швидко запускайте камеру, не розблоковуючи екран</string>
+  <string name="torch_long_press_power_timeout_never">Ніколи</string>
+  <string name="torch_long_press_power_timeout_1min">1 хвилина</string>
+  <string name="torch_long_press_power_timeout_2min">2 хвилини</string>
+  <string name="torch_long_press_power_timeout_5min">5 хвилин</string>
+  <string name="torch_long_press_power_timeout_10min">10 хвилин</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Видалити</string>
   <string name="profile_action_none">Залишити без змін</string>

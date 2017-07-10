@@ -228,6 +228,11 @@
   <string name="camera_double_tap_power_gesture_title">ホームボタンを2回押してカメラを起動</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">画面のロックを解除せずにカメラをすばやく起動する</string>
+  <string name="torch_long_press_power_timeout_never">なし</string>
+  <string name="torch_long_press_power_timeout_1min">1分</string>
+  <string name="torch_long_press_power_timeout_2min">2分</string>
+  <string name="torch_long_press_power_timeout_5min">5分</string>
+  <string name="torch_long_press_power_timeout_10min">10分</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">削除</string>
   <string name="profile_action_none">変更しない</string>

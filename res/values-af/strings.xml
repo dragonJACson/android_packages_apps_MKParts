@@ -55,6 +55,10 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_1min">1 minuut</string>
+  <string name="torch_long_press_power_timeout_2min">2 minute</string>
+  <string name="torch_long_press_power_timeout_5min">5 minute</string>
+  <string name="torch_long_press_power_timeout_10min">10 minute</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Vee uit</string>
   <!-- Profile triggers -->

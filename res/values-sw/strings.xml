@@ -45,6 +45,10 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_1min">Dakika 1</string>
+  <string name="torch_long_press_power_timeout_2min">Dakika 2</string>
+  <string name="torch_long_press_power_timeout_5min">Dakika 5</string>
+  <string name="torch_long_press_power_timeout_10min">Dakika 1</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Futa</string>
   <!-- Profile triggers -->

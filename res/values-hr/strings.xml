@@ -227,6 +227,10 @@
   <string name="camera_double_tap_power_gesture_title">Pritisnite tipku napajanja dva puta za kameru</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Brzo otvaranje fotoaparata bez otključavanja zaslona</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+  <string name="torch_long_press_power_timeout_2min">2 minute</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuta</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuta</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Izbriši</string>
   <string name="profile_action_none">Ostavi nepromijenjeno</string>

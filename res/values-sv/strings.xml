@@ -180,6 +180,11 @@
   <string name="volume_keys_control_ring_stream_summary_off">Volymknappar kontrollerar mediavolym</string>
   <string name="camera_double_tap_power_gesture_title">Tryck på strömknappen två gånger för kamera</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Aldrig</string>
+  <string name="torch_long_press_power_timeout_1min">1 minut</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuter</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuter</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuter</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Ta bort</string>
   <string name="profile_action_none">Lämna oförändrad</string>

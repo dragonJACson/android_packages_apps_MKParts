@@ -235,6 +235,11 @@
   <string name="camera_double_tap_power_gesture_title">Avaa kamera painamalla virtanäppäintä kahdesti</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Avaa kamera nopeasti avaamatta laitteen näyttöä</string>
+  <string name="torch_long_press_power_timeout_never">Ei koskaan</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuutti</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuuttia</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuuttia</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuuttia</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Poista</string>
   <string name="profile_action_none">Poistu tallentamatta</string>

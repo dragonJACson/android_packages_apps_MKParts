@@ -52,6 +52,11 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">اسکرین شات</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">هرگز</string>
+  <string name="torch_long_press_power_timeout_1min">۱ دقیقه</string>
+  <string name="torch_long_press_power_timeout_2min">۲ دقیقه</string>
+  <string name="torch_long_press_power_timeout_5min">۵ دقیقه</string>
+  <string name="torch_long_press_power_timeout_10min">۱۰ دقیقه</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">حذف</string>
   <string name="profile_tabs_nfc">ان‌اف‌سی</string>

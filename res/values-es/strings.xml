@@ -170,6 +170,11 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">Capturar pantalla</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Nunca</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutos</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Borrar</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>

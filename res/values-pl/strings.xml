@@ -234,6 +234,11 @@
   <string name="camera_double_tap_power_gesture_title">Naciśnij dwukrotnie przycisk zasilania, aby włączyć aparat</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Szybko uruchom aparat bez odblokowywania ekranu</string>
+  <string name="torch_long_press_power_timeout_never">Nigdy</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuty</string>
+  <string name="torch_long_press_power_timeout_5min">5 minut</string>
+  <string name="torch_long_press_power_timeout_10min">10 minut</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Usuń</string>
   <string name="profile_action_none">Pozostaw bez zmian</string>

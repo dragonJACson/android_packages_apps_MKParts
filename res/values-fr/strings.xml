@@ -235,6 +235,11 @@
   <string name="camera_double_tap_power_gesture_title">Appuyer deux fois sur le bouton Marche/Arrêt pour lancer l\'appareil photo</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ouvrir rapidement l\'appareil photo sans déverrouiller l\'écran</string>
+  <string name="torch_long_press_power_timeout_never">Jamais</string>
+  <string name="torch_long_press_power_timeout_1min">1 minute</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutes</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Supprimer</string>
   <string name="profile_action_none">Ne pas modifier</string>

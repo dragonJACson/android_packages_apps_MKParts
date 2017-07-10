@@ -236,6 +236,11 @@
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ekran kilidini açmadan hızlı bir şekilde kamerayı açın</string>
   <string name="torch_long_press_power_timeout_title">El fenerini otomatik olarak kapat</string>
+  <string name="torch_long_press_power_timeout_never">Asla</string>
+  <string name="torch_long_press_power_timeout_1min">1 dakika</string>
+  <string name="torch_long_press_power_timeout_2min">2 dakika</string>
+  <string name="torch_long_press_power_timeout_5min">5 dakika</string>
+  <string name="torch_long_press_power_timeout_10min">10 dakika</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Sil</string>
   <string name="profile_action_none">Değişmeden Bırak</string>

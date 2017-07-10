@@ -45,6 +45,10 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_1min">१ मिनेट</string>
+  <string name="torch_long_press_power_timeout_2min">१२ मिनेट</string>
+  <string name="torch_long_press_power_timeout_5min">५ मिनेट</string>
+  <string name="torch_long_press_power_timeout_10min">१० मिनेट</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">मेट्नुहोस्</string>
   <!-- Profile triggers -->

@@ -200,6 +200,11 @@
   <string name="power_menu_bug_report_disabled">Foutrapportage is uitgeschakeld in de opties voor ontwikkelaars</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumeknoppen passen mediavolume aan</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Nooit</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuut</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuten</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuten</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuten</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Verwijderen</string>
   <string name="profile_action_none">Niet wijzigen</string>

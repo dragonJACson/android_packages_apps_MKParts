@@ -222,6 +222,11 @@
   <string name="camera_double_tap_power_gesture_title">Pressione o botão ligar/desligar duas vezes para iniciar a câmara</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Abrir rapidamente a câmara sem desbloquear o ecrã</string>
+  <string name="torch_long_press_power_timeout_never">Nunca</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutos</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Eliminar</string>
   <string name="profile_action_none">Deixar inalterado</string>
