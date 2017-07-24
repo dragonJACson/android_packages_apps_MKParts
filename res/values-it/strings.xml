@@ -206,7 +206,7 @@
   <string name="backlight_summary_enabled_with_timeout">Attivata per <xliff:g id="timeout">%s</xliff:g></string>
   <string name="backlight_summary_enabled">Attivata</string>
   <!-- Buttons - Enable navbar -->
-  <string name="disable_navkeys_title">Abilità barra di navigazione su schermo</string>
+  <string name="disable_navkeys_title">Abilita barra di navigazione su schermo</string>
   <string name="disable_navkeys_summary">Attiva la barra di navigazione a schermo e disattiva i pulsanti fisici</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Barra di navigazione</string>
@@ -219,7 +219,7 @@
   <string name="navigation_bar_home_double_tap_title">Azione doppio tap Home</string>
   <string name="navigation_bar_recents_title">Azione pressione prolungata Panoramica</string>
   <!-- Power menu -->
-  <string name="power_menu_title">Menu di accensione</string>
+  <string name="power_menu_title">Menù di accensione</string>
   <string name="power_menu_reboot_title">Menu riavvio</string>
   <string name="power_menu_screenshot_title">Cattura schermo</string>
   <string name="power_menu_airplane_title">Modalità aereo</string>
@@ -420,10 +420,10 @@
   <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Luminosità</string>
-  <string name="status_bar_brightness_slider_title">Slider per la luminosità</string>
-  <string name="status_bar_brightness_slider_summary">Regolare la luminosità automatica dalle quick settings</string>
-  <string name="status_bar_brightness_slider_auto_title">Regolazione automatica della luminosità</string>
-  <string name="status_bar_brightness_slider_auto_summary">Mostra il toggle per la luminosità adattiva vicino allo slider</string>
+  <string name="status_bar_brightness_slider_title">Cursore luminosità</string>
+  <string name="status_bar_brightness_slider_summary">Regola la luminosità automatica dalle impostazioni rapide</string>
+  <string name="status_bar_brightness_slider_auto_title">Luminosità automatica</string>
+  <string name="status_bar_brightness_slider_auto_summary">Mostra il toggle per la luminosità adattiva vicino al cursore</string>
   <string name="status_bar_toggle_brightness">Controllo luminosità</string>
   <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
   <!-- Status bar - icon blacklist -->
