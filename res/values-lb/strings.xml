@@ -18,13 +18,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="reset">Zrécksetzen</string>
   <string name="next">Weider</string>
+  <string name="on">Un</string>
   <string name="yes">Jo</string>
   <string name="no">Nee</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
+  <string name="privacy_guard_help_title">Hëllef</string>
+  <string name="privacy_guard_reset_title">Zrécksetzen</string>
   <string name="privacy_guard_manager_show_system_apps">Integréiert Appen uweisen</string>
   <!-- Notification light dialogs -->
+  <string name="dialog_delete_title">Läschen</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
@@ -34,8 +39,15 @@
   <!-- LiveDisplay -->
   <string name="live_display_color_temperature_title">Faarftemperatur</string>
   <string name="live_display_night">Nuecht</string>
+  <string name="color_red_title">Rout</string>
+  <string name="color_green_title">Gréng</string>
+  <string name="color_blue_title">Blo</string>
   <!-- LiveDisplay : Picture Adjustment -->
+  <string name="adj_hue_title">Faarftoun</string>
+  <string name="adj_saturation_title">Sättegung</string>
+  <string name="adj_contrast_title">Kontrast</string>
   <!-- Button settings -->
+  <string name="hardware_keys_menu_key_title">Menü-Knäppchen</string>
   <string name="hardware_keys_action_launch_camera">Fotoapparat starten</string>
   <string name="camera_launch_title">Fotoapparat starten</string>
   <!-- Key backlight -->
@@ -44,13 +56,21 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_1min">1 Minutt</string>
+  <string name="torch_long_press_power_timeout_2min">2 Minutten</string>
+  <string name="torch_long_press_power_timeout_5min">5 Minutten</string>
+  <string name="torch_long_press_power_timeout_10min">10 Minutten</string>
   <!-- Profiles -->
+  <string name="profile_menu_delete_title">Läschen</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
+  <string name="profile_menu_delete">Läschen</string>
   <!-- Profile mode options. -->
+  <string name="profile_entries_on">Un</string>
   <!-- Add Profile -->
   <!-- Rename Dialog  -->
   <!-- Reset Profiles -->
+  <string name="profile_reset_title">Zrécksetzen</string>
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
@@ -64,6 +84,7 @@
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
   <string name="ring_mode_vibrate">Vibréieren</string>
+  <string name="ring_mode_mute">Roueg</string>
   <string name="media_volume_title">Medien</string>
   <!-- Status bar -->
   <string name="status_bar_double_tap_to_sleep_title">Zweemol drécke fir auszemaachen</string>
@@ -73,6 +94,7 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Hellegkeet</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Geschützt Appen</string>
