@@ -78,7 +78,7 @@
   <string name="pulse_speed_very_slow">非常低</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">電量指示燈</string>
-  <string name="battery_low_pulse_title">低電量時閃爍呼吸燈</string>
+  <string name="battery_low_pulse_title">電量不足時閃爍呼吸燈</string>
   <string name="battery_light_list_title">顏色</string>
   <string name="battery_light_low_color_title">電量不足</string>
   <string name="battery_light_medium_color_title">充電中</string>
