@@ -69,6 +69,7 @@
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
+  <string name="live_display_day">اليوم</string>
   <string name="live_display_night">ليلي</string>
   <string name="color_red_title">أحمر</string>
   <string name="color_green_title">أخضر</string>
