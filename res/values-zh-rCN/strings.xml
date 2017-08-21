@@ -137,7 +137,9 @@
   <string name="live_display_color_profile_reading_title">阅读模式</string>
   <string name="live_display_color_profile_reading_summary">使用暖色调以缓解眼睛疲劳</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
-  <string name="live_display_color_profile_srgb_summary">使用 sRGB 色彩空间校准屏幕颜色。</string>
+  <string name="live_display_color_profile_srgb_summary">使用 sRGB 色彩空间校准屏幕颜色</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色彩空间校准屏幕颜色</string>
   <string name="color_calibration_title">颜色校准</string>
   <string name="color_calibration_summary">校准屏幕颜色</string>
   <string name="color_red_title">红</string>
