@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Больш цёплы колеру для меншага напружання вачэй</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Дакладнасць колеру Srgb каляровай прасторы</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Колеры, адпаведныя каляровай прасторы DCI-P3</string>
   <string name="color_calibration_title">Калібраваньне колераў</string>
   <string name="color_calibration_summary">Налада колераперадачы экрана</string>
   <string name="color_red_title">Чырвоны</string>
