@@ -234,6 +234,7 @@
   <string name="camera_double_tap_power_gesture_title">Naciśnij dwukrotnie przycisk zasilania, aby włączyć aparat</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Szybko uruchom aparat bez odblokowywania ekranu</string>
+  <string name="torch_long_press_power_timeout_title">Automatycznie wyłącz latarkę</string>
   <string name="torch_long_press_power_timeout_never">Nigdy</string>
   <string name="torch_long_press_power_timeout_1min">1 minuta</string>
   <string name="torch_long_press_power_timeout_2min">2 minuty</string>
@@ -393,6 +394,7 @@
   <string name="status_bar_system_icons_title">Ikony systemowe</string>
   <string name="status_bar_system_icons_summary">Wybierz, które ikony będą wyświetlane na pasku stanu</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Zegar</string>
   <string name="status_bar_clock_position_title">Styl zegara</string>
   <string name="status_bar_clock_position_right">Po prawej</string>
   <string name="status_bar_clock_position_left">Po lewej</string>
@@ -417,6 +419,9 @@
   <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Jasność</string>
+  <string name="status_bar_brightness_slider_title">Pasek jasności</string>
+  <string name="status_bar_brightness_slider_summary">Dostosuj jasność z Szybkich Ustawień</string>
+  <string name="status_bar_brightness_slider_auto_title">Automatyczna jasność</string>
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
   <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <!-- Status bar - icon blacklist -->
