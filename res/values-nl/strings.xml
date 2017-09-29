@@ -90,6 +90,7 @@
   <string name="notification_light_use_custom">Aangepaste waarden gebruiken</string>
   <string name="notification_light_default_value">Standaard</string>
   <string name="notification_light_missed_call_title">Gemiste oproep</string>
+  <string name="notification_light_voicemail_title">Antwoordapparaat</string>
   <string name="notification_light_screen_on">Verlichting met scherm aan</string>
   <string name="notification_light_zen_mode">Meldingsled in modus \'Niet storen\'</string>
   <string name="notification_light_use_multiple_leds">Meerdere LEDs</string>
