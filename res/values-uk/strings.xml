@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Теплі кольори для зменьшення напруги очей</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Кольори з точністю до колірного простору sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Кольори з точністю до колірного простору DCI-P3</string>
   <string name="color_calibration_title">Калібрування кольору</string>
   <string name="color_calibration_summary">Калібрування кольору на екрані</string>
   <string name="color_red_title">Червоний</string>
@@ -235,6 +237,7 @@
   <string name="camera_double_tap_power_gesture_title">Двічі натиснути кнопку живлення для Камери</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Швидко запускайте камеру, не розблоковуючи екран</string>
+  <string name="torch_long_press_power_timeout_title">Автоматичне вимкнення ліхтарика</string>
   <string name="torch_long_press_power_timeout_never">Ніколи</string>
   <string name="torch_long_press_power_timeout_1min">1 хвилина</string>
   <string name="torch_long_press_power_timeout_2min">2 хвилини</string>
@@ -419,6 +422,10 @@
   <string name="status_bar_battery_percentage_text_next">Поруч зі значком</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Яскравість</string>
+  <string name="status_bar_brightness_slider_title">Повзунок яскравості</string>
+  <string name="status_bar_brightness_slider_summary">Регулювання яскравості з швидких налаштувань</string>
+  <string name="status_bar_brightness_slider_auto_title">Авто налаштування яскравості</string>
+  <string name="status_bar_brightness_slider_auto_summary">Показати перемикач адаптивної яскравості поряд з повзунком</string>
   <string name="status_bar_toggle_brightness">Керування яскравістю</string>
   <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
   <!-- Status bar - icon blacklist -->
