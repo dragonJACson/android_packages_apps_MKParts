@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Toplejše barve za manjšo obremenitev oči</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Barve so natančno v sRGB barvnem prostoru</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Barve ustrezne DCI-P3 barvnemu prostoru</string>
   <string name="color_calibration_title">Umerjanje barv</string>
   <string name="color_calibration_summary">Umeri barve na zaslonu</string>
   <string name="color_red_title">Rdeča</string>
