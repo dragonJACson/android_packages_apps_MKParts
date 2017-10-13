@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <string name="mkparts_title">MoKee beállítások</string>
+  <string name="cmparts_title">MoKee beállítások</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Gomb magasság</string>
   <string name="navigation_bar_height_48">48dp (alapértelmezett)</string>

@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <string name="mkparts_title">魔趣设置</string>
+  <string name="cmparts_title">魔趣设置</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">导航栏高度</string>
   <string name="navigation_bar_height_48">48dp（默认）</string>

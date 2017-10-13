@@ -42,7 +42,7 @@
         android:key="perf_profile_category"
         android:title="@string/perf_profile_category_title">
 
-        <org.mokee.mkparts.widget.SeekBarPreference
+        <org.cyanogenmod.cmparts.widget.SeekBarPreference
             android:key="perf_seekbar"
             android:title="@string/perf_profile_title"
             android:max="4"
@@ -50,7 +50,7 @@
             android:persistent="false"
             android:layout="@layout/preference_slider" />
 
-        <mokee.preference.MKSecureSettingSwitchPreference
+        <cyanogenmod.preference.CMSecureSettingSwitchPreference
             android:key="app_perf_profiles_enabled"
             android:title="@string/app_perf_profiles_title"
             android:summary="@string/app_perf_profiles_summary"

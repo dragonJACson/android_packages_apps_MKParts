@@ -17,15 +17,15 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="privacy_guard_manager"
-    android:title="@*mokee.platform:string/privacy_guard_manager_title">
+    android:title="@*cyanogenmod.platform:string/privacy_guard_manager_title">
 
-    <mokee.preference.MKSecureSettingSwitchPreference
+    <cyanogenmod.preference.CMSecureSettingSwitchPreference
         android:key="privacy_guard_default"
         android:title="@string/privacy_guard_default_title"
         android:summary="@string/privacy_guard_default_summary"
         android:defaultValue="false" />
 
-    <mokee.preference.MKSecureSettingSwitchPreference
+    <cyanogenmod.preference.CMSecureSettingSwitchPreference
         android:key="privacy_guard_notification"
         android:title="@string/privacy_guard_notification_title"
         android:defaultValue="true" />

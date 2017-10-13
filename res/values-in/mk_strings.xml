@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <string name="mkparts_title">Setelan MoKee</string>
+  <string name="cmparts_title">Setelan MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Tinggi tombol</string>
   <string name="navigation_bar_height_48">48dp (bawaan)</string>

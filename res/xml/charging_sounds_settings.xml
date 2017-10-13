@@ -20,12 +20,12 @@
     android:key="charging_sounds_settings"
     android:title="@string/charging_sounds_settings_title">
 
-    <mokee.preference.GlobalSettingSwitchPreference
+    <cyanogenmod.preference.GlobalSettingSwitchPreference
         android:key="charging_sounds_enabled"
         android:title="@string/charging_sounds_enabled_title"
         android:summary="@string/charging_sounds_enabled_summary" />
 
-    <mokee.preference.MKGlobalSettingSwitchPreference
+    <cyanogenmod.preference.CMGlobalSettingSwitchPreference
         android:key="power_notifications_vibrate"
         android:title="@string/power_notifications_vibrate_title"
         android:dependency="charging_sounds_enabled" />

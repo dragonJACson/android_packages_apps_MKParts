@@ -29,7 +29,7 @@
             android:persistent="false"
             android:entryValues="@array/profile_values" />
 
-    <org.mokee.mkparts.profiles.ProfileRingtonePreference
+    <org.cyanogenmod.cmparts.profiles.ProfileRingtonePreference
             android:key="soundtone"
             android:title="@string/soundtone_title"
             android:summary="@string/soundtone_summary"
@@ -45,7 +45,7 @@
             android:persistent="false"
             android:entryValues="@array/profile_values" />
 
-    <org.mokee.mkparts.profiles.ProfileRingtonePreference
+    <org.cyanogenmod.cmparts.profiles.ProfileRingtonePreference
             android:key="ringtone"
             android:title="@string/ringtone_title"
             android:summary="@string/ringtone_summary"

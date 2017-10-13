@@ -52,7 +52,7 @@
 
         <include layout="@layout/loading_container" />
 
-        <org.mokee.mkparts.widget.FloatingActionButton
+        <org.cyanogenmod.cmparts.widget.FloatingActionButton
             android:id="@+id/fab"
             android:visibility="gone"
             android:clickable="true"
