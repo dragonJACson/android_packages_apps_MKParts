@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <string name="cmparts_title">Ajustes de MoKee</string>
+  <string name="mkparts_title">Ajustes de MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Altura del botón</string>
   <string name="navigation_bar_height_48">48dp (por defecto)</string>

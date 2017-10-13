@@ -18,7 +18,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
-    package="org.cyanogenmod.cmparts"
+    package="org.mokee.mkparts"
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
@@ -36,17 +36,17 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
 
-    <uses-permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES" />
+    <uses-permission android:name="mokee.permission.MANAGE_REMOTE_PREFERENCES" />
 
     <protected-broadcast android:name="android.intent.action.UPDATE_POWER_MENU" />
-    <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
-    <protected-broadcast android:name="org.cyanogenmod.cmparts.PART_CHANGED" />
-    <protected-broadcast android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
-    <protected-broadcast android:name="org.cyanogenmod.cmparts.gestures.UPDATE_SETTINGS" />
+    <protected-broadcast android:name="mokee.platform.app.profiles.PROFILES_STATE_CHANGED" />
+    <protected-broadcast android:name="org.mokee.mkparts.PART_CHANGED" />
+    <protected-broadcast android:name="org.mokee.mkparts.REFRESH_PART" />
+    <protected-broadcast android:name="org.mokee.mkparts.gestures.UPDATE_SETTINGS" />
 
     <!-- MOKEE PUSH PERMISSION START -->
-    <permission android:name="org.cyanogenmod.cmparts.permission.JPUSH_MESSAGE" android:protectionLevel="signature" />
-    <uses-permission android:name="org.cyanogenmod.cmparts.permission.JPUSH_MESSAGE" />
+    <permission android:name="org.mokee.mkparts.permission.JPUSH_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="org.mokee.mkparts.permission.JPUSH_MESSAGE" />
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -64,8 +64,8 @@
     <uses-permission android:name="android.permission.REAL_GET_TASKS" />
     <!-- MOKEE PUSH PERMISSION END -->
 
-    <application android:label="@string/cmparts_title"
-            android:name=".CMPartsApplication"
+    <application android:label="@string/mkparts_title"
+            android:name=".MKPartsApplication"
             android:theme="@style/Theme.Settings"
             android:hardwareAccelerated="true"
             android:supportsRtl="true"
@@ -79,25 +79,27 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+                android:name="org.lineageos.settings.summary.receiver"
+                android:value="org.mokee.mkparts.PartsUpdater" />
         </activity>
 
+        <!--
         <receiver android:name=".BootReceiver" android:enabled="true">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+        -->
 
         <receiver android:name=".PartsUpdater" android:enabled="true">
             <intent-filter>
-                <action android:name="cyanogenmod.intent.action.UPDATE_PREFERENCE" />
+                <action android:name="mokee.intent.action.UPDATE_PREFERENCE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
 
-        <provider android:name=".search.CMPartsSearchIndexablesProvider"
-                  android:authorities="org.cyanogenmod.cmparts"
+        <provider android:name=".search.MKPartsSearchIndexablesProvider"
+                  android:authorities="org.mokee.mkparts"
                   android:multiprocess="false"
                   android:grantUriPermissions="true"
                   android:permission="android.permission.READ_SEARCH_INDEXABLES"
@@ -108,13 +110,14 @@
         </provider>
 
         <!-- Privacy settings (dashboard) -->
+        <!--
         <activity-alias
             android:name=".PrivacySettings"
             android:label="@string/privacy_settings_title"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="3">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-                <action android:name="org.cyanogenmod.cmparts.PRIVACY_SETTINGS" />
+                <action android:name="org.mokee.mkparts.PRIVACY_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
@@ -124,21 +127,23 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_privacy" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+                android:name="org.lineageos.settings.summary.receiver"
+                android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.key"
+                android:name="org.lineageos.settings.summary.key"
                 android:value="privacy_settings" />
         </activity-alias>
+        -->
 
         <!-- Button settings (dashboard) -->
+        <!--
         <activity-alias
             android:name=".input.ButtonSettings"
             android:label="@string/button_pref_title"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-                <action android:name="org.cyanogenmod.cmparts.BUTTON_SETTINGS" />
+                <action android:name="org.mokee.mkparts.BUTTON_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
@@ -148,23 +153,27 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_buttons" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+                android:name="org.lineageos.settings.summary.receiver"
+                android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.key"
+                android:name="org.lineageos.settings.summary.key"
                 android:value="button_settings" />
         </activity-alias>
+        -->
 
+        <!--
         <activity android:name=".gestures.KeyHandler" />
+        -->
 
         <!-- Profiles settings (dashboard) -->
+        <!--
         <activity-alias
             android:name=".profiles.ProfilesSettings"
             android:label="@string/profiles_settings_title"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-                <action android:name="org.cyanogenmod.cmparts.PROFILES_SETTINGS" />
+                <action android:name="org.mokee.mkparts.PROFILES_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
@@ -174,21 +183,23 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_profiles" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+                android:name="org.lineageos.settings.summary.receiver"
+                android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.key"
+                android:name="org.lineageos.settings.summary.key"
                 android:value="profiles_settings" />
         </activity-alias>
+        -->
 
         <!-- Status bar settings (dashboard) -->
+        <!--
         <activity-alias
             android:name=".statusbar.StatusBarSettings"
             android:label="@string/status_bar_title"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="2">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-                <action android:name="org.cyanogenmod.cmparts.STATUS_BAR_SETTINGS" />
+                <action android:name="org.mokee.mkparts.STATUS_BAR_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
@@ -198,21 +209,53 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_statusbar" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+                android:name="org.lineageos.settings.summary.receiver"
+                android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.cyanogenmod.settings.summary.key"
+                android:name="org.lineageos.settings.summary.key"
                 android:value="status_bar_settings" />
         </activity-alias>
+        -->
+
+        <!-- Weather settings -->
+        <!--
+        <activity-alias
+            android:name=".weather.WeatherServiceSettings"
+            android:label="@string/weather_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="mokee.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        -->
+
+        <!--
+        <activity android:name=".profiles.NFCProfile">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="mk/profile" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <!--
+        <activity
+            android:name=".profiles.NFCProfileSelect"
+            android:label="@string/profile_select"
+            android:excludeFromRecents="true"/>
+        -->
 
         <!-- MOKEE ANONYMOUS STATISTICS START -->
+        <!--
         <receiver android:name=".stats.ReportingServiceManager"
             android:label="ReportingServiceManager"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="org.cyanogenmod.cmparts.action.TRIGGER_REPORT_METRICS" />
+                <action android:name="org.mokee.mkparts.action.TRIGGER_REPORT_METRICS" />
             </intent-filter>
         </receiver>
 
@@ -230,10 +273,11 @@
 
         <service android:name=".stats.StatsUploadJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
+        -->
         <!-- MOKEE ANONYMOUS STATISTICS END -->
 
         <!-- MOKEE PUSH SERVICE START -->
+        <!--
         <activity
             android:name="cn.jpush.android.ui.PushActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -241,7 +285,7 @@
             <intent-filter>
                 <action android:name="cn.jpush.android.ui.PushActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="org.cyanogenmod.cmparts" />
+                <category android:name="org.mokee.mkparts" />
             </intent-filter>
         </activity>
 
@@ -269,7 +313,7 @@
             android:exported="true" >
              <intent-filter android:priority="1000">
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
-                <category android:name="org.cyanogenmod.cmparts" />
+                <category android:name="org.mokee.mkparts" />
             </intent-filter>
 
             <intent-filter>
@@ -293,37 +337,14 @@
                 <action android:name="cn.jpush.android.intent.REGISTRATION" />
                 <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
                 <action android:name="cn.jpush.android.intent.CONNECTION" />
-                <category android:name="org.cyanogenmod.cmparts" />
+                <category android:name="org.mokee.mkparts" />
             </intent-filter>
         </receiver>
 
         <meta-data android:name="JPUSH_CHANNEL" android:value="default"/>
         <meta-data android:name="JPUSH_APPKEY" android:value="1e31e45c4949a2beed951431" />
+        -->
         <!-- MOKEE PUSH SERVICE END -->
-
-        <!-- Weather settings -->
-        <activity-alias
-            android:name=".weather.WeatherServiceSettings"
-            android:label="@string/weather_settings_title"
-            android:targetActivity="PartsActivity">
-            <intent-filter android:priority="1">
-                <action android:name="cyanogenmod.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity-alias>
-
-        <activity android:name=".profiles.NFCProfile">
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="mk/profile" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".profiles.NFCProfileSelect"
-            android:label="@string/profile_select"
-            android:excludeFromRecents="true"/>
 
     </application>
 </manifest>

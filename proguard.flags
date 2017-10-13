@@ -1,18 +1,18 @@
 # Keep all Fragments in this package, which are used by reflection.
--keep class org.cyanogenmod.cmparts.*Fragment
--keep class org.cyanogenmod.cmparts.*Picker
--keep class org.cyanogenmod.cmparts.*Settings
+-keep class org.mokee.mkparts.*Fragment
+-keep class org.mokee.mkparts.*Picker
+-keep class org.mokee.mkparts.*Settings
 
--keep class org.cyanogenmod.cmparts.stats.*
--keep class org.cyanogenmod.cmparts.contributors.*
--keep class org.cyanogenmod.cmparts.hardware.*
--keep class org.cyanogenmod.cmparts.input.*
--keep class org.cyanogenmod.cmparts.livedisplay.*
--keep class org.cyanogenmod.cmparts.notificationlight.*
--keep class org.cyanogenmod.cmparts.power.*
--keep class org.cyanogenmod.cmparts.privacyguard.*
--keep class org.cyanogenmod.cmparts.profiles.*
--keep class org.cyanogenmod.cmparts.sounds.*
+-keep class org.mokee.mkparts.stats.*
+-keep class org.mokee.mkparts.contributors.*
+-keep class org.mokee.mkparts.hardware.*
+-keep class org.mokee.mkparts.input.*
+-keep class org.mokee.mkparts.livedisplay.*
+-keep class org.mokee.mkparts.notificationlight.*
+-keep class org.mokee.mkparts.power.*
+-keep class org.mokee.mkparts.privacyguard.*
+-keep class org.mokee.mkparts.profiles.*
+-keep class org.mokee.mkparts.sounds.*
 
 -dontwarn cn.jiguang.**
 -keep class cn.jiguang.** { *;}
