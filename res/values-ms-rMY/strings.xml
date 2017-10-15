@@ -19,7 +19,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Tetapkan semula</string>
+  <string name="settings">Tetapan</string>
+  <string name="next">Selepas</string>
   <string name="on">Hidupkan</string>
+  <string name="yes">Ya</string>
+  <string name="no">Tidak</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Bantuan</string>
@@ -44,6 +48,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Skrin shot</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_1min">1 minit</string>
   <string name="torch_long_press_power_timeout_2min">2 minit</string>
