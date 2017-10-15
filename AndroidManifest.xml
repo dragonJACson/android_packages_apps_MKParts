@@ -79,7 +79,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
-                android:name="org.lineageos.settings.summary.receiver"
+                android:name="org.mokee.settings.summary.receiver"
                 android:value="org.mokee.mkparts.PartsUpdater" />
         </activity>
 
@@ -127,10 +127,10 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_privacy" />
             <meta-data
-                android:name="org.lineageos.settings.summary.receiver"
+                android:name="org.mokee.settings.summary.receiver"
                 android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.lineageos.settings.summary.key"
+                android:name="org.mokee.settings.summary.key"
                 android:value="privacy_settings" />
         </activity-alias>
         -->
@@ -153,10 +153,10 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_buttons" />
             <meta-data
-                android:name="org.lineageos.settings.summary.receiver"
+                android:name="org.mokee.settings.summary.receiver"
                 android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.lineageos.settings.summary.key"
+                android:name="org.mokee.settings.summary.key"
                 android:value="button_settings" />
         </activity-alias>
         -->
@@ -183,10 +183,10 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_profiles" />
             <meta-data
-                android:name="org.lineageos.settings.summary.receiver"
+                android:name="org.mokee.settings.summary.receiver"
                 android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.lineageos.settings.summary.key"
+                android:name="org.mokee.settings.summary.key"
                 android:value="profiles_settings" />
         </activity-alias>
         -->
@@ -209,10 +209,10 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_statusbar" />
             <meta-data
-                android:name="org.lineageos.settings.summary.receiver"
+                android:name="org.mokee.settings.summary.receiver"
                 android:value="org.mokee.mkparts.PartsUpdater" />
             <meta-data
-                android:name="org.lineageos.settings.summary.key"
+                android:name="org.mokee.settings.summary.key"
                 android:value="status_bar_settings" />
         </activity-alias>
         -->
