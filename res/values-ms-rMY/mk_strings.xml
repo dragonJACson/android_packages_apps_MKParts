@@ -18,6 +18,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height">Butang ketinggian</string>
+  <string name="navigation_bar_height_48">48dp (asal)</string>
+  <string name="navigation_bar_height_0">sembunyi</string>
   <!-- Show network speed -->
+  <string name="show_network_speed_title">Kelajuan rangkaian</string>
+  <string name="show_network_speed_summary">Papar kelajuan rangkaian di status bar</string>
+  <string name="status_bar_network_traffic_style_disable">Tidak-aktif</string>
+  <string name="status_bar_network_traffic_style_up">Keluar</string>
+  <string name="status_bar_network_traffic_style_down">Masuk</string>
+  <string name="status_bar_network_traffic_style_all">Keluar dan Masuk</string>
   <!-- Long-press power for torch -->
 </resources>
