@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="loading">സംരക്ഷിക്കുന്നു\u2026</string>
   <string name="dlg_ok">ശരി</string>
   <string name="cancel">റദ്ദാക്കുക</string>
   <string name="reset">പുനഃസജ്ജമാക്കുക</string>
@@ -47,6 +48,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">സ്ക്രീൻഷോട്ട്</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_never">ഇതുവരെയില്ല</string>
   <!-- Profiles -->
