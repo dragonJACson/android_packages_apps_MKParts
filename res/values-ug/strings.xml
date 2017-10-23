@@ -52,6 +52,7 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">ئېكراندىن تۇتۇلغان سۈرەت</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">ھەرگىز</string>
   <string name="torch_long_press_power_timeout_1min">1 مىنۇت</string>
   <string name="torch_long_press_power_timeout_2min">2 مىنۇت</string>
   <string name="torch_long_press_power_timeout_5min">5 مىنۇت</string>
@@ -105,6 +106,7 @@
   <!-- Weather -->
   <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">ھەرگىز</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">تىترەت</string>
