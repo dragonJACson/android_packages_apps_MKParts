@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="cancel">ರದ್ದು</string>
   <string name="reset">ಮರುಹೊಂದಿಸು</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
@@ -46,6 +47,7 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">ಎಂದಿಗೂ</string>
   <!-- Profiles -->
   <string name="profile_tabs_nfc">ಎನ್ಎಫ್‍ಸಿ</string>
   <!-- Profile triggers -->
@@ -93,6 +95,7 @@
   <!-- Weather -->
   <string name="status_bar_show_weather_title">ಹವಾಮಾನ ಪ್ರದರ್ಶಿಸು</string>
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">ಎಂದಿಗೂ</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">ಕಂಪಿಸು</string>
