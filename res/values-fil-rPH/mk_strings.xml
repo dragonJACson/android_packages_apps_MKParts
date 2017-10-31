@@ -19,5 +19,7 @@
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
   <!-- Show network speed -->
+  <string name="status_bar_network_traffic_style_down">Papasok</string>
+  <string name="status_bar_network_traffic_style_all">Palabas at papasok</string>
   <!-- Long-press power for torch -->
 </resources>
