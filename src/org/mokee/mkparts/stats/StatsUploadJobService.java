@@ -19,7 +19,6 @@ package org.mokee.mkparts.stats;
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.PersistableBundle;
 import android.util.ArrayMap;
@@ -38,6 +37,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Collections;
 import java.util.Map;
+
+import com.mokee.os.Build;
 
 public class StatsUploadJobService extends JobService {
 
@@ -199,8 +200,9 @@ public class StatsUploadJobService extends JobService {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME,
-                        device_flash_time).putString(ReportingServiceManager.ANONYMOUS_VERSION, currentVersion).apply();
+                prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME, device_flash_time)
+                        .putString(ReportingServiceManager.ANONYMOUS_VERSION, currentVersion)
+                        .putString(ReportingServiceManager.ANONYMOUS_UNIQUE_ID. Build.getUniqueID(this)).apply();
 
                 // reschedule
                 Utilities.updateLastSynced(getApplicationContext());

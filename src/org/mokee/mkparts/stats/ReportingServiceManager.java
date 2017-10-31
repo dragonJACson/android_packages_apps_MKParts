@@ -27,6 +27,8 @@ import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.mokee.os.Build;
+
 public class ReportingServiceManager extends BroadcastReceiver {
 
     public static final String ACTION_LAUNCH_SERVICE =
@@ -39,6 +41,8 @@ public class ReportingServiceManager extends BroadcastReceiver {
     protected static final String ANONYMOUS_LAST_CHECKED = "pref_anonymous_checked_in";
 
     protected static final String ANONYMOUS_VERSION = "pref_anonymous_version";
+
+    protected static final String ANONYMOUS_UNIQUE_ID = "pref_anonymous_unique_id";
 
     private static final long MILLIS_PER_HOUR = 60L * 60L * 1000L;
     private static final long MILLIS_PER_DAY = 24L * MILLIS_PER_HOUR;
@@ -91,7 +95,8 @@ public class ReportingServiceManager extends BroadcastReceiver {
         if (shouldSync && Utilities.isWifiOnly(ctx) ||
                 shouldSync && !Utilities.isWifiOnly(ctx) && !TextUtils.isEmpty(SystemProperties.get("gsm.version.baseband"))) {
             Intent sIntent = new Intent();
-            if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0) {
+            if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0
+                    || !prefs.getString(ANONYMOUS_UNIQUE_ID, "").equals(Build.getUniqueID(ctx))) {
                 sIntent.setClass(ctx, ReportingService.class);
                 ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
             } else {
