@@ -200,9 +200,10 @@ public class StatsUploadJobService extends JobService {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+
                 prefs.edit().putLong(ReportingServiceManager.ANONYMOUS_FLASH_TIME, device_flash_time)
                         .putString(ReportingServiceManager.ANONYMOUS_VERSION, currentVersion)
-                        .putString(ReportingServiceManager.ANONYMOUS_UNIQUE_ID. Build.getUniqueID(this)).apply();
+                        .putString(ReportingServiceManager.ANONYMOUS_UNIQUE_ID, Build.getUniqueID(getApplicationContext())).apply();
 
                 // reschedule
                 Utilities.updateLastSynced(getApplicationContext());
