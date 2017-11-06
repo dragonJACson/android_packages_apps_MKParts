@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <string name="mkparts_title">魔趣設定</string>
+  <string name="mkparts_title">MoKee 設定</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">按鈕高度</string>
   <string name="navigation_bar_height_48">48dp (預設)</string>
