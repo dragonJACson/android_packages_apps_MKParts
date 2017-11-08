@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,11 +25,8 @@ import android.view.ViewGroup;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.profiles.actions.ItemListAdapter;
 
-/*
 import mokee.profiles.StreamSettings;
-*/
 
-/*
 public class VolumeStreamItem extends BaseItem {
     private int mStreamId;
     private StreamSettings mStreamSettings;
@@ -74,8 +70,11 @@ public class VolumeStreamItem extends BaseItem {
     @Override
     public View getView(LayoutInflater inflater, View convertView, ViewGroup parent) {
         View view = super.getView(inflater, convertView, parent);
+        /*
         final boolean volumeLinkNotification = Settings.Secure.getInt(inflater.getContext()
                 .getContentResolver(), Settings.Secure.VOLUME_LINK_NOTIFICATION, 1) == 1;
+        */
+        final boolean volumeLinkNotification = false;
         if (mStreamId == AudioManager.STREAM_NOTIFICATION && volumeLinkNotification) {
             view.findViewById(android.R.id.title).setEnabled(false);
             view.findViewById(android.R.id.summary).setEnabled(false);
@@ -106,4 +105,3 @@ public class VolumeStreamItem extends BaseItem {
         return mStreamSettings;
     }
 }
-*/

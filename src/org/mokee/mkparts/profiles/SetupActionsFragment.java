@@ -1,7 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
  *               2017 The LineageOS Project
- * Copyright (C) 2014 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -59,7 +58,6 @@ import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-/*
 import mokee.app.Profile;
 import mokee.app.ProfileGroup;
 import mokee.app.ProfileManager;
@@ -777,7 +775,7 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
 //            final ConnectionSettings setting = mProfile.getConnectionSettingWithSubId(subId);
 
             switch (selectedMode) {
-                case ConnectionOverrideItem.Lineage_MODE_SYSTEM_DEFAULT:
+                case ConnectionOverrideItem.MOKEE_MODE_SYSTEM_DEFAULT:
                     setting.setOverride(false);
                     break;
                 default:
@@ -797,11 +795,11 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
 
         int defaultIndex = 0; // normal by default
         if (setting.isOverride()) {
-            if (setting.getValue().equals(values[0] /* normal *//*)) {
+            if (setting.getValue().equals(values[0] /* normal */)) {
                 defaultIndex = 0;
-            } else if (setting.getValue().equals(values[1] /* vibrate *//*)) {
+            } else if (setting.getValue().equals(values[1] /* vibrate */)) {
                 defaultIndex = 1; // enabled
-            } else if (setting.getValue().equals(values[2] /* mute *//*)) {
+            } else if (setting.getValue().equals(values[2] /* mute */)) {
                 defaultIndex = 2; // mute
             }
         } else {
@@ -1161,4 +1159,3 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
                 R.string.profile_profile_manage, null, this, NEW_TRIGGER_REQUEST_CODE);
     }
 }
-*/

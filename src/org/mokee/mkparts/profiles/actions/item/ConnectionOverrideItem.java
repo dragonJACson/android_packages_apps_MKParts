@@ -25,12 +25,11 @@ import org.mokee.mkparts.utils.TelephonyUtils;
 
 import mokee.profiles.ConnectionSettings;
 
-/*
 public class ConnectionOverrideItem extends BaseItem {
     int mConnectionId;
     ConnectionSettings mConnectionSettings;
 
-    public static final int Lineage_MODE_SYSTEM_DEFAULT = -1;
+    public static final int MOKEE_MODE_SYSTEM_DEFAULT = -1;
 
     public ConnectionOverrideItem(int connectionId, ConnectionSettings settings) {
         mConnectionId = connectionId;
@@ -132,4 +131,3 @@ public class ConnectionOverrideItem extends BaseItem {
         return mConnectionId;
     }
 }
-*/

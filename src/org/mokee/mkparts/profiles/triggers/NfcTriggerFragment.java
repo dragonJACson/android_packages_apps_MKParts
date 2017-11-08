@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
  *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,13 +32,10 @@ import mokee.app.Profile;
 
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.PartsActivity;
-/*
 import org.mokee.mkparts.profiles.NFCProfileTagCallback;
 import org.mokee.mkparts.profiles.NFCProfileUtils;
 import org.mokee.mkparts.profiles.ProfilesSettings;
-*/
 
-/*
 public class NfcTriggerFragment extends Fragment implements NFCProfileTagCallback {
     Profile mProfile;
 
@@ -124,4 +120,3 @@ public class NfcTriggerFragment extends Fragment implements NFCProfileTagCallbac
         return inflater.inflate(R.layout.nfc_writer, container, false);
     }
 }
-*/

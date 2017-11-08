@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,11 +24,9 @@ import android.util.SparseArray;
 import android.view.ViewGroup;
 
 import org.mokee.mkparts.R;
-/*
 import org.mokee.mkparts.profiles.triggers.BluetoothTriggerFragment;
 import org.mokee.mkparts.profiles.triggers.NfcTriggerFragment;
 import org.mokee.mkparts.profiles.triggers.WifiTriggerFragment;
-*/
 import com.google.android.collect.Lists;
 
 import java.lang.ref.WeakReference;
@@ -175,53 +172,39 @@ public class TriggerPagerAdapter extends FragmentPagerAdapter {
         /**
          * The artist fragment
          */
-        /*
         WIFI(WifiTriggerFragment.class, R.string.profile_tabs_wifi),
-        */
         /**
          * The album fragment
          */
-        /*
         BLUETOOTH(BluetoothTriggerFragment.class, R.string.profile_tabs_bluetooth),
-        */
         /**
          * The song fragment
          */
-        /*
         NFC(NfcTriggerFragment.class, R.string.profile_tabs_nfc);
-        */
 
-        /*
         private Class<? extends Fragment> mFragmentClass;
         private int mNameRes;
-        */
 
         /**
          * Constructor of <code>MusicFragments</code>
          *
          * @param fragmentClass The fragment class
          */
-        /*
         private TriggerFragments(final Class<? extends Fragment> fragmentClass, int nameRes) {
             mFragmentClass = fragmentClass;
             mNameRes = nameRes;
         }
-        */
 
         /**
          * Method that returns the fragment class.
          *
          * @return Class<? extends Fragment> The fragment class.
          */
-        /*
         public Class<? extends Fragment> getFragmentClass() {
             return mFragmentClass;
         }
-        */
 
-        /*
         public int getTitleRes() { return mNameRes; }
-        */
     }
 
     /**

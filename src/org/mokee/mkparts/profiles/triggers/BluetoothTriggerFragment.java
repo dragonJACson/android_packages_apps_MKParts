@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -39,15 +38,12 @@ import mokee.app.Profile;
 import mokee.app.ProfileManager;
 
 import org.mokee.mkparts.R;
-/*
 import org.mokee.mkparts.profiles.ProfilesSettings;
-*/
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/*
 public class BluetoothTriggerFragment extends ListFragment {
 
     private BluetoothAdapter mBluetoothAdapter;
@@ -279,4 +275,3 @@ public class BluetoothTriggerFragment extends ListFragment {
         }
     }
 }
-*/

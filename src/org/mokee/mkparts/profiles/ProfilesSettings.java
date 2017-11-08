@@ -49,7 +49,6 @@ import mokee.app.Profile;
 import mokee.app.ProfileManager;
 import mokee.providers.MKSettings;
 
-/*
 public class ProfilesSettings extends SettingsPreferenceFragment
         implements MKBaseSystemSettingSwitchBar.SwitchBarChangeCallback,
         Preference.OnPreferenceChangeListener {
@@ -321,4 +320,3 @@ public class ProfilesSettings extends SettingsPreferenceFragment
         }
     };
 }
-*/
