@@ -22,13 +22,13 @@
   <string name="dlg_ok">OK</string>
   <string name="cancel">Cancelar</string>
   <string name="add">Adicionar</string>
-  <string name="choose_app">Escolher app</string>
-  <string name="reset">Redefinir</string>
+  <string name="choose_app">Selecionar aplicativo</string>
+  <string name="reset">Resetar</string>
   <string name="advanced">Avançado</string>
   <string name="settings">Configurações</string>
   <string name="name">Nome</string>
   <string name="back">Voltar</string>
-  <string name="finish">Finalizar</string>
+  <string name="finish">Concluir</string>
   <string name="next">Próximo</string>
   <string name="on">Ativado</string>
   <string name="off">Desativado</string>
@@ -48,12 +48,12 @@
   <string name="privacy_guard_default_summary_on">Proteção à Privacidade está ativa</string>
   <string name="privacy_guard_default_summary">Ativar por padrão para aplicativos recém-instalados</string>
   <string name="privacy_guard_manager_summary">Gerencie quais aplicativos têm acesso aos seus dados pessoais</string>
-  <string name="privacy_guard_no_user_apps">Nenhum app está instalado</string>
+  <string name="privacy_guard_no_user_apps">Nenhum aplicativo instalado</string>
   <string name="privacy_guard_help_title">Ajuda</string>
   <string name="privacy_guard_reset_title">Redefinir</string>
-  <string name="privacy_guard_reset_text">Redefinir permissões?</string>
+  <string name="privacy_guard_reset_text">Resetar permissões?</string>
   <string name="privacy_guard_help_text">Nesta tela você pode escolher para quais apps a Proteção à Privacidade deve funcionar simplesmente tocando neles. Os aplicativos selecionados não poderão acessar seus dados pessoais, como contatos, mensagens ou registos de chamadas. Ao pressionar e segurar um item, a tela de detalhes dele é exibida.\n\nApps de sistema não são exibidos por padrão, mas podem ser exibidos selecionando a respectiva opção no menu.</string>
-  <string name="privacy_guard_manager_show_system_apps">Mostrar apps do sistema</string>
+  <string name="privacy_guard_manager_show_system_apps">Mostrar aplicativos de sistema</string>
   <string name="privacy_guard_advanced_settings_title">Avançado</string>
   <string name="privacy_guard_notification_title">Mostrar notificação</string>
   <!-- Notification light dialogs -->
@@ -87,7 +87,7 @@
   <string name="notification_light_title">Luz de notificação</string>
   <string name="notification_light_general_title">Geral</string>
   <string name="notification_light_advanced_title">Avançado</string>
-  <string name="notification_light_applist_title">Apps</string>
+  <string name="notification_light_applist_title">Aplicativos</string>
   <string name="notification_light_phonelist_title">Telefone</string>
   <string name="notification_light_use_custom">Usar valores personalizados</string>
   <string name="notification_light_default_value">Padrão</string>
@@ -97,21 +97,21 @@
   <string name="notification_light_zen_mode">Luzes no modo Não Perturbe</string>
   <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
   <string name="keywords_lights_brightness_level">escurecer o brilho do led</string>
-  <string name="notification_light_automagic">Escolha automática das cores</string>
+  <string name="notification_light_automagic">Escolher as cores automaticamente</string>
   <string name="notification_light_automagic_summary">Escolher as cores automaticamente</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Configurações de brilho</string>
   <string name="led_notification_text">Luz de LED ativada nas configurações</string>
-  <string name="notification_light_no_apps_summary">Para adicionar controle por app, ative o \'%1$s\' e pressione \'\u002b\' na barra de menu</string>
+  <string name="notification_light_no_apps_summary">Para adicionar o controle por aplicativo, ative o \'%1$s\' e pressione \'\u002b\' na barra de menu</string>
   <!-- LiveDisplay -->
-  <string name="live_display_summary">Otimiza sua tela com base na hora do dia e condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
-  <string name="live_display_mode">Modo da tela</string>
+  <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
+  <string name="live_display_mode">Modo de exibição</string>
   <string name="live_display_color_temperature_title">Temperatura da cor</string>
   <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Dia</string>
   <string name="live_display_night">Noite</string>
-  <string name="live_display_outdoor_mode_title">Modo automático ao ar livre</string>
+  <string name="live_display_outdoor_mode_title">Modo ao ar livre automático</string>
   <string name="live_display_outdoor_mode_summary">Aumentar o brilho e a saturação automaticamente sob luz solar intensa</string>
   <string name="live_display_low_power_title">Reduzir o consumo de energia</string>
   <string name="live_display_low_power_summary">Ajustar exibição para menor consumo de energia sem degradação</string>
@@ -340,7 +340,7 @@
   <string name="soundtone_title">Toque de notificação</string>
   <!-- Title for application group setting screen -->
   <string name="profile_appgroups_title">Grupos de app</string>
-  <string name="profile_applist_title">Apps</string>
+  <string name="profile_applist_title">Aplicativos</string>
   <string name="profile_new_appgroup">Novo grupo de app</string>
   <string name="profile_delete_appgroup">Excluir este grupo de app?</string>
   <string name="profile_appgroup_name_prompt">Digite um nome para o novo grupo de app</string>
