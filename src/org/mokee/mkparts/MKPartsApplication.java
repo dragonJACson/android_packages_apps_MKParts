@@ -34,13 +34,14 @@ import cn.jpush.android.api.JPushInterface;
 import cn.jpush.android.api.TagAliasCallback;
 
 import static org.mokee.mkparts.push.PushingMessageReceiver.MKPUSH_ALIAS;
-import static org.mokee.mkparts.push.PushingMessageReceiver.MKPUSH_PREF;
 import static org.mokee.mkparts.push.PushingMessageReceiver.MKPUSH_TAGS;
 import static org.mokee.mkparts.push.PushingMessageReceiver.MSG_SET_ALIAS;
 import static org.mokee.mkparts.push.PushingMessageReceiver.MSG_SET_TAGS;
 import static org.mokee.mkparts.push.PushingMessageReceiver.TAG;
 
 public class MKPartsApplication extends Application {
+
+    public static final String MKPUSH_PREF = "mokee_push";
 
     private SharedPreferences prefs;
 

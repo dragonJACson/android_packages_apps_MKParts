@@ -27,7 +27,6 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
@@ -35,13 +34,14 @@ import android.os.UserHandle;
 import android.util.Log;
 import cn.jpush.android.api.JPushInterface;
 
+import mokee.providers.MKSettings;
+
 import com.mokee.os.Build;
 
 public class PushingMessageReceiver extends BroadcastReceiver {
 
     public static final String TAG = PushingMessageReceiver.class.getSimpleName();
 
-    public static final String MKPUSH_PREF = "mokee_push";
     public static final String MKPUSH_ALIAS = "pref_alias";
     public static final String MKPUSH_TAGS = "pref_tags";
     public static final String MKPUSH_NEWS = "pref_news";
@@ -50,8 +50,6 @@ public class PushingMessageReceiver extends BroadcastReceiver {
     public static final int MSG_SET_TAGS = 1002;
 
     private static final String ACTION_UPDATE_CHECK = "com.mokee.center.action.UPDATE_CHECK";
-
-    private SharedPreferences prefs;
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
@@ -73,7 +71,6 @@ public class PushingMessageReceiver extends BroadcastReceiver {
             } catch (JSONException e1) {
                 e1.printStackTrace();
             }
-            prefs = ctx.getSharedPreferences(MKPUSH_PREF, 0);
             String device = PushingUtils.getStringFromJson("device", customJson);
             String type = PushingUtils.getStringFromJson("type", customJson);
             String url = PushingUtils.getStringFromJson("url", customJson);
@@ -100,7 +97,8 @@ public class PushingMessageReceiver extends BroadcastReceiver {
                         }
                         break;
                     case 1:
-                        if (MoKeeUtils.isSupportLanguage(true) && prefs.getBoolean(MKPUSH_NEWS, true)) {
+                        if (MoKeeUtils.isSupportLanguage(true)
+                                && MKSettings.System.getInt(ctx.getContentResolver(), MKSettings.System.RECEIVE_PUSH_NOTIFICATIONS, 1) == 1) {
                             promptUser(ctx, url, title, message, msg_id, R.drawable.ic_push_notify);
                         }
                         break;
