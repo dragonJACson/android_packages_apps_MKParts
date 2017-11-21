@@ -23,20 +23,22 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
-/*
 import org.mokee.mkparts.contributors.ContributorsCloudFragment;
+/*
 import org.mokee.mkparts.gestures.TouchscreenGestureSettings;
 import org.mokee.mkparts.input.ButtonSettings;
 */
 
-/*
 public class BootReceiver extends BroadcastReceiver {
 
     private static final String TAG = "BootReceiver";
+    /*
     private static final String ONE_TIME_TUNABLE_RESTORE = "hardware_tunable_restored";
+    */
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
+        /*
         if (!hasRestoredTunable(ctx)) {
             /* Restore the hardware tunable values */
             /*
@@ -45,11 +47,13 @@ public class BootReceiver extends BroadcastReceiver {
         }
 
         TouchscreenGestureSettings.restoreTouchscreenGestureStates(ctx);
+        */
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);
     }
 
+    /*
     private boolean hasRestoredTunable(Context context) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         return preferences.getBoolean(ONE_TIME_TUNABLE_RESTORE, false);
@@ -59,5 +63,5 @@ public class BootReceiver extends BroadcastReceiver {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         preferences.edit().putBoolean(ONE_TIME_TUNABLE_RESTORE, true).apply();
     }
+    */
 }
-*/
