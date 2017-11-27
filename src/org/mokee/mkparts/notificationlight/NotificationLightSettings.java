@@ -146,6 +146,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         } else {
             mCustomEnabledPref.setOnPreferenceChangeListener(this);
             mDefaultPref.setOnPreferenceChangeListener(this);
+            mDefaultPref.setDefaultValues(mDefaultColor, mDefaultLedOn, mDefaultLedOff);
         }
 
         // Missed call and Voicemail preferences should only show on devices with a voice capabilities
@@ -156,9 +157,11 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         } else {
             mCallPref = (ApplicationLightPreference) findPreference(MISSED_CALL_PREF);
             mCallPref.setOnPreferenceChangeListener(this);
+            mCallPref.setDefaultValues(mDefaultColor, mDefaultLedOn, mDefaultLedOff);
 
             mVoicemailPref = (ApplicationLightPreference) findPreference(VOICEMAIL_PREF);
             mVoicemailPref.setOnPreferenceChangeListener(this);
+            mVoicemailPref.setDefaultValues(mDefaultColor, mDefaultLedOn, mDefaultLedOff);
         }
 
         if (!mLedCanPulse && !mMultiColorLed) {
