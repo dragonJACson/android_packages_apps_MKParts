@@ -65,6 +65,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final int EVENT_PROCESS_WAKELOCK_DURATION = 500;
 
     private final Context mContext;
+    private final AudioManager mAudioManager;
     private final PowerManager mPowerManager;
     private final WakeLock mGestureWakeLock;
     private final EventHandler mEventHandler;
@@ -100,6 +101,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public KeyHandler(final Context context) {
         mContext = context;
+
+        mAudioManager = (AudioManager) mContext.getSystemService(Context.AUDIO_SERVICE);
 
         mPowerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         mGestureWakeLock = mPowerManager.newWakeLock(
@@ -145,10 +148,10 @@ public class KeyHandler implements DeviceKeyHandler {
         }
     }
 
-    public boolean handleKeyEvent(final KeyEvent event) {
+    public KeyEvent handleKeyEvent(final KeyEvent event) {
         final int action = mActionMapping.get(event.getScanCode(), -1);
         if (action < 0 || event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()) {
-            return false;
+            return event;
         }
 
         if (action != 0 && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
@@ -165,7 +168,7 @@ public class KeyHandler implements DeviceKeyHandler {
             }
         }
 
-        return true;
+        return null;
     }
 
     private boolean hasSetupCompleted() {
@@ -235,6 +238,12 @@ public class KeyHandler implements DeviceKeyHandler {
                     break;
                 case TouchscreenGestureConstants.ACTION_NEXT_TRACK:
                     nextTrack();
+                    break;
+                case TouchscreenGestureConstants.ACTION_VOLUME_DOWN:
+                    volumeDown();
+                    break;
+                case TouchscreenGestureConstants.ACTION_VOLUME_UP:
+                    volumeUp();
                     break;
             }
         }
@@ -316,6 +325,18 @@ public class KeyHandler implements DeviceKeyHandler {
         doHapticFeedback();
     }
 
+    private void volumeDown() {
+        mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
+        mAudioManager.adjustStreamVolume(AudioManager.STREAM_MUSIC, AudioManager.ADJUST_LOWER, 0);
+        doHapticFeedback();
+    }
+
+    private void volumeUp() {
+        mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
+        mAudioManager.adjustStreamVolume(AudioManager.STREAM_MUSIC, AudioManager.ADJUST_RAISE, 0);
+        doHapticFeedback();
+    }
+
     private void dispatchMediaKeyWithWakeLockToMediaSession(final int keycode) {
         final MediaSessionLegacyHelper helper = MediaSessionLegacyHelper.getHelper(mContext);
         if (helper == null) {
@@ -350,9 +371,7 @@ public class KeyHandler implements DeviceKeyHandler {
             return;
         }
 
-        final AudioManager audioManager = (AudioManager) mContext.getSystemService(
-                Context.AUDIO_SERVICE);
-        if (audioManager.getRingerMode() != AudioManager.RINGER_MODE_SILENT) {
+        if (mAudioManager.getRingerMode() != AudioManager.RINGER_MODE_SILENT) {
             final boolean enabled = MKSettings.System.getInt(mContext.getContentResolver(),
                     MKSettings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
             if (enabled) {
