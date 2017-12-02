@@ -137,6 +137,9 @@
   <string name="live_display_color_profile_reading_title">Czytanie</string>
   <string name="live_display_color_profile_reading_summary">Cieplejsze kolory, aby ograniczyć zmęczenie oczu</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Kolory dokładne z przestrzenią kolorów sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Kolory dokładne z przestrzenią DCI-P3</string>
   <string name="color_calibration_title">Kalibracja kolorów</string>
   <string name="color_calibration_summary">Kalibruje wyświetlane kolory</string>
   <string name="color_red_title">Czerwony</string>
@@ -422,6 +425,7 @@
   <string name="status_bar_brightness_slider_title">Pasek jasności</string>
   <string name="status_bar_brightness_slider_summary">Dostosuj jasność z Szybkich Ustawień</string>
   <string name="status_bar_brightness_slider_auto_title">Automatyczna jasność</string>
+  <string name="status_bar_brightness_slider_auto_summary">Pokaż przełącznik dla automatycznej jasności obok slider\'a</string>
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
   <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <!-- Status bar - icon blacklist -->
