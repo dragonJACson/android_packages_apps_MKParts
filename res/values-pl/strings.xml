@@ -530,6 +530,7 @@
   <string name="touchscreen_gesture_letter_v_title">Narysuj literę \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Narysuj literę \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Narysuj literę \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Gest akcji</string>
   <string name="touchscreen_gesture_action_do_nothing">Nic nie rób</string>
   <string name="touchscreen_gesture_action_flashlight">Przełącznik latarki</string>

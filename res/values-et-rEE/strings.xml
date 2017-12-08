@@ -101,4 +101,5 @@
   <string name="power_notifications_vibrate_title">Vibreeri</string>
   <string name="charging_sounds_ringtone_silent">Vaikne</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

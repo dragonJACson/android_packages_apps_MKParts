@@ -89,4 +89,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">Silent</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

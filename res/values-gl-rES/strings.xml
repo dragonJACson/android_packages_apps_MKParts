@@ -97,4 +97,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

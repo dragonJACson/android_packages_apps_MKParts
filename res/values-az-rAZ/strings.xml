@@ -104,4 +104,5 @@
   <string name="power_notifications_vibrate_title">Titrəmə</string>
   <string name="charging_sounds_ringtone_silent">Səssiz</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

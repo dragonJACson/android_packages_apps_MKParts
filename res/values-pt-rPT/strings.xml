@@ -466,4 +466,5 @@
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

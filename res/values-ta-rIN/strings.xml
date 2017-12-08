@@ -111,4 +111,5 @@
   <string name="power_notifications_vibrate_title">அதிர்வு</string>
   <string name="charging_sounds_ringtone_silent">அமைதி</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

@@ -476,4 +476,5 @@
   <string name="power_notifications_vibrate_title">バイブレーション</string>
   <string name="charging_sounds_ringtone_silent">サイレント</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

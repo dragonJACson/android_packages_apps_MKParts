@@ -100,4 +100,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">വൈബ്രേറ്റുചെയ്യുക</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

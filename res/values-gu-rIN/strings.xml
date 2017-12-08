@@ -94,4 +94,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">વાઇબ્રેટ</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

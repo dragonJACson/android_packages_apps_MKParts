@@ -82,4 +82,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Dridhu</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

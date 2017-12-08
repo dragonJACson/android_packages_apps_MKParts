@@ -101,4 +101,5 @@
   <string name="charging_sounds_enabled_title">Paganahin</string>
   <string name="charging_sounds_ringtone_silent">Tahimik</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

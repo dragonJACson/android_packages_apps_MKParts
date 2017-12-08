@@ -468,4 +468,5 @@
   <string name="power_notifications_vibrate_title">Bibratu</string>
   <string name="charging_sounds_ringtone_silent">Isilik</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

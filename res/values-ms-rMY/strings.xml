@@ -106,4 +106,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">Senyap</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

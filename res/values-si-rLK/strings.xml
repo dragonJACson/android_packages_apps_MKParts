@@ -95,4 +95,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">කම්පනය</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

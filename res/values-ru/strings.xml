@@ -530,6 +530,7 @@
   <string name="touchscreen_gesture_letter_v_title">Нарисуйте букву «V»</string>
   <string name="touchscreen_gesture_letter_w_title">Нарисуйте букву «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Нарисуйте букву «Z»</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Действие жеста</string>
   <string name="touchscreen_gesture_action_do_nothing">Ничего не делать</string>
   <string name="touchscreen_gesture_action_flashlight">Включить или выключить фонарик</string>

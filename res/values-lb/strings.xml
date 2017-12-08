@@ -112,4 +112,5 @@
   <string name="power_notifications_vibrate_title">Vibréieren</string>
   <string name="charging_sounds_ringtone_silent">Roueg</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

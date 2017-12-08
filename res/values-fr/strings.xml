@@ -527,6 +527,7 @@
   <string name="touchscreen_gesture_letter_v_title">Dessiner la lettre « V »</string>
   <string name="touchscreen_gesture_letter_w_title">Dessiner la lettre « W »</string>
   <string name="touchscreen_gesture_letter_z_title">Dessiner la lettre « Z »</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>

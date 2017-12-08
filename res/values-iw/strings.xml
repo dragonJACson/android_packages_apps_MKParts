@@ -137,4 +137,5 @@
   <string name="charging_sounds_ringtone_silent">שקט</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">משוב ברטט</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

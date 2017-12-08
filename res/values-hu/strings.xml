@@ -158,4 +158,5 @@
   <string name="charging_sounds_ringtone_silent">Néma</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Rezgés visszajelzés</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>
