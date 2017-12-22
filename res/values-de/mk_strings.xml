@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Langes drücken des Ein-/Ausschalter, um Taschenlampe einzuschalten</string>
   <string name="torch_long_press_power_gesture_desc">Taschenlampe durch langes drücken der Ein-/Ausschalttaste einschalten, während das Display ausgeschaltet ist</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">Ok</string>
+  <string name="fingerprint_shortcut_edit">Bearbeiten</string>
+  <string name="fingerprint_shortcut_delete">Löschen</string>
 </resources>

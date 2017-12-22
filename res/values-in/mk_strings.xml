@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Tekan lama tombol power untuk senter</string>
   <string name="torch_long_press_power_gesture_desc">Aktifkan senter dengan menekan lama tombol power saat layar mati</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">Oke</string>
+  <string name="fingerprint_shortcut_edit">Ubah</string>
+  <string name="fingerprint_shortcut_delete">Hapus</string>
 </resources>

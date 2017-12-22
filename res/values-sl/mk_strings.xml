@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Dolg pritisk gumba prižge svetilko</string>
   <string name="torch_long_press_power_gesture_desc">Z gumbom za vklop/izklop med izključenim zaslonom lahko prižgete svetilko</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">V redu</string>
+  <string name="fingerprint_shortcut_edit">Uredi</string>
+  <string name="fingerprint_shortcut_delete">Izbriši</string>
 </resources>

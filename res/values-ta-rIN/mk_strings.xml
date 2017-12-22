@@ -20,4 +20,7 @@
   <!-- Height of navigation bar buttons -->
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">சரி</string>
+  <string name="fingerprint_shortcut_edit">திருத்தம்</string>
 </resources>

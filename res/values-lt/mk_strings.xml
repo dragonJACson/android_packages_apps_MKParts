@@ -21,4 +21,6 @@
   <string name="navigation_bar_height_48">48dp (numatytas)</string>
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_delete">Ištrinti</string>
 </resources>

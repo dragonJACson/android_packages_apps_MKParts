@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Фенерче чрез зъдържане бутона за рестартиране</string>
   <string name="torch_long_press_power_gesture_desc">Активиране на фенерчето чрез зъдържане бутона за захранване, когато дисплеят е изключен</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">ОК</string>
+  <string name="fingerprint_shortcut_edit">Редактиране</string>
+  <string name="fingerprint_shortcut_delete">Изтриване</string>
 </resources>

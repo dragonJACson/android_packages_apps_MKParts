@@ -18,6 +18,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="dlg_ok">အိုကေ</string>
+  <string name="cancel">မလုပ်တော့</string>
   <string name="reset">ပြန်လည်စတင်စေရန်</string>
   <string name="next">နောက်</string>
   <!-- Privacy Settings Header item -->

@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
   <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">تم</string>
+  <string name="fingerprint_shortcut_edit">تعديل</string>
+  <string name="fingerprint_shortcut_delete">حذف</string>
 </resources>

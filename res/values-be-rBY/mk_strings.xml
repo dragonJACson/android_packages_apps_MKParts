@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Утрыманне кнопкі сілкавання для уключэння ліхтарыка</string>
   <string name="torch_long_press_power_gesture_desc">Уключыце ліхтарык доўгім націскам кнопкі сілкавання, пры выключаным экране</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">ОК</string>
+  <string name="fingerprint_shortcut_edit">Рэдагаваць</string>
+  <string name="fingerprint_shortcut_delete">Выдаліць</string>
 </resources>

@@ -23,4 +23,7 @@
   <!-- Show network speed -->
   <string name="show_network_speed_title">Velocidade de rede</string>
   <!-- Long-press power for torch -->
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_edit">Editar</string>
+  <string name="fingerprint_shortcut_delete">Eliminar</string>
 </resources>

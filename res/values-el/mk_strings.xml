@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση στο πλήκτρο ισχύος για φακό</string>
   <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">ΟΚ</string>
+  <string name="fingerprint_shortcut_edit">Επεξεργασία</string>
+  <string name="fingerprint_shortcut_delete">Διαγραφή</string>
 </resources>

@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Premi a lungo il pulsante menù per attivare la torcia</string>
   <string name="torch_long_press_power_gesture_desc">Attiva la torcia premendo a lungo il pulsante menù quando lo schermo è spento</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">OK</string>
+  <string name="fingerprint_shortcut_edit">Modifica</string>
+  <string name="fingerprint_shortcut_delete">Elimina</string>
 </resources>

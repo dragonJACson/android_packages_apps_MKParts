@@ -29,4 +29,8 @@
   <string name="status_bar_network_traffic_style_down">Indgående</string>
   <string name="status_bar_network_traffic_style_all">Ud- og indgående</string>
   <!-- Long-press power for torch -->
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">OK</string>
+  <string name="fingerprint_shortcut_edit">Redigér</string>
+  <string name="fingerprint_shortcut_delete">Slet</string>
 </resources>

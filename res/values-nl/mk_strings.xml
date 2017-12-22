@@ -32,4 +32,8 @@
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Aan/uit-knop lang indrukken voor zaklamp</string>
   <string name="torch_long_press_power_gesture_desc">Zaklamp inschakelen door lang op de aan/uit-knop te drukken als het scherm uit is</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">Oké</string>
+  <string name="fingerprint_shortcut_edit">Bewerken</string>
+  <string name="fingerprint_shortcut_delete">Verwijderen</string>
 </resources>

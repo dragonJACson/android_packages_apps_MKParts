@@ -29,4 +29,8 @@
   <string name="status_bar_network_traffic_style_down">רק מהירות הורדה</string>
   <string name="status_bar_network_traffic_style_all">מהירות הורדה והעלאה</string>
   <!-- Long-press power for torch -->
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">אישור</string>
+  <string name="fingerprint_shortcut_edit">ערוך</string>
+  <string name="fingerprint_shortcut_delete">מחק</string>
 </resources>
