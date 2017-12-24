@@ -398,7 +398,7 @@
   <string name="status_bar_system_icons_summary">Настройка видимости значков</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Часы</string>
-  <string name="status_bar_clock_position_title">Часы</string>
+  <string name="status_bar_clock_position_title">Позиция часов</string>
   <string name="status_bar_clock_position_right">Справа</string>
   <string name="status_bar_clock_position_left">Слева</string>
   <string name="status_bar_clock_position_center">По центру</string>
@@ -493,7 +493,7 @@
   <string name="auto_power_save_never">Не включать</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Режим расширенного экрана</string>
-  <string name="expanded_desktop_settings_summary">Скрыть строку состояния, панель навигации или обе одновременно</string>
+  <string name="expanded_desktop_settings_summary">Расширение доступного пространства экрана путем скрытия строки состояния и/или панели навигации</string>
   <string name="expanded_desktop_options_title">Настройки</string>
   <string name="expanded_desktop_style_title">Стиль режима расширенного экрана</string>
   <string name="expanded_desktop_style_hide_nothing">Ничего не скрывать</string>
@@ -531,6 +531,11 @@
   <string name="touchscreen_gesture_letter_w_title">Нарисуйте букву «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Нарисуйте букву «Z»</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Свайп вверх с помощью стилуса</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Свайп вниз с помощью стилуса</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Свайп влево с помощью стилуса</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Свайп вправо с помощью стилуса</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Длительное нажатие с помощью стилуса</string>
   <string name="touchscreen_gesture_action_dialog_title">Действие жеста</string>
   <string name="touchscreen_gesture_action_do_nothing">Ничего не делать</string>
   <string name="touchscreen_gesture_action_flashlight">Включить или выключить фонарик</string>
@@ -542,4 +547,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Воспроизведение музыки</string>
   <string name="touchscreen_gesture_action_previous_track">Перейти к предыдущему треку</string>
   <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
+  <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость мультимедиа</string>
+  <string name="touchscreen_gesture_action_volume_up">Увеличить громкость мультимедиа</string>
 </resources>
