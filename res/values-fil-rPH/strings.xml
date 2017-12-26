@@ -28,6 +28,7 @@
   <string name="off">Patay</string>
   <string name="yes">Oo</string>
   <string name="no">Hindi</string>
+  <string name="disabled">Huwag paganahin</string>
   <string name="enabled">Pinagana</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
@@ -40,6 +41,7 @@
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_phonelist_title">Telepono</string>
+  <string name="notification_light_default_value">Pangunahin</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_day">Araw</string>
@@ -50,7 +52,9 @@
   <!-- LiveDisplay : Picture Adjustment -->
   <string name="adj_contrast_title">Kaibahan</string>
   <!-- Button settings -->
+  <string name="volbtn_cursor_control_off">Huwag paganahin</string>
   <!-- Key backlight -->
+  <string name="backlight_summary_disabled">Huwag paganahin</string>
   <string name="backlight_summary_enabled">Pinagana</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
@@ -102,5 +106,6 @@
   <string name="charging_sounds_enabled_title">Paganahin</string>
   <string name="charging_sounds_ringtone_silent">Tahimik</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Feedback ng kilos</string>
   <!-- Gesture: Stylus gestures -->
 </resources>

@@ -36,7 +36,7 @@
   <string name="fingerprint_shortcut_settings_title">Zkratky otisku prstu</string>
   <string name="fingerprint_shortcut_not_specified">Nespecifikováno</string>
   <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Editace</string>
+  <string name="fingerprint_shortcut_edit">Upravit</string>
   <string name="fingerprint_shortcut_delete">Smazat</string>
   <string name="fingerprint_shortcut_editer">Nastavit zkratky otisku prstu</string>
 </resources>
