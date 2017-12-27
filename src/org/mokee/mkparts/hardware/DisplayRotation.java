@@ -28,10 +28,11 @@ import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.view.RotationPolicy;
 
+import mokee.providers.MKSettings;
+
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
-/*
 public class DisplayRotation extends SettingsPreferenceFragment {
     private static final String TAG = "DisplayRotation";
 
@@ -69,8 +70,8 @@ public class DisplayRotation extends SettingsPreferenceFragment {
         mRotation180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_180_PREF);
         mRotation270Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_270_PREF);
 
-        int mode = Settings.System.getInt(getContentResolver(),
-                Settings.System.ACCELEROMETER_ROTATION_ANGLES,
+        int mode = MKSettings.System.getInt(getContentResolver(),
+                MKSettings.System.ACCELEROMETER_ROTATION_ANGLES,
                 ROTATION_0_MODE | ROTATION_90_MODE | ROTATION_270_MODE);
 
         mRotation0Pref.setChecked((mode & ROTATION_0_MODE) != 0);
@@ -132,8 +133,8 @@ public class DisplayRotation extends SettingsPreferenceFragment {
                 mode |= ROTATION_0_MODE;
                 mRotation0Pref.setChecked(true);
             }
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.ACCELEROMETER_ROTATION_ANGLES, mode);
+            MKSettings.System.putInt(getActivity().getContentResolver(),
+                    MKSettings.System.ACCELEROMETER_ROTATION_ANGLES, mode);
             return true;
         }
 
@@ -150,4 +151,3 @@ public class DisplayRotation extends SettingsPreferenceFragment {
         }
     };
 }
-*/

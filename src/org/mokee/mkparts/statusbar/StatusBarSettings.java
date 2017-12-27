@@ -54,6 +54,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
+/*
         mStatusBarClock = (MKSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
         mStatusBarBatteryShowPercent =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
@@ -68,6 +69,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
+*/
 
         mQuickPulldown =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
@@ -81,7 +83,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
         // Adjust status bar preferences for RTL
         if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+/*
             mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+*/
             mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
         }
     }
@@ -91,8 +95,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         int value = Integer.parseInt((String) newValue);
         if (preference == mQuickPulldown) {
             updateQuickPulldownSummary(value);
+/*
         } else if (preference == mStatusBarBattery) {
             enableStatusBarBatteryDependents(value);
+*/
         }
         return true;
     }
