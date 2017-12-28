@@ -46,6 +46,7 @@
   <!-- LiveDisplay -->
   <string name="live_display_day">Araw</string>
   <string name="live_display_night">Gabi</string>
+  <string name="live_display_color_profile_natural_title">Natural</string>
   <string name="color_red_title">Pula</string>
   <string name="color_green_title">Berde</string>
   <string name="color_blue_title">Asul</string>
@@ -59,6 +60,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Mga screenhot</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_never">Hindi kailanman</string>
   <!-- Profiles -->
