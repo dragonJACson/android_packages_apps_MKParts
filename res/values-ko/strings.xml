@@ -177,15 +177,40 @@
   <string name="hardware_keys_action_last_app">최근 앱</string>
   <string name="hardware_keys_action_split_screen">화면 분할</string>
   <string name="hardware_keys_action_single_handed_left">한 손 모드 (왼쪽)</string>
+  <string name="hardware_keys_action_single_handed_right">한 손 모드 (오른쪽)</string>
+  <string name="camera_sleep_on_release_title">화면 엿보기</string>
+  <string name="camera_sleep_on_release_summary">버튼을 반만 누르고 있는 동안 화면을 계속 켜두기</string>
   <string name="camera_launch_title">카메라 실행</string>
+  <string name="camera_launch_summary">버튼을 길게 누르고 떼어 카메라 실행</string>
+  <string name="volbtn_music_controls_title">음악 재생 컨트롤</string>
+  <string name="volbtn_music_controls_summary">화면이 꺼진 상태에서 볼륨 키를 길게 눌러 음악 트랙 탐색</string>
+  <string name="volbtn_cursor_control_title">키보드 커서 제어</string>
   <string name="volbtn_cursor_control_off">사용안함</string>
+  <string name="volbtn_cursor_control_on">볼륨 위/아래 버튼으로 커서를 왼쪽/오른쪽으로 이동</string>
+  <string name="volbtn_cursor_control_on_reverse">음량 증가/감소 버튼으로 커서를 오른쪽/왼쪽으로 이동</string>
+  <string name="power_end_call_title">통화 종료</string>
+  <string name="power_end_call_summary">전원 버튼을 눌러 현재 진행 중인 통화 종료</string>
+  <string name="swap_volume_buttons_title">버튼 재정렬</string>
+  <string name="swap_volume_buttons_summary">화면이 회전되어 있을 때 볼륨 위/아래 버튼 전환</string>
+  <string name="button_wake_title">기기 깨우기</string>
   <string name="volume_answer_call_title">전화 수신</string>
+  <string name="volume_answer_call_summary">볼륨 버튼을 눌러 걸려온 전화를 받기</string>
   <string name="home_answer_call_title">전화 수신</string>
+  <string name="home_answer_call_summary">홈 버튼을 눌러 걸려온 전화를 받기</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">역광</string>
+  <string name="button_backlight_enabled">조명 버튼</string>
+  <string name="keyboard_backlight_enabled">키보드 조명</string>
+  <string name="button_backlight_seekbar_title">버튼 밝기</string>
+  <string name="keyboard_backlight_seekbar_title">키보드 밝기</string>
+  <string name="backlight_timeout_title">조명 시간 제한</string>
+  <string name="backlight_timeout_unlimited">끄지 않음</string>
   <string name="backlight_summary_disabled">사용안함</string>
+  <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g>초 동안 사용</string>
   <string name="backlight_summary_enabled">활성화</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">온스크린 내비게이션 바 사용</string>
+  <string name="disable_navkeys_summary">온스크린 내비게이션 바를 활성화하고 하드웨어 버튼을 비활성화합니다</string>
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">네비게이션 바</string>
   <string name="navigation_bar_title">버튼 및 레이아웃</string>
@@ -252,17 +277,42 @@
   <string name="profile_settings_summary_off">프로필 비활성화됨</string>
   <string name="profile_trigger_configure">트리거 구성</string>
   <string name="profile_write_nfc_tag">NFC 태그에 기록</string>
+  <string name="profile_write_touch_tag">태그를 눌러 작성</string>
+  <string name="profile_write_success">태그가 성공적으로 작성되었습니다</string>
+  <string name="profile_write_failed">태그 작성에 실패했습니다!</string>
+  <string name="profile_selected">선택된 프로필: %1$s</string>
+  <string name="profile_nfc_text">NFC 태그에 프로필을 작성하면 태그를 눌러서 해당 프로필을 선택할 수 있습니다. 한 번 더 누르면 이전에 선택했던 프로필을 적용합니다.</string>
+  <string name="profile_unknown_nfc_tag">알 수 없는 프로필</string>
+  <string name="profile_add_nfc_text">이 NFC 태그는 알 수 없는 프로필을 가리킵니다. 이 NFC 태그를 기존 프로필에 추가하면 나중에 이 태그로 프로필을 선택할 수 있습니다.</string>
+  <string name="profile_select">프로필 선택</string>
+  <string name="profile_remove_dialog_message">프로필 %1$s을(를) 제거하시겠습니까?</string>
+  <string name="profile_populate_profile_from_state">현재 기기 설정으로 프로필을 설정하시겠습니까?</string>
+  <string name="profile_menu_fill_from_state">현재 기기 설정 가져오기</string>
+  <string name="profile_remove_current_profile">현재 사용 중인 프로필은 삭제할 수 없습니다!</string>
+  <string name="profile_app_group_category_title">알림 무시</string>
+  <string name="profile_app_group_item_instructions">앱 그룹 추가 또는 제거</string>
+  <string name="profile_app_group_item_instructions_summary">이 프로필에 알림을 무시할 앱의 그룹을 추가 또는 제거</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">ON</string>
   <string name="profile_entries_off">끄기</string>
+  <string name="profile_entries_no_override">정의하지 않음</string>
   <!-- Add Profile -->
   <string name="profile_name_title">이름: </string>
+  <string name="new_profile_name">&lt;새 프로필&gt;</string>
   <!-- Rename Dialog  -->
   <string name="rename_dialog_title">이름 변경</string>
+  <string name="rename_dialog_message">새 이름 입력</string>
+  <string name="rename_dialog_hint">프로필 이름 입력</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">초기화</string>
+  <string name="profile_reset_message">작성된 모든 프로필 및 앱 그룹을 삭제하고 기본 설정으로 복원하시겠습니까?</string>
   <!-- Delete confimation messages -->
+  <string name="profile_app_delete_confirm">이 앱을 삭제하시겠습니까?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">볼륨 강제 설정</string>
@@ -415,11 +465,36 @@
   <string name="weather_settings_title">날씨</string>
   <string name="weather_settings_no_services_prompt">설치된 날씨 공급자 서비스 없음</string>
   <string name="weather_settings_no_services_summary">날씨 정보를 받으려면 날씨 공급자를 설치하세요</string>
+  <string name="weather_settings_button">날씨 공급자 설정</string>
+  <string name="weather_settings_activity_not_found">이 날씨 공급자의 설정 메뉴를 열 수 없습니다</string>
+  <string name="weather_settings_add_weather_provider">날씨 공급자 추가</string>
   <string name="weather_settings_general_settings_title">기본</string>
+  <string name="weather_settings_providers_title">공급자</string>
+  <string name="weather_settings_temp_units_title">온도 단위</string>
+  <string name="weather_settings_temp_celsius">섭씨</string>
+  <string name="weather_settings_temp_fahrenheit">화씨</string>
+  <string name="weather_settings_keyword">날씨</string>
   <string name="status_bar_show_weather_title">날씨 표시</string>
+  <string name="status_bar_show_weather_summary">상태 표시줄에 현재 온도 표시</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_title">배터리 절약 모드 및 성능</string>
+  <string name="perf_profile_settings_summary">전원 절약 기능 및 기기 성능 조정</string>
+  <string name="perf_profile_overview_summary">현재 프로필: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_category_title">기기 성능</string>
+  <string name="perf_profile_title">성능 프로필: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_fail_toast">이 성능 프로필은 현재 사용할 수 없습니다</string>
+  <string name="power_save_category_title">배터리 절약</string>
+  <string name="power_save_title">극단적 전원 절약 모드</string>
+  <string name="power_save_summary">기기 성능 및 백그라운드 활동을 제한하여 전원 절약</string>
+  <string name="auto_power_save_title">자동 전원 절약 모드</string>
+  <string name="auto_power_save_summary_on">배터리가 %s 이하로 내려가면 자동으로 전원 절약 모드 사용</string>
+  <string name="auto_power_save_summary_off">자동으로 전원 절약 모드를 사용하지 않음</string>
+  <string name="app_perf_profiles_title">자동 최적화</string>
+  <string name="app_perf_profiles_summary">앱 및 사용 패턴에 따라 적절한 성능 프로필 자동 적용</string>
   <string name="auto_power_save_never">알리지 않음</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">확장 데스크탑</string>
+  <string name="expanded_desktop_settings_summary">상태 표시줄, 내비게이션 바 또는 둘 모두를 숨겨 데스크탑 공간 확장</string>
   <string name="expanded_desktop_options_title">사용자 정의 옵션</string>
   <string name="expanded_desktop_style_title">데스크탑 확장 스타일</string>
   <string name="expanded_desktop_style_hide_nothing">숨기지 않음</string>
@@ -457,6 +532,11 @@
   <string name="touchscreen_gesture_letter_w_title">문자 \"W\" 그리기</string>
   <string name="touchscreen_gesture_letter_z_title">문자 \"Z\" 그리기</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">스타일러스로 쓸어 올리기</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">스타일러스로 쓸어 내리기</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">스타일러스로 왼쪽으로 밀기</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">스타일러스로 오른쪽으로 밀기</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">스타일러스로 길게 누르기</string>
   <string name="touchscreen_gesture_action_dialog_title">제스처 동작</string>
   <string name="touchscreen_gesture_action_do_nothing">아무것도 하지않음</string>
   <string name="touchscreen_gesture_action_flashlight">손전등 토글</string>
@@ -468,4 +548,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">음악 재생/일시 정지</string>
   <string name="touchscreen_gesture_action_previous_track">이전 음악 트랙으로 이동</string>
   <string name="touchscreen_gesture_action_next_track">다음 음악 트랙으로 이동</string>
+  <string name="touchscreen_gesture_action_volume_down">미디어 음량 작게</string>
+  <string name="touchscreen_gesture_action_volume_up">미디어 음량 크게</string>
 </resources>

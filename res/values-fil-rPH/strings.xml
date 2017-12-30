@@ -35,6 +35,7 @@
   <string name="privacy_guard_reset_title">I-reset</string>
   <!-- Notification light dialogs -->
   <string name="default_time">Normal</string>
+  <string name="custom_time">Custom</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">Normal</string>
   <string name="pulse_speed_normal">Normal</string>
