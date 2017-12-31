@@ -32,12 +32,14 @@
   <string name="yes">Da</string>
   <string name="no">Nu</string>
   <string name="disabled">Dezactivat</string>
+  <string name="enabled">Activat</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Ajutor</string>
   <string name="privacy_guard_reset_title">Resetaţi</string>
   <string name="privacy_guard_manager_show_system_apps">Arată aplicații preinstalate</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Personalizat</string>
   <string name="dialog_delete_title">Ștergeţi</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_speed_fast">Rapid</string>
@@ -66,6 +68,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Iluminare din spate</string>
   <string name="backlight_summary_disabled">Dezactivat</string>
+  <string name="backlight_summary_enabled">Activat</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->

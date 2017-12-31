@@ -34,6 +34,7 @@
   <string name="privacy_guard_help_title">Bantuan</string>
   <string name="privacy_guard_reset_title">Tetapkan semula</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Peribadi</string>
   <string name="dialog_delete_title">Padam</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

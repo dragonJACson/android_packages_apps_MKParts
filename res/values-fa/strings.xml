@@ -30,6 +30,7 @@
   <string name="privacy_guard_reset_title">بازنشانی</string>
   <string name="privacy_guard_manager_show_system_apps">نمایش برنامه‌های اصلی</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">سفارشی</string>
   <string name="dialog_delete_title">حذف</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -59,6 +60,7 @@
   <string name="torch_long_press_power_timeout_10min">۱۰ دقیقه</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">حذف</string>
+  <string name="profile_tabs_bluetooth">بلوث</string>
   <string name="profile_tabs_nfc">ان‌اف‌سی</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
@@ -84,6 +86,7 @@
   <!-- Add application dialog box title -->
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleBluetooth">بلوث</string>
   <string name="toggleGPS">جی‌پی‌اس</string>
   <string name="toggleNfc">ان‌اف‌سی</string>
   <!-- Sound settings screen -->

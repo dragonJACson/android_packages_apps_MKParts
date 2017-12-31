@@ -30,6 +30,7 @@
   <string name="yes">Да</string>
   <string name="no">Не</string>
   <string name="disabled">Онемогућено</string>
+  <string name="enabled">Omogućeno</string>
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Приватност</string>
   <!-- Privacy Guard -->
@@ -37,9 +38,13 @@
   <string name="privacy_guard_reset_title">Поново постави</string>
   <string name="privacy_guard_manager_show_system_apps">Прикажи уграђене апликације</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">Нормално</string>
+  <string name="custom_time">Прилагођено</string>
   <string name="dialog_delete_title">Избриши</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Нормално</string>
   <string name="pulse_speed_fast">Брзо</string>
+  <string name="pulse_speed_normal">Нормално</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_general_title">Опште</string>
@@ -68,6 +73,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Позадинско осветљење</string>
   <string name="backlight_summary_disabled">Онемогућено</string>
+  <string name="backlight_summary_enabled">Omogućeno</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -80,6 +86,7 @@
   <string name="torch_long_press_power_timeout_10min">10 минута</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Избриши</string>
+  <string name="profile_tabs_bluetooth">Блутут</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
   <string name="profiles_add">Додај</string>
@@ -96,6 +103,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Омогућено</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -105,7 +113,9 @@
   <!-- Add application dialog box title -->
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleBluetooth">Блутут</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">Нормално</string>
   <string name="ring_mode_vibrate">Вибрација</string>
   <string name="ring_mode_mute">Искључи звук</string>
   <string name="media_volume_title">Медија</string>
@@ -115,6 +125,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">Двапут додирни статусну траку да искључиш дисплеј</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">Нормално</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Текст</string>
   <!-- Status bar - Battery percentage -->
@@ -138,6 +149,7 @@
   <string name="auto_power_save_never">Никада</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Омогућено</string>
   <string name="power_notifications_vibrate_title">Вибрација</string>
   <string name="charging_sounds_ringtone_silent">Тишина</string>
   <!-- Gestures: Touchscreen gestures -->

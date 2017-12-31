@@ -54,6 +54,7 @@
   <string name="edit_light_settings">Redigera ljusinställningar</string>
   <string name="pulse_speed_title">Pulslängd och hastighet</string>
   <string name="default_time">Normal</string>
+  <string name="custom_time">Anpassat</string>
   <string name="dialog_delete_title">Ta bort</string>
   <string name="dialog_delete_message">Ta bort markerat objekt?</string>
   <string name="brightness">Ljusstyrka</string>

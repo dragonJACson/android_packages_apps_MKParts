@@ -159,6 +159,7 @@
   <string name="toggleGPS">نظام تحديد المواقع</string>
   <string name="toggleNfc">الاتصال بالحقل القريب</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">عادي</string>
   <string name="ring_mode_vibrate">اهتزاز</string>
   <string name="ring_mode_mute">كتم الصوت</string>
   <string name="media_volume_title">وسائط</string>
@@ -168,6 +169,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">الضغط مرتين فوق شريط الحالة لإطفاء الشاشة</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">عادي</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">نص</string>
   <!-- Status bar - Battery percentage -->
