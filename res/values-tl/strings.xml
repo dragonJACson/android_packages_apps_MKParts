@@ -42,6 +42,7 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Hindi kailanman</string>
   <string name="torch_long_press_power_timeout_1min">1 minuto</string>
   <string name="torch_long_press_power_timeout_2min">2 minuto</string>
   <string name="torch_long_press_power_timeout_5min">5 minuto</string>
@@ -82,6 +83,7 @@
   <!-- Display : Rotation  -->
   <!-- Weather -->
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">Hindi kailanman</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->

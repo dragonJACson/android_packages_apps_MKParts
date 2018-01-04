@@ -283,7 +283,7 @@
   <string name="profile_nfc_text">Запись NFC-метки для профиля позволит касанием метки выбрать нужный профиль. При повторном касании будет восстановлен ранее используемый профиль.</string>
   <string name="profile_unknown_nfc_tag">Неизвестный профиль</string>
   <string name="profile_add_nfc_text">Эта NFC-метка присвоена неизвестному профилю. Привязка NFC-метки к существующему профилю позволит использовать метку для его выбора.</string>
-  <string name="profile_select">Выбор профиля</string>
+  <string name="profile_select">Выбрать профиль</string>
   <string name="profile_remove_dialog_message">Удалить профиль «%1$s»?</string>
   <string name="profile_populate_profile_from_state">Создать профиль, используя текущие настройки устройства?</string>
   <string name="profile_menu_fill_from_state">Импорт текущих настроек устройства</string>
