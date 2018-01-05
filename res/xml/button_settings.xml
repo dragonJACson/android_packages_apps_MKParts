@@ -318,9 +318,9 @@
         <mokee.preference.RemotePreference
             android:key="additional_buttons"
             android:title="@string/additional_buttons_title"
-            mk:requiresAction="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
+            mk:requiresAction="org.mokee.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
             <intent
-                android:action="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
+                android:action="org.mokee.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
         </mokee.preference.RemotePreference>
 
     </PreferenceCategory>
