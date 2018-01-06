@@ -381,7 +381,7 @@
   <string name="doze_title">Индикация событий</string>
   <!-- Status bar -->
   <string name="status_bar_title">Строка состояния</string>
-  <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
+  <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ к строке состояния</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s строки состояния вытягивает быстрые настройки</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">Левый край</string>
   <string name="status_bar_quick_qs_pulldown_summary_right">Правый край</string>

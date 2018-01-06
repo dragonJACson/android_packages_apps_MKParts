@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">Mga setting ng MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Pindutan ng taas</string>
   <string name="navigation_bar_height_48">480dp (pangunahin)</string>
@@ -29,8 +30,13 @@
   <string name="status_bar_network_traffic_style_down">Papasok</string>
   <string name="status_bar_network_traffic_style_all">Palabas at papasok</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Pindutin ng matagal ang power button para sa torch</string>
+  <string name="torch_long_press_power_gesture_desc">I-activate ang torch sa pamamagitan ng pagpindut ng matagal sa power button habang naka-off ang display</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Mga shortcut ng tatak ng daliri</string>
+  <string name="fingerprint_shortcut_not_specified">Hindi tinukoy</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">I-edit</string>
   <string name="fingerprint_shortcut_delete">Burahin</string>
+  <string name="fingerprint_shortcut_editer">Magtakda ng shortcut ng tatak ng daliri</string>
 </resources>

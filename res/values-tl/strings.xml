@@ -18,7 +18,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="loading">Naglo-load \ u2026</string>
+  <string name="dlg_ok">OK</string>
+  <string name="cancel">Kanselahin</string>
   <string name="reset">I-reset</string>
+  <string name="settings">Mga setting</string>
   <string name="on">Naka-on</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
@@ -41,6 +45,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Mga screenhot</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_never">Hindi kailanman</string>
   <string name="torch_long_press_power_timeout_1min">1 minuto</string>
