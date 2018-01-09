@@ -25,6 +25,7 @@
   <string name="settings">Mga setting</string>
   <string name="next">Susunod</string>
   <string name="on">Naka-on</string>
+  <string name="off">I-off</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Tulong</string>
@@ -34,8 +35,12 @@
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">Telepono</string>
+  <string name="notification_light_default_value">Pangunahin</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_day">Araw</string>
+  <string name="live_display_night">Gabi</string>
   <string name="color_red_title">Pula</string>
   <string name="color_green_title">Berde</string>
   <string name="color_blue_title">Asul</string>
@@ -60,6 +65,7 @@
   <string name="profile_menu_delete">Tanggalin</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Naka-on</string>
+  <string name="profile_entries_off">I-off</string>
   <!-- Add Profile -->
   <!-- Rename Dialog  -->
   <!-- Reset Profiles -->
@@ -78,6 +84,7 @@
   <!-- Sound settings screen -->
   <string name="ring_mode_mute">I-mute</string>
   <!-- Status bar -->
+  <string name="status_bar_quick_qs_pulldown_off">I-off</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
@@ -92,6 +99,7 @@
   <string name="auto_power_save_never">Hindi kailanman</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_ringtone_silent">Tahimik</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
 </resources>

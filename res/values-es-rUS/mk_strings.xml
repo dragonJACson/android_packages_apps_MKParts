@@ -33,7 +33,10 @@
   <string name="torch_long_press_power_gesture_title">Mantén presionado el botón de encendido para usar la linterna</string>
   <string name="torch_long_press_power_gesture_desc">Activar la linterna manteniendo presionado el botón de encendido mientras la pantalla esté apagada</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Accesos directos de huella digital</string>
+  <string name="fingerprint_shortcut_not_specified">No especificado</string>
   <string name="fingerprint_shortcut_ok">Aceptar</string>
   <string name="fingerprint_shortcut_edit">Editar</string>
   <string name="fingerprint_shortcut_delete">Eliminar</string>
+  <string name="fingerprint_shortcut_editer">Establecer accesos directos de la huella digital</string>
 </resources>
