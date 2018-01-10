@@ -23,7 +23,10 @@
   <string name="reset">بازنشانی</string>
   <string name="settings">تنظیمات</string>
   <string name="name">نام:</string>
+  <string name="back">برگشت</string>
+  <string name="next">بعدی</string>
   <string name="on">فعال</string>
+  <string name="yes">بله</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">راهنما</string>

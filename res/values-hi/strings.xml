@@ -19,13 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">रीसेट करें</string>
+  <string name="back">वापस जाएं</string>
+  <string name="next">अगला</string>
   <string name="on">चालू</string>
+  <string name="yes">हां</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">सहायता</string>
   <string name="privacy_guard_reset_title">रीसेट करें</string>
   <string name="privacy_guard_manager_show_system_apps">अंतःस्थापित ऐप दिखाएँ</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">कस्टम</string>
   <string name="dialog_delete_title">हटाएं</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

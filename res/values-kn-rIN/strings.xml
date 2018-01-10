@@ -23,12 +23,17 @@
   <string name="cancel">ರದ್ದು</string>
   <string name="reset">ಮರುಹೊಂದಿಸು</string>
   <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
+  <string name="next">ಮುಂದಿನ</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">ಮರುಹೊಂದಿಸು</string>
   <string name="privacy_guard_manager_show_system_apps">ಅಂತರ್ನಿರ್ಮಿತ ಆಪ್‍ಗಳನ್ನು ಪ್ರದರ್ಶಿಸು</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">ಸಾಮಾನ್ಯ</string>
+  <string name="custom_time">ಕಸ್ಟಮ್</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">ಸಾಮಾನ್ಯ</string>
+  <string name="pulse_speed_normal">ಸಾಮಾನ್ಯ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -75,6 +80,7 @@
   <string name="toggleGPS">ಜಿಪಿಎಸ್</string>
   <string name="toggleNfc">ಎನ್ಎಫ್‍ಸಿ</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">ಸಾಮಾನ್ಯ</string>
   <string name="ring_mode_vibrate">ಕಂಪಿಸು</string>
   <string name="media_volume_title">ಮಾಧ್ಯಮ</string>
   <!-- Status bar -->
@@ -82,6 +88,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">ಪ್ರದರ್ಶನವನ್ನು ಆಫ್ ಮಾಡಲು ಸ್ಟೇಟಸ್ ಬಾರ್‍ ಮೇಲೆ ದ್ವಿಗುಣ-ಸ್ಪರ್ಶಿಸಿ</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">ಸಾಮಾನ್ಯ</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">ಪಠ್ಯ</string>
   <!-- Status bar - Battery percentage -->

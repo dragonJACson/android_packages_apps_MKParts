@@ -26,11 +26,14 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">ပြန်လည်စတင်စေရန်</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">မိမိစိတ်ကြိုက်</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">ဖုန်း</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_night">ည</string>
   <string name="color_red_title">အနီ</string>
   <string name="color_green_title">အစိမ်း</string>
   <string name="color_blue_title">အပြာ</string>
@@ -81,6 +84,7 @@
   <string name="auto_power_save_never">ဘယ်တော့မှ</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_ringtone_silent">အသံတိတ်</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
 </resources>

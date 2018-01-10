@@ -23,9 +23,11 @@
   <string name="cancel">Kanselahin</string>
   <string name="reset">I-reset</string>
   <string name="settings">Mga setting</string>
+  <string name="back">Bumalik</string>
   <string name="next">Susunod</string>
   <string name="on">Naka-on</string>
   <string name="off">I-off</string>
+  <string name="yes">Oo</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Tulong</string>

@@ -217,23 +217,27 @@
   <string name="profile_menu_delete_title">Slett</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
+  <string name="profiles_add">Legg til</string>
   <string name="profile_menu_delete">Slett</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">På</string>
   <string name="profile_entries_off">Av</string>
   <!-- Add Profile -->
+  <string name="profile_name_title">Navn</string>
   <!-- Rename Dialog  -->
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Tilbakestill</string>
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Aktiver</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
   <string name="profile_applist_title">Apper</string>
+  <string name="profile_appgroup_name_title">Navn</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Velg app</string>
   <!-- Profiles - system settings -->
@@ -263,6 +267,7 @@
   <string name="display_rotation_180_title">180 grader</string>
   <string name="display_rotation_270_title">270 grader</string>
   <!-- Weather -->
+  <string name="weather_settings_general_settings_title">Generelt</string>
   <string name="status_bar_show_weather_title">Vis været</string>
   <!-- Power: Performance profiles -->
   <string name="power_save_category_title">Batterisparing</string>
@@ -285,6 +290,7 @@
   <string name="expanded_desktop_style_hide_both">Skjul begge</string>
   <string name="expanded_desktop_nothing_to_show_text">Slå av for å tilpasse utvidet skrivebord på per-app basis</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Aktiver</string>
   <string name="power_notifications_vibrate_title">Vibrer</string>
   <string name="charging_sounds_ringtone_silent">Stille</string>
   <!-- Gestures: Touchscreen gestures -->

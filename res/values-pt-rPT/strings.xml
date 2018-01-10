@@ -463,6 +463,7 @@
   <string name="expanded_desktop_style_hide_both">Ocultar ambas as barras</string>
   <string name="expanded_desktop_nothing_to_show_text">Desligue o interruptor para personalizar a sua área de trabalho conforme a aplicação</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Ativar</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
   <!-- Gestures: Touchscreen gestures -->
