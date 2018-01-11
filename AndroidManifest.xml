@@ -243,7 +243,6 @@
             android:excludeFromRecents="true"/>
 
         <!-- MOKEE ANONYMOUS STATISTICS START -->
-        <!--
         <receiver android:name=".stats.ReportingServiceManager"
             android:label="ReportingServiceManager"
             android:enabled="true"
@@ -268,11 +267,9 @@
 
         <service android:name=".stats.StatsUploadJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-        -->
         <!-- MOKEE ANONYMOUS STATISTICS END -->
 
         <!-- MOKEE PUSH SERVICE START -->
-        <!--
         <activity
             android:name="cn.jpush.android.ui.PushActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -350,7 +347,6 @@
 
         <meta-data android:name="JPUSH_CHANNEL" android:value="default"/>
         <meta-data android:name="JPUSH_APPKEY" android:value="1e31e45c4949a2beed951431" />
-        -->
         <!-- MOKEE PUSH SERVICE END -->
 
     </application>
