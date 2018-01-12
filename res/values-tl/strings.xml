@@ -28,6 +28,7 @@
   <string name="on">Naka-on</string>
   <string name="off">I-off</string>
   <string name="yes">Oo</string>
+  <string name="search">Hanapin</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Tulong</string>
