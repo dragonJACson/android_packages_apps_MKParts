@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod project
- * Copyright (C) 2016 The MoKee Open Source Project
+ * Copyright (C) 2016-2018 The MoKee Open Source Project
+ * Copyright (C) 2017 The LineageOS project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,20 +33,16 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.Surface;
 
-/*
-import org.mokee.mkparts.input.ButtonSettings;
-*/
+import static org.mokee.internal.util.DeviceKeysConstants.*;
 
 public class DeviceUtils {
 
     /* returns whether the device has volume rocker or not. */
-    /*
     public static boolean hasVolumeRocker(Context context) {
         final int deviceKeys = context.getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-        return (deviceKeys & ButtonSettings.KEY_MASK_VOLUME) != 0;
+                org.mokee.platform.internal.R.integer.config_deviceHardwareKeys);
+        return (deviceKeys & KEY_MASK_VOLUME) != 0;
     }
-    */
 
     public static boolean isPackageInstalled(Context context, String pkg, boolean ignoreState) {
         if (pkg != null) {

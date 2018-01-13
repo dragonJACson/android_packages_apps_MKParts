@@ -47,12 +47,6 @@
             android:persistent="false" />
 
         <mokee.preference.MKSystemSettingSwitchPreference
-            android:key="navigation_bar_left"
-            android:title="@string/navigation_bar_left_title"
-            android:summary="@string/navigation_bar_left_summary"
-            android:defaultValue="false" />
-
-        <mokee.preference.MKSystemSettingSwitchPreference
                 android:key="navigation_bar_menu_arrow_keys"
                 android:title="@string/navigation_bar_arrow_keys_title"
                 android:summary="@string/navigation_bar_arrow_keys_summary"
@@ -80,22 +74,18 @@
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false" />
 
-        <ListPreference
-            android:key="navigation_recents_long_press"
-            android:dialogTitle="@string/navigation_bar_recents_title"
-            android:title="@string/navigation_bar_recents_title"
-            android:persistent="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="power_key"
         android:title="@string/hardware_keys_power_key_title" >
 
+        <!--
         <PreferenceScreen
             android:key="power_menu"
             android:title="@string/power_menu_title"
             android:fragment="org.mokee.mkparts.input.PowerMenuActions" />
+        -->
 
         <SwitchPreference
             android:key="power_end_call"
