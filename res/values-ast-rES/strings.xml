@@ -20,6 +20,7 @@
   <!-- Generic stuff used everywhere -->
   <string name="add">Amestar</string>
   <string name="name">Nome:</string>
+  <string name="back">Trasera</string>
   <string name="next">Siguiente</string>
   <string name="yes">Sí</string>
   <string name="no">Non</string>

@@ -19,13 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">යළි පිහිටුවන්න</string>
+  <string name="back">ආපසු</string>
+  <string name="next">ඊළඟ</string>
   <string name="on">සක්‍රීයයි</string>
+  <string name="yes">ඔව්</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">උදවු</string>
   <string name="privacy_guard_reset_title">යළි පිහිටුවන්න</string>
   <string name="privacy_guard_manager_show_system_apps">තිළැලි යෙදුම් පෙන්වන්න</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">අභිරුචි</string>
   <string name="dialog_delete_title">මකන්න</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

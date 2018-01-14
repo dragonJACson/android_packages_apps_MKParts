@@ -20,15 +20,22 @@
   <!-- Generic stuff used everywhere -->
   <string name="reset">ئەسلىگە قايتۇر</string>
   <string name="settings">تەڭشەش</string>
+  <string name="back">قايت</string>
+  <string name="next">كېيىنكى</string>
   <string name="on">ئوچۇق</string>
+  <string name="yes">ھەئە</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">ياردەم</string>
   <string name="privacy_guard_reset_title">ئەسلىگە قايتۇر</string>
   <string name="privacy_guard_manager_show_system_apps">سىڭدۈرۈلگەن ئەپنى كۆرسەت</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">نورمال</string>
+  <string name="custom_time">ئىختىيارىي</string>
   <string name="dialog_delete_title">ئۆچۈر</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">نورمال</string>
+  <string name="pulse_speed_normal">نورمال</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -80,6 +87,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">نورمال</string>
   <string name="ring_mode_vibrate">تىترەت</string>
   <string name="ring_mode_mute">ئۈنسىز</string>
   <string name="media_volume_title">ۋاستە</string>
@@ -88,6 +96,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">نورمال</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">تېكىست</string>
   <!-- Status bar - Battery percentage -->

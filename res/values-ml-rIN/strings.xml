@@ -22,12 +22,17 @@
   <string name="dlg_ok">ശരി</string>
   <string name="cancel">റദ്ദാക്കുക</string>
   <string name="reset">പുനഃസജ്ജമാക്കുക</string>
+  <string name="next">&quot;അടുത്തത്&quot;</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">പുനഃസജ്ജമാക്കുക</string>
   <string name="privacy_guard_manager_show_system_apps">ബിൽറ്റ്-ഇൻ അപ്ലിക്കേഷനുകൾ ദൃശ്യമാക്കുക</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">സാധാരണ</string>
+  <string name="custom_time">ഇഷ്‌ടാനുസൃതം</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">സാധാരണ</string>
+  <string name="pulse_speed_normal">സാധാരണ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -71,6 +76,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">സാധാരണ</string>
   <string name="ring_mode_vibrate">വൈബ്രേറ്റുചെയ്യുക</string>
   <string name="media_volume_title">മീഡിയ</string>
   <!-- Status bar -->
@@ -78,6 +84,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">ഡിസ്പ്ലേ ഓഫ് ചെയ്യുന്നതിന് സ്റ്റാറ്റസ് ബാറിൽ ഇരട്ട-അമര്‍ത്തല്‍ ചെയ്യുക</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">സാധാരണ</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">ടെക്സ്റ്റ്</string>
   <!-- Status bar - Battery percentage -->

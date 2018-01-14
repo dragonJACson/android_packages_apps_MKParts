@@ -19,12 +19,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">საწყის პრამეტრებზე დაბრუნება</string>
+  <string name="back">უკან</string>
   <string name="on">ჩართული</string>
+  <string name="yes">დიახ</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">დახმარება</string>
   <string name="privacy_guard_reset_title">საწყის პრამეტრებზე დაბრუნება</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">მორგებული</string>
   <string name="dialog_delete_title">წაშლა</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

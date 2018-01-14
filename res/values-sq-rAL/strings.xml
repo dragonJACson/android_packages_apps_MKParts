@@ -23,7 +23,11 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">Rivendos</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">Normale</string>
+  <string name="custom_time">I personalizuar</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normale</string>
+  <string name="pulse_speed_normal">Normale</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -61,12 +65,14 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">Normale</string>
   <string name="ring_mode_vibrate">Dridhu</string>
   <!-- Status bar -->
   <string name="status_bar_double_tap_to_sleep_title">Shtyp dy herë për ta fikur</string>
   <string name="status_bar_double_tap_to_sleep_summary">Shtyp dy herë shiritin e ekranit për të fikur ekranin</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">Normale</string>
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->

@@ -23,6 +23,7 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">Ресетирај</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Прилагодено</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->

@@ -19,12 +19,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">កំណត់​ឡើងវិញ</string>
+  <string name="back">ខាង​ក្រោយ</string>
   <string name="on">បើក</string>
+  <string name="yes">បាទ/ចាស</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">ជំនួយ</string>
   <string name="privacy_guard_reset_title">កំណត់​ឡើងវិញ</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">តាម​តម្រូវ​ការ</string>
   <string name="dialog_delete_title">លុប</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

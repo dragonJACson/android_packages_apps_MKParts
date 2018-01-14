@@ -19,19 +19,25 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Stel terug</string>
+  <string name="back">Terug</string>
   <string name="next">Volgende</string>
   <string name="on">Aan</string>
   <string name="yes">Ja</string>
   <string name="no">Nee</string>
+  <string name="enabled">Geaktiveer</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Hulp</string>
   <string name="privacy_guard_reset_title">Stel terug</string>
   <string name="privacy_guard_manager_show_system_apps">Wys ingeboude programme</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">Normaal</string>
+  <string name="custom_time">Gepasmaakte</string>
   <string name="dialog_delete_title">Vee uit</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normaal</string>
   <string name="pulse_speed_fast">Vinnig</string>
+  <string name="pulse_speed_normal">Normaal</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -51,6 +57,7 @@
   <string name="camera_launch_title">Begin kamera</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Agtergrond verligting</string>
+  <string name="backlight_summary_enabled">Geaktiveer</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -73,6 +80,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Aktiveer</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -82,6 +90,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">Normaal</string>
   <string name="ring_mode_vibrate">Vibreer</string>
   <string name="ring_mode_mute">Demp</string>
   <!-- Status bar -->
@@ -89,6 +98,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">Dubbel klop op die statusbalk om skerm af te skakel</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">Normaal</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Teks</string>
   <!-- Status bar - Battery percentage -->
@@ -109,6 +119,7 @@
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Aktiveer</string>
   <string name="power_notifications_vibrate_title">Vibreer</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->

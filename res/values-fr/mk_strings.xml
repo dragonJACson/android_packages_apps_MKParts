@@ -33,7 +33,10 @@
   <string name="torch_long_press_power_gesture_title">Un appui long sur le bouton d\'alimentation active la lampe de poche</string>
   <string name="torch_long_press_power_gesture_desc">Permet au bouton d\'alimentation d\'activer la lampe torche lorsque l\'écran est éteint</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Raccourcis d\'empreinte digitale</string>
+  <string name="fingerprint_shortcut_not_specified">Non spécifié</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Éditer</string>
   <string name="fingerprint_shortcut_delete">Supprimer</string>
+  <string name="fingerprint_shortcut_editer">Définir un raccourci d\'empreinte digitale</string>
 </resources>

@@ -19,13 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Lähtesta</string>
+  <string name="back">Tagasi</string>
+  <string name="next">Järgmine</string>
   <string name="on">Sees</string>
+  <string name="yes">Jah</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Abi</string>
   <string name="privacy_guard_reset_title">Lähtesta</string>
   <string name="privacy_guard_manager_show_system_apps">Kuva sisse-ehitatud rakendused</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Kohandatud</string>
   <string name="dialog_delete_title">Kustuta</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

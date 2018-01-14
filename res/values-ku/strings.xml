@@ -19,13 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">ڕێکخستنەوە</string>
+  <string name="back">دواوە</string>
+  <string name="next">دواتر</string>
   <string name="on">هەڵکردن</string>
+  <string name="yes">بەڵێ</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">یارمەتی</string>
   <string name="privacy_guard_reset_title">ڕێکخستنەوە</string>
   <string name="privacy_guard_manager_show_system_apps">پیشاندانی به‌رنامه‌-بنیاتنراو</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">تایبەت بە خۆ</string>
   <string name="dialog_delete_title">سڕینه‌وه‌</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

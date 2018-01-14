@@ -23,6 +23,7 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">Қайта реттеу</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Қалыпты</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->

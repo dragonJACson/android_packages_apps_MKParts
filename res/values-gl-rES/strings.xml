@@ -19,11 +19,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Restablecer</string>
+  <string name="next">Seguinte</string>
+  <string name="enabled">Activado</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">Restablecer</string>
   <string name="privacy_guard_manager_show_system_apps">Amosar aplicacións do sistema</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Personalizado</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_speed_fast">Rápido</string>
   <!-- Battery light settings -->
@@ -44,6 +47,7 @@
   <string name="camera_launch_title">Lanzar cámara</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Contraluz</string>
+  <string name="backlight_summary_enabled">Activado</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -59,6 +63,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Activar</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -95,6 +100,7 @@
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Activar</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->

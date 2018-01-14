@@ -19,12 +19,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Վերակայել</string>
+  <string name="back">Հետ</string>
   <string name="on">Միացված է</string>
+  <string name="yes">Այո</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Օգնություն</string>
   <string name="privacy_guard_reset_title">Վերակայել</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Հատուկ</string>
   <string name="dialog_delete_title">Ջնջել</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->

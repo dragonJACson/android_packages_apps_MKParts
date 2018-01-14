@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Couleurs plus chaudes pour diminuer la fatigue oculaire</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Couleur précises et naturelles</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Couleurs accordé à l\'espace de couleur DCI-P3</string>
   <string name="color_calibration_title">Calibrage des couleurs</string>
   <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
   <string name="color_red_title">Rouge</string>
@@ -235,6 +237,7 @@
   <string name="camera_double_tap_power_gesture_title">Appuyer deux fois sur le bouton Marche/Arrêt pour lancer l\'appareil photo</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ouvrir rapidement l\'appareil photo sans déverrouiller l\'écran</string>
+  <string name="torch_long_press_power_timeout_title">Désactiver la torche automatiquement</string>
   <string name="torch_long_press_power_timeout_never">Jamais</string>
   <string name="torch_long_press_power_timeout_1min">1 minute</string>
   <string name="torch_long_press_power_timeout_2min">2 minutes</string>
@@ -528,6 +531,11 @@
   <string name="touchscreen_gesture_letter_w_title">Dessiner la lettre « W »</string>
   <string name="touchscreen_gesture_letter_z_title">Dessiner la lettre « Z »</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Glissez vers le haut avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Glissez vers le bas avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Glissez vers la gauche avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Glissez vers la droite avec le stylet</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Appuis long avec le stylet</string>
   <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>
@@ -539,4 +547,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Lecture/pause de la musique</string>
   <string name="touchscreen_gesture_action_previous_track">Piste de musique précédente</string>
   <string name="touchscreen_gesture_action_next_track">Piste de musique suivante</string>
+  <string name="touchscreen_gesture_action_volume_down">Diminuer le volume du média</string>
+  <string name="touchscreen_gesture_action_volume_up">Augmenter le volume du média</string>
 </resources>

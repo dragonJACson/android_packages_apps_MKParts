@@ -392,7 +392,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Значки в строке состояния</string>
-  <string name="status_bar_notif_count_title">Счетчик уведомлений</string>
+  <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
   <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
   <string name="status_bar_system_icons_title">Системные значки</string>
   <string name="status_bar_system_icons_summary">Настройка видимости значков</string>
@@ -432,7 +432,7 @@
   <string name="status_bar_icons_title">Значки в строке состояния</string>
   <string name="status_bar_icons_summary">Настройка видимости значков</string>
   <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Защищенные приложения</string>
+  <string name="protected_apps_manager_title">Защищённые приложения</string>
   <string name="protected_apps_manager_summary">Управление приложениями, для запуска которых требуется ввод пароля</string>
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Участники проекта</string>

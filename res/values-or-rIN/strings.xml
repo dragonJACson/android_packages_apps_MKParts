@@ -18,11 +18,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="next">&quot;ପରବର୍ତ୍ତୀ&quot;</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_show_system_apps">ବିଲ୍‍ଟ୍‍-ଇନ୍‍ ଆପ୍ଲିକେସନ୍‍ ପ୍ରଦର୍ଶନ କରନ୍ତୁ</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">ସାଧାରଣ</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">ସାଧାରଣ</string>
+  <string name="pulse_speed_normal">ସାଧାରଣ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -57,6 +61,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">ସାଧାରଣ</string>
   <string name="ring_mode_vibrate">କମ୍ପନ</string>
   <string name="media_volume_title">ମିଡିଆ</string>
   <!-- Status bar -->
@@ -64,6 +69,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">ଡିସ୍‍ପ୍ଲେ ଅଫ୍‍ କରିବା ପାଇଁ ଷ୍ଟାଟସ୍‍ ବାର୍‍ରେ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">ସାଧାରଣ</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">ଟେକ୍ସଟ୍</string>
   <!-- Status bar - Battery percentage -->

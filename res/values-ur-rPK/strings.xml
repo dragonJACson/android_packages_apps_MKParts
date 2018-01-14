@@ -23,6 +23,7 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">دوبارہ ترتیب دیں</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">حسب ضرورت</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->

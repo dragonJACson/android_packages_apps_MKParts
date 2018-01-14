@@ -465,6 +465,7 @@
   <string name="expanded_desktop_style_hide_both">Ezkutatu biak</string>
   <string name="expanded_desktop_nothing_to_show_text">Itzali zure mahaigain hedatua aplikazioz aplikazio pertsonalizatzeko</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Gaitu</string>
   <string name="power_notifications_vibrate_title">Bibratu</string>
   <string name="charging_sounds_ringtone_silent">Isilik</string>
   <!-- Gestures: Touchscreen gestures -->

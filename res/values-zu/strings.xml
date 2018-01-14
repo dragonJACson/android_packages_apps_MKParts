@@ -19,12 +19,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Setha kabusha</string>
+  <string name="back">Emuva</string>
   <string name="on">Vuliwe</string>
+  <string name="yes">Yebo</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Usizo</string>
   <string name="privacy_guard_reset_title">Setha kabusha</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Ngokwezifiso</string>
   <string name="dialog_delete_title">Susa</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
