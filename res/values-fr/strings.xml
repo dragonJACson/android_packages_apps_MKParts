@@ -37,6 +37,7 @@
   <string name="search">Rechercher</string>
   <string name="disabled">Désactivé</string>
   <string name="enabled">Activé</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Confidentialité</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Messagerie vocale</string>
   <string name="notification_light_screen_on">Led avec réveil de l\'écran</string>
   <string name="notification_light_zen_mode">Led en mode « Ne pas déranger »</string>
-  <string name="notification_light_use_multiple_leds">Plusieurs LED</string>
   <string name="keywords_lights_brightness_level">atténuer la luminosité des LED</string>
   <string name="notification_light_automagic">Gestion automatique des couleurs</string>
   <string name="notification_light_automagic_summary">Choix des couleurs automatique</string>
@@ -118,7 +118,7 @@
   <string name="live_display_enhance_color_title">Améliorer les couleurs</string>
   <string name="live_display_enhance_color_summary">Améliore la vibrance «intensité» des couleurs des tons chair, des paysages et d\'autres images</string>
   <string name="live_display_color_profile_title">Profil de couleur</string>
-  <string name="live_display_color_profile_standard_title">Standard</string>
+  <string name="live_display_color_profile_standard_title">65% (normal)</string>
   <string name="live_display_color_profile_standard_summary">Couleurs précises et blancs éclatants</string>
   <string name="live_display_color_profile_natural_title">Naturelle</string>
   <string name="live_display_color_profile_natural_summary">Couleurs et tons chair réalistes</string>
@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Couleurs plus chaudes pour diminuer la fatigue oculaire</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Couleur précises et naturelles</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Couleurs accordé à l\'espace de couleur DCI-P3</string>
   <string name="color_calibration_title">Calibrage des couleurs</string>
   <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
   <string name="color_red_title">Rouge</string>
@@ -211,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Barre de navigation</string>
   <string name="navigation_bar_title">Boutons et disposition</string>
-  <string name="navigation_bar_left_title">Mode gaucher</string>
   <string name="navigation_bar_left_summary">Place la barre de navigation du côté gauche de l\'écran en mode paysage</string>
   <string name="navigation_bar_arrow_keys_title">Afficher les flèches lors de la frappe</string>
   <string name="navigation_bar_arrow_keys_summary">Affiche les touches de curseur gauche et droite lors de la saisie. Remplace le changeur de mode de saisie.</string>
   <string name="navigation_bar_home_long_press_title">Appui long sur bouton d\'accueil</string>
   <string name="navigation_bar_home_double_tap_title">Appui double sur bouton d\'accueil</string>
-  <string name="navigation_bar_recents_title">Appui long sur applications récentes</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu marche/arrêt</string>
   <string name="power_menu_reboot_title">Menu redémarrer</string>
@@ -235,6 +235,7 @@
   <string name="camera_double_tap_power_gesture_title">Appuyer deux fois sur le bouton Marche/Arrêt pour lancer l\'appareil photo</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ouvrir rapidement l\'appareil photo sans déverrouiller l\'écran</string>
+  <string name="torch_long_press_power_timeout_title">Désactiver la torche automatiquement</string>
   <string name="torch_long_press_power_timeout_never">Jamais</string>
   <string name="torch_long_press_power_timeout_1min">1 minute</string>
   <string name="torch_long_press_power_timeout_2min">2 minutes</string>
@@ -527,6 +528,12 @@
   <string name="touchscreen_gesture_letter_v_title">Dessiner la lettre « V »</string>
   <string name="touchscreen_gesture_letter_w_title">Dessiner la lettre « W »</string>
   <string name="touchscreen_gesture_letter_z_title">Dessiner la lettre « Z »</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Glissez vers le haut avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Glissez vers le bas avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Glissez vers la gauche avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Glissez vers la droite avec le stylet</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Appuis long avec le stylet</string>
   <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>
@@ -538,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Lecture/pause de la musique</string>
   <string name="touchscreen_gesture_action_previous_track">Piste de musique précédente</string>
   <string name="touchscreen_gesture_action_next_track">Piste de musique suivante</string>
+  <string name="touchscreen_gesture_action_volume_down">Diminuer le volume du média</string>
+  <string name="touchscreen_gesture_action_volume_up">Augmenter le volume du média</string>
 </resources>

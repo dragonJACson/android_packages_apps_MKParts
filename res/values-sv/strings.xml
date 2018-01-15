@@ -37,6 +37,7 @@
   <string name="search">Sök</string>
   <string name="disabled">Inaktiverad</string>
   <string name="enabled">Aktiverad</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Integritet</string>
   <!-- Privacy Guard -->
@@ -54,6 +55,7 @@
   <string name="edit_light_settings">Redigera ljusinställningar</string>
   <string name="pulse_speed_title">Pulslängd och hastighet</string>
   <string name="default_time">Normal</string>
+  <string name="custom_time">Anpassat</string>
   <string name="dialog_delete_title">Ta bort</string>
   <string name="dialog_delete_message">Ta bort markerat objekt?</string>
   <string name="brightness">Ljusstyrka</string>
@@ -164,7 +166,6 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Navigationsfält</string>
   <string name="navigation_bar_title">Knappar och utformning</string>
-  <string name="navigation_bar_left_title">Vänsterhänt läge</string>
   <string name="navigation_bar_arrow_keys_title">Visa piltangenter medan du skriver</string>
   <!-- Power menu -->
   <string name="power_menu_title">Energimeny</string>
@@ -395,6 +396,7 @@
   <string name="touchscreen_gesture_letter_v_title">Rita bokstaven \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Rita bokstaven \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Rita bokstaven \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Gest-åtgärder</string>
   <string name="touchscreen_gesture_action_do_nothing">Gör ingenting</string>
   <string name="touchscreen_gesture_action_flashlight">Växla ficklampan</string>

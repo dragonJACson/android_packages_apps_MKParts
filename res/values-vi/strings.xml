@@ -33,6 +33,7 @@
   <string name="no">Không</string>
   <string name="disabled">Đã tắt</string>
   <string name="enabled">Kích hoạt</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Tính riêng tư</string>
   <!-- Privacy Guard -->
@@ -157,4 +158,5 @@
   <string name="charging_sounds_ringtone_silent">Im lặng</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Thông tin phản hồi Haptic</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

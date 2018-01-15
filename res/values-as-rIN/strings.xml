@@ -18,11 +18,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="next">&quot;পৰৱৰ্তী&quot;</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_show_system_apps">পূৰ্ব-নিৰ্মিত এপ্প্‌ প্ৰদৰ্শন কৰক</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">সাধাৰণ</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">সাধাৰণ</string>
+  <string name="pulse_speed_normal">সাধাৰণ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -57,6 +62,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">সাধাৰণ</string>
   <string name="ring_mode_vibrate">ভাইব্ৰেট</string>
   <string name="media_volume_title">মিডিয়া</string>
   <!-- Status bar -->
@@ -64,6 +70,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">প্রদর্শন অফ কৰিবলৈ ষ্টেটাছ বাৰত দুবাৰ ক্লিক কৰক</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">সাধাৰণ</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">টেক্সট</string>
   <!-- Status bar - Battery percentage -->
@@ -84,4 +91,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">ভাইব্ৰেট</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

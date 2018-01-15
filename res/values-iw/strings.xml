@@ -23,12 +23,15 @@
   <string name="cancel">ביטול</string>
   <string name="reset">אפס</string>
   <string name="settings">הגדרות</string>
+  <string name="back">הקודם</string>
   <string name="next">הבא</string>
   <string name="on">מופעל</string>
   <string name="off">ללא</string>
   <string name="yes">כן</string>
   <string name="no">לא</string>
   <string name="disabled">מנוטרל</string>
+  <string name="enabled">מופעל</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">פרטיות</string>
   <!-- Privacy Guard -->
@@ -36,9 +39,13 @@
   <string name="privacy_guard_reset_title">אפס</string>
   <string name="privacy_guard_manager_show_system_apps">הצג יישומים מובנים</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">רגיל</string>
+  <string name="custom_time">מותאם אישית</string>
   <string name="dialog_delete_title">מחק</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">רגיל</string>
   <string name="pulse_speed_fast">מהיר</string>
+  <string name="pulse_speed_normal">רגיל</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_phonelist_title">טלפון</string>
@@ -67,6 +74,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">תאורה אחורית</string>
   <string name="backlight_summary_disabled">מנוטרל</string>
+  <string name="backlight_summary_enabled">מופעל</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -102,6 +110,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">רגיל</string>
   <string name="ring_mode_vibrate">רטט</string>
   <string name="ring_mode_mute">השתק</string>
   <string name="media_volume_title">מדיה</string>
@@ -111,6 +120,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים בשורת המצב כדי לכבות את המסך</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">רגיל</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">טקסט</string>
   <!-- Status bar - Battery percentage -->
@@ -137,4 +147,5 @@
   <string name="charging_sounds_ringtone_silent">שקט</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">משוב ברטט</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

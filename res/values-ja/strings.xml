@@ -37,6 +37,7 @@
   <string name="search">検索</string>
   <string name="disabled">無効</string>
   <string name="enabled">有効</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">プライバシー</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">ボイスメール</string>
   <string name="notification_light_screen_on">画面点灯時も点灯</string>
   <string name="notification_light_zen_mode">[通知を非表示]でも点灯</string>
-  <string name="notification_light_use_multiple_leds">マルチLED</string>
   <string name="keywords_lights_brightness_level">暗く led 明るさ</string>
   <string name="notification_light_automagic">色を自動的に選択</string>
   <string name="notification_light_automagic_summary">色を自動的に選択しています</string>
@@ -204,13 +204,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">ナビゲーションバー</string>
   <string name="navigation_bar_title">ボタンとレイアウト</string>
-  <string name="navigation_bar_left_title">左利きモード</string>
   <string name="navigation_bar_left_summary">横画面モードでナビゲーションバーを画面の左側に配置する</string>
   <string name="navigation_bar_arrow_keys_title">入力中は矢印キーを表示</string>
   <string name="navigation_bar_arrow_keys_summary">入力中は左右の矢印ボタンを表示します。IMEの切り替えアイコンは無効になります。</string>
   <string name="navigation_bar_home_long_press_title">ホームボタン長押しの動作</string>
   <string name="navigation_bar_home_double_tap_title">ホームボタンのダブルタップの動作</string>
-  <string name="navigation_bar_recents_title">履歴ボタンの長押しの動作</string>
   <!-- Power menu -->
   <string name="power_menu_title">電源メニュー</string>
   <string name="power_menu_reboot_title">再起動メニュー</string>
@@ -241,6 +239,7 @@
   <string name="profile_action_enable">ONにする</string>
   <string name="profile_trigger_a2dp_connect">A2DP接続時</string>
   <string name="profile_trigger_a2dp_disconnect">A2DP切断時</string>
+  <string name="profile_tabs_bluetooth">ブルートゥース</string>
   <string name="profile_triggers_header">このプロファイルを有効にするトリガー</string>
   <string name="profile_setup_setup_triggers_title">ステップ1: トリガーを追加</string>
   <string name="profile_setup_setup_triggers_title_config">トリガーを変更: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -342,6 +341,7 @@
   <string name="profile_brightness_override_checkbox_label">明るさを変更</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifiAp">Wi\u2011Fiテザリング</string>
+  <string name="toggleBluetooth">ブルートゥース</string>
   <string name="toggleData">データ接続</string>
   <string name="toggleSync">データの自動同期</string>
   <string name="toggle2g3g4g">優先ネットワークの種類</string>
@@ -473,7 +473,9 @@
   <string name="expanded_desktop_style_hide_both">両方を非表示</string>
   <string name="expanded_desktop_nothing_to_show_text">拡張デスクトップをアプリごとにカスタマイズするにはスイッチをOFFにしてください</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">有効</string>
   <string name="power_notifications_vibrate_title">バイブレーション</string>
   <string name="charging_sounds_ringtone_silent">サイレント</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

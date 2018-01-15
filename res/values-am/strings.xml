@@ -19,12 +19,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">ዳግም አስጀምር</string>
+  <string name="back">ተመለስ</string>
   <string name="on">በርቷል</string>
+  <string name="yes">አዎ</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">እገዛ</string>
   <string name="privacy_guard_reset_title">ዳግም አስጀምር</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">ብጁ</string>
   <string name="dialog_delete_title">ሰርዝ</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -89,4 +93,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

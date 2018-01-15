@@ -37,6 +37,7 @@
   <string name="search">Cari</string>
   <string name="disabled">Dimatikan</string>
   <string name="enabled">Dihidupkan</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privasi</string>
   <!-- Privacy Guard -->
@@ -59,7 +60,7 @@
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Ubah setelan lampu</string>
   <string name="pulse_speed_title">Panjang dan kecepatan kedipan</string>
-  <string name="default_time">Normal</string>
+  <string name="default_time">Keadaan normal</string>
   <string name="custom_time">Khusus</string>
   <string name="dialog_delete_title">Hapus</string>
   <string name="dialog_delete_message">Hapus item yang dipilih?</string>
@@ -68,12 +69,12 @@
   <string name="pulse_length_always_on">Selalu hidup</string>
   <string name="pulse_length_very_short">Sangat singkat</string>
   <string name="pulse_length_short">Singkat</string>
-  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_normal">Keadaan normal</string>
   <string name="pulse_length_long">Lama</string>
   <string name="pulse_length_very_long">Sangat lama</string>
   <string name="pulse_speed_very_fast">Sangat cepat</string>
   <string name="pulse_speed_fast">Cepat</string>
-  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_normal">Keadaan normal</string>
   <string name="pulse_speed_slow">Lambat</string>
   <string name="pulse_speed_very_slow">Sangat lambat</string>
   <!-- Battery light settings -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Pesan suara</string>
   <string name="notification_light_screen_on">Lampu dengan layar yang menyala</string>
   <string name="notification_light_zen_mode">Lampu di mode Jangan Ganggu</string>
-  <string name="notification_light_use_multiple_leds">Beberapa LED</string>
   <string name="keywords_lights_brightness_level">kecerahan Led redup</string>
   <string name="notification_light_automagic">Memilih warna secara otomatis</string>
   <string name="notification_light_automagic_summary">Memilih warna otomatis</string>
@@ -213,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Bar Navigasi</string>
   <string name="navigation_bar_title">Tombol dan tata letak</string>
-  <string name="navigation_bar_left_title">Mode tangan kiri</string>
   <string name="navigation_bar_left_summary">Tempatkan navigasi bar di sebelah kiri layar dalam mode lanskap</string>
   <string name="navigation_bar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
   <string name="navigation_bar_arrow_keys_summary">Tampilkan tombol kursor kiri dan kanan saat mengetik. Menggantikan pengubah IME.</string>
   <string name="navigation_bar_home_long_press_title">Tindakan menekan lama home</string>
   <string name="navigation_bar_home_double_tap_title">Tindakan dua kali ketuk home</string>
-  <string name="navigation_bar_recents_title">Tindakan menekan lama recent</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu power</string>
   <string name="power_menu_reboot_title">Mulai ulang menu</string>
@@ -370,7 +368,7 @@
   <string name="toggleNfc">Komunikasi jarak dekat</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Mode dering</string>
-  <string name="ring_mode_normal">Normal</string>
+  <string name="ring_mode_normal">Keadaan normal</string>
   <string name="ring_mode_vibrate">Getar</string>
   <string name="ring_mode_mute">Hening</string>
   <string name="ring_volume_title">Volume dering</string>
@@ -404,7 +402,7 @@
   <string name="status_bar_clock_position_center">Tengah</string>
   <string name="status_bar_am_pm_title">Gaya AM/PM</string>
   <string name="status_bar_am_pm_info">24-jam diaktifkan</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
+  <string name="status_bar_am_pm_normal">Keadaan normal</string>
   <string name="status_bar_am_pm_small">Kecil</string>
   <string name="status_bar_am_pm_hidden">Tersembunyi</string>
   <!-- Status bar - Battery -->
@@ -530,6 +528,12 @@
   <string name="touchscreen_gesture_letter_v_title">Gambar huruf \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Gambar huruf \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Gambar huruf \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Usap ke atas dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Usap ke bawah dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Usap ke kiri dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Usap ke kanan dengan stylus</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Tekan lama dengan stylus</string>
   <string name="touchscreen_gesture_action_dialog_title">Tindak gerakan</string>
   <string name="touchscreen_gesture_action_do_nothing">Tidak melakukan apapun</string>
   <string name="touchscreen_gesture_action_flashlight">Hidup/matikan senter</string>
@@ -541,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Putar/jeda pemutaran musik</string>
   <string name="touchscreen_gesture_action_previous_track">Kembali ke trek musik sebelumnya</string>
   <string name="touchscreen_gesture_action_next_track">Lanjut ke trek musik berikutnya</string>
+  <string name="touchscreen_gesture_action_volume_down">Lower media volume</string>
+  <string name="touchscreen_gesture_action_volume_up">Tingkatkan media volume</string>
 </resources>

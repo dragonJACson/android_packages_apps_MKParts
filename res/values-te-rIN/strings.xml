@@ -19,12 +19,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">రీసెట్ చేయి</string>
+  <string name="next">&quot;తదుపరి&quot;</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">రీసెట్ చేయి</string>
   <string name="privacy_guard_manager_show_system_apps">అంతర్నిర్మిత అనువర్తనాలను చూపుము</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">సాధారణం</string>
+  <string name="custom_time">అనుకూలం</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">సాధారణం</string>
+  <string name="pulse_speed_normal">సాధారణం</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -66,6 +72,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">సాధారణం</string>
   <string name="ring_mode_vibrate">వైబ్రేట్</string>
   <string name="media_volume_title">మీడియా</string>
   <!-- Status bar -->
@@ -73,6 +80,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">డిస్ప్లేను ఆపివేయడానికి స్టేటస్ బార్ పైన రెండుసార్లు ట్యాప్ చేయండి</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">సాధారణం</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">పాఠం</string>
   <!-- Status bar - Battery percentage -->
@@ -94,4 +102,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">వైబ్రేట్</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

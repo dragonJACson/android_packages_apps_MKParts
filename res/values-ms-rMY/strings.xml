@@ -18,19 +18,35 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="loading">Memuatkan\u2026</string>
+  <string name="dlg_ok">OK</string>
+  <string name="cancel">Batal</string>
   <string name="reset">Tetapkan semula</string>
+  <string name="settings">Tetapan</string>
+  <string name="back">Belakang</string>
+  <string name="next">Selepas</string>
   <string name="on">Hidupkan</string>
+  <string name="off">Dimatikan</string>
+  <string name="yes">Ya</string>
+  <string name="no">Tidak</string>
+  <string name="disabled">Tidak-aktif</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Bantuan</string>
   <string name="privacy_guard_reset_title">Tetapkan semula</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Peribadi</string>
   <string name="dialog_delete_title">Padam</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Asal</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_day">Siang</string>
+  <string name="live_display_night">Malam</string>
   <string name="color_red_title">Merah</string>
   <string name="color_green_title">Hijau</string>
   <string name="color_blue_title">Biru</string>
@@ -40,11 +56,15 @@
   <string name="adj_contrast_title">Kontras</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Butang menu</string>
+  <string name="volbtn_cursor_control_off">Tidak-aktif</string>
   <!-- Key backlight -->
+  <string name="backlight_summary_disabled">Tidak-aktif</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Skrin shot</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Tidak pernah</string>
   <string name="torch_long_press_power_timeout_1min">1 minit</string>
   <string name="torch_long_press_power_timeout_2min">2 minit</string>
   <string name="torch_long_press_power_timeout_5min">5 minit</string>
@@ -56,6 +76,7 @@
   <string name="profile_menu_delete">Padam</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Hidupkan</string>
+  <string name="profile_entries_off">Dimatikan</string>
   <!-- Add Profile -->
   <!-- Rename Dialog  -->
   <!-- Reset Profiles -->
@@ -63,6 +84,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Mendayakan</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -74,6 +96,7 @@
   <!-- Sound settings screen -->
   <string name="ring_mode_mute">Redam</string>
   <!-- Status bar -->
+  <string name="status_bar_quick_qs_pulldown_off">Dimatikan</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
@@ -86,7 +109,12 @@
   <!-- Display : Rotation  -->
   <!-- Weather -->
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">Tidak pernah</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Mendayakan</string>
+  <string name="charging_sounds_ringtone_silent">Senyap</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gestures_haptic_feedback_title">Malum balas secara haptik</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

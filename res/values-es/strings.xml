@@ -37,6 +37,7 @@
   <string name="search">Buscar</string>
   <string name="disabled">Deshabilitado</string>
   <string name="enabled">Activado</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privacidad</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Mensaje de voz</string>
   <string name="notification_light_screen_on">Led con pantalla encendida</string>
   <string name="notification_light_zen_mode">Led en modo no molestar</string>
-  <string name="notification_light_use_multiple_leds">Múltiples LEDs</string>
   <string name="keywords_lights_brightness_level">atenuar brillo de leds</string>
   <string name="notification_light_automagic">Elegir colores automáticamente</string>
   <string name="notification_light_automagic_summary">Selección automática de colores</string>
@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Colores precisos para el espacio de color DCI-P3</string>
   <string name="color_calibration_title">Calibración de color</string>
   <string name="color_calibration_summary">Calibrar colores de pantalla</string>
   <string name="color_red_title">Rojo</string>
@@ -211,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Barra de navegación</string>
   <string name="navigation_bar_title">Botones y disposición</string>
-  <string name="navigation_bar_left_title">Modo para zurdos</string>
   <string name="navigation_bar_left_summary">Situar la barra de navegación a la izquierda de la pantalla en el modo apaisado</string>
   <string name="navigation_bar_arrow_keys_title">Mostras flechas al escribir</string>
   <string name="navigation_bar_arrow_keys_summary">Mostrar los cursores izquierda y derecha mientras se escribe. Reemplaza al selector IME.</string>
   <string name="navigation_bar_home_long_press_title">Acción de pulsación larga de inicio</string>
   <string name="navigation_bar_home_double_tap_title">Acción de doble toque en inicio</string>
-  <string name="navigation_bar_recents_title">Pulsación larga en recientes</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menú de apagado</string>
   <string name="power_menu_reboot_title">Menú de reinicio</string>
@@ -528,6 +528,7 @@
   <string name="touchscreen_gesture_letter_v_title">Dibuje la letra \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Dibujar la letra \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Dibujar la letra \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Acción del gesto</string>
   <string name="touchscreen_gesture_action_do_nothing">Sin Acción</string>
   <string name="touchscreen_gesture_action_flashlight">Activar/Desactivar linterna</string>

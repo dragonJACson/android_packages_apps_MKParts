@@ -37,6 +37,7 @@
   <string name="search">Пошук</string>
   <string name="disabled">Вимкнено</string>
   <string name="enabled">Увімкнено</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Конфіденційність</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Голосова пошта</string>
   <string name="notification_light_screen_on">Колір сповіщення при увімкненому екрані</string>
   <string name="notification_light_zen_mode">Колір сповіщення в режимі \"Не турбувати\"</string>
-  <string name="notification_light_use_multiple_leds">Кілька LED-діодів</string>
   <string name="keywords_lights_brightness_level">зменьшити яскравість</string>
   <string name="notification_light_automagic">Підібрати кольори автоматично</string>
   <string name="notification_light_automagic_summary">Обрати кольри згідно значка додатку</string>
@@ -213,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Рядок навігації</string>
   <string name="navigation_bar_title">Кнопки та їх розміщення</string>
-  <string name="navigation_bar_left_title">Режим для лівші</string>
   <string name="navigation_bar_left_summary">Показувати рядок навігації зліва в альбомній орієнтації</string>
   <string name="navigation_bar_arrow_keys_title">Показувати стрілки під час введення тексту</string>
   <string name="navigation_bar_arrow_keys_summary">Показувати кнопки переміщення курсору вліво або вправо при введенні. Кнопка вибору методу введення не буде відображатися.</string>
   <string name="navigation_bar_home_long_press_title">Дія при довгому натиску кнопки \"Додому\"</string>
   <string name="navigation_bar_home_double_tap_title">Дія при подвійному натисканні на кнопку \"Додому\"</string>
-  <string name="navigation_bar_recents_title">Дія довгого натискання недавніх програм</string>
   <!-- Power menu -->
   <string name="power_menu_title">Меню живлення</string>
   <string name="power_menu_reboot_title">Меню перезавантаження</string>
@@ -530,6 +528,7 @@
   <string name="touchscreen_gesture_letter_v_title">Намалюйте літеру \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Намалюйте літеру \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Намалюйте літеру «Z»</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Жести</string>
   <string name="touchscreen_gesture_action_do_nothing">Нічого не робити</string>
   <string name="touchscreen_gesture_action_flashlight">Увімкнути або вимкнути ліхтарик</string>

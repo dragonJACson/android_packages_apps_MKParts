@@ -30,4 +30,5 @@
   <string name="status_bar_network_traffic_style_down">Bejövő</string>
   <string name="status_bar_network_traffic_style_all">Kimenő és bejövő</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Nyomja meg hosszan a bekapcsológombot a zseblámpához</string>
 </resources>

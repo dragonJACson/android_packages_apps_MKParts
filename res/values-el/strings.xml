@@ -37,6 +37,7 @@
   <string name="search">Αναζήτηση</string>
   <string name="disabled">Απενεργοποιημένο</string>
   <string name="enabled">Ενεργοποιημένο</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Ιδιωτικότητα</string>
   <!-- Privacy Guard -->
@@ -45,9 +46,13 @@
   <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
   <string name="privacy_guard_advanced_settings_title">Για προχωρημένους</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">Κανονική</string>
+  <string name="custom_time">Προσαρμοσμένο</string>
   <string name="dialog_delete_title">Διαγραφή</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Κανονική</string>
   <string name="pulse_speed_fast">Γρήγορα</string>
+  <string name="pulse_speed_normal">Κανονική</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_general_title">Γενικά</string>
@@ -77,6 +82,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Οπίσθιος φωτισμός</string>
   <string name="backlight_summary_disabled">Απενεργοποιημένο</string>
+  <string name="backlight_summary_enabled">Ενεργοποιημένος</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
@@ -122,6 +128,7 @@
   <string name="toggleGPS">GPS</string>
   <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">Κανονική</string>
   <string name="ring_mode_vibrate">Δόνηση</string>
   <string name="ring_mode_mute">Σίγαση</string>
   <string name="media_volume_title">Μέσα</string>
@@ -131,6 +138,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">Διπλό χτύπημα στη γραμμή κατάστασης για αναστολή της συσκευής</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">Κανονική</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">Κείμενο</string>
   <!-- Status bar - Battery percentage -->
@@ -159,4 +167,5 @@
   <string name="charging_sounds_ringtone_silent">Αθόρυβο</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Απτική ανάδραση</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

@@ -19,12 +19,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Weka upya</string>
+  <string name="back">Nyuma</string>
   <string name="on">Imewashwa</string>
+  <string name="yes">Ndiyo</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Usaidizi</string>
   <string name="privacy_guard_reset_title">Weka upya</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Maalum</string>
   <string name="dialog_delete_title">Futa</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -89,4 +93,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

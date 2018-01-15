@@ -37,6 +37,7 @@
   <string name="search">Vyhledat</string>
   <string name="disabled">Zakázáno</string>
   <string name="enabled">Povoleno</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Soukromí</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Hlasová schránka</string>
   <string name="notification_light_screen_on">Upozornění LED při zapnuté obrazovce</string>
   <string name="notification_light_zen_mode">Světelná signalizace v režimu „Nerušit“</string>
-  <string name="notification_light_use_multiple_leds">Více LED</string>
   <string name="keywords_lights_brightness_level">ztlumit jas LED diod</string>
   <string name="notification_light_automagic">Automaticky zvolit barvy</string>
   <string name="notification_light_automagic_summary">Automaticky zvolit barvy</string>
@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka hlasitosti</string>
   <string name="home_answer_call_title">Přijmout hovor</string>
   <string name="home_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka „Domů“</string>
+  <string name="extras_title">Doplňky</string>
+  <string name="additional_buttons_title">Další tlačítka</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Protisvětlo</string>
   <string name="button_backlight_enabled">Podsvícení tlačítek</string>
@@ -213,13 +215,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Navigační lišta</string>
   <string name="navigation_bar_title">Tlačítka a rozmístění</string>
-  <string name="navigation_bar_left_title">Režim ovládání levou rukou</string>
   <string name="navigation_bar_left_summary">Při natočení na šířku umístit navigační lištu na levé straně obrazovky</string>
   <string name="navigation_bar_arrow_keys_title">Zobrazit navigační šipky při psaní</string>
   <string name="navigation_bar_arrow_keys_summary">Zobrazit levý a pravý kurzor při psaní. Potlačí IME přepínač.</string>
   <string name="navigation_bar_home_long_press_title">Akce dlouhého stisku tlačítka „Domů“</string>
   <string name="navigation_bar_home_double_tap_title">Akce dvojitého stisku tlačítka „Domů“</string>
-  <string name="navigation_bar_recents_title">Akce dlouhého stisku na tlačítku „Nedávné“</string>
   <!-- Power menu -->
   <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
   <string name="power_menu_reboot_title">Nabídka restartu</string>
@@ -530,6 +530,12 @@
   <string name="touchscreen_gesture_letter_v_title">Nakreslit písmeno „V“</string>
   <string name="touchscreen_gesture_letter_w_title">Nakreslit písmeno „W“</string>
   <string name="touchscreen_gesture_letter_z_title">Nakreslit písmeno „Z“</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Přejeďte nahoru pomocí stylusu</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Přejeďte dolů pomocí stylusu</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Přejeďte vlevo pomocí stylusu</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Přejeďte vpravo pomocí stylusu</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Dlouhým stisknutím stylusu</string>
   <string name="touchscreen_gesture_action_dialog_title">Akce gest</string>
   <string name="touchscreen_gesture_action_do_nothing">Nedělat nic</string>
   <string name="touchscreen_gesture_action_flashlight">Přepnout svítilnu</string>
@@ -541,4 +547,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Přehrávat / pozastavit hudbu</string>
   <string name="touchscreen_gesture_action_previous_track">Přejít na předchozí skladbu</string>
   <string name="touchscreen_gesture_action_next_track">Přeskočit na další skladbu</string>
+  <string name="touchscreen_gesture_action_volume_down">Nižší hlasitost médií</string>
+  <string name="touchscreen_gesture_action_volume_up">Vyšší hlasitost médií</string>
 </resources>

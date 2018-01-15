@@ -34,6 +34,7 @@
   <string name="search">Keresés</string>
   <string name="disabled">Kikapcsolva</string>
   <string name="enabled">Engedélyezve</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Adatvédelem</string>
   <!-- Privacy Guard -->
@@ -158,4 +159,5 @@
   <string name="charging_sounds_ringtone_silent">Néma</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Rezgés visszajelzés</string>
+  <!-- Gesture: Stylus gestures -->
 </resources>

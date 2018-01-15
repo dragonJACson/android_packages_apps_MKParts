@@ -18,15 +18,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="loading">Yüklənir\u2026</string>
   <string name="reset">Sıfırla</string>
+  <string name="back">Geri</string>
   <string name="next">Sonrakı</string>
   <string name="on">Aktiv</string>
+  <string name="yes">Bəli</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Kömək</string>
   <string name="privacy_guard_reset_title">Sıfırla</string>
   <string name="privacy_guard_manager_show_system_apps">Daxili tətbiqləri göstər</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Fərdi</string>
   <string name="dialog_delete_title">Silin</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -51,6 +56,7 @@
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">Ekran Görüntüsü</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Heç vaxt</string>
   <string name="torch_long_press_power_timeout_1min">1 dəqiqə</string>
   <string name="torch_long_press_power_timeout_2min">2 dəqiqə</string>
   <string name="torch_long_press_power_timeout_5min">5 dəqiqə</string>
@@ -96,9 +102,11 @@
   <!-- Display : Rotation  -->
   <!-- Weather -->
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">Heç vaxt</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Titrəmə</string>
   <string name="charging_sounds_ringtone_silent">Səssiz</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

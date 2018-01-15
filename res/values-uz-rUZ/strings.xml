@@ -19,10 +19,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Tiklash</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">Tiklash</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Maxsus</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
@@ -79,4 +81,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

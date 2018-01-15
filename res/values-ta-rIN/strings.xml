@@ -26,12 +26,17 @@
   <string name="off">அணை</string>
   <string name="yes">ஆம்</string>
   <string name="no">இல்லை</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">மீட்டமை</string>
   <string name="privacy_guard_manager_show_system_apps">உள்ளமைந்த ஆப்களை காட்டு</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">இயல்பு</string>
+  <string name="custom_time">தனிப்பயன்</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">இயல்பு</string>
+  <string name="pulse_speed_normal">இயல்பு</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_phonelist_title">அலைபேசி</string>
@@ -80,6 +85,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">இயல்பு</string>
   <string name="ring_mode_vibrate">அதிர்வு</string>
   <string name="media_volume_title">மீடியா</string>
   <!-- Status bar -->
@@ -88,6 +94,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">காட்சியை ஆஃப் செய்ய நிலை பட்டை மீது இருமுறை தட்டு</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">இயல்பு</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">உரை</string>
   <!-- Status bar - Battery percentage -->
@@ -111,4 +118,5 @@
   <string name="power_notifications_vibrate_title">அதிர்வு</string>
   <string name="charging_sounds_ringtone_silent">அமைதி</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

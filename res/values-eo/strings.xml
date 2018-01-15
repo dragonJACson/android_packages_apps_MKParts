@@ -18,9 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="yes">Jes</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <!-- Notification light dialogs -->
+  <string name="custom_time">Propra</string>
   <string name="dialog_delete_title">Forigi</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -74,4 +77,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

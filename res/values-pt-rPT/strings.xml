@@ -36,6 +36,7 @@
   <string name="search">Pesquisar</string>
   <string name="disabled">Desativada</string>
   <string name="enabled">Ativada</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privacidade</string>
   <!-- Privacy Guard -->
@@ -91,7 +92,6 @@
   <string name="notification_light_voicemail_title">Correio de voz</string>
   <string name="notification_light_screen_on">Luzes com o ecrã ligado</string>
   <string name="notification_light_zen_mode">Luzes no modo Não Incomodar</string>
-  <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
   <string name="keywords_lights_brightness_level">escurecer o brilho do LED</string>
   <string name="notification_light_automagic">Escolha automática das cores</string>
   <string name="notification_light_automagic_summary">A escolher cores automaticamente</string>
@@ -198,13 +198,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Barra de navegação</string>
   <string name="navigation_bar_title">Botões e sua disposição</string>
-  <string name="navigation_bar_left_title">Modo de mão esquerda</string>
   <string name="navigation_bar_left_summary">Coloca a barra de navegação no lado esquerdo do ecrã, quando estiver no modo paisagem</string>
   <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta enquanto escreve</string>
   <string name="navigation_bar_arrow_keys_summary">Mostrar os botões de cursor para a esquerda e para a direita enquanto escreve. Sobrepõe-se à definição do teclado.</string>
   <string name="navigation_bar_home_long_press_title">Ação de pressão longa no botão de Página Inicial</string>
   <string name="navigation_bar_home_double_tap_title">Toque duplo</string>
-  <string name="navigation_bar_recents_title">Ação de pressão longa no botão de Visão geral</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu ligar/desligar</string>
   <string name="power_menu_reboot_title">Menu de reinicialização</string>
@@ -463,7 +461,9 @@
   <string name="expanded_desktop_style_hide_both">Ocultar ambas as barras</string>
   <string name="expanded_desktop_nothing_to_show_text">Desligue o interruptor para personalizar a sua área de trabalho conforme a aplicação</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Ativar</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

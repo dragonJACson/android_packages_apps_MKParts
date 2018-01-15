@@ -19,13 +19,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Atiestatīt</string>
+  <string name="back">Atpakaļ</string>
+  <string name="next">Nākamais</string>
   <string name="on">Ieslēgts</string>
+  <string name="yes">Jā</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Palīdzība</string>
   <string name="privacy_guard_reset_title">Atiestatīt</string>
   <string name="privacy_guard_manager_show_system_apps">Rādīt iebūvētās lietotnes</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Pielāgots</string>
   <string name="dialog_delete_title">Dzēst</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -95,4 +100,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibrēt</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

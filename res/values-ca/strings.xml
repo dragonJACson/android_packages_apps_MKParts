@@ -37,6 +37,7 @@
   <string name="search">Cerca</string>
   <string name="disabled">Deshabilitat</string>
   <string name="enabled">Habilitat</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privadesa</string>
   <!-- Privacy Guard -->
@@ -90,7 +91,6 @@
   <string name="notification_light_voicemail_title">Contestador</string>
   <string name="notification_light_screen_on">Llums amb la pantalla encesa</string>
   <string name="notification_light_zen_mode">Llums en el mode No molestis</string>
-  <string name="notification_light_use_multiple_leds">LEDs múltiples</string>
   <string name="keywords_lights_brightness_level">atenua la lluminositat dels leds</string>
   <string name="notification_light_automagic">Tria els colors automàticament</string>
   <string name="notification_light_automagic_summary">S\'estan triant els colors automàticament</string>
@@ -196,13 +196,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Barra de navegació</string>
   <string name="navigation_bar_title">Botons i disposició</string>
-  <string name="navigation_bar_left_title">Mode esquerrà</string>
   <string name="navigation_bar_left_summary">Col·loca la barra de navegació al costat esquerre de la pantalla en el mode horitzontal</string>
   <string name="navigation_bar_arrow_keys_title">Mostra tecles de les fletxes mentre escrius</string>
   <string name="navigation_bar_arrow_keys_summary">Mostra els botons dels cursors esquerra i dreta mentre escrius. Això anul·la el commutador IME.</string>
   <string name="navigation_bar_home_long_press_title">Acció de pulsació llarga d\'Inici</string>
   <string name="navigation_bar_home_double_tap_title">Acció de doble pulsació d\'Inici</string>
-  <string name="navigation_bar_recents_title">Acció pulsació llarga de Recents</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menú d\'apagat</string>
   <string name="power_menu_reboot_title">Menú de reinici</string>
@@ -459,7 +457,9 @@
   <string name="expanded_desktop_style_hide_both">Amaga els dos</string>
   <string name="expanded_desktop_nothing_to_show_text">Apaga l\'interruptor per personalitzar el teu escriptori extès segons cada aplicació</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Activa</string>
   <string name="power_notifications_vibrate_title">Vibració</string>
   <string name="charging_sounds_ringtone_silent">Silenci</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

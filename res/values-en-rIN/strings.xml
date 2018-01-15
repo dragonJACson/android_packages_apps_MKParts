@@ -22,9 +22,11 @@
   <string name="dlg_ok">OK</string>
   <string name="cancel">Cancel</string>
   <string name="next">Next</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <!-- Notification light dialogs -->
+  <string name="custom_time">Customise</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
@@ -74,4 +76,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

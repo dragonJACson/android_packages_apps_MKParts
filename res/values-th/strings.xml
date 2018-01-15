@@ -19,15 +19,23 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">รีเซ็ต</string>
+  <string name="back">กลับ</string>
+  <string name="next">ถัดไป</string>
   <string name="on">เปิด</string>
+  <string name="yes">ใช่</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">ความช่วยเหลือ</string>
   <string name="privacy_guard_reset_title">รีเซ็ต</string>
   <string name="privacy_guard_manager_show_system_apps">แสดงแอประบบ</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">ปกติ</string>
+  <string name="custom_time">กำหนดเอง</string>
   <string name="dialog_delete_title">ลบ</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">ปกติ</string>
+  <string name="pulse_speed_normal">ปกติ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
@@ -77,6 +85,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
+  <string name="ring_mode_normal">ปกติ</string>
   <string name="ring_mode_vibrate">สั่น</string>
   <string name="ring_mode_mute">ปิดเสียง</string>
   <string name="media_volume_title">สื่อ</string>
@@ -85,6 +94,7 @@
   <string name="status_bar_double_tap_to_sleep_summary">แตะสองครั้งที่แถบสถานะเพื่อปิดหน้าจอ</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
+  <string name="status_bar_am_pm_normal">ปกติ</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_text">ข้อความ</string>
   <!-- Status bar - Battery percentage -->
@@ -107,4 +117,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">สั่น</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

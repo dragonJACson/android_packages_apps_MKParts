@@ -22,17 +22,20 @@
   <string name="add">Pridėti</string>
   <string name="reset">Nust. iš naujo</string>
   <string name="name">Pavadinimas: </string>
+  <string name="back">Atgal</string>
   <string name="next">Kitas</string>
   <string name="on">Įjungta</string>
   <string name="off">Išjungti</string>
   <string name="yes">Taip</string>
   <string name="no">Ne</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Pagalba</string>
   <string name="privacy_guard_reset_title">Nust. iš naujo</string>
   <string name="privacy_guard_manager_show_system_apps">Rodyti sistemos programas</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Tinkintas</string>
   <string name="dialog_delete_title">Ištrinti</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -117,4 +120,5 @@
   <string name="power_notifications_vibrate_title">Vibruoti</string>
   <string name="charging_sounds_ringtone_silent">Tylus</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

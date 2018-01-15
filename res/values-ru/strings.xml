@@ -37,6 +37,7 @@
   <string name="search">Поиск</string>
   <string name="disabled">Выключен</string>
   <string name="enabled">Включен</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Конфиденциальность</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Голосовая почта</string>
   <string name="notification_light_screen_on">Индикатор при включенном экране</string>
   <string name="notification_light_zen_mode">Индикатор в режиме «Не беспокоить»</string>
-  <string name="notification_light_use_multiple_leds">Несколько светодиодов</string>
   <string name="keywords_lights_brightness_level">уменьшить яркость</string>
   <string name="notification_light_automagic">Подбирать цвета автоматически</string>
   <string name="notification_light_automagic_summary">Выбор цвета согласно цвету значка приложения</string>
@@ -213,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Панель навигации</string>
   <string name="navigation_bar_title">Кнопки и их расположение</string>
-  <string name="navigation_bar_left_title">Режим левши</string>
   <string name="navigation_bar_left_summary">Отображать панель навигации слева в альбомной ориентации экрана</string>
   <string name="navigation_bar_arrow_keys_title">Показать стрелки при вводе текста</string>
   <string name="navigation_bar_arrow_keys_summary">Отображать кнопки перемещения курсора влево или вправо при вводе текста. Кнопка выбора метода ввода отображаться не будет.</string>
   <string name="navigation_bar_home_long_press_title">Долгое нажатие кнопки «Домой»</string>
   <string name="navigation_bar_home_double_tap_title">Двойное нажатие кнопки «Домой»</string>
-  <string name="navigation_bar_recents_title">Долгое нажатие кнопки «Обзор»</string>
   <!-- Power menu -->
   <string name="power_menu_title">Меню кнопки питания</string>
   <string name="power_menu_reboot_title">Меню перезагрузки</string>
@@ -251,7 +249,7 @@
   <string name="profile_action_enable">Включить</string>
   <string name="profile_trigger_a2dp_connect">При подключении A2DP</string>
   <string name="profile_trigger_a2dp_disconnect">При отключении A2DP</string>
-  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
+  <string name="profile_tabs_wifi">Wi-Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Условия активации этого профиля</string>
@@ -310,7 +308,7 @@
   <!-- Profile network mode -->
   <string name="profile_networkmode_2g">2G</string>
   <string name="profile_networkmode_3g">3G</string>
-  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_4g">Только LTE</string>
   <string name="profile_networkmode_2g3g">2G / 3G</string>
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
@@ -359,7 +357,7 @@
   <string name="profile_brightness_override_summary">Установить на уровень %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Изменять яркость</string>
   <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleWifi">Wi\u2011Fi</string>
+  <string name="toggleWifi">Wi-Fi</string>
   <string name="toggleWifiAp">Точка доступа Wi-Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS-модуль</string>
@@ -530,6 +528,12 @@
   <string name="touchscreen_gesture_letter_v_title">Нарисуйте букву «V»</string>
   <string name="touchscreen_gesture_letter_w_title">Нарисуйте букву «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Нарисуйте букву «Z»</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Свайп вверх с помощью стилуса</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Свайп вниз с помощью стилуса</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Провести влево стилусом</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Провести вправо стилусом</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Долгое нажатие стилусом</string>
   <string name="touchscreen_gesture_action_dialog_title">Действие жеста</string>
   <string name="touchscreen_gesture_action_do_nothing">Ничего не делать</string>
   <string name="touchscreen_gesture_action_flashlight">Включить или выключить фонарик</string>
@@ -541,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Воспроизведение музыки</string>
   <string name="touchscreen_gesture_action_previous_track">Перейти к предыдущему треку</string>
   <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
+  <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость мультимедиа</string>
+  <string name="touchscreen_gesture_action_volume_up">Увеличить громкость мультимедиа</string>
 </resources>

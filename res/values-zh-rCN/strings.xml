@@ -37,6 +37,7 @@
   <string name="search">搜索</string>
   <string name="disabled">已禁用</string>
   <string name="enabled">已启用</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">隐私</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">语音邮件</string>
   <string name="notification_light_screen_on">屏幕开启时点亮指示灯</string>
   <string name="notification_light_zen_mode">勿扰模式下的指示灯</string>
-  <string name="notification_light_use_multiple_leds">多 LED</string>
   <string name="keywords_lights_brightness_level">降低 LED 亮度</string>
   <string name="notification_light_automagic">自动选择颜色</string>
   <string name="notification_light_automagic_summary">正在自动选择颜色</string>
@@ -213,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">导航栏</string>
   <string name="navigation_bar_title">按键与布局</string>
-  <string name="navigation_bar_left_title">左利手模式</string>
   <string name="navigation_bar_left_summary">横屏时在屏幕左侧显示导航栏</string>
   <string name="navigation_bar_arrow_keys_title">键入时显示方向键</string>
   <string name="navigation_bar_arrow_keys_summary">键入时显示左右光标按钮而不显示输入法选择器。</string>
   <string name="navigation_bar_home_long_press_title">Home 键的长按操作</string>
   <string name="navigation_bar_home_double_tap_title">Home 键双击行为</string>
-  <string name="navigation_bar_recents_title">最近应用键的长按操作</string>
   <!-- Power menu -->
   <string name="power_menu_title">电源菜单</string>
   <string name="power_menu_reboot_title">重启菜单</string>
@@ -530,6 +528,12 @@
   <string name="touchscreen_gesture_letter_v_title">绘制字母 “V”</string>
   <string name="touchscreen_gesture_letter_w_title">绘制字母 “W”</string>
   <string name="touchscreen_gesture_letter_z_title">绘制字母 “Z”</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">用手写笔向上滑动</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">用手写笔向下滑动</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">用手写笔向左滑动</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">使用手写笔向右滑动</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">用手写笔进行长时间的按压</string>
   <string name="touchscreen_gesture_action_dialog_title">手势操作</string>
   <string name="touchscreen_gesture_action_do_nothing">无操作</string>
   <string name="touchscreen_gesture_action_flashlight">切换手电筒</string>
@@ -541,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">播放/暂停音乐</string>
   <string name="touchscreen_gesture_action_previous_track">切换到前一曲目</string>
   <string name="touchscreen_gesture_action_next_track">切换到下一曲目</string>
+  <string name="touchscreen_gesture_action_volume_down">降低媒体音量</string>
+  <string name="touchscreen_gesture_action_volume_up">提高媒体音量</string>
 </resources>

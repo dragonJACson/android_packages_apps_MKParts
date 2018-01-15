@@ -37,6 +37,7 @@
   <string name="search">Szukaj</string>
   <string name="disabled">Wyłączone</string>
   <string name="enabled">Włączone</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Prywatność</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Poczta głosowa</string>
   <string name="notification_light_screen_on">Dioda LED przy włączonym ekranie</string>
   <string name="notification_light_zen_mode">Dioda LED w trybie \"Nie przeszkadzać\"</string>
-  <string name="notification_light_use_multiple_leds">Kilka diod LED</string>
   <string name="keywords_lights_brightness_level">Jasność diody LED</string>
   <string name="notification_light_automagic">Wybierz kolory automatycznie</string>
   <string name="notification_light_automagic_summary">Wybieranie kolorów automatycznie</string>
@@ -137,6 +137,9 @@
   <string name="live_display_color_profile_reading_title">Czytanie</string>
   <string name="live_display_color_profile_reading_summary">Cieplejsze kolory, aby ograniczyć zmęczenie oczu</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Kolory dokładne z przestrzenią kolorów sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Kolory dokładne z przestrzenią DCI-P3</string>
   <string name="color_calibration_title">Kalibracja kolorów</string>
   <string name="color_calibration_summary">Kalibruje wyświetlane kolory</string>
   <string name="color_red_title">Czerwony</string>
@@ -210,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Pasek nawigacji</string>
   <string name="navigation_bar_title">Przyciski i ich układ</string>
-  <string name="navigation_bar_left_title">Tryb leworęczny</string>
   <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacji po lewej stronie ekranu</string>
   <string name="navigation_bar_arrow_keys_title">Pokaż klawisze strzałek podczas pisania</string>
   <string name="navigation_bar_arrow_keys_summary">Pokaż przyciski lewego i prawego kursora podczas pisania. Zastępuje przełącznik IME.</string>
   <string name="navigation_bar_home_long_press_title">Działanie \"Home\" po przytrzymaniu</string>
   <string name="navigation_bar_home_double_tap_title">Działanie \"Home\" po podwójnym puknięciu</string>
-  <string name="navigation_bar_recents_title">Działanie \"Ostatnio używanych\" po przytrzymaniu</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu zasilania</string>
   <string name="power_menu_reboot_title">Menu ponownego uruchomienia</string>
@@ -422,6 +423,7 @@
   <string name="status_bar_brightness_slider_title">Pasek jasności</string>
   <string name="status_bar_brightness_slider_summary">Dostosuj jasność z Szybkich Ustawień</string>
   <string name="status_bar_brightness_slider_auto_title">Automatyczna jasność</string>
+  <string name="status_bar_brightness_slider_auto_summary">Pokaż przełącznik dla automatycznej jasności obok slider\'a</string>
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
   <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <!-- Status bar - icon blacklist -->
@@ -526,6 +528,12 @@
   <string name="touchscreen_gesture_letter_v_title">Narysuj literę \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Narysuj literę \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Narysuj literę \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Przesuń rysikiem w górę</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Przesuń rysikiem w dół</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Przesuń rysikiem w lewo</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Przesuń rysikiem w prawo</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Długie przytrzymanie rysika</string>
   <string name="touchscreen_gesture_action_dialog_title">Gest akcji</string>
   <string name="touchscreen_gesture_action_do_nothing">Nic nie rób</string>
   <string name="touchscreen_gesture_action_flashlight">Przełącznik latarki</string>
@@ -537,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Rozpoczęcie/wstrzymanie odtwarzania muzyki</string>
   <string name="touchscreen_gesture_action_previous_track">Przejdź do poprzedniego utworu muzycznego</string>
   <string name="touchscreen_gesture_action_next_track">Przejdź do następnego utworu muzycznego</string>
+  <string name="touchscreen_gesture_action_volume_down">Mniejsza głośność multimediów</string>
+  <string name="touchscreen_gesture_action_volume_up">Większa głośność multimediów</string>
 </resources>

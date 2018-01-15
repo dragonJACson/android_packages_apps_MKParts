@@ -36,6 +36,7 @@
   <string name="search">Pretraži</string>
   <string name="disabled">Onemogućeno</string>
   <string name="enabled">Omogućeno</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privatnost</string>
   <!-- Privacy Guard -->
@@ -94,7 +95,6 @@
   <string name="notification_light_voicemail_title">Govorna pošta</string>
   <string name="notification_light_screen_on">Svjetla s uključenim zaslonom</string>
   <string name="notification_light_zen_mode">Svjetla u načinu Ne ometaj</string>
-  <string name="notification_light_use_multiple_leds">Više LED svjetala</string>
   <string name="keywords_lights_brightness_level">zatamljivanje osvjetljenja LED-a</string>
   <string name="notification_light_automagic">Automatski odaberi boje</string>
   <string name="notification_light_automagic_summary">Automatski odaberi boje</string>
@@ -203,13 +203,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Navigacijska traka</string>
   <string name="navigation_bar_title">Tipke i izgled</string>
-  <string name="navigation_bar_left_title">Način rada za ljevake</string>
   <string name="navigation_bar_left_summary">Postavlja navigacijsku traku na lijevu stranu zaslona u vodoravnom načinu rada</string>
   <string name="navigation_bar_arrow_keys_title">Prikaži strelice tijekom upisivanja</string>
   <string name="navigation_bar_arrow_keys_summary">Prikazuje lijeve i desne kursorske tipke tijekom unosa teksta. Zamjenjuje tipku za promjenu tipkovnice.</string>
   <string name="navigation_bar_home_long_press_title">Akcija dugog dodira Home tipke</string>
   <string name="navigation_bar_home_double_tap_title">Dvostruki dodir</string>
-  <string name="navigation_bar_recents_title">Nedavne akcije dugog dodira</string>
   <!-- Power menu -->
   <string name="power_menu_title">Izbornik napajanja</string>
   <string name="power_menu_reboot_title">Izbornik Ponovnog pokretanja</string>
@@ -473,4 +471,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibracija</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

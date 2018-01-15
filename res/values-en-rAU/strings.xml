@@ -26,10 +26,12 @@
   <string name="yes">Yes</string>
   <string name="no">No</string>
   <string name="disabled">Disabled</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Privacy</string>
   <!-- Privacy Guard -->
   <!-- Notification light dialogs -->
+  <string name="custom_time">Customise</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
@@ -89,4 +91,5 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">Silent</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

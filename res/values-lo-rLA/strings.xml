@@ -19,12 +19,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">ຄືນຄ່າ</string>
+  <string name="back">ກັບ</string>
   <string name="on">ເປີດ</string>
+  <string name="yes">ຕົກລົງ</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">ຊ່ວຍເຫຼືອ</string>
   <string name="privacy_guard_reset_title">ຄືນຄ່າ</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">ກຳນົດເອງ</string>
   <string name="dialog_delete_title">ລຶບ</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -89,4 +93,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

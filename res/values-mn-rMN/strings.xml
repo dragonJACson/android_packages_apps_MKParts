@@ -19,12 +19,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="reset">Бүгдийг цэвэрлэх</string>
+  <string name="back">Буцах</string>
   <string name="on">Идэвхтэй</string>
+  <string name="yes">Тийм</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Тусламж</string>
   <string name="privacy_guard_reset_title">Бүгдийг цэвэрлэх</string>
   <!-- Notification light dialogs -->
+  <string name="custom_time">Тусгай</string>
   <string name="dialog_delete_title">Устгах</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Battery light settings -->
@@ -89,4 +93,5 @@
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>

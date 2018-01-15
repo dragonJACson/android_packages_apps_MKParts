@@ -37,6 +37,7 @@
   <string name="search">Пошук</string>
   <string name="disabled">Не задзейнічана</string>
   <string name="enabled">Уключана</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Прыватнасць</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Галасавая пошта</string>
   <string name="notification_light_screen_on">Індыкатар пры ўключаным экране</string>
   <string name="notification_light_zen_mode">Індыкатар ў рэжыме «Не турбаваць»</string>
-  <string name="notification_light_use_multiple_leds">Некалькі светадыёдаў</string>
   <string name="keywords_lights_brightness_level">паменшыць яркасць</string>
   <string name="notification_light_automagic">Падбіраць колеру аўтаматычна</string>
   <string name="notification_light_automagic_summary">Выбар колеру аўтаматычна</string>
@@ -213,13 +213,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Навігацыйны радок</string>
   <string name="navigation_bar_title">Кнопкі і іх месцазнаходжанне</string>
-  <string name="navigation_bar_left_title">Ляўшун</string>
   <string name="navigation_bar_left_summary">Адлюстроўваць навігацыйны радок злева ў альбомнай арыентацыі</string>
   <string name="navigation_bar_arrow_keys_title">Паказваць стрэлкі падчас друкавання тэксту</string>
   <string name="navigation_bar_arrow_keys_summary">Паказваць кнопки левага и правага курсору падчас друкавання. Кнопка варыянту друкавання будзе схована.</string>
   <string name="navigation_bar_home_long_press_title">Доўгае утрыманне кнопкі \"Хатоўка\"</string>
   <string name="navigation_bar_home_double_tap_title">Падвойнае крананне кнопкі \"Хатоўка\"</string>
-  <string name="navigation_bar_recents_title">Доўгае утрыманне кнопкі Агляд</string>
   <!-- Power menu -->
   <string name="power_menu_title">Дзеянні пры ўтрыманні кнопкі выключэння</string>
   <string name="power_menu_reboot_title">Перазапусціць</string>
@@ -530,6 +528,7 @@
   <string name="touchscreen_gesture_letter_v_title">Намалюйце літару \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Намалюйце літару \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Намалюйце літару \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Жэсты</string>
   <string name="touchscreen_gesture_action_do_nothing">Нічога не рабіць</string>
   <string name="touchscreen_gesture_action_flashlight">Уключыць або выключыць ліхтарык</string>

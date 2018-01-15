@@ -37,6 +37,7 @@
   <string name="search">Etsi</string>
   <string name="disabled">Pois käytöstä</string>
   <string name="enabled">Käytössä</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Tietosuoja</string>
   <!-- Privacy Guard -->
@@ -95,7 +96,6 @@
   <string name="notification_light_voicemail_title">Vastaaja</string>
   <string name="notification_light_screen_on">Valot näytön ollessa päällä</string>
   <string name="notification_light_zen_mode">Valot Älä häiritse-tilassa</string>
-  <string name="notification_light_use_multiple_leds">Useampi LED</string>
   <string name="keywords_lights_brightness_level">Himmennä LED: n kirkkautta</string>
   <string name="notification_light_automagic">Valitse värit automaattisesti</string>
   <string name="notification_light_automagic_summary">Valitaan värit automaattisesti</string>
@@ -211,13 +211,11 @@
   <!-- Navigation Bar -->
   <string name="navigation_bar_category">Navigointipalkki</string>
   <string name="navigation_bar_title">Näppäimet ja sijainti</string>
-  <string name="navigation_bar_left_title">Käytä vasemmalla kädellä</string>
   <string name="navigation_bar_left_summary">Siirtää navigointipalkin näytön vasempaan reunaan vaaka-asennossa</string>
   <string name="navigation_bar_arrow_keys_title">Näytä nuolinäppäimet kirjottaessa</string>
   <string name="navigation_bar_arrow_keys_summary">Näytä vasen ja oikea nuolinäppäin kirjoittaessa. Ohittaa syöttötavan valinnan.</string>
   <string name="navigation_bar_home_long_press_title">Kotinäppäimen pitkän painalluksen tehtävä</string>
   <string name="navigation_bar_home_double_tap_title">Kotinäppäimen kaksoisnapautuksen tehtävä</string>
-  <string name="navigation_bar_recents_title">Viimeisimmät-painikkeen pitkän painalluksen tehtävä</string>
   <!-- Power menu -->
   <string name="power_menu_title">Käynnistysvalikko</string>
   <string name="power_menu_reboot_title">Uudelleenkäynnistysvalikko</string>
@@ -523,6 +521,7 @@
   <string name="touchscreen_gesture_letter_v_title">Piirrä \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Piirrä \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Piirrä \"Z\"</string>
+  <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_action_dialog_title">Eleen toiminto</string>
   <string name="touchscreen_gesture_action_do_nothing">Ei tee mitään</string>
   <string name="touchscreen_gesture_action_flashlight">Käynnistä taskulamppu</string>

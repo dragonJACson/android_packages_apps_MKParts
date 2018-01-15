@@ -20,9 +20,11 @@
   <!-- Generic stuff used everywhere -->
   <string name="add">Amestar</string>
   <string name="name">Nome:</string>
+  <string name="back">Trasera</string>
   <string name="next">Siguiente</string>
   <string name="yes">Sí</string>
   <string name="no">Non</string>
+  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_show_system_apps">Amuesa les app del sistema</string>
@@ -63,6 +65,7 @@
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">Habilitar</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
@@ -101,6 +104,8 @@
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">Habilitar</string>
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Gestures: Touchscreen gestures -->
+  <!-- Gesture: Stylus gestures -->
 </resources>
