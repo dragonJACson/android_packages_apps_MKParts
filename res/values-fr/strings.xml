@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">Répondre aux appels entrants en appuyant sur les boutons de volume</string>
   <string name="home_answer_call_title">Répondre à l\'appel</string>
   <string name="home_answer_call_summary">Répondre aux appels entrants en appuyant sur le bouton home</string>
+  <string name="extras_title">Extras</string>
+  <string name="additional_buttons_title">Boutons additionnels</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Rétro-éclairage</string>
   <string name="button_backlight_enabled">Rétroéclairage des boutons</string>

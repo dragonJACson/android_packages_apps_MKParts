@@ -17,9 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">Nga setting ng MoKee</string>
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height_0">itago</string>
   <!-- Show network speed -->
+  <string name="show_network_speed_title">Bilis ng network</string>
   <string name="show_network_speed_summary">Ipakita ang bilis ng network sa status bar</string>
+  <string name="status_bar_network_traffic_style_disable">Naka-disable</string>
+  <string name="status_bar_network_traffic_style_up">Papalabas</string>
+  <string name="status_bar_network_traffic_style_down">Papasok</string>
+  <string name="status_bar_network_traffic_style_all">Papalabas at papasok</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Pindutin ng matagal ang pindutan para sa torch</string>
   <string name="torch_long_press_power_gesture_desc">I-activate ang torch sa pamamagitan ng pagpindut ng matagal habang naka-off ang display</string>
 </resources>

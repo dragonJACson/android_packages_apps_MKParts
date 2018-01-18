@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">Ses düğmelerine basarak gelen aramaları cevapla</string>
   <string name="home_answer_call_title">Çağrıyı cevapla</string>
   <string name="home_answer_call_summary">Ev tuşuna basarak gelen aramaları cevapla</string>
+  <string name="extras_title">Ekstralar</string>
+  <string name="additional_buttons_title">Ek Tuşlar</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Arka Aydınlatma</string>
   <string name="button_backlight_enabled">Tuşları aydınlat</string>

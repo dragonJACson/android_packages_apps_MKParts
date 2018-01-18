@@ -35,7 +35,7 @@
   <string name="yes">Áno</string>
   <string name="no">Nie</string>
   <string name="search">Vyhľadať</string>
-  <string name="disabled">Zakázané</string>
+  <string name="disabled">Vypnuté</string>
   <string name="enabled">Povolené</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
@@ -184,7 +184,7 @@
   <string name="volbtn_music_controls_title">Ovládanie prehrávania</string>
   <string name="volbtn_music_controls_summary">Dlhé stlačenie tlačidiel hlasitosti počas vypnutej obrazovky prepne hudobné stopy</string>
   <string name="volbtn_cursor_control_title">Kontrola kurzoru tlačidlami hlasitosti</string>
-  <string name="volbtn_cursor_control_off">Zakázané</string>
+  <string name="volbtn_cursor_control_off">Vypnuté</string>
   <string name="volbtn_cursor_control_on">Tlačidlá hlasitosti posunú kurzor vľavo/vpravo</string>
   <string name="volbtn_cursor_control_on_reverse">Tlačidlá hlasitosti posunú kurzor vpravo/vľavo</string>
   <string name="power_end_call_title">Ukončiť hovor</string>
@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">Prijať prichádzajúci hovor stlačením niektorého z tlačidiel hlasitosti</string>
   <string name="home_answer_call_title">Prijať hovor</string>
   <string name="home_answer_call_summary">Prijať prichádzajúci hovor stlačením tlačidla Domov</string>
+  <string name="extras_title">Doplnky</string>
+  <string name="additional_buttons_title">Ďalšie tlačidlá</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Podsvietenie</string>
   <string name="button_backlight_enabled">Podsvietenie tlačidiel</string>

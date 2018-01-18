@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">按音量鍵接聽來電</string>
   <string name="home_answer_call_title">接聽電話</string>
   <string name="home_answer_call_summary">按主畫面鍵接聽來電</string>
+  <string name="extras_title">附加選項</string>
+  <string name="additional_buttons_title">更多按鍵</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">背光</string>
   <string name="button_backlight_enabled">開啟按鍵背光</string>

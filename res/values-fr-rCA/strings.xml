@@ -196,6 +196,8 @@
   <string name="volume_answer_call_summary">Répondre aux appels entrants en appuyant sur les boutons de volume</string>
   <string name="home_answer_call_title">Répondre à l\'appel</string>
   <string name="home_answer_call_summary">Répondre aux appels entrants en appuyant sur le bouton home</string>
+  <string name="extras_title">Extras</string>
+  <string name="additional_buttons_title">Boutons additionnels</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Contre-jour</string>
   <string name="button_backlight_enabled">Rétroéclairage des boutons</string>
@@ -220,9 +222,9 @@
   <string name="navigation_bar_home_double_tap_title">Appui double sur bouton d\'accueil</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu marche/arrêt</string>
-  <string name="power_menu_reboot_title">Menu redémarrer</string>
+  <string name="power_menu_reboot_title">Menu de redémarrage</string>
   <string name="power_menu_screenshot_title">Capture d\'écran</string>
-  <string name="power_menu_airplane_title">Mode Avion</string>
+  <string name="power_menu_airplane_title">Mode avion</string>
   <string name="power_menu_users_title">Changer d\'utilisateur</string>
   <string name="power_menu_settings_title">Raccourci vers les paramètres</string>
   <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
@@ -352,7 +354,7 @@
   <string name="profile_lockmode_policy_disabled_summary">Ce profil a été désactivé par une politique de gestion des périphériques</string>
   <string name="profile_lockmode_insecure_summary">Ne pas demander le code PIN ou le mot de passe</string>
   <string name="profile_lockmode_disabled_summary">Désactiver l\'écran de verrouillage</string>
-  <string name="profile_airplanemode_title">Mode Avion</string>
+  <string name="profile_airplanemode_title">Mode avion</string>
   <string name="profile_brightness_title">Luminosité de l\'écran</string>
   <string name="profile_brightness_override_summary">Définir à %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Modifier la luminosité</string>
@@ -534,7 +536,7 @@
   <string name="touchscreen_gesture_swipe_left_stylus_title">Glissez vers la gauche avec le stylet</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Glissez vers la droite avec le stylet</string>
   <string name="touchscreen_gesture_long_press_stylus_title">Appuis long avec le stylet</string>
-  <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
+  <string name="touchscreen_gesture_action_dialog_title">Commandes gestuelle</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>
   <string name="touchscreen_gesture_action_camera">Ouvrir l\'appareil photo</string>

@@ -196,6 +196,7 @@
   <string name="volume_answer_call_summary">按音量键接听来电</string>
   <string name="home_answer_call_title">接听电话</string>
   <string name="home_answer_call_summary">按 Home 键接听来电</string>
+  <string name="extras_title">扩展组件</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">背光</string>
   <string name="button_backlight_enabled">点亮按键</string>

@@ -380,23 +380,23 @@
   <!-- Status bar -->
   <string name="status_bar_title">Строка состояния</string>
   <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s край строки состояния вытягивает быстрые настройки</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Левый</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Правый</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s строки состояния вытягивает быстрые настройки</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Левый край</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Правый край</string>
   <string name="status_bar_quick_qs_pulldown_off">Выключено</string>
-  <string name="status_bar_quick_qs_pulldown_left">Левый</string>
-  <string name="status_bar_quick_qs_pulldown_right">Правый</string>
+  <string name="status_bar_quick_qs_pulldown_left">Левый край</string>
+  <string name="status_bar_quick_qs_pulldown_right">Правый край</string>
   <string name="status_bar_double_tap_to_sleep_title">Выключать экран при двойном нажатии</string>
   <string name="status_bar_double_tap_to_sleep_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Значки в строке состояния</string>
   <string name="status_bar_notif_count_title">Счетчик уведомлений</string>
-  <string name="status_bar_notif_count_summary">Показывать число новых уведомлений в строке состояния</string>
+  <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
   <string name="status_bar_system_icons_title">Системные значки</string>
   <string name="status_bar_system_icons_summary">Настройка видимости значков</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Часы</string>
-  <string name="status_bar_clock_position_title">Часы</string>
+  <string name="status_bar_clock_position_title">Расположение часов</string>
   <string name="status_bar_clock_position_right">Справа</string>
   <string name="status_bar_clock_position_left">Слева</string>
   <string name="status_bar_clock_position_center">По центру</string>
