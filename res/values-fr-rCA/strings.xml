@@ -222,9 +222,9 @@
   <string name="navigation_bar_recents_title">Appui long sur applications récentes</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu marche/arrêt</string>
-  <string name="power_menu_reboot_title">Menu redémarrer</string>
+  <string name="power_menu_reboot_title">Menu de redémarrage</string>
   <string name="power_menu_screenshot_title">Capture d\'écran</string>
-  <string name="power_menu_airplane_title">Mode Avion</string>
+  <string name="power_menu_airplane_title">Mode avion</string>
   <string name="power_menu_users_title">Changer d\'utilisateur</string>
   <string name="power_menu_settings_title">Raccourci vers les paramètres</string>
   <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
@@ -354,7 +354,7 @@
   <string name="profile_lockmode_policy_disabled_summary">Ce profil a été désactivé par une politique de gestion des périphériques</string>
   <string name="profile_lockmode_insecure_summary">Ne pas demander le code PIN ou le mot de passe</string>
   <string name="profile_lockmode_disabled_summary">Désactiver l\'écran de verrouillage</string>
-  <string name="profile_airplanemode_title">Mode Avion</string>
+  <string name="profile_airplanemode_title">Mode avion</string>
   <string name="profile_brightness_title">Luminosité de l\'écran</string>
   <string name="profile_brightness_override_summary">Définir à %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Modifier la luminosité</string>
@@ -536,12 +536,12 @@
   <string name="touchscreen_gesture_swipe_left_stylus_title">Glissez vers la gauche avec le stylet</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Glissez vers la droite avec le stylet</string>
   <string name="touchscreen_gesture_long_press_stylus_title">Appuis long avec le stylet</string>
-  <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
+  <string name="touchscreen_gesture_action_dialog_title">Commandes gestuelle</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>
-  <string name="touchscreen_gesture_action_camera">Ouvrir l\'appareil photo</string>
+  <string name="touchscreen_gesture_action_camera">Lancer l’appareil photo</string>
   <string name="touchscreen_gesture_action_browser">Ouvrir le navigateur</string>
-  <string name="touchscreen_gesture_action_dialer">Ouvrir le pavé numérique</string>
+  <string name="touchscreen_gesture_action_dialer">Ouvrir le numéroteur</string>
   <string name="touchscreen_gesture_action_email">Consulter vos courriels</string>
   <string name="touchscreen_gesture_action_messages">Consulter vos messages</string>
   <string name="touchscreen_gesture_action_play_pause_music">Lecture/pause de la musique</string>

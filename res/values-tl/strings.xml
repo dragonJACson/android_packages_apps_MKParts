@@ -21,23 +21,38 @@
   <string name="loading">Naglo-load \ u2026</string>
   <string name="dlg_ok">OK</string>
   <string name="cancel">Kanselahin</string>
+  <string name="add">Magdagdag</string>
+  <string name="choose_app">Pumili ng app</string>
   <string name="reset">I-reset</string>
+  <string name="advanced">Advanced</string>
   <string name="settings">Mga setting</string>
+  <string name="name">Pangalan</string>
   <string name="back">Bumalik</string>
+  <string name="finish">Tapusin</string>
   <string name="next">Susunod</string>
   <string name="on">Naka-on</string>
   <string name="off">I-off</string>
   <string name="yes">Oo</string>
+  <string name="no">Hindi</string>
   <string name="search">Hanapin</string>
+  <string name="disabled">Naka-disable</string>
+  <string name="enabled">Naka-enable</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_switch_label">Paganahin ang Privacy Guard</string>
   <string name="privacy_guard_dlg_title">Paganahin ang Privacy Guard?</string>
   <string name="privacy_guard_dlg_text">Kapag gumagana ang Privacy Guard, ang app ay hindi makaka-access sa personal data kagaya ng mga kontak, mga tala ng mga mensahe o tawag.</string>
   <string name="privacy_guard_dlg_system_app_text">Sa pagpapagana ng Privacy Guard para sa built-in na app, ang app ay hindi makaka-access o makakapagbigay ng personal data. Ito ay maaaring magdulot sa pagloloko ng ibang mga app.</string>
+  <string name="privacy_guard_default_summary_on">Naka-enable ang Privacy Guard</string>
+  <string name="privacy_guard_default_summary">Paganahin sa pamamagitan ng default para sa bagong na-install na mga app</string>
+  <string name="privacy_guard_manager_summary">I-manage kung anong mga app ang may access sa iyong personal na data</string>
   <string name="privacy_guard_no_user_apps">Walang mga app ang naka-install</string>
   <string name="privacy_guard_help_title">Tulong</string>
   <string name="privacy_guard_reset_title">I-reset</string>
+  <string name="privacy_guard_reset_text">I-reset ang mga pahintulot?</string>
+  <string name="privacy_guard_help_text">Sa screen na ito maari kang pumili kung aling mga app Privacy Guard dapat maging aktibo sa pamamgitan ng pag-tap ng mga ito. Napiling mga app ay hindi maaring ma-access ang iyong personal na datos tulad ng mga contacts. mga mensahe o mga tala ng log. Matagal na pagpindot sa unang pagpasok sa app sa kanyang detalyadong screen.\n\nBuilt-in na mga app ay hindi makikita sa default pero makikita ito sa pamamagitan ng pagpili ng respective menu na opsyon.</string>
+  <string name="privacy_guard_manager_show_system_apps">Ipakita ang built-in na mga app</string>
+  <string name="privacy_guard_advanced_settings_title">Advanced</string>
   <!-- Notification light dialogs -->
   <string name="dialog_delete_title">Tanggalin</string>
   <!-- Values for the notification light pulse spinners -->
@@ -54,18 +69,30 @@
   <string name="pulse_speed_very_slow">Napakabagal</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_advanced_title">Advanced</string>
   <string name="notification_light_phonelist_title">Telepono</string>
   <string name="notification_light_default_value">Pangunahin</string>
+  <string name="notification_light_automagic">Awtomatikong pumili ng mga kulay</string>
+  <string name="notification_light_automagic_summary">Awtomatikong pumipili ng mga kulay</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_summary">I-optimize ang iyong screen batay sa panahon ng araw at ambient na kondisyon upang mapabuti itong basahin at mabawasan ang pananakit ng mata</string>
   <string name="live_display_day">Araw</string>
   <string name="live_display_night">Gabi</string>
+  <string name="live_display_outdoor_mode_summary">Pagdagdag ng liwanag at pagbabad ay awtomatikong sa ilalim ng liwanag sa sikat ng araw</string>
+  <string name="live_display_low_power_summary">Ayusin ang diplay para sa pinakamababang konsumo ng power na walang mawawala na kalagayan</string>
   <string name="color_red_title">Pula</string>
   <string name="color_green_title">Berde</string>
   <string name="color_blue_title">Asul</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Button ng menu</string>
+  <string name="camera_sleep_on_release_summary">Ang isang kalahating pindut ay magpapanatili sa iskren na naka-on habang ang pindutan ay pinanghahawakan</string>
+  <string name="camera_launch_summary">Ang mahabang pagpindut at pagbitiw ay maglulunsad sa kamera</string>
+  <string name="volbtn_music_controls_summary">Maghanap ng mga track ng musika sa pamamagitan ng mahabang pagpindot sa mga key ng volyum habang ang display ay naka-off</string>
+  <string name="volbtn_cursor_control_off">Hindi pinagana</string>
+  <string name="power_end_call_summary">Tapusin ang kasalukuyang tawag sa pamamagitan ng pagpindot ng power na button</string>
+  <string name="swap_volume_buttons_summary">Pagpalitin ang mga button ng volyum kapag ang iskren ay nakaikot</string>
   <string name="button_wake_title">Gisingin ang device</string>
   <string name="volume_answer_call_title">Sagutin ang tawag</string>
   <string name="volume_answer_call_summary">Sagutin ang mga papasok na tawag sa pamamagitan ng pag-pindut sa volume na mga pindutan</string>
@@ -73,10 +100,15 @@
   <string name="home_answer_call_summary">Sagutin ang mga papasok na tawag sa pamamagitan ng pag-pindut ng home na pindutan</string>
   <!-- Key backlight -->
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_summary">Paganahin ang on-screen navigation bar at huwag paganihin ang mga button ng hardweyr</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_left_summary">Ilagay ang navigation bar sa kaliwang bahagi ng iskren sa moda na landscape</string>
+  <string name="navigation_bar_arrow_keys_summary">Ipakita ang kaliwa at kanang mga button ng kursor habang nagta-type. Pinapalitan ang IME switcher.</string>
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">Mga screenhot</string>
+  <string name="power_menu_bug_report_disabled">Ang pag-uulat ng bug ay hindi pinagana sa mga setting ng development</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">Mabilis na buksan ang kamera nang walang unlocking sa iyong screen</string>
   <string name="torch_long_press_power_timeout_never">Hindi kailanman</string>
   <string name="torch_long_press_power_timeout_1min">1 minuto</string>
   <string name="torch_long_press_power_timeout_2min">2 minuto</string>
@@ -85,8 +117,12 @@
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Tanggalin</string>
   <!-- Profile triggers -->
+  <string name="profile_setup_setup_triggers_description">Pakipili ng mga trigger na mag activate sa profile na ito</string>
+  <string name="profile_setup_actions_description">Ngayon i-configure kung ano ang mangyayari kapag na-activate ang profile</string>
   <!-- Profiles settings  -->
+  <string name="profiles_add">Magdagdag</string>
   <string name="profile_menu_delete">Tanggalin</string>
+  <string name="profile_empty_list_profiles_off">Para i-configure at gumamit ng mga profile ng sistema, i-on ang profile.</string>
   <string name="profile_selected">Napiling profile: %1$s</string>
   <string name="profile_nfc_text">Ang pagsulat ng isang profile sa isang NFC na tag ay nagpapahintulot sa pag-tap sa tag upang pumili ng profile. Ang pag-tap sa pangalawang pagkakataon ay pipili sa dating napili na profile.</string>
   <string name="profile_unknown_nfc_tag">Hindi kilala na profile</string>
@@ -96,6 +132,7 @@
   <string name="profile_populate_profile_from_state">I-configure ang profile gamit ang kasalukuyan na mga device setting?</string>
   <string name="profile_remove_current_profile">Hindi mabura ang kasalukuyang profile!</string>
   <string name="profile_app_group_item_instructions">Magdagdag o magtanggal ng mga grupo</string>
+  <string name="profile_app_group_item_instructions_summary">Magdagdag o mag-alis ng mga pangkat na nag-o-override ng notipikasyon sa profile na ito</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Naka-on</string>
   <string name="profile_entries_off">I-off</string>
@@ -107,15 +144,21 @@
   <string name="rename_dialog_hint">Gumawa ng pangalan ng profile</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">I-reset</string>
+  <string name="profile_reset_message">Tanggalin ang lahat ng mga profile na nai-likha at mga pangkat ng app at ibalik ang mga ito sa default?</string>
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Tanggalin ang app na ito?</string>
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="connection_state_enabled">I-enable</string>
   <!-- Menu item for managing profiles -->
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
+  <string name="choose_soundtone">Pumili ng notification tone</string>
+  <string name="choose_ringtone">Pumili ng rigntone</string>
+  <string name="ringtone_title">Ringtone ng telepono</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
+  <string name="profile_applist_title">Mga app</string>
   <string name="profile_new_appgroup">Bagong app group</string>
   <string name="profile_delete_appgroup">Burahin ang app group na ito?</string>
   <string name="profile_appgroup_name_prompt">Gumawa ng pangalan para sa bagong app group</string>
@@ -123,17 +166,22 @@
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Pumili ng app</string>
   <!-- Profiles - system settings -->
+  <string name="profile_lockmode_policy_disabled_summary">Ang profile opsyon nito ay hindi pinagana sa pamamagitan ng device administrator policy</string>
   <string name="profile_lockmode_insecure_summary">Huwag humingi ng PIN o password</string>
+  <string name="profile_lockmode_disabled_summary">I-disable ang lock screen</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
   <string name="ring_mode_mute">I-mute</string>
   <!-- Status bar -->
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s ang gilid ng status bar ay hinila ng pababa ng Quick Settings</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">Kaliwa</string>
   <string name="status_bar_quick_qs_pulldown_summary_right">Kanan</string>
   <string name="status_bar_quick_qs_pulldown_off">I-off</string>
   <string name="status_bar_quick_qs_pulldown_left">Kaliwa</string>
   <string name="status_bar_quick_qs_pulldown_right">Kanan</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doblehin ang pag-tap sa status bar para patayin ang display</string>
   <!-- Status bar - icons -->
+  <string name="status_bar_notif_count_summary">I-display ang bilang nga mga notipikasyon na dapat gawin</string>
   <string name="status_bar_system_icons_summary">Kontrolin kung anong status bar na mga icon ang ipapakita</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Orasan</string>
@@ -146,18 +194,54 @@
   <string name="status_bar_battery_percentage_text_inside">Sa loob ng icon</string>
   <string name="status_bar_battery_percentage_text_next">Sunod sa icon</string>
   <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_slider_summary">I-adjust ang liwanag mula sa Quick Settings</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_summary">Kontrolin kung aling mga icon ng status bar ang ipapakita</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Mga protektadong app</string>
   <string name="protected_apps_manager_summary">I-manage kung anong mga app ang nakatago sa likod ng isang ligtas na lock</string>
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <!-- Weather -->
+  <string name="weather_settings_no_services_prompt">Walang lagay na panahon na nagkakaloob ng mga serbisyo na na-install</string>
+  <string name="weather_settings_no_services_summary">Mag-install ng lagay ng panahon na nagpapakaloob para maka tanggap ng mga update ng lagay ng panahon</string>
+  <string name="weather_settings_activity_not_found">Hindi mai-launch ang mga setting menu sa provider na ito</string>
+  <string name="status_bar_show_weather_summary">Ipakita ang kasalukuyang temperatura sa status bar</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_summary">I-adjust ang power saving na mga tampok at device performance</string>
+  <string name="perf_profile_fail_toast">Ang performance na profile ay kasalukuyang hindi magagamit</string>
+  <string name="power_save_summary">Higpitan ang device performance at background na aktibidad para sa save power</string>
+  <string name="auto_power_save_summary_on">Awtomatikong i-enable ang power save na mode sa %s na baterya</string>
+  <string name="auto_power_save_summary_off">Huwag awtomatikong i-enable ang power save na mode</string>
+  <string name="app_perf_profiles_title">Awtomatikong optimization</string>
+  <string name="app_perf_profiles_summary">Awtomatikong pumili ng nababagay na performance profile para sa mga application at mga usage pattern</string>
   <string name="auto_power_save_never">Hindi kailanman</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_summary">I-expand ang iyong magagamit na desktop space sa pagtago ng status bar, navigation bar, o pareho</string>
+  <string name="expanded_desktop_style_hide_nothing">Walang itago</string>
+  <string name="expanded_desktop_style_hide_status">Itago ang status bar</string>
+  <string name="expanded_desktop_style_hide_navigation">Itago ang navigation bar</string>
+  <string name="expanded_desktop_style_hide_both">Itago pareho</string>
+  <string name="expanded_desktop_nothing_to_show_text">Patayin ang switch para i-customize ang iyong expanded na desktop sa isang per-app basis</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_title">I-enable</string>
+  <string name="charging_sounds_enabled_summary">I-play ang tunog kapag nagkonekta or hindi komokonekta sa power source</string>
   <string name="charging_sounds_ringtone_silent">Tahimik</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_summary">Gawin ang various na touchscreen na mga gestures para sa madaling mga aksyon</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">I-vibrate kung ang isang touchscreen gesture ay na-detect</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">I-swipe pababa gamit ang dalawang daliri</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">I-swipe pataas gamit ang isang daliri</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">I-swipe pababa gamit ang isang daliri</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">I-swipe pakaliwa gamit ang isang daliri</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">I-swipe pakanan gamit ang isang daliri</string>
+  <string name="touchscreen_gesture_up_arrow_title">Gumuhit ng \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Gumuhit ng \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Gumuhit ng \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Gumuhit ng \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Gumuhit ng letrang \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Gumuhit ng letrang \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Gumuhit ng letrang \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Gumuhit ng letrang \"M\"</string>
   <!-- Gesture: Stylus gestures -->
 </resources>
