@@ -470,7 +470,7 @@
   <string name="weather_settings_general_settings_title">Général</string>
   <string name="weather_settings_providers_title">Fournisseurs</string>
   <string name="weather_settings_temp_units_title">Unité de température</string>
-  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_celsius">Centigrade</string>
   <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">météo</string>
   <string name="status_bar_show_weather_title">Afficher la météo</string>

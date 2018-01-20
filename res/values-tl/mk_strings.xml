@@ -23,6 +23,7 @@
   <!-- Show network speed -->
   <string name="show_network_speed_title">Bilis ng network</string>
   <string name="show_network_speed_summary">Ipakita ang bilis ng network sa status bar</string>
+  <string name="status_bar_network_traffic_style_disable">Naka-disable</string>
   <string name="status_bar_network_traffic_style_up">Papalabas</string>
   <string name="status_bar_network_traffic_style_down">Papasok</string>
   <string name="status_bar_network_traffic_style_all">Papalabas at papasok</string>
