@@ -43,13 +43,25 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="brightness_section"
+        android:title="@string/light_brightness_title"
+        android:dependency="notification_light_pulse" >
+
+        <org.mokee.mkparts.notificationlight.NotificationBrightnessPreference
+            android:key="notification_light_brightness_level"
+            android:title="@string/notification_light_brightness_normal"
+            android:dependency="notification_light_pulse" />
+
+        <org.mokee.mkparts.notificationlight.NotificationBrightnessZenPreference
+            android:key="notification_light_brightness_level_zen"
+            android:title="@string/notification_light_brightness_zen"
+            android:dependency="notification_light_pulse" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="advanced_section"
         android:title="@string/advanced">
-
-        <org.mokee.mkparts.notificationlight.NotificationBrightnessDialog
-            android:key="notification_light_brightness_level"
-            android:title="@string/notification_light_brightness"
-            android:dependency="notification_light_pulse" />
 
         <mokee.preference.MKSystemSettingSwitchPreference
             android:key="notification_light_screen_on_enable"
