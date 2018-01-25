@@ -46,7 +46,6 @@ import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 import org.mokee.mkparts.utils.DeviceUtils;
 import org.mokee.mkparts.utils.TelephonyUtils;
-import org.mokee.internal.util.QSUtils;
 import org.mokee.internal.util.ScreenType;
 
 import static org.mokee.internal.util.DeviceKeysConstants.*;
@@ -240,7 +239,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 powerCategory.removePreference(mPowerEndCall);
                 mPowerEndCall = null;
             }
-            if (!QSUtils.deviceSupportsFlashLight(getActivity())) {
+            if (!DeviceUtils.deviceSupportsFlashLight(getActivity())) {
                 powerCategory.removePreference(mTorchLongPressPowerGesture);
                 powerCategory.removePreference(mTorchLongPressPowerTimeout);
             }
