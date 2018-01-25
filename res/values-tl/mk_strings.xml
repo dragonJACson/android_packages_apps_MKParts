@@ -19,6 +19,8 @@
   <!-- Application name -->
   <string name="mkparts_title">Nga setting ng MoKee</string>
   <!-- Height of navigation bar buttons -->
+  <string name="navigation_bar_height">Taas ng pindutan</string>
+  <string name="navigation_bar_height_48">48dp (default)</string>
   <string name="navigation_bar_height_0">itago</string>
   <!-- Show network speed -->
   <string name="show_network_speed_title">Bilis ng network</string>

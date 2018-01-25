@@ -226,23 +226,21 @@
   <string name="power_menu_screenshot_title">Снимок экрана</string>
   <string name="power_menu_airplane_title">Режим полёта</string>
   <string name="power_menu_users_title">Переключение пользователей</string>
-  <string name="power_menu_settings_title">Ярлык настроек</string>
-  <string name="power_menu_lockdown_title">Блокировка устройства</string>
   <string name="power_menu_bug_report_title">Отчёт об ошибке</string>
-  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="power_menu_bug_report_disabled">Отчёт об ошибке отключен в настройках для разработчика</string>
+  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="volume_keys_control_ring_stream_title">Регулировка громкости рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Кнопки громкости регулируют громкость рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_off">Кнопки громкости регулируют громкость мультимедиа</string>
   <string name="camera_double_tap_power_gesture_title">Нажмите кнопку питания дважды для запуска камеры</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Быстро запускать камеру без разблокировки устройства</string>
-  <string name="torch_long_press_power_timeout_title">Выключать фонарик автоматически</string>
-  <string name="torch_long_press_power_timeout_never">Не отключать</string>
-  <string name="torch_long_press_power_timeout_1min">Через 1 минуту</string>
-  <string name="torch_long_press_power_timeout_2min">Через 2 минуты</string>
-  <string name="torch_long_press_power_timeout_5min">Через 5 минут</string>
-  <string name="torch_long_press_power_timeout_10min">Через 10 минут</string>
+  <string name="torch_long_press_power_timeout_title">Автоматическое выключение фонарика</string>
+  <string name="torch_long_press_power_timeout_never">Никогда</string>
+  <string name="torch_long_press_power_timeout_1min">1 мин.</string>
+  <string name="torch_long_press_power_timeout_2min">2 мин.</string>
+  <string name="torch_long_press_power_timeout_5min">5 мин.</string>
+  <string name="torch_long_press_power_timeout_10min">10 мин.</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Удалить</string>
   <string name="profile_action_none">Оставить без изменений</string>
@@ -268,7 +266,7 @@
   <string name="profile_setup_setup_triggers_description">Укажите условия, при которых будет включаться данный профиль</string>
   <string name="profile_setup_actions_description">Теперь можно настроить, что должно происходить при активации профиля</string>
   <!-- Profiles settings  -->
-  <string name="profiles_settings_title">Профили системы</string>
+  <string name="profiles_settings_title">Системные профили</string>
   <string name="profiles_add">Добавить</string>
   <string name="profile_menu_delete">Удалить</string>
   <string name="profile_settings_title">Профиль</string>
@@ -288,7 +286,7 @@
   <string name="profile_populate_profile_from_state">Создать профиль, используя текущие настройки устройства?</string>
   <string name="profile_menu_fill_from_state">Импорт текущих настроек устройства</string>
   <string name="profile_remove_current_profile">Невозможно удалить текущий профиль!</string>
-  <string name="profile_app_group_category_title">Уведомления</string>
+  <string name="profile_app_group_category_title">Переопределение уведомлений</string>
   <string name="profile_app_group_item_instructions">Добавить или удалить группы</string>
   <string name="profile_app_group_item_instructions_summary">Изменение настроек уведомлений для групп приложений в этом профиле</string>
   <!-- Profile mode options. -->
@@ -502,7 +500,7 @@
   <string name="expanded_desktop_style_hide_both">Скрывать строку состояния и панель навигации</string>
   <string name="expanded_desktop_nothing_to_show_text">Выключите, чтобы настроить режим расширенного рабочего стола для каждого приложения</string>
   <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_settings_title">Звук при зарядке</string>
+  <string name="charging_sounds_settings_title">Звуки зарядки устройства</string>
   <string name="charging_sounds_enabled_title">Включить</string>
   <string name="charging_sounds_enabled_summary">Воспроизводить звук при подключении или отключении источника питания</string>
   <string name="power_notifications_vibrate_title">Вибросигнал</string>

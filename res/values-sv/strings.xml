@@ -173,7 +173,6 @@
   <string name="power_menu_screenshot_title">Skärmdump</string>
   <string name="power_menu_airplane_title">Flygplansläge</string>
   <string name="power_menu_users_title">Användarväxlare</string>
-  <string name="power_menu_settings_title">Inställningar-genväg</string>
   <string name="power_menu_bug_report_title">Buggrapport</string>
   <string name="power_menu_sound_title">Ljudpanel</string>
   <string name="volume_keys_control_ring_stream_title">Kontrollera ringsignalsvolym</string>

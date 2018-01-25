@@ -226,11 +226,9 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_airplane_title">Mode na naka-eroplano</string>
   <string name="power_menu_users_title">Switcher ng gumagamit</string>
-  <string name="power_menu_settings_title">Shortcut ng mga Setting</string>
-  <string name="power_menu_lockdown_title">Paglockdown ng device</string>
   <string name="power_menu_bug_report_title">Ulat sa Bug</string>
-  <string name="power_menu_sound_title">Tunog ng panel</string>
   <string name="power_menu_bug_report_disabled">Ang pag-uulat ng bug ay hindi pinagana sa mga setting ng pagbuo</string>
+  <string name="power_menu_sound_title">Tunog ng panel</string>
   <string name="volume_keys_control_ring_stream_title">Pagkontrol sa volyum ng ringtone</string>
   <string name="volume_keys_control_ring_stream_summary_on">Ang mga pindutan ng volyum ay kumokontrol sa volyum ng ringtone</string>
   <string name="volume_keys_control_ring_stream_summary_off">Ang mga pindutan ng volyum ay kumokontrol sa volyum ng medya</string>

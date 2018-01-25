@@ -226,11 +226,9 @@
   <string name="power_menu_screenshot_title">Capture d\'écran</string>
   <string name="power_menu_airplane_title">Mode Avion</string>
   <string name="power_menu_users_title">Changer d\'utilisateur</string>
-  <string name="power_menu_settings_title">Raccourci vers les paramètres</string>
-  <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
   <string name="power_menu_bug_report_title">Rapport de bug</string>
-  <string name="power_menu_sound_title">Panneau du son</string>
   <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
+  <string name="power_menu_sound_title">Panneau du son</string>
   <string name="volume_keys_control_ring_stream_title">Contrôler le volume de la sonnerie</string>
   <string name="volume_keys_control_ring_stream_summary_on">Ajuste la puissance de la sonnerie avec les boutons de volume</string>
   <string name="volume_keys_control_ring_stream_summary_off">Ajuste le son des médias avec les boutons de volume</string>
