@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">Cài đặt MoKee</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">Chiều cao nút</string>
   <string name="navigation_bar_height_48">48dp (mặc định)</string>
@@ -32,7 +33,10 @@
   <string name="torch_long_press_power_gesture_title">Nhấn giữ nút nguồn để bật đèn pin</string>
   <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình đang tắt</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Thiết lập vân tay</string>
+  <string name="fingerprint_shortcut_not_specified">Chưa xác định</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Chỉnh sửa</string>
   <string name="fingerprint_shortcut_delete">Xóa</string>
+  <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
 </resources>

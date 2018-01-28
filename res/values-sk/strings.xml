@@ -84,7 +84,7 @@
   <string name="battery_light_medium_color_title">Nabíjanie</string>
   <string name="battery_light_full_color_title">Úplne nabitá</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Svetelná signalizácia</string>
+  <string name="notification_light_title">LED signalizácia upozornení</string>
   <string name="notification_light_general_title">Všeobecné</string>
   <string name="notification_light_advanced_title">Rozšírené</string>
   <string name="notification_light_applist_title">Aplikácie</string>
@@ -94,9 +94,9 @@
   <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
   <string name="notification_light_voicemail_title">Odkazová schránka</string>
   <string name="notification_light_screen_on">Upozorňovať pomocou LED pri zapnutej obrazovke</string>
-  <string name="notification_light_zen_mode">Svetelná signalizácia v režimu „Nerušiť“</string>
+  <string name="notification_light_zen_mode">LED signalizácia v režime „Nerušiť“</string>
   <string name="notification_light_use_multiple_leds">Viaceré LED</string>
-  <string name="keywords_lights_brightness_level">stlmiť jas LED diód</string>
+  <string name="keywords_lights_brightness_level">znížiť jas</string>
   <string name="notification_light_automagic">Automaticky zvoliť farby</string>
   <string name="notification_light_automagic_summary">Automaticky zvoliť farby</string>
   <!-- Lights settings, LED notification -->
@@ -329,7 +329,7 @@
   <!-- Profile Settings sound modes labels -->
   <string name="sound_mode">Režim upozornení</string>
   <string name="ringer_mode">Režim zvonenia</string>
-  <string name="lights_mode">Režim svetelnej signalizácie</string>
+  <string name="lights_mode">Režim LED</string>
   <string name="vibrate_mode">Režim vibrácií</string>
   <string name="choose_soundtone">Vyberte tón upozornenia</string>
   <string name="choose_ringtone">Vyberte tón zvonenia</string>

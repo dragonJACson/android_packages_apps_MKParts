@@ -34,7 +34,7 @@
   <string name="torch_long_press_power_gesture_desc">Включите фонарик долгим нажатием кнопки питания, при выключенном экране</string>
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_settings_title">Ярлыки отпечатков пальцев</string>
-  <string name="fingerprint_shortcut_not_specified">Не установлен</string>
+  <string name="fingerprint_shortcut_not_specified">Ярлык не установлен</string>
   <string name="fingerprint_shortcut_ok">ОК</string>
   <string name="fingerprint_shortcut_edit">Изменить</string>
   <string name="fingerprint_shortcut_delete">Удалить</string>

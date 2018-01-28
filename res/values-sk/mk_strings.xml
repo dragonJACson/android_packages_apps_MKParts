@@ -33,10 +33,10 @@
   <string name="torch_long_press_power_gesture_title">Zapnutie Baterky dlhým stlačením tlačidla Napájanie</string>
   <string name="torch_long_press_power_gesture_desc">Keď obrazovka je vypnutá, dlhým zatlačením tlačidla Napájanie zapnete Baterku</string>
   <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Skratky odtlačku prsta</string>
+  <string name="fingerprint_shortcut_settings_title">Odkazy odtlačku prsta</string>
   <string name="fingerprint_shortcut_not_specified">Nešpecifikované</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Upraviť</string>
   <string name="fingerprint_shortcut_delete">Vymazať</string>
-  <string name="fingerprint_shortcut_editer">Nastaviť skratku odtlačku prsta</string>
+  <string name="fingerprint_shortcut_editer">Nastaviť odkaz odtlačku prsta</string>
 </resources>
