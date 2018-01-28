@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2018 The MoKee Open Source Project
+	Copyright (C) 2017-2018 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -130,6 +131,8 @@
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">בהירות</string>
   <!-- Status bar - icon blacklist -->
+  <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_mode_disable">מבוטל</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">יישומים מוגנים</string>
   <string name="protected_apps_manager_summary">נהל אילו יישומים מוסתרים מאחורי נעילה מאובטחת</string>

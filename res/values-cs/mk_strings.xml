@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Výška tlačítka</string>
   <string name="navigation_bar_height_48">48dp (výchozí)</string>
   <string name="navigation_bar_height_0">skrýt</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Rychlost sítě</string>
-  <string name="show_network_speed_summary">Zobrazit rychlost sítě ve stavové liště</string>
-  <string name="status_bar_network_traffic_style_disable">Nezobrazovat</string>
-  <string name="status_bar_network_traffic_style_up">Odchozí</string>
-  <string name="status_bar_network_traffic_style_down">Příchozí</string>
-  <string name="status_bar_network_traffic_style_all">Odchozí a příchozí</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Dlouhým stisknutím tlačítka napájení zapnout svítilnu</string>
   <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při vypnuté obrazovce zapnout svítilnu</string>

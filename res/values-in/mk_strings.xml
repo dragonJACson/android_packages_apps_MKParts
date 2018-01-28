@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Tinggi tombol</string>
   <string name="navigation_bar_height_48">48dp (bawaan)</string>
   <string name="navigation_bar_height_0">sembunyikan</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Kecepatan jaringan</string>
-  <string name="show_network_speed_summary">Tampilkan kecepatan jaringan di status bar</string>
-  <string name="status_bar_network_traffic_style_disable">Dinonaktifkan</string>
-  <string name="status_bar_network_traffic_style_up">Keluar</string>
-  <string name="status_bar_network_traffic_style_down">Masuk</string>
-  <string name="status_bar_network_traffic_style_all">Keluar dan masuk</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Tekan lama tombol power untuk senter</string>
   <string name="torch_long_press_power_gesture_desc">Aktifkan senter dengan menekan lama tombol power saat layar mati</string>

@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2018 The MoKee Open Source Project
+	Copyright (C) 2017-2018 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -429,6 +430,9 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">상태 표시줄 아이콘</string>
   <string name="status_bar_icons_summary">상태 표시줄에 표시할 아이콘 설정</string>
+  <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_mode_title">디스플레이 모드</string>
+  <string name="network_traffic_mode_disable">사용안함</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">보호된 애플리케이션</string>
   <string name="protected_apps_manager_summary">보안 잠금 사용시 숨겨질 앱 선택</string>

@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2018 The MoKee Open Source Project
+	Copyright (C) 2017-2018 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -428,6 +429,9 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikone vrstice stanja</string>
   <string name="status_bar_icons_summary">Nadzor prikazanih ikon v vrstici stanja</string>
+  <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_mode_title">Način prikaza</string>
+  <string name="network_traffic_mode_disable">Onemogočeno</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Zaščitene aplikacije</string>
   <string name="protected_apps_manager_summary">Upravljajte, katere aplikacije so skrite z varnim zaklepanjem</string>

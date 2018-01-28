@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Knapp höjd</string>
   <string name="navigation_bar_height_48">48dp (standard)</string>
   <string name="navigation_bar_height_0">dölj</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Nätverkshastighet</string>
-  <string name="show_network_speed_summary">Visa nätverkshastighet i statusfältet</string>
-  <string name="status_bar_network_traffic_style_disable">Inaktiverad</string>
-  <string name="status_bar_network_traffic_style_up">Utgående</string>
-  <string name="status_bar_network_traffic_style_down">Inkommande</string>
-  <string name="status_bar_network_traffic_style_all">Utgående och inkommande</string>
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">OK</string>

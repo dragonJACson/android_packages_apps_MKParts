@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Düğme yüksekliği</string>
   <string name="navigation_bar_height_48">48dp (varsayılan)</string>
   <string name="navigation_bar_height_0">gizle</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Ağ hızı</string>
-  <string name="show_network_speed_summary">Ağ hızını durum çubuğunda göster</string>
-  <string name="status_bar_network_traffic_style_disable">Devre Dışı</string>
-  <string name="status_bar_network_traffic_style_up">Giden</string>
-  <string name="status_bar_network_traffic_style_down">Gelen</string>
-  <string name="status_bar_network_traffic_style_all">Giden ve gelen</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">El feneri için güç düğmesine uzun basın</string>
   <string name="torch_long_press_power_gesture_desc">El fenerini etkinleştirmek için ekran kapalıyken güç düğmesine uzun basın</string>

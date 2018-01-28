@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Altezza pulsante</string>
   <string name="navigation_bar_height_48">48dp (predefinito)</string>
   <string name="navigation_bar_height_0">Nascondi</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Velocità di rete</string>
-  <string name="show_network_speed_summary">Mostra la velocità di rete nella barra di stato</string>
-  <string name="status_bar_network_traffic_style_disable">Disabilitata</string>
-  <string name="status_bar_network_traffic_style_up">In uscita</string>
-  <string name="status_bar_network_traffic_style_down">In entrata</string>
-  <string name="status_bar_network_traffic_style_all">In uscita e in entrata</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Premi a lungo il pulsante menù per attivare la torcia</string>
   <string name="torch_long_press_power_gesture_desc">Attiva la torcia premendo a lungo il pulsante menù quando lo schermo è spento</string>

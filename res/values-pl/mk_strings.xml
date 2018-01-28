@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Wysokość przycisków</string>
   <string name="navigation_bar_height_48">48dp (domyślne)</string>
   <string name="navigation_bar_height_0">ukryj</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Prędkość transmisji danych</string>
-  <string name="show_network_speed_summary">Pokaż prędkość transmisji danych na pasku stanu</string>
-  <string name="status_bar_network_traffic_style_disable">Wyłączone</string>
-  <string name="status_bar_network_traffic_style_up">Wysyłanie</string>
-  <string name="status_bar_network_traffic_style_down">Pobieranie</string>
-  <string name="status_bar_network_traffic_style_all">Wysyłanie i pobieranie</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Naciśnij i przytrzymaj przycisk zasilania, aby włączyć latarkę</string>
   <string name="torch_long_press_power_gesture_desc">Włączanie latarki przez naciśnięcie przycisku zasilania przy wyłączonym ekranie</string>

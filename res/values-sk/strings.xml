@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2018 The MoKee Open Source Project
+	Copyright (C) 2017-2018 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -78,7 +79,9 @@
   <string name="pulse_speed_slow">Pomaly</string>
   <string name="pulse_speed_very_slow">Veľmi pomaly</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_title">Úrovne jasu</string>
   <string name="light_brightness_normal">Normalny</string>
+  <string name="light_brightness_zen">Režim \"Nerušiť\"</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Ukazovateľ batérie</string>
   <string name="battery_low_pulse_title">Blikať, keď je batéria vybitá</string>
@@ -97,7 +100,7 @@
   <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
   <string name="notification_light_voicemail_title">Odkazová schránka</string>
   <string name="notification_light_screen_on">Upozorňovať pomocou LED pri zapnutej obrazovke</string>
-  <string name="notification_light_zen_mode">Svetelná signalizácia v režimu „Nerušiť“</string>
+  <string name="notification_light_zen_mode">LED signalizácia v režimu „Nerušiť“</string>
   <string name="keywords_lights_brightness_level">stlmiť jas LED diód</string>
   <string name="notification_light_automagic">Automaticky zvoliť farby</string>
   <string name="notification_light_automagic_summary">Automaticky zvoliť farby</string>
@@ -430,6 +433,9 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony stavového riadku</string>
   <string name="status_bar_icons_summary">Upraviť zobrazenie ikon v stavovom riadku</string>
+  <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_mode_title">Režim zobrazenia</string>
+  <string name="network_traffic_mode_disable">Nezobrazovať</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chránené aplikácie</string>
   <string name="protected_apps_manager_summary">Spravovať aplikácie, ktoré sú skryté za bezpečným zámkom</string>

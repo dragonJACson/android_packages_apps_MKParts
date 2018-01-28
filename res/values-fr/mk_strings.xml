@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Hauteur du bouton</string>
   <string name="navigation_bar_height_48">48dp (par défaut)</string>
   <string name="navigation_bar_height_0">cacher</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Vitesse du réseau</string>
-  <string name="show_network_speed_summary">Afficher la vitesse du réseau dans la barre d\'état</string>
-  <string name="status_bar_network_traffic_style_disable">Désactivé</string>
-  <string name="status_bar_network_traffic_style_up">Sortant</string>
-  <string name="status_bar_network_traffic_style_down">Entrant</string>
-  <string name="status_bar_network_traffic_style_all">Sortant et entrant</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Un appui long sur le bouton d\'alimentation active la lampe de poche</string>
   <string name="torch_long_press_power_gesture_desc">Permet au bouton d\'alimentation d\'activer la lampe torche lorsque l\'écran est éteint</string>

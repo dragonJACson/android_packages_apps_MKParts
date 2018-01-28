@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Höhe der Schaltflächen</string>
   <string name="navigation_bar_height_48">48dp (Standard)</string>
   <string name="navigation_bar_height_0">Verbergen</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Netzwerkgeschwindigkeit</string>
-  <string name="show_network_speed_summary">Netzwerkgeschwindigkeit in Statusleiste anzeigen</string>
-  <string name="status_bar_network_traffic_style_disable">Deaktiviert</string>
-  <string name="status_bar_network_traffic_style_up">Ausgehend</string>
-  <string name="status_bar_network_traffic_style_down">Eingehend</string>
-  <string name="status_bar_network_traffic_style_all">Ausgehend und Eingehend</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Langes drücken des Ein-/Ausschalter, um Taschenlampe einzuschalten</string>
   <string name="torch_long_press_power_gesture_desc">Taschenlampe durch langes drücken der Ein-/Ausschalttaste einschalten, während das Display ausgeschaltet ist</string>

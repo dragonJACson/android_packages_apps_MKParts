@@ -21,13 +21,6 @@
   <string name="navigation_bar_height">גובה לחצנים</string>
   <string name="navigation_bar_height_48">48dp (ברירת מחדל)</string>
   <string name="navigation_bar_height_0">הסתר</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">מהירות אינטרנט</string>
-  <string name="show_network_speed_summary">הראה את המהירות הגלישה בשורת מצב</string>
-  <string name="status_bar_network_traffic_style_disable">מבוטל</string>
-  <string name="status_bar_network_traffic_style_up">רק מהירות העלאה</string>
-  <string name="status_bar_network_traffic_style_down">רק מהירות הורדה</string>
-  <string name="status_bar_network_traffic_style_all">מהירות הורדה והעלאה</string>
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">אישור</string>

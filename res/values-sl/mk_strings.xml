@@ -22,13 +22,6 @@
   <string name="navigation_bar_height">Višina gumba</string>
   <string name="navigation_bar_height_48">48dp (privzeto)</string>
   <string name="navigation_bar_height_0">skrij</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Hitrost omrežja</string>
-  <string name="show_network_speed_summary">Prikaži omrežno hitrost v vrstici stanja</string>
-  <string name="status_bar_network_traffic_style_disable">Onemogočeno</string>
-  <string name="status_bar_network_traffic_style_up">Odhodni</string>
-  <string name="status_bar_network_traffic_style_down">Dohodni</string>
-  <string name="status_bar_network_traffic_style_all">Odhodni in prihodni</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Dolg pritisk gumba prižge svetilko</string>
   <string name="torch_long_press_power_gesture_desc">Z gumbom za vklop/izklop med izključenim zaslonom lahko prižgete svetilko</string>

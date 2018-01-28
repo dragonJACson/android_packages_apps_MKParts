@@ -21,13 +21,6 @@
   <string name="navigation_bar_height">Висина дугмета</string>
   <string name="navigation_bar_height_48">48dp (подразумевано)</string>
   <string name="navigation_bar_height_0">Скривено</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Приказ протока података</string>
-  <string name="show_network_speed_summary">Приказ брзине протока података у статусној траци</string>
-  <string name="status_bar_network_traffic_style_disable">Онемогућено</string>
-  <string name="status_bar_network_traffic_style_up">Одлазни</string>
-  <string name="status_bar_network_traffic_style_down">Долазни</string>
-  <string name="status_bar_network_traffic_style_all">Одлазни и долазни</string>
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">ОК</string>
