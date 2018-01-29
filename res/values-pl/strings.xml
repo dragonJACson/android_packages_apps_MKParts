@@ -79,7 +79,9 @@
   <string name="pulse_speed_slow">Wolno</string>
   <string name="pulse_speed_very_slow">Bardzo wolno</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_title">Poziom jasności</string>
   <string name="light_brightness_normal">Normalny</string>
+  <string name="light_brightness_zen">Nie przeszkadzać</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Wskaźnik baterii</string>
   <string name="battery_low_pulse_title">Migaj, gdy poziom baterii jest niski</string>
@@ -432,8 +434,22 @@
   <string name="status_bar_icons_title">Ikony paska stanu</string>
   <string name="status_bar_icons_summary">Wybierz, które ikony będą wyświetlane na pasku stanu</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_settings_title">Monitor ruchu sieciowego</string>
+  <string name="network_traffic_settings_summary">Pokaż bieżące poziomy ruchu sieciowego na pasku stanu</string>
   <string name="network_traffic_mode_title">Tryb wyświetlania</string>
   <string name="network_traffic_mode_disable">Wyłączone</string>
+  <string name="network_traffic_mode_up">Tylko wysyłanie</string>
+  <string name="network_traffic_mode_down">Tylko pobieranie</string>
+  <string name="network_traffic_mode_all">Wysyłanie i pobieranie</string>
+  <string name="network_traffic_autohide">Autoukrywanie</string>
+  <string name="network_traffic_autohide_summary">Ukryj monitor ruchu przy braku aktywności</string>
+  <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
+  <string name="network_traffic_units_kilobits">Kilobitów na sekundę (kb/s)</string>
+  <string name="network_traffic_units_megabits">Megabitów na sekundę (Mb/s)</string>
+  <string name="network_traffic_units_kilobytes">Kilobajtów na sekundę (kB/s)</string>
+  <string name="network_traffic_units_megabytes">Megabajtów na sekundę (MB/s)</string>
+  <string name="network_traffic_show_units">Pokaż jednostki</string>
+  <string name="network_traffic_show_units_summary">Określa, czy pokazywać jednostki pomiaru ruchu na pasku stanu</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chronione aplikacje</string>
   <string name="protected_apps_manager_summary">Ustal, które aplikacje mają być ukryte za bezpieczną blokadą</string>
