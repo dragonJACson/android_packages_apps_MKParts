@@ -435,8 +435,22 @@
   <string name="status_bar_icons_title">Значки в строке состояния</string>
   <string name="status_bar_icons_summary">Настройка видимости значков</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_settings_title">Индикатор сетевого трафика</string>
+  <string name="network_traffic_settings_summary">Отображать текущие сетевые уровни трафика в строке состояния</string>
   <string name="network_traffic_mode_title">Режим отображения</string>
   <string name="network_traffic_mode_disable">Отключено</string>
+  <string name="network_traffic_mode_up">Только исходящая</string>
+  <string name="network_traffic_mode_down">Только входящая</string>
+  <string name="network_traffic_mode_all">Исходящая и входящая</string>
+  <string name="network_traffic_autohide">Скрывать автоматически</string>
+  <string name="network_traffic_autohide_summary">Не отображать скорость передачи данных при отсутствии активности</string>
+  <string name="network_traffic_units_title">Единицы измерения трафика</string>
+  <string name="network_traffic_units_kilobits">Килобит в секунду (кБ/с)</string>
+  <string name="network_traffic_units_megabits">Мегабит в секунду (мБ/с)</string>
+  <string name="network_traffic_units_kilobytes">Килобайт в секунду (КБ/с)</string>
+  <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
+  <string name="network_traffic_show_units">Скорость передачи данных</string>
+  <string name="network_traffic_show_units_summary">Отображать скорость передачи данных в строке состояния</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Защищенные приложения</string>
   <string name="protected_apps_manager_summary">Управление приложениями, для запуска которых требуется ввод пароля</string>
