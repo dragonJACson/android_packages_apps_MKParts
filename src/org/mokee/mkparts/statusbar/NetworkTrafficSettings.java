@@ -47,7 +47,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
                 findPreference(MKSettings.Secure.NETWORK_TRAFFIC_MODE);
         mNetTrafficMode.setOnPreferenceChangeListener(this);
         int mode = MKSettings.Secure.getInt(resolver,
-                MKSettings.Secure.NETWORK_TRAFFIC_MODE, 0);
+                MKSettings.Secure.NETWORK_TRAFFIC_MODE, 3);
         mNetTrafficMode.setValue(String.valueOf(mode));
 
         mNetTrafficAutohide = (MKSecureSettingSwitchPreference)
