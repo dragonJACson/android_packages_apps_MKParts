@@ -79,7 +79,9 @@
   <string name="pulse_speed_slow">Lento</string>
   <string name="pulse_speed_very_slow">Muy lento</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_title">Niveles de brillo</string>
   <string name="light_brightness_normal">Normal</string>
+  <string name="light_brightness_zen">No Molestar</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Luz de la bateria</string>
   <string name="battery_low_pulse_title">Pulsante si la batería es baja</string>
@@ -432,8 +434,22 @@
   <string name="status_bar_icons_title">Iconos de la barra de estado</string>
   <string name="status_bar_icons_summary">Elija los iconos que aparecerán en la barra de estado</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_settings_title">Monitor de tráfico de red</string>
+  <string name="network_traffic_settings_summary">Mostrar niveles de tráfico de red actual en la barra de estado</string>
   <string name="network_traffic_mode_title">Modo de visualización</string>
   <string name="network_traffic_mode_disable">Deshabilitado</string>
+  <string name="network_traffic_mode_up">Sólo Subida</string>
+  <string name="network_traffic_mode_down">Sólo Bajada</string>
+  <string name="network_traffic_mode_all">Subida Y Bajada</string>
+  <string name="network_traffic_autohide">Auto ocultar</string>
+  <string name="network_traffic_autohide_summary">Ocultar al monitor de tráfico cuando no hay actividad</string>
+  <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
+  <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
+  <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
+  <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
+  <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
+  <string name="network_traffic_show_units">Mostrar unidades</string>
+  <string name="network_traffic_show_units_summary">Si se muestran unidades de medida de tráfico en la barra de estado</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicaciones protegidas</string>
   <string name="protected_apps_manager_summary">Administrar aplicaciones que se ocultan detrás de un bloqueo seguro</string>

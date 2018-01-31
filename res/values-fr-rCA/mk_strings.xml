@@ -29,7 +29,7 @@
   <string name="fingerprint_shortcut_settings_title">Raccourcis gestuels</string>
   <string name="fingerprint_shortcut_not_specified">Non spécifié</string>
   <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Édition</string>
+  <string name="fingerprint_shortcut_edit">Modifier</string>
   <string name="fingerprint_shortcut_delete">Supprimer</string>
   <string name="fingerprint_shortcut_editer">Créer un raccourci gestuel</string>
   <string name="fingerprint_shortcut_manage">Gérer empreintes digitales</string>

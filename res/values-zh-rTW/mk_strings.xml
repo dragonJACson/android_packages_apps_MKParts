@@ -26,11 +26,11 @@
   <string name="torch_long_press_power_gesture_title">長按電源鍵即可啟動手電筒</string>
   <string name="torch_long_press_power_gesture_desc">當螢幕關閉時長按電源鍵啟動手電筒</string>
   <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">指紋快捷方式</string>
+  <string name="fingerprint_shortcut_settings_title">指紋捷徑</string>
   <string name="fingerprint_shortcut_not_specified">未指定</string>
   <string name="fingerprint_shortcut_ok">確定</string>
   <string name="fingerprint_shortcut_edit">編輯</string>
   <string name="fingerprint_shortcut_delete">刪除</string>
-  <string name="fingerprint_shortcut_editer">設定指紋快捷方式</string>
+  <string name="fingerprint_shortcut_editer">設定指紋捷徑</string>
   <string name="fingerprint_shortcut_manage">管理指紋</string>
 </resources>
