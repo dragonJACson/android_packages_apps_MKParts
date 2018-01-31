@@ -59,7 +59,7 @@
   <string name="privacy_guard_advanced_settings_title">Options avancées</string>
   <string name="privacy_guard_notification_title">Afficher les notifications</string>
   <!-- Notification light dialogs -->
-  <string name="edit_light_settings">Modifier les paramètres du voyant</string>
+  <string name="edit_light_settings">Modifier les paramètres de la DEL</string>
   <string name="pulse_speed_title">Durée et vitesse du clignotement</string>
   <string name="default_time">Standard</string>
   <string name="custom_time">Personnalisation</string>
