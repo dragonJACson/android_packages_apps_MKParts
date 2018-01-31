@@ -42,7 +42,7 @@
   <!-- Privacy Guard -->
   <string name="privacy_guard_switch_label">Activer la protection des données</string>
   <string name="privacy_guard_dlg_title">Activer la protection des données ?</string>
-  <string name="privacy_guard_dlg_text">Lorsque la protection des données est activée, les applications n\'ont pas accès à vos données personnelles telles que les contacts, les messages ou le journal d\'appels.</string>
+  <string name="privacy_guard_dlg_text">Si la protection des données est activée, les applis ne pourront pas accéder aux données personnelles telles que les contacts, les messages ou le journal des appels.</string>
   <string name="privacy_guard_dlg_system_app_text">Lorsque la protection des données est activée pour une application système, cette application ne sera pas en mesure d\'accéder ou de fournir des données personnelles. Cela peut provoquer des dysfonctionnements avec d\'autres applications.</string>
   <string name="privacy_guard_default_title">Activée par défaut</string>
   <string name="privacy_guard_default_summary_on">Protection des données activée</string>
@@ -57,7 +57,7 @@
   <string name="privacy_guard_advanced_settings_title">Options avancées</string>
   <string name="privacy_guard_notification_title">Afficher les notifications</string>
   <!-- Notification light dialogs -->
-  <string name="edit_light_settings">Modifier les paramètres du voyant</string>
+  <string name="edit_light_settings">Modifier les paramètres de la DEL</string>
   <string name="pulse_speed_title">Durée et vitesse du clignotement</string>
   <string name="default_time">Standard</string>
   <string name="custom_time">Personnalisation</string>
@@ -401,7 +401,7 @@
   <string name="status_bar_clock_position_left">Gauche</string>
   <string name="status_bar_clock_position_center">Centrée</string>
   <string name="status_bar_am_pm_title">Style AM/PM</string>
-  <string name="status_bar_am_pm_info">Format 24h activé</string>
+  <string name="status_bar_am_pm_info">L’affichage sur 24 heures est activé</string>
   <string name="status_bar_am_pm_normal">Standard</string>
   <string name="status_bar_am_pm_small">Petit</string>
   <string name="status_bar_am_pm_hidden">Masqué</string>

@@ -59,6 +59,7 @@
   <string name="edit_light_settings">I-edit ang mga setting sa liwanag</string>
   <string name="pulse_speed_title">Tagal at bilis ng pulso</string>
   <string name="default_time">Karaniwan</string>
+  <string name="custom_time">Custom</string>
   <string name="dialog_delete_title">Tanggalin</string>
   <string name="dialog_delete_message">Tanggalin ang napiling item?</string>
   <string name="brightness">Antas ng liwanag</string>
