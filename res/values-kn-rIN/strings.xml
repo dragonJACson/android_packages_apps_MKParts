@@ -40,6 +40,7 @@
   <string name="light_brightness_normal">ಸಾಮಾನ್ಯ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">ಪೂರ್ವನಿಯೋಜಿತ</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_color_temperature_title">ಕಲರ್ ತಾಪಮಾನ</string>
@@ -59,6 +60,7 @@
   <!-- Navigation Bar -->
   <!-- Power menu -->
   <string name="power_menu_screenshot_title">ತೆರೆಸೆರೆ</string>
+  <string name="power_menu_screenshot_summary">ಭಾಗಶಃ ಪರದೆಚಿತ್ರಕ್ಕೆ ಒತ್ತಿ-ಹಿಡಿಯಿರಿ</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_never">ಎಂದಿಗೂ</string>
   <!-- Profiles -->

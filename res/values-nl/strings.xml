@@ -432,6 +432,11 @@
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_title">Weergavemodus</string>
   <string name="network_traffic_mode_disable">Uitgeschakeld</string>
+  <string name="network_traffic_mode_up">Alleen plaatsen</string>
+  <string name="network_traffic_mode_down">Alleen ophalen</string>
+  <string name="network_traffic_mode_all">Plaatsen en ophalen</string>
+  <string name="network_traffic_autohide">Automatisch verbergen</string>
+  <string name="network_traffic_show_units">Eenheden weergeven</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Beschermde apps</string>
   <string name="protected_apps_manager_summary">Beheren welke apps beschermd zijn</string>
