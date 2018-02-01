@@ -36,6 +36,7 @@
   <string name="pulse_speed_normal">ಸಾಮಾನ್ಯ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">ಪೂರ್ವನಿಯೋಜಿತ</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_color_temperature_title">ಕಲರ್ ತಾಪಮಾನ</string>
