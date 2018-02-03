@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">إعدادات موكي</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">ارتفاع الزر</string>
-  <string name="navigation_bar_height_48">48dp (الافتراضي)</string>
-  <string name="navigation_bar_height_0">إخفاء</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
   <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>

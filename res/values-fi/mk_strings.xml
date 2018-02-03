@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">MoKee asetukset</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Painikkeen korkeus</string>
-  <string name="navigation_bar_height_48">48dp (oletus)</string>
-  <string name="navigation_bar_height_0">piilota</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Paina pitkään virtanäppäintä avataksesi taskulamppu</string>
   <string name="torch_long_press_power_gesture_desc">Aktivoi taskulamppu painamalla virtanäppäintä pitkään näytön ollessa pois päältä</string>

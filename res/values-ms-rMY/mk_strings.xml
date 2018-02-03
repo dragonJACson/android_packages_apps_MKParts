@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">Seting MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Butang ketinggian</string>
-  <string name="navigation_bar_height_48">48dp (asal)</string>
-  <string name="navigation_bar_height_0">sembunyi</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Panjang-tekan butang kuasa untuk obor</string>
   <string name="torch_long_press_power_gesture_desc">Mengaktifkan obor dengan panjang-menekan butang kuasa sementara paparan dimatikan</string>

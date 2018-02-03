@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">Ajustes de MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Altura del botón</string>
-  <string name="navigation_bar_height_48">48dp (por defecto)</string>
-  <string name="navigation_bar_height_0">ocultar</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Mantén presionado el botón de encendido para usar la linterna</string>
   <string name="torch_long_press_power_gesture_desc">Activar la linterna manteniendo presionado el botón de encendido mientras la pantalla esté apagada</string>

@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">MoKee nastavitve</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Višina gumba</string>
-  <string name="navigation_bar_height_48">48dp (privzeto)</string>
-  <string name="navigation_bar_height_0">skrij</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Dolg pritisk gumba prižge svetilko</string>
   <string name="torch_long_press_power_gesture_desc">Z gumbom za vklop/izklop med izključenim zaslonom lahko prižgete svetilko</string>

@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">Ρυθμίσεις MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Ύψος πλήκτρων</string>
-  <string name="navigation_bar_height_48">48dp (προεπιλογή)</string>
-  <string name="navigation_bar_height_0">Απόκρυψη</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση στο πλήκτρο ισχύος για φακό</string>
   <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>

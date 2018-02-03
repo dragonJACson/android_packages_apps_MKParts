@@ -17,10 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">גובה לחצנים</string>
-  <string name="navigation_bar_height_48">48dp (ברירת מחדל)</string>
-  <string name="navigation_bar_height_0">הסתר</string>
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">אישור</string>

@@ -45,7 +45,6 @@
   <string name="privacy_guard_switch_label">Aktivera integritetsvakt</string>
   <string name="privacy_guard_dlg_title">Aktivera integritetsvakt?</string>
   <string name="privacy_guard_default_title">Aktiverad som standard</string>
-  <string name="privacy_guard_default_summary_on">Integritetsvakt är aktiverat</string>
   <string name="privacy_guard_no_user_apps">Inga appar installerade</string>
   <string name="privacy_guard_help_title">Hjälp</string>
   <string name="privacy_guard_reset_title">Återställ</string>

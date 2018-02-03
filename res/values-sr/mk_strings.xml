@@ -17,10 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Висина дугмета</string>
-  <string name="navigation_bar_height_48">48dp (подразумевано)</string>
-  <string name="navigation_bar_height_0">Скривено</string>
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">ОК</string>

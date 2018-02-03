@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">MoKee 設定</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">導覽列高度</string>
-  <string name="navigation_bar_height_48">48dp（預設）</string>
-  <string name="navigation_bar_height_0">隱藏</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">長按電源鍵即可啟動手電筒</string>
   <string name="torch_long_press_power_gesture_desc">當螢幕關閉時長按電源鍵啟動手電筒</string>

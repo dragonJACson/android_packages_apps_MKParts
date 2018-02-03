@@ -18,10 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
   <string name="mkparts_title">Paramètres de MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Hauteur du bouton</string>
-  <string name="navigation_bar_height_48">48DP (par défaut)</string>
-  <string name="navigation_bar_height_0">cacher</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Appui long sur le bouton d\'alimentation pour la lampe de poche</string>
   <string name="torch_long_press_power_gesture_desc">Activer la lampe de poche par un appui long sur le bouton d\'alimentation lorsque l\'écran est éteint</string>
