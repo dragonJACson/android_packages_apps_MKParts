@@ -19,8 +19,13 @@
   <!-- Application name -->
   <string name="mkparts_title">Setări Mokee</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Apăsați lung butonul pornire pentru lanternă</string>
+  <string name="torch_long_press_power_gesture_desc">Activați lanterna prin apăsarea lungă a butonului pornire în timp ce ecranul este oprit</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Scurtături senzor amprentă</string>
+  <string name="fingerprint_shortcut_not_specified">Nespecificat</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Editează / Editare</string>
   <string name="fingerprint_shortcut_delete">Ștergeţi</string>
+  <string name="fingerprint_shortcut_editer">Configurare scurtături senzor amprentă</string>
 </resources>

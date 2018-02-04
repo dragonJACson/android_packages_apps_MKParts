@@ -398,11 +398,11 @@
   <string name="status_bar_system_icons_title">Préférence d’affichage des icônes système</string>
   <string name="status_bar_system_icons_summary">Liste les icônes pouvant être affiché ou masqué dans la barre d\'état</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_title">Personnalisation de l\'horloge</string>
+  <string name="status_bar_clock_title">Horloge</string>
   <string name="status_bar_clock_position_title">Position de l’horloge</string>
   <string name="status_bar_clock_position_right">À droite</string>
   <string name="status_bar_clock_position_left">À gauche</string>
-  <string name="status_bar_clock_position_center">Centrée</string>
+  <string name="status_bar_clock_position_center">Au centre</string>
   <string name="status_bar_am_pm_title">Style AM/PM</string>
   <string name="status_bar_am_pm_info">L’affichage sur 24 heures est activé</string>
   <string name="status_bar_am_pm_normal">Standard</string>

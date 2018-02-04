@@ -23,10 +23,13 @@
   <string name="dlg_ok">OK</string>
   <string name="cancel">Anulează</string>
   <string name="add">Adăugaţi</string>
+  <string name="choose_app">Alege aplicația</string>
   <string name="reset">Resetaţi</string>
+  <string name="advanced">Avansat</string>
   <string name="settings">Setări</string>
   <string name="name">Nume: </string>
   <string name="back">Înapoi</string>
+  <string name="finish">Terminare</string>
   <string name="next">Mai departe</string>
   <string name="on">Activată</string>
   <string name="off">Oprit</string>
@@ -36,10 +39,20 @@
   <string name="enabled">Activat</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
+  <string name="privacy_settings_title">Confidențialitate</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_switch_label">Activare Gardian Intimitate</string>
+  <string name="privacy_guard_dlg_title">Activați Gardian Intimitate?</string>
+  <string name="privacy_guard_dlg_text">Când Gardianul de Intimitate este activat, aplicația nu va putea accesa datele personale cum ar fi contactele, mesajele sau jurnalul de apeluri.</string>
+  <string name="privacy_guard_dlg_system_app_text">Când Gardianul de Intimitate este activat pentru o aplicație preinstalată, aplicația nu va putea accesa sau furniza date personale. Acest lucru poate cauza funcționarea eronată a altor aplicații.</string>
+  <string name="privacy_guard_default_title">Activat în mod implicit</string>
+  <string name="privacy_guard_manager_summary">Gestionează care aplicație are acces la datele tale personale</string>
+  <string name="privacy_guard_no_user_apps">Nu există aplicații instalate</string>
   <string name="privacy_guard_help_title">Ajutor</string>
   <string name="privacy_guard_reset_title">Resetaţi</string>
+  <string name="privacy_guard_reset_text">Resetați permisiunile?</string>
   <string name="privacy_guard_manager_show_system_apps">Arată aplicații preinstalate</string>
+  <string name="privacy_guard_advanced_settings_title">Avansat</string>
   <!-- Notification light dialogs -->
   <string name="custom_time">Personalizat</string>
   <string name="dialog_delete_title">Ștergeţi</string>
@@ -48,6 +61,7 @@
   <!-- Common light settings strings -->
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_advanced_title">Avansat</string>
   <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_default_value">Implicit</string>
   <!-- Lights settings, LED notification -->
@@ -109,6 +123,7 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroup_name_title">Nume: </string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Alege aplicația</string>
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
