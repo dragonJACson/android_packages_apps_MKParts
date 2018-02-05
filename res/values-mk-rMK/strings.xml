@@ -44,6 +44,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_summary">Долг притисок за делумно сликање на екранот</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <!-- Profiles -->
   <!-- Profile triggers -->
