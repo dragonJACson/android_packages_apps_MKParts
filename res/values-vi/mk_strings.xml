@@ -26,9 +26,9 @@
   <string name="show_network_speed_title">Tốc độ mạng</string>
   <string name="show_network_speed_summary">Hiển thị tốc độ mạng trên thanh trạng thái</string>
   <string name="status_bar_network_traffic_style_disable">Đã tắt</string>
-  <string name="status_bar_network_traffic_style_up">Cuộc gọi đi</string>
-  <string name="status_bar_network_traffic_style_down">Cuộc gọi đến</string>
-  <string name="status_bar_network_traffic_style_all">Đi và đến</string>
+  <string name="status_bar_network_traffic_style_up">Tải lên</string>
+  <string name="status_bar_network_traffic_style_down">Tải xuống</string>
+  <string name="status_bar_network_traffic_style_all">Tải lên và tải xuống</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Nhấn giữ nút nguồn để bật đèn pin</string>
   <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình đang tắt</string>

@@ -373,7 +373,7 @@
   <string name="ring_mode_mute">Stlmiť</string>
   <string name="ring_volume_title">Hlasitosť zvonenia</string>
   <string name="incoming_call_volume_title">Zvonenie</string>
-  <string name="notification_volume_title">Oznámenie</string>
+  <string name="notification_volume_title">Upozornenie</string>
   <string name="media_volume_title">Médiá</string>
   <string name="alarm_volume_title">Budík</string>
   <string name="doze_title">Ambientné zobrazenie</string>
