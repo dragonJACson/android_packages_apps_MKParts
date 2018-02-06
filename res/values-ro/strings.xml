@@ -93,21 +93,70 @@
   <string name="notification_light_screen_on">Lumini cu ecranul aprins</string>
   <string name="notification_light_zen_mode">Lumini în modul Nu Deranjați</string>
   <string name="keywords_lights_brightness_level">diminuare luminozitate led-uri</string>
+  <string name="notification_light_automagic">Alege culorile automat</string>
+  <string name="notification_light_automagic_summary">Se aleg culorile automat</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Setări lumină</string>
+  <string name="led_notification_text">Lumină LED activată de setări</string>
+  <string name="notification_light_no_apps_summary">Pentru a adăuga control per aplicație, activați \'%1$s\' și apăsați \'\u002b\' în bara meniului</string>
   <!-- LiveDisplay -->
+  <string name="live_display_summary">Optimizare ecran bazat pe timpul zilei şi condiţiile mediului ambiant pentru a îmbunătăţi lizibilitatea şi a reduce oboseala ochilor</string>
+  <string name="live_display_mode">Mod afișare</string>
   <string name="live_display_color_temperature_title">Temperatura culorii</string>
+  <string name="live_display_color_temperature_summary">Zi: <xliff:g id="day_temperature">%1$d</xliff:g>K Noapte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Zi</string>
   <string name="live_display_night">Noapte</string>
+  <string name="live_display_outdoor_mode_title">Mod automat în aer liber</string>
+  <string name="live_display_outdoor_mode_summary">Crește luminozitatea și saturația automat în lumina strălucitoare a soarelui</string>
+  <string name="live_display_low_power_title">Redu consumul de energie</string>
+  <string name="live_display_low_power_summary">Reglează afişajul pentru cel mai mic consum de energie fără degradare</string>
+  <string name="live_display_enhance_color_title">Îmbunătățește culori</string>
+  <string name="live_display_enhance_color_summary">Îmbunătățește vibranța culorilor pentru tonuri, peisaje și alte imagini</string>
+  <string name="live_display_color_profile_title">Culoare profil</string>
   <string name="live_display_color_profile_standard_title">65% (normal)</string>
+  <string name="live_display_color_profile_standard_summary">Culori precise și alb luminos</string>
   <string name="live_display_color_profile_natural_title">Natural</string>
+  <string name="live_display_color_profile_natural_summary">Tonuri și culori realiste</string>
+  <string name="live_display_color_profile_dynamic_title">Dinamic</string>
+  <string name="live_display_color_profile_dynamic_summary">Culori îmbunătățite și alb luminos</string>
+  <string name="live_display_color_profile_cinema_title">Cinema</string>
+  <string name="live_display_color_profile_cinema_summary">Reproducere perfectă a culorii pentru video</string>
+  <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+  <string name="live_display_color_profile_astronomy_summary">Roșu închis pentru păstrarea viziunii nocturne</string>
+  <string name="live_display_color_profile_photography_title">Fotografie</string>
+  <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
+  <string name="live_display_color_profile_basic_title">Standard</string>
+  <string name="live_display_color_profile_basic_summary">Utilizați ecranul necalibrat</string>
+  <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+  <string name="live_display_color_profile_adaptive_summary">Culori adaptate la condiţiile ambientale</string>
+  <string name="live_display_color_profile_reading_title">Citire</string>
+  <string name="live_display_color_profile_reading_summary">Culori mai calde pentru reducerea oboselii ochilor</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Culori exacte la spaţiul de culoare sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Culori exacte la spaţiul de culoare DCI-P3</string>
+  <string name="color_calibration_title">Calibrare culoare</string>
+  <string name="color_calibration_summary">Calibrare culori ecran</string>
   <string name="color_red_title">Roșu</string>
   <string name="color_green_title">Verde</string>
   <string name="color_blue_title">Albastru</string>
   <!-- LiveDisplay : Picture Adjustment -->
+  <string name="picture_adjustment_title">Ajustare fotografie</string>
+  <string name="picture_adjustment_summary">Ajustaţi nuanţa, saturaţia, intensitatea şi contrastul</string>
   <string name="adj_hue_title">Tonalitate</string>
   <string name="adj_saturation_title">Saturație</string>
+  <string name="adj_intensity_title">Intensitate</string>
   <!-- Button settings -->
+  <string name="button_pref_title">Butoane</string>
+  <string name="hardware_keys_power_key_title">Buton pornire/oprire</string>
+  <string name="hardware_keys_home_key_title">Buton acasă</string>
+  <string name="hardware_keys_back_key_title">Buton înapoi</string>
   <string name="hardware_keys_menu_key_title">Butonul Meniu</string>
+  <string name="hardware_keys_assist_key_title">Buton căutare</string>
+  <string name="hardware_keys_appswitch_key_title">Buton recente</string>
+  <string name="hardware_keys_camera_key_title">Buton cameră</string>
+  <string name="hardware_keys_volume_keys_title">Butoane Volum</string>
   <string name="hardware_keys_short_press_title">Acțiune apăsare scurtă</string>
   <string name="hardware_keys_long_press_title">Acțiune la atingere lungă</string>
   <string name="hardware_keys_double_tap_title">Acțiune atingere dublă</string>
@@ -169,7 +218,17 @@
   <string name="power_menu_title">Meniu pornire/oprire</string>
   <string name="power_menu_screenshot_title">Captură ecran</string>
   <string name="power_menu_screenshot_summary">Atingere lungă pentru screenshot parțial</string>
+  <string name="power_menu_airplane_title">Mod avion</string>
+  <string name="power_menu_users_title">Comutare utilizatori</string>
+  <string name="power_menu_bug_report_title">Raport de erori</string>
+  <string name="power_menu_bug_report_disabled">Raportarea erorilor este dezactivată în setările pentru dezvoltatori</string>
+  <string name="volume_keys_control_ring_stream_title">Control volum sonerie</string>
+  <string name="volume_keys_control_ring_stream_summary_on">Butoanele de volum controlează volumul tonului de apel</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Butoanele de volum controlează volumul media</string>
+  <string name="camera_double_tap_power_gesture_title">Apăsaţi dublu butonul de alimentare pentru camera foto</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">Deschideți rapid camera foto fără să deblocați ecranul</string>
+  <string name="torch_long_press_power_timeout_title">Oprire automată lanternă</string>
   <string name="torch_long_press_power_timeout_never">Niciodata</string>
   <string name="torch_long_press_power_timeout_1min">1 minut</string>
   <string name="torch_long_press_power_timeout_2min">2 minute</string>
@@ -177,10 +236,48 @@
   <string name="torch_long_press_power_timeout_10min">10 minute</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Ștergeţi</string>
+  <string name="profile_action_none">Lasă neschimbat</string>
+  <string name="profile_action_system">Implicit sistem</string>
+  <string name="profile_action_disable">Oprește</string>
+  <string name="profile_action_enable">Porneşte</string>
+  <string name="profile_trigger_a2dp_connect">La conectarea A2DP</string>
+  <string name="profile_trigger_a2dp_disconnect">La deconectarea A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
+  <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
+  <string name="profile_triggers_header">Declanşatori ce vor activa acest profil</string>
+  <string name="profile_setup_setup_triggers_title">Pasul 1: Adăugați declanșatoare</string>
+  <string name="profile_setup_setup_triggers_title_config">Modificați declanșatoarele: <xliff:g id="profile_name">%1$s</xliff:g></string>
+  <string name="profile_setup_actions_title">Pasul 2: Setare acţiuni</string>
+  <string name="profile_setup_actions_title_config">Reconfigurați acțiunile</string>
+  <string name="wireless_networks_settings_title">Wireless &amp; rețele</string>
   <!-- Profile triggers -->
+  <string name="no_bluetooth_triggers">Niciun dispozitiv Bluetooth împerecheat.\nApăsați pentru conectarea dispozitivului Bluetooth înainte de configurarea declanșatorilor.</string>
+  <string name="no_wifi_triggers">Niciun punct de acces Wi\u2011Fi configurat.\nApăsați pentru a conecta Wi\u2011Fi înainte de configurarea declanșatorilor.</string>
+  <string name="no_triggers_configured">Niciun declanșator configurat. Atingeți pentru a adăuga mai multe.</string>
+  <string name="no_triggers_configured_nfc">Atingeți pentru a configura un nou declanșator NFC.</string>
+  <string name="profile_setup_setup_triggers_description">Selectați declanșatori care vor activa acest profil</string>
+  <string name="profile_setup_actions_description">Acum configuraţi ceea ce se întâmplă atunci când este activat profilul</string>
   <!-- Profiles settings  -->
+  <string name="profiles_settings_title">Profiluri de sistem</string>
   <string name="profiles_add">Adăugaţi</string>
   <string name="profile_menu_delete">Ștergeţi</string>
+  <string name="profile_settings_title">Profil</string>
+  <string name="profile_empty_list_profiles_off">Pentru a configura și folosi sistemul de profiluri, activați profilurile.</string>
+  <string name="profile_settings_summary_off">Profilurile sunt dezactivate</string>
+  <string name="profile_trigger_configure">Configuraţi declanșator</string>
+  <string name="profile_write_nfc_tag">Scrieți într-o etichetă NFC</string>
+  <string name="profile_write_touch_tag">Atingeți eticheta pentru a o scrie</string>
+  <string name="profile_write_success">Scrierea etichetei a reușit</string>
+  <string name="profile_write_failed">Scrierea etichetei a eșuat!</string>
+  <string name="profile_selected">Profil selectat: %1$s</string>
+  <string name="profile_nfc_text">Scrierea unui profil pentru o etichetă NFC vă permite să atingeți eticheta pentru a selecta profilul. Apăsând a doua oară va selecta profilul selectat anterior.</string>
+  <string name="profile_unknown_nfc_tag">Profil necunoscut</string>
+  <string name="profile_add_nfc_text">Eticheta NFC se referă la un profil necunoscut. Atașarea acestei etichete NFC la un profil existent vă va permite să selectați profilul pe viitor.</string>
+  <string name="profile_select">Selectați profilul</string>
+  <string name="profile_remove_dialog_message">Eliminați profilul %1$s?</string>
+  <string name="profile_populate_profile_from_state">Configurați profilul utilizând setările curente ale dispozitivului?</string>
+  <string name="profile_menu_fill_from_state">Importați setările curente ale dispozitivului</string>
   <string name="profile_remove_current_profile">Nu se poate şterge profilul curent!</string>
   <string name="profile_app_group_category_title">Suprascriere notificări</string>
   <string name="profile_app_group_item_instructions">Adăugați sau eliminați grupuri</string>
@@ -235,48 +332,212 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroups_title">Grupuri aplicații</string>
   <string name="profile_applist_title">Aplicații</string>
+  <string name="profile_new_appgroup">Grup nou de aplicații</string>
+  <string name="profile_delete_appgroup">Ștergeți acest grup de aplicații?</string>
+  <string name="profile_appgroup_name_prompt">Introdu un nume pentru noul grup de aplicații</string>
   <string name="profile_appgroup_name_title">Nume: </string>
+  <string name="duplicate_appgroup_name">Nume de grup de aplicații duplicat!</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Alege aplicația</string>
   <!-- Profiles - system settings -->
+  <string name="profile_system_settings_title">Setări sistem</string>
+  <string name="profile_lockmode_title">Modul blocare ecran</string>
+  <string name="profile_lockmode_policy_disabled_summary">Această opțiune a profilului este dezactivată de o politică a administratorului dispozitivului</string>
+  <string name="profile_lockmode_insecure_summary">Nu cere cod PIN sau parolă</string>
+  <string name="profile_lockmode_disabled_summary">Dezactivează ecranul de blocare</string>
+  <string name="profile_airplanemode_title">Mod avion</string>
+  <string name="profile_brightness_title">Luminozitate ecran</string>
+  <string name="profile_brightness_override_summary">Setată la %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">Suprascrie luminozitatea</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
+  <string name="toggleWifiAp">Hotspot Wi\u2011Fi portabil</string>
+  <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
+  <string name="toggleData">Conexiune de date</string>
+  <string name="toggleSync">Auto-sincronizare date</string>
+  <string name="toggle2g3g4g">Tipul preferat de reţea</string>
+  <string name="toggle2g3g4g_msim">Tipul preferat de rețea (%1$s)</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Mod apelare</string>
   <string name="ring_mode_vibrate">Vibrează</string>
   <string name="ring_mode_mute">Dezact. sunetul</string>
+  <string name="ring_volume_title">Volum sonerie</string>
+  <string name="incoming_call_volume_title">Ton de apel</string>
+  <string name="notification_volume_title">Notificare</string>
+  <string name="media_volume_title">Media</string>
+  <string name="alarm_volume_title">Alarmă</string>
+  <string name="doze_title">Afișare ambientală</string>
   <!-- Status bar -->
+  <string name="status_bar_title">Bara de stare</string>
+  <string name="status_bar_quick_qs_pulldown_title">Derulare rapidă în jos</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Marginea %1$s a bării de stare aduce în jos Setările Rapide</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Stânga</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Drepta</string>
   <string name="status_bar_quick_qs_pulldown_off">Oprit</string>
+  <string name="status_bar_quick_qs_pulldown_left">Stânga</string>
+  <string name="status_bar_quick_qs_pulldown_right">Drepta</string>
   <string name="status_bar_double_tap_to_sleep_title">Dublă-apăsare pentru stand-by</string>
   <string name="status_bar_double_tap_to_sleep_summary">Atingeți de două ori bara de stare pentru a dezactiva afișarea</string>
   <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Pictograme bară de stare</string>
+  <string name="status_bar_notif_count_title">Afişare număr de notificări</string>
+  <string name="status_bar_notif_count_summary">Afișează numărul notificărilor în așteptare</string>
+  <string name="status_bar_system_icons_title">Pictograme de sistem</string>
+  <string name="status_bar_system_icons_summary">Controlați care pictograme din bara de stare sunt afișate</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Ceas</string>
+  <string name="status_bar_clock_position_title">Poziţie ceas</string>
+  <string name="status_bar_clock_position_right">Drepta</string>
+  <string name="status_bar_clock_position_left">Stânga</string>
+  <string name="status_bar_clock_position_center">Centru</string>
+  <string name="status_bar_am_pm_title">Stil AM/PM</string>
+  <string name="status_bar_am_pm_info">Format 24 ore activat</string>
+  <string name="status_bar_am_pm_small">Mic</string>
+  <string name="status_bar_am_pm_hidden">Ascuns</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indicator baterie</string>
+  <string name="status_bar_battery_style_title">Stilul stării bateriei</string>
+  <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
+  <string name="status_bar_battery_style_icon_landscape">Pictogramă peisaj</string>
+  <string name="status_bar_battery_style_circle">Cerc</string>
+  <string name="status_bar_battery_style_hidden">Ascuns</string>
   <!-- Status bar - Battery percentage -->
+  <string name="status_bar_battery_percentage_title">Procent baterie</string>
+  <string name="status_bar_battery_percentage_default">Ascuns</string>
+  <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
+  <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Luminozitate</string>
+  <string name="status_bar_brightness_slider_title">Cursor luminozitate</string>
+  <string name="status_bar_brightness_slider_summary">Reglați luminozitatea din Setările Rapide</string>
+  <string name="status_bar_brightness_slider_auto_title">Luminozitate automată</string>
+  <string name="status_bar_brightness_slider_auto_summary">Arată comutatorul pentru luminozitate adaptivă lângă glisor</string>
+  <string name="status_bar_toggle_brightness">Control luminozitate</string>
+  <string name="status_bar_toggle_brightness_summary">Modificare luminozitate prin glisare pe bara de notificări</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_title">Pictograme bară de stare</string>
+  <string name="status_bar_icons_summary">Controlați care pictograme din bara de stare sunt afișate</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_mode_title">Mod afișare</string>
   <string name="network_traffic_mode_disable">Dezactivat</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicații protejate</string>
   <string name="protected_apps_manager_summary">Gestionați care aplicații sunt ascunse după o blocare sigură</string>
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Contribuitori</string>
+  <string name="contributors_cloud_loading_message">Încărcare date contribuitori\u2026</string>
+  <string name="contributors_cloud_failed_message">Nu s-au putut încărca datele contribuitorilor</string>
+  <string name="contributor_info_menu">Informații contribuitori</string>
+  <string name="contributor_info_msg">
+        <![CDATA[<b>Nume:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Pseudonim:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Contribuții:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+  <string name="contributions_info_menu">Informații contribuții</string>
+  <string name="contributions_info_msg">
+        <![CDATA[<b>Total contribuitori:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>Total contribuții:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+                 <b>Ultima actualizare:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
+  <string name="accelerometer_title">Rotire automată a ecranului</string>
+  <string name="display_rotation_title">Setări de rotaţie</string>
+  <string name="display_rotation_enabled">Rotire automată activată</string>
+  <string name="display_rotation_disabled">Rotire automată dezactivată</string>
+  <string name="display_rotation_unit">grade</string>
+  <string name="display_lockscreen_rotation_title">Rotire ecran de blocare</string>
+  <string name="display_rotation_category_title">Moduri de rotire</string>
   <string name="display_rotation_0_title">0 grade</string>
   <string name="display_rotation_90_title">90 de grade</string>
   <string name="display_rotation_180_title">180 de grade</string>
   <string name="display_rotation_270_title">270 de grade</string>
   <!-- Weather -->
+  <string name="weather_settings_title">Vremea</string>
+  <string name="weather_settings_no_services_prompt">Niciun furnizor de servicii meteo instalat</string>
+  <string name="weather_settings_no_services_summary">Instalaţi un furnizor meteo pentru a primi actualizări despre vreme</string>
+  <string name="weather_settings_button">Setări furnizor</string>
+  <string name="weather_settings_activity_not_found">Imposibil de a lansa meniul de setări pentru acest furnizor</string>
+  <string name="weather_settings_add_weather_provider">Adăugați un furnizor meteo</string>
   <string name="weather_settings_general_settings_title">General</string>
+  <string name="weather_settings_providers_title">Furnizori</string>
+  <string name="weather_settings_temp_units_title">Unitate temperatură</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
+  <string name="weather_settings_keyword">meteo</string>
   <string name="status_bar_show_weather_title">Arată vremea</string>
+  <string name="status_bar_show_weather_summary">Afișează temperatura actuală pe bara de stare</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_title">Economizor de baterie și performanță</string>
+  <string name="perf_profile_settings_summary">Ajustați caracteristicile economiei de energie și performanța dispozitivului</string>
+  <string name="perf_profile_overview_summary">Profil curent: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_category_title">Performanță dispozitiv</string>
+  <string name="perf_profile_title">Profil performanță: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_fail_toast">Profilul de performanţă este indisponibil în prezent</string>
+  <string name="power_save_category_title">Economisire baterie</string>
+  <string name="power_save_title">Economisire energie extremă</string>
+  <string name="power_save_summary">Restricționează performanța dispozitivului și activitatea de fundal pentru a salva energie</string>
+  <string name="auto_power_save_title">Economisire energie automată</string>
+  <string name="auto_power_save_summary_on">Activează automat modul de economisire a energiei la %s baterie</string>
+  <string name="auto_power_save_summary_off">Nu activa automat modul de economisire a energiei</string>
+  <string name="app_perf_profiles_title">Optimizare automată</string>
+  <string name="app_perf_profiles_summary">Alege automat un profil de performanță corespunzător pentru aplicații și modelele de utilizare</string>
   <string name="auto_power_save_never">Niciodata</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">Spațiu de lucru extins</string>
+  <string name="expanded_desktop_settings_summary">Extinde spațiul de lucru disponibil prin ascunderea bării de stare, a bării de navigare sau ambele</string>
+  <string name="expanded_desktop_options_title">Opţiuni de personalizare</string>
+  <string name="expanded_desktop_style_title">Stil spațiu de lucru extins</string>
+  <string name="expanded_desktop_style_hide_nothing">Nu ascunde nimic</string>
+  <string name="expanded_desktop_style_hide_status">Ascunde bara de stare</string>
+  <string name="expanded_desktop_style_hide_navigation">Ascunde bara de navigare</string>
+  <string name="expanded_desktop_style_hide_both">Ascunde ambele</string>
+  <string name="expanded_desktop_nothing_to_show_text">Dezactivați comutatorul pentru a personaliza spațiul de lucru extins bazat pe fiecare aplicație</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Sunete de încărcare</string>
   <string name="charging_sounds_enabled_title">Pornit</string>
+  <string name="charging_sounds_enabled_summary">Redă un sunet la conectarea sau deconectarea unei surse de alimentare</string>
   <string name="power_notifications_vibrate_title">Vibrează</string>
+  <string name="charging_sounds_ringtone_title">Sunet notificare</string>
   <string name="charging_sounds_ringtone_silent">Silențios</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Gesturi ecran tactil</string>
+  <string name="touchscreen_gesture_settings_summary">Efectuați diverse gesturi pe ecran pentru acţiuni rapide</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Vibraţii la atingere</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibrează atunci când este detectat un gest de atingere a ecranului</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Glisați în jos cu două degete</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Glisați în sus cu un deget</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Glisați în jos cu un deget</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Glisați în stânga cu un deget</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Glisați în dreapta cu un deget</string>
+  <string name="touchscreen_gesture_up_arrow_title">Desenați un \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Desenați un \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Desenați un \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Desenați un \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Desenați litera \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Desenați litera \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Desenați litera \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Desenați litera \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Desenați litera \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Desenați litera \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Desenați litera \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Desenați litera \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Glisați în sus cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Glisați în jos cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Glisați în stânga cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Glisați în dreapta cu stylus-ul</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Apăsaţi lung cu stylus-ul</string>
+  <string name="touchscreen_gesture_action_dialog_title">Acțiune gest</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nicio acţiune</string>
+  <string name="touchscreen_gesture_action_flashlight">Comutare lanternă</string>
+  <string name="touchscreen_gesture_action_camera">Deschide camera</string>
+  <string name="touchscreen_gesture_action_browser">Deschide browser-ul</string>
+  <string name="touchscreen_gesture_action_dialer">Deschide telefonul</string>
+  <string name="touchscreen_gesture_action_email">Vizualizare email-uri</string>
+  <string name="touchscreen_gesture_action_messages">Vizualizare mesaje</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Redare/pauză muzică</string>
+  <string name="touchscreen_gesture_action_previous_track">Navigaţi la piesa anterioară</string>
+  <string name="touchscreen_gesture_action_next_track">Treceți la următoarea piesă</string>
+  <string name="touchscreen_gesture_action_volume_down">Micșorează volumul media</string>
+  <string name="touchscreen_gesture_action_volume_up">Mărește volumul media</string>
 </resources>
