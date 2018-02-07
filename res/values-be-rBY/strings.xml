@@ -529,6 +529,7 @@
   <string name="touchscreen_gesture_letter_w_title">Намалюйце літару \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Намалюйце літару \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Правесці ўверх сцілусам</string>
   <string name="touchscreen_gesture_action_dialog_title">Жэсты</string>
   <string name="touchscreen_gesture_action_do_nothing">Нічога не рабіць</string>
   <string name="touchscreen_gesture_action_flashlight">Уключыць або выключыць ліхтарык</string>
