@@ -530,6 +530,10 @@
   <string name="touchscreen_gesture_letter_z_title">Намалюйце літару \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_swipe_up_stylus_title">Правесці ўверх сцілусам</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Правесці ўніз сцілусам</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Правесці ўлева сцілусам</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Правесці ўправа сцілусам</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Доўгі націск сцілусам</string>
   <string name="touchscreen_gesture_action_dialog_title">Жэсты</string>
   <string name="touchscreen_gesture_action_do_nothing">Нічога не рабіць</string>
   <string name="touchscreen_gesture_action_flashlight">Уключыць або выключыць ліхтарык</string>
@@ -541,4 +545,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Прайграванне/паўза музыкі</string>
   <string name="touchscreen_gesture_action_previous_track">Пераход да папярэдняй музычнай дарожцы</string>
   <string name="touchscreen_gesture_action_next_track">Пераход да наступнай музычнай дарожцы</string>
+  <string name="touchscreen_gesture_action_volume_down">Паменшыць гучнасць мультымедыя</string>
+  <string name="touchscreen_gesture_action_volume_up">Павялічыць гучнасць мультымедыя</string>
 </resources>
