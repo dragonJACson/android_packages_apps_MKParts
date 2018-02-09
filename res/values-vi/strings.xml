@@ -30,7 +30,7 @@
   <string name="name">Tên: </string>
   <string name="back">Quay lại</string>
   <string name="finish">Kết thúc</string>
-  <string name="next">Tới</string>
+  <string name="next">Tiếp theo</string>
   <string name="on">Bật</string>
   <string name="off">Tắt</string>
   <string name="yes">Có</string>
@@ -522,7 +522,7 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Âm thanh sạc</string>
   <string name="charging_sounds_enabled_title">Kích hoạt</string>
-  <string name="charging_sounds_enabled_summary">Phát một âm báo khi cắm sạc hoặc rút sạc</string>
+  <string name="charging_sounds_enabled_summary">Phát âm báo khi cắm sạc hoặc rút sạc</string>
   <string name="power_notifications_vibrate_title">Rung</string>
   <string name="charging_sounds_ringtone_title">Âm thanh thông báo</string>
   <string name="charging_sounds_ringtone_silent">Im lặng</string>
