@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2012-2015 The CyanogenMod Project
      Copyright (C) 2017-2018 The LineageOS Project
+     Copyright (C) 2017-2018 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -382,16 +383,16 @@
 
     <!-- Supported accent packages -->
     <string-array name="accent_packages" translatable="false">
-        <item>org.lineageos.overlay.accent.red</item>
-        <item>org.lineageos.overlay.accent.pink</item>
-        <item>org.lineageos.overlay.accent.purple</item>
-        <item>org.lineageos.overlay.accent.blue</item>
-        <item>org.lineageos.overlay.accent.cyan</item>
-        <item>org.lineageos.overlay.accent.green</item>
-        <item>org.lineageos.overlay.accent.orange</item>
-        <item>org.lineageos.overlay.accent.yellow</item>
-        <item>org.lineageos.overlay.accent.brown</item>
-        <item>org.lineageos.overlay.accent.black</item>
+        <item>org.mokee.overlay.accent.red</item>
+        <item>org.mokee.overlay.accent.pink</item>
+        <item>org.mokee.overlay.accent.purple</item>
+        <item>org.mokee.overlay.accent.blue</item>
+        <item>org.mokee.overlay.accent.cyan</item>
+        <item>org.mokee.overlay.accent.green</item>
+        <item>org.mokee.overlay.accent.orange</item>
+        <item>org.mokee.overlay.accent.yellow</item>
+        <item>org.mokee.overlay.accent.brown</item>
+        <item>org.mokee.overlay.accent.black</item>
     </string-array>
 
 </resources>

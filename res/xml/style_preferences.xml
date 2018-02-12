@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <lineageos.preference.LineageSystemSettingListPreference
+    <mokee.preference.MKSystemSettingListPreference
         android:defaultValue="0"
         android:entries="@array/style_entries"
         android:entryValues="@array/style_values"

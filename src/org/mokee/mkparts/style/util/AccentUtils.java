@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.lineageparts.style.util;
+package org.mokee.mkparts.style.util;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -25,17 +25,17 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.lineageos.lineageparts.R;
-import org.lineageos.lineageparts.style.models.Accent;
-import org.lineageos.lineageparts.style.models.StyleStatus;
+import org.mokee.mkparts.R;
+import org.mokee.mkparts.style.models.Accent;
+import org.mokee.mkparts.style.models.StyleStatus;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public final class AccentUtils {
     private static final String TAG = "AccentUtils";
-    private static final String METADATA_COLOR = "lineage_berry_accent_preview";
-    private static final String METADATA_SUPPORTED_STYLES = "lineage_berry_accent_supported_styles";
+    private static final String METADATA_COLOR = "mokee_berry_accent_preview";
+    private static final String METADATA_SUPPORTED_STYLES = "mokee_berry_accent_supported_styles";
     private static final String METADATA_STYLE_DEFAULT = "dark|light";
     private static final String METADATA_STYLE_DARK = "dark";
     private static final String METADATA_STYLE_LIGHT = "light";

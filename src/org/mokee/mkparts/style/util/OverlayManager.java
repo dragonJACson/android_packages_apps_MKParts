@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.lineageparts.style.util;
+package org.mokee.mkparts.style.util;
 
 import android.content.Context;
 import android.content.om.IOverlayManager;

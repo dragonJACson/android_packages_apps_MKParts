@@ -218,8 +218,8 @@
             android:label="@string/style_title"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="-3">
-                <action android:name="org.lineageos.lineageparts.action.SETTINGS" />
-                <action android:name="org.lineageos.lineageparts.STYLE_SETTINGS" />
+                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+                <action android:name="org.mokee.mkparts.STYLE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.lineageparts.style;
+package org.mokee.mkparts.style;
 
 import android.Manifest;
 import android.app.Activity;
@@ -36,19 +36,19 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.lineageos.lineageparts.R;
-import org.lineageos.lineageparts.SettingsPreferenceFragment;
-import org.lineageos.lineageparts.style.models.Accent;
-import org.lineageos.lineageparts.style.models.Style;
-import org.lineageos.lineageparts.style.models.StyleStatus;
-import org.lineageos.lineageparts.style.util.AccentAdapter;
-import org.lineageos.lineageparts.style.util.AccentUtils;
-import org.lineageos.lineageparts.style.util.OverlayManager;
-import org.lineageos.lineageparts.style.util.UIUtils;
+import org.mokee.mkparts.R;
+import org.mokee.mkparts.SettingsPreferenceFragment;
+import org.mokee.mkparts.style.models.Accent;
+import org.mokee.mkparts.style.models.Style;
+import org.mokee.mkparts.style.models.StyleStatus;
+import org.mokee.mkparts.style.util.AccentAdapter;
+import org.mokee.mkparts.style.util.AccentUtils;
+import org.mokee.mkparts.style.util.OverlayManager;
+import org.mokee.mkparts.style.util.UIUtils;
 
 import java.util.List;
 
-import lineageos.providers.LineageSettings;
+import mokee.providers.MKSettings;
 
 public class StylePreferences extends SettingsPreferenceFragment {
     private static final String TAG = "StylePreferences";
@@ -100,8 +100,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
     }
 
     private void setupAccentPref() {
-        String currentAccent = LineageSettings.System.getString(getContext().getContentResolver(),
-                LineageSettings.System.BERRY_CURRENT_ACCENT);
+        String currentAccent = MKSettings.System.getString(getContext().getContentResolver(),
+                MKSettings.System.BERRY_CURRENT_ACCENT);
         try {
             updateAccentPref(AccentUtils.getAccent(getContext(), currentAccent));
         } catch (PackageManager.NameNotFoundException e) {
@@ -110,8 +110,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
     }
 
     private void onAccentSelected(Accent accent) {
-        String previousAccent = LineageSettings.System.getString(getContext().getContentResolver(),
-                LineageSettings.System.BERRY_CURRENT_ACCENT);
+        String previousAccent = MKSettings.System.getString(getContext().getContentResolver(),
+                MKSettings.System.BERRY_CURRENT_ACCENT);
 
         OverlayManager om = new OverlayManager(getContext());
         if (!TextUtils.isEmpty(previousAccent)) {
@@ -119,8 +119,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
             om.setEnabled(previousAccent, false);
         }
 
-        LineageSettings.System.putString(getContext().getContentResolver(),
-                LineageSettings.System.BERRY_CURRENT_ACCENT, accent.getPackageName());
+        MKSettings.System.putString(getContext().getContentResolver(),
+                MKSettings.System.BERRY_CURRENT_ACCENT, accent.getPackageName());
 
         if (!TextUtils.isEmpty(accent.getPackageName())) {
             // Enable new theme
@@ -174,8 +174,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
     }
 
     private void setupStylePref() {
-        int preference = LineageSettings.System.getInt(getContext().getContentResolver(),
-                LineageSettings.System.BERRY_GLOBAL_STYLE, INDEX_WALLPAPER);
+        int preference = MKSettings.System.getInt(getContext().getContentResolver(),
+                MKSettings.System.BERRY_GLOBAL_STYLE, INDEX_WALLPAPER);
 
         setStyleIcon(preference);
         switch (preference) {
@@ -193,8 +193,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
 
     private void applyStyle(Style style) {
         int value = style.isLight() ? INDEX_LIGHT : INDEX_DARK;
-        LineageSettings.System.putInt(getContext().getContentResolver(),
-            LineageSettings.System.BERRY_GLOBAL_STYLE, value);
+        MKSettings.System.putInt(getContext().getContentResolver(),
+            MKSettings.System.BERRY_GLOBAL_STYLE, value);
 
         onStyleChange(mStylePref, value);
         onAccentSelected(style.getAccent());
@@ -222,8 +222,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
             return false;
         }
 
-        LineageSettings.System.putInt(getContext().getContentResolver(),
-                LineageSettings.System.BERRY_GLOBAL_STYLE, value);
+        MKSettings.System.putInt(getContext().getContentResolver(),
+                MKSettings.System.BERRY_GLOBAL_STYLE, value);
 
         setStyleIcon(value);
         return true;
@@ -250,8 +250,8 @@ public class StylePreferences extends SettingsPreferenceFragment {
     }
 
     private boolean checkAccentCompatibility(int value) {
-        String currentAccentPkg = LineageSettings.System.getString(
-                getContext().getContentResolver(), LineageSettings.System.BERRY_CURRENT_ACCENT);
+        String currentAccentPkg = MKSettings.System.getString(
+                getContext().getContentResolver(), MKSettings.System.BERRY_CURRENT_ACCENT);
         StyleStatus supportedStatus;
         try {
             supportedStatus = AccentUtils.getAccent(getContext(), currentAccentPkg)
