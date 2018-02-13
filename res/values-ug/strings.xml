@@ -126,4 +126,9 @@
   <string name="power_notifications_vibrate_title">تىترەت</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">ئۇسلۇب</string>
+  <string name="style_global_title">ئۇسلۇب</string>
+  <string name="style_global_entry_dark">قاراڭغۇ</string>
+  <string name="style_automagic_dialog_positive">قوللان</string>
 </resources>

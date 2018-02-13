@@ -488,8 +488,6 @@
   <string name="auto_power_save_title">Penghemat daya otomatis</string>
   <string name="auto_power_save_summary_on">Otomatis mengaktifkan mode hemat daya saat %s baterai</string>
   <string name="auto_power_save_summary_off">Jangan hidupkan mode hemat daya otomatis</string>
-  <string name="app_perf_profiles_title">Otomatis optimasi</string>
-  <string name="app_perf_profiles_summary">Otomatis memilih profil performa sesuai untuk berbagai aplikasi</string>
   <string name="auto_power_save_never">Tidak pernah</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Desktop diperluas</string>
@@ -549,4 +547,11 @@
   <string name="touchscreen_gesture_action_next_track">Lanjut ke trek musik berikutnya</string>
   <string name="touchscreen_gesture_action_volume_down">Lower media volume</string>
   <string name="touchscreen_gesture_action_volume_up">Tingkatkan media volume</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Gaya</string>
+  <string name="style_global_title">Gaya</string>
+  <string name="style_global_entry_light">Terang</string>
+  <string name="style_global_entry_dark">Suram</string>
+  <string name="style_automagic_dialog_positive">Terapkan</string>
+  <string name="style_accent_default_name">Bawaan</string>
 </resources>

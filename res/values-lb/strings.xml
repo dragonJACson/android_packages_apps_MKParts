@@ -119,4 +119,10 @@
   <string name="charging_sounds_ringtone_silent">Roueg</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stil</string>
+  <string name="style_global_title">Stil</string>
+  <string name="style_global_entry_dark">Däischter</string>
+  <string name="style_automagic_dialog_positive">Applizéieren</string>
+  <string name="style_accent_default_name">Standard</string>
 </resources>

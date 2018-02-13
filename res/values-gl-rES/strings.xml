@@ -109,4 +109,9 @@
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Estilo</string>
+  <string name="style_global_title">Estilo</string>
+  <string name="style_global_entry_dark">Escuro</string>
+  <string name="style_automagic_dialog_positive">Aplicar</string>
 </resources>

@@ -506,8 +506,6 @@
   <string name="auto_power_save_title">Automatický úsporný režim</string>
   <string name="auto_power_save_summary_on">Automatické zapnutie úsporného režimu pri %s batérie</string>
   <string name="auto_power_save_summary_off">Nepovoliť automatický režim zníženia spotreby</string>
-  <string name="app_perf_profiles_title">Automatická optimalizácia</string>
-  <string name="app_perf_profiles_summary">Automaticky vybrať príslušný profil výkonu pre aplikácie a spôsobu používania</string>
   <string name="auto_power_save_never">Nikdy</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Rozšírená plocha</string>
@@ -567,4 +565,11 @@
   <string name="touchscreen_gesture_action_next_track">Preskočiť na ďalšiu skladbu</string>
   <string name="touchscreen_gesture_action_volume_down">Zníženie hlasitosti médií</string>
   <string name="touchscreen_gesture_action_volume_up">Zvýšenie hlasitosti médií</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Štýl</string>
+  <string name="style_global_title">Štýl</string>
+  <string name="style_global_entry_light">Svetlá</string>
+  <string name="style_global_entry_dark">Tmavý</string>
+  <string name="style_automagic_dialog_positive">Použiť</string>
+  <string name="style_accent_default_name">Predvolený</string>
 </resources>

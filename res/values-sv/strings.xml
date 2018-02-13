@@ -364,7 +364,6 @@
   <string name="power_save_category_title">Batterisparläge</string>
   <string name="power_save_title">Extrem energisparare</string>
   <string name="auto_power_save_title">Automatisk strömsparare</string>
-  <string name="app_perf_profiles_title">Automatisk optimering</string>
   <string name="auto_power_save_never">Aldrig</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Utökat skrivbord</string>
@@ -409,4 +408,11 @@
   <string name="touchscreen_gesture_action_play_pause_music">Spela/pausa musikuppspelning</string>
   <string name="touchscreen_gesture_action_previous_track">Navigera till föregående musikspår</string>
   <string name="touchscreen_gesture_action_next_track">Hoppa till nästa musikspår</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Stil</string>
+  <string name="style_global_title">Stil</string>
+  <string name="style_global_entry_light">Ljus</string>
+  <string name="style_global_entry_dark">Mörk</string>
+  <string name="style_automagic_dialog_positive">Använd</string>
+  <string name="style_accent_default_name">Standard</string>
 </resources>

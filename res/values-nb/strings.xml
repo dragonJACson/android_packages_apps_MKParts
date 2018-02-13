@@ -279,8 +279,6 @@
   <string name="auto_power_save_title">Automatisk strømsparing</string>
   <string name="auto_power_save_summary_on">Aktiverer strømsparing automatisk på %s batteri</string>
   <string name="auto_power_save_summary_off">Ikke slå på strømsparingsmodus automatisk</string>
-  <string name="app_perf_profiles_title">Automatisk optimalisering</string>
-  <string name="app_perf_profiles_summary">Velg automatisk en riktig ytelsesprofil for applikasjoner og bruksmønster</string>
   <string name="auto_power_save_never">Aldri</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Utvidet skrivebord</string>
@@ -298,4 +296,10 @@
   <string name="charging_sounds_ringtone_silent">Stille</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stil</string>
+  <string name="style_global_title">Stil</string>
+  <string name="style_global_entry_dark">Mørkt</string>
+  <string name="style_automagic_dialog_positive">Bruk</string>
+  <string name="style_accent_default_name">Standard</string>
 </resources>

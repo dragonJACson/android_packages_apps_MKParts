@@ -493,8 +493,6 @@
   <string name="auto_power_save_title">Automatische energiebesparing</string>
   <string name="auto_power_save_summary_on">Energiebesparende modus automatisch inschakelen op %s accu</string>
   <string name="auto_power_save_summary_off">Energiebesparende modus niet automatisch inschakelen</string>
-  <string name="app_perf_profiles_title">Automatische optimalisatie</string>
-  <string name="app_perf_profiles_summary">Automatisch een passend prestatieprofiel kiezen voor verschillende apps en gebruikspatronen</string>
   <string name="auto_power_save_never">Nooit</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Uitgebreid bureaublad</string>
@@ -554,4 +552,11 @@
   <string name="touchscreen_gesture_action_next_track">Spring naar volgende muziek nummer</string>
   <string name="touchscreen_gesture_action_volume_down">Geluidssterkte verlagen</string>
   <string name="touchscreen_gesture_action_volume_up">Geluidssterkte verhogen</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Stijl</string>
+  <string name="style_global_title">Stijl</string>
+  <string name="style_global_entry_light">Licht</string>
+  <string name="style_global_entry_dark">Donker</string>
+  <string name="style_automagic_dialog_positive">Toepassen</string>
+  <string name="style_accent_default_name">Standaard</string>
 </resources>

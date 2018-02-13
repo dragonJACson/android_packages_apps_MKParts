@@ -163,4 +163,11 @@
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Повратне информације</string>
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Стил</string>
+  <string name="style_global_title">Стил</string>
+  <string name="style_global_entry_light">Светло</string>
+  <string name="style_global_entry_dark">Мрак</string>
+  <string name="style_automagic_dialog_positive">Примени</string>
+  <string name="style_accent_default_name">Подразумевано</string>
 </resources>

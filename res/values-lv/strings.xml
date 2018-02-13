@@ -104,4 +104,8 @@
   <string name="power_notifications_vibrate_title">Vibrēt</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stils</string>
+  <string name="style_global_title">Stils</string>
+  <string name="style_automagic_dialog_positive">Lietot</string>
 </resources>

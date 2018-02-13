@@ -507,8 +507,6 @@
   <string name="auto_power_save_title">Автоматическое энергосбережение</string>
   <string name="auto_power_save_summary_on">Автоматически включать энергосбережение на %s батареи</string>
   <string name="auto_power_save_summary_off">Не включать энергосбережение автоматически</string>
-  <string name="app_perf_profiles_title">Автоматическая оптимизация</string>
-  <string name="app_perf_profiles_summary">Автоматически переключать профиль производительности в зависимости от приложения</string>
   <string name="auto_power_save_never">Не включать</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Режим расширенного экрана</string>
@@ -568,4 +566,18 @@
   <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
   <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость мультимедиа</string>
   <string name="touchscreen_gesture_action_volume_up">Увеличить громкость мультимедиа</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Стиль</string>
+  <string name="style_summary">Выбор системных цветов</string>
+  <string name="style_global_title">Стиль</string>
+  <string name="style_global_entry_automatic">Автоматически (обои)</string>
+  <string name="style_global_entry_light">Светлая</string>
+  <string name="style_global_entry_dark">Темнота</string>
+  <string name="style_global_entry_time">Автоматически (время суток)</string>
+  <string name="style_accent_title">Основной цвет</string>
+  <string name="style_accent_configuration_positive">Продолжить</string>
+  <string name="style_automagic_description">Настройте стиль, чтобы он соответствовал вашим обоям</string>
+  <string name="style_automagic_dialog_positive">Применить</string>
+  <string name="style_accent_default_name">По умолчанию</string>
+  <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
 </resources>

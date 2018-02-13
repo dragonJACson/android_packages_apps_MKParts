@@ -95,4 +95,8 @@
   <string name="power_notifications_vibrate_title">Dridhu</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stili</string>
+  <string name="style_global_title">Stili</string>
+  <string name="style_automagic_dialog_positive">Zbato</string>
 </resources>

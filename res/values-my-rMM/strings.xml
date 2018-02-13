@@ -91,4 +91,8 @@
   <string name="charging_sounds_ringtone_silent">အသံတိတ်</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">စတိုင်လ်</string>
+  <string name="style_global_title">စတိုင်လ်</string>
+  <string name="style_automagic_dialog_positive">လုပ်ဆောင်ရန်</string>
 </resources>

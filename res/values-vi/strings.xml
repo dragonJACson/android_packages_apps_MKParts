@@ -506,8 +506,6 @@
   <string name="auto_power_save_title">Trình tiết kiệm pin tự động</string>
   <string name="auto_power_save_summary_on">Tự động kích hoạt chế độ tiết kiệm pin tại mức %s</string>
   <string name="auto_power_save_summary_off">Không cho phép chế độ tiết kiệm pin tự động</string>
-  <string name="app_perf_profiles_title">Tự động tối ưu hóa</string>
-  <string name="app_perf_profiles_summary">Tự động chọn một cấu hình hiệu năng thích hợp cho các ứng dụng và các mẫu sử dụng</string>
   <string name="auto_power_save_never">Không bao giờ</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Mở rộng màn hình</string>
@@ -567,4 +565,11 @@
   <string name="touchscreen_gesture_action_next_track">Bỏ qua bài kế tiếp</string>
   <string name="touchscreen_gesture_action_volume_down">Âm lượng phương tiện thấp hơn</string>
   <string name="touchscreen_gesture_action_volume_up">Âm lượng phương tiện cao hơn</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Kiểu</string>
+  <string name="style_global_title">Kiểu</string>
+  <string name="style_global_entry_light">Sáng</string>
+  <string name="style_global_entry_dark">Tối</string>
+  <string name="style_automagic_dialog_positive">Áp dụng</string>
+  <string name="style_accent_default_name">Mặc định</string>
 </resources>

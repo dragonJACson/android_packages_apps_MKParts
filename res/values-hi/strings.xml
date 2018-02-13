@@ -108,4 +108,9 @@
   <string name="power_notifications_vibrate_title">कंपन करें</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">शैली</string>
+  <string name="style_global_title">शैली</string>
+  <string name="style_global_entry_light">हल्का</string>
+  <string name="style_automagic_dialog_positive">*</string>
 </resources>

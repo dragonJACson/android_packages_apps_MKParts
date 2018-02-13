@@ -506,8 +506,6 @@
   <string name="auto_power_save_title">Otomatik pil tasarrufu</string>
   <string name="auto_power_save_summary_on">Pil %s olduğunda pil tasarruf modunu otomatik olarak aktive et</string>
   <string name="auto_power_save_summary_off">Pil tasarrufu modunu otomatik olarak etkinleştirme</string>
-  <string name="app_perf_profiles_title">Otomatik optimizasyon</string>
-  <string name="app_perf_profiles_summary">Uygun performans profilini çeşitli uygulamalar ve kullanım senaryoları için otomatik olarak seç</string>
   <string name="auto_power_save_never">Asla</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Genişletilmiş masaüstü</string>
@@ -567,4 +565,11 @@
   <string name="touchscreen_gesture_action_next_track">Sonraki şarkıya geç</string>
   <string name="touchscreen_gesture_action_volume_down">Medya sesini düşür</string>
   <string name="touchscreen_gesture_action_volume_up">Medya sesini yükselt</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Stil</string>
+  <string name="style_global_title">Stil</string>
+  <string name="style_global_entry_light">Açık</string>
+  <string name="style_global_entry_dark">Koyu</string>
+  <string name="style_automagic_dialog_positive">Uygula</string>
+  <string name="style_accent_default_name">Varsayılan</string>
 </resources>

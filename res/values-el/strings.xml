@@ -174,4 +174,11 @@
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Απτική ανάδραση</string>
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Στυλ</string>
+  <string name="style_global_title">Στυλ</string>
+  <string name="style_global_entry_light">Φωτεινό</string>
+  <string name="style_global_entry_dark">Σκοτάδι</string>
+  <string name="style_automagic_dialog_positive">Εφαρμογή</string>
+  <string name="style_accent_default_name">Προεπιλογή</string>
 </resources>

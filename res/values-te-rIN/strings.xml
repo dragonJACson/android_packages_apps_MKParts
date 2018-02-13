@@ -107,4 +107,9 @@
   <string name="power_notifications_vibrate_title">వైబ్రేట్</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">శైలి</string>
+  <string name="style_global_title">శైలి</string>
+  <string name="style_global_entry_dark">ముదురు రంగు</string>
+  <string name="style_automagic_dialog_positive">వర్తింపజేయి</string>
 </resources>

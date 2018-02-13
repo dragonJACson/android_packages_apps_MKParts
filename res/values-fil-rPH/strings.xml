@@ -496,8 +496,6 @@
   <string name="auto_power_save_title">Awtomatikong power save</string>
   <string name="auto_power_save_summary_on">Awtomatikong magpagana ng power save mode sa %s baterya</string>
   <string name="auto_power_save_summary_off">Huwag paganahin ang save mode ng awtomatiko</string>
-  <string name="app_perf_profiles_title">Awtomatikong optimization</string>
-  <string name="app_perf_profiles_summary">Automatikong pumili ng isang nararapat na performce profile para sa mga aplikasyon at paggamit ng mga pattern</string>
   <string name="auto_power_save_never">Hindi kailanman</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">I-expand ang desktop</string>
@@ -557,4 +555,11 @@
   <string name="touchscreen_gesture_action_next_track">Laktawin ang susunod na music track</string>
   <string name="touchscreen_gesture_action_volume_down">Mas mababang dami ng media volume</string>
   <string name="touchscreen_gesture_action_volume_up">I-raise ang media volume</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Estilo</string>
+  <string name="style_global_title">Estilo</string>
+  <string name="style_global_entry_light">Liwanag</string>
+  <string name="style_global_entry_dark">Madalim</string>
+  <string name="style_automagic_dialog_positive">Ilagay</string>
+  <string name="style_accent_default_name">Pangunahin</string>
 </resources>

@@ -202,4 +202,11 @@
   <string name="charging_sounds_ringtone_silent">صامت</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">النمط</string>
+  <string name="style_global_title">النمط</string>
+  <string name="style_global_entry_light">فاتح</string>
+  <string name="style_global_entry_dark">داكن</string>
+  <string name="style_automagic_dialog_positive">تطبيق</string>
+  <string name="style_accent_default_name">الإفتراضي</string>
 </resources>

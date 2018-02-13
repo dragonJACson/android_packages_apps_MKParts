@@ -478,8 +478,6 @@
   <string name="auto_power_save_title">Автоматичена икономия на енергия</string>
   <string name="auto_power_save_summary_on">Автоматично да се активира режима за енергоспестяване при %s на батерията</string>
   <string name="auto_power_save_summary_off">Не разрешавай автоматичния режим енергоспестяване</string>
-  <string name="app_perf_profiles_title">Автоматична оптимизация</string>
-  <string name="app_perf_profiles_summary">Автоматичен избор на подходящ профил на производителност за различните приложения</string>
   <string name="auto_power_save_never">Никога</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Разширен екран</string>
@@ -529,4 +527,10 @@
   <string name="touchscreen_gesture_action_dialer">Отворяне на телефон</string>
   <string name="touchscreen_gesture_action_email">Преглед на имейли</string>
   <string name="touchscreen_gesture_action_messages">Преглед на съобщения</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Стил</string>
+  <string name="style_global_title">Стил</string>
+  <string name="style_global_entry_dark">Тъмен</string>
+  <string name="style_automagic_dialog_positive">Прилагане</string>
+  <string name="style_accent_default_name">По подразбиране</string>
 </resources>

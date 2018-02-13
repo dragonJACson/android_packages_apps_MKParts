@@ -494,8 +494,6 @@
   <string name="auto_power_save_title">Économie d\'énergie automatique</string>
   <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint%s</string>
   <string name="auto_power_save_summary_off">Ne pas activer automatiquement le mode d\'économie d\'énergie</string>
-  <string name="app_perf_profiles_title">Optimisation automatique</string>
-  <string name="app_perf_profiles_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications et scenarios d\'utilisation</string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Bureau étendu</string>
@@ -555,4 +553,11 @@
   <string name="touchscreen_gesture_action_next_track">Piste de musique suivante</string>
   <string name="touchscreen_gesture_action_volume_down">Diminuer le volume du média</string>
   <string name="touchscreen_gesture_action_volume_up">Augmenter le volume du média</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Style</string>
+  <string name="style_global_title">Style</string>
+  <string name="style_global_entry_light">Clair</string>
+  <string name="style_global_entry_dark">Sombre</string>
+  <string name="style_automagic_dialog_positive">Appliquer</string>
+  <string name="style_accent_default_name">Défaut</string>
 </resources>

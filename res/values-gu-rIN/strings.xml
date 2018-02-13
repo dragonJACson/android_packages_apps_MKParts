@@ -107,4 +107,9 @@
   <string name="power_notifications_vibrate_title">વાઇબ્રેટ</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">શૈલી</string>
+  <string name="style_global_title">શૈલી</string>
+  <string name="style_global_entry_dark">ઘાટું</string>
+  <string name="style_automagic_dialog_positive">લાગુ કરો</string>
 </resources>

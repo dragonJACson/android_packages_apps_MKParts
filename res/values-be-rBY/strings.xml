@@ -77,7 +77,9 @@
   <string name="pulse_speed_slow">Павольна</string>
   <string name="pulse_speed_very_slow">Вельмі павольна</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_title">Узровень яркасці</string>
   <string name="light_brightness_normal">Звычайны</string>
+  <string name="light_brightness_zen">Не турбаваць</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Індыкатар батарэі</string>
   <string name="battery_low_pulse_title">Мігцець падчас нізкага ўзроўню зараду</string>
@@ -197,6 +199,8 @@
   <string name="volume_answer_call_summary">Адказваць на выклік клавішамі гучнасьці</string>
   <string name="home_answer_call_title">Адказваць на выклікі</string>
   <string name="home_answer_call_summary">Адказваць на выклік клавішай Хатоўка</string>
+  <string name="extras_title">Дапаўненні</string>
+  <string name="additional_buttons_title">Дадатковыя кнопкі</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Падсвечванне</string>
   <string name="button_backlight_enabled">Падсвечванне кнопак</string>
@@ -429,8 +433,22 @@
   <string name="status_bar_icons_title">Значкі ў радку стану</string>
   <string name="status_bar_icons_summary">Налада выгляду цэтлікаў</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_settings_title">Індыкатар сеткавага трафіку</string>
+  <string name="network_traffic_settings_summary">Паказаць бягучыя ўзроўні сеткавага трафіку ў радку стану</string>
   <string name="network_traffic_mode_title">Рэжым прагляду</string>
   <string name="network_traffic_mode_disable">Выключана</string>
+  <string name="network_traffic_mode_up">Толькі выходны</string>
+  <string name="network_traffic_mode_down">Толькі ўваходны</string>
+  <string name="network_traffic_mode_all">Выходны і ўваходны</string>
+  <string name="network_traffic_autohide">Хаваць аўтаматычна</string>
+  <string name="network_traffic_autohide_summary">Хаваць індыкатар трафіку, калі няма актыўнасці</string>
+  <string name="network_traffic_units_title">Адзінкі вымярэння трафіку</string>
+  <string name="network_traffic_units_kilobits">Кілабіт у секунду (кБ/с)</string>
+  <string name="network_traffic_units_megabits">Мегабіт у секунду (Мб/с)</string>
+  <string name="network_traffic_units_kilobytes">Кілабайт у секунду (КБ/с)</string>
+  <string name="network_traffic_units_megabytes">Мегабайт у секунду (МБ/с)</string>
+  <string name="network_traffic_show_units">Паказаць адзінкі</string>
+  <string name="network_traffic_show_units_summary">Паказваць хуткасць перадачы дадзеных у радку стану</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Заблакаваць дадаткі</string>
   <string name="protected_apps_manager_summary">Кіраванне праграмамі, для запуску якіх патрабуецца ўвод пароля</string>
@@ -488,8 +506,6 @@
   <string name="auto_power_save_title">Аўтаматычнае энергазберажэнне</string>
   <string name="auto_power_save_summary_on">Аўтаматычна ўключаць энергазберажэнне на %s батарэі</string>
   <string name="auto_power_save_summary_off">Не ўключаць энергазберажэнне аўтаматычна</string>
-  <string name="app_perf_profiles_title">Аўтаматычная аптымізацыя</string>
-  <string name="app_perf_profiles_summary">Аўтаматычна пераключаць профіль прадукцыйнасці ў залежнасці ад праграмы</string>
   <string name="auto_power_save_never">Ніколі</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Рэжым пашыранага экрану</string>
@@ -549,4 +565,18 @@
   <string name="touchscreen_gesture_action_next_track">Пераход да наступнай музычнай дарожцы</string>
   <string name="touchscreen_gesture_action_volume_down">Паменшыць гучнасць мультымедыя</string>
   <string name="touchscreen_gesture_action_volume_up">Павялічыць гучнасць мультымедыя</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Стыль</string>
+  <string name="style_summary">Выбар сістэмных колераў</string>
+  <string name="style_global_title">Стыль</string>
+  <string name="style_global_entry_automatic">Аўтаматычны (шпалеры)</string>
+  <string name="style_global_entry_light">Светлая</string>
+  <string name="style_global_entry_dark">Цемра</string>
+  <string name="style_global_entry_time">Аўтаматычны (час сутак)</string>
+  <string name="style_accent_title">Асноўны колер</string>
+  <string name="style_accent_configuration_positive">Працягнуць</string>
+  <string name="style_automagic_description">Наладзьце стыль, каб ён адпавядаў вашым шпалерам</string>
+  <string name="style_automagic_dialog_positive">Ужыць</string>
+  <string name="style_accent_default_name">Па змаўчанні</string>
+  <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>
 </resources>

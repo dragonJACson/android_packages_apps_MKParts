@@ -113,4 +113,9 @@
   <string name="power_notifications_vibrate_title">വൈബ്രേറ്റുചെയ്യുക</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">സ്റ്റൈൽ</string>
+  <string name="style_global_title">സ്റ്റൈൽ</string>
+  <string name="style_global_entry_dark">ഇരുണ്ട</string>
+  <string name="style_automagic_dialog_positive">പ്രയോഗിക്കുക</string>
 </resources>

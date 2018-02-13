@@ -488,8 +488,6 @@
   <string name="auto_power_save_title">Samodejno varčevanje z energijo</string>
   <string name="auto_power_save_summary_on">Samodejno omogoči način varčevanja z energijo, ko je stanje baterije %s</string>
   <string name="auto_power_save_summary_off">Ne omogočaj načina varčevanja z energijo samodejno</string>
-  <string name="app_perf_profiles_title">Samodejna optimizacija</string>
-  <string name="app_perf_profiles_summary">Samodejno izberi primerni zmogljivostni profil za aplikacije in vzorce uporabe</string>
   <string name="auto_power_save_never">Nikoli</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Razširjeno namizje</string>
@@ -542,4 +540,11 @@
   <string name="touchscreen_gesture_action_play_pause_music">Predvajaj/ustavi predvajanje glasbe</string>
   <string name="touchscreen_gesture_action_previous_track">Skok na prejšnjo skladbo</string>
   <string name="touchscreen_gesture_action_next_track">Skok na naslednjo skladbo</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Slog</string>
+  <string name="style_global_title">Slog</string>
+  <string name="style_global_entry_light">Svetla</string>
+  <string name="style_global_entry_dark">Temna</string>
+  <string name="style_automagic_dialog_positive">Uporabi</string>
+  <string name="style_accent_default_name">Privzeto</string>
 </resources>

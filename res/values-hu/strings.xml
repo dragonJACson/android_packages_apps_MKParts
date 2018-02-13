@@ -166,4 +166,11 @@
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Rezgés visszajelzés</string>
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stílus</string>
+  <string name="style_global_title">Stílus</string>
+  <string name="style_global_entry_light">Világos</string>
+  <string name="style_global_entry_dark">Sötét</string>
+  <string name="style_automagic_dialog_positive">Alkalmaz</string>
+  <string name="style_accent_default_name">Alapértelmezés</string>
 </resources>

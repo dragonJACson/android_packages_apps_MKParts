@@ -506,8 +506,6 @@
   <string name="auto_power_save_title">自动省电</string>
   <string name="auto_power_save_summary_on">电量剩余 %s 时启用自动省电</string>
   <string name="auto_power_save_summary_off">不要启用自动省电</string>
-  <string name="app_perf_profiles_title">自动优化</string>
-  <string name="app_perf_profiles_summary">自动为各种应用和使用模式选择适当的性能配置</string>
   <string name="auto_power_save_never">永不</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">扩展桌面</string>
@@ -567,4 +565,11 @@
   <string name="touchscreen_gesture_action_next_track">切换到下一曲目</string>
   <string name="touchscreen_gesture_action_volume_down">降低媒体音量</string>
   <string name="touchscreen_gesture_action_volume_up">提高媒体音量</string>
+  <!-- Berry Lite -->
+  <string name="style_title">样式</string>
+  <string name="style_global_title">样式</string>
+  <string name="style_global_entry_light">明亮</string>
+  <string name="style_global_entry_dark">黑暗</string>
+  <string name="style_automagic_dialog_positive">应用</string>
+  <string name="style_accent_default_name">默认</string>
 </resources>

@@ -447,8 +447,6 @@
   <string name="auto_power_save_title">Poupança de bateria automática</string>
   <string name="auto_power_save_summary_on">Ativar automaticamente a poupança de bateria aos %s bateria</string>
   <string name="auto_power_save_summary_off">Não ativar automaticamente a poupança de bateria</string>
-  <string name="app_perf_profiles_title">Otimização automática</string>
-  <string name="app_perf_profiles_summary">Escolher automaticamemte o perfil de desempenho adequado para várias aplicações</string>
   <string name="auto_power_save_never">Nunca</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Área de trabalho expandida</string>
@@ -466,4 +464,11 @@
   <string name="charging_sounds_ringtone_silent">Silêncio</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Estilo</string>
+  <string name="style_global_title">Estilo</string>
+  <string name="style_global_entry_light">Claro</string>
+  <string name="style_global_entry_dark">Escuro</string>
+  <string name="style_automagic_dialog_positive">Aplicar</string>
+  <string name="style_accent_default_name">Predefinição</string>
 </resources>

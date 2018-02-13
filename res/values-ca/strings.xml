@@ -444,8 +444,6 @@
   <string name="auto_power_save_title">Estalviador d\'energia automàtic</string>
   <string name="auto_power_save_summary_on">Habilita el mode d\'estalvi d\'energia automàticament quan s\'arribi al %s bateria</string>
   <string name="auto_power_save_summary_off">No habilitis el mode d\'estalvi d\'energia automàticament</string>
-  <string name="app_perf_profiles_title">Optimització automàtica</string>
-  <string name="app_perf_profiles_summary">Escull automàticament un perfil de rendiment adequat per aplicacions i patrons d\'utilització</string>
   <string name="auto_power_save_never">Mai</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Escriptori extès</string>
@@ -463,4 +461,11 @@
   <string name="charging_sounds_ringtone_silent">Silenci</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Estil</string>
+  <string name="style_global_title">Estil</string>
+  <string name="style_global_entry_light">Clar</string>
+  <string name="style_global_entry_dark">Fosca</string>
+  <string name="style_automagic_dialog_positive">Aplica</string>
+  <string name="style_accent_default_name">per defecte</string>
 </resources>

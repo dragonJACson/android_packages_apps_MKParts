@@ -80,4 +80,6 @@
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_accent_default_name">Default</string>
 </resources>

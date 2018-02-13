@@ -461,8 +461,6 @@
   <string name="auto_power_save_title">自動省電力</string>
   <string name="auto_power_save_summary_on">バッテリー残量%sで省電力モードを自動的に有効にする</string>
   <string name="auto_power_save_summary_off">省電力モードを自動的に有効にしない</string>
-  <string name="app_perf_profiles_title">自動最適化</string>
-  <string name="app_perf_profiles_summary">アプリと使用パターンに適したパフォーマンスプロファイルを自動的に選択する</string>
   <string name="auto_power_save_never">なし</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">拡張デスクトップ</string>
@@ -480,4 +478,11 @@
   <string name="charging_sounds_ringtone_silent">サイレント</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">スタイル</string>
+  <string name="style_global_title">スタイル</string>
+  <string name="style_global_entry_light">明るい</string>
+  <string name="style_global_entry_dark">暗闇</string>
+  <string name="style_automagic_dialog_positive">適用</string>
+  <string name="style_accent_default_name">デフォルト</string>
 </resources>

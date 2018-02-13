@@ -119,4 +119,10 @@
   <string name="power_notifications_vibrate_title">ಕಂಪಿಸು</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">ಶೈಲಿ</string>
+  <string name="style_global_title">ಶೈಲಿ</string>
+  <string name="style_global_entry_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
+  <string name="style_automagic_dialog_positive">ಅನ್ವಯಿಸು</string>
+  <string name="style_accent_default_name">ಪೂರ್ವನಿಯೋಜಿತ</string>
 </resources>

@@ -85,4 +85,8 @@
   <!-- Sounds: Charging sounds -->
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Uslub</string>
+  <string name="style_global_title">Uslub</string>
+  <string name="style_automagic_dialog_positive">Qo‘llash</string>
 </resources>

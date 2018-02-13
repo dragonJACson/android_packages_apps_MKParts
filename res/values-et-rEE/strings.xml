@@ -110,4 +110,9 @@
   <string name="charging_sounds_ringtone_silent">Vaikne</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_title">Stiil</string>
+  <string name="style_global_title">Stiil</string>
+  <string name="style_automagic_dialog_positive">Rakenda</string>
+  <string name="style_accent_default_name">Vaikimisi</string>
 </resources>

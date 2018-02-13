@@ -96,4 +96,6 @@
   <string name="power_notifications_vibrate_title">ভাইব্ৰেট</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_global_entry_dark">আন্ধাৰ</string>
 </resources>

@@ -488,8 +488,6 @@
   <string name="auto_power_save_title">Автоматичне енергозбереження</string>
   <string name="auto_power_save_summary_on">Автоматично активувати режим енергозбереження при %s акумулятора</string>
   <string name="auto_power_save_summary_off">Не вмикати режим енергозбереження автоматично</string>
-  <string name="app_perf_profiles_title">Автоматична оптимізація</string>
-  <string name="app_perf_profiles_summary">Автоматично перемикати режим продуктивності в залежності від додатку</string>
   <string name="auto_power_save_never">Ніколи</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Розширений екран</string>
@@ -542,4 +540,11 @@
   <string name="touchscreen_gesture_action_play_pause_music">Відтворити або призупинити відтворення музики</string>
   <string name="touchscreen_gesture_action_previous_track">Перейти до попереднього музичного треку</string>
   <string name="touchscreen_gesture_action_next_track">Перехід до наступної музичної доріжки</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Стиль</string>
+  <string name="style_global_title">Стиль</string>
+  <string name="style_global_entry_light">Світла</string>
+  <string name="style_global_entry_dark">Темнота</string>
+  <string name="style_automagic_dialog_positive">Застосувати</string>
+  <string name="style_accent_default_name">За замовчуванням</string>
 </resources>

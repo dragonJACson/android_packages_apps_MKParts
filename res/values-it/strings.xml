@@ -503,8 +503,6 @@
   <string name="auto_power_save_title">Risparmio energetico automatico</string>
   <string name="auto_power_save_summary_on">Attiva automaticamente la modalità di risparmio energetico al %s batteria</string>
   <string name="auto_power_save_summary_off">Non attivare la modalità di risparmio energia automaticamente</string>
-  <string name="app_perf_profiles_title">Ottimizzazione automatica</string>
-  <string name="app_perf_profiles_summary">Scegli automaticamente un adeguato profilo di prestazioni per le applicazioni ed i modi d\'uso</string>
   <string name="auto_power_save_never">Mai</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Schermo esteso</string>
@@ -564,4 +562,11 @@
   <string name="touchscreen_gesture_action_next_track">Passa alla traccia successiva</string>
   <string name="touchscreen_gesture_action_volume_down">Abbassa volume multimediale</string>
   <string name="touchscreen_gesture_action_volume_up">Alza volume multimediale</string>
+  <!-- Berry Lite -->
+  <string name="style_title">Stile</string>
+  <string name="style_global_title">Stile</string>
+  <string name="style_global_entry_light">Chiaro</string>
+  <string name="style_global_entry_dark">Scuro</string>
+  <string name="style_automagic_dialog_positive">Applica</string>
+  <string name="style_accent_default_name">Predefinito</string>
 </resources>

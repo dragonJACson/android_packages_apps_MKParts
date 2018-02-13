@@ -100,4 +100,6 @@
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gestures_haptic_feedback_title">Haptic feedback</string>
   <!-- Gesture: Stylus gestures -->
+  <!-- Berry Lite -->
+  <string name="style_accent_default_name">Default</string>
 </resources>
