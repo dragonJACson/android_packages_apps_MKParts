@@ -219,7 +219,7 @@
   <string name="navigation_bar_arrow_keys_summary">Hiển thị các nút trái và bên phải con trỏ trong khi gõ. Ghi đè bộ chuyển IME.</string>
   <string name="navigation_bar_home_long_press_title">Hành động khi nhấn giữ phím Trang chính</string>
   <string name="navigation_bar_home_double_tap_title">Thao tác khi nhấn hai lần phím home</string>
-  <string name="navigation_bar_recents_title">Thao tác khi nhấn giữ phím Gần đây</string>
+  <string name="navigation_bar_recents_title">Nhấn giữ phím menu</string>
   <!-- Power menu -->
   <string name="power_menu_title">Menu nguồn</string>
   <string name="power_menu_reboot_title">Menu khởi động lại</string>
@@ -516,7 +516,7 @@
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Vuốt xuống bằng một ngón tay</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Vuốt sang trái bằng một ngón tay</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Vuốt sang phải bằng một ngón tay</string>
-  <string name="touchscreen_gesture_up_arrow_title">Vẽ một \"Λ\"</string>
+  <string name="touchscreen_gesture_up_arrow_title">Vẽ chữ \"Λ\"</string>
   <string name="touchscreen_gesture_down_arrow_title">Vẽ một \"V\"</string>
   <string name="touchscreen_gesture_left_arrow_title">Vẽ một \"&lt;\"</string>
   <string name="touchscreen_gesture_right_arrow_title">Vẽ một \"&gt;\"</string>
