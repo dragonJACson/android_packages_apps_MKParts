@@ -567,9 +567,19 @@
   <string name="touchscreen_gesture_action_volume_up">Âm lượng phương tiện cao hơn</string>
   <!-- Berry Lite -->
   <string name="style_title">Kiểu</string>
+  <string name="style_summary">Lựa chọn hệ thống màu sắc</string>
   <string name="style_global_title">Kiểu</string>
+  <string name="style_global_entry_automatic">Tự động (hình nền)</string>
   <string name="style_global_entry_light">Sáng</string>
   <string name="style_global_entry_dark">Tối</string>
+  <string name="style_global_entry_time">Tự động (thời gian trong ngày)</string>
+  <string name="style_accent_title">Màu đậm</string>
+  <string name="style_accent_configuration_not_supported">Các dấu hiện tại không tương thích với phong cách được chọn. Để tiến hành một giọng đã được lựa chọn, bạn có muốn tiếp tục?</string>
+  <string name="style_accent_configuration_positive">Thực hiện</string>
+  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_description">Điều chỉnh phong cách để phù hợp với hình nền của bạn</string>
+  <string name="style_automagic_dialog_content">Gợi ý style: <b>%1$s</b> với <b>%2$s</b> giọng. \nDo bạn muốn áp dụng nó?</string>
   <string name="style_automagic_dialog_positive">Áp dụng</string>
   <string name="style_accent_default_name">Mặc định</string>
+  <string name="style_permission_error">Sự cho phép truy cập lưu trữ là cần thiết để phân tích các hình nền của bạn, xin vui lòng cấp nó để sử dụng tính năng này</string>
 </resources>

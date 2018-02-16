@@ -574,9 +574,12 @@
   <string name="style_global_entry_light">Светлая</string>
   <string name="style_global_entry_dark">Темнота</string>
   <string name="style_global_entry_time">Автоматически (время суток)</string>
-  <string name="style_accent_title">Основной цвет</string>
+  <string name="style_accent_title">Цветной оттенок</string>
+  <string name="style_accent_configuration_not_supported">Нынешний оттенок несовместим с выбранным стилем. Чтобы продолжить, вы должны выбрать другой оттенок, вы хотите продолжить?</string>
   <string name="style_accent_configuration_positive">Продолжить</string>
+  <string name="style_automagic_title">Automagic</string>
   <string name="style_automagic_description">Настройте стиль, чтобы он соответствовал вашим обоям</string>
+  <string name="style_automagic_dialog_content">Предлагаемый стиль: <b>%1$s</b> с <b>%2$s</b> оттенком.\nВы хотите применить его?</string>
   <string name="style_automagic_dialog_positive">Применить</string>
   <string name="style_accent_default_name">По умолчанию</string>
   <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>

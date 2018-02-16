@@ -567,9 +567,19 @@
   <string name="touchscreen_gesture_action_volume_up">Aumentar volumen multimedia</string>
   <!-- Berry Lite -->
   <string name="style_title">Estilo</string>
+  <string name="style_summary">Elegir colores del sistema</string>
   <string name="style_global_title">Estilo</string>
+  <string name="style_global_entry_automatic">Automático (wallpaper)</string>
   <string name="style_global_entry_light">Claro</string>
   <string name="style_global_entry_dark">Oscuro</string>
+  <string name="style_global_entry_time">Automático (tiempo de la jornada)</string>
+  <string name="style_accent_title">Color de énfasis</string>
+  <string name="style_accent_configuration_not_supported">El acento actual no es compatible con el estilo seleccionado. Para proceder a otro acento tiene que ser seleccionado, ¿desea continuar?</string>
+  <string name="style_accent_configuration_positive">Proceder</string>
+  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_description">Ajustar el estilo para que coincida con tu fondo de pantalla</string>
+  <string name="style_automagic_dialog_content">Estilo suerido: <b>%1$s</b> con <b>%2$s</b> acento. ¿\n Deseas aplicarlo?</string>
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Predeterminado</string>
+  <string name="style_permission_error">Permiso de acceso de almacenamiento es necesario para analizar tu fondo de pantalla, por favor concede para usar esta característica</string>
 </resources>
