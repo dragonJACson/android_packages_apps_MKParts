@@ -67,6 +67,7 @@
     <!-- MOKEE PUSH PERMISSION END -->
 
     <application android:label="@string/mkparts_title"
+            android:icon="@mipmap/ic_launcher"
             android:name=".MKPartsApplication"
             android:theme="@style/Theme.Settings"
             android:hardwareAccelerated="true"
