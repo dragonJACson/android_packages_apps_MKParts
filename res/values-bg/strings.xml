@@ -138,6 +138,8 @@
   <string name="live_display_color_profile_reading_summary">Топли цветове за по-малко умора на очите</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Цветове съответстващи с sRGB цветово пространство</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Цветове, съответстващи за DCI-P3 цветово пространство</string>
   <string name="color_calibration_title">Калибриране на цвета</string>
   <string name="color_calibration_summary">Калибриране на цветовете на екрана</string>
   <string name="color_red_title">Червен</string>
@@ -233,6 +235,7 @@
   <string name="camera_double_tap_power_gesture_title">Натиснете двукратно бутона за захранване за камера</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Бързо стартиране на камера без отключване на екрана</string>
+  <string name="torch_long_press_power_timeout_title">Автоматично изключване на фенерчето</string>
   <string name="torch_long_press_power_timeout_never">Никога</string>
   <string name="torch_long_press_power_timeout_1min">1 минута</string>
   <string name="torch_long_press_power_timeout_2min">2 минути</string>
@@ -417,6 +420,10 @@
   <string name="status_bar_battery_percentage_text_next">До иконата</string>
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Ярко</string>
+  <string name="status_bar_brightness_slider_title">Плъзгач за яркост</string>
+  <string name="status_bar_brightness_slider_summary">Настройка на яркост от бързи настройки</string>
+  <string name="status_bar_brightness_slider_auto_title">Автоматична яркост</string>
+  <string name="status_bar_brightness_slider_auto_summary">Покажи на превключвач за адаптивна яркост близо до плъзгача</string>
   <string name="status_bar_toggle_brightness">Контрол на яркостта</string>
   <string name="status_bar_toggle_brightness_summary">Настройване на яркостта чрез плъзгане в лентата на състоянието</string>
   <!-- Status bar - icon blacklist -->
@@ -530,4 +537,9 @@
   <string name="touchscreen_gesture_action_dialer">Отворяне на телефон</string>
   <string name="touchscreen_gesture_action_email">Преглед на имейли</string>
   <string name="touchscreen_gesture_action_messages">Преглед на съобщения</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Възпроизвеждане/пауза на музика</string>
+  <string name="touchscreen_gesture_action_previous_track">Преминаване към предишната песен</string>
+  <string name="touchscreen_gesture_action_next_track">Преминаване към следващата песен</string>
+  <string name="touchscreen_gesture_action_volume_down">Намали силата на звука на медията</string>
+  <string name="touchscreen_gesture_action_volume_up">Увеличи силата на звука на медията</string>
 </resources>
