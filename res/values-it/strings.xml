@@ -564,9 +564,19 @@
   <string name="touchscreen_gesture_action_volume_up">Alza volume multimediale</string>
   <!-- Berry Lite -->
   <string name="style_title">Stile</string>
+  <string name="style_summary">Scegli il colore di sistema</string>
   <string name="style_global_title">Stile</string>
+  <string name="style_global_entry_automatic">Automatico (basato sullo sfondo)</string>
   <string name="style_global_entry_light">Chiaro</string>
   <string name="style_global_entry_dark">Scuro</string>
+  <string name="style_global_entry_time">Automatico (basato sull\'ora del giorno)</string>
+  <string name="style_accent_title">Colore di rilievo</string>
+  <string name="style_accent_configuration_not_supported">Il colore di rilievo attuale non è compatibile con lo stile selezionato. Per procedere, è necessario selezionare un\' altro colore di rilievo, vuoi continuare?</string>
+  <string name="style_accent_configuration_positive">Procedi</string>
+  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_description">Ottimizza lo stile in modo da abbinarlo al tuo sfondo</string>
+  <string name="style_automagic_dialog_content">Stile consigliato: <b>%1$s</b> con <b>%2$s</b> accento. \nVuoi applicarlo?</string>
   <string name="style_automagic_dialog_positive">Applica</string>
   <string name="style_accent_default_name">Predefinito</string>
+  <string name="style_permission_error">Per analizzare lo sfondo, è necessario il permesso di accesso all\'archivio, si prega di concederlo per utilizzare questa funzione</string>
 </resources>
