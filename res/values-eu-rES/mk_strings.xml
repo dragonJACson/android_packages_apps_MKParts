@@ -21,4 +21,5 @@
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_edit">Editatu</string>
 </resources>
