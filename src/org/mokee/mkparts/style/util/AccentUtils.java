@@ -29,6 +29,8 @@ import org.mokee.mkparts.R;
 import org.mokee.mkparts.style.models.Accent;
 import org.mokee.mkparts.style.models.StyleStatus;
 
+import mokee.style.StyleInterface;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -92,7 +94,7 @@ public final class AccentUtils {
     @NonNull
     private static Accent getDefaultAccent(Context context) {
         return new Accent(context.getString(R.string.style_accent_default_name),
-                "", Color.parseColor("#167C80"), StyleStatus.DYNAMIC);
+                StyleInterface.ACCENT_DEFAULT, Color.parseColor("#167C80"), StyleStatus.DYNAMIC);
     }
 
     public static boolean isCompatible(StyleStatus currentStatus, Accent accent) {

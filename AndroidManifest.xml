@@ -40,6 +40,7 @@
     <uses-permission android:name="android.permission.MANAGE_FINGERPRINT" />
 
     <uses-permission android:name="mokee.permission.MANAGE_REMOTE_PREFERENCES" />
+    <uses-permission android:name="mokee.permission.CHANGE_STYLE" />
 
     <protected-broadcast android:name="mokee.intent.action.UPDATE_POWER_MENU" />
     <protected-broadcast android:name="mokee.platform.app.profiles.PROFILES_STATE_CHANGED" />
