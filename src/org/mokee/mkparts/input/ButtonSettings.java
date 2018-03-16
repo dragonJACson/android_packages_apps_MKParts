@@ -411,7 +411,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         }
 
         if (mCameraWakeScreen != null) {
-            if (mCameraSleepOnRelease != null && !getResources().getBoolean(
+            if (mCameraSleepOnRelease != null && !res.getBoolean(
                     org.mokee.platform.internal.R.bool.config_singleStageCameraKey)) {
                 mCameraSleepOnRelease.setDependency(MKSettings.System.CAMERA_WAKE_SCREEN);
             }
