@@ -38,7 +38,7 @@
   <string name="disabled">معطل</string>
   <string name="enabled">مفعل</string>
   <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">خصوصيه</string>
+  <string name="privacy_settings_title">الخصوصيـة</string>
   <!-- Privacy Guard -->
   <string name="privacy_guard_switch_label">تفعيل حماية الخصوصية</string>
   <string name="privacy_guard_dlg_title">تفعيل حماية الخصوصية؟</string>
@@ -109,8 +109,8 @@
   <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
   <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-  <string name="live_display_day">اليوم</string>
-  <string name="live_display_night">ليلي</string>
+  <string name="live_display_day">          اليوم</string>
+  <string name="live_display_night">          ليلي</string>
   <string name="live_display_outdoor_mode_title">الوضع التلقائي في الخارج</string>
   <string name="live_display_outdoor_mode_summary">زيادة الإضاءة والإشباع تلقائيًا تحت أشعة الشمس</string>
   <string name="live_display_low_power_title">الحد من استهلاك الطاقة</string>
@@ -142,16 +142,16 @@
   <string name="live_display_color_profile_dci_p3_summary">ألوان دقيقة مثل مساحة لون DCI-P3</string>
   <string name="color_calibration_title">معايرة الألوان</string>
   <string name="color_calibration_summary">معايرة للألوان في الشاشة</string>
-  <string name="color_red_title">أحمر</string>
-  <string name="color_green_title">أخضر</string>
-  <string name="color_blue_title">أزرق</string>
+  <string name="color_red_title">          أحمر</string>
+  <string name="color_green_title">          أخضر</string>
+  <string name="color_blue_title">          أزرق</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <string name="picture_adjustment_title">ضبط الصورة</string>
   <string name="picture_adjustment_summary">ضبط تدرج اللون والتشبع والكثافة والتباين</string>
-  <string name="adj_hue_title">تدرج اللون</string>
-  <string name="adj_saturation_title">تشبع اللون</string>
-  <string name="adj_intensity_title">الكثافة</string>
-  <string name="adj_contrast_title">تباين</string>
+  <string name="adj_hue_title">          تدرج اللون</string>
+  <string name="adj_saturation_title">          تشبع اللون</string>
+  <string name="adj_intensity_title">          الكثافة</string>
+  <string name="adj_contrast_title">          تباين</string>
   <!-- Button settings -->
   <string name="button_pref_title">الأزرار</string>
   <string name="hardware_keys_power_key_title">زر الطاقة</string>
@@ -254,6 +254,7 @@
   <string name="profile_tabs_nfc">الاتصال بالحقل القريب</string>
   <string name="profile_triggers_header">الأحداث التي تُفعّل هذا الوضع</string>
   <string name="profile_setup_setup_triggers_title">خطوة 1: إضافة الحدث</string>
+  <string name="profile_setup_setup_triggers_title_config"><div>تعديل المشغلات:<xliff:g id="profile_name">%1$s</xliff:g></div></string>
   <string name="profile_setup_actions_title">الخطوة 2: إعداد الأحداث</string>
   <string name="profile_setup_actions_title_config">إعادة تهيئة الأحداث</string>
   <string name="wireless_networks_settings_title">اللاسلكي والشبكات</string>
@@ -379,7 +380,7 @@
   <!-- Status bar -->
   <string name="status_bar_title">شريط الحالة</string>
   <string name="status_bar_quick_qs_pulldown_title">القائمة المنسدلة السريعة</string>
-  <string name="status_bar_quick_qs_pulldown_summary">سحب الحافّة %1$s لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السّريعة</string>
+  <string name="status_bar_quick_qs_pulldown_summary">سحب الحافّة اليمين او اليسار لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السّريعة</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">الـيسار</string>
   <string name="status_bar_quick_qs_pulldown_summary_right">اليمين</string>
   <string name="status_bar_quick_qs_pulldown_off">إيقاف</string>
@@ -475,9 +476,9 @@
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">توفير البطارية والأداء</string>
   <string name="perf_profile_settings_summary">ضبط مزايا توفير الطاقة وأداء الجهاز</string>
-  <string name="perf_profile_overview_summary">Current profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_overview_summary">الوضع الحالي: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">أداء الجهاز</string>
-  <string name="perf_profile_title">Performance profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_title">وضع الجهاز: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">وضع الأداء غير متوفر حاليًا</string>
   <string name="power_save_category_title">توفير البطارية</string>
   <string name="power_save_title">وضع توفير الطاقة القصوى</string>

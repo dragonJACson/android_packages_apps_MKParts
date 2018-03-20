@@ -40,6 +40,7 @@
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Ιδιωτικότητα</string>
   <!-- Privacy Guard -->
+  <string name="privacy_guard_manager_summary">Επιλέξτε ποιές εφαρμογές έχουν πρόσβαση στα προσωπικά σας δεδομένα</string>
   <string name="privacy_guard_help_title">Βοήθεια</string>
   <string name="privacy_guard_reset_title">Επαναφορά</string>
   <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
@@ -114,10 +115,15 @@
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="connection_state_enabled">Ενεργοποίηση</string>
   <!-- Menu item for managing profiles -->
+  <string name="profile_profiles_manage">Προφίλ</string>
+  <string name="profile_profile_manage">Διαχείριση προφίλ</string>
+  <string name="profile_appgroups_manage">Ομάδες εφαρμογών</string>
+  <string name="profile_appgroup_manage">Διαχείριση ομάδας εφαρμογών</string>
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
+  <string name="profile_appgroups_title">Ομάδες εφαρμογών</string>
   <string name="profile_appgroup_name_title">Όνομα: </string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Επιλογή εφαρμογής</string>
