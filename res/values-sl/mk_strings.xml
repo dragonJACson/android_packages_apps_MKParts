@@ -25,4 +25,5 @@
   <string name="fingerprint_shortcut_edit">Uredi</string>
   <string name="fingerprint_shortcut_delete">Izbriši</string>
   <string name="fingerprint_shortcut_editer">Nastavite bližnjice s prstnim odtisom</string>
+  <string name="fingerprint_shortcut_manage">Upravljanje prstnih odtisov</string>
 </resources>

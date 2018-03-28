@@ -77,7 +77,9 @@
   <string name="pulse_speed_slow">Lassú</string>
   <string name="pulse_speed_very_slow">Nagyon lassú</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_title">Fényerőszintek</string>
   <string name="light_brightness_normal">Normál</string>
+  <string name="light_brightness_zen">Ne zavarjanak (DND)</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Akkumulátor jelző fény</string>
   <string name="battery_low_pulse_title">Villog, ha merül az akkumulátor</string>
@@ -96,7 +98,7 @@
   <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
   <string name="notification_light_voicemail_title">Hangposta</string>
   <string name="notification_light_screen_on">Értesítési Led bekapcsolt képernyőnél</string>
-  <string name="notification_light_zen_mode">Fények a Ne zavarjanak módban</string>
+  <string name="notification_light_zen_mode">Fények a Ne zavarjanak (DND) módban</string>
   <string name="keywords_lights_brightness_level">ledek fényerősségének állítása</string>
   <string name="notification_light_automagic">Automatikus színválasztás</string>
   <string name="notification_light_automagic_summary">Automatikus színválasztás</string>
@@ -109,6 +111,7 @@
   <string name="live_display_mode">Képernyő mód</string>
   <string name="live_display_color_temperature_title">Színhőmérséklet</string>
   <string name="live_display_color_temperature_summary">Nappal:<xliff:g id="day_temperature">%1$d</xliff:g>K Éjszaka:<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Nappal</string>
   <string name="live_display_night">Éjszaka</string>
   <string name="live_display_outdoor_mode_title">Automatikus kültéri mód</string>
@@ -136,7 +139,9 @@
   <string name="live_display_color_profile_adaptive_summary">Színek alkalmazkodnak a környezethez</string>
   <string name="live_display_color_profile_reading_title">Olvasás</string>
   <string name="live_display_color_profile_reading_summary">Melegebb színek kisebb szemfáradtságért</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Színek az sRGB színtérhez igazítva</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Színek a DCI-P3 színtérhez igazítva</string>
   <string name="color_calibration_title">Színek kalibrálása</string>
   <string name="color_calibration_summary">Képernyőn megjelenő színek kalibrálása</string>
@@ -194,9 +199,12 @@
   <string name="volume_answer_call_summary">Bejövő hívások fogadása a hangerő gombok megnyomásával</string>
   <string name="home_answer_call_title">Hívás fogadása</string>
   <string name="home_answer_call_summary">Bejövő hívások fogadása a kezdőlap gomb megnyomásával</string>
+  <string name="extras_title">Extrák</string>
+  <string name="additional_buttons_title">További gombok</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Háttérvilágítás</string>
   <string name="button_backlight_enabled">Gombok megvilágítása</string>
+  <string name="button_backlight_only_when_pressed_title">Gombok megvilágítása csak lenyomáskor</string>
   <string name="keyboard_backlight_enabled">Billentyűzet megvilágítása</string>
   <string name="button_backlight_seekbar_title">Gombok fényereje</string>
   <string name="keyboard_backlight_seekbar_title">Billentyűzet fényereje</string>
@@ -216,6 +224,7 @@
   <string name="navigation_bar_arrow_keys_summary">Mutassa a bal és jobb kurzort gépelés közben. Felülírja a billentyűzet választó.</string>
   <string name="navigation_bar_home_long_press_title">Kezdőlap hosszan nyomási művelet</string>
   <string name="navigation_bar_home_double_tap_title">Kezdőlap dupla érintési művelet</string>
+  <string name="navigation_bar_app_switch_long_press_title">Előzmények gomb hosszú nyomásával elérhető művelet</string>
   <!-- Power menu -->
   <string name="power_menu_title">Kikapcsoló menü</string>
   <string name="power_menu_screenshot_title">Képernyőmentés</string>
@@ -224,6 +233,7 @@
   <string name="power_menu_users_title">Felhasználóváltás</string>
   <string name="power_menu_bug_report_title">Hibabejelentés</string>
   <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
+  <string name="power_menu_lockdown_title">Lezárás</string>
   <string name="volume_keys_control_ring_stream_title">Csengőhang hangerejének vezérlése</string>
   <string name="volume_keys_control_ring_stream_summary_on">Hangerőgombok a csengőhangot vezérlik</string>
   <string name="volume_keys_control_ring_stream_summary_off">Hangerőgombok a média hangerejét vezérlik</string>
@@ -246,19 +256,21 @@
   <string name="profile_action_enable">Bekapcsolás</string>
   <string name="profile_trigger_a2dp_connect">A2DP kapcsolat létrehozása</string>
   <string name="profile_trigger_a2dp_disconnect">A2DP kapcsolat bontása</string>
+  <string name="profile_tabs_wifi">Wi-Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
-  <string name="profile_triggers_header">Triggerek, amelyek ezt a profilt aktiválni fogják</string>
-  <string name="profile_setup_setup_triggers_title">1. lépés: Trigger hozzáadása</string>
-  <string name="profile_setup_setup_triggers_title_config">Triggerek módosítása: <xliff:g id="profile_name">%1$s</xliff:g></string>
+  <string name="profile_tabs_nfc">NFC</string>
+  <string name="profile_triggers_header">Speciális indítók, amelyek ezt a profilt aktiválni fogják</string>
+  <string name="profile_setup_setup_triggers_title">1. lépés: Speciális indító hozzáadása</string>
+  <string name="profile_setup_setup_triggers_title_config">Speciális indító módosítása: <xliff:g id="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">2. lépés: Beállítások elvégzése</string>
   <string name="profile_setup_actions_title_config">Műveletek újrakonfigurálása</string>
   <string name="wireless_networks_settings_title">Vezeték &amp; vezeték nélküli hálózatok</string>
   <!-- Profile triggers -->
-  <string name="no_bluetooth_triggers">Nincs párosított Bluetooth eszköz.\nBluetooth eszköz párosításáért érintse meg, mielőtt beállítaná a triggereket.</string>
-  <string name="no_wifi_triggers">Nincs Wi\u2011Fi hozzáférési pont beállítva.\nA Wi\u2011Fi csatlakoztatásához érintse meg, mielőtt beállítaná a triggereket.</string>
-  <string name="no_triggers_configured">Nincs trigger beállítva. Új hozzáadásáért érintse meg.</string>
-  <string name="no_triggers_configured_nfc">Érintse meg egy új NFC trigger beállításáért.</string>
-  <string name="profile_setup_setup_triggers_description">Kérjük, válassza ki a profilt aktiváló triggert</string>
+  <string name="no_bluetooth_triggers">Nincs párosított Bluetooth eszköz.\nBluetooth eszköz párosításáért érintse meg, mielőtt beállítaná a speciális indítókat.</string>
+  <string name="no_wifi_triggers">Nincs Wi-Fi hozzáférési pont beállítva.\nA Wi-Fi csatlakoztatásához érintse meg, mielőtt beállítaná a speciális indítókat.</string>
+  <string name="no_triggers_configured">Nincs speciális indító beállítva. Új hozzáadásáért érintse meg.</string>
+  <string name="no_triggers_configured_nfc">Érintse meg egy új NFC indító beállításáért.</string>
+  <string name="profile_setup_setup_triggers_description">Kérjük, válassza ki a profilt aktiváló speciális indítót</string>
   <string name="profile_setup_actions_description">Most állítsa be, hogy mi történjen a profil aktiválásakor</string>
   <!-- Profiles settings  -->
   <string name="profiles_settings_title">Rendszer profilok</string>
@@ -267,7 +279,7 @@
   <string name="profile_settings_title">Profil</string>
   <string name="profile_empty_list_profiles_off">Rendszerprofil konfiguráláshoz és használathoz kapcsolja be a profilokat.</string>
   <string name="profile_settings_summary_off">Profilok letiltva</string>
-  <string name="profile_trigger_configure">Profilra váltás</string>
+  <string name="profile_trigger_configure">Speciális indító konfigurálása</string>
   <string name="profile_write_nfc_tag">NFC tag kiírása</string>
   <string name="profile_write_touch_tag">Válassza ki a kiírandó tagot</string>
   <string name="profile_write_success">Tag sikeresen kiírva</string>
@@ -301,6 +313,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Biztosan el akarja távolítani ezt az alkalmazást?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Hangok felülbírálása</string>
   <string name="connection_state_enabled">Engedélyezés</string>
@@ -314,8 +331,8 @@
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <string name="profile_settings">Profil beállítások</string>
   <string name="profile_trigger_connect">Csatlakozáskor</string>
-  <string name="profile_trigger_disconnect">Lecsatlakozáskor</string>
-  <string name="profile_trigger_notrigger">Ne váltson profilt</string>
+  <string name="profile_trigger_disconnect">Bontáskor</string>
+  <string name="profile_trigger_notrigger">Nincs speciális indító</string>
   <!-- Profile Settings sound modes labels -->
   <string name="sound_mode">Értesítési mód</string>
   <string name="ringer_mode">Csengetés mód</string>
@@ -347,12 +364,15 @@
   <string name="profile_brightness_override_summary">Beállítva a következőre: %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Fényerő felülírása</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi-Fi</string>
   <string name="toggleWifiAp">Hordozható Wi\u2011Fi hotspot</string>
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <string name="toggleData">Adatkapcsolat</string>
   <string name="toggleSync">Szinkronizálás</string>
   <string name="toggle2g3g4g">Előnyben részesített hálózat típusa</string>
   <string name="toggle2g3g4g_msim">Előnyben részesített hálózat típusa (%1$s)</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Csengetés mód</string>
   <string name="ring_mode_normal">Normál</string>
@@ -417,7 +437,22 @@
   <string name="status_bar_icons_title">Állapotsor ikonok</string>
   <string name="status_bar_icons_summary">Állapotsor ikonok megjelenítésének vezérlése</string>
   <!-- Status bar - Network Traffic -->
+  <string name="network_traffic_settings_title">Adatforgalom ellenőr</string>
+  <string name="network_traffic_settings_summary">Kijelzi az aktuális hálózathasználatot az értesítési sávon</string>
+  <string name="network_traffic_mode_title">Megjelenítési mód</string>
   <string name="network_traffic_mode_disable">Kikapcsolva</string>
+  <string name="network_traffic_mode_up">Csak feltöltés</string>
+  <string name="network_traffic_mode_down">Csak letöltés</string>
+  <string name="network_traffic_mode_all">Feltöltés és letöltés</string>
+  <string name="network_traffic_autohide">Automatikus elrejtés</string>
+  <string name="network_traffic_autohide_summary">Elrejti a forgalomkijelzést, ha nincs tevékenység</string>
+  <string name="network_traffic_units_title">Hálózati forgalom mértékegysége</string>
+  <string name="network_traffic_units_kilobits">Kilobit / másodperc (kb/s)</string>
+  <string name="network_traffic_units_megabits">Megabit / másodperc (Mb/s)</string>
+  <string name="network_traffic_units_kilobytes">Kilobájt / másodperc (kB/s)</string>
+  <string name="network_traffic_units_megabytes">Megabájt / másodperc (MB/s)</string>
+  <string name="network_traffic_show_units">Mértékegység megjelenítése</string>
+  <string name="network_traffic_show_units_summary">Hogy az Állapotsoron megjelenjenek az adatforgalom mértékegysége</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Védett alkalmazások</string>
   <string name="protected_apps_manager_summary">A biztonsági zár mögötti rejtett alkalmazások kezelése</string>
@@ -457,6 +492,8 @@
   <string name="weather_settings_general_settings_title">Általános</string>
   <string name="weather_settings_providers_title">Szolgáltatók</string>
   <string name="weather_settings_temp_units_title">Hőmérsékleti egység</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Farenheit</string>
   <string name="weather_settings_keyword">időjárás</string>
   <string name="status_bar_show_weather_title">Időjárás megjelenítése</string>
   <string name="status_bar_show_weather_summary">Aktuális hőmérséklet megjelenítése az állapotsoron</string>
@@ -514,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Rajzoljon egy \"W\" betűt</string>
   <string name="touchscreen_gesture_letter_z_title">Rajzoljon egy \"Z\" betűt</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Csúsztatás felfelé az érintőceruzával</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Csúsztatás lefelé az érintőceruzával</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Csúsztatás balra az érintőceruzával</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Csúsztatás jobbra az érintőceruzával</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Hosszú nyomás az érintőceruzával</string>
   <string name="touchscreen_gesture_action_dialog_title">Kézmozdulat művelet</string>
   <string name="touchscreen_gesture_action_do_nothing">Nincs művelet</string>
   <string name="touchscreen_gesture_action_flashlight">Zseblámpa kapcsolása</string>
@@ -525,11 +567,24 @@
   <string name="touchscreen_gesture_action_play_pause_music">Zene lejátszása/szüneteltetése</string>
   <string name="touchscreen_gesture_action_previous_track">Előző zeneszámra ugrás</string>
   <string name="touchscreen_gesture_action_next_track">Következő zeneszámra ugrás</string>
+  <string name="touchscreen_gesture_action_volume_down">Médiahangerő csökkentése</string>
+  <string name="touchscreen_gesture_action_volume_up">Médiahangerő növelése</string>
   <!-- Berry Lite -->
   <string name="style_title">Stílus</string>
+  <string name="style_summary">Rendszerszín kiválasztása</string>
   <string name="style_global_title">Stílus</string>
+  <string name="style_global_entry_automatic">Automatikus (háttérkép)</string>
   <string name="style_global_entry_light">Világos</string>
   <string name="style_global_entry_dark">Sötét</string>
+  <string name="style_global_entry_time">Automatikus (napszakasz)</string>
+  <string name="style_global_entry_app">%1$s kezelésében</string>
+  <string name="style_accent_title">Kiemelőszín</string>
+  <string name="style_accent_configuration_not_supported">A jelenlegi kiemelőszín nem kompatibilis a kiválasztott stílussal. A továbblépéshez ki kell választani egy másik színt. Kívánja folytatni?</string>
+  <string name="style_accent_configuration_positive">Folytat</string>
+  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_description">Hangolja a stílust a háttérkép színeihez</string>
+  <string name="style_automagic_dialog_content">Javasol stílus: <b>%1$s</b> és <b>%2$s</b> kiemelőszínekkel.\nSzeretné alkalmazni?</string>
   <string name="style_automagic_dialog_positive">Alkalmaz</string>
   <string name="style_accent_default_name">Alapértelmezés</string>
+  <string name="style_permission_error">Tárhelyhozzáférési engedély szükséges a háttérkép elemzéséhez, engedélyezze a funkció használatához</string>
 </resources>
