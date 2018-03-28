@@ -31,8 +31,12 @@
   <string name="status_bar_network_traffic_style_all">Kimenő és bejövő</string>
   <!-- Long-press power for torch -->
   <string name="torch_long_press_power_gesture_title">Nyomja meg hosszan a bekapcsológombot a zseblámpához</string>
+  <string name="torch_long_press_power_gesture_desc">A Zseblámpa bekapcsolható, ha kikapcsolt képernyőnél a bekapcsoló gombot hosszan megnyomja</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Ujjlenyomat parancsikonok</string>
+  <string name="fingerprint_shortcut_not_specified">Nincs megadva</string>
   <string name="fingerprint_shortcut_ok">Rendben</string>
   <string name="fingerprint_shortcut_edit">Szerkeztés</string>
   <string name="fingerprint_shortcut_delete">Törlés</string>
+  <string name="fingerprint_shortcut_editer">Ujjlenyomat parancsikon beállítása</string>
 </resources>

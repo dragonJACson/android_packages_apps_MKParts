@@ -19,16 +19,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
   <string name="loading">Зареждане\u2026</string>
-  <string name="dlg_ok">ОK</string>
-  <string name="cancel">Отмени</string>
-  <string name="add">Добави</string>
+  <string name="dlg_ok">Окей</string>
+  <string name="cancel">Отказ</string>
+  <string name="add">Добавяне</string>
   <string name="choose_app">Изберете приложение</string>
   <string name="reset">Нулиране</string>
   <string name="advanced">Разширени</string>
   <string name="settings">Настройки</string>
   <string name="name">Име</string>
   <string name="back">Назад</string>
-  <string name="finish">Завършен</string>
+  <string name="finish">Край</string>
   <string name="next">Следваща</string>
   <string name="on">Включване</string>
   <string name="off">Изключване</string>
@@ -140,16 +140,16 @@
   <string name="live_display_color_profile_srgb_summary">Цветове съответстващи с sRGB цветово пространство</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Цветове, съответстващи за DCI-P3 цветово пространство</string>
-  <string name="color_calibration_title">Калибриране на цвета</string>
+  <string name="color_calibration_title">Цветово калибриране</string>
   <string name="color_calibration_summary">Калибриране на цветовете на екрана</string>
-  <string name="color_red_title">Червен</string>
-  <string name="color_green_title">Зелен</string>
-  <string name="color_blue_title">Син</string>
+  <string name="color_red_title">Червено</string>
+  <string name="color_green_title">Зелено</string>
+  <string name="color_blue_title">Синьо</string>
   <!-- LiveDisplay : Picture Adjustment -->
   <string name="picture_adjustment_title">Настройка на изображението</string>
   <string name="picture_adjustment_summary">Настройте нюанс, насищане, интензивност и контраст</string>
-  <string name="adj_hue_title">Отенък</string>
-  <string name="adj_saturation_title">Насищане</string>
+  <string name="adj_hue_title">Нюанс</string>
+  <string name="adj_saturation_title">Ситост</string>
   <string name="adj_intensity_title">Интензивност</string>
   <string name="adj_contrast_title">Контраст</string>
   <!-- Button settings -->
@@ -267,7 +267,7 @@
   <string name="profile_setup_actions_description">Сега конфигурирайте какво се случва когато е активиран профилът</string>
   <!-- Profiles settings  -->
   <string name="profiles_settings_title">Системни профили</string>
-  <string name="profiles_add">Добави</string>
+  <string name="profiles_add">Добавяне</string>
   <string name="profile_menu_delete">Изтриване</string>
   <string name="profile_settings_title">Профил</string>
   <string name="profile_empty_list_profiles_off">За да конфигурирате и използване системни профили, включете профилите.</string>
