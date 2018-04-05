@@ -409,9 +409,6 @@
   <string name="status_bar_brightness_slider_auto_summary">Vis kontakt til tilpassende lysstyrke nær skyderen</string>
   <string name="status_bar_toggle_brightness">Lysstyrkeregulering</string>
   <string name="status_bar_toggle_brightness_summary">Justér lysstyrken ved at stryge på tværs af statuslinjen</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Statuslinje-ikoner</string>
-  <string name="status_bar_icons_summary">Kontrollér, hvilke statuslinje-ikoner, der vises</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_title">Visningstilstand</string>
   <string name="network_traffic_mode_disable">Inaktiv</string>

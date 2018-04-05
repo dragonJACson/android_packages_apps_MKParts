@@ -106,7 +106,6 @@
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">يورۇقلۇق</string>
-  <!-- Status bar - icon blacklist -->
   <!-- Status bar - Network Traffic -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>

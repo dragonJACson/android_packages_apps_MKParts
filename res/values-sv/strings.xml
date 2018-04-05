@@ -343,8 +343,6 @@
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Ljusstyrka</string>
   <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Statusfältsikoner</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_title">Visningsläge</string>
   <string name="network_traffic_mode_disable">Inaktiverad</string>

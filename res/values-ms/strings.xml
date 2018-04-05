@@ -107,7 +107,6 @@
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">Kecerahan</string>
-  <!-- Status bar - icon blacklist -->
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_disable">Tidak-aktif</string>
   <!-- Protected apps -->

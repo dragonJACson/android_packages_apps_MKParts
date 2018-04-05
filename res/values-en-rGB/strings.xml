@@ -109,7 +109,6 @@
   <!-- Status bar - Battery -->
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->
-  <!-- Status bar - icon blacklist -->
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_disable">Disabled</string>
   <!-- Protected apps -->

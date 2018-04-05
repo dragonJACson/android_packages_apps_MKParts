@@ -433,9 +433,6 @@
   <string name="status_bar_brightness_slider_auto_summary">Adaptív fényerő váltása a fényerő csúszka közelében</string>
   <string name="status_bar_toggle_brightness">Fényerő vezérlés</string>
   <string name="status_bar_toggle_brightness_summary">Engedélyezi az értesítési sávon a fényerő változtatását ujjának csúsztatásával</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Állapotsor ikonok</string>
-  <string name="status_bar_icons_summary">Állapotsor ikonok megjelenítésének vezérlése</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_settings_title">Adatforgalom ellenőr</string>
   <string name="network_traffic_settings_summary">Kijelzi az aktuális hálózathasználatot az értesítési sávon</string>

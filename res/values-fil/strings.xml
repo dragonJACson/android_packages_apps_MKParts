@@ -429,9 +429,6 @@
   <string name="status_bar_brightness_slider_auto_summary">Ipakita ang magpalipat-lipat ng naiaangkop malapit ang slider</string>
   <string name="status_bar_toggle_brightness">Kontrol ng kaliwanagan</string>
   <string name="status_bar_toggle_brightness_summary">I-adjust ang liwanag na galing sa sliding kabila sa status bar</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Mga icon ng status bar</string>
-  <string name="status_bar_icons_summary">Kontrolin kung aling status bar na mga icon ang ipapakita</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_settings_title">Ang Network trapik monitor</string>
   <string name="network_traffic_settings_summary">Ipakita ang kasalukuyang mga antas ng network traffic sa status bar</string>

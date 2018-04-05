@@ -433,9 +433,6 @@
   <string name="status_bar_brightness_slider_auto_summary">إظهار تبديل الإضاءة التلقائية قرب المزلاق</string>
   <string name="status_bar_toggle_brightness">التحكم بمستوى الإضاءة</string>
   <string name="status_bar_toggle_brightness_summary">ضبط السطوع عن طريق الانزلاق على شريط الحالة</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">أيقونات شريط الحالة</string>
-  <string name="status_bar_icons_summary">التحكم في الايقونات الظاهرة على شريط الحالة</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_settings_title">مراقبة حركة مرور الشبكة</string>
   <string name="network_traffic_settings_summary">عرض مستويات حركة مرور الشبكة الحالية في شريط الحالة</string>

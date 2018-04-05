@@ -404,8 +404,6 @@
   <string name="status_bar_brightness_slider_auto_summary">Ipakita ang toggle para sa naiaangkop malapit sa slider</string>
   <string name="status_bar_toggle_brightness">Kontrol ng liwanag</string>
   <string name="status_bar_toggle_brightness_summary">I-adjust ang liwanag na galing sa sliding kabila sa status bar</string>
-  <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_summary">Kontrolin kung aling mga icon ng status bar ang ipapakita</string>
   <!-- Status bar - Network Traffic -->
   <string name="network_traffic_mode_title">Magpakita ng paraan</string>
   <string name="network_traffic_mode_disable">Naka-disable</string>

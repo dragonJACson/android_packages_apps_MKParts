@@ -94,7 +94,6 @@
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - Brightness -->
   <string name="status_bar_brightness_category">উজ্জ্বলতা</string>
-  <!-- Status bar - icon blacklist -->
   <!-- Status bar - Network Traffic -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">সংরক্ষিত অ্যাপগুলি</string>
