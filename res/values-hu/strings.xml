@@ -280,14 +280,14 @@
   <string name="profile_empty_list_profiles_off">Rendszerprofil konfiguráláshoz és használathoz kapcsolja be a profilokat.</string>
   <string name="profile_settings_summary_off">Profilok letiltva</string>
   <string name="profile_trigger_configure">Speciális indító konfigurálása</string>
-  <string name="profile_write_nfc_tag">NFC tag kiírása</string>
+  <string name="profile_write_nfc_tag">NFC-cimke kiírása</string>
   <string name="profile_write_touch_tag">Válassza ki a kiírandó tagot</string>
   <string name="profile_write_success">Tag sikeresen kiírva</string>
   <string name="profile_write_failed">Tag kiírása sikertelen!</string>
   <string name="profile_selected">Kiválasztott profil: %1$s</string>
-  <string name="profile_nfc_text">Profil kiírása az NFC tagba, kiválasztás érintéssel. Dupla érintés az előző profil kiválasztása.</string>
+  <string name="profile_nfc_text">Hozzon létre a profilhoz NFC-címkét, ezután a címke érintésével a profil kiválasztható. A másodszori érintéssel a korábban kiválasztott profilt érheti el.</string>
   <string name="profile_unknown_nfc_tag">Ismeretlen profil</string>
-  <string name="profile_add_nfc_text">Ez az NFC tag egy ismeretlen profilra mutat. Az NFC tag csatolása egy már meglévő profilhoz lehetővé teszi a jövőbeli kiválasztását.</string>
+  <string name="profile_add_nfc_text">Ez az NFC-cimke egy ismeretlen profilra mutat. Csatolja ezt az NFC-cimkét egy már meglévő profilhoz, hogy lehetővé tegye a jövőbeli kiválasztását.</string>
   <string name="profile_select">Válasszon profilt</string>
   <string name="profile_remove_dialog_message">%1$s profil eltávolítása?</string>
   <string name="profile_populate_profile_from_state">Konfigurálja a profilt a jelenlegi beállításokat használva?</string>
