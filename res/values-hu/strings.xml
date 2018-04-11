@@ -65,7 +65,7 @@
   <string name="dialog_delete_message">Biztosan törli a kiválasztott elemet?</string>
   <string name="brightness">Fényerősség</string>
   <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_always_on">Mindig bekapcsolva</string>
+  <string name="pulse_length_always_on">Folyamatosan bekapcsolva</string>
   <string name="pulse_length_very_short">Nagyon rövid</string>
   <string name="pulse_length_short">Rövid</string>
   <string name="pulse_length_normal">Normál</string>
@@ -273,7 +273,7 @@
   <string name="profile_setup_setup_triggers_description">Kérjük, válassza ki a profilt aktiváló speciális indítót</string>
   <string name="profile_setup_actions_description">Most állítsa be, hogy mi történjen a profil aktiválásakor</string>
   <!-- Profiles settings  -->
-  <string name="profiles_settings_title">Rendszer profilok</string>
+  <string name="profiles_settings_title">Rendszerprofilok</string>
   <string name="profiles_add">Hozzáad</string>
   <string name="profile_menu_delete">Törlés</string>
   <string name="profile_settings_title">Profil</string>

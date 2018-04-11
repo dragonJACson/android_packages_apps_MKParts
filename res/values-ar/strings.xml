@@ -580,7 +580,7 @@
   <string name="style_accent_configuration_positive">تقدّم</string>
   <string name="style_automagic_title">Automagic</string>
   <string name="style_automagic_description">ضبط النمط ليتناسب مع خلفية الشاشة الخاصة بك</string>
-  <string name="style_automagic_dialog_content">الشكل المقترح <b>%1$s</b> مع <b>%2$s</b> اللكنة. \nDo الذي تريد تطبيقه؟</string>
+  <string name="style_automagic_dialog_content">الشكل المقترح <b>%1$s</b> مع <b>%2$s</b> اللكنة.\n هل تريد تطبيقه؟</string>
   <string name="style_automagic_dialog_positive">تطبيق</string>
   <string name="style_accent_default_name">الإفتراضي</string>
   <string name="style_permission_error">هناك حاجة إلى إذن الوصول إلى التخزين لتحليل الخلفية الخاصة بك، يرجى منحها لاستخدام هذه الميزة</string>
