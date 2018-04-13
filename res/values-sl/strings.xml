@@ -513,6 +513,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibriraj, ko je zaznana poteza na zaslonu na dotik</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Z dvema prstoma potegnite navzdol</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Z enim prstom potegnite navzgor</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Poteg navzgor iz gumba Domov</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Z enim prstom potegnite navzdol</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Z enim prstom potegnite levo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Z enim prstom potegnite desno</string>
@@ -529,6 +530,11 @@
   <string name="touchscreen_gesture_letter_w_title">Narišite črko \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Narišite črko \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Poteg navzgor s pisalom</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Poteg navzdol s pisalom</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Poteg levo s pisalom</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Poteg desno s pisalom</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Dolg pritisk s pisalom</string>
   <string name="touchscreen_gesture_action_dialog_title">Dejanje poteze</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne naredi ničesar</string>
   <string name="touchscreen_gesture_action_flashlight">Vklop/izklop svetilke</string>
@@ -540,4 +546,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Predvajaj/ustavi predvajanje glasbe</string>
   <string name="touchscreen_gesture_action_previous_track">Skok na prejšnjo skladbo</string>
   <string name="touchscreen_gesture_action_next_track">Skok na naslednjo skladbo</string>
+  <string name="touchscreen_gesture_action_volume_down">Zmanjšaj glasnost predstavnosti</string>
+  <string name="touchscreen_gesture_action_volume_up">Povečaj glasnost predstavnosti</string>
 </resources>
