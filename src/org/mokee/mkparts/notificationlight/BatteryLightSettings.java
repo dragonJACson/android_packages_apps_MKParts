@@ -62,6 +62,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private int mDefaultMediumColor;
     private int mDefaultFullColor;
     private int mBatteryBrightness;
+    // liblights supports brightness control
+    private boolean mHALAdjustableBrightness;
     private boolean mMultiColorLed;
 
     private static final int MENU_RESET = Menu.FIRST;
@@ -76,6 +78,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         // Collect battery led capabilities.
         mMultiColorLed =
                 LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_RGB_BATTERY_LED);
+        mHALAdjustableBrightness = LightsCapabilities.supports(
+                context, LightsCapabilities.LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS);
         final boolean pulsatingLed =
                 LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED);
         final boolean segmentedBatteryLed =
@@ -97,6 +101,13 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         mBatteryBrightnessZenPref =
                 (BatteryBrightnessZenPreference) prefSet.findPreference(BRIGHTNESS_ZEN_PREFERENCE);
 
+        mDefaultLowColor = res.getInteger(
+                com.android.internal.R.integer.config_notificationsBatteryLowARGB);
+        mDefaultMediumColor = res.getInteger(
+                com.android.internal.R.integer.config_notificationsBatteryMediumARGB);
+        mDefaultFullColor = res.getInteger(
+                com.android.internal.R.integer.config_notificationsBatteryFullARGB);
+
         mBatteryBrightness = mBatteryBrightnessPref.getBrightnessSetting();
 
         if (!pulsatingLed || segmentedBatteryLed) {
@@ -105,13 +116,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
         if (mMultiColorLed) {
             setHasOptionsMenu(true);
-
-            mDefaultLowColor = res.getInteger(
-                    com.android.internal.R.integer.config_notificationsBatteryLowARGB);
-            mDefaultMediumColor = res.getInteger(
-                    com.android.internal.R.integer.config_notificationsBatteryMediumARGB);
-            mDefaultFullColor = res.getInteger(
-                    com.android.internal.R.integer.config_notificationsBatteryFullARGB);
 
             // Low, Medium and full color preferences
             mLowColorPref = (ApplicationLightPreference) prefSet.findPreference(LOW_COLOR_PREF);
@@ -145,7 +149,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         }
 
         // Remove battery LED brightness controls if we can't support them.
-        if (segmentedBatteryLed || !mMultiColorLed) {
+        if (segmentedBatteryLed || (!mMultiColorLed && !mHALAdjustableBrightness)) {
             prefSet.removePreference(prefSet.findPreference(BRIGHTNESS_SECTION));
         }
 
@@ -163,20 +167,20 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Resources res = getResources();
 
         if (mLowColorPref != null) {
-            int lowColor = MKSettings.System.getInt(resolver, MKSettings.System.BATTERY_LIGHT_LOW_COLOR,
-                    res.getInteger(com.android.internal.R.integer.config_notificationsBatteryLowARGB));
+            int lowColor = MKSettings.System.getInt(resolver,
+                    MKSettings.System.BATTERY_LIGHT_LOW_COLOR, mDefaultLowColor);
             mLowColorPref.setAllValues(lowColor, 0, 0, false);
         }
 
         if (mMediumColorPref != null) {
-            int mediumColor = MKSettings.System.getInt(resolver, MKSettings.System.BATTERY_LIGHT_MEDIUM_COLOR,
-                    res.getInteger(com.android.internal.R.integer.config_notificationsBatteryMediumARGB));
+            int mediumColor = MKSettings.System.getInt(resolver,
+                    MKSettings.System.BATTERY_LIGHT_MEDIUM_COLOR, mDefaultMediumColor);
             mMediumColorPref.setAllValues(mediumColor, 0, 0, false);
         }
 
         if (mFullColorPref != null) {
-            int fullColor = MKSettings.System.getInt(resolver, MKSettings.System.BATTERY_LIGHT_FULL_COLOR,
-                    res.getInteger(com.android.internal.R.integer.config_notificationsBatteryFullARGB));
+            int fullColor = MKSettings.System.getInt(resolver,
+                    MKSettings.System.BATTERY_LIGHT_FULL_COLOR, mDefaultFullColor);
             mFullColorPref.setAllValues(fullColor, 0, 0, false);
             updateBrightnessPrefColor(fullColor);
         }

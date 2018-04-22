@@ -62,9 +62,17 @@ import mokee.util.ColorUtils;
 public class NotificationLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, ApplicationLightPreference.ItemLongClickListener {
     private static final String TAG = "NotificationLightSettings";
+
+    private static final String ADVANCED_SECTION = "advanced_section";
+    private static final String APPLICATION_SECTION = "applications_list";
+    private static final String BRIGHTNESS_SECTION = "brightness_section";
+    private static final String GENERAL_SECTION = "general_section";
+    private static final String PHONE_SECTION = "phone_list";
+
     private static final String DEFAULT_PREF = "default";
     private static final String MISSED_CALL_PREF = "missed_call";
     private static final String VOICEMAIL_PREF = "voicemail";
+
     public static final int ACTION_TEST = 0;
     public static final int ACTION_DELETE = 1;
     private static final int MENU_ADD = 0;
@@ -87,7 +95,11 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     private PackageListAdapter mPackageAdapter;
     private String mPackageList;
     private Map<String, Package> mPackages;
+    // liblights supports brightness control
+    private boolean mHALAdjustableBrightness;
+    // Supports rgb color control
     private boolean mMultiColorLed;
+    // Supports adjustable pulse
     private boolean mLedCanPulse;
 
     @Override
@@ -102,8 +114,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         PreferenceScreen prefSet = getPreferenceScreen();
         Resources resources = getResources();
 
-        PreferenceGroup mAdvancedPrefs = (PreferenceGroup) prefSet.findPreference("advanced_section");
-        PreferenceGroup mGeneralPrefs = (PreferenceGroup) prefSet.findPreference("general_section");
+        PreferenceGroup mAdvancedPrefs = (PreferenceGroup) prefSet.findPreference(ADVANCED_SECTION);
+        PreferenceGroup mGeneralPrefs = (PreferenceGroup) prefSet.findPreference(GENERAL_SECTION);
 
         // Get the system defined default notification color
         mDefaultColor =
@@ -114,6 +126,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         mDefaultLedOff = resources.getInteger(
                 com.android.internal.R.integer.config_defaultNotificationLedOff);
 
+        mHALAdjustableBrightness = LightsCapabilities.supports(
+                context, LightsCapabilities.LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS);
         mLedCanPulse = LightsCapabilities.supports(
                 context, LightsCapabilities.LIGHTS_PULSATING_LED);
         mMultiColorLed = LightsCapabilities.supports(
@@ -136,9 +150,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         mScreenOnLightsPref.setOnPreferenceChangeListener(this);
         mCustomEnabledPref = (MKSystemSettingSwitchPreference)
                 findPreference(MKSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE);
-        if (!LightsCapabilities.supports(
-                context, LightsCapabilities.LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS)) {
-            mAdvancedPrefs.removePreference(mNotificationBrightnessPref);
+        if (!mMultiColorLed && !mHALAdjustableBrightness) {
+            removePreference(BRIGHTNESS_SECTION);
         }
         if (!mLedCanPulse && !mMultiColorLed) {
             mGeneralPrefs.removePreference(mDefaultPref);
@@ -153,7 +166,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         TelephonyManager tm = (TelephonyManager) getActivity().getSystemService(Context.TELEPHONY_SERVICE);
         if (tm.getPhoneType() == TelephonyManager.PHONE_TYPE_NONE
                 || (!mLedCanPulse && !mMultiColorLed)) {
-            removePreference("phone_list");
+            removePreference(PHONE_SECTION);
         } else {
             mCallPref = (ApplicationLightPreference) findPreference(MISSED_CALL_PREF);
             mCallPref.setOnPreferenceChangeListener(this);
@@ -165,9 +178,9 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         }
 
         if (!mLedCanPulse && !mMultiColorLed) {
-            removePreference("applications_list");
+            removePreference(APPLICATION_SECTION);
         } else {
-            mApplicationPrefList = (PreferenceGroup) findPreference("applications_list");
+            mApplicationPrefList = (PreferenceGroup) findPreference(APPLICATION_SECTION);
             mApplicationPrefList.setOrderingAsAdded(false);
         }
 
@@ -232,7 +245,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         }
 
         if (mLedCanPulse || mMultiColorLed) {
-            mApplicationPrefList = (PreferenceGroup) findPreference("applications_list");
+            mApplicationPrefList = (PreferenceGroup) findPreference(APPLICATION_SECTION);
             mApplicationPrefList.setOrderingAsAdded(false);
         }
     }
