@@ -81,10 +81,10 @@
   <string name="light_brightness_normal">Standard</string>
   <string name="light_brightness_zen">Ne pas déranger</string>
   <!-- Battery light settings -->
-  <string name="battery_light_title">Voyant batterie</string>
-  <string name="battery_low_pulse_title">Clignoter si la batterie est faible</string>
+  <string name="battery_light_title">Voyant de la pile</string>
+  <string name="battery_low_pulse_title">Clignoter si la pile est faible</string>
   <string name="battery_light_list_title">Couleurs</string>
-  <string name="battery_light_low_color_title">Batterie faible</string>
+  <string name="battery_light_low_color_title">La pile est faible</string>
   <string name="battery_light_medium_color_title">En charge</string>
   <string name="battery_light_full_color_title">Batterie chargée</string>
   <!-- Lights settings screen, notification light settings -->
@@ -413,15 +413,15 @@
   <string name="status_bar_am_pm_small">Petit</string>
   <string name="status_bar_am_pm_hidden">Masqué</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_title">Personnalisation de la batterie</string>
-  <string name="status_bar_battery_style_title">Affichage du niveau de batterie</string>
+  <string name="status_bar_battery_title">Indicateur de la pile</string>
+  <string name="status_bar_battery_style_title">Style d’état de la pile</string>
   <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
   <string name="status_bar_battery_style_circle">Cercle</string>
   <string name="status_bar_battery_style_text">Texte</string>
   <string name="status_bar_battery_style_hidden">Masqué</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+  <string name="status_bar_battery_percentage_title">Pourcentage de la pile</string>
   <string name="status_bar_battery_percentage_default">Masqué</string>
   <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
   <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
@@ -495,17 +495,17 @@
   <string name="status_bar_show_weather_title">Afficher la météo</string>
   <string name="status_bar_show_weather_summary">Afficher la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Économiseur de batterie et performances</string>
+  <string name="perf_profile_settings_title">Économiseur de pile et performances</string>
   <string name="perf_profile_settings_summary">Régler les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
   <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">Performances de l\'appareil</string>
   <string name="perf_profile_title">Profil de performance : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">Le profil de performance est actuellement indisponible</string>
-  <string name="power_save_category_title">Économie d\'énergie</string>
+  <string name="power_save_category_title">Économie de la pile</string>
   <string name="power_save_title">Économie d\'énergie avancée</string>
   <string name="power_save_summary">Limiter les performances et l\'activité en l\'arrière-plan pour économiser de l\'énergie</string>
   <string name="auto_power_save_title">Économie d\'énergie automatique</string>
-  <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint%s</string>
+  <string name="auto_power_save_summary_on">Activer le mode d’économie d’énergie automatiquement quand la pile atteint %s</string>
   <string name="auto_power_save_summary_off">Ne pas activer automatiquement le mode d\'économie d\'énergie</string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->

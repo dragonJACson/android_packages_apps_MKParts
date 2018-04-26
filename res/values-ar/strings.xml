@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
-  <string name="loading">تحميل</string>
+  <string name="loading">تحميل...</string>
   <string name="dlg_ok">تم</string>
   <string name="cancel">إلغاء</string>
   <string name="add">إضافة</string>
@@ -387,7 +387,7 @@
   <!-- Status bar -->
   <string name="status_bar_title">شريط الحالة</string>
   <string name="status_bar_quick_qs_pulldown_title">القائمة المنسدلة السريعة</string>
-  <string name="status_bar_quick_qs_pulldown_summary">سحب الحافّة %1$s لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السّريعة</string>
+  <string name="status_bar_quick_qs_pulldown_summary">سحب الحافّة اليمين او اليسار لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السريعة بحسب ضبط المستخدم</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">الـيسار</string>
   <string name="status_bar_quick_qs_pulldown_summary_right">اليمين</string>
   <string name="status_bar_quick_qs_pulldown_off">إيقاف</string>
