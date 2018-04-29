@@ -42,8 +42,8 @@
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Конфиденциальность</string>
   <!-- Privacy Guard -->
-  <string name="privacy_guard_switch_label">Включить защищённый режим</string>
-  <string name="privacy_guard_dlg_title">Включить защищённый режим?</string>
+  <string name="privacy_guard_switch_label">Включить защищенный режим</string>
+  <string name="privacy_guard_dlg_title">Включить защищенный режим?</string>
   <string name="privacy_guard_dlg_text">Приложение, работающее в защищённом режиме, не имеет доступа к персональным данным, таким как контакты, сообщения или журнал вызовов.</string>
   <string name="privacy_guard_dlg_system_app_text">Системные приложения в защищённом режиме не смогут получать или предоставлять доступ к персональным данным. Это может вызвать нестабильную работу других приложений.</string>
   <string name="privacy_guard_default_title">Включен по умолчанию</string>
@@ -452,7 +452,7 @@
   <string name="network_traffic_show_units">Скорость передачи данных</string>
   <string name="network_traffic_show_units_summary">Отображать скорость передачи данных в строке состояния</string>
   <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Защищённые приложения</string>
+  <string name="protected_apps_manager_title">Защищенные приложения</string>
   <string name="protected_apps_manager_summary">Управление приложениями, для запуска которых требуется ввод пароля</string>
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Участники проекта</string>

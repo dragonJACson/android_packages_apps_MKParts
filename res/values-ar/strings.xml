@@ -110,7 +110,7 @@
   <string name="live_display_summary">تحسين الشاشة بحسب الوقت من اليوم والإضاءة المحيطة لتسهيل القراءة وتقليل إجهاد العين</string>
   <string name="live_display_mode">وضع العرض</string>
   <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
-  <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_summary">النهار: <xliff:g id="day_temperature">%1$d</xliff:g>K  الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
   <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">اليوم</string>
   <string name="live_display_night">ليلي</string>
@@ -578,7 +578,7 @@
   <string name="style_accent_title">لون اللكنة</string>
   <string name="style_accent_configuration_not_supported">اللكنة الحالية غير متوافقة مع النمط المحدد. من أجل المضي قدما لابد من اختيار لكنة اخرى، هل تريد أن الاستمرار؟</string>
   <string name="style_accent_configuration_positive">تقدّم</string>
-  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_title">السحر التلقائي</string>
   <string name="style_automagic_description">ضبط النمط ليتناسب مع خلفية الشاشة الخاصة بك</string>
   <string name="style_automagic_dialog_content">الشكل المقترح <b>%1$s</b> مع <b>%2$s</b> اللكنة.\n هل تريد تطبيقه؟</string>
   <string name="style_automagic_dialog_positive">تطبيق</string>
