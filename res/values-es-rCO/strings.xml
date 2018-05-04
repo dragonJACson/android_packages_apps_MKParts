@@ -562,6 +562,7 @@
   <string name="touchscreen_gesture_action_previous_track">Desplácese hasta la pista de música anterior</string>
   <string name="touchscreen_gesture_action_next_track">Saltar a la siguiente pista de música</string>
   <string name="touchscreen_gesture_action_volume_down">Reducir volumen de multimedia</string>
+  <string name="touchscreen_gesture_action_volume_up">Incrementa el volumen multimedia</string>
   <!-- Berry Lite -->
   <string name="style_title">Estilo</string>
   <string name="style_global_title">Estilo</string>
