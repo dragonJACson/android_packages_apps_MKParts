@@ -35,6 +35,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_summary">Incarca a longu pro un\'ischermada partziale</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <!-- Profiles -->
   <!-- Profile triggers -->
