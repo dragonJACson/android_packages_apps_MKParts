@@ -81,7 +81,7 @@
   <string name="light_brightness_normal">عادي</string>
   <string name="light_brightness_zen">عدم الإزعاج</string>
   <!-- Battery light settings -->
-  <string name="battery_light_title">إضائة البطارية</string>
+  <string name="battery_light_title">ضوء البطارية</string>
   <string name="battery_low_pulse_title">وميض عند انخفاض نسبة البطارية</string>
   <string name="battery_light_list_title">الألوان</string>
   <string name="battery_light_low_color_title">البطارية منخفضة</string>

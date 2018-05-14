@@ -24,6 +24,6 @@
   <string name="fingerprint_shortcut_ok">Tamam</string>
   <string name="fingerprint_shortcut_edit">Düzenle</string>
   <string name="fingerprint_shortcut_delete">Sil</string>
-  <string name="fingerprint_shortcut_editer">Parmak izi kısayolunu ayarla</string>
+  <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
   <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
 </resources>
