@@ -27,7 +27,7 @@
   <string name="reset">Sıfırla</string>
   <string name="advanced">Gelişmiş</string>
   <string name="settings">Ayarlar</string>
-  <string name="name">İsim</string>
+  <string name="name">Ad</string>
   <string name="back">Geri</string>
   <string name="finish">Bitir</string>
   <string name="next">Sonraki</string>
@@ -571,7 +571,7 @@
   <string name="style_summary">Sistem renkleri seçin</string>
   <string name="style_global_title">Stil</string>
   <string name="style_global_entry_automatic">Otomatik (duvar kağıdı)</string>
-  <string name="style_global_entry_light">Açık</string>
+  <string name="style_global_entry_light">Aydınlık</string>
   <string name="style_global_entry_dark">Karanlık</string>
   <string name="style_global_entry_time">Otomatik (gün saati)</string>
   <string name="style_global_entry_app">%1$s tarafından yönetiliyor</string>
