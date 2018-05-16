@@ -19,6 +19,7 @@
   <!-- Application name -->
   <string name="mkparts_title">MoKee asetukset</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_not_specified">Ei määritetty</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Muokkaa</string>
   <string name="fingerprint_shortcut_delete">Poista</string>
