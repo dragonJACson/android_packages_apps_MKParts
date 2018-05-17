@@ -33,6 +33,7 @@
   <string name="torch_long_press_power_gesture_title">Paina pitkään virtanäppäintä avataksesi taskulamppu</string>
   <string name="torch_long_press_power_gesture_desc">Aktivoi taskulamppu painamalla virtanäppäintä pitkään näytön ollessa pois päältä</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_not_specified">Ei määritetty</string>
   <string name="fingerprint_shortcut_ok">OK</string>
   <string name="fingerprint_shortcut_edit">Muokkaa</string>
   <string name="fingerprint_shortcut_delete">Poista</string>
