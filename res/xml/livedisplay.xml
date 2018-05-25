@@ -48,6 +48,13 @@
                 android:summary="@string/live_display_outdoor_mode_summary"
                 android:defaultValue="@*mokee.platform:bool/config_defaultAutoOutdoorMode" />
 
+        <!-- Reading mode -->
+        <mokee.preference.MKSystemSettingSwitchPreference
+                android:key="display_reading_mode"
+                android:title="@string/live_display_reading_mode_title"
+                android:summary="@string/live_display_reading_mode_summary"
+                android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
