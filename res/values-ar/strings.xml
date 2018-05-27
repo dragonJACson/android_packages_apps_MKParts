@@ -143,6 +143,8 @@
   <string name="live_display_color_profile_srgb_summary">الألوان دقيقة sRBG لمساحة اللون</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">ألوان دقيقة مثل مساحة لون DCI-P3</string>
+  <string name="live_display_reading_mode_title">وضع القراءة</string>
+  <string name="live_display_reading_mode_summary">وضع التدرج الرمادي للقراءة على المدى الطويل</string>
   <string name="color_calibration_title">معايرة الألوان</string>
   <string name="color_calibration_summary">معايرة للألوان في الشاشة</string>
   <string name="color_red_title">أحمر</string>

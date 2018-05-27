@@ -143,6 +143,8 @@
   <string name="live_display_color_profile_srgb_summary">Kolory dokładne z przestrzenią kolorów sRGB</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Kolory dokładne z przestrzenią DCI-P3</string>
+  <string name="live_display_reading_mode_title">Tryb czytania</string>
+  <string name="live_display_reading_mode_summary">Tryb skali szarości dla długotrwałego czytania</string>
   <string name="color_calibration_title">Kalibracja kolorów</string>
   <string name="color_calibration_summary">Kalibruje wyświetlane kolory</string>
   <string name="color_red_title">Czerwony</string>
