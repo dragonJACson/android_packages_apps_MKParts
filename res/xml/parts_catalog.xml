@@ -102,6 +102,12 @@
           android:fragment="org.mokee.mkparts.applications.ExpandedDesktopSettings"
           mk:xmlRes="@xml/expanded_desktop_prefs" />
 
+    <part android:key="long_screen_settings"
+          android:title="@string/long_screen_settings_title"
+          android:summary="@string/long_screen_settings_summary"
+          android:fragment="org.mokee.mkparts.applications.LongScreenSettings"
+          mk:xmlRes="@xml/long_screen_prefs" />
+
     <part android:key="charging_sounds_settings"
           android:title="@string/charging_sounds_settings_title"
           android:fragment="org.mokee.mkparts.sounds.ChargingSoundsSettings"
