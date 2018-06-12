@@ -586,4 +586,14 @@
   <string name="style_automagic_dialog_positive">Zastosuj</string>
   <string name="style_accent_default_name">Domyślne</string>
   <string name="style_permission_error">Aby analizować tapetę, potrzebne jest uprawnienie dostępu do pamięci. Proszę zaakceptować, aby używać tej funkcji.</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Wyłączone</string>
+  <string name="trust_feature_root">Dostęp do roota</string>
+  <string name="trust_feature_root_value_disabled">Wyłączone</string>
+  <string name="trust_feature_root_value_adb">Tylko ADB</string>
+  <string name="trust_feature_root_value_apps">Aplikacje i ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Włącz</string>
+  <string name="trust_feature_encryption_value_disabled">Wyłączone</string>
+  <string name="trust_category_tools">Prywatność</string>
+  <!-- Sms limit -->
 </resources>

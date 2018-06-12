@@ -74,4 +74,6 @@
   <!-- Gesture: Stylus gestures -->
   <!-- Berry Lite -->
   <string name="style_accent_default_name">Default</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

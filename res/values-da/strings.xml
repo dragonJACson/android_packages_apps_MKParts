@@ -526,4 +526,14 @@
   <string name="style_global_entry_dark">Mørk</string>
   <string name="style_automagic_dialog_positive">Anvend</string>
   <string name="style_accent_default_name">Standard</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Inaktiv</string>
+  <string name="trust_feature_root">Root-adgang</string>
+  <string name="trust_feature_root_value_disabled">Inaktiv</string>
+  <string name="trust_feature_root_value_adb">Kun ADB</string>
+  <string name="trust_feature_root_value_apps">Apps og ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Aktiveret</string>
+  <string name="trust_feature_encryption_value_disabled">Inaktiv</string>
+  <string name="trust_category_tools">Privatliv</string>
+  <!-- Sms limit -->
 </resources>

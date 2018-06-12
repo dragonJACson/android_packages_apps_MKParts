@@ -114,4 +114,9 @@
   <string name="style_global_title">Stiil</string>
   <string name="style_automagic_dialog_positive">Rakenda</string>
   <string name="style_accent_default_name">Vaikimisi</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root ligipääs</string>
+  <string name="trust_feature_root_value_adb">Ainult ADB</string>
+  <string name="trust_feature_root_value_apps">Rakendused ja ADB</string>
+  <!-- Sms limit -->
 </resources>

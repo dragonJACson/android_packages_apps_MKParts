@@ -128,4 +128,9 @@
   <string name="style_global_entry_dark">அடர்</string>
   <string name="style_automagic_dialog_positive">பயன்படுத்து</string>
   <string name="style_accent_default_name">இயல்புநிலை</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">மூல அணுகல்</string>
+  <string name="trust_feature_root_value_adb">ADB மட்டும்</string>
+  <string name="trust_feature_root_value_apps">ஆப்கள் மற்றும் ADB</string>
+  <!-- Sms limit -->
 </resources>

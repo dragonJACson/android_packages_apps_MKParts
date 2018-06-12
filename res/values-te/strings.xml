@@ -113,4 +113,9 @@
   <string name="style_global_title">శైలి</string>
   <string name="style_global_entry_dark">ముదురు రంగు</string>
   <string name="style_automagic_dialog_positive">వర్తింపజేయి</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">మూల ప్రాప్తి</string>
+  <string name="trust_feature_root_value_adb">ADB మాత్రమే</string>
+  <string name="trust_feature_root_value_apps">అనువర్తనాలు మరియు ADB</string>
+  <!-- Sms limit -->
 </resources>

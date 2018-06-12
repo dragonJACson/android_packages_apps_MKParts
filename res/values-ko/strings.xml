@@ -571,4 +571,14 @@
   <string name="style_global_entry_dark">어두움</string>
   <string name="style_automagic_dialog_positive">적용</string>
   <string name="style_accent_default_name">기본</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">사용안함</string>
+  <string name="trust_feature_root">루트 권한</string>
+  <string name="trust_feature_root_value_disabled">사용안함</string>
+  <string name="trust_feature_root_value_adb">ADB만</string>
+  <string name="trust_feature_root_value_apps">앱 및 ADB</string>
+  <string name="trust_feature_encryption_value_enabled">사용</string>
+  <string name="trust_feature_encryption_value_disabled">사용안함</string>
+  <string name="trust_category_tools">개인 정보</string>
+  <!-- Sms limit -->
 </resources>

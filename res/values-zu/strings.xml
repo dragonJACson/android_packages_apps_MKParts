@@ -100,4 +100,6 @@
   <string name="style_title">Isitayela</string>
   <string name="style_global_title">Isitayela</string>
   <string name="style_automagic_dialog_positive">Sebenzisa</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

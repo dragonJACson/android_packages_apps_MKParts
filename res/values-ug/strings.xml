@@ -130,4 +130,9 @@
   <string name="style_global_title">ئۇسلۇب</string>
   <string name="style_global_entry_dark">قاراڭغۇ</string>
   <string name="style_automagic_dialog_positive">قوللان</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root ھوقۇقى</string>
+  <string name="trust_feature_root_value_adb">ADB لا</string>
+  <string name="trust_feature_root_value_apps">Apps ۋە ADB</string>
+  <!-- Sms limit -->
 </resources>

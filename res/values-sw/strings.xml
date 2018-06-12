@@ -100,4 +100,6 @@
   <string name="style_title">Mtindo</string>
   <string name="style_global_title">Mtindo</string>
   <string name="style_automagic_dialog_positive">Tekeleza</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

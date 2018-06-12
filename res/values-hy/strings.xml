@@ -100,4 +100,6 @@
   <string name="style_title">Ոճը</string>
   <string name="style_global_title">Ոճը</string>
   <string name="style_automagic_dialog_positive">Կիրառել</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

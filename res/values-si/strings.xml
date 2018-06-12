@@ -107,4 +107,9 @@
   <string name="style_title">විලාසය</string>
   <string name="style_global_title">විලාසය</string>
   <string name="style_automagic_dialog_positive">යොදන්න</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">මූල ප්‍රවේශය</string>
+  <string name="trust_feature_root_value_adb">ADB පමණි</string>
+  <string name="trust_feature_root_value_apps">යෙදුම් සහ ADB</string>
+  <!-- Sms limit -->
 </resources>

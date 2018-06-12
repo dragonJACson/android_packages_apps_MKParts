@@ -585,4 +585,17 @@
   <string name="style_automagic_dialog_positive">應用</string>
   <string name="style_accent_default_name">預設</string>
   <string name="style_permission_error">需要儲存存取權限才能分析桌布，請授予它使用此功能</string>
+  <!-- Trust interface -->
+  <string name="trust_category_features">狀態</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">執行中</string>
+  <string name="trust_feature_selinux_value_disabled">已停用</string>
+  <string name="trust_feature_root">超級使用者存取</string>
+  <string name="trust_feature_root_value_disabled">已停用</string>
+  <string name="trust_feature_root_value_adb">僅限 ADB</string>
+  <string name="trust_feature_root_value_apps">應用程式和 ADB</string>
+  <string name="trust_feature_encryption_value_enabled">已啓用</string>
+  <string name="trust_feature_encryption_value_disabled">已停用</string>
+  <string name="trust_category_tools">私隱</string>
+  <!-- Sms limit -->
 </resources>

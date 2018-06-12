@@ -124,4 +124,9 @@
   <string name="style_global_entry_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
   <string name="style_automagic_dialog_positive">ಅನ್ವಯಿಸು</string>
   <string name="style_accent_default_name">ಪೂರ್ವನಿಯೋಜಿತ</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">ರೂಟ್ ಪ್ರವೇಶ</string>
+  <string name="trust_feature_root_value_adb">ಎಡಿಬಿ ಮಾತ್ರ</string>
+  <string name="trust_feature_root_value_apps">ಆಪ್ಸ್ ಮತ್ತು ಎಡಿಬಿ</string>
+  <!-- Sms limit -->
 </resources>

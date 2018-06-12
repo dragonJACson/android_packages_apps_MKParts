@@ -584,4 +584,14 @@
   <string name="style_automagic_dialog_positive">Áp dụng</string>
   <string name="style_accent_default_name">Mặc định</string>
   <string name="style_permission_error">Sự cho phép truy cập lưu trữ là cần thiết để phân tích các hình nền của bạn, xin vui lòng cấp nó để sử dụng tính năng này</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Đã tắt</string>
+  <string name="trust_feature_root">Quyền truy cập root</string>
+  <string name="trust_feature_root_value_disabled">Đã tắt</string>
+  <string name="trust_feature_root_value_adb">Chỉ cho ADB</string>
+  <string name="trust_feature_root_value_apps">Cả ứng dụng và ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Đã bật</string>
+  <string name="trust_feature_encryption_value_disabled">Đã tắt</string>
+  <string name="trust_category_tools">Tính riêng tư</string>
+  <!-- Sms limit -->
 </resources>

@@ -116,4 +116,9 @@
   <string name="style_global_title">Üslub</string>
   <string name="style_automagic_dialog_positive">Tətbiq et</string>
   <string name="style_accent_default_name">Susmaya görə</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root müraciəti</string>
+  <string name="trust_feature_root_value_adb">Yalnız ADB</string>
+  <string name="trust_feature_root_value_apps">Tətbiqetmələr və ADB</string>
+  <!-- Sms limit -->
 </resources>

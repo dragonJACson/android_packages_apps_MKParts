@@ -503,4 +503,9 @@
   <string name="style_title">Stili</string>
   <string name="style_global_title">Stili</string>
   <string name="style_automagic_dialog_positive">Zbato</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Aksesi Root</string>
+  <string name="trust_feature_root_value_adb">Vetëm ADB</string>
+  <string name="trust_feature_root_value_apps">Aplikacionet dhe ADB</string>
+  <!-- Sms limit -->
 </resources>

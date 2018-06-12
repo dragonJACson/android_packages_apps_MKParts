@@ -584,4 +584,14 @@
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Padrão</string>
   <string name="style_permission_error">É necessária a permissão de acesso ao armazenamento para analisar o seu papel de parede. Por favor, conceda a permissão para usar este recurso.</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Desativado</string>
+  <string name="trust_feature_root">Acesso superusuário</string>
+  <string name="trust_feature_root_value_disabled">Desativado</string>
+  <string name="trust_feature_root_value_adb">Somente ADB</string>
+  <string name="trust_feature_root_value_apps">Aplicativos e ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Ativo</string>
+  <string name="trust_feature_encryption_value_disabled">Desativado</string>
+  <string name="trust_category_tools">Privacidade</string>
+  <!-- Sms limit -->
 </resources>

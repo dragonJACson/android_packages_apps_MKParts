@@ -587,4 +587,35 @@
   <string name="style_automagic_dialog_positive">Применить</string>
   <string name="style_accent_default_name">По умолчанию</string>
   <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
+  <!-- Trust interface -->
+  <string name="trust_header">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого.</string>
+  <string name="trust_category_features">Состояние</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Блокировка</string>
+  <string name="trust_feature_selinux_value_disabled">Отключено</string>
+  <string name="trust_feature_selinux_explain">SELinux определяет, какие процессы имеют доступ к файлам на вашем устройстве.\nЭто предотвращает доступ приложений и сервисов к файлам, с которыми они не должны иметь дело: таким образом, вредоносный процесс имеет ограниченный доступ, чтобы ваша безопасность была сохранена.</string>
+  <string name="trust_feature_root">Root-доступ</string>
+  <string name="trust_feature_root_value_disabled">Отключено</string>
+  <string name="trust_feature_root_value_adb">Только для ADB</string>
+  <string name="trust_feature_root_value_apps">Приложения и ADB</string>
+  <string name="trust_feature_root_explain">Root-доступ позволяет обходить ограничения безопасности приложениями и службами, которые вы выбираете, позволяя им вносить изменения в систему, что может нанести ущерб вашему устройству или ОС.</string>
+  <string name="trust_feature_security_patches">Патч безопасности Android</string>
+  <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nПроизводитель: %2$s</string>
+  <string name="trust_feature_security_patches_value_new">нет обновлений</string>
+  <string name="trust_feature_security_patches_value_medium">устаревший на несколько месяцев</string>
+  <string name="trust_feature_security_patches_value_old">устаревший</string>
+  <string name="trust_feature_security_patches_explain">Пакеты безопасности выпускаются ежемесячно компанией Google и поставщиками SoC для устранения недостатков в системе, которые могут быть использованы вредоносными приложениями для обхода ограничений безопасности и могут нанести временный или постоянный ущерб вашему устройству.\nВ то время, как патчи платформы обновляются каждый месяц, сами производители устройств обновляют патчи неспеша. \nДля того, чтобы ваше устройство было безопасным, убедитесь, что ваша сборка MoKee всегда актуальна.</string>
+  <string name="trust_feature_encryption">Шифрование</string>
+  <string name="trust_feature_encryption_value_enabled">Вкл.</string>
+  <string name="trust_feature_encryption_value_nolock">Требуется защитный экран блокировки</string>
+  <string name="trust_feature_encryption_value_disabled">Отключено</string>
+  <string name="trust_feature_encryption_explain">Шифрование вашего устройства предотвращает доступ к вашим данным, когда ваш телефон выключен или находится в режиме восстановления. Это особенно важно, если ваш телефон украден, шифрование не позволяет людям читать ваши сообщения, контакты и другую личную информацию без пароля.\nЧтобы сделать шифрование более эффективным, вам нужно установить защитный экран блокировки.</string>
+  <string name="trust_category_tools">Конфиденциальность</string>
+  <string name="trust_onboarding_title">Скажите \"привет\" Trust</string>
+  <string name="trust_onboarding_description">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого</string>
+  <string name="trust_onboarding_learn_more">Узнайте больше</string>
+  <string name="trust_onboarding_done">Понятно</string>
+  <!-- Sms limit -->
+  <string name="sms_security_check_limit_title">Ограничение SMS-сообщений</string>
+  <string name="sms_security_check_limit_summary">Отображать предупреждение, если за 15 минут было отправлено более %s SMS-сообщений</string>
 </resources>

@@ -533,4 +533,11 @@
   <string name="style_global_entry_dark">Iluna</string>
   <string name="style_automagic_dialog_positive">Aplikatu</string>
   <string name="style_accent_default_name">Lehenetsia</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root sarbidea</string>
+  <string name="trust_feature_root_value_adb">ADB bakarrik</string>
+  <string name="trust_feature_root_value_apps">ADB eta aplikazioak</string>
+  <string name="trust_feature_encryption_value_enabled">Gaituta</string>
+  <string name="trust_category_tools">Pribatutasuna</string>
+  <!-- Sms limit -->
 </resources>

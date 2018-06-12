@@ -473,4 +473,10 @@
   <string name="style_global_title">Stil</string>
   <string name="style_global_entry_dark">Tamno</string>
   <string name="style_automagic_dialog_positive">Primijeni</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root pristup</string>
+  <string name="trust_feature_root_value_adb">Samo ADB</string>
+  <string name="trust_feature_root_value_apps">Aplikacije i ADB</string>
+  <string name="trust_category_tools">Privatnost</string>
+  <!-- Sms limit -->
 </resources>

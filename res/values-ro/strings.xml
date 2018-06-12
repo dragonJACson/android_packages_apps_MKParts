@@ -584,4 +584,14 @@
   <string name="style_automagic_dialog_positive">Aplicaţi</string>
   <string name="style_accent_default_name">Implicit</string>
   <string name="style_permission_error">Permisiunea de acces la stocare este necesară pentru a analiza tapetul dumneavoastră, vă rugăm să o acordați pentru a utiliza această caracteristică</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Dezactivat</string>
+  <string name="trust_feature_root">Acces root</string>
+  <string name="trust_feature_root_value_disabled">Dezactivat</string>
+  <string name="trust_feature_root_value_adb">Doar ADB</string>
+  <string name="trust_feature_root_value_apps">Aplicații și ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Activat</string>
+  <string name="trust_feature_encryption_value_disabled">Dezactivat</string>
+  <string name="trust_category_tools">Confidențialitate</string>
+  <!-- Sms limit -->
 </resources>

@@ -570,4 +570,14 @@
   <string name="style_global_entry_dark">Oscuro</string>
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Predeterminado</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
+  <string name="trust_feature_root">Acceso administrativo</string>
+  <string name="trust_feature_root_value_disabled">Deshabilitado</string>
+  <string name="trust_feature_root_value_adb">Solo ADB</string>
+  <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Activado</string>
+  <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
+  <string name="trust_category_tools">Privacidad</string>
+  <!-- Sms limit -->
 </resources>

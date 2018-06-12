@@ -109,4 +109,9 @@
   <string name="style_title">شێواز</string>
   <string name="style_global_title">شێواز</string>
   <string name="style_automagic_dialog_positive">جێبه‌جێکردن</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">ڕێگای ڕەگ</string>
+  <string name="trust_feature_root_value_adb">تەنها ADB</string>
+  <string name="trust_feature_root_value_apps">بەرنامەکان و ADB</string>
+  <!-- Sms limit -->
 </resources>

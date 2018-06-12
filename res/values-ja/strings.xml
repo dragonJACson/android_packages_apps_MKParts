@@ -540,4 +540,14 @@
   <string name="style_global_entry_dark">暗闇</string>
   <string name="style_automagic_dialog_positive">適用</string>
   <string name="style_accent_default_name">デフォルト</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">無効</string>
+  <string name="trust_feature_root">ルートアクセス</string>
+  <string name="trust_feature_root_value_disabled">無効</string>
+  <string name="trust_feature_root_value_adb">ADBのみ</string>
+  <string name="trust_feature_root_value_apps">アプリとADB</string>
+  <string name="trust_feature_encryption_value_enabled">有効</string>
+  <string name="trust_feature_encryption_value_disabled">無効</string>
+  <string name="trust_category_tools">プライバシー</string>
+  <!-- Sms limit -->
 </resources>

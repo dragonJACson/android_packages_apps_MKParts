@@ -546,4 +546,14 @@
   <string name="style_global_entry_dark">Темнота</string>
   <string name="style_automagic_dialog_positive">Застосувати</string>
   <string name="style_accent_default_name">За замовчуванням</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Вимкнено</string>
+  <string name="trust_feature_root">Root доступ</string>
+  <string name="trust_feature_root_value_disabled">Вимкнено</string>
+  <string name="trust_feature_root_value_adb">Тільки ADB</string>
+  <string name="trust_feature_root_value_apps">Програми та ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Увімкнено</string>
+  <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
+  <string name="trust_category_tools">Конфіденційність</string>
+  <!-- Sms limit -->
 </resources>

@@ -585,4 +585,14 @@
   <string name="style_automagic_dialog_positive">Ужыць</string>
   <string name="style_accent_default_name">Па змаўчанні</string>
   <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Выключана</string>
+  <string name="trust_feature_root">Рэжым суперкарыстальніка</string>
+  <string name="trust_feature_root_value_disabled">Выключана</string>
+  <string name="trust_feature_root_value_adb">Толькі для ADB</string>
+  <string name="trust_feature_root_value_apps">Для дадаткаў і ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Уключана</string>
+  <string name="trust_feature_encryption_value_disabled">Выключана</string>
+  <string name="trust_category_tools">Прыватнасць</string>
+  <!-- Sms limit -->
 </resources>

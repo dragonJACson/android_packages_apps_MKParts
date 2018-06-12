@@ -112,4 +112,9 @@
   <string name="style_global_title">शैली</string>
   <string name="style_global_entry_light">हल्का</string>
   <string name="style_automagic_dialog_positive">*</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">मूल पहुँच</string>
+  <string name="trust_feature_root_value_adb">केवल एडीबी</string>
+  <string name="trust_feature_root_value_apps">ऐप और एडीबी</string>
+  <!-- Sms limit -->
 </resources>
