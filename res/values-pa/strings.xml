@@ -86,4 +86,6 @@
   <string name="style_title">ਸਟਾਈਲ</string>
   <string name="style_global_title">ਸਟਾਈਲ</string>
   <string name="style_automagic_dialog_positive">ਲਾਗੂ ਕਰੋ</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

@@ -561,4 +561,14 @@
   <string name="style_global_entry_dark">חשכה</string>
   <string name="style_automagic_dialog_positive">החל</string>
   <string name="style_accent_default_name">ברירת מחדל</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">מבוטל</string>
+  <string name="trust_feature_root">גישת שורש (Root)</string>
+  <string name="trust_feature_root_value_disabled">מבוטל</string>
+  <string name="trust_feature_root_value_adb">ADB בלבד</string>
+  <string name="trust_feature_root_value_apps">יישומים ו-ADB</string>
+  <string name="trust_feature_encryption_value_enabled">מופעל</string>
+  <string name="trust_feature_encryption_value_disabled">מבוטל</string>
+  <string name="trust_category_tools">פרטיות</string>
+  <!-- Sms limit -->
 </resources>

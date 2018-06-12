@@ -583,4 +583,14 @@
   <string name="style_automagic_dialog_positive">Applica</string>
   <string name="style_accent_default_name">Predefinito</string>
   <string name="style_permission_error">Per analizzare lo sfondo, è necessario il permesso di accesso all\'archivio, si prega di concederlo per utilizzare questa funzione</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Disabilitata</string>
+  <string name="trust_feature_root">Accesso root</string>
+  <string name="trust_feature_root_value_disabled">Disabilitata</string>
+  <string name="trust_feature_root_value_adb">Solo ADB</string>
+  <string name="trust_feature_root_value_apps">App e ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Attivato</string>
+  <string name="trust_feature_encryption_value_disabled">Disabilitata</string>
+  <string name="trust_category_tools">Privacy</string>
+  <!-- Sms limit -->
 </resources>

@@ -570,4 +570,14 @@
   <string name="style_automagic_dialog_positive">Εφαρμογή</string>
   <string name="style_accent_default_name">Προεπιλογή</string>
   <string name="style_permission_error">Το δικαίωμα πρόσβασης αποθηκευτικού χώρου είναι απαραίτητο για την ανάλυση της ταπετσαρίας σας, παρακαλώ χορηγήστε το για να χρησιμοποιήσετε αυτήν τη δυνατότητα</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Απενεργοποιημένο</string>
+  <string name="trust_feature_root">Πρόσβαση root</string>
+  <string name="trust_feature_root_value_disabled">Απενεργοποιημένο</string>
+  <string name="trust_feature_root_value_adb">Μόνο ADB</string>
+  <string name="trust_feature_root_value_apps">Εφαρμογές και ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Ενεργοποιημένος</string>
+  <string name="trust_feature_encryption_value_disabled">Απενεργοποιημένο</string>
+  <string name="trust_category_tools">Ιδιωτικότητα</string>
+  <!-- Sms limit -->
 </resources>

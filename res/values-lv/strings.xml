@@ -107,4 +107,9 @@
   <string name="style_title">Stils</string>
   <string name="style_global_title">Stils</string>
   <string name="style_automagic_dialog_positive">Lietot</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">Root pieeja</string>
+  <string name="trust_feature_root_value_adb">Tikai ADB</string>
+  <string name="trust_feature_root_value_apps">Lietotnēm un ADB</string>
+  <!-- Sms limit -->
 </resources>

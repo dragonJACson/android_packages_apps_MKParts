@@ -97,4 +97,9 @@
   <!-- Gesture: Stylus gestures -->
   <!-- Berry Lite -->
   <string name="style_global_entry_dark">আন্ধাৰ</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">ৰুট প্ৰৱেশ কৰক</string>
+  <string name="trust_feature_root_value_adb">কেৱল ADB</string>
+  <string name="trust_feature_root_value_apps">এপ্প্‌চ আৰু ADB</string>
+  <!-- Sms limit -->
 </resources>

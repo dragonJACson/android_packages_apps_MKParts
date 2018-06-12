@@ -525,4 +525,14 @@
   <string name="style_global_entry_dark">Maitim</string>
   <string name="style_automagic_dialog_positive">Ilapat</string>
   <string name="style_accent_default_name">Pangunahin</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Naka-disable</string>
+  <string name="trust_feature_root">Pahintulot sa root</string>
+  <string name="trust_feature_root_value_disabled">Naka-disable</string>
+  <string name="trust_feature_root_value_adb">ADB lamang</string>
+  <string name="trust_feature_root_value_apps">Mga app at ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Pinagana</string>
+  <string name="trust_feature_encryption_value_disabled">Naka-disable</string>
+  <string name="trust_category_tools">Ang palihim</string>
+  <!-- Sms limit -->
 </resources>

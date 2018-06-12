@@ -117,4 +117,9 @@
   <string name="style_global_title">സ്റ്റൈൽ</string>
   <string name="style_global_entry_dark">ഇരുണ്ട</string>
   <string name="style_automagic_dialog_positive">പ്രയോഗിക്കുക</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">റൂട്ട് പ്രവേശനം</string>
+  <string name="trust_feature_root_value_adb">ADB മാത്രം</string>
+  <string name="trust_feature_root_value_apps">അപ്ലിക്കേഷനുകളും ADB യും</string>
+  <!-- Sms limit -->
 </resources>

@@ -111,4 +111,9 @@
   <string name="style_global_title">શૈલી</string>
   <string name="style_global_entry_dark">ઘાટું</string>
   <string name="style_automagic_dialog_positive">લાગુ કરો</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">રૂટ ઍક્સેસ</string>
+  <string name="trust_feature_root_value_adb">ફક્ત ADB</string>
+  <string name="trust_feature_root_value_apps">એપ્લિકેશન્સ અને ADB</string>
+  <!-- Sms limit -->
 </resources>

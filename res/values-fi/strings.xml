@@ -545,4 +545,14 @@
   <string name="style_global_entry_dark">Tumma</string>
   <string name="style_automagic_dialog_positive">Käytä</string>
   <string name="style_accent_default_name">Oletus</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Poistettu käytöstä</string>
+  <string name="trust_feature_root">Root-oikeudet</string>
+  <string name="trust_feature_root_value_disabled">Poistettu käytöstä</string>
+  <string name="trust_feature_root_value_adb">Vain ADB</string>
+  <string name="trust_feature_root_value_apps">Sovellukset ja ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Ota käyttöön</string>
+  <string name="trust_feature_encryption_value_disabled">Poistettu käytöstä</string>
+  <string name="trust_category_tools">Tietosuoja</string>
+  <!-- Sms limit -->
 </resources>

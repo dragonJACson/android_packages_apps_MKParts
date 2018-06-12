@@ -541,4 +541,14 @@
   <string name="style_global_entry_dark">Мрак</string>
   <string name="style_automagic_dialog_positive">Примени</string>
   <string name="style_accent_default_name">Подразумевано</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Онемогућено</string>
+  <string name="trust_feature_root">Режим суперкорисника</string>
+  <string name="trust_feature_root_value_disabled">Онемогућено</string>
+  <string name="trust_feature_root_value_adb">Само ADB</string>
+  <string name="trust_feature_root_value_apps">Апликације и ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
+  <string name="trust_feature_encryption_value_disabled">Онемогућено</string>
+  <string name="trust_category_tools">Приватност</string>
+  <!-- Sms limit -->
 </resources>

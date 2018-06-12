@@ -586,4 +586,35 @@
   <string name="style_automagic_dialog_positive">Alkalmaz</string>
   <string name="style_accent_default_name">Alapértelmezés</string>
   <string name="style_permission_error">Tárhelyhozzáférési engedély szükséges a háttérkép elemzéséhez, engedélyezze a funkció használatához</string>
+  <!-- Trust interface -->
+  <string name="trust_header">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát.</string>
+  <string name="trust_category_features">Állapot</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Kényszerítve</string>
+  <string name="trust_feature_selinux_value_disabled">Kikapcsolva</string>
+  <string name="trust_feature_selinux_explain">A SELinux szabja meg, hogy mely folyamatok melyik fájlokhoz férhetnek hozzá az Ön készülékén.\nEz megakadályozza, hogy az alkalmazások és szolgáltatások hozzáférjenek azokhoz a fájlokhoz, amelyekhez nincs közük. Így a rosszindulatú folyamatnak korlátozható a hozzáférése, így az Ön biztonsága megmarad.</string>
+  <string name="trust_feature_root">Rendszergazda hozzáférés</string>
+  <string name="trust_feature_root_value_disabled">Kikapcsolva</string>
+  <string name="trust_feature_root_value_adb">Csak ADB</string>
+  <string name="trust_feature_root_value_apps">Alkalmazások és ADB</string>
+  <string name="trust_feature_root_explain">A Root hozzáférés lehetővé teszi, hogy az ön által megadott alkalmazás vagy szolgáltatás kikerülje a biztonsági korlátozásokat, ezzel lehetővé téve, hogy módosításokat hajtson végre a rendszeren, ami kárt okozhat a készülékében vagy rendszerében.</string>
+  <string name="trust_feature_security_patches">Androidos biztonsági hibajavító csomag</string>
+  <string name="trust_feature_security_patches_value_base">Android-felület: %1$s\nGyártói oldal: %2$s</string>
+  <string name="trust_feature_security_patches_value_new">naprakész</string>
+  <string name="trust_feature_security_patches_value_medium">néhány hónapos</string>
+  <string name="trust_feature_security_patches_value_old">elavult</string>
+  <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön MoKee kiadása mindig naprakész-e.</string>
+  <string name="trust_feature_encryption">Titkosítás</string>
+  <string name="trust_feature_encryption_value_enabled">Engedélyezve</string>
+  <string name="trust_feature_encryption_value_nolock">Biztonságos zárolási képernyő szükséges</string>
+  <string name="trust_feature_encryption_value_disabled">Kikapcsolva</string>
+  <string name="trust_feature_encryption_explain">Ha készüléke titkosításra kerül, azzal megakadályozza hogy kikapcsolt vagy recovery módban hozzáférhessenek adataihoz. Ez különösen fontos, ha telefonját ellopják, és megakadályozza, hogy megnézhesse az üzeneteket, névjegyeket és más személyes információkat jelszó használata nélkül.\nA titkosítás hatékonyabbá tételéhez biztonsági képernyőzárat kell beállítania.</string>
+  <string name="trust_category_tools">Adatvédelem</string>
+  <string name="trust_onboarding_title">Üdvözölje a Trust-ot</string>
+  <string name="trust_onboarding_description">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát</string>
+  <string name="trust_onboarding_learn_more">Tudjon meg többet</string>
+  <string name="trust_onboarding_done">Rendben</string>
+  <!-- Sms limit -->
+  <string name="sms_security_check_limit_title">SMS-üzenetkorlát</string>
+  <string name="sms_security_check_limit_summary">Figyelmeztet, ha 15 percen belül több mint %s SMS üzenet került elküldésre</string>
 </resources>

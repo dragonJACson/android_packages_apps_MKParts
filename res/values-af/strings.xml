@@ -522,4 +522,10 @@
   <string name="style_global_title">Styl</string>
   <string name="style_global_entry_dark">Donker</string>
   <string name="style_automagic_dialog_positive">Pas toe</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">\'Root\' toegang</string>
+  <string name="trust_feature_root_value_adb">Slegs ADB</string>
+  <string name="trust_feature_root_value_apps">Programme en ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Geaktiveer</string>
+  <!-- Sms limit -->
 </resources>

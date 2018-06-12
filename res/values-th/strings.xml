@@ -126,4 +126,9 @@
   <string name="style_global_title">รูปแบบ</string>
   <string name="style_global_entry_dark">มืด</string>
   <string name="style_automagic_dialog_positive">ใช้</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">สิทธิผู้ดูแลระบบ</string>
+  <string name="trust_feature_root_value_adb">ADB เท่านั้น</string>
+  <string name="trust_feature_root_value_apps">แอปและ ADB</string>
+  <!-- Sms limit -->
 </resources>

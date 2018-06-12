@@ -143,6 +143,8 @@
   <string name="live_display_color_profile_srgb_summary">Warna akurat ke ruang warna sRGB</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Warna akurat ke ruang warna DCI-P3</string>
+  <string name="live_display_reading_mode_title">Mode baca</string>
+  <string name="live_display_reading_mode_summary">Mode warna abu-abu untuk pembacaan jangka panjang</string>
   <string name="color_calibration_title">Kalibrasi warna</string>
   <string name="color_calibration_summary">Kalibrasi warna layar</string>
   <string name="color_red_title">Merah</string>
@@ -584,4 +586,14 @@
   <string name="style_automagic_dialog_positive">Terapkan</string>
   <string name="style_accent_default_name">Bawaan</string>
   <string name="style_permission_error">Izin akses penyimpanan diperlukan untuk menganalisis wallpaper Anda, tolong berikan untuk menggunakan fitur ini</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Dinonaktifkan</string>
+  <string name="trust_feature_root">Akses root</string>
+  <string name="trust_feature_root_value_disabled">Dinonaktifkan</string>
+  <string name="trust_feature_root_value_adb">ADB saja</string>
+  <string name="trust_feature_root_value_apps">Aplikasi dan ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Dihidupkan</string>
+  <string name="trust_feature_encryption_value_disabled">Dinonaktifkan</string>
+  <string name="trust_category_tools">Privasi</string>
+  <!-- Sms limit -->
 </resources>

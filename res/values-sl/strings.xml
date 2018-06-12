@@ -143,6 +143,7 @@
   <string name="live_display_color_profile_srgb_summary">Barve ustrezne sRGB barvnemu prostoru</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Barve ustrezne DCI-P3 barvnemu prostoru</string>
+  <string name="live_display_reading_mode_title">Način za branje</string>
   <string name="color_calibration_title">Umerjanje barv</string>
   <string name="color_calibration_summary">Umeri barve na zaslonu</string>
   <string name="color_red_title">Rdeča</string>
@@ -582,4 +583,14 @@
   <string name="style_automagic_dialog_positive">Uporabi</string>
   <string name="style_accent_default_name">Privzeto</string>
   <string name="style_permission_error">Dovoljenje za dostop do pomnilniške naprave je potreben za analizo vaše slike ozadja, odobrite ga za uporabo te značilnosti</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Onemogočeno</string>
+  <string name="trust_feature_root">Skrbniški dostop</string>
+  <string name="trust_feature_root_value_disabled">Onemogočeno</string>
+  <string name="trust_feature_root_value_adb">Samo ADB</string>
+  <string name="trust_feature_root_value_apps">Aplikacije in ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Omogočen</string>
+  <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
+  <string name="trust_category_tools">Zasebnost</string>
+  <!-- Sms limit -->
 </resources>

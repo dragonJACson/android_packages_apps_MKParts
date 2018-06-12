@@ -113,4 +113,10 @@
   <string name="style_global_title">শৈলী</string>
   <string name="style_automagic_dialog_positive">প্রয়োগ করুন</string>
   <string name="style_accent_default_name">Default</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">রুট এক্সেস</string>
+  <string name="trust_feature_root_value_adb">শুধু মাত্র এডিবি</string>
+  <string name="trust_feature_root_value_apps">অ্যাপস এবং এডিবি</string>
+  <string name="trust_category_tools">প্রাইভেসি</string>
+  <!-- Sms limit -->
 </resources>

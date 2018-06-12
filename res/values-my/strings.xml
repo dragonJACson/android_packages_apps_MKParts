@@ -94,4 +94,6 @@
   <string name="style_title">စတိုင်လ်</string>
   <string name="style_global_title">စတိုင်လ်</string>
   <string name="style_automagic_dialog_positive">လုပ်ဆောင်ရန်</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

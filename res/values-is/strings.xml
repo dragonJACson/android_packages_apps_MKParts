@@ -86,4 +86,6 @@
   <string name="style_title">Stíll</string>
   <string name="style_global_title">Stíll</string>
   <string name="style_automagic_dialog_positive">Nota</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

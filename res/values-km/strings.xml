@@ -100,4 +100,6 @@
   <string name="style_title">រចនាប័ទ្ម</string>
   <string name="style_global_title">រចនាប័ទ្ម</string>
   <string name="style_automagic_dialog_positive">អនុវត្ត</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

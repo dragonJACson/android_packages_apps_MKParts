@@ -86,4 +86,6 @@
   <string name="style_title">Стиль</string>
   <string name="style_global_title">Стиль</string>
   <string name="style_automagic_dialog_positive">Қолдану</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

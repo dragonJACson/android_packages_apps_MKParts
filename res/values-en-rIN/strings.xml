@@ -108,4 +108,6 @@
   <string name="touchscreen_gesture_action_dialer">Open the dialler</string>
   <!-- Berry Lite -->
   <string name="style_accent_default_name">Default</string>
+  <!-- Trust interface -->
+  <!-- Sms limit -->
 </resources>

@@ -584,4 +584,14 @@
   <string name="style_automagic_dialog_positive">Übernehmen</string>
   <string name="style_accent_default_name">Voreinstellung</string>
   <string name="style_permission_error">Speicherzugriffsberechtigung ist erforderlich, um Ihr Hintergrundbild zu analysieren. Bitte gewähren Sie diese, um die Funktion nutzen zu können</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_selinux_value_disabled">Deaktiviert</string>
+  <string name="trust_feature_root">Root-Zugriff</string>
+  <string name="trust_feature_root_value_disabled">Deaktiviert</string>
+  <string name="trust_feature_root_value_adb">Nur ADB</string>
+  <string name="trust_feature_root_value_apps">Apps und ADB</string>
+  <string name="trust_feature_encryption_value_enabled">Aktiviert</string>
+  <string name="trust_feature_encryption_value_disabled">Deaktiviert</string>
+  <string name="trust_category_tools">Privatsphäre</string>
+  <!-- Sms limit -->
 </resources>

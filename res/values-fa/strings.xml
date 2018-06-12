@@ -128,4 +128,9 @@
   <string name="style_title">سبک</string>
   <string name="style_global_title">سبک</string>
   <string name="style_automagic_dialog_positive">اعمال‌ کردن</string>
+  <!-- Trust interface -->
+  <string name="trust_feature_root">دسترسی روت</string>
+  <string name="trust_feature_root_value_adb">فقط ای‌دی‌بی</string>
+  <string name="trust_feature_root_value_apps">برنامه‌ها و ای‌دی‌بی</string>
+  <!-- Sms limit -->
 </resources>
