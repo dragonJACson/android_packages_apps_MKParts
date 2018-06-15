@@ -504,6 +504,7 @@
   <string name="expanded_desktop_style_hide_navigation">Itago ang navigation bar</string>
   <string name="expanded_desktop_style_hide_both">Itago ang kapwa</string>
   <string name="expanded_desktop_nothing_to_show_text">I-turn ang switch off para i-customize ang iyong expanded na desktop sa isang per-app basis</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Charging na mga tunog</string>
   <string name="charging_sounds_enabled_title">Paganahin</string>

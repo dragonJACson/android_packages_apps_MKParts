@@ -520,6 +520,9 @@
   <string name="expanded_desktop_style_hide_navigation">Navigációs sáv elrejtése</string>
   <string name="expanded_desktop_style_hide_both">Mindkettő elrejtése</string>
   <string name="expanded_desktop_nothing_to_show_text">Kapcsolja ki a kapcsolót a kiterjesztett képernyő alkalmazásonkénti testreszabásához</string>
+  <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Teljes képernyős alkalmazások</string>
+  <string name="long_screen_settings_summary">A régi alkalmazások kényszerítése, hogy teljes képernyős oldalarányt használjanak</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Töltés jelzése</string>
   <string name="charging_sounds_enabled_title">Engedélyezés</string>

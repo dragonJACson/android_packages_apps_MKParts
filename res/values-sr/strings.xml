@@ -486,6 +486,7 @@
   <string name="expanded_desktop_style_hide_navigation">Сакриј навигациону траку</string>
   <string name="expanded_desktop_style_hide_both">Сакриј обе траке</string>
   <string name="expanded_desktop_nothing_to_show_text">Искључите да бисте подесили проширени екран за појединачне апликације.</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Звук при пуњењу</string>
   <string name="charging_sounds_enabled_title">Омогући</string>

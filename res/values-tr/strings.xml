@@ -520,6 +520,9 @@
   <string name="expanded_desktop_style_hide_navigation">Gezinme çubuğunu gizle</string>
   <string name="expanded_desktop_style_hide_both">İkisini de gizle</string>
   <string name="expanded_desktop_nothing_to_show_text">Genişletilmiş masaüstünüzü uygulama bazında özelleştirmek için kapatın</string>
+  <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Tam ekran uygulamaları</string>
+  <string name="long_screen_settings_summary">Eski uygulamaların tam ekran en boy oranını kullanmasına zorlar</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Şarj sesleri</string>
   <string name="charging_sounds_enabled_title">Etkinleştir</string>
@@ -605,7 +608,7 @@
   <string name="trust_feature_security_patches_value_old">tarihi geçmiş</string>
   <string name="trust_feature_security_patches_explain">Güvenlik açıklarını ve güvenlik kısıtlamalarını atlamak cihazınızda geçici veya kalıcı bir hasar meydana getirmek için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek sistemdeki kusurları gidermek amacıyla Google ve SoC satıcıları tarafından aylık olarak yayınlanır.\nYazılım yamaları her ay global olarak güncellendiğinde satıcı yamaları zaman zaman OEM\'den güncellenir.\nCihazınızı güvende tutmak için MoKee yapınızın daima güncel olduğundan emin olun.</string>
   <string name="trust_feature_encryption">Şifreleme</string>
-  <string name="trust_feature_encryption_value_enabled">Etkinleştirildi</string>
+  <string name="trust_feature_encryption_value_enabled">Etkin</string>
   <string name="trust_feature_encryption_value_nolock">Güvenli bir kilit ekranına ihtiyaç duyar</string>
   <string name="trust_feature_encryption_value_disabled">Devre dışı</string>
   <string name="trust_feature_encryption_explain">Cihazınızı şifrelemek, telefonunuz kapalıyken veya kurtarma modundayken verilerinize erişimi engeller. Bu özellikle telefonunuz çalındığında önemlidir ve kişilerin mesajlarınızı, kişilerinizi ve diğer kişisel bilgilerinizi şifre olmadan okumasını önler.\nKablosuz şifrelemeyi daha etkili hale getirmek için güvenli bir kilit ekranı ayarlamanız gerekir.</string>

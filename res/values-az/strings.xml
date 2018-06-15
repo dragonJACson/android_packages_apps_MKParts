@@ -106,6 +106,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">Heç vaxt</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Titrəmə</string>
   <string name="charging_sounds_ringtone_silent">Səssiz</string>

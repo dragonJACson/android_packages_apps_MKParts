@@ -517,6 +517,7 @@
   <string name="expanded_desktop_style_hide_navigation">Nascondi barra di navigazione</string>
   <string name="expanded_desktop_style_hide_both">Nascondi entrambe</string>
   <string name="expanded_desktop_nothing_to_show_text">Spegni l\'interruttore per personalizzare lo schermo esteso basato su ogni singola app</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Suoni di ricarica</string>
   <string name="charging_sounds_enabled_title">Attiva</string>

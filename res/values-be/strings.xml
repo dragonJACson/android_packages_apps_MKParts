@@ -519,6 +519,7 @@
   <string name="expanded_desktop_style_hide_navigation">Схаваць навігацыйны радок</string>
   <string name="expanded_desktop_style_hide_both">Схаваць абедзве</string>
   <string name="expanded_desktop_nothing_to_show_text">Выключыце, каб наладзіць рэжым пашыранага працоўнага стала для кожнага прыкладання</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Гукі зарадкі</string>
   <string name="charging_sounds_enabled_title">Уключыць</string>

@@ -116,6 +116,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">Tidak pernah</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_title">Mendayakan</string>
   <string name="charging_sounds_ringtone_silent">Senyap</string>

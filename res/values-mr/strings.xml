@@ -102,6 +102,7 @@
   <string name="status_bar_show_weather_title">हवामान दर्शवा</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">कंपन करा</string>
   <!-- Gestures: Touchscreen gestures -->

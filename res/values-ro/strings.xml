@@ -518,6 +518,7 @@
   <string name="expanded_desktop_style_hide_navigation">Ascunde bara de navigare</string>
   <string name="expanded_desktop_style_hide_both">Ascunde ambele</string>
   <string name="expanded_desktop_nothing_to_show_text">Dezactivați comutatorul pentru a personaliza desktop-ul extins pe o bază per aplicație</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Sunete de încărcare</string>
   <string name="charging_sounds_enabled_title">Activați</string>

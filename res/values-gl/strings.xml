@@ -472,6 +472,7 @@
   <string name="expanded_desktop_style_hide_navigation">Agochar barra de navegación</string>
   <string name="expanded_desktop_style_hide_both">Agochar ámbalas dúas</string>
   <string name="expanded_desktop_nothing_to_show_text">Desactivar a chave de personalizar o seu escritorio expandida nunha base per-app</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Sons de carga</string>
   <string name="charging_sounds_enabled_title">Activar</string>

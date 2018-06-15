@@ -506,6 +506,7 @@
   <string name="expanded_desktop_style_hide_navigation">הסתר סרגל ניווט</string>
   <string name="expanded_desktop_style_hide_both">הסתר את שניהם</string>
   <string name="expanded_desktop_nothing_to_show_text">כבה מתג זה להתאמה אישית של מסך מורחב לכל יישום</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">צלילי טעינה</string>
   <string name="charging_sounds_enabled_title">אפשר</string>

@@ -518,6 +518,7 @@
   <string name="expanded_desktop_style_hide_navigation">Ẩn thanh điều hướng</string>
   <string name="expanded_desktop_style_hide_both">Ẩn cả hai</string>
   <string name="expanded_desktop_nothing_to_show_text">Tắt chuyển đổi để tùy chỉnh mở rộng màn hình của bạn trên một ứng dụng gốc</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Âm báo đang sạc</string>
   <string name="charging_sounds_enabled_title">Bật</string>

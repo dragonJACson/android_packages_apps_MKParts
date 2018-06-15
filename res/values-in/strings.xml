@@ -520,6 +520,7 @@
   <string name="expanded_desktop_style_hide_navigation">Sembunyikan navigasi bar</string>
   <string name="expanded_desktop_style_hide_both">Sembunyikan keduanya</string>
   <string name="expanded_desktop_nothing_to_show_text">Matikan saklar untuk menyesuaikan desktop diperluas pada basis per-app</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Suara pengisian daya</string>
   <string name="charging_sounds_enabled_title">Hidupkan</string>

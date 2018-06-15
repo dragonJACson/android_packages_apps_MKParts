@@ -353,6 +353,7 @@
   <string name="network_traffic_mode_title">Visningsläge</string>
   <string name="network_traffic_mode_disable">Inaktiverad</string>
   <string name="network_traffic_units_kilobits">Kilobits per sekund (kb/s)</string>
+  <string name="network_traffic_show_units">Visa enheter</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Skyddade appar</string>
   <string name="protected_apps_manager_summary">Hantera vilka appar som döljs bakom ett säkert lås</string>
@@ -396,6 +397,7 @@
   <string name="expanded_desktop_style_hide_status">Dölj statusfält</string>
   <string name="expanded_desktop_style_hide_navigation">Dölj navigeringsfält</string>
   <string name="expanded_desktop_style_hide_both">Dölj båda</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Laddningsljud</string>
   <string name="charging_sounds_enabled_title">Aktivera</string>
@@ -442,6 +444,7 @@
   <string name="style_automagic_dialog_positive">Använd</string>
   <string name="style_accent_default_name">Standard</string>
   <!-- Trust interface -->
+  <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_disabled">Inaktiverad</string>
   <string name="trust_feature_root">Rootåtkomst</string>
   <string name="trust_feature_root_value_disabled">Inaktiverad</string>
@@ -450,5 +453,7 @@
   <string name="trust_feature_encryption_value_enabled">Aktiverad</string>
   <string name="trust_feature_encryption_value_disabled">Inaktiverad</string>
   <string name="trust_category_tools">Integritet</string>
+  <string name="trust_onboarding_learn_more">Läs mer</string>
+  <string name="trust_onboarding_done">Förstått</string>
   <!-- Sms limit -->
 </resources>

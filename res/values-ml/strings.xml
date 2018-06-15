@@ -108,6 +108,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ഇതുവരെയില്ല</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">വൈബ്രേറ്റുചെയ്യുക</string>
   <!-- Gestures: Touchscreen gestures -->

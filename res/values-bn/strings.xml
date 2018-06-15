@@ -103,6 +103,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">Never</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_title">সক্রিয় করুন</string>
   <string name="power_notifications_vibrate_title">কম্পন</string>

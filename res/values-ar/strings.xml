@@ -520,6 +520,9 @@
   <string name="expanded_desktop_style_hide_navigation">إخفاء شريط التنقل</string>
   <string name="expanded_desktop_style_hide_both">إخفاء كليهما</string>
   <string name="expanded_desktop_nothing_to_show_text">إيقاف تشغيل مفتاح التبديل لتخصيص سطح المكتب الموسع حسب كل تطبيق</string>
+  <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">تطبيقات الشاشة الكاملة</string>
+  <string name="long_screen_settings_summary">اجبِر التطبيقات القديمة على استخدام نسبة العرض إلى الارتفاع على كامل الشاشة</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">أصوات الشحن</string>
   <string name="charging_sounds_enabled_title">تمكين</string>

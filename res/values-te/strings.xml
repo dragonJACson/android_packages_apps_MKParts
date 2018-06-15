@@ -104,6 +104,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ఎప్పటికీ వద్దు</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">వైబ్రేట్</string>
   <!-- Gestures: Touchscreen gestures -->

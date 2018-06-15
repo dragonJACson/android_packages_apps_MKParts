@@ -104,6 +104,7 @@
   <string name="status_bar_show_weather_title">Näita Ilmateadet</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">Vibreeri</string>
   <string name="charging_sounds_ringtone_silent">Vaikne</string>

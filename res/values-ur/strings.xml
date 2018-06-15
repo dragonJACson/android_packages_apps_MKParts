@@ -113,6 +113,7 @@
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_summary">حیثیت بار، نیوی گیشن بار، یا دونوں کو چھپا کرکے اپنے دستیاب ڈیسک ٹاپ کی جگہ کو بڑھاو</string>
   <string name="expanded_desktop_nothing_to_show_text">سوئچ آف کو آپ کے وسیع کردہ ڈیسک ٹاپ کو فی اے پی کی بنیاد پر اپنی مرضی کے مطابق کرنے کے لئے بند کریں</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_summary">بجلی کا منسلک منسلک یا منقطع کرتے وقت آواز چلائیں</string>
   <!-- Gestures: Touchscreen gestures -->

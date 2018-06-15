@@ -516,6 +516,7 @@
   <string name="expanded_desktop_style_hide_navigation">Скриване на лентата за навигация</string>
   <string name="expanded_desktop_style_hide_both">Скрий и двете</string>
   <string name="expanded_desktop_nothing_to_show_text">Изключите персонализирането на вашия разширен екран на база на броя на приложенията</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Звуци при зареждане</string>
   <string name="charging_sounds_enabled_title">Активиране</string>

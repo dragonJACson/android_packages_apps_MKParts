@@ -515,6 +515,7 @@
   <string name="expanded_desktop_style_hide_navigation">Ocultar la barra de navegación</string>
   <string name="expanded_desktop_style_hide_both">Ocultar ambos</string>
   <string name="expanded_desktop_nothing_to_show_text">Apague el interruptor para personalizar el escritorio extendido por aplicación</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Sonidos de carga del dispositivo</string>
   <string name="charging_sounds_enabled_title">Activado</string>

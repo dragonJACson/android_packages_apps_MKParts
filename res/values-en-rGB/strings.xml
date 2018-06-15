@@ -120,6 +120,7 @@
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_options_title">Customisation options</string>
   <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customise your expanded desktop on a per-app basis</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">Silent</string>
   <!-- Gestures: Touchscreen gestures -->

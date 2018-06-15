@@ -121,6 +121,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ھەرگىز</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">تىترەت</string>
   <!-- Gestures: Touchscreen gestures -->

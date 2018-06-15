@@ -513,6 +513,7 @@
   <string name="expanded_desktop_style_hide_navigation">Navigatiebalk verbergen</string>
   <string name="expanded_desktop_style_hide_both">Beide verbergen</string>
   <string name="expanded_desktop_nothing_to_show_text">Uitschakelen om het uitgebreide bureaublad per app te kunnen aanpassen</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Opladergeluid</string>
   <string name="charging_sounds_enabled_title">Inschakelen</string>

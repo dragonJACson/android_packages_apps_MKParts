@@ -521,6 +521,9 @@
   <string name="expanded_desktop_style_hide_navigation">Скрывать панель навигации</string>
   <string name="expanded_desktop_style_hide_both">Скрывать строку состояния и панель навигации</string>
   <string name="expanded_desktop_nothing_to_show_text">Выключите, чтобы настроить режим расширенного рабочего стола для каждого приложения</string>
+  <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Полноэкранные приложения</string>
+  <string name="long_screen_settings_summary">Принудительное использование полноэкранного соотношения сторон старыми приложениями</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Звук при зарядке</string>
   <string name="charging_sounds_enabled_title">Включить</string>
@@ -606,7 +609,7 @@
   <string name="trust_feature_security_patches_value_old">устаревший</string>
   <string name="trust_feature_security_patches_explain">Пакеты безопасности выпускаются ежемесячно компанией Google и поставщиками SoC для устранения недостатков в системе, которые могут быть использованы вредоносными приложениями для обхода ограничений безопасности и могут нанести временный или постоянный ущерб вашему устройству.\nВ то время, как патчи платформы обновляются каждый месяц, сами производители устройств обновляют патчи неспеша. \nДля того, чтобы ваше устройство было безопасным, убедитесь, что ваша сборка MoKee всегда актуальна.</string>
   <string name="trust_feature_encryption">Шифрование</string>
-  <string name="trust_feature_encryption_value_enabled">Вкл.</string>
+  <string name="trust_feature_encryption_value_enabled">Включено</string>
   <string name="trust_feature_encryption_value_nolock">Требуется защитный экран блокировки</string>
   <string name="trust_feature_encryption_value_disabled">Отключено</string>
   <string name="trust_feature_encryption_explain">Шифрование вашего устройства предотвращает доступ к вашим данным, когда ваш телефон выключен или находится в режиме восстановления. Это особенно важно, если ваш телефон украден, шифрование не позволяет людям читать ваши сообщения, контакты и другую личную информацию без пароля.\nЧтобы сделать шифрование более эффективным, вам нужно установить защитный экран блокировки.</string>

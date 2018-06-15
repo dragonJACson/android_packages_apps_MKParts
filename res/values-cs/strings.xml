@@ -520,6 +520,9 @@
   <string name="expanded_desktop_style_hide_navigation">Skrýt navigační lištu</string>
   <string name="expanded_desktop_style_hide_both">Skrýt oboji</string>
   <string name="expanded_desktop_nothing_to_show_text">Vypněte upravení rozšířené plochy na základě aplikací</string>
+  <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Aplikace na celou obrazovku</string>
+  <string name="long_screen_settings_summary">Přimět starší aplikace na použití poměrů na celou obrazovku</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Zvuky při nabíjení</string>
   <string name="charging_sounds_enabled_title">Povolit</string>
@@ -591,10 +594,10 @@
   <string name="trust_category_features">Stav</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Vynucený</string>
-  <string name="trust_feature_selinux_value_disabled">Nezobrazovat</string>
+  <string name="trust_feature_selinux_value_disabled">Zakázáno</string>
   <string name="trust_feature_selinux_explain">SELinux určuje, které procesy mají přístup k souborům ve vašem zařízení.\nZabraňuje tomu, aby aplikace a služby měly přístup k souborům, se kterými se nemusí zabývat: tímto způsobem má nebezpečný proces omezený přístup, takže vaše bezpečnost je zachována.</string>
   <string name="trust_feature_root">Root přístup</string>
-  <string name="trust_feature_root_value_disabled">Nezobrazovat</string>
+  <string name="trust_feature_root_value_disabled">Zakázáno</string>
   <string name="trust_feature_root_value_adb">Pouze ADB</string>
   <string name="trust_feature_root_value_apps">Aplikace a ADB</string>
   <string name="trust_feature_root_explain">Root přístup umožňuje vynechat bezpečnostní omezení v aplikacích a službách, které si zvolíte, což jim umožní provést změny v systému, které mohou potenciálně způsobit poškození zařízení nebo operačního systému.</string>
@@ -607,7 +610,7 @@
   <string name="trust_feature_encryption">Šifrování</string>
   <string name="trust_feature_encryption_value_enabled">Povoleno</string>
   <string name="trust_feature_encryption_value_nolock">Je potřeba zabezpečená zamykací obrazovka</string>
-  <string name="trust_feature_encryption_value_disabled">Nezobrazovat</string>
+  <string name="trust_feature_encryption_value_disabled">Zakázáno</string>
   <string name="trust_feature_encryption_explain">Šifrování zařízení zabraňuje přístupu k vašim údajům, pokud je telefon vypnutý nebo v Recovery režimu. Toto je obzvláště důležité v případě odcizení telefonu a zabraňuje ostatním ve čtení vašich zpráv, kontaktů a jiných soukromých informací bez znalosti hesla.\nAby bylo šifrování efektivnější, musíte nastavit bezpečný zámek obrazovky.</string>
   <string name="trust_category_tools">Soukromí</string>
   <string name="trust_onboarding_title">Seznámení s Trust</string>

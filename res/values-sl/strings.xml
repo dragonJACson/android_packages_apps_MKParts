@@ -518,6 +518,7 @@
   <string name="expanded_desktop_style_hide_navigation">Skrij vrstico za krmarjenje</string>
   <string name="expanded_desktop_style_hide_both">Skrij oboje</string>
   <string name="expanded_desktop_nothing_to_show_text">Izklopite stikalo, da razširjeno namizje prilagodite glede na aplikacijo</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Zvoki ob polnjenju</string>
   <string name="charging_sounds_enabled_title">Omogoči</string>

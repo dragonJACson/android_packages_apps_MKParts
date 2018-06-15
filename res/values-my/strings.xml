@@ -86,6 +86,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ဘယ်တော့မှ</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_ringtone_silent">အသံတိတ်</string>
   <!-- Gestures: Touchscreen gestures -->

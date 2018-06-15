@@ -506,6 +506,7 @@
   <string name="expanded_desktop_style_hide_navigation">Απόκρυψη γραμμής πλοήγησης</string>
   <string name="expanded_desktop_style_hide_both">Απόκρυψη όλων</string>
   <string name="expanded_desktop_nothing_to_show_text">Απενεργοποιήστε το διακόπτη για να προσαρμόσετε την επέκταση επιφάνειας ανά εφαρμογή</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Ήχοι φόρτισης</string>
   <string name="charging_sounds_enabled_title">Ενεργοποίηση</string>

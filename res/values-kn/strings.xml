@@ -114,6 +114,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ಎಂದಿಗೂ</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">ಕಂಪಿಸು</string>
   <!-- Gestures: Touchscreen gestures -->

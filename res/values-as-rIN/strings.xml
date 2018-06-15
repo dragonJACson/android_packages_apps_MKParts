@@ -91,6 +91,7 @@
   <string name="status_bar_show_weather_title">বতৰ প্ৰদৰ্শন কৰক</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">ভাইব্ৰেট</string>
   <!-- Gestures: Touchscreen gestures -->

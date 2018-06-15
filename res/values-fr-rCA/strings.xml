@@ -518,6 +518,7 @@
   <string name="expanded_desktop_style_hide_navigation">Masquer la barre de navigation</string>
   <string name="expanded_desktop_style_hide_both">Masquer les deux</string>
   <string name="expanded_desktop_nothing_to_show_text">Mettre sur off pour personnaliser le bureau étendu pour chaque application</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Tonalité de charge</string>
   <string name="charging_sounds_enabled_title">Activé</string>

@@ -520,6 +520,7 @@
   <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
   <string name="expanded_desktop_style_hide_both">同时隐藏</string>
   <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充电提示音</string>
   <string name="charging_sounds_enabled_title">启用</string>

@@ -516,6 +516,7 @@
   <string name="expanded_desktop_style_hide_navigation">내비게이션 바 숨기기</string>
   <string name="expanded_desktop_style_hide_both">모두 숨기기</string>
   <string name="expanded_desktop_nothing_to_show_text">각각의 앱에 확장 데스크탑을 적용하려면 스위치를 끄세요</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">충전 소리</string>
   <string name="charging_sounds_enabled_title">사용</string>

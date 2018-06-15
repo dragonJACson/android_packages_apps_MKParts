@@ -498,6 +498,7 @@
   <string name="expanded_desktop_style_hide_navigation">Приховувати панель навігації</string>
   <string name="expanded_desktop_style_hide_both">Приховувати обидві</string>
   <string name="expanded_desktop_nothing_to_show_text">Вимкнути налаштування розширеного робочого столу для кожного додатку</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Звуки зарядки</string>
   <string name="charging_sounds_enabled_title">Увімкнути</string>

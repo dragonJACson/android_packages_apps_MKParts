@@ -486,6 +486,7 @@
   <string name="expanded_desktop_style_hide_navigation">Amaga la barra de navegació</string>
   <string name="expanded_desktop_style_hide_both">Amaga els dos</string>
   <string name="expanded_desktop_nothing_to_show_text">Apaga l\'interruptor per personalitzar el teu escriptori extès segons cada aplicació</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Sons de càrrega</string>
   <string name="charging_sounds_enabled_title">Habilita</string>

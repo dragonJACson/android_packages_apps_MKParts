@@ -117,6 +117,7 @@
   <!-- Power: Performance profiles -->
   <string name="auto_power_save_never">ஒருபோதுமில்லை</string>
   <!-- Applications: Expanded desktop -->
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="power_notifications_vibrate_title">அதிர்வு</string>
   <string name="charging_sounds_ringtone_silent">அமைதி</string>

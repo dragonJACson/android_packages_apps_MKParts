@@ -518,6 +518,7 @@
   <string name="expanded_desktop_style_hide_navigation">Navigationsleiste ausblenden</string>
   <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
   <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
+  <!-- Applications: Long screen -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Ladegeräte-Töne</string>
   <string name="charging_sounds_enabled_title">Aktivieren</string>
