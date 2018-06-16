@@ -695,6 +695,8 @@
     <string name="trust_feature_encryption_value_disabled">Disabled</string>
     <string name="trust_feature_encryption_explain">Encrypting your device prevents access to your data when your phone is off or in recovery mode. This is particularly important if your phone is stolen, and prevents people from reading your messages, contacts, and other private information without the password.\nTo make the encryption more effective you need to set a secure lock screen.</string>
     <string name="trust_category_tools">Privacy</string>
+    <string name="trust_notification_alerts_title">Security alerts</string>
+    <string name="trust_notifications_alerts_summary">Display notifications when a security issue is found</string>
     <string name="trust_onboarding_title">Say hello to Trust</string>
     <string name="trust_onboarding_description">Trust helps you keep your device secure and protects your privacy.\nThe Trust icon will show up to help you by checking the security of the contents</string>
     <string name="trust_onboarding_learn_more">Learn more</string>
@@ -702,5 +704,7 @@
 
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">SMS message limit</string>
-    <string name="sms_security_check_limit_summary">Display an alert when more than %s SMS messages are being sent in 15 minutes</string>
+    <string name="sms_security_check_limit_summary">Apps can send %s messages in 1 minute before requiring confirmation</string>
+    <string name="sms_security_check_limit_summary_none">Apps are not allowed to send any messages without confirmation</string>
+    <string name="sms_security_check_limit_always_confirm">Always confirm</string>
 </resources>
