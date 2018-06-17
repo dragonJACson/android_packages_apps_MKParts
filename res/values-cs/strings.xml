@@ -613,11 +613,15 @@
   <string name="trust_feature_encryption_value_disabled">Zakázáno</string>
   <string name="trust_feature_encryption_explain">Šifrování zařízení zabraňuje přístupu k vašim údajům, pokud je telefon vypnutý nebo v Recovery režimu. Toto je obzvláště důležité v případě odcizení telefonu a zabraňuje ostatním ve čtení vašich zpráv, kontaktů a jiných soukromých informací bez znalosti hesla.\nAby bylo šifrování efektivnější, musíte nastavit bezpečný zámek obrazovky.</string>
   <string name="trust_category_tools">Soukromí</string>
+  <string name="trust_notification_alerts_title">Bezpečnostní výstrahy</string>
+  <string name="trust_notifications_alerts_summary">Zobrazí oznámení, pokud je nalezen problém se zabezpečením</string>
   <string name="trust_onboarding_title">Seznámení s Trust</string>
   <string name="trust_onboarding_description">Trust pomáhá udržovat vaše zařízení v bezpečí a chrání vaše soukromí.\nZobrazí se ikona Trust, která vám pomůže kontrolovat bezpečnost obsahu</string>
   <string name="trust_onboarding_learn_more">Zjistit více</string>
   <string name="trust_onboarding_done">Rozumím</string>
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">Limit SMS zpráv</string>
-  <string name="sms_security_check_limit_summary">Zobrazí se upozornění, pokud bylo odesláno více než %s SMS zpráv za 15 minut</string>
+  <string name="sms_security_check_limit_summary">Aplikace může poslat %s zpráv za 1 minutu před tím, než bude vyžádáno ověření</string>
+  <string name="sms_security_check_limit_summary_none">Aplikacím není umožněno bez předchozího potvrzení zasílat jakékoliv zprávy</string>
+  <string name="sms_security_check_limit_always_confirm">Vždy potvrdit</string>
 </resources>

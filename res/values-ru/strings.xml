@@ -614,6 +614,8 @@
   <string name="trust_feature_encryption_value_disabled">Отключено</string>
   <string name="trust_feature_encryption_explain">Шифрование вашего устройства предотвращает доступ к вашим данным, когда ваш телефон выключен или находится в режиме восстановления. Это особенно важно, если ваш телефон украден, шифрование не позволяет людям читать ваши сообщения, контакты и другую личную информацию без пароля.\nЧтобы сделать шифрование более эффективным, вам нужно установить защитный экран блокировки.</string>
   <string name="trust_category_tools">Конфиденциальность</string>
+  <string name="trust_notification_alerts_title">Оповещения системы безопасности</string>
+  <string name="trust_notifications_alerts_summary">Отображать уведомление при обнаружении проблемы безопасности</string>
   <string name="trust_onboarding_title">Скажите \"привет\" Trust</string>
   <string name="trust_onboarding_description">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого</string>
   <string name="trust_onboarding_learn_more">Узнайте больше</string>
@@ -621,4 +623,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">Ограничение SMS-сообщений</string>
   <string name="sms_security_check_limit_summary">Отображать предупреждение, если за 15 минут было отправлено более %s SMS-сообщений</string>
+  <string name="sms_security_check_limit_summary_none">Приложениям запрещено отправлять сообщения без подтверждения</string>
+  <string name="sms_security_check_limit_always_confirm">Всегда подтверждать</string>
 </resources>

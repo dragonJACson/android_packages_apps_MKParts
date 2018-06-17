@@ -613,6 +613,8 @@
   <string name="trust_feature_encryption_value_disabled">معطل</string>
   <string name="trust_feature_encryption_explain">يعمل تشفير جهازك على منع الوصول إلى بياناتك عند إيقاف تشغيل هاتفك أو في وضع الاسترداد. هذا مهم بشكل خاص إذا كان هاتفك مسروقًا ، ويمنع الأشخاص من قراءة رسائلك وجهات اتصالك ومعلومات خاصة أخرى بدون كلمة المرور.\nلجعل التشفير أكثر فعالية تحتاج إلى تعيين شاشة قفل آمنة.</string>
   <string name="trust_category_tools">الخصوصيـة</string>
+  <string name="trust_notification_alerts_title">إنذارات الأَمان</string>
+  <string name="trust_notifications_alerts_summary">عرض الإخطارات عند العثور على مشكلة أمنية</string>
   <string name="trust_onboarding_title">قل مرحباً للائتمان</string>
   <string name="trust_onboarding_description">يساعدك الائتمان في الحفاظ على أمان جهازك ويحمي خصوصيتك.\nسيظهر رمز الائتمان لمساعدتك في التحقق من أمان المحتويات</string>
   <string name="trust_onboarding_learn_more">معرفة المزيد</string>
@@ -620,4 +622,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">حد رسالة SMS</string>
   <string name="sms_security_check_limit_summary">عرض تنبيه عند إرسال اكثر من %s رسالة SMS في 15 دقيقة</string>
+  <string name="sms_security_check_limit_summary_none">التطبيقات غير مسموح لها بإرسال أي رسائل بدون تأكيد</string>
+  <string name="sms_security_check_limit_always_confirm">تأكيد دائماً</string>
 </resources>
