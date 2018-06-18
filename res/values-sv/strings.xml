@@ -80,6 +80,7 @@
   <string name="notification_light_general_title">Allmänt</string>
   <string name="notification_light_advanced_title">Avancerat</string>
   <string name="notification_light_applist_title">Appar</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_use_custom">Använd anpassade värden</string>
   <string name="notification_light_default_value">Standard</string>
   <string name="notification_light_missed_call_title">Missat samtal</string>
@@ -126,6 +127,7 @@
   <string name="adj_contrast_title">Kontrast</string>
   <!-- Button settings -->
   <string name="button_pref_title">Knappar</string>
+  <string name="hardware_keys_power_key_title">Strömknapp</string>
   <string name="hardware_keys_home_key_title">Hemknapp</string>
   <string name="hardware_keys_back_key_title">Tillbakaknapp</string>
   <string name="hardware_keys_menu_key_title">Menyknapp</string>
@@ -310,6 +312,7 @@
   <string name="status_bar_icons_title">Statusfältikoner</string>
   <string name="status_bar_system_icons_title">Systemikoner</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Klocka</string>
   <string name="status_bar_clock_position_title">Klockposition</string>
   <string name="status_bar_clock_position_right">Höger</string>
   <string name="status_bar_clock_position_left">Vänster</string>
