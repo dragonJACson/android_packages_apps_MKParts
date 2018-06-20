@@ -585,11 +585,16 @@
   <string name="style_accent_default_name">Privzeto</string>
   <string name="style_permission_error">Dovoljenje za dostop do pomnilniške naprave je potreben za analizo vaše slike ozadja, odobrite ga za uporabo te značilnosti</string>
   <!-- Trust interface -->
+  <string name="trust_category_features">Stanje</string>
+  <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_disabled">Onemogočeno</string>
   <string name="trust_feature_root">Skrbniški dostop</string>
   <string name="trust_feature_root_value_disabled">Onemogočeno</string>
   <string name="trust_feature_root_value_adb">Samo ADB</string>
   <string name="trust_feature_root_value_apps">Aplikacije in ADB</string>
+  <string name="trust_feature_security_patches_value_new">posodobljeno</string>
+  <string name="trust_feature_security_patches_value_medium">stari nekaj mesecev</string>
+  <string name="trust_feature_security_patches_value_old">zastareli</string>
   <string name="trust_feature_encryption_value_enabled">Omogočen</string>
   <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
   <string name="trust_category_tools">Zasebnost</string>

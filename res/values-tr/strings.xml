@@ -613,6 +613,8 @@
   <string name="trust_feature_encryption_value_disabled">Devre dışı</string>
   <string name="trust_feature_encryption_explain">Cihazınızı şifrelemek, telefonunuz kapalıyken veya kurtarma modundayken verilerinize erişimi engeller. Bu özellikle telefonunuz çalındığında önemlidir ve kişilerin mesajlarınızı, kişilerinizi ve diğer kişisel bilgilerinizi şifre olmadan okumasını önler.\nKablosuz şifrelemeyi daha etkili hale getirmek için güvenli bir kilit ekranı ayarlamanız gerekir.</string>
   <string name="trust_category_tools">Gizlilik</string>
+  <string name="trust_notification_alerts_title">Güvenlik uyarıları</string>
+  <string name="trust_notifications_alerts_summary">Bir güvenlik sorunu bulunduğunda bildirim görüntüle</string>
   <string name="trust_onboarding_title">Güvene merhaba de</string>
   <string name="trust_onboarding_description">Güvenlik cihazınızın güvenliğini sağlamanıza ve gizliliğinizi korumanıza yardımcı olur.\nGüvenlik içeriğinin güvenliğini kontrol ederek size yardımcı olacak güvenlik simgesi görünecektir</string>
   <string name="trust_onboarding_learn_more">Daha fazla bilgi edin</string>
@@ -620,4 +622,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">SMS mesaj sınırı</string>
   <string name="sms_security_check_limit_summary">15 dakika içinde %s den fazla SMS mesajı gönderildiğinde bir uyarı görüntüle</string>
+  <string name="sms_security_check_limit_summary_none">Uygulamaların onay almadan mesaj göndermesine izin verilmez</string>
+  <string name="sms_security_check_limit_always_confirm">Her zaman onayla</string>
 </resources>

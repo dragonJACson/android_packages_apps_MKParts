@@ -614,6 +614,8 @@
   <string name="trust_feature_encryption_value_disabled">Vypnuté</string>
   <string name="trust_feature_encryption_explain">Šifrovanie zariadenia zabraňuje prístupu k vašim údajom, keď je telefón vypnutý alebo v Recovery režime. Toto je obzvlášť dôležité v prípade odcudzenia vášho telefónu a zabraňuje ľuďom v čítaní vašich správ, kontaktov a iných súkromných informácií bez znalosti hesla.\nAby bolo šifrovanie efektívnejšie, musíte nastaviť zabezpečenú obrazovku uzamknutia.</string>
   <string name="trust_category_tools">Súkromie</string>
+  <string name="trust_notification_alerts_title">Bezpečnostné upozornenia</string>
+  <string name="trust_notifications_alerts_summary">Zobrazí upozornenie, pokiaľ je nájdený problém so zabezpečením</string>
   <string name="trust_onboarding_title">Zoznámte sa s Trust</string>
   <string name="trust_onboarding_description">Trust pomáha udržiavať vaše zariadenie v bezpečí a chráni vaše súkromie.\nZobrazí sa ikona Trust, ktorá vám pomôže kontrolovať bezpečnosť obsahu</string>
   <string name="trust_onboarding_learn_more">Zistiť viac</string>
@@ -621,4 +623,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">Limit SMS správ</string>
   <string name="sms_security_check_limit_summary">Zobrazenie upozornenie, ak bolo odoslaných viac ako %s SMS správ za 15 minút</string>
+  <string name="sms_security_check_limit_summary_none">Aplikácie nemajú povolené odosielanie žiadnych správ bez potvrdenia</string>
+  <string name="sms_security_check_limit_always_confirm">Vždy potvrdiť</string>
 </resources>

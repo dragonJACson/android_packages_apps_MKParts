@@ -613,6 +613,8 @@
   <string name="trust_feature_encryption_value_disabled">Kikapcsolva</string>
   <string name="trust_feature_encryption_explain">Ha készüléke titkosításra kerül, azzal megakadályozza hogy kikapcsolt vagy recovery módban hozzáférhessenek adataihoz. Ez különösen fontos, ha telefonját ellopják, és megakadályozza, hogy megnézhesse az üzeneteket, névjegyeket és más személyes információkat jelszó használata nélkül.\nA titkosítás hatékonyabbá tételéhez biztonsági képernyőzárat kell beállítania.</string>
   <string name="trust_category_tools">Adatvédelem</string>
+  <string name="trust_notification_alerts_title">Biztonsági figyelmeztetések</string>
+  <string name="trust_notifications_alerts_summary">Figyelmeztetést jelenít meg ha biztonsági hiányosság található</string>
   <string name="trust_onboarding_title">Üdvözölje a Trust-ot</string>
   <string name="trust_onboarding_description">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát</string>
   <string name="trust_onboarding_learn_more">Tudjon meg többet</string>
@@ -620,4 +622,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">SMS-üzenetkorlát</string>
   <string name="sms_security_check_limit_summary">Figyelmeztet, ha 15 percen belül több mint %s SMS üzenet került elküldésre</string>
+  <string name="sms_security_check_limit_summary_none">Az alkalmazások nem küldhetnek üzeneteket előzetes megerősítés nélkül</string>
+  <string name="sms_security_check_limit_always_confirm">Mindig kell megerősítés</string>
 </resources>
