@@ -19,8 +19,11 @@
   <!-- Application name -->
   <!-- Height of navigation bar buttons -->
   <!-- Show network speed -->
+  <string name="status_bar_network_traffic_style_down">ಒಳಬರುವ</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">ಟಾರ್ಚ್ ಗಾಗಿ ಪವರ್ ಗುಂಡಿ ಒತ್ತಿ-ಹಿಡಿಯಿರಿ</string>
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">ಸರಿ</string>
   <string name="fingerprint_shortcut_edit">ಪರಿಷ್ಕರಿಸಿ</string>
+  <string name="fingerprint_shortcut_delete">ಅಳಿಸು</string>
 </resources>
