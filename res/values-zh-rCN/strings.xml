@@ -521,6 +521,8 @@
   <string name="expanded_desktop_style_hide_both">同时隐藏</string>
   <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
   <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">全屏应用</string>
+  <string name="long_screen_settings_summary">强制旧式应用程序使用全屏长宽比</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充电提示音</string>
   <string name="charging_sounds_enabled_title">启用</string>
@@ -611,6 +613,8 @@
   <string name="trust_feature_encryption_value_disabled">禁用</string>
   <string name="trust_feature_encryption_explain">设备加密可以防止别人在关机状态或恢复模式访问你的数据。当你的设备被盗时，这个重要特性可以防止别人在没有密码的情况下读取你的短信、通讯录和其它私人信息。\n要使加密更加有效，你需要设置一个安全的屏幕锁定。</string>
   <string name="trust_category_tools">隐私</string>
+  <string name="trust_notification_alerts_title">安全警报</string>
+  <string name="trust_notifications_alerts_summary">当发现安全问题时显示通知</string>
   <string name="trust_onboarding_title">欢迎使用安全中心</string>
   <string name="trust_onboarding_description">安全中心能保障你的设备安全并保护你的隐私。\n你可以通过显示的安全图标检查内容的安全性。</string>
   <string name="trust_onboarding_learn_more">了解详情</string>
@@ -618,4 +622,6 @@
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">短信限制</string>
   <string name="sms_security_check_limit_summary">在 15 分钟内发送超过 %s 条短信时显示警报</string>
+  <string name="sms_security_check_limit_summary_none">应用在发送任何短信前必须获得您的确认</string>
+  <string name="sms_security_check_limit_always_confirm">总需批准</string>
 </resources>
