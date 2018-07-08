@@ -29,6 +29,14 @@
         android:key="style_accent"
         android:title="@string/style_accent_title" />
 
+    <mokee.preference.MKSystemSettingListPreference
+        android:defaultValue="org.mokee.overlay.dark"
+        android:entries="@array/dark_overlay_entries"
+        android:entryValues="@array/dark_overlay_values"
+        android:key="berry_dark_overlay"
+        android:summary="%s"
+        android:title="@string/style_dark_overlay_title" />
+
     <Preference
         android:key="style_automagic"
         android:icon="@drawable/ic_automagic"

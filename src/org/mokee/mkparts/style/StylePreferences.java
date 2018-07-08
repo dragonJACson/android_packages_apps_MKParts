@@ -48,6 +48,7 @@ import org.mokee.mkparts.style.util.UIUtils;
 import java.util.Arrays;
 import java.util.List;
 
+import mokee.preference.MKSystemSettingListPreference;
 import mokee.providers.MKSettings;
 import mokee.style.StyleInterface;
 import mokee.style.Suggestion;
@@ -86,6 +87,10 @@ public class StylePreferences extends SettingsPreferenceFragment {
         mAccentPref = findPreference("style_accent");
         mAccentPref.setOnPreferenceClickListener(this::onAccentClick);
         setupAccentPref();
+
+        MKSystemSettingListPreference darkPref = (MKSystemSettingListPreference)
+                findPreference("berry_dark_overlay");
+        darkPref.setOnPreferenceChangeListener(this::onDarkChange);
 
         Preference automagic = findPreference("style_automagic");
         automagic.setOnPreferenceClickListener(p -> onAutomagicClick());
@@ -142,6 +147,13 @@ public class StylePreferences extends SettingsPreferenceFragment {
 
         mAccentPref.setSummary(accent.getName());
         mAccentPref.setIcon(UIUtils.getAccentBitmap(getResources(), size, accent.getColor()));
+    }
+
+    private boolean onDarkChange(Preference preference, Object newValue) {
+        if (!(newValue instanceof String)) {
+            return false;
+        }
+        return mInterface.setDarkOverlay((String) newValue);
     }
 
     private boolean onAutomagicClick() {
