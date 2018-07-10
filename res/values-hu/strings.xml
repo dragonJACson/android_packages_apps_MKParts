@@ -588,6 +588,8 @@
   <string name="style_automagic_dialog_content">Javasol stílus: <b>%1$s</b> és <b>%2$s</b> kiemelőszínekkel.\nSzeretné alkalmazni?</string>
   <string name="style_automagic_dialog_positive">Alkalmaz</string>
   <string name="style_accent_default_name">Alapértelmezés</string>
+  <string name="style_dark_overlay_default">Alapértelmezés</string>
+  <string name="style_dark_overlay_black">Fekete</string>
   <string name="style_permission_error">Tárhelyhozzáférési engedély szükséges a háttérkép elemzéséhez, engedélyezze a funkció használatához</string>
   <!-- Trust interface -->
   <string name="trust_header">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát.</string>
@@ -614,7 +616,9 @@
   <string name="trust_feature_encryption_explain">Ha készüléke titkosításra kerül, azzal megakadályozza hogy kikapcsolt vagy recovery módban hozzáférhessenek adataihoz. Ez különösen fontos, ha telefonját ellopják, és megakadályozza, hogy megnézhesse az üzeneteket, névjegyeket és más személyes információkat jelszó használata nélkül.\nA titkosítás hatékonyabbá tételéhez biztonsági képernyőzárat kell beállítania.</string>
   <string name="trust_category_tools">Adatvédelem</string>
   <string name="trust_notification_alerts_title">Biztonsági figyelmeztetések</string>
-  <string name="trust_notifications_alerts_summary">Figyelmeztetést jelenít meg ha biztonsági hiányosság található</string>
+  <string name="trust_warnings_alerts_intro">Kiválaszthatja azokat a biztonsági eseményeket, amikről értesítést kíván kapni. Saját biztonsága érdekében ajánlott, hogy engedélyezze az összes figyelmeztetést</string>
+  <string name="trust_warnings_selinux">A SELinux állapota</string>
+  <string name="trust_warnings_keys">A kiadás aláírása</string>
   <string name="trust_onboarding_title">Üdvözölje a Trust-ot</string>
   <string name="trust_onboarding_description">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát</string>
   <string name="trust_onboarding_learn_more">Tudjon meg többet</string>

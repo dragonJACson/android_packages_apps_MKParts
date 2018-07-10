@@ -129,6 +129,7 @@
   <string name="style_title">سبک</string>
   <string name="style_global_title">سبک</string>
   <string name="style_automagic_dialog_positive">اعمال‌ کردن</string>
+  <string name="style_dark_overlay_black">سیاه</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">دسترسی روت</string>
   <string name="trust_feature_root_value_adb">فقط ای‌دی‌بی</string>

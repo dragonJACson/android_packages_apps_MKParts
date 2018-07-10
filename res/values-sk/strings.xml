@@ -588,6 +588,8 @@
   <string name="style_automagic_dialog_content">Navrhovaný štýl: <b>%1$s</b> с <b>%2$s</b> odtieň.\nChcete ho použiť?</string>
   <string name="style_automagic_dialog_positive">Použiť</string>
   <string name="style_accent_default_name">Predvolená</string>
+  <string name="style_dark_overlay_default">Predvolený</string>
+  <string name="style_dark_overlay_black">Čierna</string>
   <string name="style_permission_error">Na analýzu vašej tapety je potrebné povolenie na prístup k úložisku. Udeľte prosím povolenie na používanie tejto funkcie</string>
   <!-- Trust interface -->
   <string name="trust_header">Trust pomáha udržiavať vaše zariadenie v bezpečí a chráni vaše súkromie.\nZobrazí sa ikona Trust, ktorá vám pomôže kontrolovať bezpečnosť obsahu.</string>
@@ -615,7 +617,6 @@
   <string name="trust_feature_encryption_explain">Šifrovanie zariadenia zabraňuje prístupu k vašim údajom, keď je telefón vypnutý alebo v Recovery režime. Toto je obzvlášť dôležité v prípade odcudzenia vášho telefónu a zabraňuje ľuďom v čítaní vašich správ, kontaktov a iných súkromných informácií bez znalosti hesla.\nAby bolo šifrovanie efektívnejšie, musíte nastaviť zabezpečenú obrazovku uzamknutia.</string>
   <string name="trust_category_tools">Súkromie</string>
   <string name="trust_notification_alerts_title">Bezpečnostné upozornenia</string>
-  <string name="trust_notifications_alerts_summary">Zobrazí upozornenie, pokiaľ je nájdený problém so zabezpečením</string>
   <string name="trust_onboarding_title">Zoznámte sa s Trust</string>
   <string name="trust_onboarding_description">Trust pomáha udržiavať vaše zariadenie v bezpečí a chráni vaše súkromie.\nZobrazí sa ikona Trust, ktorá vám pomôže kontrolovať bezpečnosť obsahu</string>
   <string name="trust_onboarding_learn_more">Zistiť viac</string>

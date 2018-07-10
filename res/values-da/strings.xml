@@ -527,6 +527,8 @@
   <string name="style_global_entry_dark">Mørk</string>
   <string name="style_automagic_dialog_positive">Anvend</string>
   <string name="style_accent_default_name">Standard</string>
+  <string name="style_dark_overlay_default">Standard</string>
+  <string name="style_dark_overlay_black">Sort</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Inaktiv</string>
   <string name="trust_feature_root">Root-adgang</string>

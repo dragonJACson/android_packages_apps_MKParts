@@ -572,6 +572,8 @@
   <string name="style_global_entry_dark">어두움</string>
   <string name="style_automagic_dialog_positive">적용</string>
   <string name="style_accent_default_name">기본</string>
+  <string name="style_dark_overlay_default">기본</string>
+  <string name="style_dark_overlay_black">검은색</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">사용안함</string>
   <string name="trust_feature_root">루트 권한</string>

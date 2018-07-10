@@ -583,6 +583,8 @@
   <string name="style_automagic_dialog_content">Predlagan slog: <b>%1$s</b> s/z <b>%2$s</b> poudarkom.\nAli ga želite uveljaviti?</string>
   <string name="style_automagic_dialog_positive">Uporabi</string>
   <string name="style_accent_default_name">Privzeto</string>
+  <string name="style_dark_overlay_default">Privzeto</string>
+  <string name="style_dark_overlay_black">Črna</string>
   <string name="style_permission_error">Dovoljenje za dostop do pomnilniške naprave je potreben za analizo vaše slike ozadja, odobrite ga za uporabo te značilnosti</string>
   <!-- Trust interface -->
   <string name="trust_category_features">Stanje</string>

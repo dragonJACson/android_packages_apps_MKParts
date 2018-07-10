@@ -589,6 +589,9 @@
   <string name="style_automagic_dialog_content">Предлагаемый стиль: <b>%1$s</b> с <b>%2$s</b> оттенком.\nВы хотите применить его?</string>
   <string name="style_automagic_dialog_positive">Применить</string>
   <string name="style_accent_default_name">По умолчанию</string>
+  <string name="style_dark_overlay_title">Тёмный режим</string>
+  <string name="style_dark_overlay_default">По умолчанию</string>
+  <string name="style_dark_overlay_black">Чёрная</string>
   <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
   <!-- Trust interface -->
   <string name="trust_header">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого.</string>
@@ -615,7 +618,9 @@
   <string name="trust_feature_encryption_explain">Шифрование вашего устройства предотвращает доступ к вашим данным, когда ваш телефон выключен или находится в режиме восстановления. Это особенно важно, если ваш телефон украден, шифрование не позволяет людям читать ваши сообщения, контакты и другую личную информацию без пароля.\nЧтобы сделать шифрование более эффективным, вам нужно установить защитный экран блокировки.</string>
   <string name="trust_category_tools">Конфиденциальность</string>
   <string name="trust_notification_alerts_title">Оповещения системы безопасности</string>
-  <string name="trust_notifications_alerts_summary">Отображать уведомление при обнаружении проблемы безопасности</string>
+  <string name="trust_warnings_alerts_intro">Вы можете указать проблему безопасности, о которых вы хотите предупредить. Для вашей безопасности рекомендуется включить все оповещения.</string>
+  <string name="trust_warnings_selinux">Статус SELinux</string>
+  <string name="trust_warnings_keys">Подпись сборки</string>
   <string name="trust_onboarding_title">Скажите \"привет\" Trust</string>
   <string name="trust_onboarding_description">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого</string>
   <string name="trust_onboarding_learn_more">Узнайте больше</string>

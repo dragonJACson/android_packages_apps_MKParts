@@ -397,6 +397,7 @@
   <string name="touchscreen_gesture_action_previous_track">Navegar a la pista musical previa</string>
   <string name="touchscreen_gesture_action_next_track">Saltar a la pista musical de darréu</string>
   <!-- Berry Lite -->
+  <string name="style_dark_overlay_black">Prietu</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Accesu root</string>
   <string name="trust_feature_root_value_adb">Namái ADB</string>

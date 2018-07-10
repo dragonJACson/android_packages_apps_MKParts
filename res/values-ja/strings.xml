@@ -541,6 +541,8 @@
   <string name="style_global_entry_dark">暗闇</string>
   <string name="style_automagic_dialog_positive">適用</string>
   <string name="style_accent_default_name">デフォルト</string>
+  <string name="style_dark_overlay_default">デフォルト</string>
+  <string name="style_dark_overlay_black">黒</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">無効</string>
   <string name="trust_feature_root">ルートアクセス</string>

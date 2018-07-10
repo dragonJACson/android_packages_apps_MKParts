@@ -584,6 +584,8 @@
   <string name="style_automagic_dialog_content">Vorgeschlagenes Design: <b>%1$s</b> mit <b>%2$s</b> Akzent.\nWollen Sie es anwenden?</string>
   <string name="style_automagic_dialog_positive">Übernehmen</string>
   <string name="style_accent_default_name">Voreinstellung</string>
+  <string name="style_dark_overlay_default">Voreinstellung</string>
+  <string name="style_dark_overlay_black">Schwarz</string>
   <string name="style_permission_error">Speicherzugriffsberechtigung ist erforderlich, um Ihr Hintergrundbild zu analysieren. Bitte gewähren Sie diese, um die Funktion nutzen zu können</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Deaktiviert</string>

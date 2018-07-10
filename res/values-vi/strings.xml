@@ -585,6 +585,8 @@
   <string name="style_automagic_dialog_content">Gợi ý style: <b>%1$s</b> với <b>%2$s</b> giọng. \nDo bạn muốn áp dụng nó?</string>
   <string name="style_automagic_dialog_positive">Áp dụng</string>
   <string name="style_accent_default_name">Mặc định</string>
+  <string name="style_dark_overlay_default">Mặc định</string>
+  <string name="style_dark_overlay_black">AMOLED</string>
   <string name="style_permission_error">Sự cho phép truy cập lưu trữ là cần thiết để phân tích các hình nền của bạn, xin vui lòng cấp nó để sử dụng tính năng này</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Đã tắt</string>

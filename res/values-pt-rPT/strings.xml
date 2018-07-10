@@ -545,6 +545,8 @@
   <string name="style_global_entry_dark">Escuro</string>
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Predefinição</string>
+  <string name="style_dark_overlay_default">Predefinição</string>
+  <string name="style_dark_overlay_black">Preto</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Acesso root</string>
   <string name="trust_feature_root_value_adb">Só ADB</string>

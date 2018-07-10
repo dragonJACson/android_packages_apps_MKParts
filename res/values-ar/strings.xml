@@ -588,6 +588,9 @@
   <string name="style_automagic_dialog_content">الشكل المقترح <b>%1$s</b> مع <b>%2$s</b> اللكنة.\n هل تريد تطبيقه؟</string>
   <string name="style_automagic_dialog_positive">تطبيق</string>
   <string name="style_accent_default_name">الإفتراضي</string>
+  <string name="style_dark_overlay_title">الوضع المظلم</string>
+  <string name="style_dark_overlay_default">الإفتراضي</string>
+  <string name="style_dark_overlay_black">أسود</string>
   <string name="style_permission_error">هناك حاجة إلى إذن الوصول إلى التخزين لتحليل الخلفية الخاصة بك، يرجى منحها لاستخدام هذه الميزة</string>
   <!-- Trust interface -->
   <string name="trust_header">يساعدك الائتمان في الحفاظ على أمان جهازك ويحمي خصوصيتك.\nيظهر رمز الائتمان لمساعدتك في التحقق من أمان المحتويات.</string>
@@ -614,7 +617,9 @@
   <string name="trust_feature_encryption_explain">يعمل تشفير جهازك على منع الوصول إلى بياناتك عند إيقاف تشغيل هاتفك أو في وضع الاسترداد. هذا مهم بشكل خاص إذا كان هاتفك مسروقًا ، ويمنع الأشخاص من قراءة رسائلك وجهات اتصالك ومعلومات خاصة أخرى بدون كلمة المرور.\nلجعل التشفير أكثر فعالية تحتاج إلى تعيين شاشة قفل آمنة.</string>
   <string name="trust_category_tools">الخصوصيـة</string>
   <string name="trust_notification_alerts_title">إنذارات الأَمان</string>
-  <string name="trust_notifications_alerts_summary">عرض الإخطارات عند العثور على مشكلة أمنية</string>
+  <string name="trust_warnings_alerts_intro">يمكنك تحديد المشاكل الأمنية التي سيتم تنبيهك عنها. لسلامتك، من المستحسن تمكين كافة التنبيهات</string>
+  <string name="trust_warnings_selinux">‏حالة SELinux</string>
+  <string name="trust_warnings_keys">بناء التوقيع</string>
   <string name="trust_onboarding_title">قل مرحباً للائتمان</string>
   <string name="trust_onboarding_description">يساعدك الائتمان في الحفاظ على أمان جهازك ويحمي خصوصيتك.\nسيظهر رمز الائتمان لمساعدتك في التحقق من أمان المحتويات</string>
   <string name="trust_onboarding_learn_more">معرفة المزيد</string>

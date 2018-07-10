@@ -547,6 +547,8 @@
   <string name="style_global_entry_dark">Темнота</string>
   <string name="style_automagic_dialog_positive">Застосувати</string>
   <string name="style_accent_default_name">За замовчуванням</string>
+  <string name="style_dark_overlay_default">За замовчуванням</string>
+  <string name="style_dark_overlay_black">Чорна</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Вимкнено</string>
   <string name="trust_feature_root">Root доступ</string>

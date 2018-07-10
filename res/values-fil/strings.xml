@@ -560,6 +560,8 @@
   <string name="style_global_entry_dark">Madalim</string>
   <string name="style_automagic_dialog_positive">Ilagay</string>
   <string name="style_accent_default_name">Pangunahin</string>
+  <string name="style_dark_overlay_default">Pangunahin</string>
+  <string name="style_dark_overlay_black">Itim</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Huwag paganahin</string>
   <string name="trust_feature_root">Access sa root</string>

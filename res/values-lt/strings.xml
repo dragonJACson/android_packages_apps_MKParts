@@ -129,6 +129,8 @@
   <string name="style_global_title">Stilius</string>
   <string name="style_automagic_dialog_positive">Taikyti</string>
   <string name="style_accent_default_name">Numatytas</string>
+  <string name="style_dark_overlay_default">Numatytas</string>
+  <string name="style_dark_overlay_black">Juodas</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Prieiga prie „Root“</string>
   <string name="trust_feature_root_value_adb">Tik „Android“ derinimas</string>

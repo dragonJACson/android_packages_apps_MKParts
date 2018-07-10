@@ -571,6 +571,8 @@
   <string name="style_global_entry_dark">Тъмен</string>
   <string name="style_automagic_dialog_positive">Прилагане</string>
   <string name="style_accent_default_name">По подразбиране</string>
+  <string name="style_dark_overlay_default">По подразбиране</string>
+  <string name="style_dark_overlay_black">Черно</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Деактивирано</string>
   <string name="trust_feature_root">Администраторски достъп</string>

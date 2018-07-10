@@ -586,6 +586,8 @@
   <string name="style_automagic_dialog_content">Gaya yang disarankan: <b>%1$s</b> dengan aksen <b>%2$s</b>.\nApakah Anda ingin menerapkannya?</string>
   <string name="style_automagic_dialog_positive">Terapkan</string>
   <string name="style_accent_default_name">Bawaan</string>
+  <string name="style_dark_overlay_default">Bawaan</string>
+  <string name="style_dark_overlay_black">Hitam</string>
   <string name="style_permission_error">Izin akses penyimpanan diperlukan untuk menganalisis wallpaper Anda, tolong berikan untuk menggunakan fitur ini</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Dinonaktifkan</string>

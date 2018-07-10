@@ -584,6 +584,8 @@
   <string name="style_automagic_dialog_content">Style suggéré : <b>%1$s</b> avec <b>%2$s</b> en couleur d\'accentuation.\nVoulez-vous l\'appliquer ?</string>
   <string name="style_automagic_dialog_positive">Appliquer</string>
   <string name="style_accent_default_name">Par Défaut</string>
+  <string name="style_dark_overlay_default">Par Défaut</string>
+  <string name="style_dark_overlay_black">Noir</string>
   <string name="style_permission_error">Accès à l\'espace de stockage requis pour analyser votre fond d\'écran. Veuillez l\'autoriser pour utiliser cette fonctionnalité</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Désactivé</string>

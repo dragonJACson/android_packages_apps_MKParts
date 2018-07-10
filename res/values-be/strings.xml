@@ -144,6 +144,7 @@
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Колеры, адпаведныя каляровай прасторы DCI-P3</string>
   <string name="live_display_reading_mode_title">Рэжым чытання</string>
+  <string name="live_display_reading_mode_summary">Рэжым адценняў шэрага для доўгачасовага чытання</string>
   <string name="color_calibration_title">Калібраваньне колераў</string>
   <string name="color_calibration_summary">Налада колераперадачы экрана</string>
   <string name="color_red_title">Чырвоны</string>
@@ -520,6 +521,8 @@
   <string name="expanded_desktop_style_hide_both">Схаваць абедзве</string>
   <string name="expanded_desktop_nothing_to_show_text">Выключыце, каб наладзіць рэжым пашыранага працоўнага стала для кожнага прыкладання</string>
   <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Поўнаэкранныя праграмы</string>
+  <string name="long_screen_settings_summary">Прымусовае выкарыстанне поўнаэкранных суадносін бакоў старымі праграмамі</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Гукі зарадкі</string>
   <string name="charging_sounds_enabled_title">Уключыць</string>
@@ -585,15 +588,38 @@
   <string name="style_automagic_dialog_content">Прапанаваны стыль: <b>%1$s</b> с <b>%2$s</b> адценнем.\nВы хочаце ўжыць яго?</string>
   <string name="style_automagic_dialog_positive">Ужыць</string>
   <string name="style_accent_default_name">Па змаўчанні</string>
+  <string name="style_dark_overlay_default">Па змаўчанні</string>
+  <string name="style_dark_overlay_black">Чорны</string>
   <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>
   <!-- Trust interface -->
+  <string name="trust_header">Trust дапамагае вам абараніць вашу прыладу і вашую прыватнасць.\nЗначок Trust адлюстроўваецца для таго, каб дапамагчы вам праверыць бяспеку змесціва.</string>
+  <string name="trust_category_features">Стан</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Забеспячэнне</string>
   <string name="trust_feature_selinux_value_disabled">Выключана</string>
+  <string name="trust_feature_selinux_explain">SELinux вызначае, якія працэсы маюць доступ да файлаў на вашай прыладзе.\nГэта прадухіляе доступ праграм і сэрвісаў да файлаў, з якімі яны не павінны мець справу: такім чынам, шкоднасны працэс мае абмежаваны доступ, каб ваша бяспека была захаваная.</string>
   <string name="trust_feature_root">Рэжым суперкарыстальніка</string>
   <string name="trust_feature_root_value_disabled">Выключана</string>
   <string name="trust_feature_root_value_adb">Толькі для ADB</string>
   <string name="trust_feature_root_value_apps">Для дадаткаў і ADB</string>
+  <string name="trust_feature_root_explain">Root-доступ дазваляе абыходзіць абмежаванні бяспекі праграмам і службамі, якія вы выбіраеце, дазваляючы ім ўносіць змены ў сістэму, што можа нанесці шкоду вашаму прыладзе або АС.</string>
+  <string name="trust_feature_security_patches">Патч бяспекі Android</string>
+  <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВытворца: %2$s</string>
+  <string name="trust_feature_security_patches_value_new">няма абнаўленняў</string>
+  <string name="trust_feature_security_patches_value_medium">састарэлы на некалькі месяцаў</string>
+  <string name="trust_feature_security_patches_value_old">састарэлы</string>
+  <string name="trust_feature_security_patches_explain">Пакеты бяспекі выпускаецца штомесяц кампаніяй Google і пастаўшчыкамі SoC для ліквідацыі недахопаў у сістэме, якія могуць быць выкарыстаны шкоднаснымі праграмамі для абыходу абмежаванняў бяспекі і могуць нанесці часовую або сталую шкоду вашай прыладзе.\nУ той час, як патчы платформы абнаўляюцца кожны месяц, самі вытворцы прылад абнаўляюць патчы павольна.\nДля таго, каб ваша прылада было бяспечнай, пераканайцеся, што ваша зборка MoKee заўсёды актуальная.</string>
+  <string name="trust_feature_encryption">Шыфраванне</string>
   <string name="trust_feature_encryption_value_enabled">Уключана</string>
+  <string name="trust_feature_encryption_value_nolock">Патрабуецца ахоўны экран блакавання</string>
   <string name="trust_feature_encryption_value_disabled">Выключана</string>
+  <string name="trust_feature_encryption_explain">Шыфраванне вашага прылады прадухіляе доступ да вашых дадзеных, калі ваш тэлефон выключаны або знаходзіцца ў рэжыме аднаўлення. Гэта асабліва важна, калі ваш тэлефон скрадзены, шыфраванне не дазваляе людзям чытаць вашы паведамленні, кантакты і іншую асабістую інфармацыю без пароля.\nКаб зрабіць шыфраванне больш эфектыўным, вам трэба ўсталяваць ахоўны экран блакавання.</string>
   <string name="trust_category_tools">Прыватнасць</string>
+  <string name="trust_notification_alerts_title">Апавяшчэнні сістэмы бяспекі</string>
+  <string name="trust_onboarding_title">Скажыце прывітанне Trust</string>
+  <string name="trust_onboarding_description">Trust дапамагае вам абараніць вашу прыладу і вашую прыватнасць.\nЗначок Trust адлюстроўваецца для таго, каб дапамагчы вам праверыць бяспеку змесціва</string>
+  <string name="trust_onboarding_learn_more">Даведайся больш</string>
+  <string name="trust_onboarding_done">Зразумела</string>
   <!-- Sms limit -->
+  <string name="sms_security_check_limit_title">Абмежаванне SMS-паведамленняў</string>
 </resources>

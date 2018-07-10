@@ -520,6 +520,7 @@
   <string name="style_global_entry_dark">Mørkt</string>
   <string name="style_automagic_dialog_positive">Bruk</string>
   <string name="style_accent_default_name">Standard</string>
+  <string name="style_dark_overlay_default">Standard</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Deaktivert</string>
   <string name="trust_feature_root">Root-tilgang</string>

@@ -443,6 +443,8 @@
   <string name="style_automagic_title">Automagisk</string>
   <string name="style_automagic_dialog_positive">Använd</string>
   <string name="style_accent_default_name">Standard</string>
+  <string name="style_dark_overlay_default">Standard</string>
+  <string name="style_dark_overlay_black">Svart</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_disabled">Inaktiverad</string>

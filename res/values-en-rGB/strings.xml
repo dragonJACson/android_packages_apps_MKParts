@@ -129,6 +129,7 @@
   <string name="touchscreen_gesture_action_dialer">Open the dialler</string>
   <!-- Berry Lite -->
   <string name="style_accent_default_name">Default</string>
+  <string name="style_dark_overlay_default">Default</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Disabled</string>
   <string name="trust_feature_root_value_disabled">Disabled</string>

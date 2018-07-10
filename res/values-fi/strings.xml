@@ -546,6 +546,8 @@
   <string name="style_global_entry_dark">Tumma</string>
   <string name="style_automagic_dialog_positive">Käytä</string>
   <string name="style_accent_default_name">Oletus</string>
+  <string name="style_dark_overlay_default">Oletus</string>
+  <string name="style_dark_overlay_black">Musta</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Poistettu käytöstä</string>
   <string name="trust_feature_root">Root-oikeudet</string>

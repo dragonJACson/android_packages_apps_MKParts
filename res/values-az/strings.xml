@@ -117,6 +117,7 @@
   <string name="style_global_title">Üslub</string>
   <string name="style_automagic_dialog_positive">Tətbiq et</string>
   <string name="style_accent_default_name">Susmaya görə</string>
+  <string name="style_dark_overlay_default">Susmaya görə</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Root müraciəti</string>
   <string name="trust_feature_root_value_adb">Yalnız ADB</string>

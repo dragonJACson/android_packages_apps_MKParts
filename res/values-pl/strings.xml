@@ -586,6 +586,8 @@
   <string name="style_automagic_dialog_content">Sugerowany styl: <b>%1$s</b> z <b>%2$s</b> odcieniem.\nChcesz go zastosować?</string>
   <string name="style_automagic_dialog_positive">Zastosuj</string>
   <string name="style_accent_default_name">Domyślne</string>
+  <string name="style_dark_overlay_default">Domyślne</string>
+  <string name="style_dark_overlay_black">Czarny</string>
   <string name="style_permission_error">Aby analizować tapetę, potrzebne jest uprawnienie dostępu do pamięci. Proszę zaakceptować, aby używać tej funkcji.</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Wyłączone</string>

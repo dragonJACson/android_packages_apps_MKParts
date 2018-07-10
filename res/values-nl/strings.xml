@@ -578,6 +578,8 @@
   <string name="style_automagic_dialog_content">Voorgestelde stijl: <b>%1$s</b> met <b>%2$s</b> accent.\nWilt u dit toepassen?</string>
   <string name="style_automagic_dialog_positive">Toepassen</string>
   <string name="style_accent_default_name">Standaard</string>
+  <string name="style_dark_overlay_default">Standaard</string>
+  <string name="style_dark_overlay_black">Zwart</string>
   <string name="style_permission_error">Opslag toegang machtiging is nodig om je achtergrond te analyseren, verleen machtiging om deze functie te gebruiken</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Uitgeschakeld</string>

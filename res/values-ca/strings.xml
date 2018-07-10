@@ -542,6 +542,8 @@
   <string name="style_global_entry_dark">Fosca</string>
   <string name="style_automagic_dialog_positive">Aplica</string>
   <string name="style_accent_default_name">per defecte</string>
+  <string name="style_dark_overlay_default">per defecte</string>
+  <string name="style_dark_overlay_black">Negre</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Desactivat</string>
   <string name="trust_feature_root">Accés Root</string>

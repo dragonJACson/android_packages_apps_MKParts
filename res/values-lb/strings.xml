@@ -125,6 +125,7 @@
   <string name="style_global_entry_dark">Däischter</string>
   <string name="style_automagic_dialog_positive">Applizéieren</string>
   <string name="style_accent_default_name">Standard</string>
+  <string name="style_dark_overlay_default">Standard</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Root-Zougrëff</string>
   <string name="trust_feature_root_value_adb">Just ADB</string>

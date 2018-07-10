@@ -571,6 +571,8 @@
   <string name="style_global_entry_dark">Oscuro</string>
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Predeterminado</string>
+  <string name="style_dark_overlay_default">Predeterminado</string>
+  <string name="style_dark_overlay_black">Negro</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
   <string name="trust_feature_root">Acceso administrativo</string>

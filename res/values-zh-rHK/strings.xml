@@ -587,6 +587,9 @@
   <string name="style_automagic_dialog_content">建議的樣式：<b>%1$s</b>帶有<b>%2$s</b> 強調顏色。\n您想要套用嗎？</string>
   <string name="style_automagic_dialog_positive">應用</string>
   <string name="style_accent_default_name">預設</string>
+  <string name="style_dark_overlay_title">暗色模式</string>
+  <string name="style_dark_overlay_default">預設</string>
+  <string name="style_dark_overlay_black">黑色</string>
   <string name="style_permission_error">需要儲存存取權限才能分析桌布，請授予它使用此功能</string>
   <!-- Trust interface -->
   <string name="trust_header">安全中心能保障您的裝置安全性和您的隱私？\n您可以通過顯示的安全圖示檢查內容的安全性</string>
@@ -613,7 +616,9 @@
   <string name="trust_feature_encryption_explain">裝置加密可以防止別人在關機狀態或恢復模式存取您的資料。當您的裝置被盜時，這個重要特性可以防止別人在沒有密碼的情況下讀取您的簡訊、通訊錄和其他私人資訊。\n要使加密更加有效，您需要設定一個安全的鎖定畫面密碼。</string>
   <string name="trust_category_tools">私隱</string>
   <string name="trust_notification_alerts_title">安全提醒</string>
-  <string name="trust_notifications_alerts_summary">發現安全性問題時顯示通知</string>
+  <string name="trust_warnings_alerts_intro">您可以選擇需要警告的安全問題。為了您的安全起見, 建議啟用所有警報</string>
+  <string name="trust_warnings_selinux">SELinux 狀態</string>
+  <string name="trust_warnings_keys">編譯簽名</string>
   <string name="trust_onboarding_title">歡迎使用安全中心</string>
   <string name="trust_onboarding_description">安全中心能保障您的裝置安全性和您的隱私？\n您可以通過顯示的安全圖示檢查內容的安全性</string>
   <string name="trust_onboarding_learn_more">了解更多</string>

@@ -534,6 +534,7 @@
   <string name="style_global_entry_dark">Iluna</string>
   <string name="style_automagic_dialog_positive">Aplikatu</string>
   <string name="style_accent_default_name">Lehenetsia</string>
+  <string name="style_dark_overlay_default">Lehenetsia</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">Root sarbidea</string>
   <string name="trust_feature_root_value_adb">ADB bakarrik</string>

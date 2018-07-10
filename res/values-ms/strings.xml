@@ -128,6 +128,7 @@
   <string name="style_global_title">Gaya</string>
   <string name="style_automagic_dialog_positive">Gunakan</string>
   <string name="style_accent_default_name">Asal</string>
+  <string name="style_dark_overlay_default">Asal</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Tidak-aktif</string>
   <string name="trust_feature_root_value_disabled">Tidak-aktif</string>

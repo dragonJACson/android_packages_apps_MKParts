@@ -562,6 +562,8 @@
   <string name="style_global_entry_dark">חשכה</string>
   <string name="style_automagic_dialog_positive">החל</string>
   <string name="style_accent_default_name">ברירת מחדל</string>
+  <string name="style_dark_overlay_default">ברירת מחדל</string>
+  <string name="style_dark_overlay_black">שחור</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">מבוטל</string>
   <string name="trust_feature_root">גישת שורש (Root)</string>

@@ -570,6 +570,8 @@
   <string name="style_automagic_dialog_content">Προτεινόμενο στυλ: <b>%1$s</b> με δευτερεύον χρώμα: <b>%2$s</b>.\nΘέλετε να το εφαρμόσετε;</string>
   <string name="style_automagic_dialog_positive">Εφαρμογή</string>
   <string name="style_accent_default_name">Προεπιλογή</string>
+  <string name="style_dark_overlay_default">Προεπιλογή</string>
+  <string name="style_dark_overlay_black">Μαύρο</string>
   <string name="style_permission_error">Το δικαίωμα πρόσβασης αποθηκευτικού χώρου είναι απαραίτητο για την ανάλυση της ταπετσαρίας σας, παρακαλώ χορηγήστε το για να χρησιμοποιήσετε αυτήν τη δυνατότητα</string>
   <!-- Trust interface -->
   <string name="trust_feature_selinux_value_disabled">Απενεργοποιημένο</string>
