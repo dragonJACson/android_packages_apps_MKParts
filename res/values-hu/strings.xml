@@ -588,6 +588,7 @@
   <string name="style_automagic_dialog_content">Javasol stílus: <b>%1$s</b> és <b>%2$s</b> kiemelőszínekkel.\nSzeretné alkalmazni?</string>
   <string name="style_automagic_dialog_positive">Alkalmaz</string>
   <string name="style_accent_default_name">Alapértelmezés</string>
+  <string name="style_dark_overlay_title">Sötét mód</string>
   <string name="style_dark_overlay_default">Alapértelmezés</string>
   <string name="style_dark_overlay_black">Fekete</string>
   <string name="style_permission_error">Tárhelyhozzáférési engedély szükséges a háttérkép elemzéséhez, engedélyezze a funkció használatához</string>

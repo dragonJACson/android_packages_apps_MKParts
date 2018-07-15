@@ -583,6 +583,7 @@
   <string name="style_automagic_dialog_content">Predlagan slog: <b>%1$s</b> s/z <b>%2$s</b> poudarkom.\nAli ga želite uveljaviti?</string>
   <string name="style_automagic_dialog_positive">Uporabi</string>
   <string name="style_accent_default_name">Privzeto</string>
+  <string name="style_dark_overlay_title">Temen način</string>
   <string name="style_dark_overlay_default">Privzeto</string>
   <string name="style_dark_overlay_black">Črna</string>
   <string name="style_permission_error">Dovoljenje za dostop do pomnilniške naprave je potreben za analizo vaše slike ozadja, odobrite ga za uporabo te značilnosti</string>
@@ -600,5 +601,11 @@
   <string name="trust_feature_encryption_value_enabled">Omogočen</string>
   <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
   <string name="trust_category_tools">Zasebnost</string>
+  <string name="trust_warnings_selinux">SELinux stanje</string>
+  <string name="trust_warnings_keys">Podpis izgradnje</string>
+  <string name="trust_onboarding_title">Pozdravite Trust</string>
+  <string name="trust_onboarding_learn_more">Več o tem</string>
+  <string name="trust_onboarding_done">Razumem</string>
   <!-- Sms limit -->
+  <string name="sms_security_check_limit_title">Omejitev sporočil SMS</string>
 </resources>
