@@ -143,6 +143,7 @@
   <string name="live_display_color_profile_srgb_summary">Couleurs correspondant exactement à l’espace colorimétrique sRGB</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Couleurs précises sur l\'espace de couleur DCI-P3</string>
+  <string name="live_display_reading_mode_title">Mode Lecture</string>
   <string name="color_calibration_title">Calibrage des couleurs</string>
   <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
   <string name="color_red_title">Rouge</string>
@@ -584,6 +585,7 @@
   <string name="style_automagic_dialog_content">Style suggéré : <b>%1$s</b> avec <b>%2$s</b> en couleur d\'accentuation.\nVoulez-vous l\'appliquer ?</string>
   <string name="style_automagic_dialog_positive">Appliquer</string>
   <string name="style_accent_default_name">Par Défaut</string>
+  <string name="style_dark_overlay_title">Mode sombre</string>
   <string name="style_dark_overlay_default">Par Défaut</string>
   <string name="style_dark_overlay_black">Noir</string>
   <string name="style_permission_error">Accès à l\'espace de stockage requis pour analyser votre fond d\'écran. Veuillez l\'autoriser pour utiliser cette fonctionnalité</string>

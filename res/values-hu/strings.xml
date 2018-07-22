@@ -604,8 +604,8 @@
   <string name="trust_feature_root_value_adb">Csak ADB</string>
   <string name="trust_feature_root_value_apps">Alkalmazások és ADB</string>
   <string name="trust_feature_root_explain">A Root hozzáférés lehetővé teszi, hogy az ön által megadott alkalmazás vagy szolgáltatás kikerülje a biztonsági korlátozásokat, ezzel lehetővé téve, hogy módosításokat hajtson végre a rendszeren, ami kárt okozhat a készülékében vagy rendszerében.</string>
-  <string name="trust_feature_security_patches">Androidos biztonsági hibajavító csomag</string>
-  <string name="trust_feature_security_patches_value_base">Android-felület: %1$s\nGyártói oldal: %2$s</string>
+  <string name="trust_feature_security_patches">Biztonsági hibajavító csomagok szintjei</string>
+  <string name="trust_feature_security_patches_value_base">Androidos: %1$s\nGyártói: %2$s</string>
   <string name="trust_feature_security_patches_value_new">naprakész</string>
   <string name="trust_feature_security_patches_value_medium">néhány hónapos</string>
   <string name="trust_feature_security_patches_value_old">elavult</string>
