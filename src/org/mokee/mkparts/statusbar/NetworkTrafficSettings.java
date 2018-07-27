@@ -58,7 +58,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
                 findPreference(MKSettings.Secure.NETWORK_TRAFFIC_UNITS);
         mNetTrafficUnits.setOnPreferenceChangeListener(this);
         int units = MKSettings.Secure.getInt(resolver,
-                MKSettings.Secure.NETWORK_TRAFFIC_UNITS, /* Mbps */ 1);
+                MKSettings.Secure.NETWORK_TRAFFIC_UNITS, /* MB */ 3);
         mNetTrafficUnits.setValue(String.valueOf(units));
 
         mNetTrafficShowUnits = (MKSecureSettingSwitchPreference)
