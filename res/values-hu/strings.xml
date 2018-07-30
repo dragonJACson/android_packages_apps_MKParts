@@ -396,6 +396,8 @@
   <string name="status_bar_system_icons_summary">Vezérelheti, mely állapotsori ikonok jelennek meg</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Óra</string>
+  <string name="status_bar_clock_show_seconds_title">Másodpercek megjelenítése</string>
+  <string name="status_bar_clock_show_seconds_summary">Óra, perc és másodperc megjelenítése</string>
   <string name="status_bar_clock_position_title">Az Óra helye</string>
   <string name="status_bar_clock_position_right">Jobbra</string>
   <string name="status_bar_clock_position_left">Balra</string>
