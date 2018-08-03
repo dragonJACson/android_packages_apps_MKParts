@@ -143,6 +143,8 @@
   <string name="live_display_color_profile_srgb_summary">Farben passend zum sRGB-Farbraum</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Farben passend zum DCI-P3-Farbraum</string>
+  <string name="live_display_reading_mode_title">Lese-Modus</string>
+  <string name="live_display_reading_mode_summary">Graustufen-Modus zum Langzeit-Lesen</string>
   <string name="color_calibration_title">Farbkalibrierung</string>
   <string name="color_calibration_summary">Displayfarben kalibrieren</string>
   <string name="color_red_title">Rot</string>
@@ -403,6 +405,8 @@
   <string name="status_bar_system_icons_summary">Festlegen, welche Statusleistensymbole angezeigt werden</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Uhr</string>
+  <string name="status_bar_clock_show_seconds_title">Zeige Sekunden an</string>
+  <string name="status_bar_clock_show_seconds_summary">Zeige Stunden, Minuten und Sekunden an</string>
   <string name="status_bar_clock_position_title">Position der Uhr</string>
   <string name="status_bar_clock_position_right">Rechts</string>
   <string name="status_bar_clock_position_left">Links</string>
@@ -519,6 +523,8 @@
   <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
   <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
   <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Vollbild Apps</string>
+  <string name="long_screen_settings_summary">Zwinge vorherige Apps in den Vollbild-Modus</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Ladegeräte-Töne</string>
   <string name="charging_sounds_enabled_title">Aktivieren</string>
@@ -584,17 +590,45 @@
   <string name="style_automagic_dialog_content">Vorgeschlagenes Design: <b>%1$s</b> mit <b>%2$s</b> Akzent.\nWollen Sie es anwenden?</string>
   <string name="style_automagic_dialog_positive">Übernehmen</string>
   <string name="style_accent_default_name">Voreinstellung</string>
+  <string name="style_dark_overlay_title">Dunkler-Modus</string>
   <string name="style_dark_overlay_default">Voreinstellung</string>
   <string name="style_dark_overlay_black">Schwarz</string>
   <string name="style_permission_error">Speicherzugriffsberechtigung ist erforderlich, um Ihr Hintergrundbild zu analysieren. Bitte gewähren Sie diese, um die Funktion nutzen zu können</string>
   <!-- Trust interface -->
+  <string name="trust_header">Trust hilft ihnen ihr Gerät sicher zu halten und schützt ihre Privatsphäre.\n Das Trust Icon erscheint um ihnen beim Überprüfen der Sicherheit des Inhalts zu helfen.</string>
+  <string name="trust_category_features">Status</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Erzwingen</string>
   <string name="trust_feature_selinux_value_disabled">Deaktiviert</string>
+  <string name="trust_feature_selinux_explain">SELinux gibt vor, welche Prozesse Zugang zu welchen Daten auf ihrem Gerät haben.\n Das verhindert Apps und Dienste davon Zugang zu Daten zu erhalten, auf welche sie keinen Zugang haben sollten: auf diese Weise hat ein böswilliger Prozess nur limitierten Zugang damit ihre Sicherheit erhalten bleibt.</string>
   <string name="trust_feature_root">Root-Zugriff</string>
   <string name="trust_feature_root_value_disabled">Deaktiviert</string>
   <string name="trust_feature_root_value_adb">Nur ADB</string>
   <string name="trust_feature_root_value_apps">Apps und ADB</string>
+  <string name="trust_feature_root_explain">Der Root-Zugriff erlaubt die Umgehung von Sicherheitseinschränkungen durch Apps und Dienste ihrer Wahl, wodurch diese Änderungen am System vornehmen können, welche Schäden an ihrem Gerät oder Betriebssystem verursachen könnten.</string>
+  <string name="trust_feature_security_patches">Android Sicherheit-Patches</string>
+  <string name="trust_feature_security_patches_value_base">Plattform: %1$s\nVendor: %2$s</string>
+  <string name="trust_feature_security_patches_value_new">auf dem neuesten Stand</string>
+  <string name="trust_feature_security_patches_value_medium">einige Monate alt</string>
+  <string name="trust_feature_security_patches_value_old">veraltet</string>
+  <string name="trust_feature_security_patches_explain">Sicherheit-Patches werden monatlich von Google und SoC-Anbietern veröffentlich um Probleme im System zu beheben, welche von bösartigen Apps dazu ausgenutzt werden könnte, die Sicherheitseinschränkungen zu umgehen und ihr Gerät vorübergehend oder dauerhaft zu beschädigen.\n Während Plattform-Patches monatlich Global aktualisiert werden, werden Anbieter-Patches von Zeit zu Zeit vom Hersteller aktualisiert.\n Damit ihr Gerät sicher bleibt, stellen sie sicher, dass ihr MoKee immer auf dem neuesten Stand ist.</string>
+  <string name="trust_feature_encryption">Verschlüsselung</string>
   <string name="trust_feature_encryption_value_enabled">Aktiviert</string>
+  <string name="trust_feature_encryption_value_nolock">Benötigt einen sicheren Sperrbildschirm</string>
   <string name="trust_feature_encryption_value_disabled">Deaktiviert</string>
+  <string name="trust_feature_encryption_explain">Die Verschlüsselung ihres Gerätes verhindert den Zugang zu ihren Daten, während ihr Telefon ausgeschaltet oder im Wiederherstellungs-Modus ist. Dies ist besonders wichtig, wenn ihr Gerät gestohlen wird und hält fremde Personen davon ab ihre Nachrichten, Kontakte und andere private Informationen einzusehen ohne das Passwort.\n Um die Verschlüsselung effektiver zu machen müssen sie einen sicheren Sperrbildschirm einrichten.</string>
   <string name="trust_category_tools">Privatsphäre</string>
+  <string name="trust_notification_alerts_title">Sicherheitswarnungen</string>
+  <string name="trust_warnings_alerts_intro">Sie auswählen, auf welche Sicherheitsprobleme sie hingewiesen werden möchten. Für ihre Sicherheit, wird es empfohlen, alle Warnung zu aktivieren</string>
+  <string name="trust_warnings_selinux">SELinux-Status</string>
+  <string name="trust_warnings_keys">Build-Signatur</string>
+  <string name="trust_onboarding_title">Sag Hallo, zu Trust</string>
+  <string name="trust_onboarding_description">Trust hilft ihnen, ihr Gerät sicher zu halten und schützt Ihre Privatsphäre.\n Das Trust-Symbol wird angezeigt, um Ihnen bei der Überprüfung der Sicherheit der Inhalte zu helfen</string>
+  <string name="trust_onboarding_learn_more">Weitere Infos</string>
+  <string name="trust_onboarding_done">Verstanden</string>
   <!-- Sms limit -->
+  <string name="sms_security_check_limit_title">SMS Nachrichten Beschränkung</string>
+  <string name="sms_security_check_limit_summary">Apps können %s Nachrichten in einer minute senden bevor eine Bestätigung erforderlich ist</string>
+  <string name="sms_security_check_limit_summary_none">Apps dürfen keine Nachricht ohne Bestätigung versenden</string>
+  <string name="sms_security_check_limit_always_confirm">Immer bestätigen</string>
 </resources>
