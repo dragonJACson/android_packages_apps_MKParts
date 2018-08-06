@@ -55,11 +55,6 @@
           android:fragment="org.mokee.mkparts.notificationlight.NotificationLightSettings"
           mk:xmlRes="@xml/notification_light_settings" />
 
-    <part android:key="privacy_settings"
-          android:title="@string/privacy_settings_title"
-          android:fragment="org.mokee.mkparts.PrivacySettings"
-          mk:xmlRes="@xml/privacy_settings" />
-
     <part android:key="profiles_settings"
           android:title="@string/profiles_settings_title"
           android:fragment="org.mokee.mkparts.profiles.ProfilesSettings"
