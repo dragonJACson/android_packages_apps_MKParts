@@ -143,6 +143,7 @@
   <string name="live_display_color_profile_srgb_summary">Kleuren binnen het sRGB-kleurenpalet</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Kleuren binnen het DCI-P3-kleurenpalet</string>
+  <string name="live_display_reading_mode_title">Leesmodus</string>
   <string name="color_calibration_title">Kleuren kalibreren</string>
   <string name="color_calibration_summary">Schermkleur kalibreren</string>
   <string name="color_red_title">Rood</string>

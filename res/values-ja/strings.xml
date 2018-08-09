@@ -138,6 +138,7 @@
   <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にします</string>
   <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正します</string>
   <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正します</string>
+  <string name="live_display_reading_mode_title">読書モード</string>
   <string name="color_calibration_title">色の調整</string>
   <string name="color_calibration_summary">画面の色を調整する</string>
   <string name="color_red_title">赤</string>
