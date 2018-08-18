@@ -144,6 +144,7 @@
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Barve ustrezne DCI-P3 barvnemu prostoru</string>
   <string name="live_display_reading_mode_title">Način za branje</string>
+  <string name="live_display_reading_mode_summary">Način sivine za dolgoročno branje</string>
   <string name="color_calibration_title">Umerjanje barv</string>
   <string name="color_calibration_summary">Umeri barve na zaslonu</string>
   <string name="color_red_title">Rdeča</string>
@@ -234,6 +235,7 @@
   <string name="power_menu_users_title">Preklopnik uporabnikov</string>
   <string name="power_menu_bug_report_title">Poročilo o hrošču</string>
   <string name="power_menu_bug_report_disabled">V nastavitvah za razvijalce je poročanje o hrošču onemogočeno</string>
+  <string name="power_menu_lockdown_title">Zaklep</string>
   <string name="volume_keys_control_ring_stream_title">Nadzor glasnosti zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_on">Gumba za glasnost nadzirata glasnost zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_off">Gumba za glasnost nadzirata glasnost predstavnosti</string>
@@ -403,6 +405,8 @@
   <string name="status_bar_system_icons_summary">Nadzor prikazanih ikon v vrstici stanja</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Ura</string>
+  <string name="status_bar_clock_show_seconds_title">Prikaži sekunde</string>
+  <string name="status_bar_clock_show_seconds_summary">Prikaži ure, minute in sekunde</string>
   <string name="status_bar_clock_position_title">Položaj ure</string>
   <string name="status_bar_clock_position_right">Desno</string>
   <string name="status_bar_clock_position_left">Levo</string>
@@ -519,6 +523,8 @@
   <string name="expanded_desktop_style_hide_both">Skrij oboje</string>
   <string name="expanded_desktop_nothing_to_show_text">Izklopite stikalo, da razširjeno namizje prilagodite glede na aplikacijo</string>
   <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Celozaslonske aplikacije</string>
+  <string name="long_screen_settings_summary">Vsili zapuščinskim aplikacijam uporabo celozaslonskega razmerja slike</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Zvoki ob polnjenju</string>
   <string name="charging_sounds_enabled_title">Omogoči</string>
@@ -533,6 +539,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibriraj, ko je zaznana poteza na zaslonu na dotik</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Poteg navzdol z dvema prstoma</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Poteg navzgor z enim prstom</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Poteg navzgor iz gumba Domov</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Poteg navzdol z enim prstom</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Poteg levo z enim prstom</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Poteg desno z enim prstom</string>
