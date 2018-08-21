@@ -610,7 +610,7 @@
   <string name="trust_feature_security_patches">Android güvenlik yaması</string>
   <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
   <string name="trust_feature_security_patches_value_new">güncel</string>
-  <string name="trust_feature_security_patches_value_medium">bazı aylık</string>
+  <string name="trust_feature_security_patches_value_medium">Tarihsiz birkaç ay.</string>
   <string name="trust_feature_security_patches_value_old">tarihi geçmiş</string>
   <string name="trust_feature_security_patches_explain">Güvenlik açıklarını ve güvenlik kısıtlamalarını atlamak cihazınızda geçici veya kalıcı bir hasar meydana getirmek için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek sistemdeki kusurları gidermek amacıyla Google ve SoC satıcıları tarafından aylık olarak yayınlanır.\nYazılım yamaları her ay global olarak güncellendiğinde satıcı yamaları zaman zaman OEM\'den güncellenir.\nCihazınızı güvende tutmak için MoKee yapınızın daima güncel olduğundan emin olun.</string>
   <string name="trust_feature_encryption">Şifreleme</string>
