@@ -122,5 +122,8 @@
   <string name="trust_feature_root">Root müraciəti</string>
   <string name="trust_feature_root_value_adb">Yalnız ADB</string>
   <string name="trust_feature_root_value_apps">Tətbiqetmələr və ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

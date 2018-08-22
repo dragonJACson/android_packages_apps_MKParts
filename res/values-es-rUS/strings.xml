@@ -596,7 +596,6 @@
   <string name="style_dark_overlay_black">Negro</string>
   <string name="style_permission_error">Permiso de acceso de almacenamiento es necesario para analizar tu fondo de pantalla, por favor concede para usar esta característica</string>
   <!-- Trust interface -->
-  <string name="trust_header">Trust le ayuda a mantener el dispositivo seguro y protege su privacidad.\n El icono de Trust se muestra para ayudarle a comprobar la seguridad de los contenidos.</string>
   <string name="trust_category_features">Estado</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
@@ -609,8 +608,11 @@
   <string name="trust_feature_root_explain">El acceso de superusuario permite eludir las restricciones de seguridad de las aplicaciones y servicios elegidas, permitiendo realizar modificaciones en el sistema, lo que puede dañar el dispositivo o sistema operativo.</string>
   <string name="trust_feature_security_patches">Parches de Seguridad de Android</string>
   <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nProveedor: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">actualizado</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">hace algunos meses</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">desactualizado</string>
   <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el OEM de vez en cuando.\nPara mantener el dispositivo seguro, asegúrese de que el sistema LineageOS esté siempre actualizado.</string>
   <string name="trust_feature_encryption">Cifrado</string>

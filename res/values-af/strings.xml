@@ -527,6 +527,9 @@
   <string name="trust_feature_root">\'Root\' toegang</string>
   <string name="trust_feature_root_value_adb">Slegs ADB</string>
   <string name="trust_feature_root_value_apps">Programme en ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Geaktiveer</string>
   <!-- Sms limit -->
 </resources>

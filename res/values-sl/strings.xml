@@ -602,8 +602,11 @@
   <string name="trust_feature_root_value_disabled">Onemogočeno</string>
   <string name="trust_feature_root_value_adb">Samo ADB</string>
   <string name="trust_feature_root_value_apps">Aplikacije in ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">posodobljeno</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">stari nekaj mesecev</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">zastareli</string>
   <string name="trust_feature_encryption_value_enabled">Omogočen</string>
   <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>

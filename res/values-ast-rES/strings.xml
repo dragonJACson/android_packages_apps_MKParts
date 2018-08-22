@@ -402,5 +402,8 @@
   <string name="trust_feature_root">Accesu root</string>
   <string name="trust_feature_root_value_adb">Namái ADB</string>
   <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

@@ -550,6 +550,9 @@
   <string name="trust_feature_root_value_disabled">Онемогућено</string>
   <string name="trust_feature_root_value_adb">Само ADB</string>
   <string name="trust_feature_root_value_apps">Апликације и ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
   <string name="trust_feature_encryption_value_disabled">Онемогућено</string>
   <string name="trust_category_tools">Приватност</string>

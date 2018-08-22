@@ -397,6 +397,8 @@
   <string name="status_bar_system_icons_summary">Керування відображенням значків в рядку стану</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Годинник</string>
+  <string name="status_bar_clock_show_seconds_title">Показувати секунди</string>
+  <string name="status_bar_clock_show_seconds_summary">Показувати години, хвилини та секунди</string>
   <string name="status_bar_clock_position_title">Позиція годинника</string>
   <string name="status_bar_clock_position_right">Справа</string>
   <string name="status_bar_clock_position_left">Зліва</string>
@@ -555,6 +557,9 @@
   <string name="trust_feature_root_value_disabled">Вимкнено</string>
   <string name="trust_feature_root_value_adb">Тільки ADB</string>
   <string name="trust_feature_root_value_apps">Програми та ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Увімкнено</string>
   <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
   <string name="trust_category_tools">Конфіденційність</string>

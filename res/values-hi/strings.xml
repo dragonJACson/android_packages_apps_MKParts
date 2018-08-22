@@ -118,5 +118,8 @@
   <string name="trust_feature_root">मूल पहुँच</string>
   <string name="trust_feature_root_value_adb">केवल एडीबी</string>
   <string name="trust_feature_root_value_apps">ऐप और एडीबी</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

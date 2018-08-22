@@ -550,6 +550,9 @@
   <string name="trust_feature_root_value_disabled">無効</string>
   <string name="trust_feature_root_value_adb">ADBのみ</string>
   <string name="trust_feature_root_value_apps">アプリとADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">有効</string>
   <string name="trust_feature_encryption_value_disabled">無効</string>
   <string name="trust_category_tools">プライバシー</string>

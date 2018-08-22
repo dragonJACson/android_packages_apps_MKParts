@@ -130,5 +130,8 @@
   <string name="trust_feature_root">ರೂಟ್ ಪ್ರವೇಶ</string>
   <string name="trust_feature_root_value_adb">ಎಡಿಬಿ ಮಾತ್ರ</string>
   <string name="trust_feature_root_value_apps">ಆಪ್ಸ್ ಮತ್ತು ಎಡಿಬಿ</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

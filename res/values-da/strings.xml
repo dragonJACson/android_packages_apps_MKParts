@@ -535,6 +535,9 @@
   <string name="trust_feature_root_value_disabled">Inaktiv</string>
   <string name="trust_feature_root_value_adb">Kun ADB</string>
   <string name="trust_feature_root_value_apps">Apps og ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Aktiveret</string>
   <string name="trust_feature_encryption_value_disabled">Inaktiv</string>
   <string name="trust_category_tools">Privatliv</string>

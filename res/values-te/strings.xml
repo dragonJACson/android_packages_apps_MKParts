@@ -118,5 +118,8 @@
   <string name="trust_feature_root">మూల ప్రాప్తి</string>
   <string name="trust_feature_root_value_adb">ADB మాత్రమే</string>
   <string name="trust_feature_root_value_apps">అనువర్తనాలు మరియు ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

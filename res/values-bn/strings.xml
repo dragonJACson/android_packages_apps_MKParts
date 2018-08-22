@@ -119,6 +119,9 @@
   <string name="trust_feature_root">রুট এক্সেস</string>
   <string name="trust_feature_root_value_adb">শুধু মাত্র এডিবি</string>
   <string name="trust_feature_root_value_apps">অ্যাপস এবং এডিবি</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_category_tools">প্রাইভেসি</string>
   <!-- Sms limit -->
 </resources>

@@ -540,6 +540,9 @@
   <string name="trust_feature_root">Root sarbidea</string>
   <string name="trust_feature_root_value_adb">ADB bakarrik</string>
   <string name="trust_feature_root_value_apps">ADB eta aplikazioak</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Gaituta</string>
   <string name="trust_category_tools">Pribatutasuna</string>
   <!-- Sms limit -->

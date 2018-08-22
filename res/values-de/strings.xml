@@ -596,7 +596,6 @@
   <string name="style_dark_overlay_black">Schwarz</string>
   <string name="style_permission_error">Speicherzugriffsberechtigung ist erforderlich, um Ihr Hintergrundbild zu analysieren. Bitte gewähren Sie diese, um die Funktion nutzen zu können</string>
   <!-- Trust interface -->
-  <string name="trust_header">Trust hilft ihnen ihr Gerät sicher zu halten und schützt ihre Privatsphäre.\n Das Trust Icon erscheint um ihnen beim Überprüfen der Sicherheit des Inhalts zu helfen.</string>
   <string name="trust_category_features">Status</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Erzwingen</string>
@@ -609,8 +608,11 @@
   <string name="trust_feature_root_explain">Der Root-Zugriff erlaubt die Umgehung von Sicherheitseinschränkungen durch Apps und Dienste ihrer Wahl, wodurch diese Änderungen am System vornehmen können, welche Schäden an ihrem Gerät oder Betriebssystem verursachen könnten.</string>
   <string name="trust_feature_security_patches">Android Sicherheit-Patches</string>
   <string name="trust_feature_security_patches_value_base">Plattform: %1$s\nVendor: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">auf dem neuesten Stand</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">einige Monate alt</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">veraltet</string>
   <string name="trust_feature_security_patches_explain">Sicherheit-Patches werden monatlich von Google und SoC-Anbietern veröffentlich um Probleme im System zu beheben, welche von bösartigen Apps dazu ausgenutzt werden könnte, die Sicherheitseinschränkungen zu umgehen und ihr Gerät vorübergehend oder dauerhaft zu beschädigen.\n Während Plattform-Patches monatlich Global aktualisiert werden, werden Anbieter-Patches von Zeit zu Zeit vom Hersteller aktualisiert.\n Damit ihr Gerät sicher bleibt, stellen sie sicher, dass ihr MoKee immer auf dem neuesten Stand ist.</string>
   <string name="trust_feature_encryption">Verschlüsselung</string>

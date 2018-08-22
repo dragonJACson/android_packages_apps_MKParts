@@ -452,6 +452,9 @@
   <string name="trust_feature_root_value_disabled">Inaktiverad</string>
   <string name="trust_feature_root_value_adb">Endast ADB</string>
   <string name="trust_feature_root_value_apps">Appar och ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Aktiverad</string>
   <string name="trust_feature_encryption_value_disabled">Inaktiverad</string>
   <string name="trust_category_tools">Integritet</string>

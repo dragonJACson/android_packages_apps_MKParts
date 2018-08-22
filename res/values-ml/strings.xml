@@ -122,5 +122,8 @@
   <string name="trust_feature_root">റൂട്ട് പ്രവേശനം</string>
   <string name="trust_feature_root_value_adb">ADB മാത്രം</string>
   <string name="trust_feature_root_value_apps">അപ്ലിക്കേഷനുകളും ADB യും</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

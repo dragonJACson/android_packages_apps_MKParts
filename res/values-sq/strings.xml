@@ -508,5 +508,8 @@
   <string name="trust_feature_root">Aksesi Root</string>
   <string name="trust_feature_root_value_adb">Vetëm ADB</string>
   <string name="trust_feature_root_value_apps">Aplikacionet dhe ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

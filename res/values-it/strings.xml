@@ -593,7 +593,6 @@
   <string name="style_dark_overlay_black">Nero</string>
   <string name="style_permission_error">Per analizzare lo sfondo, è necessario il permesso di accesso all\'archivio, si prega di concederlo per utilizzare questa funzione</string>
   <!-- Trust interface -->
-  <string name="trust_header">Trust aiuta a tenere il tuo dispositvo sicuro e protegge la tua privacy.\nL\'icona di Trust appare verificando la sicurezza dei contenuti.</string>
   <string name="trust_category_features">Stato</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Applicazione</string>
@@ -606,8 +605,11 @@
   <string name="trust_feature_root_explain">L\'accesso root consente alle app e servizi da te selezionati di eludere le restrizioni di sicurezza, consentendo modifiche al sistema che possono anche causare danni al dispositivo o al sistema operativo.</string>
   <string name="trust_feature_security_patches">Livello patch sicurezza Android</string>
   <string name="trust_feature_security_patches_value_base">Piattaforma: %1$s\nProduttore: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">aggiornate</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">abbastanza vecchie</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">non aggiornate</string>
   <string name="trust_feature_security_patches_explain">Le patch di sicurezza vengono rilasciate mensilmente dai vendor di Google e SoC per risolvere i problemi del sistema che potrebbero essere sfruttati dalle app dannose per aggirare le restrizioni di sicurezza e causare danni temporanei o permanenti al dispositivo.\nMentre le patch della piattaforma vengono aggiornate globalmente ogni mese, patch del fornitore di tanto in tanto vengono aggiornati dall\'OEM.\nPer mantenere il tuo dispositivo sicuro, assicurati che la tua build di MoKee sia sempre aggiornata.</string>
   <string name="trust_feature_encryption">Crittografia</string>

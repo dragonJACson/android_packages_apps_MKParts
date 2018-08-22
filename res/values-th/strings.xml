@@ -131,5 +131,8 @@
   <string name="trust_feature_root">สิทธิผู้ดูแลระบบ</string>
   <string name="trust_feature_root_value_adb">ADB เท่านั้น</string>
   <string name="trust_feature_root_value_apps">แอปและ ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

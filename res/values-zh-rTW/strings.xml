@@ -595,7 +595,6 @@
   <string name="style_dark_overlay_black">黑色主題</string>
   <string name="style_permission_error">需要儲存存取權限才能分析桌布，請授予它使用此功能</string>
   <!-- Trust interface -->
-  <string name="trust_header">安全中心能保障您的裝置安全性和您的隱私？\n您可以通過顯示的安全圖示檢查內容的安全性</string>
   <string name="trust_category_features">狀態</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">執行中</string>
@@ -608,8 +607,11 @@
   <string name="trust_feature_root_explain">Root 存取讓您可以選擇讓某些應用程式和服務繞過安全限制，允許它們修改系統。這可能會對您的裝置或作業系統造成損壞。</string>
   <string name="trust_feature_security_patches">Android 安全性修補</string>
   <string name="trust_feature_security_patches_value_base">平台：%1$s\n廠商：%2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">已是最新版本！</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">幾個月未更新</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">過時</string>
   <string name="trust_feature_security_patches_explain">安全性修補由 Google 和 SoC 廠商每月發佈，用以修復可能會被惡意應用程式利用、繞過安全限制對您的裝置造成暫時或永久損壞的缺陷。\n平台修補每個月都會統一更新，但廠商修補只能每次從 OEM 取得。\n要保證您的裝置安全，請使用最新的 MokeeOS 版本。</string>
   <string name="trust_feature_encryption">加密</string>

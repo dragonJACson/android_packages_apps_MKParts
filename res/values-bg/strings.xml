@@ -580,6 +580,9 @@
   <string name="trust_feature_root_value_disabled">Деактивирано</string>
   <string name="trust_feature_root_value_adb">Само за ADB</string>
   <string name="trust_feature_root_value_apps">За приложения и ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Вкл.</string>
   <string name="trust_feature_encryption_value_disabled">Деактивирано</string>
   <string name="trust_category_tools">Поверителност</string>

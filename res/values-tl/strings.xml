@@ -535,6 +535,9 @@
   <string name="trust_feature_root_value_disabled">Naka-disable</string>
   <string name="trust_feature_root_value_adb">ADB lamang</string>
   <string name="trust_feature_root_value_apps">Mga app at ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Pinagana</string>
   <string name="trust_feature_encryption_value_disabled">Naka-disable</string>
   <string name="trust_category_tools">Ang palihim</string>

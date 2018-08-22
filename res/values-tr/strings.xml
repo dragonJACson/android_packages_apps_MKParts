@@ -596,7 +596,6 @@
   <string name="style_dark_overlay_black">Siyah</string>
   <string name="style_permission_error">Depolama alanına erişim izni, duvar kağıdınızı analiz etmek için gereklidir lütfen bu özelliğin kullanılmasına izin verin</string>
   <!-- Trust interface -->
-  <string name="trust_header">Güvenlim cihazınızın güvenliğini sağlamanıza ve gizliliğinizi korumanıza yardımcı olur.\n Güvenlik simgesi, içeriğin güvenliğini kontrol ederek size yardımcı olacak şekilde gösterilir.</string>
   <string name="trust_category_features">Durum</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Enforcing (Zorunlu)</string>
@@ -609,8 +608,11 @@
   <string name="trust_feature_root_explain">Root erişimi seçtiğiniz uygulama ve hizmetlerin güvenlik sınırlamalarının atlanmasına izin vererek, sistemde değişiklik yapmasına ve cihazınızda veya işletim sisteminizde hasara neden olabilir.</string>
   <string name="trust_feature_security_patches">Android güvenlik yaması</string>
   <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">güncel</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">Tarihsiz birkaç ay.</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">tarihi geçmiş</string>
   <string name="trust_feature_security_patches_explain">Güvenlik açıklarını ve güvenlik kısıtlamalarını atlamak cihazınızda geçici veya kalıcı bir hasar meydana getirmek için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek sistemdeki kusurları gidermek amacıyla Google ve SoC satıcıları tarafından aylık olarak yayınlanır.\nYazılım yamaları her ay global olarak güncellendiğinde satıcı yamaları zaman zaman OEM\'den güncellenir.\nCihazınızı güvende tutmak için MoKee yapınızın daima güncel olduğundan emin olun.</string>
   <string name="trust_feature_encryption">Şifreleme</string>

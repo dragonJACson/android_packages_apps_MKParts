@@ -596,6 +596,9 @@
   <string name="trust_feature_root_value_disabled">Dinonaktifkan</string>
   <string name="trust_feature_root_value_adb">ADB saja</string>
   <string name="trust_feature_root_value_apps">Aplikasi dan ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Dihidupkan</string>
   <string name="trust_feature_encryption_value_disabled">Dinonaktifkan</string>
   <string name="trust_category_tools">Privasi</string>

@@ -135,5 +135,8 @@
   <string name="trust_feature_root">Root ھوقۇقى</string>
   <string name="trust_feature_root_value_adb">ADB لا</string>
   <string name="trust_feature_root_value_apps">Apps ۋە ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

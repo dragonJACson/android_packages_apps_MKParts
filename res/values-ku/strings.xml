@@ -114,5 +114,8 @@
   <string name="trust_feature_root">ڕێگای ڕەگ</string>
   <string name="trust_feature_root_value_adb">تەنها ADB</string>
   <string name="trust_feature_root_value_apps">بەرنامەکان و ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

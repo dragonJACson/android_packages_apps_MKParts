@@ -594,7 +594,6 @@
   <string name="style_dark_overlay_black">أسود</string>
   <string name="style_permission_error">هناك حاجة إلى إذن الوصول إلى التخزين لتحليل الخلفية الخاصة بك، يرجى منحها لاستخدام هذه الميزة</string>
   <!-- Trust interface -->
-  <string name="trust_header">يساعدك الائتمان في الحفاظ على أمان جهازك ويحمي خصوصيتك.\nيظهر رمز الائتمان لمساعدتك في التحقق من أمان المحتويات.</string>
   <string name="trust_category_features">الحالة</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">فرض</string>
@@ -607,8 +606,11 @@
   <string name="trust_feature_root_explain">يتيح الوصول إلى الروت تجاوز قيود الأمان بواسطة التطبيقات والخدمات التي تختارها ، مما يسمح لهم بإجراء تعديلات على النظام ، مما قد يتسبب في تلف الجهاز أو نظام التشغيل.</string>
   <string name="trust_feature_security_patches">تصحيحات أمان الاندرويد</string>
   <string name="trust_feature_security_patches_value_base">المنصة: %1$s البائع: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">مُحدث</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">بضعة أشهر قبل اخر تحديث</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">غير محدّث</string>
   <string name="trust_feature_security_patches_explain">يتم إصدار تصحيحات الأمان شهريًا من قِبل موردي Google و SoC لمعالجة العيوب في النظام والتي يمكن استغلالها بواسطة التطبيقات الضارة لتجاوز القيود الأمنية وقد تتسبب في تلف مؤقت أو دائم في جهازك.\nيتم تحديث تصحيحات البرامج على مستوى العالم كل شهر ، يتم تحديثها من OEM من وقت لآخر.\nللحفاظ على جهازك آمنًا ، تأكد من تحديث MoKee دائمًا.</string>
   <string name="trust_feature_encryption">التشفير</string>

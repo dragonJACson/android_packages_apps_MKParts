@@ -552,6 +552,9 @@
   <string name="trust_feature_root">Acesso root</string>
   <string name="trust_feature_root_value_adb">Só ADB</string>
   <string name="trust_feature_root_value_apps">Aplicações e ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Ativado</string>
   <string name="trust_category_tools">Privacidade</string>
   <!-- Sms limit -->

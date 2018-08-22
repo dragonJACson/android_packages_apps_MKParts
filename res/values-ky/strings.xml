@@ -88,5 +88,8 @@
   <string name="style_global_title">Стиль</string>
   <string name="style_automagic_dialog_positive">Колдонуу</string>
   <!-- Trust interface -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

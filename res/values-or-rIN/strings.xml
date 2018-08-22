@@ -102,5 +102,8 @@
   <string name="trust_feature_root">ରୁଟ୍‍ ଆକ୍‍ସେସ୍‍</string>
   <string name="trust_feature_root_value_adb">କେବଳ ADB</string>
   <string name="trust_feature_root_value_apps">ଆପ୍ଲିକେସନ୍‍ଗୁଡିକ ଓ ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

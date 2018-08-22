@@ -102,5 +102,8 @@
   <string name="style_global_title">Ոճը</string>
   <string name="style_automagic_dialog_positive">Կիրառել</string>
   <!-- Trust interface -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

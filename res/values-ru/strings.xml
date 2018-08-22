@@ -597,7 +597,6 @@
   <string name="style_dark_overlay_black">Чёрная</string>
   <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
   <!-- Trust interface -->
-  <string name="trust_header">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого.</string>
   <string name="trust_category_features">Состояние</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Блокировка</string>
@@ -610,8 +609,11 @@
   <string name="trust_feature_root_explain">Root-доступ позволяет обходить ограничения безопасности приложениями и службами, которые вы выбираете, позволяя им вносить изменения в систему, что может нанести ущерб вашему устройству или ОС.</string>
   <string name="trust_feature_security_patches">Патч безопасности Android</string>
   <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nПроизводитель: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">нет обновлений</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">устаревший на несколько месяцев</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">устаревший</string>
   <string name="trust_feature_security_patches_explain">Пакеты безопасности выпускаются ежемесячно компанией Google и поставщиками SoC для устранения недостатков в системе, которые могут быть использованы вредоносными приложениями для обхода ограничений безопасности и могут нанести временный или постоянный ущерб вашему устройству.\nВ то время, как патчи платформы обновляются каждый месяц, сами производители устройств обновляют патчи неспеша. \nДля того, чтобы ваше устройство было безопасным, убедитесь, что ваша сборка MoKee всегда актуальна.</string>
   <string name="trust_feature_encryption">Шифрование</string>

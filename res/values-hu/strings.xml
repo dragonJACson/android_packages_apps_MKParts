@@ -596,7 +596,6 @@
   <string name="style_dark_overlay_black">Fekete</string>
   <string name="style_permission_error">Tárhelyhozzáférési engedély szükséges a háttérkép elemzéséhez, engedélyezze a funkció használatához</string>
   <!-- Trust interface -->
-  <string name="trust_header">A Trust segít, hogy készüléke biztonságos legyen, és védi személyes adatait.\nAmikor Trust ikon jelenik meg, akkor segítséget kap ellenőrizni a tartalmak biztonságosságát.</string>
   <string name="trust_category_features">Állapot</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Kényszerítve</string>
@@ -609,8 +608,11 @@
   <string name="trust_feature_root_explain">A Root hozzáférés lehetővé teszi, hogy az ön által megadott alkalmazás vagy szolgáltatás kikerülje a biztonsági korlátozásokat, ezzel lehetővé téve, hogy módosításokat hajtson végre a rendszeren, ami kárt okozhat a készülékében vagy rendszerében.</string>
   <string name="trust_feature_security_patches">Biztonsági hibajavító\ncsomagok szintjei</string>
   <string name="trust_feature_security_patches_value_base">Androidos: %1$s\nGyártói: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">naprakész</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">néhány hónapos</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">elavult</string>
   <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön MoKee kiadása mindig naprakész-e.</string>
   <string name="trust_feature_encryption">Titkosítás</string>

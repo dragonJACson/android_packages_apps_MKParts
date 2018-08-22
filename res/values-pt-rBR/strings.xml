@@ -595,6 +595,9 @@
   <string name="trust_feature_root_value_disabled">Desativado</string>
   <string name="trust_feature_root_value_adb">Somente ADB</string>
   <string name="trust_feature_root_value_apps">Aplicativos e ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">Ativo</string>
   <string name="trust_feature_encryption_value_disabled">Desativado</string>
   <string name="trust_category_tools">Privacidade</string>

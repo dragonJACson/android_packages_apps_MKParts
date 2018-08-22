@@ -120,5 +120,8 @@
   <string name="trust_feature_root">Root ligipääs</string>
   <string name="trust_feature_root_value_adb">Ainult ADB</string>
   <string name="trust_feature_root_value_apps">Rakendused ja ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

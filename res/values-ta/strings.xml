@@ -134,5 +134,8 @@
   <string name="trust_feature_root">மூல அணுகல்</string>
   <string name="trust_feature_root_value_adb">ADB மட்டும்</string>
   <string name="trust_feature_root_value_apps">ஆப்கள் மற்றும் ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

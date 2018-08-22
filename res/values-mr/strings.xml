@@ -116,5 +116,8 @@
   <string name="trust_feature_root">रूट ऍक्सेस</string>
   <string name="trust_feature_root_value_adb">केवळ ADB</string>
   <string name="trust_feature_root_value_apps">अनुप्रयोग आणि ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <!-- Sms limit -->
 </resources>

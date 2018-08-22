@@ -582,6 +582,9 @@
   <string name="trust_feature_root_value_disabled">사용안함</string>
   <string name="trust_feature_root_value_adb">ADB만</string>
   <string name="trust_feature_root_value_apps">앱 및 ADB</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_encryption_value_enabled">사용</string>
   <string name="trust_feature_encryption_value_disabled">사용안함</string>
   <string name="trust_category_tools">개인 정보</string>

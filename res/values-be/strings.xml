@@ -593,7 +593,6 @@
   <string name="style_dark_overlay_black">Чорны</string>
   <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>
   <!-- Trust interface -->
-  <string name="trust_header">Trust дапамагае вам абараніць вашу прыладу і вашую прыватнасць.\nЗначок Trust адлюстроўваецца для таго, каб дапамагчы вам праверыць бяспеку змесціва.</string>
   <string name="trust_category_features">Стан</string>
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Забеспячэнне</string>
@@ -606,8 +605,11 @@
   <string name="trust_feature_root_explain">Root-доступ дазваляе абыходзіць абмежаванні бяспекі праграмам і службамі, якія вы выбіраеце, дазваляючы ім ўносіць змены ў сістэму, што можа нанесці шкоду вашаму прыладзе або АС.</string>
   <string name="trust_feature_security_patches">Патч бяспекі Android</string>
   <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВытворца: %2$s</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">няма абнаўленняў</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">састарэлы на некалькі месяцаў</string>
+  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">састарэлы</string>
   <string name="trust_feature_security_patches_explain">Пакеты бяспекі выпускаецца штомесяц кампаніяй Google і пастаўшчыкамі SoC для ліквідацыі недахопаў у сістэме, якія могуць быць выкарыстаны шкоднаснымі праграмамі для абыходу абмежаванняў бяспекі і могуць нанесці часовую або сталую шкоду вашай прыладзе.\nУ той час, як патчы платформы абнаўляюцца кожны месяц, самі вытворцы прылад абнаўляюць патчы павольна.\nДля таго, каб ваша прылада было бяспечнай, пераканайцеся, што ваша зборка MoKee заўсёды актуальная.</string>
   <string name="trust_feature_encryption">Шыфраванне</string>
