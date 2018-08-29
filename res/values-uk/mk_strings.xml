@@ -33,6 +33,8 @@
   <string name="torch_long_press_power_gesture_title">Довге натискання кнопки живлення для увімкнення ліхтарика</string>
   <string name="torch_long_press_power_gesture_desc">Увімкніть ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Ярлик відбитків пальців</string>
+  <string name="fingerprint_shortcut_not_specified">Не визначено</string>
   <string name="fingerprint_shortcut_ok">ОК</string>
   <string name="fingerprint_shortcut_edit">Редагувати</string>
   <string name="fingerprint_shortcut_delete">Видалити</string>
