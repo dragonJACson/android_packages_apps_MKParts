@@ -259,7 +259,7 @@
   <string name="no_bluetooth_triggers">ペアリングしているBluetoothデバイスがありません。\nタップするとトリガーを設定する前にBluetoothデバイスとペアリングします。</string>
   <string name="no_wifi_triggers">設定されているWi\u2011Fiアクセスポイントがありません。\nタップするとトリガーを設定する前にWi\u2011Fiに接続します。</string>
   <string name="no_triggers_configured">設定されているトリガーがありません。タップして追加します。</string>
-  <string name="no_triggers_configured_nfc">タップして新しいNFCトリガーをセットアップします。</string>
+  <string name="no_triggers_configured_nfc">タップして新しいNFCトリガーをセットアップします</string>
   <string name="profile_setup_setup_triggers_description">このプロファイルを有効にするトリガーを選択してください</string>
   <string name="profile_setup_actions_description">このプロファイルが有効になったときの動作を設定してください</string>
   <!-- Profiles settings  -->
@@ -267,7 +267,7 @@
   <string name="profiles_add">追加</string>
   <string name="profile_menu_delete">削除</string>
   <string name="profile_settings_title">プロファイル</string>
-  <string name="profile_empty_list_profiles_off">システムのプロファイルを設定または使用するには、プロファイルをONにします。</string>
+  <string name="profile_empty_list_profiles_off">システムのプロファイルを設定または使用するにはプロファイルをONにします</string>
   <string name="profile_settings_summary_off">プロファイルは無効になっています</string>
   <string name="profile_trigger_configure">トリガーを設定</string>
   <string name="profile_write_nfc_tag">NFCタグに書き込む</string>
@@ -296,7 +296,7 @@
   <!-- Rename Dialog  -->
   <string name="rename_dialog_title">名前の変更</string>
   <string name="rename_dialog_message">新しい名前を入力してください</string>
-  <string name="rename_dialog_hint">プロファイル名を入力してください。</string>
+  <string name="rename_dialog_hint">プロファイル名を入力してください</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">リセット</string>
   <string name="profile_reset_message">ユーザーが作成したすべてのプロファイルとアプリグループを削除してデフォルトに戻しますか？</string>

@@ -19,11 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
+  <string name="dlg_ok">ตกลง</string>
+  <string name="cancel">ยกเลิก</string>
   <string name="reset">รีเซ็ต</string>
   <string name="back">กลับ</string>
   <string name="next">ถัดไป</string>
   <string name="on">เปิด</string>
   <string name="yes">ใช่</string>
+  <string name="search">ค้นหา</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
@@ -41,6 +44,8 @@
   <string name="light_brightness_normal">ปกติ</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">โทรศัพท์</string>
+  <string name="notification_light_default_value">ค่าเริ่มต้น</string>
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
   <string name="live_display_color_temperature_title">อุณหภูมิสี</string>
@@ -60,6 +65,8 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_summary">กดค้างเพื่อถ่ายภาพหน้าจอบางส่วน</string>
+  <string name="power_menu_airplane_title">โหมดเครื่องบิน</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_1min">1 นาที</string>
   <string name="torch_long_press_power_timeout_2min">2 นาที</string>
@@ -67,6 +74,7 @@
   <string name="torch_long_press_power_timeout_10min">10 นาที</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">ลบ</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
   <string name="profile_menu_delete">ลบ</string>
@@ -86,7 +94,10 @@
   <!-- Title for application group setting screen -->
   <!-- Add application dialog box title -->
   <!-- Profiles - system settings -->
+  <string name="profile_airplanemode_title">โหมดเครื่องบิน</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleGPS">GPS</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">ปกติ</string>
   <string name="ring_mode_vibrate">สั่น</string>
@@ -127,6 +138,8 @@
   <string name="style_global_title">รูปแบบ</string>
   <string name="style_global_entry_dark">มืด</string>
   <string name="style_automagic_dialog_positive">ใช้</string>
+  <string name="style_accent_default_name">ค่าเริ่มต้น</string>
+  <string name="style_dark_overlay_default">ค่าเริ่มต้น</string>
   <!-- Trust interface -->
   <string name="trust_feature_root">สิทธิผู้ดูแลระบบ</string>
   <string name="trust_feature_root_value_adb">ADB เท่านั้น</string>

@@ -17,7 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">MoKee ಸಂಯೋಜನೆಗಳು</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿಗಳು</string>
+  <string name="fingerprint_shortcut_not_specified">ಸೂಚಿಸಿಲ್ಲ</string>
   <string name="fingerprint_shortcut_ok">ಸರಿ</string>
   <string name="fingerprint_shortcut_edit">ಪರಿಷ್ಕರಿಸಿ</string>
+  <string name="fingerprint_shortcut_editer">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿ ಸಂಯೋಜಿಸಿ</string>
 </resources>

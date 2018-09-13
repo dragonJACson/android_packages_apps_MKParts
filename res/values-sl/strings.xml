@@ -582,6 +582,7 @@
   <string name="style_global_entry_light">Svetla</string>
   <string name="style_global_entry_dark">Temna</string>
   <string name="style_global_entry_time">Samodejno (čas dneva)</string>
+  <string name="style_global_entry_app">Upravlja %1$s</string>
   <string name="style_accent_title">Barva poudarka</string>
   <string name="style_accent_configuration_not_supported">Trenutni pudarek ni združljiv z izbranim slogom. Za nadaljevanje mora biti izbran drug poudarek, ali želite nadaljevati?</string>
   <string name="style_accent_configuration_positive">Nadaljuj</string>
@@ -597,25 +598,42 @@
   <!-- Trust interface -->
   <string name="trust_category_features">Stanje</string>
   <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Se uveljavla</string>
   <string name="trust_feature_selinux_value_disabled">Onemogočeno</string>
+  <string name="trust_feature_selinux_explain">SELinux narekuje, kateri procesi imajo dostop do katerih datotek/poti na vaši napravi.\nTo preprečuje aplikacijam in storitvam dostop do datotek s katerimi ne bi smele upravljati: tako je potencialni zlonamerni proces omejen in vaša varnost je ohranjena.</string>
   <string name="trust_feature_root">Skrbniški dostop</string>
   <string name="trust_feature_root_value_disabled">Onemogočeno</string>
   <string name="trust_feature_root_value_adb">Samo ADB</string>
   <string name="trust_feature_root_value_apps">Aplikacije in ADB</string>
+  <string name="trust_feature_root_explain">Skrbniški dostop dovoljuje aplikacijam in storitvam, ki jih izberete obvoz varnostnih omejitev, kar jim dovoli spreminjanje sistema, kar lahko povzroči poškodbe vaše naprave ali OS-a.</string>
+  <string name="trust_feature_security_patches">Varnostni popravki Androida</string>
+  <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProizvajalec: %2$s</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_new">posodobljeno</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_medium">stari nekaj mesecev</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">zastareli</string>
+  <string name="trust_feature_security_patches_explain">Varnostni popravki so izdani mesečno s strani Googla v sodelovanju s proizvajalci SoC-ov, da naslovijo pomanjkljivosti, ki jih lahko zlonamerne aplikacije izrabijo za obvoz varnostnih omejitev in lahko povzročijo trajne poškodbe vaše naprave. Popravki s strani Googla so na vseh podprtih napravah uveljavljeni vsak mesec, vendar so lahko popravki lastniške kode uveljavljeni samo s strani proizvajalca naprave. Da ohranite vašo napravo varno, poskrbite, da je vaša izgradnja MoKee vedno posodobljena in (v kolikor je na voljo) odtis dobavitelja posodobobljen na zadnjo različico priporočeno s strani MoKee.</string>
+  <string name="trust_feature_encryption">Enkripcija</string>
   <string name="trust_feature_encryption_value_enabled">Omogočen</string>
+  <string name="trust_feature_encryption_value_nolock">Potreben je varni zaklenjen zaslon</string>
   <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
+  <string name="trust_feature_encryption_explain">Šifriranje vaše naprave prepreči dostop do vaših podatkov, ko vaš telefon ni zagnan v Android. To je še posebej pomembno, če vam telefon ukradejo, saj prepreči osebam brez gesla branje vaših sporočil, stikov ali drugih zasebnih podatkov.
+\nZa učinkovitejše šifriranje, nastavite varno geslo za zaklep zaslona.</string>
   <string name="trust_category_tools">Zasebnost</string>
+  <string name="trust_notification_alerts_title">Varnostna opozorila</string>
+  <string name="trust_warnings_alerts_intro">Izberete lahko varnostne težave na katere bi želeli biti opozorjeni. Za vašo varnost je priporočljivo, da omogočite vsa opozorila</string>
   <string name="trust_warnings_selinux">SELinux stanje</string>
   <string name="trust_warnings_keys">Podpis izgradnje</string>
   <string name="trust_onboarding_title">Pozdravite Trust</string>
+  <string name="trust_onboarding_description">Trust vam pomaga ohraniti vašo napravo varno in varuje vašo zasebnost.
+\nTrust ikona se bo prikazala samo, ko bo vsebina strani potrjena.</string>
   <string name="trust_onboarding_learn_more">Več o tem</string>
   <string name="trust_onboarding_done">Razumem</string>
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">Omejitev sporočil SMS</string>
+  <string name="sms_security_check_limit_summary">Aplikacije lahko pošljejo %s sporočil v eni minuti, preden je zahtevana potrditev</string>
+  <string name="sms_security_check_limit_summary_none">Aplikacijam ni dovoljeno pošiljanje sporočil brez potrditve</string>
+  <string name="sms_security_check_limit_always_confirm">Vedno potrdi</string>
 </resources>
