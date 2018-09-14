@@ -21,5 +21,7 @@
   <!-- Show network speed -->
   <!-- Long-press power for torch -->
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_ok">ตกลง</string>
+  <string name="fingerprint_shortcut_edit">แก้ไข</string>
   <string name="fingerprint_shortcut_delete">ลบ</string>
 </resources>

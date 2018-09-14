@@ -49,6 +49,7 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Ekrānuzņēmums</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="torch_long_press_power_timeout_1min">1 minūte</string>
   <string name="torch_long_press_power_timeout_2min">2 minūtes</string>

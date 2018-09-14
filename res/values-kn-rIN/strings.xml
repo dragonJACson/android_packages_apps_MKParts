@@ -24,6 +24,7 @@
   <string name="reset">ಮರುಹೊಂದಿಸು</string>
   <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
   <string name="next">ಮುಂದಿನ</string>
+  <string name="disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
   <string name="privacy_guard_reset_title">ಮರುಹೊಂದಿಸು</string>
@@ -50,8 +51,10 @@
   <!-- Button settings -->
   <string name="hardware_keys_action_launch_camera">ಕ್ಯಾಮೆರಾ ಆರಂಭಿಸಿ</string>
   <string name="camera_launch_title">ಕ್ಯಾಮೆರಾ ಆರಂಭಿಸಿ</string>
+  <string name="volbtn_cursor_control_off">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">ಬ್ಯಾಕ್‌ಲೈಟ್</string>
+  <string name="backlight_summary_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->

@@ -33,7 +33,10 @@
   <string name="torch_long_press_power_gesture_title">電源ボタンを長押しでライト点灯</string>
   <string name="torch_long_press_power_gesture_desc">画面オフ時に電源ボタンを長押しすることでライトを点灯させます</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">指紋認証のショートカット</string>
+  <string name="fingerprint_shortcut_not_specified">指定なし</string>
   <string name="fingerprint_shortcut_ok">はい</string>
   <string name="fingerprint_shortcut_edit">編集</string>
   <string name="fingerprint_shortcut_delete">削除</string>
+  <string name="fingerprint_shortcut_editer">指紋認証のショートカットを設定</string>
 </resources>
