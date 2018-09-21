@@ -396,6 +396,8 @@
   <string name="status_bar_system_icons_summary">Налада выгляду цэтлікаў</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Гадзіннік</string>
+  <string name="status_bar_clock_show_seconds_title">Паказаць секунды</string>
+  <string name="status_bar_clock_show_seconds_summary">Паказваць гадзіны, хвіліны і секунды</string>
   <string name="status_bar_clock_position_title">Варыянт гадзінніка</string>
   <string name="status_bar_clock_position_right">Управа</string>
   <string name="status_bar_clock_position_left">Улева</string>
