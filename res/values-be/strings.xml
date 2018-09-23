@@ -405,6 +405,8 @@
   <string name="status_bar_system_icons_summary">Налада выгляду цэтлікаў</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Гадзіннік</string>
+  <string name="status_bar_clock_show_seconds_title">Паказаць секунды</string>
+  <string name="status_bar_clock_show_seconds_summary">Паказваць гадзіны, хвіліны і секунды</string>
   <string name="status_bar_clock_position_title">Варыянт гадзінніка</string>
   <string name="status_bar_clock_position_right">Управа</string>
   <string name="status_bar_clock_position_left">Улева</string>
@@ -589,6 +591,7 @@
   <string name="style_automagic_dialog_content">Прапанаваны стыль: <b>%1$s</b> с <b>%2$s</b> адценнем.\nВы хочаце ўжыць яго?</string>
   <string name="style_automagic_dialog_positive">Ужыць</string>
   <string name="style_accent_default_name">Па змаўчанні</string>
+  <string name="style_dark_overlay_title">Цёмны рэжым</string>
   <string name="style_dark_overlay_default">Па змаўчанні</string>
   <string name="style_dark_overlay_black">Чорны</string>
   <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>
@@ -619,10 +622,16 @@
   <string name="trust_feature_encryption_explain">Шыфраванне вашага прылады прадухіляе доступ да вашых дадзеных, калі ваш тэлефон выключаны або знаходзіцца ў рэжыме аднаўлення. Гэта асабліва важна, калі ваш тэлефон скрадзены, шыфраванне не дазваляе людзям чытаць вашы паведамленні, кантакты і іншую асабістую інфармацыю без пароля.\nКаб зрабіць шыфраванне больш эфектыўным, вам трэба ўсталяваць ахоўны экран блакавання.</string>
   <string name="trust_category_tools">Прыватнасць</string>
   <string name="trust_notification_alerts_title">Апавяшчэнні сістэмы бяспекі</string>
+  <string name="trust_warnings_alerts_intro">Вы можаце паказаць праблему бяспекі, пра якія вы хочаце папярэдзіць. Для вашай бяспекі рэкамендуецца ўключыць усе абвесткі</string>
+  <string name="trust_warnings_selinux">Стан SELinux</string>
+  <string name="trust_warnings_keys">Подпіс зборкі</string>
   <string name="trust_onboarding_title">Скажыце прывітанне Trust</string>
   <string name="trust_onboarding_description">Trust дапамагае вам абараніць вашу прыладу і вашую прыватнасць.\nЗначок Trust адлюстроўваецца для таго, каб дапамагчы вам праверыць бяспеку змесціва</string>
   <string name="trust_onboarding_learn_more">Даведайся больш</string>
   <string name="trust_onboarding_done">Зразумела</string>
   <!-- Sms limit -->
   <string name="sms_security_check_limit_title">Абмежаванне SMS-паведамленняў</string>
+  <string name="sms_security_check_limit_summary">Адлюстроўваць папярэджанне, калі за 15 хвілін было адпраўлена больш %s SMS-паведамленняў</string>
+  <string name="sms_security_check_limit_summary_none">Праграмам забаронена адпраўляць паведамленні без пацверджання</string>
+  <string name="sms_security_check_limit_always_confirm">Заўсёды пацвярджаць</string>
 </resources>

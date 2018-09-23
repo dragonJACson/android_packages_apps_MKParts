@@ -600,7 +600,7 @@
   <string name="trust_feature_selinux">SELinux</string>
   <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
   <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
-  <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en el dispositivo.\n Esto evita que las aplicaciones y servicios tengan acceso a archivos con los que no deben tratar: de esta manera, un proceso malicioso tiene acceso limitado, por lo que su seguridad se mantiene.</string>
+  <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en el dispositivo.\n Esto evita que las aplicaciones y servicios tengan acceso a archivos con los que no deben tratar: de esta manera, un proceso malicioso tiene acceso limitado, por lo que tu seguridad se mantiene.</string>
   <string name="trust_feature_root">Acceso de Superusuario</string>
   <string name="trust_feature_root_value_disabled">Deshabilitado</string>
   <string name="trust_feature_root_value_adb">Solo ADB</string>
@@ -614,19 +614,19 @@
   <string name="trust_feature_security_patches_value_medium">hace algunos meses</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
   <string name="trust_feature_security_patches_value_old">desactualizado</string>
-  <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el OEM de vez en cuando.\nPara mantener el dispositivo seguro, asegúrese de que el sistema LineageOS esté siempre actualizado.</string>
+  <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el Oem de vez en cuando.\nPara mantener el dispositivo seguro, asegúrate de tener la última versión de Mokee, (y si es aplicable) asegúrate ede tener actualizada la imagen de tu fabricante a la última recomendada por Mokee.</string>
   <string name="trust_feature_encryption">Cifrado</string>
   <string name="trust_feature_encryption_value_enabled">Activado</string>
   <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloqueo segura</string>
   <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
-  <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono está apagado o en modo de recuperación. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea sus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
+  <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono no está ejecutando Android. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea sus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
   <string name="trust_category_tools">Privacidad</string>
   <string name="trust_notification_alerts_title">Alertas de Seguridad</string>
   <string name="trust_warnings_alerts_intro">Puedes seleccionar los problemas de seguridad de los que deseas ser avisado. Para tu seguridad, se recomienda habilitar todas las alertas</string>
   <string name="trust_warnings_selinux">Estado de SELinux</string>
   <string name="trust_warnings_keys">Firma de compilación</string>
   <string name="trust_onboarding_title">Saluda a Trust</string>
-  <string name="trust_onboarding_description">Trust ayuda a mantener el dispositivo seguro y protege su privacidad.\nEl icono de Trust aparecerá para ayudarle a comprobar la seguridad de los contenidos</string>
+  <string name="trust_onboarding_description">Trust ayuda a mantener el dispositivo seguro y protege tu privacidad.\nEl icono de Trust aparecerá para ayudarle a comprobar la seguridad de los contenidos.</string>
   <string name="trust_onboarding_learn_more">Saber más</string>
   <string name="trust_onboarding_done">Entiendo</string>
   <!-- Sms limit -->

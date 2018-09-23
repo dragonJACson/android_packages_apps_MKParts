@@ -19,7 +19,11 @@
   <!-- Application name -->
   <string name="mkparts_title">MoKeeの設定</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">指紋認証のショートカット</string>
+  <string name="fingerprint_shortcut_not_specified">指定なし</string>
   <string name="fingerprint_shortcut_ok">はい</string>
   <string name="fingerprint_shortcut_edit">編集</string>
   <string name="fingerprint_shortcut_delete">削除</string>
+  <string name="fingerprint_shortcut_editer">指紋認証のショートカットを設定</string>
+  <string name="fingerprint_shortcut_manage">指紋の管理</string>
 </resources>
