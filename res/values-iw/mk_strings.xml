@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">הגדרות MoKee</string>
   <!-- Fingerprint shortcuts -->
   <string name="fingerprint_shortcut_ok">אישור</string>
   <string name="fingerprint_shortcut_edit">ערוך</string>

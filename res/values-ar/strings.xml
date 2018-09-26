@@ -405,6 +405,8 @@
   <string name="status_bar_system_icons_summary">التحكم في الايقونات الظاهرة على شريط الحالة</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">الساعة</string>
+  <string name="status_bar_clock_show_seconds_title">إظهار الثواني</string>
+  <string name="status_bar_clock_show_seconds_summary">إظهار الساعات والدقائق والثواني</string>
   <string name="status_bar_clock_position_title">موقع الساعة</string>
   <string name="status_bar_clock_position_right">اليمين</string>
   <string name="status_bar_clock_position_left">الـيسار</string>
