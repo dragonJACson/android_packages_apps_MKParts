@@ -144,6 +144,7 @@
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Couleurs précises sur l\'espace de couleur DCI-P3</string>
   <string name="live_display_reading_mode_title">Mode Lecture</string>
+  <string name="live_display_reading_mode_summary">Affichage en niveaux de gris pour les périodes de lecture prolongées</string>
   <string name="color_calibration_title">Calibrage des couleurs</string>
   <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
   <string name="color_red_title">Rouge</string>
@@ -404,6 +405,8 @@
   <string name="status_bar_system_icons_summary">Choisir les icônes à afficher dans la barre d\'état</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Horloge</string>
+  <string name="status_bar_clock_show_seconds_title">Afficher les secondes</string>
+  <string name="status_bar_clock_show_seconds_summary">Afficher les heures, minutes et secondes</string>
   <string name="status_bar_clock_position_title">Position de l\'horloge</string>
   <string name="status_bar_clock_position_right">Droite</string>
   <string name="status_bar_clock_position_left">Gauche</string>
@@ -520,6 +523,8 @@
   <string name="expanded_desktop_style_hide_both">Masquer les deux</string>
   <string name="expanded_desktop_nothing_to_show_text">Désactiver pour personnaliser le bureau étendu pour chaque application</string>
   <!-- Applications: Long screen -->
+  <string name="long_screen_settings_title">Applications en plein écran</string>
+  <string name="long_screen_settings_summary">Forcer l\'affichage des anciennes applications en plein écran</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">Sons d\'alimentation</string>
   <string name="charging_sounds_enabled_title">Activer</string>
@@ -591,14 +596,24 @@
   <string name="style_dark_overlay_black">Noir</string>
   <string name="style_permission_error">Accès à l\'espace de stockage requis pour analyser votre fond d\'écran. Veuillez l\'autoriser pour utiliser cette fonctionnalité</string>
   <!-- Trust interface -->
+  <string name="trust_category_features">État</string>
+  <string name="trust_feature_selinux">SELinux</string>
+  <string name="trust_feature_selinux_value_enforcing">Application</string>
   <string name="trust_feature_selinux_value_disabled">Désactivé</string>
+  <string name="trust_feature_selinux_explain">SELinux permet de contrôler les processus autorisés à accéder aux fichiers/chemins sur votre appareil.\nCette fonctionnalité empêche ainsi des applications et services d\'accéder à des fichiers qu\'ils ne sont pas censés gérer. Étant donné que les éventuels processus malveillants ont un accès limité à vos données, votre appareil reste protégé.</string>
   <string name="trust_feature_root">Accès root</string>
   <string name="trust_feature_root_value_disabled">Désactivé</string>
   <string name="trust_feature_root_value_adb">ADB uniquement</string>
   <string name="trust_feature_root_value_apps">Applications et ADB</string>
+  <string name="trust_feature_root_explain">L\'accès root permet aux applications et services que vous sélectionnez d\'ignorer les restrictions de sécurité. Ceux-ci peuvent alors apporter des modifications au système et donc potentiellement endommager votre appareil ou l\'OS.</string>
+  <string name="trust_feature_security_patches">Correctifs de sécurité Android</string>
+  <string name="trust_feature_security_patches_value_base">Plate-forme : %1$s\nFournisseur : %2$s</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <string name="trust_feature_security_patches_value_new">à jour</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <string name="trust_feature_security_patches_value_medium">obsolètes de quelques mois</string>
   <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+  <string name="trust_feature_security_patches_value_old">obsolète</string>
   <string name="trust_feature_encryption_value_enabled">Activé</string>
   <string name="trust_feature_encryption_value_disabled">Désactivé</string>
   <string name="trust_category_tools">Confidentialité</string>
