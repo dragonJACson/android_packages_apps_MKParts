@@ -396,6 +396,8 @@
   <string name="status_bar_system_icons_summary">Liste les icônes pouvant être affiché ou masqué dans la barre d\'état</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Horloge</string>
+  <string name="status_bar_clock_show_seconds_title">Afficher les secondes</string>
+  <string name="status_bar_clock_show_seconds_summary">Afficher les heures, minutes et secondes</string>
   <string name="status_bar_clock_position_title">Position de l’horloge</string>
   <string name="status_bar_clock_position_right">À droite</string>
   <string name="status_bar_clock_position_left">À gauche</string>
