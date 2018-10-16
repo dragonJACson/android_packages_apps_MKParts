@@ -144,6 +144,7 @@
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Kleuren binnen het DCI-P3-kleurenpalet</string>
   <string name="live_display_reading_mode_title">Leesmodus</string>
+  <string name="live_display_reading_mode_summary">Grijsschaalmodus voor langdurig lezen</string>
   <string name="color_calibration_title">Kleuren kalibreren</string>
   <string name="color_calibration_summary">Schermkleur kalibreren</string>
   <string name="color_red_title">Rood</string>
@@ -205,6 +206,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Verlichting</string>
   <string name="button_backlight_enabled">Knoppen verlichten</string>
+  <string name="button_backlight_only_when_pressed_title">Licht alleen de knoppen op wanneer u erop drukt</string>
   <string name="keyboard_backlight_enabled">Toetsenbord verlichten</string>
   <string name="button_backlight_seekbar_title">Knoppenhelderheid</string>
   <string name="keyboard_backlight_seekbar_title">Toetsenbordhelderheid</string>
@@ -233,6 +235,7 @@
   <string name="power_menu_users_title">Gebruiker wisselen</string>
   <string name="power_menu_bug_report_title">Foutenrapport</string>
   <string name="power_menu_bug_report_disabled">Foutrapportage is uitgeschakeld in de opties voor ontwikkelaars</string>
+  <string name="power_menu_lockdown_title">Lockdown</string>
   <string name="volume_keys_control_ring_stream_title">Beltoonvolume beheren</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volumeknoppen passen beltoonvolume aan</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumeknoppen passen mediavolume aan</string>
@@ -402,6 +405,8 @@
   <string name="status_bar_system_icons_summary">Instellen welke statusbalkpictogrammen worden weergegeven</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_title">Klok</string>
+  <string name="status_bar_clock_show_seconds_title">Toon seconden</string>
+  <string name="status_bar_clock_show_seconds_summary">Toon uren, minuten en seconden</string>
   <string name="status_bar_clock_position_title">Indeling klok</string>
   <string name="status_bar_clock_position_right">Rechts</string>
   <string name="status_bar_clock_position_left">Links</string>
