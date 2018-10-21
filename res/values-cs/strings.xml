@@ -143,6 +143,7 @@
   <string name="live_display_color_profile_srgb_summary">Barvy s přesností na barevný prostor sRGB</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
   <string name="live_display_color_profile_dci_p3_summary">Barvy s přesností na barevný prostor DCI-P3</string>
+  <string name="live_display_color_profile_adobe_title">Adobe RGB</string>
   <string name="live_display_reading_mode_title">Režim čtení</string>
   <string name="live_display_reading_mode_summary">Režim stupňů šedi pro dlouhodobé čtení</string>
   <string name="color_calibration_title">Kalibrace barev</string>
@@ -444,7 +445,7 @@
   <string name="network_traffic_mode_disable">Nezobrazovat</string>
   <string name="network_traffic_mode_up">Pouze odchozí data</string>
   <string name="network_traffic_mode_down">Pouze příchozí data</string>
-  <string name="network_traffic_mode_all">Přícjozí a odchozí data</string>
+  <string name="network_traffic_mode_all">Příchozí a odchozí data</string>
   <string name="network_traffic_autohide">Automaticky skrývat</string>
   <string name="network_traffic_autohide_summary">Skrýt indikátor datového provozu, pokud není žádná aktivita</string>
   <string name="network_traffic_units_title">Jednotky měření síťového provozu</string>
