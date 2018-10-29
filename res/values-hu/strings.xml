@@ -501,7 +501,7 @@
   <string name="status_bar_show_weather_title">Időjárás megjelenítése</string>
   <string name="status_bar_show_weather_summary">Aktuális hőmérséklet megjelenítése az állapotsoron</string>
   <!-- Power: Performance profiles -->
-  <string name="perf_profile_settings_title">Energiatakarékos és teljesítmény</string>
+  <string name="perf_profile_settings_title">Akkukímélő és teljesítménymód</string>
   <string name="perf_profile_settings_summary">Energiatakarékosság és eszközteljesítmény beállítása</string>
   <string name="perf_profile_overview_summary">Aktuális profil: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">Eszközteljesítmény</string>
