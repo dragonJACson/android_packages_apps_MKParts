@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_edit">Edit</string>
+    <!-- Application name -->
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_edit">Edit</string>
 </resources>

@@ -18,103 +18,103 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="reset">යළි පිහිටුවන්න</string>
-  <string name="back">ආපසු</string>
-  <string name="next">ඊළඟ</string>
-  <string name="on">සක්‍රීයයි</string>
-  <string name="yes">ඔව්</string>
-  <string name="search">සෙවීම</string>
-  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">උදවු</string>
-  <string name="privacy_guard_reset_title">යළි පිහිටුවන්න</string>
-  <string name="privacy_guard_manager_show_system_apps">තිළැලි යෙදුම් පෙන්වන්න</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">අභිරුචි</string>
-  <string name="dialog_delete_title">මකන්න</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Common light settings strings -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">රතු</string>
-  <string name="color_green_title">කොළ</string>
-  <string name="color_blue_title">නිල්</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">පාට</string>
-  <string name="adj_saturation_title">සන්තෘප්ත</string>
-  <string name="adj_contrast_title">ප්‍රභේදනය</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">මෙනු බොත්තම</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">මිනිත්තු 1</string>
-  <string name="torch_long_press_power_timeout_2min">මිනිත්තු 2</string>
-  <string name="torch_long_press_power_timeout_5min">මිනිත්තු 5</string>
-  <string name="torch_long_press_power_timeout_10min">මිනිත්තු 10</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">මකන්න</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">මකන්න</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">සක්‍රීයයි</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">යළි පිහිටුවන්න</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_vibrate">කම්පනය</string>
-  <string name="ring_mode_mute">නිශ්ශබ්ද කරන්න</string>
-  <string name="media_volume_title">මාධ්‍යය</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">දෙවරක් තට්ටුකර නිදිකරවන්න</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">දීප්තිමත් බව</string>
-  <!-- Status bar - Network Traffic -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">ආරක්ෂිත යෙදුම්</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Applications: Long screen -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">කම්පනය</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
-  <!-- Berry Lite -->
-  <string name="style_title">විලාසය</string>
-  <string name="style_global_title">විලාසය</string>
-  <string name="style_automagic_dialog_positive">යොදන්න</string>
-  <!-- Trust interface -->
-  <string name="trust_feature_root">මූල ප්‍රවේශය</string>
-  <string name="trust_feature_root_value_adb">ADB පමණි</string>
-  <string name="trust_feature_root_value_apps">යෙදුම් සහ ADB</string>
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Sms limit -->
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">යළි පිහිටුවන්න</string>
+    <string name="back">ආපසු</string>
+    <string name="next">ඊළඟ</string>
+    <string name="on">සක්‍රීයයි</string>
+    <string name="yes">ඔව්</string>
+    <string name="search">සෙවීම</string>
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">උදවු</string>
+    <string name="privacy_guard_reset_title">යළි පිහිටුවන්න</string>
+    <string name="privacy_guard_manager_show_system_apps">තිළැලි යෙදුම් පෙන්වන්න</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">අභිරුචි</string>
+    <string name="dialog_delete_title">මකන්න</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Common light settings strings -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">රතු</string>
+    <string name="color_green_title">කොළ</string>
+    <string name="color_blue_title">නිල්</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">පාට</string>
+    <string name="adj_saturation_title">සන්තෘප්ත</string>
+    <string name="adj_contrast_title">ප්‍රභේදනය</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">මෙනු බොත්තම</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">මිනිත්තු 1</string>
+    <string name="torch_long_press_power_timeout_2min">මිනිත්තු 2</string>
+    <string name="torch_long_press_power_timeout_5min">මිනිත්තු 5</string>
+    <string name="torch_long_press_power_timeout_10min">මිනිත්තු 10</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">මකන්න</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">මකන්න</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">සක්‍රීයයි</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">යළි පිහිටුවන්න</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_vibrate">කම්පනය</string>
+    <string name="ring_mode_mute">නිශ්ශබ්ද කරන්න</string>
+    <string name="media_volume_title">මාධ්‍යය</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">දෙවරක් තට්ටුකර නිදිකරවන්න</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">දීප්තිමත් බව</string>
+    <!-- Status bar - Network Traffic -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">ආරක්ෂිත යෙදුම්</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Applications: Long screen -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">කම්පනය</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
+    <!-- Berry Lite -->
+    <string name="style_title">විලාසය</string>
+    <string name="style_global_title">විලාසය</string>
+    <string name="style_automagic_dialog_positive">යොදන්න</string>
+    <!-- Trust interface -->
+    <string name="trust_feature_root">මූල ප්‍රවේශය</string>
+    <string name="trust_feature_root_value_adb">ADB පමණි</string>
+    <string name="trust_feature_root_value_apps">යෙදුම් සහ ADB</string>
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Sms limit -->
 </resources>

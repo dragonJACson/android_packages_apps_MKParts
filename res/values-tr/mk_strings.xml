@@ -16,14 +16,14 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee ayarları</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Parmak izi kısayolları</string>
-  <string name="fingerprint_shortcut_not_specified">Belirtilmemiş</string>
-  <string name="fingerprint_shortcut_ok">Tamam</string>
-  <string name="fingerprint_shortcut_edit">Düzenle</string>
-  <string name="fingerprint_shortcut_delete">Sil</string>
-  <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
-  <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee ayarları</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Parmak izi kısayolları</string>
+    <string name="fingerprint_shortcut_not_specified">Belirtilmemiş</string>
+    <string name="fingerprint_shortcut_ok">Tamam</string>
+    <string name="fingerprint_shortcut_edit">Düzenle</string>
+    <string name="fingerprint_shortcut_delete">Sil</string>
+    <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
+    <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
 </resources>

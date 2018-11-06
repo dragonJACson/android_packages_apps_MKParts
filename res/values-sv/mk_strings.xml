@@ -16,10 +16,10 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee-inställningar</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Redigera</string>
-  <string name="fingerprint_shortcut_delete">Ta bort</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee-inställningar</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Redigera</string>
+    <string name="fingerprint_shortcut_delete">Ta bort</string>
 </resources>

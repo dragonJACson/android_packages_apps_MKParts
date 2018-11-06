@@ -18,124 +18,124 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">ஏற்றுகிறது\u2026</string>
-  <string name="dlg_ok">சரி</string>
-  <string name="cancel">ரத்துசெய்</string>
-  <string name="reset">மீட்டமை</string>
-  <string name="next">அடுத்து</string>
-  <string name="off">அணை</string>
-  <string name="yes">ஆம்</string>
-  <string name="no">இல்லை</string>
-  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_reset_title">மீட்டமை</string>
-  <string name="privacy_guard_manager_show_system_apps">உள்ளமைந்த ஆப்களை காட்டு</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">இயல்பு</string>
-  <string name="custom_time">தனிப்பயன்</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">இயல்பு</string>
-  <string name="pulse_speed_normal">இயல்பு</string>
-  <!-- Common light settings strings -->
-  <string name="light_brightness_normal">இயல்பு</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_phonelist_title">அலைபேசி</string>
-  <string name="notification_light_default_value">இயல்புநிலை</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">நிற தட்பவெப்பம்</string>
-  <string name="live_display_day">பகல்</string>
-  <string name="live_display_night">இரவு</string>
-  <string name="color_red_title">சிவப்பு</string>
-  <string name="color_green_title">பச்சை</string>
-  <string name="color_blue_title">நீலம்</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">நிறச்சாயல்</string>
-  <string name="adj_saturation_title">நிறைசெறிவுநிலை</string>
-  <string name="adj_contrast_title">ஒளி மாறுபாடு</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_action_launch_camera">கேமராவை தொடங்கு</string>
-  <string name="camera_launch_title">கேமராவை தொடங்கு</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">பேக்லைட்</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">திரைப்பிடிப்பு</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">ஒருபோதுமில்லை</string>
-  <!-- Profiles -->
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <!-- Profile mode options. -->
-  <string name="profile_entries_off">அணை</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">மீட்டமை</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">இயல்பு</string>
-  <string name="ring_mode_vibrate">அதிர்வு</string>
-  <string name="media_volume_title">மீடியா</string>
-  <!-- Status bar -->
-  <string name="status_bar_quick_qs_pulldown_off">அணை</string>
-  <string name="status_bar_double_tap_to_sleep_title">உறங்குவதற்கு இருமுறை தட்டு</string>
-  <string name="status_bar_double_tap_to_sleep_summary">காட்சியை ஆஃப் செய்ய நிலை பட்டை மீது இருமுறை தட்டு</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">இயல்பு</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">உரை</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">ஒளிர்வு</string>
-  <!-- Status bar - Network Traffic -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">பாதுகாக்கப்பட்ட ஆப்ஸ்</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 டிகிரீ</string>
-  <string name="display_rotation_90_title">90 டிகிரீ</string>
-  <string name="display_rotation_180_title">180 டிகிரீ</string>
-  <string name="display_rotation_270_title">270 டிகிரீ</string>
-  <!-- Weather -->
-  <string name="status_bar_show_weather_title">வானிலையை காட்டு</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">ஒருபோதுமில்லை</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Applications: Long screen -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">அதிர்வு</string>
-  <string name="charging_sounds_ringtone_silent">அமைதி</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
-  <!-- Berry Lite -->
-  <string name="style_title">நடை</string>
-  <string name="style_global_title">நடை</string>
-  <string name="style_global_entry_dark">அடர்</string>
-  <string name="style_automagic_dialog_positive">பயன்படுத்து</string>
-  <string name="style_accent_default_name">இயல்புநிலை</string>
-  <string name="style_dark_overlay_default">இயல்புநிலை</string>
-  <!-- Trust interface -->
-  <string name="trust_feature_root">மூல அணுகல்</string>
-  <string name="trust_feature_root_value_adb">ADB மட்டும்</string>
-  <string name="trust_feature_root_value_apps">ஆப்கள் மற்றும் ADB</string>
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Sms limit -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">ஏற்றுகிறது\u2026</string>
+    <string name="dlg_ok">சரி</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="reset">மீட்டமை</string>
+    <string name="next">அடுத்து</string>
+    <string name="off">அணை</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_reset_title">மீட்டமை</string>
+    <string name="privacy_guard_manager_show_system_apps">உள்ளமைந்த ஆப்களை காட்டு</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">இயல்பு</string>
+    <string name="custom_time">தனிப்பயன்</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">இயல்பு</string>
+    <string name="pulse_speed_normal">இயல்பு</string>
+    <!-- Common light settings strings -->
+    <string name="light_brightness_normal">இயல்பு</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_phonelist_title">அலைபேசி</string>
+    <string name="notification_light_default_value">இயல்புநிலை</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">நிற தட்பவெப்பம்</string>
+    <string name="live_display_day">பகல்</string>
+    <string name="live_display_night">இரவு</string>
+    <string name="color_red_title">சிவப்பு</string>
+    <string name="color_green_title">பச்சை</string>
+    <string name="color_blue_title">நீலம்</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">நிறச்சாயல்</string>
+    <string name="adj_saturation_title">நிறைசெறிவுநிலை</string>
+    <string name="adj_contrast_title">ஒளி மாறுபாடு</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_action_launch_camera">கேமராவை தொடங்கு</string>
+    <string name="camera_launch_title">கேமராவை தொடங்கு</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">பேக்லைட்</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">திரைப்பிடிப்பு</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">ஒருபோதுமில்லை</string>
+    <!-- Profiles -->
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <!-- Profile mode options. -->
+    <string name="profile_entries_off">அணை</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">மீட்டமை</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">இயல்பு</string>
+    <string name="ring_mode_vibrate">அதிர்வு</string>
+    <string name="media_volume_title">மீடியா</string>
+    <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">அணை</string>
+    <string name="status_bar_double_tap_to_sleep_title">உறங்குவதற்கு இருமுறை தட்டு</string>
+    <string name="status_bar_double_tap_to_sleep_summary">காட்சியை ஆஃப் செய்ய நிலை பட்டை மீது இருமுறை தட்டு</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">இயல்பு</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">உரை</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">ஒளிர்வு</string>
+    <!-- Status bar - Network Traffic -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">பாதுகாக்கப்பட்ட ஆப்ஸ்</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 டிகிரீ</string>
+    <string name="display_rotation_90_title">90 டிகிரீ</string>
+    <string name="display_rotation_180_title">180 டிகிரீ</string>
+    <string name="display_rotation_270_title">270 டிகிரீ</string>
+    <!-- Weather -->
+    <string name="status_bar_show_weather_title">வானிலையை காட்டு</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">ஒருபோதுமில்லை</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Applications: Long screen -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">அதிர்வு</string>
+    <string name="charging_sounds_ringtone_silent">அமைதி</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
+    <!-- Berry Lite -->
+    <string name="style_title">நடை</string>
+    <string name="style_global_title">நடை</string>
+    <string name="style_global_entry_dark">அடர்</string>
+    <string name="style_automagic_dialog_positive">பயன்படுத்து</string>
+    <string name="style_accent_default_name">இயல்புநிலை</string>
+    <string name="style_dark_overlay_default">இயல்புநிலை</string>
+    <!-- Trust interface -->
+    <string name="trust_feature_root">மூல அணுகல்</string>
+    <string name="trust_feature_root_value_adb">ADB மட்டும்</string>
+    <string name="trust_feature_root_value_apps">ஆப்கள் மற்றும் ADB</string>
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Sms limit -->
 </resources>
