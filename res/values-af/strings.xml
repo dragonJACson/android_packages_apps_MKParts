@@ -418,13 +418,13 @@
     <string name="contributors_cloud_loading_message">Laai bydraersdata\u2026</string>
     <string name="contributors_cloud_failed_message">Kan nie bydraersdata laai nie</string>
     <string name="contributor_info_menu">Bydraersinligting</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Naam:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>Naam:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Bynaam:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Inligting oor bydraë</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Totale bydraers:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Totale bydraers:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totale commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Laaste opgedateer:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Laaste opgedateer:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Outo-roteer skerm</string>
     <string name="display_rotation_title">Rotasie instellings</string>

@@ -444,13 +444,13 @@
     <string name="contributors_cloud_loading_message">Naglo-load ng mga kontribyutor data\u2026</string>
     <string name="contributors_cloud_failed_message">Hindi maka-load ng mga data sa kontribyutor</string>
     <string name="contributor_info_menu">Info ng Contribyutor</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Pangalan:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>Pangalan:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Info ng mga Contribyutor</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Kabuuang Contribyutor:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Kabuuang Contribyutor:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Kabuuang Commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Katapusang Update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Katapusang Update:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Auto-rotate na screen</string>
     <string name="display_rotation_title">Mga rotation setting</string>

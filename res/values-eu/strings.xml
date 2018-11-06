@@ -422,13 +422,13 @@
     <string name="contributors_cloud_loading_message">Parte-hartzaileen datuak kargatzen\u2026</string>
     <string name="contributors_cloud_failed_message">Ezin izan dira parte-hartzaileen datuak kargatu</string>
     <string name="contributor_info_menu">Parte-hartzailearen informazioa</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Izena:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>Izena:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Ezizena:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Bidalketak:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>Bidalketak:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Parte-hartzeen informazioa</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Parte-hartzaileak guztira:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Parte-hartzaileak guztira:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Parte-hartzeak guztira:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Azken eguneratzea:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Azken eguneratzea:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Auto-biratu pantaila</string>
     <string name="display_rotation_title">Biratzearen ezarpenak</string>
