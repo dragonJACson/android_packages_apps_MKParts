@@ -17,91 +17,91 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">লোড হচ্ছে\u2026</string>
-  <string name="reset">পুনরায় সেট করুন</string>
-  <string name="settings">Settings</string>
-  <string name="next">Next</string>
-  <string name="off">Off</string>
-  <string name="yes">হ্যাঁ</string>
-  <string name="no">না</string>
-  <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">প্রাইভেসি</string>
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_reset_title">পুনরায় সেট করুন</string>
-  <string name="privacy_guard_manager_show_system_apps">স্থায়ী অ্যাপগুলি প্রদর্শন করুন</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">কাস্টম</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_phonelist_title">ফোন</string>
-  <string name="notification_light_default_value">Default</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">লাল</string>
-  <string name="color_green_title">সবুজ</string>
-  <string name="color_blue_title">নীল</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">রঙ বিন্যাস</string>
-  <string name="adj_saturation_title">পরিপৃক্তি</string>
-  <string name="adj_contrast_title">কনট্রাস্ট</string>
-  <!-- Button settings -->
-  <string name="volume_answer_call_title">কল রিসিভ করুন</string>
-  <string name="home_answer_call_title">কল রিসিভ করুন</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">স্ক্রীশসট</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">Never</string>
-  <!-- Profiles -->
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <!-- Profile mode options. -->
-  <string name="profile_entries_off">Off</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">পুনরায় সেট করুন</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="connection_state_enabled">সক্রিয় করুন</string>
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleGPS">জিপিএস</string>
-  <!-- Sound settings screen -->
-  <string name="ring_mode_vibrate">কম্পন</string>
-  <string name="media_volume_title">মিডিয়া</string>
-  <!-- Status bar -->
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_double_tap_to_sleep_title">দুই টোকা দিয়ে নিদ্রা</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">উজ্জ্বলতা</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">সংরক্ষিত অ্যাপগুলি</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">Never</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_enabled_title">সক্রিয় করুন</string>
-  <string name="power_notifications_vibrate_title">কম্পন</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">লোড হচ্ছে\u2026</string>
+    <string name="reset">পুনরায় সেট করুন</string>
+    <string name="settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="off">Off</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">প্রাইভেসি</string>
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_reset_title">পুনরায় সেট করুন</string>
+    <string name="privacy_guard_manager_show_system_apps">স্থায়ী অ্যাপগুলি প্রদর্শন করুন</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">কাস্টম</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_phonelist_title">ফোন</string>
+    <string name="notification_light_default_value">Default</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">লাল</string>
+    <string name="color_green_title">সবুজ</string>
+    <string name="color_blue_title">নীল</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">রঙ বিন্যাস</string>
+    <string name="adj_saturation_title">পরিপৃক্তি</string>
+    <string name="adj_contrast_title">কনট্রাস্ট</string>
+    <!-- Button settings -->
+    <string name="volume_answer_call_title">কল রিসিভ করুন</string>
+    <string name="home_answer_call_title">কল রিসিভ করুন</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">স্ক্রীশসট</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <!-- Profiles -->
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <!-- Profile mode options. -->
+    <string name="profile_entries_off">Off</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">পুনরায় সেট করুন</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="connection_state_enabled">সক্রিয় করুন</string>
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleGPS">জিপিএস</string>
+    <!-- Sound settings screen -->
+    <string name="ring_mode_vibrate">কম্পন</string>
+    <string name="media_volume_title">মিডিয়া</string>
+    <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_double_tap_to_sleep_title">দুই টোকা দিয়ে নিদ্রা</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">উজ্জ্বলতা</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">সংরক্ষিত অ্যাপগুলি</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">Never</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">সক্রিয় করুন</string>
+    <string name="power_notifications_vibrate_title">কম্পন</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

@@ -17,94 +17,94 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="add">Amestar</string>
-  <string name="name">Nome:</string>
-  <string name="back">Trasera</string>
-  <string name="next">Siguiente</string>
-  <string name="yes">Sí</string>
-  <string name="no">Non</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_manager_show_system_apps">Amuesa les app del sistema</string>
-  <!-- Notification light dialogs -->
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_general_title">Xeneral</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">Temperatura de color</string>
-  <string name="live_display_color_profile_standard_title">Estándar</string>
-  <string name="color_blue_title">Azul</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <!-- Button settings -->
-  <string name="hardware_keys_action_launch_camera">Llanzar cámara</string>
-  <string name="camera_launch_title">Llanzar cámara</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">Contralluz</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">1 minutu</string>
-  <string name="torch_long_press_power_timeout_2min">2 minutos</string>
-  <string name="torch_long_press_power_timeout_5min">5 minutos</string>
-  <string name="torch_long_press_power_timeout_10min">10 minutos</string>
-  <!-- Profiles -->
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profiles_add">Amestar</string>
-  <!-- Profile mode options. -->
-  <!-- Add Profile -->
-  <string name="profile_name_title">Nome:</string>
-  <!-- Rename Dialog  -->
-  <string name="rename_dialog_title">Renomar</string>
-  <!-- Reset Profiles -->
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="connection_state_enabled">Habilitar</string>
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <string name="profile_appgroup_name_title">Nome:</string>
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_vibrate">Vibrar</string>
-  <string name="media_volume_title">Multimedia</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">Doble toque pa bloquiar</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Calca dos vegaes na barra d\'estáu p\'apagar la pantalla</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">Brilléu</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Apps protexíes</string>
-  <string name="protected_apps_manager_summary">Xestiona qu\'aplicaciones s\'anubren darrera d\'un bloquéu de seguranza</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Collaboradores</string>
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 graos</string>
-  <string name="display_rotation_90_title">90 graos</string>
-  <string name="display_rotation_180_title">180 graos</string>
-  <string name="display_rotation_270_title">270 graos</string>
-  <!-- Weather -->
-  <string name="weather_settings_general_settings_title">Xeneral</string>
-  <string name="status_bar_show_weather_title">Amosar clima</string>
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_enabled_title">Habilitar</string>
-  <string name="power_notifications_vibrate_title">Vibrar</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="add">Amestar</string>
+    <string name="name">Nome:</string>
+    <string name="back">Trasera</string>
+    <string name="next">Siguiente</string>
+    <string name="yes">Sí</string>
+    <string name="no">Non</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_manager_show_system_apps">Amuesa les app del sistema</string>
+    <!-- Notification light dialogs -->
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_general_title">Xeneral</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="color_blue_title">Azul</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Button settings -->
+    <string name="hardware_keys_action_launch_camera">Llanzar cámara</string>
+    <string name="camera_launch_title">Llanzar cámara</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Contralluz</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">1 minutu</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutos</string>
+    <!-- Profiles -->
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profiles_add">Amestar</string>
+    <!-- Profile mode options. -->
+    <!-- Add Profile -->
+    <string name="profile_name_title">Nome:</string>
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">Renomar</string>
+    <!-- Reset Profiles -->
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="connection_state_enabled">Habilitar</string>
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroup_name_title">Nome:</string>
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_vibrate">Vibrar</string>
+    <string name="media_volume_title">Multimedia</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">Doble toque pa bloquiar</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Calca dos vegaes na barra d\'estáu p\'apagar la pantalla</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Brilléu</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">Apps protexíes</string>
+    <string name="protected_apps_manager_summary">Xestiona qu\'aplicaciones s\'anubren darrera d\'un bloquéu de seguranza</string>
+    <!-- Contributors cloud activity -->
+    <string name="contributors_cloud_fragment_title">Collaboradores</string>
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 graos</string>
+    <string name="display_rotation_90_title">90 graos</string>
+    <string name="display_rotation_180_title">180 graos</string>
+    <string name="display_rotation_270_title">270 graos</string>
+    <!-- Weather -->
+    <string name="weather_settings_general_settings_title">Xeneral</string>
+    <string name="status_bar_show_weather_title">Amosar clima</string>
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">Habilitar</string>
+    <string name="power_notifications_vibrate_title">Vibrar</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

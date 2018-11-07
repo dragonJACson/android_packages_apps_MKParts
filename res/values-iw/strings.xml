@@ -17,134 +17,135 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">טוען\u2026</string>
-  <string name="dlg_ok">אישור</string>
-  <string name="cancel">ביטול</string>
-  <string name="reset">אפס</string>
-  <string name="settings">הגדרות</string>
-  <string name="back">הקודם</string>
-  <string name="next">הבא</string>
-  <string name="on">מופעל</string>
-  <string name="off">ללא</string>
-  <string name="yes">כן</string>
-  <string name="no">לא</string>
-  <string name="disabled">מנוטרל</string>
-  <string name="enabled">מופעל</string>
-  <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">פרטיות</string>
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">עזרה</string>
-  <string name="privacy_guard_reset_title">אפס</string>
-  <string name="privacy_guard_manager_show_system_apps">הצג יישומים מובנים</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">רגיל</string>
-  <string name="custom_time">מותאם אישית</string>
-  <string name="dialog_delete_title">מחק</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">רגיל</string>
-  <string name="pulse_speed_fast">מהיר</string>
-  <string name="pulse_speed_normal">רגיל</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_phonelist_title">טלפון</string>
-  <string name="notification_light_default_value">ברירת מחדל</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">טמפרטורת צבע</string>
-  <string name="live_display_day">יום</string>
-  <string name="live_display_night">לילה</string>
-  <string name="live_display_color_profile_standard_title">65% (רגיל)</string>
-  <string name="live_display_color_profile_natural_title">טבעי</string>
-  <string name="color_red_title">אדום</string>
-  <string name="color_green_title">ירוק</string>
-  <string name="color_blue_title">כחול</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">גוון</string>
-  <string name="adj_saturation_title">רוויה</string>
-  <string name="adj_contrast_title">ניגודיות</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">לחצן תפריט</string>
-  <string name="hardware_keys_action_launch_camera">הפעל מצלמה</string>
-  <string name="camera_launch_title">הפעל מצלמה</string>
-  <string name="volbtn_cursor_control_off">מנוטרל</string>
-  <string name="volume_answer_call_title">ענה לשיחה בעזרת מקשי השמע</string>
-  <string name="home_answer_call_title">ענה לשיחה בעזרת מקשי השמע</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">תאורה אחורית</string>
-  <string name="backlight_summary_disabled">מנוטרל</string>
-  <string name="backlight_summary_enabled">מופעל</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">צילום מסך</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">אף פעם</string>
-  <string name="torch_long_press_power_timeout_1min">דקה אחת</string>
-  <string name="torch_long_press_power_timeout_2min">2 דקות</string>
-  <string name="torch_long_press_power_timeout_5min">5 דקות</string>
-  <string name="torch_long_press_power_timeout_10min">10 דקות</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">מחק</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">מחק</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">מופעל</string>
-  <string name="profile_entries_off">ללא</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">אפס</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="connection_state_enabled">אפשר</string>
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">רגיל</string>
-  <string name="ring_mode_vibrate">רטט</string>
-  <string name="ring_mode_mute">השתק</string>
-  <string name="media_volume_title">מדיה</string>
-  <!-- Status bar -->
-  <string name="status_bar_quick_qs_pulldown_off">ללא</string>
-  <string name="status_bar_double_tap_to_sleep_title">הקשה כפולה לכיבוי מסך</string>
-  <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים בשורת המצב כדי לכבות את המסך</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">רגיל</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">טקסט</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">בהירות</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">יישומים מוגנים</string>
-  <string name="protected_apps_manager_summary">נהל אילו יישומים מוסתרים מאחורי נעילה מאובטחת</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 מעלות</string>
-  <string name="display_rotation_90_title">90 מעלות</string>
-  <string name="display_rotation_180_title">180 מעלות</string>
-  <string name="display_rotation_270_title">270 מעלות</string>
-  <!-- Weather -->
-  <string name="status_bar_show_weather_title">הראה מזג אוויר</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">אף פעם</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_enabled_title">אפשר</string>
-  <string name="power_notifications_vibrate_title">רטט</string>
-  <string name="charging_sounds_ringtone_silent">שקט</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <string name="touchscreen_gestures_haptic_feedback_title">משוב ברטט</string>
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">טוען\u2026</string>
+    <string name="dlg_ok">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="reset">אפס</string>
+    <string name="settings">הגדרות</string>
+    <string name="back">הקודם</string>
+    <string name="next">הבא</string>
+    <string name="on">מופעל</string>
+    <string name="off">ללא</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="search">חיפוש</string>
+    <string name="disabled">מנוטרל</string>
+    <string name="enabled">מופעל</string>
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">פרטיות</string>
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">עזרה</string>
+    <string name="privacy_guard_reset_title">אפס</string>
+    <string name="privacy_guard_manager_show_system_apps">הצג יישומים מובנים</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">רגיל</string>
+    <string name="custom_time">מותאם אישית</string>
+    <string name="dialog_delete_title">מחק</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">רגיל</string>
+    <string name="pulse_speed_fast">מהיר</string>
+    <string name="pulse_speed_normal">רגיל</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_phonelist_title">טלפון</string>
+    <string name="notification_light_default_value">ברירת מחדל</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">טמפרטורת צבע</string>
+    <string name="live_display_day">יום</string>
+    <string name="live_display_night">לילה</string>
+    <string name="live_display_color_profile_standard_title">65% (רגיל)</string>
+    <string name="live_display_color_profile_natural_title">טבעי</string>
+    <string name="color_red_title">אדום</string>
+    <string name="color_green_title">ירוק</string>
+    <string name="color_blue_title">כחול</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">גוון</string>
+    <string name="adj_saturation_title">רוויה</string>
+    <string name="adj_contrast_title">ניגודיות</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">לחצן תפריט</string>
+    <string name="hardware_keys_action_launch_camera">הפעל מצלמה</string>
+    <string name="camera_launch_title">הפעל מצלמה</string>
+    <string name="volbtn_cursor_control_off">מנוטרל</string>
+    <string name="volume_answer_call_title">ענה לשיחה בעזרת מקשי השמע</string>
+    <string name="home_answer_call_title">ענה לשיחה בעזרת מקשי השמע</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">תאורה אחורית</string>
+    <string name="backlight_summary_disabled">מנוטרל</string>
+    <string name="backlight_summary_enabled">מופעל</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">צילום מסך</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">אף פעם</string>
+    <string name="torch_long_press_power_timeout_1min">דקה אחת</string>
+    <string name="torch_long_press_power_timeout_2min">2 דקות</string>
+    <string name="torch_long_press_power_timeout_5min">5 דקות</string>
+    <string name="torch_long_press_power_timeout_10min">10 דקות</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">מחק</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">מחק</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">מופעל</string>
+    <string name="profile_entries_off">ללא</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">אפס</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="connection_state_enabled">אפשר</string>
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">רגיל</string>
+    <string name="ring_mode_vibrate">רטט</string>
+    <string name="ring_mode_mute">השתק</string>
+    <string name="media_volume_title">מדיה</string>
+    <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">ללא</string>
+    <string name="status_bar_double_tap_to_sleep_title">הקשה כפולה לכיבוי מסך</string>
+    <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים בשורת המצב כדי לכבות את המסך</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">רגיל</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">טקסט</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">בהירות</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">יישומים מוגנים</string>
+    <string name="protected_apps_manager_summary">נהל אילו יישומים מוסתרים מאחורי נעילה מאובטחת</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 מעלות</string>
+    <string name="display_rotation_90_title">90 מעלות</string>
+    <string name="display_rotation_180_title">180 מעלות</string>
+    <string name="display_rotation_270_title">270 מעלות</string>
+    <!-- Weather -->
+    <string name="status_bar_show_weather_title">הראה מזג אוויר</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">אף פעם</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">אפשר</string>
+    <string name="power_notifications_vibrate_title">רטט</string>
+    <string name="charging_sounds_ringtone_silent">שקט</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gestures_haptic_feedback_title">משוב ברטט</string>
+    <!-- Gesture: Stylus gestures -->
 </resources>

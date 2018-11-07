@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Ρυθμίσεις MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Ύψος πλήκτρων</string>
-  <string name="navigation_bar_height_48">48dp (προεπιλογή)</string>
-  <string name="navigation_bar_height_0">Απόκρυψη</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Ταχύτητα δικτύου</string>
-  <string name="show_network_speed_summary">Εμφάνιση ταχύτητας δικτύου στη γραμμή κατάστασης</string>
-  <string name="status_bar_network_traffic_style_disable">Απενεργοποιημένο</string>
-  <string name="status_bar_network_traffic_style_up">Εξερχομενα</string>
-  <string name="status_bar_network_traffic_style_down">Εισερχόμενα</string>
-  <string name="status_bar_network_traffic_style_all">Εξερχόμενων και εισερχόμενων</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση στο πλήκτρο ισχύος για φακό</string>
-  <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Συντομέυσεις δακτυλικών αποτυπώματων</string>
-  <string name="fingerprint_shortcut_not_specified">Μη Καθορισμένο</string>
-  <string name="fingerprint_shortcut_ok">ΟΚ</string>
-  <string name="fingerprint_shortcut_edit">Επεξεργασία</string>
-  <string name="fingerprint_shortcut_delete">Διαγραφή</string>
-  <string name="fingerprint_shortcut_editer">Ρύθμιση συντομευσης δακτυλικού αποτυπώματος</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Ρυθμίσεις MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Ύψος πλήκτρων</string>
+    <string name="navigation_bar_height_48">48dp (προεπιλογή)</string>
+    <string name="navigation_bar_height_0">Απόκρυψη</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Ταχύτητα δικτύου</string>
+    <string name="show_network_speed_summary">Εμφάνιση ταχύτητας δικτύου στη γραμμή κατάστασης</string>
+    <string name="status_bar_network_traffic_style_disable">Απενεργοποιημένο</string>
+    <string name="status_bar_network_traffic_style_up">Εξερχομενα</string>
+    <string name="status_bar_network_traffic_style_down">Εισερχόμενα</string>
+    <string name="status_bar_network_traffic_style_all">Εξερχόμενων και εισερχόμενων</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση στο πλήκτρο ισχύος για φακό</string>
+    <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Συντομέυσεις δακτυλικών αποτυπώματων</string>
+    <string name="fingerprint_shortcut_not_specified">Μη Καθορισμένο</string>
+    <string name="fingerprint_shortcut_ok">ΟΚ</string>
+    <string name="fingerprint_shortcut_edit">Επεξεργασία</string>
+    <string name="fingerprint_shortcut_delete">Διαγραφή</string>
+    <string name="fingerprint_shortcut_editer">Ρύθμιση συντομευσης δακτυλικού αποτυπώματος</string>
 </resources>

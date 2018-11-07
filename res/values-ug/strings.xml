@@ -17,108 +17,109 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="reset">ئەسلىگە قايتۇر</string>
-  <string name="settings">تەڭشەش</string>
-  <string name="back">قايت</string>
-  <string name="next">كېيىنكى</string>
-  <string name="on">ئوچۇق</string>
-  <string name="yes">ھەئە</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">ياردەم</string>
-  <string name="privacy_guard_reset_title">ئەسلىگە قايتۇر</string>
-  <string name="privacy_guard_manager_show_system_apps">سىڭدۈرۈلگەن ئەپنى كۆرسەت</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">نورمال</string>
-  <string name="custom_time">ئىختىيارىي</string>
-  <string name="dialog_delete_title">ئۆچۈر</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">نورمال</string>
-  <string name="pulse_speed_normal">نورمال</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">رەڭ تېمپېراتۇرىسى</string>
-  <string name="color_red_title">قىزىل</string>
-  <string name="color_green_title">يېشىل</string>
-  <string name="color_blue_title">كۆك</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">رەڭگى</string>
-  <string name="adj_saturation_title">تويۇنۇش</string>
-  <string name="adj_contrast_title">ئاق-قارىلىقى</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">تىزىملىك توپچا</string>
-  <string name="hardware_keys_action_launch_camera">كامېرانى قوزغىتىڭ</string>
-  <string name="camera_launch_title">كامېرانى قوزغىتىڭ</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">قارشى نۇر</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">ئېكراندىن تۇتۇلغان سۈرەت</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">ھەرگىز</string>
-  <string name="torch_long_press_power_timeout_1min">1 مىنۇت</string>
-  <string name="torch_long_press_power_timeout_2min">2 مىنۇت</string>
-  <string name="torch_long_press_power_timeout_5min">5 مىنۇت</string>
-  <string name="torch_long_press_power_timeout_10min">10 مىنۇت</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">ئۆچۈر</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">ئۆچۈر</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">ئوچۇق</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">ئەسلىگە قايتۇر</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">نورمال</string>
-  <string name="ring_mode_vibrate">تىترەت</string>
-  <string name="ring_mode_mute">ئۈنسىز</string>
-  <string name="media_volume_title">ۋاستە</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">قوش چېكىلسە ئۇخلىتىدۇ</string>
-  <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">نورمال</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">تېكىست</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">يورۇقلۇق</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>
-  <string name="protected_apps_manager_summary">بىخەتەر قۇلۇپ تەرىپىدىن يوشۇرۇپ قويۇلغان ئەپنى باشقۇرۇش</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 گىرادۇس</string>
-  <string name="display_rotation_90_title">90 گىرادۇس</string>
-  <string name="display_rotation_180_title">180 گىرادۇس</string>
-  <string name="display_rotation_270_title">270 گىرادۇس</string>
-  <!-- Weather -->
-  <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">ھەرگىز</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">تىترەت</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">ئەسلىگە قايتۇر</string>
+    <string name="settings">تەڭشەش</string>
+    <string name="back">قايت</string>
+    <string name="next">كېيىنكى</string>
+    <string name="on">ئوچۇق</string>
+    <string name="yes">ھەئە</string>
+    <string name="search">ئىزدە</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">ياردەم</string>
+    <string name="privacy_guard_reset_title">ئەسلىگە قايتۇر</string>
+    <string name="privacy_guard_manager_show_system_apps">سىڭدۈرۈلگەن ئەپنى كۆرسەت</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">نورمال</string>
+    <string name="custom_time">ئىختىيارىي</string>
+    <string name="dialog_delete_title">ئۆچۈر</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">نورمال</string>
+    <string name="pulse_speed_normal">نورمال</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">رەڭ تېمپېراتۇرىسى</string>
+    <string name="color_red_title">قىزىل</string>
+    <string name="color_green_title">يېشىل</string>
+    <string name="color_blue_title">كۆك</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">رەڭگى</string>
+    <string name="adj_saturation_title">تويۇنۇش</string>
+    <string name="adj_contrast_title">ئاق-قارىلىقى</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">تىزىملىك توپچا</string>
+    <string name="hardware_keys_action_launch_camera">كامېرانى قوزغىتىڭ</string>
+    <string name="camera_launch_title">كامېرانى قوزغىتىڭ</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">قارشى نۇر</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">ئېكراندىن تۇتۇلغان سۈرەت</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">ھەرگىز</string>
+    <string name="torch_long_press_power_timeout_1min">1 مىنۇت</string>
+    <string name="torch_long_press_power_timeout_2min">2 مىنۇت</string>
+    <string name="torch_long_press_power_timeout_5min">5 مىنۇت</string>
+    <string name="torch_long_press_power_timeout_10min">10 مىنۇت</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">ئۆچۈر</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">ئۆچۈر</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">ئوچۇق</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">ئەسلىگە قايتۇر</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">نورمال</string>
+    <string name="ring_mode_vibrate">تىترەت</string>
+    <string name="ring_mode_mute">ئۈنسىز</string>
+    <string name="media_volume_title">ۋاستە</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">قوش چېكىلسە ئۇخلىتىدۇ</string>
+    <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">نورمال</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">تېكىست</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">يورۇقلۇق</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>
+    <string name="protected_apps_manager_summary">بىخەتەر قۇلۇپ تەرىپىدىن يوشۇرۇپ قويۇلغان ئەپنى باشقۇرۇش</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 گىرادۇس</string>
+    <string name="display_rotation_90_title">90 گىرادۇس</string>
+    <string name="display_rotation_180_title">180 گىرادۇس</string>
+    <string name="display_rotation_270_title">270 گىرادۇس</string>
+    <!-- Weather -->
+    <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">ھەرگىز</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">تىترەت</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

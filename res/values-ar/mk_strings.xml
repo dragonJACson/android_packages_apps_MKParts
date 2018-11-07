@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">إعدادات موكي</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">ارتفاع الزر</string>
-  <string name="navigation_bar_height_48">48dp (الافتراضي)</string>
-  <string name="navigation_bar_height_0">إخفاء</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">سرعة الشبكة</string>
-  <string name="show_network_speed_summary">عرض سرعة الشبكة في شريط الحالة</string>
-  <string name="status_bar_network_traffic_style_disable">معطل</string>
-  <string name="status_bar_network_traffic_style_up">صادرة</string>
-  <string name="status_bar_network_traffic_style_down">الوارده</string>
-  <string name="status_bar_network_traffic_style_all">الصادرة والواردة</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
-  <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">اختصارات بصمات الأصابع</string>
-  <string name="fingerprint_shortcut_not_specified">غير مُحدد</string>
-  <string name="fingerprint_shortcut_ok">تم</string>
-  <string name="fingerprint_shortcut_edit">تعديل</string>
-  <string name="fingerprint_shortcut_delete">حذف</string>
-  <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
+    <!-- Application name -->
+    <string name="mkparts_title">إعدادات موكي</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">ارتفاع الزر</string>
+    <string name="navigation_bar_height_48">48dp (الافتراضي)</string>
+    <string name="navigation_bar_height_0">إخفاء</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">سرعة الشبكة</string>
+    <string name="show_network_speed_summary">عرض سرعة الشبكة في شريط الحالة</string>
+    <string name="status_bar_network_traffic_style_disable">معطل</string>
+    <string name="status_bar_network_traffic_style_up">صادرة</string>
+    <string name="status_bar_network_traffic_style_down">الوارده</string>
+    <string name="status_bar_network_traffic_style_all">الصادرة والواردة</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
+    <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">اختصارات بصمات الأصابع</string>
+    <string name="fingerprint_shortcut_not_specified">غير مُحدد</string>
+    <string name="fingerprint_shortcut_ok">تم</string>
+    <string name="fingerprint_shortcut_edit">تعديل</string>
+    <string name="fingerprint_shortcut_delete">حذف</string>
+    <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
 </resources>

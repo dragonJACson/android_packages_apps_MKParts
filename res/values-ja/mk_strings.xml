@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKeeの設定</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">ボタンの高さ</string>
-  <string name="navigation_bar_height_48">48dp (デフォルト)</string>
-  <string name="navigation_bar_height_0">非表示</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">ネットワーク速度</string>
-  <string name="show_network_speed_summary">ステータスバーにネットワーク速度を表示する</string>
-  <string name="status_bar_network_traffic_style_disable">無効</string>
-  <string name="status_bar_network_traffic_style_up">発信</string>
-  <string name="status_bar_network_traffic_style_down">着信</string>
-  <string name="status_bar_network_traffic_style_all">発信と着信</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">電源ボタンを長押しでライト点灯</string>
-  <string name="torch_long_press_power_gesture_desc">画面オフ時に電源ボタンを長押しすることでライトを点灯させます</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">指紋認証のショートカット</string>
-  <string name="fingerprint_shortcut_not_specified">指定なし</string>
-  <string name="fingerprint_shortcut_ok">はい</string>
-  <string name="fingerprint_shortcut_edit">編集</string>
-  <string name="fingerprint_shortcut_delete">削除</string>
-  <string name="fingerprint_shortcut_editer">指紋認証のショートカットを設定</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKeeの設定</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">ボタンの高さ</string>
+    <string name="navigation_bar_height_48">48dp (デフォルト)</string>
+    <string name="navigation_bar_height_0">非表示</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">ネットワーク速度</string>
+    <string name="show_network_speed_summary">ステータスバーにネットワーク速度を表示する</string>
+    <string name="status_bar_network_traffic_style_disable">無効</string>
+    <string name="status_bar_network_traffic_style_up">発信</string>
+    <string name="status_bar_network_traffic_style_down">着信</string>
+    <string name="status_bar_network_traffic_style_all">発信と着信</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">電源ボタンを長押しでライト点灯</string>
+    <string name="torch_long_press_power_gesture_desc">画面オフ時に電源ボタンを長押しすることでライトを点灯させます</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">指紋認証のショートカット</string>
+    <string name="fingerprint_shortcut_not_specified">指定なし</string>
+    <string name="fingerprint_shortcut_ok">はい</string>
+    <string name="fingerprint_shortcut_edit">編集</string>
+    <string name="fingerprint_shortcut_delete">削除</string>
+    <string name="fingerprint_shortcut_editer">指紋認証のショートカットを設定</string>
 </resources>

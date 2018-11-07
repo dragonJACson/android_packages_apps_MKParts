@@ -16,26 +16,26 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Налаштування MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Висота клавіші</string>
-  <string name="navigation_bar_height_48">48dp (за замовчуванням)</string>
-  <string name="navigation_bar_height_0">приховати</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Швидкість мережі</string>
-  <string name="show_network_speed_summary">Показувати швидкість з\'єднання у рядку стану</string>
-  <string name="status_bar_network_traffic_style_disable">Вимкнено</string>
-  <string name="status_bar_network_traffic_style_up">Вихідний</string>
-  <string name="status_bar_network_traffic_style_down">Вхідний</string>
-  <string name="status_bar_network_traffic_style_all">Вихідний та вхідний</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Довге натискання кнопки живлення для увімкнення ліхтарика</string>
-  <string name="torch_long_press_power_gesture_desc">Увімкніть ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Ярлик відбитків пальців</string>
-  <string name="fingerprint_shortcut_not_specified">Не визначено</string>
-  <string name="fingerprint_shortcut_ok">ОК</string>
-  <string name="fingerprint_shortcut_edit">Редагувати</string>
-  <string name="fingerprint_shortcut_delete">Видалити</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Налаштування MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Висота клавіші</string>
+    <string name="navigation_bar_height_48">48dp (за замовчуванням)</string>
+    <string name="navigation_bar_height_0">приховати</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Швидкість мережі</string>
+    <string name="show_network_speed_summary">Показувати швидкість з\'єднання у рядку стану</string>
+    <string name="status_bar_network_traffic_style_disable">Вимкнено</string>
+    <string name="status_bar_network_traffic_style_up">Вихідний</string>
+    <string name="status_bar_network_traffic_style_down">Вхідний</string>
+    <string name="status_bar_network_traffic_style_all">Вихідний та вхідний</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Довге натискання кнопки живлення для увімкнення ліхтарика</string>
+    <string name="torch_long_press_power_gesture_desc">Увімкніть ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Ярлик відбитків пальців</string>
+    <string name="fingerprint_shortcut_not_specified">Не визначено</string>
+    <string name="fingerprint_shortcut_ok">ОК</string>
+    <string name="fingerprint_shortcut_edit">Редагувати</string>
+    <string name="fingerprint_shortcut_delete">Видалити</string>
 </resources>

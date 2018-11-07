@@ -17,143 +17,144 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">Учитавам\u2026</string>
-  <string name="dlg_ok">ОК</string>
-  <string name="cancel">Поништи</string>
-  <string name="add">Додај</string>
-  <string name="reset">Поново постави</string>
-  <string name="name">Име: </string>
-  <string name="back">Назад</string>
-  <string name="next">Следеће</string>
-  <string name="on">Укључено</string>
-  <string name="off">Искључене</string>
-  <string name="yes">Да</string>
-  <string name="no">Не</string>
-  <string name="disabled">Онемогућено</string>
-  <string name="enabled">Omogućeno</string>
-  <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">Приватност</string>
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">Помоћ</string>
-  <string name="privacy_guard_reset_title">Поново постави</string>
-  <string name="privacy_guard_manager_show_system_apps">Прикажи уграђене апликације</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">Нормално</string>
-  <string name="custom_time">Прилагођено</string>
-  <string name="dialog_delete_title">Избриши</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">Нормално</string>
-  <string name="pulse_speed_fast">Брзо</string>
-  <string name="pulse_speed_normal">Нормално</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_general_title">Опште</string>
-  <string name="notification_light_phonelist_title">Телефон</string>
-  <string name="notification_light_default_value">Подразумевано</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">Топлота боје</string>
-  <string name="live_display_day">Дан</string>
-  <string name="live_display_night">Ноћ</string>
-  <string name="live_display_color_profile_standard_title">65% (нормално)</string>
-  <string name="color_red_title">Црвена</string>
-  <string name="color_green_title">Зелена</string>
-  <string name="color_blue_title">Плава</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">Нијанса</string>
-  <string name="adj_saturation_title">Засићење</string>
-  <string name="adj_contrast_title">Контраст</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">Дугме менија</string>
-  <string name="hardware_keys_action_launch_camera">Покрени камеру</string>
-  <string name="camera_launch_title">Покрени камеру</string>
-  <string name="volbtn_cursor_control_off">Онемогућено</string>
-  <string name="volume_answer_call_title">Одговори на позив</string>
-  <string name="home_answer_call_title">Одговори на позив</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">Позадинско осветљење</string>
-  <string name="backlight_summary_disabled">Онемогућено</string>
-  <string name="backlight_summary_enabled">Omogućeno</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">Снимак екрана</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">Никада</string>
-  <string name="torch_long_press_power_timeout_1min">1 минут</string>
-  <string name="torch_long_press_power_timeout_2min">2 минута</string>
-  <string name="torch_long_press_power_timeout_5min">5 минута</string>
-  <string name="torch_long_press_power_timeout_10min">10 минута</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">Избриши</string>
-  <string name="profile_tabs_bluetooth">Блутут</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profiles_add">Додај</string>
-  <string name="profile_menu_delete">Избриши</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">Укључено</string>
-  <string name="profile_entries_off">Искључене</string>
-  <!-- Add Profile -->
-  <string name="profile_name_title">Име: </string>
-  <!-- Rename Dialog  -->
-  <string name="rename_dialog_title">Преименуј</string>
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">Поново постави</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="connection_state_enabled">Омогућено</string>
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <string name="profile_appgroup_name_title">Име: </string>
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleBluetooth">Блутут</string>
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">Нормално</string>
-  <string name="ring_mode_vibrate">Вибрација</string>
-  <string name="ring_mode_mute">Искључи звук</string>
-  <string name="media_volume_title">Медија</string>
-  <!-- Status bar -->
-  <string name="status_bar_quick_qs_pulldown_off">Искључене</string>
-  <string name="status_bar_double_tap_to_sleep_title">Дупли-додир за спавање</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Двапут додирни статусну траку да искључиш дисплеј</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">Нормално</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">Текст</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">Осветљеност</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Заштићене апликације</string>
-  <string name="protected_apps_manager_summary">Управљај која је апликација сакривена иза сигурносног закључавања</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Доприносиоци</string>
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 степени</string>
-  <string name="display_rotation_90_title">90 степени</string>
-  <string name="display_rotation_180_title">180 степени</string>
-  <string name="display_rotation_270_title">270 степени</string>
-  <!-- Weather -->
-  <string name="weather_settings_general_settings_title">Опште</string>
-  <string name="status_bar_show_weather_title">Прикажи време</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">Никада</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_enabled_title">Омогућено</string>
-  <string name="power_notifications_vibrate_title">Вибрација</string>
-  <string name="charging_sounds_ringtone_silent">Тишина</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <string name="touchscreen_gestures_haptic_feedback_title">Повратне информације</string>
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">Учитавам\u2026</string>
+    <string name="dlg_ok">ОК</string>
+    <string name="cancel">Поништи</string>
+    <string name="add">Додај</string>
+    <string name="reset">Поново постави</string>
+    <string name="name">Име:</string>
+    <string name="back">Назад</string>
+    <string name="next">Следеће</string>
+    <string name="on">Укључено</string>
+    <string name="off">Искључене</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="search">Претражи</string>
+    <string name="disabled">Онемогућено</string>
+    <string name="enabled">Omogućeno</string>
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">Приватност</string>
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">Помоћ</string>
+    <string name="privacy_guard_reset_title">Поново постави</string>
+    <string name="privacy_guard_manager_show_system_apps">Прикажи уграђене апликације</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">Нормално</string>
+    <string name="custom_time">Прилагођено</string>
+    <string name="dialog_delete_title">Избриши</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">Нормално</string>
+    <string name="pulse_speed_fast">Брзо</string>
+    <string name="pulse_speed_normal">Нормално</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_general_title">Опште</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
+    <string name="notification_light_default_value">Подразумевано</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">Топлота боје</string>
+    <string name="live_display_day">Дан</string>
+    <string name="live_display_night">Ноћ</string>
+    <string name="live_display_color_profile_standard_title">65% (нормално)</string>
+    <string name="color_red_title">Црвена</string>
+    <string name="color_green_title">Зелена</string>
+    <string name="color_blue_title">Плава</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">Нијанса</string>
+    <string name="adj_saturation_title">Засићење</string>
+    <string name="adj_contrast_title">Контраст</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">Дугме менија</string>
+    <string name="hardware_keys_action_launch_camera">Покрени камеру</string>
+    <string name="camera_launch_title">Покрени камеру</string>
+    <string name="volbtn_cursor_control_off">Онемогућено</string>
+    <string name="volume_answer_call_title">Одговори на позив</string>
+    <string name="home_answer_call_title">Одговори на позив</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Позадинско осветљење</string>
+    <string name="backlight_summary_disabled">Онемогућено</string>
+    <string name="backlight_summary_enabled">Omogućeno</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">Снимак екрана</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">Никада</string>
+    <string name="torch_long_press_power_timeout_1min">1 минут</string>
+    <string name="torch_long_press_power_timeout_2min">2 минута</string>
+    <string name="torch_long_press_power_timeout_5min">5 минута</string>
+    <string name="torch_long_press_power_timeout_10min">10 минута</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">Избриши</string>
+    <string name="profile_tabs_bluetooth">Блутут</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profiles_add">Додај</string>
+    <string name="profile_menu_delete">Избриши</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">Укључено</string>
+    <string name="profile_entries_off">Искључене</string>
+    <!-- Add Profile -->
+    <string name="profile_name_title">Име:</string>
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">Преименуј</string>
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Поново постави</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="connection_state_enabled">Омогућено</string>
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroup_name_title">Име:</string>
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleBluetooth">Блутут</string>
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">Нормално</string>
+    <string name="ring_mode_vibrate">Вибрација</string>
+    <string name="ring_mode_mute">Искључи звук</string>
+    <string name="media_volume_title">Медија</string>
+    <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">Искључене</string>
+    <string name="status_bar_double_tap_to_sleep_title">Дупли-додир за спавање</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Двапут додирни статусну траку да искључиш дисплеј</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">Нормално</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">Текст</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Осветљеност</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">Заштићене апликације</string>
+    <string name="protected_apps_manager_summary">Управљај која је апликација сакривена иза сигурносног закључавања</string>
+    <!-- Contributors cloud activity -->
+    <string name="contributors_cloud_fragment_title">Доприносиоци</string>
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 степени</string>
+    <string name="display_rotation_90_title">90 степени</string>
+    <string name="display_rotation_180_title">180 степени</string>
+    <string name="display_rotation_270_title">270 степени</string>
+    <!-- Weather -->
+    <string name="weather_settings_general_settings_title">Опште</string>
+    <string name="status_bar_show_weather_title">Прикажи време</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">Никада</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">Омогућено</string>
+    <string name="power_notifications_vibrate_title">Вибрација</string>
+    <string name="charging_sounds_ringtone_silent">Тишина</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gestures_haptic_feedback_title">Повратне информације</string>
+    <!-- Gesture: Stylus gestures -->
 </resources>

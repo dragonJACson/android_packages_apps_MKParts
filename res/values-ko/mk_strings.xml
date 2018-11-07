@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee 설정</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">버튼 높이</string>
-  <string name="navigation_bar_height_48">48dp (디폴트)</string>
-  <string name="navigation_bar_height_0">숨기기</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">네트워크 속도</string>
-  <string name="show_network_speed_summary">상단바에 네트워크 속도 표시</string>
-  <string name="status_bar_network_traffic_style_disable">사용안함</string>
-  <string name="status_bar_network_traffic_style_up">발신</string>
-  <string name="status_bar_network_traffic_style_down">수신</string>
-  <string name="status_bar_network_traffic_style_all">발신 및 수신</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">전원 버튼을 길게 눌러 손전등 사용</string>
-  <string name="torch_long_press_power_gesture_desc">화면이 꺼져 있을 때 전원 버튼을 길게 눌러 손전등 켜기 활성화</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">지문 인식 바로가기</string>
-  <string name="fingerprint_shortcut_not_specified">지정되지 않음</string>
-  <string name="fingerprint_shortcut_ok">확인</string>
-  <string name="fingerprint_shortcut_edit">편집</string>
-  <string name="fingerprint_shortcut_delete">삭제</string>
-  <string name="fingerprint_shortcut_editer">지문인식 바로가기 설정</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee 설정</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">버튼 높이</string>
+    <string name="navigation_bar_height_48">48dp (디폴트)</string>
+    <string name="navigation_bar_height_0">숨기기</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">네트워크 속도</string>
+    <string name="show_network_speed_summary">상단바에 네트워크 속도 표시</string>
+    <string name="status_bar_network_traffic_style_disable">사용안함</string>
+    <string name="status_bar_network_traffic_style_up">발신</string>
+    <string name="status_bar_network_traffic_style_down">수신</string>
+    <string name="status_bar_network_traffic_style_all">발신 및 수신</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">전원 버튼을 길게 눌러 손전등 사용</string>
+    <string name="torch_long_press_power_gesture_desc">화면이 꺼져 있을 때 전원 버튼을 길게 눌러 손전등 켜기 활성화</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">지문 인식 바로가기</string>
+    <string name="fingerprint_shortcut_not_specified">지정되지 않음</string>
+    <string name="fingerprint_shortcut_ok">확인</string>
+    <string name="fingerprint_shortcut_edit">편집</string>
+    <string name="fingerprint_shortcut_delete">삭제</string>
+    <string name="fingerprint_shortcut_editer">지문인식 바로가기 설정</string>
 </resources>

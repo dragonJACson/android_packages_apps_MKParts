@@ -17,160 +17,160 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">Φόρτωση\u2026</string>
-  <string name="dlg_ok">ΟΚ</string>
-  <string name="cancel">Ακύρωση</string>
-  <string name="add">Προσθήκη</string>
-  <string name="choose_app">Επιλογή εφαρμογής</string>
-  <string name="reset">Επαναφορά</string>
-  <string name="advanced">Για προχωρημένους</string>
-  <string name="settings">Ρυθμίσεις</string>
-  <string name="name">Όνομα: </string>
-  <string name="back">Πίσω</string>
-  <string name="finish">Τέλος</string>
-  <string name="next">Επόμενο</string>
-  <string name="on">Ενεργοποιημ.</string>
-  <string name="off">ανενεργό</string>
-  <string name="yes">Ναι</string>
-  <string name="no">Όχι</string>
-  <string name="search">Αναζήτηση</string>
-  <string name="disabled">Απενεργοποιημένο</string>
-  <string name="enabled">Ενεργοποιημένο</string>
-  <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">Ιδιωτικότητα</string>
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_manager_summary">Επιλέξτε ποιές εφαρμογές έχουν πρόσβαση στα προσωπικά σας δεδομένα</string>
-  <string name="privacy_guard_help_title">Βοήθεια</string>
-  <string name="privacy_guard_reset_title">Επαναφορά</string>
-  <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
-  <string name="privacy_guard_advanced_settings_title">Για προχωρημένους</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">Κανονική</string>
-  <string name="custom_time">Προσαρμοσμένο</string>
-  <string name="dialog_delete_title">Διαγραφή</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">Κανονική</string>
-  <string name="pulse_speed_fast">Γρήγορα</string>
-  <string name="pulse_speed_normal">Κανονική</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_general_title">Γενικά</string>
-  <string name="notification_light_advanced_title">Για προχωρημένους</string>
-  <string name="notification_light_phonelist_title">Τηλέφωνο</string>
-  <string name="notification_light_default_value">Προεπιλογή</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">Θερμοκρασία χρώματος</string>
-  <string name="live_display_day">Μέρα</string>
-  <string name="live_display_night">Νύχτα</string>
-  <string name="live_display_color_profile_standard_title">65% (κανονική)</string>
-  <string name="color_red_title">Κόκκινο</string>
-  <string name="color_green_title">Πράσινο</string>
-  <string name="color_blue_title">Μπλε</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">Απόχρωση</string>
-  <string name="adj_saturation_title">Κορεσμός</string>
-  <string name="adj_contrast_title">Αντίθεση</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">Κουμπί μενού</string>
-  <string name="hardware_keys_action_launch_camera">Εκκίνηση κάμερας</string>
-  <string name="camera_launch_title">Εκκίνηση φωτογρ. μηχανής</string>
-  <string name="volbtn_cursor_control_off">Απενεργοποιημένο</string>
-  <string name="volume_answer_call_title">Απάντηση κλήσης</string>
-  <string name="home_answer_call_title">Απάντηση κλήσης</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">Οπίσθιος φωτισμός</string>
-  <string name="backlight_summary_disabled">Απενεργοποιημένο</string>
-  <string name="backlight_summary_enabled">Ενεργοποιημένος</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">Στιγμιότυπο οθόνης</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">Ποτέ</string>
-  <string name="torch_long_press_power_timeout_1min">1 λεπτό</string>
-  <string name="torch_long_press_power_timeout_2min">2 λεπτά</string>
-  <string name="torch_long_press_power_timeout_5min">5 λεπτά</string>
-  <string name="torch_long_press_power_timeout_10min">10 λεπτά</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">Διαγραφή</string>
-  <string name="profile_tabs_bluetooth">Bluetooth</string>
-  <string name="profile_tabs_nfc">NFC</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profiles_add">Προσθήκη</string>
-  <string name="profile_menu_delete">Διαγραφή</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">Ενεργοποιημ.</string>
-  <string name="profile_entries_off">ανενεργό</string>
-  <!-- Add Profile -->
-  <string name="profile_name_title">Όνομα: </string>
-  <!-- Rename Dialog  -->
-  <string name="rename_dialog_title">Μετονομασία</string>
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">Επαναφορά</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <string name="connection_state_enabled">Ενεργοποίηση</string>
-  <!-- Menu item for managing profiles -->
-  <string name="profile_profiles_manage">Προφίλ</string>
-  <string name="profile_profile_manage">Διαχείριση προφίλ</string>
-  <string name="profile_appgroups_manage">Ομάδες εφαρμογών</string>
-  <string name="profile_appgroup_manage">Διαχείριση ομάδας εφαρμογών</string>
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <string name="profile_appgroups_title">Ομάδες εφαρμογών</string>
-  <string name="profile_appgroup_name_title">Όνομα: </string>
-  <!-- Add application dialog box title -->
-  <string name="profile_choose_app">Επιλογή εφαρμογής</string>
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleBluetooth">Bluetooth</string>
-  <string name="toggleGPS">GPS</string>
-  <string name="toggleNfc">NFC</string>
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">Κανονική</string>
-  <string name="ring_mode_vibrate">Δόνηση</string>
-  <string name="ring_mode_mute">Σίγαση</string>
-  <string name="media_volume_title">Μέσα</string>
-  <!-- Status bar -->
-  <string name="status_bar_quick_qs_pulldown_off">ανενεργό</string>
-  <string name="status_bar_double_tap_to_sleep_title">Διπλό χτύπημα για αναστολή</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Διπλό χτύπημα στη γραμμή κατάστασης για αναστολή της συσκευής</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">Κανονική</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">Κείμενο</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">Φωτεινότητα</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">Προστατευμένες εφαρμογές</string>
-  <string name="protected_apps_manager_summary">Διαχειριστείτε ποιές εφαρμογές θα είναι κρυμμένες πίσω από ένα ασφαλές κλείδωμα</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Συντελεστές</string>
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 μοίρες</string>
-  <string name="display_rotation_90_title">90 μοίρες</string>
-  <string name="display_rotation_180_title">180 μοίρες</string>
-  <string name="display_rotation_270_title">270 μοίρες</string>
-  <!-- Weather -->
-  <string name="weather_settings_general_settings_title">Γενικά</string>
-  <string name="status_bar_show_weather_title">Εμφάνιση καιρού</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">Ποτέ</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="charging_sounds_enabled_title">Ενεργοποίηση</string>
-  <string name="power_notifications_vibrate_title">Δόνηση</string>
-  <string name="charging_sounds_ringtone_silent">Αθόρυβο</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <string name="touchscreen_gestures_haptic_feedback_title">Απτική ανάδραση</string>
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">Φόρτωση\u2026</string>
+    <string name="dlg_ok">ΟΚ</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="add">Προσθήκη</string>
+    <string name="choose_app">Επιλογή εφαρμογής</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="advanced">Για προχωρημένους</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="name">Όνομα:</string>
+    <string name="back">Πίσω</string>
+    <string name="finish">Τέλος</string>
+    <string name="next">Επόμενο</string>
+    <string name="on">Ενεργοποιημ.</string>
+    <string name="off">ανενεργό</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="disabled">Απενεργοποιημένο</string>
+    <string name="enabled">Ενεργοποιημένο</string>
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">Ιδιωτικότητα</string>
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_manager_summary">Επιλέξτε ποιές εφαρμογές έχουν πρόσβαση στα προσωπικά σας δεδομένα</string>
+    <string name="privacy_guard_help_title">Βοήθεια</string>
+    <string name="privacy_guard_reset_title">Επαναφορά</string>
+    <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
+    <string name="privacy_guard_advanced_settings_title">Για προχωρημένους</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">Κανονική</string>
+    <string name="custom_time">Προσαρμοσμένο</string>
+    <string name="dialog_delete_title">Διαγραφή</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">Κανονική</string>
+    <string name="pulse_speed_fast">Γρήγορα</string>
+    <string name="pulse_speed_normal">Κανονική</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_general_title">Γενικά</string>
+    <string name="notification_light_advanced_title">Για προχωρημένους</string>
+    <string name="notification_light_phonelist_title">Τηλέφωνο</string>
+    <string name="notification_light_default_value">Προεπιλογή</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">Θερμοκρασία χρώματος</string>
+    <string name="live_display_day">Μέρα</string>
+    <string name="live_display_night">Νύχτα</string>
+    <string name="live_display_color_profile_standard_title">65% (κανονική)</string>
+    <string name="color_red_title">Κόκκινο</string>
+    <string name="color_green_title">Πράσινο</string>
+    <string name="color_blue_title">Μπλε</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">Απόχρωση</string>
+    <string name="adj_saturation_title">Κορεσμός</string>
+    <string name="adj_contrast_title">Αντίθεση</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">Κουμπί μενού</string>
+    <string name="hardware_keys_action_launch_camera">Εκκίνηση κάμερας</string>
+    <string name="camera_launch_title">Εκκίνηση φωτογρ. μηχανής</string>
+    <string name="volbtn_cursor_control_off">Απενεργοποιημένο</string>
+    <string name="volume_answer_call_title">Απάντηση κλήσης</string>
+    <string name="home_answer_call_title">Απάντηση κλήσης</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Οπίσθιος φωτισμός</string>
+    <string name="backlight_summary_disabled">Απενεργοποιημένο</string>
+    <string name="backlight_summary_enabled">Ενεργοποιημένος</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">Στιγμιότυπο οθόνης</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">Ποτέ</string>
+    <string name="torch_long_press_power_timeout_1min">1 λεπτό</string>
+    <string name="torch_long_press_power_timeout_2min">2 λεπτά</string>
+    <string name="torch_long_press_power_timeout_5min">5 λεπτά</string>
+    <string name="torch_long_press_power_timeout_10min">10 λεπτά</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">Διαγραφή</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_nfc">NFC</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profiles_add">Προσθήκη</string>
+    <string name="profile_menu_delete">Διαγραφή</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">Ενεργοποιημ.</string>
+    <string name="profile_entries_off">ανενεργό</string>
+    <!-- Add Profile -->
+    <string name="profile_name_title">Όνομα:</string>
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">Μετονομασία</string>
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Επαναφορά</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="connection_state_enabled">Ενεργοποίηση</string>
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">Προφίλ</string>
+    <string name="profile_profile_manage">Διαχείριση προφίλ</string>
+    <string name="profile_appgroups_manage">Ομάδες εφαρμογών</string>
+    <string name="profile_appgroup_manage">Διαχείριση ομάδας εφαρμογών</string>
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">Ομάδες εφαρμογών</string>
+    <string name="profile_appgroup_name_title">Όνομα:</string>
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">Επιλογή εφαρμογής</string>
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleNfc">NFC</string>
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">Κανονική</string>
+    <string name="ring_mode_vibrate">Δόνηση</string>
+    <string name="ring_mode_mute">Σίγαση</string>
+    <string name="media_volume_title">Μέσα</string>
+    <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">ανενεργό</string>
+    <string name="status_bar_double_tap_to_sleep_title">Διπλό χτύπημα για αναστολή</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Διπλό χτύπημα στη γραμμή κατάστασης για αναστολή της συσκευής</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">Κανονική</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">Κείμενο</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Φωτεινότητα</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">Προστατευμένες εφαρμογές</string>
+    <string name="protected_apps_manager_summary">Διαχειριστείτε ποιές εφαρμογές θα είναι κρυμμένες πίσω από ένα ασφαλές κλείδωμα</string>
+    <!-- Contributors cloud activity -->
+    <string name="contributors_cloud_fragment_title">Συντελεστές</string>
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 μοίρες</string>
+    <string name="display_rotation_90_title">90 μοίρες</string>
+    <string name="display_rotation_180_title">180 μοίρες</string>
+    <string name="display_rotation_270_title">270 μοίρες</string>
+    <!-- Weather -->
+    <string name="weather_settings_general_settings_title">Γενικά</string>
+    <string name="status_bar_show_weather_title">Εμφάνιση καιρού</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">Ποτέ</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">Ενεργοποίηση</string>
+    <string name="power_notifications_vibrate_title">Δόνηση</string>
+    <string name="charging_sounds_ringtone_silent">Αθόρυβο</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gestures_haptic_feedback_title">Απτική ανάδραση</string>
+    <!-- Gesture: Stylus gestures -->
 </resources>

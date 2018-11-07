@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Nastavenia MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Výška tlačidla</string>
-  <string name="navigation_bar_height_48">48dp (predvolené)</string>
-  <string name="navigation_bar_height_0">skryť</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Rýchlosť siete</string>
-  <string name="show_network_speed_summary">Zobrazovať rýchlosť siete v stavovom riadku</string>
-  <string name="status_bar_network_traffic_style_disable">Nezobrazovať</string>
-  <string name="status_bar_network_traffic_style_up">Odchádzajúce</string>
-  <string name="status_bar_network_traffic_style_down">Prichádzajuce</string>
-  <string name="status_bar_network_traffic_style_all">Odchádzajúce a prichádzajúce</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Zapnutie Baterky dlhým stlačením tlačidla Napájanie</string>
-  <string name="torch_long_press_power_gesture_desc">Keď obrazovka je vypnutá, dlhým zatlačením tlačidla Napájanie zapnete Baterku</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Odkazy odtlačku prsta</string>
-  <string name="fingerprint_shortcut_not_specified">Nešpecifikované</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Upraviť</string>
-  <string name="fingerprint_shortcut_delete">Vymazať</string>
-  <string name="fingerprint_shortcut_editer">Nastaviť odkaz odtlačku prsta</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Nastavenia MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Výška tlačidla</string>
+    <string name="navigation_bar_height_48">48dp (predvolené)</string>
+    <string name="navigation_bar_height_0">skryť</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Rýchlosť siete</string>
+    <string name="show_network_speed_summary">Zobrazovať rýchlosť siete v stavovom riadku</string>
+    <string name="status_bar_network_traffic_style_disable">Nezobrazovať</string>
+    <string name="status_bar_network_traffic_style_up">Odchádzajúce</string>
+    <string name="status_bar_network_traffic_style_down">Prichádzajuce</string>
+    <string name="status_bar_network_traffic_style_all">Odchádzajúce a prichádzajúce</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Zapnutie Baterky dlhým stlačením tlačidla Napájanie</string>
+    <string name="torch_long_press_power_gesture_desc">Keď obrazovka je vypnutá, dlhým zatlačením tlačidla Napájanie zapnete Baterku</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Odkazy odtlačku prsta</string>
+    <string name="fingerprint_shortcut_not_specified">Nešpecifikované</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Upraviť</string>
+    <string name="fingerprint_shortcut_delete">Vymazať</string>
+    <string name="fingerprint_shortcut_editer">Nastaviť odkaz odtlačku prsta</string>
 </resources>

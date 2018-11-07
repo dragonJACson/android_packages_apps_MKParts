@@ -17,80 +17,81 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="reset">पुनःसेट गर्नुहोस्</string>
-  <string name="back">पछाडि</string>
-  <string name="on">खुला</string>
-  <string name="yes">हो</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">मद्दत</string>
-  <string name="privacy_guard_reset_title">पुनःसेट गर्नुहोस्</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">अनुकूलन</string>
-  <string name="dialog_delete_title">मेट्नुहोस्</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">रातो</string>
-  <string name="color_green_title">हरियो</string>
-  <string name="color_blue_title">नीलो</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">रङ्ग</string>
-  <string name="adj_saturation_title">सन्तृप्ति</string>
-  <string name="adj_contrast_title">अन्तर</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">मेनु बटन</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">१ मिनेट</string>
-  <string name="torch_long_press_power_timeout_2min">१२ मिनेट</string>
-  <string name="torch_long_press_power_timeout_5min">५ मिनेट</string>
-  <string name="torch_long_press_power_timeout_10min">१० मिनेट</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">मेट्नुहोस्</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">मेट्नुहोस्</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">खुला</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">पुनःसेट गर्नुहोस्</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_mute">आवाज बन्द गर्नुहोस्</string>
-  <!-- Status bar -->
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">चमक</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">पुनःसेट गर्नुहोस्</string>
+    <string name="back">पछाडि</string>
+    <string name="on">खुला</string>
+    <string name="yes">हो</string>
+    <string name="search">खोज्नुहोस्</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">मद्दत</string>
+    <string name="privacy_guard_reset_title">पुनःसेट गर्नुहोस्</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">अनुकूलन</string>
+    <string name="dialog_delete_title">मेट्नुहोस्</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">रातो</string>
+    <string name="color_green_title">हरियो</string>
+    <string name="color_blue_title">नीलो</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">रङ्ग</string>
+    <string name="adj_saturation_title">सन्तृप्ति</string>
+    <string name="adj_contrast_title">अन्तर</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">मेनु बटन</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">१ मिनेट</string>
+    <string name="torch_long_press_power_timeout_2min">१२ मिनेट</string>
+    <string name="torch_long_press_power_timeout_5min">५ मिनेट</string>
+    <string name="torch_long_press_power_timeout_10min">१० मिनेट</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">मेट्नुहोस्</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">मेट्नुहोस्</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">खुला</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">पुनःसेट गर्नुहोस्</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_mute">आवाज बन्द गर्नुहोस्</string>
+    <!-- Status bar -->
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">चमक</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

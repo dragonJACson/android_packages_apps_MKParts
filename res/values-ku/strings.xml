@@ -17,89 +17,90 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="reset">ڕێکخستنەوە</string>
-  <string name="back">دواوە</string>
-  <string name="next">دواتر</string>
-  <string name="on">هەڵکردن</string>
-  <string name="yes">بەڵێ</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">یارمەتی</string>
-  <string name="privacy_guard_reset_title">ڕێکخستنەوە</string>
-  <string name="privacy_guard_manager_show_system_apps">پیشاندانی به‌رنامه‌-بنیاتنراو</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">تایبەت بە خۆ</string>
-  <string name="dialog_delete_title">سڕینه‌وه‌</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">سوور</string>
-  <string name="color_green_title">سەوز</string>
-  <string name="color_blue_title">شین</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">ڕه‌نگ</string>
-  <string name="adj_saturation_title">تێرایی</string>
-  <string name="adj_contrast_title">کۆنتراست</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">دوگمەی پێڕست</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">١ خوله‌ک</string>
-  <string name="torch_long_press_power_timeout_2min">٢ خولەک</string>
-  <string name="torch_long_press_power_timeout_5min">٥ خوله‌ک</string>
-  <string name="torch_long_press_power_timeout_10min">١٠ خولەک</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">سڕینه‌وه‌</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">سڕینه‌وه‌</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">هەڵکردن</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">ڕێکخستنەوە</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_vibrate">له‌رینه‌وه‌</string>
-  <string name="ring_mode_mute">کپکردن</string>
-  <string name="media_volume_title">میدیا</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">دوجار-لێدان بۆ خه‌وتن</string>
-  <string name="status_bar_double_tap_to_sleep_summary">دوجار دەستبدە لە شریتی دۆخ بۆ کوژانەوەی پیشاندان</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">ڕۆشنایی</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">بەرنامە پارێزراوەکان</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <string name="status_bar_show_weather_title">پیشاندانی کەش و هەوا</string>
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">له‌رینه‌وه‌</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">ڕێکخستنەوە</string>
+    <string name="back">دواوە</string>
+    <string name="next">دواتر</string>
+    <string name="on">هەڵکردن</string>
+    <string name="yes">بەڵێ</string>
+    <string name="search">گه‌ڕان</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">یارمەتی</string>
+    <string name="privacy_guard_reset_title">ڕێکخستنەوە</string>
+    <string name="privacy_guard_manager_show_system_apps">پیشاندانی به‌رنامه‌-بنیاتنراو</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">تایبەت بە خۆ</string>
+    <string name="dialog_delete_title">سڕینه‌وه‌</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">سوور</string>
+    <string name="color_green_title">سەوز</string>
+    <string name="color_blue_title">شین</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">ڕه‌نگ</string>
+    <string name="adj_saturation_title">تێرایی</string>
+    <string name="adj_contrast_title">کۆنتراست</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">دوگمەی پێڕست</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">١ خوله‌ک</string>
+    <string name="torch_long_press_power_timeout_2min">٢ خولەک</string>
+    <string name="torch_long_press_power_timeout_5min">٥ خوله‌ک</string>
+    <string name="torch_long_press_power_timeout_10min">١٠ خولەک</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">سڕینه‌وه‌</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">سڕینه‌وه‌</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">هەڵکردن</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">ڕێکخستنەوە</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_vibrate">له‌رینه‌وه‌</string>
+    <string name="ring_mode_mute">کپکردن</string>
+    <string name="media_volume_title">میدیا</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">دوجار-لێدان بۆ خه‌وتن</string>
+    <string name="status_bar_double_tap_to_sleep_summary">دوجار دەستبدە لە شریتی دۆخ بۆ کوژانەوەی پیشاندان</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">ڕۆشنایی</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">بەرنامە پارێزراوەکان</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <string name="status_bar_show_weather_title">پیشاندانی کەش و هەوا</string>
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">له‌رینه‌وه‌</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee ಸಂಯೋಜನೆಗಳು</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">ಗುಂಡಿ ಎತ್ತರ</string>
-  <string name="navigation_bar_height_48">48dp (ಪೂರ್ವನಿಯೋಜಿತ)</string>
-  <string name="navigation_bar_height_0">ಮರೆಮಾಡಿ</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">ನೆಟ್ವರ್ಕ್ ವೇಗ</string>
-  <string name="show_network_speed_summary">ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ ನೆಟ್ವರ್ಕ್ ವೇಗ ತಿಳಿಸಿ</string>
-  <string name="status_bar_network_traffic_style_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
-  <string name="status_bar_network_traffic_style_up">ಹೊರಹೋಗುವಿಕೆ</string>
-  <string name="status_bar_network_traffic_style_down">ಒಳಬರುವ</string>
-  <string name="status_bar_network_traffic_style_all">ಹೊರಹೋಗುವ ಮತ್ತು ಒಳಬರುವ</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">ಟಾರ್ಚ್ ಗಾಗಿ ಪವರ್ ಗುಂಡಿ ಒತ್ತಿ-ಹಿಡಿಯಿರಿ</string>
-  <string name="torch_long_press_power_gesture_desc">ಟಾರ್ಚ್ ಅನ್ನು ಪರದೆ ಆರಿದಾಗ ಪವರ ಗುಂಡಿಯನ್ನು ತುಂಬ ಹೊತ್ತು ಒತ್ತಿ ಹಿಡಿಯುವುದರೊಂದಿಗೆ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿಗಳು</string>
-  <string name="fingerprint_shortcut_not_specified">ಸೂಚಿಸಿಲ್ಲ</string>
-  <string name="fingerprint_shortcut_ok">ಸರಿ</string>
-  <string name="fingerprint_shortcut_edit">ಪರಿಷ್ಕರಿಸಿ</string>
-  <string name="fingerprint_shortcut_delete">ಅಳಿಸು</string>
-  <string name="fingerprint_shortcut_editer">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿ ಸಂಯೋಜಿಸಿ</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee ಸಂಯೋಜನೆಗಳು</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">ಗುಂಡಿ ಎತ್ತರ</string>
+    <string name="navigation_bar_height_48">48dp (ಪೂರ್ವನಿಯೋಜಿತ)</string>
+    <string name="navigation_bar_height_0">ಮರೆಮಾಡಿ</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">ನೆಟ್ವರ್ಕ್ ವೇಗ</string>
+    <string name="show_network_speed_summary">ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿ ನೆಟ್ವರ್ಕ್ ವೇಗ ತಿಳಿಸಿ</string>
+    <string name="status_bar_network_traffic_style_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="status_bar_network_traffic_style_up">ಹೊರಹೋಗುವಿಕೆ</string>
+    <string name="status_bar_network_traffic_style_down">ಒಳಬರುವ</string>
+    <string name="status_bar_network_traffic_style_all">ಹೊರಹೋಗುವ ಮತ್ತು ಒಳಬರುವ</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">ಟಾರ್ಚ್ ಗಾಗಿ ಪವರ್ ಗುಂಡಿ ಒತ್ತಿ-ಹಿಡಿಯಿರಿ</string>
+    <string name="torch_long_press_power_gesture_desc">ಟಾರ್ಚ್ ಅನ್ನು ಪರದೆ ಆರಿದಾಗ ಪವರ ಗುಂಡಿಯನ್ನು ತುಂಬ ಹೊತ್ತು ಒತ್ತಿ ಹಿಡಿಯುವುದರೊಂದಿಗೆ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿಗಳು</string>
+    <string name="fingerprint_shortcut_not_specified">ಸೂಚಿಸಿಲ್ಲ</string>
+    <string name="fingerprint_shortcut_ok">ಸರಿ</string>
+    <string name="fingerprint_shortcut_edit">ಪರಿಷ್ಕರಿಸಿ</string>
+    <string name="fingerprint_shortcut_delete">ಅಳಿಸು</string>
+    <string name="fingerprint_shortcut_editer">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿ ಸಂಯೋಜಿಸಿ</string>
 </resources>

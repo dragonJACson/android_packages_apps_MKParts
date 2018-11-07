@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Налады MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Вышыня кнопкі</string>
-  <string name="navigation_bar_height_48">48dp (па змаўчанні)</string>
-  <string name="navigation_bar_height_0">схаваць</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Хуткасць сеткі</string>
-  <string name="show_network_speed_summary">Паказваць хуткасць сеткі ў радку стану</string>
-  <string name="status_bar_network_traffic_style_disable">Выключана</string>
-  <string name="status_bar_network_traffic_style_up">Выходныя</string>
-  <string name="status_bar_network_traffic_style_down">Уваходныя</string>
-  <string name="status_bar_network_traffic_style_all">Выходныя i ўваходныя</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Утрыманне кнопкі сілкавання для уключэння ліхтарыка</string>
-  <string name="torch_long_press_power_gesture_desc">Уключыце ліхтарык доўгім націскам кнопкі сілкавання, пры выключаным экране</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Цэтлікі адбіткаў пальцаў</string>
-  <string name="fingerprint_shortcut_not_specified">Не вызначана</string>
-  <string name="fingerprint_shortcut_ok">ОК</string>
-  <string name="fingerprint_shortcut_edit">Рэдагаваць</string>
-  <string name="fingerprint_shortcut_delete">Выдаліць</string>
-  <string name="fingerprint_shortcut_editer">Усталяваць цэтлік адбітка пальца</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Налады MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Вышыня кнопкі</string>
+    <string name="navigation_bar_height_48">48dp (па змаўчанні)</string>
+    <string name="navigation_bar_height_0">схаваць</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Хуткасць сеткі</string>
+    <string name="show_network_speed_summary">Паказваць хуткасць сеткі ў радку стану</string>
+    <string name="status_bar_network_traffic_style_disable">Выключана</string>
+    <string name="status_bar_network_traffic_style_up">Выходныя</string>
+    <string name="status_bar_network_traffic_style_down">Уваходныя</string>
+    <string name="status_bar_network_traffic_style_all">Выходныя i ўваходныя</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Утрыманне кнопкі сілкавання для уключэння ліхтарыка</string>
+    <string name="torch_long_press_power_gesture_desc">Уключыце ліхтарык доўгім націскам кнопкі сілкавання, пры выключаным экране</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Цэтлікі адбіткаў пальцаў</string>
+    <string name="fingerprint_shortcut_not_specified">Не вызначана</string>
+    <string name="fingerprint_shortcut_ok">ОК</string>
+    <string name="fingerprint_shortcut_edit">Рэдагаваць</string>
+    <string name="fingerprint_shortcut_delete">Выдаліць</string>
+    <string name="fingerprint_shortcut_editer">Усталяваць цэтлік адбітка пальца</string>
 </resources>

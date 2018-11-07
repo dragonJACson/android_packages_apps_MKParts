@@ -16,25 +16,25 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee настройки</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Височина на бутона</string>
-  <string name="navigation_bar_height_48">48dp (по подразбиране)</string>
-  <string name="navigation_bar_height_0">скриване</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Мрежова скорост</string>
-  <string name="show_network_speed_summary">Показва скорост на мрежа в лентата на състоянието</string>
-  <string name="status_bar_network_traffic_style_disable">Деактивирано</string>
-  <string name="status_bar_network_traffic_style_up">Изходящ</string>
-  <string name="status_bar_network_traffic_style_down">Входящи</string>
-  <string name="status_bar_network_traffic_style_all">Изходящи и входящи</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Фенерче чрез зъдържане бутона за рестартиране</string>
-  <string name="torch_long_press_power_gesture_desc">Активиране на фенерчето чрез зъдържане бутона за захранване, когато дисплеят е изключен</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_not_specified">Не е зададено</string>
-  <string name="fingerprint_shortcut_ok">ОК</string>
-  <string name="fingerprint_shortcut_edit">Редактиране</string>
-  <string name="fingerprint_shortcut_delete">Изтриване</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee настройки</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Височина на бутона</string>
+    <string name="navigation_bar_height_48">48dp (по подразбиране)</string>
+    <string name="navigation_bar_height_0">скриване</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Мрежова скорост</string>
+    <string name="show_network_speed_summary">Показва скорост на мрежа в лентата на състоянието</string>
+    <string name="status_bar_network_traffic_style_disable">Деактивирано</string>
+    <string name="status_bar_network_traffic_style_up">Изходящ</string>
+    <string name="status_bar_network_traffic_style_down">Входящи</string>
+    <string name="status_bar_network_traffic_style_all">Изходящи и входящи</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Фенерче чрез зъдържане бутона за рестартиране</string>
+    <string name="torch_long_press_power_gesture_desc">Активиране на фенерчето чрез зъдържане бутона за захранване, когато дисплеят е изключен</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_not_specified">Не е зададено</string>
+    <string name="fingerprint_shortcut_ok">ОК</string>
+    <string name="fingerprint_shortcut_edit">Редактиране</string>
+    <string name="fingerprint_shortcut_delete">Изтриване</string>
 </resources>

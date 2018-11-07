@@ -17,118 +17,118 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="dlg_ok">ตกลง</string>
-  <string name="cancel">ยกเลิก</string>
-  <string name="reset">รีเซ็ต</string>
-  <string name="back">กลับ</string>
-  <string name="next">ถัดไป</string>
-  <string name="on">เปิด</string>
-  <string name="yes">ใช่</string>
-  <string name="search">ค้นหา</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">ความช่วยเหลือ</string>
-  <string name="privacy_guard_reset_title">รีเซ็ต</string>
-  <string name="privacy_guard_manager_show_system_apps">แสดงแอประบบ</string>
-  <!-- Notification light dialogs -->
-  <string name="default_time">ปกติ</string>
-  <string name="custom_time">กำหนดเอง</string>
-  <string name="dialog_delete_title">ลบ</string>
-  <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_normal">ปกติ</string>
-  <string name="pulse_speed_normal">ปกติ</string>
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_phonelist_title">โทรศัพท์</string>
-  <string name="notification_light_default_value">ค่าเริ่มต้น</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="live_display_color_temperature_title">อุณหภูมิสี</string>
-  <string name="color_red_title">แดง</string>
-  <string name="color_green_title">เขียว</string>
-  <string name="color_blue_title">น้ำเงิน</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">สี</string>
-  <string name="adj_saturation_title">ความชัดเจน</string>
-  <string name="adj_contrast_title">ความเปรียบต่าง</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">ปุ่มเมนู</string>
-  <string name="hardware_keys_action_launch_camera">เปิดกล้อง</string>
-  <string name="camera_launch_title">เปิดกล้อง</string>
-  <!-- Key backlight -->
-  <string name="button_backlight_title">แสงไฟ</string>
-  <string name="backlight_summary_disabled">ปิดการใช้งาน</string>
-  <string name="backlight_summary_enabled">เปิดใช้งาน</string>
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">ถ่ายภาพหน้าจอ</string>
-  <string name="power_menu_airplane_title">โหมดเครื่องบิน</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">1 นาที</string>
-  <string name="torch_long_press_power_timeout_2min">2 นาที</string>
-  <string name="torch_long_press_power_timeout_5min">5 นาที</string>
-  <string name="torch_long_press_power_timeout_10min">10 นาที</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">ลบ</string>
-  <string name="profile_tabs_nfc">NFC</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profiles_add">เพิ่ม</string>
-  <string name="profile_menu_delete">ลบ</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">เปิด</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">รีเซ็ต</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <string name="profile_airplanemode_title">โหมดเครื่องบิน</string>
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleGPS">GPS</string>
-  <string name="toggleNfc">NFC</string>
-  <!-- Sound settings screen -->
-  <string name="ring_mode_normal">ปกติ</string>
-  <string name="ring_mode_vibrate">สั่น</string>
-  <string name="ring_mode_mute">ปิดเสียง</string>
-  <string name="media_volume_title">สื่อ</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">แตะสองครั้งเพื่อปิดจอ</string>
-  <string name="status_bar_double_tap_to_sleep_summary">แตะสองครั้งที่แถบสถานะเพื่อปิดหน้าจอ</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <string name="status_bar_am_pm_normal">ปกติ</string>
-  <!-- Status bar - Battery -->
-  <string name="status_bar_battery_style_text">ข้อความ</string>
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">ความสว่าง</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">แอปที่ได้รับการปกป้อง</string>
-  <string name="protected_apps_manager_summary">จัดการว่าแอปใดที่จะซ่อนไว้ด้านหลังล็อคที่ปลอดภัย</string>
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <string name="display_rotation_0_title">0 องศา</string>
-  <string name="display_rotation_90_title">90 องศา</string>
-  <string name="display_rotation_180_title">180 องศา</string>
-  <string name="display_rotation_270_title">270 องศา</string>
-  <!-- Weather -->
-  <string name="status_bar_show_weather_title">แสดงสภาพอากาศ</string>
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">สั่น</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="dlg_ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="back">กลับ</string>
+    <string name="next">ถัดไป</string>
+    <string name="on">เปิด</string>
+    <string name="yes">ใช่</string>
+    <string name="search">ค้นหา</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">ความช่วยเหลือ</string>
+    <string name="privacy_guard_reset_title">รีเซ็ต</string>
+    <string name="privacy_guard_manager_show_system_apps">แสดงแอประบบ</string>
+    <!-- Notification light dialogs -->
+    <string name="default_time">ปกติ</string>
+    <string name="custom_time">กำหนดเอง</string>
+    <string name="dialog_delete_title">ลบ</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_normal">ปกติ</string>
+    <string name="pulse_speed_normal">ปกติ</string>
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_phonelist_title">โทรศัพท์</string>
+    <string name="notification_light_default_value">ค่าเริ่มต้น</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="live_display_color_temperature_title">อุณหภูมิสี</string>
+    <string name="color_red_title">แดง</string>
+    <string name="color_green_title">เขียว</string>
+    <string name="color_blue_title">น้ำเงิน</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">สี</string>
+    <string name="adj_saturation_title">ความชัดเจน</string>
+    <string name="adj_contrast_title">ความเปรียบต่าง</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">ปุ่มเมนู</string>
+    <string name="hardware_keys_action_launch_camera">เปิดกล้อง</string>
+    <string name="camera_launch_title">เปิดกล้อง</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">แสงไฟ</string>
+    <string name="backlight_summary_disabled">ปิดการใช้งาน</string>
+    <string name="backlight_summary_enabled">เปิดใช้งาน</string>
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">ถ่ายภาพหน้าจอ</string>
+    <string name="power_menu_airplane_title">โหมดเครื่องบิน</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">1 นาที</string>
+    <string name="torch_long_press_power_timeout_2min">2 นาที</string>
+    <string name="torch_long_press_power_timeout_5min">5 นาที</string>
+    <string name="torch_long_press_power_timeout_10min">10 นาที</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">ลบ</string>
+    <string name="profile_tabs_nfc">NFC</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profiles_add">เพิ่ม</string>
+    <string name="profile_menu_delete">ลบ</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">เปิด</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">รีเซ็ต</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <string name="profile_airplanemode_title">โหมดเครื่องบิน</string>
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleNfc">NFC</string>
+    <!-- Sound settings screen -->
+    <string name="ring_mode_normal">ปกติ</string>
+    <string name="ring_mode_vibrate">สั่น</string>
+    <string name="ring_mode_mute">ปิดเสียง</string>
+    <string name="media_volume_title">สื่อ</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">แตะสองครั้งเพื่อปิดจอ</string>
+    <string name="status_bar_double_tap_to_sleep_summary">แตะสองครั้งที่แถบสถานะเพื่อปิดหน้าจอ</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <string name="status_bar_am_pm_normal">ปกติ</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_text">ข้อความ</string>
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">ความสว่าง</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">แอปที่ได้รับการปกป้อง</string>
+    <string name="protected_apps_manager_summary">จัดการว่าแอปใดที่จะซ่อนไว้ด้านหลังล็อคที่ปลอดภัย</string>
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_0_title">0 องศา</string>
+    <string name="display_rotation_90_title">90 องศา</string>
+    <string name="display_rotation_180_title">180 องศา</string>
+    <string name="display_rotation_270_title">270 องศา</string>
+    <!-- Weather -->
+    <string name="status_bar_show_weather_title">แสดงสภาพอากาศ</string>
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">สั่น</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

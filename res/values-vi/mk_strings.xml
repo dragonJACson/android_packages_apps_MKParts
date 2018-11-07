@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Cài đặt MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Chiều cao nút</string>
-  <string name="navigation_bar_height_48">48dp (mặc định)</string>
-  <string name="navigation_bar_height_0">ẩn</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Tốc độ mạng</string>
-  <string name="show_network_speed_summary">Hiển thị tốc độ kết nối</string>
-  <string name="status_bar_network_traffic_style_disable">Đã tắt</string>
-  <string name="status_bar_network_traffic_style_up">Tải lên</string>
-  <string name="status_bar_network_traffic_style_down">Tải xuống</string>
-  <string name="status_bar_network_traffic_style_all">Tải lên và tải xuống</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Nhấn giữ nút nguồn để bật đèn pin</string>
-  <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình tắt</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Thiết lập vân tay</string>
-  <string name="fingerprint_shortcut_not_specified">Chưa xác định</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Chỉnh sửa</string>
-  <string name="fingerprint_shortcut_delete">Xóa</string>
-  <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Cài đặt MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Chiều cao nút</string>
+    <string name="navigation_bar_height_48">48dp (mặc định)</string>
+    <string name="navigation_bar_height_0">ẩn</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Tốc độ mạng</string>
+    <string name="show_network_speed_summary">Hiển thị tốc độ kết nối</string>
+    <string name="status_bar_network_traffic_style_disable">Đã tắt</string>
+    <string name="status_bar_network_traffic_style_up">Tải lên</string>
+    <string name="status_bar_network_traffic_style_down">Tải xuống</string>
+    <string name="status_bar_network_traffic_style_all">Tải lên và tải xuống</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Nhấn giữ nút nguồn để bật đèn pin</string>
+    <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình tắt</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Thiết lập vân tay</string>
+    <string name="fingerprint_shortcut_not_specified">Chưa xác định</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Chỉnh sửa</string>
+    <string name="fingerprint_shortcut_delete">Xóa</string>
+    <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
 </resources>

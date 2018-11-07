@@ -17,108 +17,109 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="loading">در حال بارگزاری\u2026</string>
-  <string name="add">اضافه کردن</string>
-  <string name="reset">بازنشانی</string>
-  <string name="settings">تنظیمات</string>
-  <string name="name">نام:</string>
-  <string name="back">برگشت</string>
-  <string name="next">بعدی</string>
-  <string name="on">فعال</string>
-  <string name="yes">بله</string>
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">راهنما</string>
-  <string name="privacy_guard_reset_title">بازنشانی</string>
-  <string name="privacy_guard_manager_show_system_apps">نمایش برنامه‌های اصلی</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">سفارشی</string>
-  <string name="dialog_delete_title">حذف</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_general_title">کلی</string>
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">قرمز</string>
-  <string name="color_green_title">سبز</string>
-  <string name="color_blue_title">آبی</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">رنگ‌مایه</string>
-  <string name="adj_saturation_title">اشباع رنگ</string>
-  <string name="adj_contrast_title">کنتراست</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">دکمه منو</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <string name="power_menu_screenshot_title">اسکرین شات</string>
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_never">هرگز</string>
-  <string name="torch_long_press_power_timeout_1min">۱ دقیقه</string>
-  <string name="torch_long_press_power_timeout_2min">۲ دقیقه</string>
-  <string name="torch_long_press_power_timeout_5min">۵ دقیقه</string>
-  <string name="torch_long_press_power_timeout_10min">۱۰ دقیقه</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">حذف</string>
-  <string name="profile_tabs_bluetooth">بلوث</string>
-  <string name="profile_tabs_nfc">ان‌اف‌سی</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profiles_add">اضافه کردن</string>
-  <string name="profile_menu_delete">حذف</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">فعال</string>
-  <!-- Add Profile -->
-  <string name="profile_name_title">نام:</string>
-  <!-- Rename Dialog  -->
-  <string name="rename_dialog_title">تغییر نام</string>
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">بازنشانی</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <string name="profile_appgroup_name_title">نام:</string>
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <string name="toggleBluetooth">بلوث</string>
-  <string name="toggleGPS">جی‌پی‌اس</string>
-  <string name="toggleNfc">ان‌اف‌سی</string>
-  <!-- Sound settings screen -->
-  <string name="ring_mode_vibrate">لرزش</string>
-  <string name="ring_mode_mute">بی‌صدا</string>
-  <string name="media_volume_title">رسانه</string>
-  <!-- Status bar -->
-  <string name="status_bar_double_tap_to_sleep_title">دو بار ضربه برای به خواب رفتن</string>
-  <string name="status_bar_double_tap_to_sleep_summary">خاموش شدن صفحه با دوبار ضربه زدن روی نوار وضعیت</string>
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">روشنایی</string>
-  <!-- Status bar - icon blacklist -->
-  <!-- Protected apps -->
-  <string name="protected_apps_manager_title">برنامه‌های محافظت شده</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">شرکاء</string>
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <string name="weather_settings_general_settings_title">کلی</string>
-  <string name="status_bar_show_weather_title">نمایش آب و هوا</string>
-  <!-- Power: Performance profiles -->
-  <string name="auto_power_save_never">هرگز</string>
-  <!-- Applications: Expanded desktop -->
-  <!-- Sounds: Charging sounds -->
-  <string name="power_notifications_vibrate_title">لرزش</string>
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
+    <!-- Generic stuff used everywhere -->
+    <string name="loading">در حال بارگزاری\u2026</string>
+    <string name="add">اضافه کردن</string>
+    <string name="reset">بازنشانی</string>
+    <string name="settings">تنظیمات</string>
+    <string name="name">نام:</string>
+    <string name="back">برگشت</string>
+    <string name="next">بعدی</string>
+    <string name="on">فعال</string>
+    <string name="yes">بله</string>
+    <string name="search">جستجو</string>
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">راهنما</string>
+    <string name="privacy_guard_reset_title">بازنشانی</string>
+    <string name="privacy_guard_manager_show_system_apps">نمایش برنامه‌های اصلی</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">سفارشی</string>
+    <string name="dialog_delete_title">حذف</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_general_title">کلی</string>
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">قرمز</string>
+    <string name="color_green_title">سبز</string>
+    <string name="color_blue_title">آبی</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">رنگ‌مایه</string>
+    <string name="adj_saturation_title">اشباع رنگ</string>
+    <string name="adj_contrast_title">کنتراست</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">دکمه منو</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <string name="power_menu_screenshot_title">اسکرین شات</string>
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">هرگز</string>
+    <string name="torch_long_press_power_timeout_1min">۱ دقیقه</string>
+    <string name="torch_long_press_power_timeout_2min">۲ دقیقه</string>
+    <string name="torch_long_press_power_timeout_5min">۵ دقیقه</string>
+    <string name="torch_long_press_power_timeout_10min">۱۰ دقیقه</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">حذف</string>
+    <string name="profile_tabs_bluetooth">بلوث</string>
+    <string name="profile_tabs_nfc">ان‌اف‌سی</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profiles_add">اضافه کردن</string>
+    <string name="profile_menu_delete">حذف</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">فعال</string>
+    <!-- Add Profile -->
+    <string name="profile_name_title">نام:</string>
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">تغییر نام</string>
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">بازنشانی</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroup_name_title">نام:</string>
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleBluetooth">بلوث</string>
+    <string name="toggleGPS">جی‌پی‌اس</string>
+    <string name="toggleNfc">ان‌اف‌سی</string>
+    <!-- Sound settings screen -->
+    <string name="ring_mode_vibrate">لرزش</string>
+    <string name="ring_mode_mute">بی‌صدا</string>
+    <string name="media_volume_title">رسانه</string>
+    <!-- Status bar -->
+    <string name="status_bar_double_tap_to_sleep_title">دو بار ضربه برای به خواب رفتن</string>
+    <string name="status_bar_double_tap_to_sleep_summary">خاموش شدن صفحه با دوبار ضربه زدن روی نوار وضعیت</string>
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">روشنایی</string>
+    <!-- Status bar - icon blacklist -->
+    <!-- Protected apps -->
+    <string name="protected_apps_manager_title">برنامه‌های محافظت شده</string>
+    <!-- Contributors cloud activity -->
+    <string name="contributors_cloud_fragment_title">شرکاء</string>
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <string name="weather_settings_general_settings_title">کلی</string>
+    <string name="status_bar_show_weather_title">نمایش آب و هوا</string>
+    <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">هرگز</string>
+    <!-- Applications: Expanded desktop -->
+    <!-- Sounds: Charging sounds -->
+    <string name="power_notifications_vibrate_title">لرزش</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
 </resources>

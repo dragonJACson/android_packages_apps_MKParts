@@ -16,21 +16,21 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Knaphøjde</string>
-  <string name="navigation_bar_height_48">48dp (standard)</string>
-  <string name="navigation_bar_height_0">skjul</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Netværkshastighed</string>
-  <string name="show_network_speed_summary">Vis netværkshastighed på statusbjælken</string>
-  <string name="status_bar_network_traffic_style_disable">Inaktiv</string>
-  <string name="status_bar_network_traffic_style_up">Udgående</string>
-  <string name="status_bar_network_traffic_style_down">Indgående</string>
-  <string name="status_bar_network_traffic_style_all">Ud- og indgående</string>
-  <!-- Long-press power for torch -->
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Redigér</string>
-  <string name="fingerprint_shortcut_delete">Slet</string>
+    <!-- Application name -->
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Knaphøjde</string>
+    <string name="navigation_bar_height_48">48dp (standard)</string>
+    <string name="navigation_bar_height_0">skjul</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Netværkshastighed</string>
+    <string name="show_network_speed_summary">Vis netværkshastighed på statusbjælken</string>
+    <string name="status_bar_network_traffic_style_disable">Inaktiv</string>
+    <string name="status_bar_network_traffic_style_up">Udgående</string>
+    <string name="status_bar_network_traffic_style_down">Indgående</string>
+    <string name="status_bar_network_traffic_style_all">Ud- og indgående</string>
+    <!-- Long-press power for torch -->
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Redigér</string>
+    <string name="fingerprint_shortcut_delete">Slet</string>
 </resources>

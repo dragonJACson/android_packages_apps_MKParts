@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Configurações MoKee</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Altura do botão</string>
-  <string name="navigation_bar_height_48">48dp (padrão)</string>
-  <string name="navigation_bar_height_0">ocultar</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Velocidade de rede</string>
-  <string name="show_network_speed_summary">Exibir velocidade de rede na barra de status</string>
-  <string name="status_bar_network_traffic_style_disable">Desativado</string>
-  <string name="status_bar_network_traffic_style_up">Enviados</string>
-  <string name="status_bar_network_traffic_style_down">Recebendo</string>
-  <string name="status_bar_network_traffic_style_all">Enviando e recebendo</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
-  <string name="torch_long_press_power_gesture_desc">Ativar a lanterna mantendo pressionando o botão liga/desliga enquanto a tela estiver desligada</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Atalhos de impressão digital</string>
-  <string name="fingerprint_shortcut_not_specified">Não especificado</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Editar</string>
-  <string name="fingerprint_shortcut_delete">Excluir</string>
-  <string name="fingerprint_shortcut_editer">Definir o atalho de impressão digital</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Configurações MoKee</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Altura do botão</string>
+    <string name="navigation_bar_height_48">48dp (padrão)</string>
+    <string name="navigation_bar_height_0">ocultar</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Velocidade de rede</string>
+    <string name="show_network_speed_summary">Exibir velocidade de rede na barra de status</string>
+    <string name="status_bar_network_traffic_style_disable">Desativado</string>
+    <string name="status_bar_network_traffic_style_up">Enviados</string>
+    <string name="status_bar_network_traffic_style_down">Recebendo</string>
+    <string name="status_bar_network_traffic_style_all">Enviando e recebendo</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
+    <string name="torch_long_press_power_gesture_desc">Ativar a lanterna mantendo pressionando o botão liga/desliga enquanto a tela estiver desligada</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Atalhos de impressão digital</string>
+    <string name="fingerprint_shortcut_not_specified">Não especificado</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Editar</string>
+    <string name="fingerprint_shortcut_delete">Excluir</string>
+    <string name="fingerprint_shortcut_editer">Definir o atalho de impressão digital</string>
 </resources>

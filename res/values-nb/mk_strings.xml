@@ -16,16 +16,16 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <!-- Height of navigation bar buttons -->
-  <!-- Show network speed -->
-  <string name="status_bar_network_traffic_style_disable">Deaktivert</string>
-  <string name="status_bar_network_traffic_style_up">Utgående</string>
-  <string name="status_bar_network_traffic_style_down">Innkommende</string>
-  <string name="status_bar_network_traffic_style_all">Utgående og innkommende</string>
-  <!-- Long-press power for torch -->
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Rediger</string>
-  <string name="fingerprint_shortcut_delete">Slett</string>
+    <!-- Application name -->
+    <!-- Height of navigation bar buttons -->
+    <!-- Show network speed -->
+    <string name="status_bar_network_traffic_style_disable">Deaktivert</string>
+    <string name="status_bar_network_traffic_style_up">Utgående</string>
+    <string name="status_bar_network_traffic_style_down">Innkommende</string>
+    <string name="status_bar_network_traffic_style_all">Utgående og innkommende</string>
+    <!-- Long-press power for torch -->
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Rediger</string>
+    <string name="fingerprint_shortcut_delete">Slett</string>
 </resources>

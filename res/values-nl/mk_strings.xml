@@ -16,27 +16,27 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee instellingen</string>
-  <!-- Height of navigation bar buttons -->
-  <string name="navigation_bar_height">Knophoogte</string>
-  <string name="navigation_bar_height_48">48dp (standaard)</string>
-  <string name="navigation_bar_height_0">verbergen</string>
-  <!-- Show network speed -->
-  <string name="show_network_speed_title">Netwerksnelheid</string>
-  <string name="show_network_speed_summary">Netwerksnelheid in statusbalk weergeven</string>
-  <string name="status_bar_network_traffic_style_disable">Uitgeschakeld</string>
-  <string name="status_bar_network_traffic_style_up">Uitgaand</string>
-  <string name="status_bar_network_traffic_style_down">Inkomend</string>
-  <string name="status_bar_network_traffic_style_all">Uitgaand en inkomend</string>
-  <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Aan/uit-knop lang indrukken voor zaklamp</string>
-  <string name="torch_long_press_power_gesture_desc">Zaklamp inschakelen door lang op de aan/uit-knop te drukken als het scherm uit is</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Vingerafdruksnelkoppelingen</string>
-  <string name="fingerprint_shortcut_not_specified">Niet ingesteld</string>
-  <string name="fingerprint_shortcut_ok">Oké</string>
-  <string name="fingerprint_shortcut_edit">Bewerken</string>
-  <string name="fingerprint_shortcut_delete">Verwijderen</string>
-  <string name="fingerprint_shortcut_editer">Vingerafdruksnelkoppeling instellen</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee instellingen</string>
+    <!-- Height of navigation bar buttons -->
+    <string name="navigation_bar_height">Knophoogte</string>
+    <string name="navigation_bar_height_48">48dp (standaard)</string>
+    <string name="navigation_bar_height_0">verbergen</string>
+    <!-- Show network speed -->
+    <string name="show_network_speed_title">Netwerksnelheid</string>
+    <string name="show_network_speed_summary">Netwerksnelheid in statusbalk weergeven</string>
+    <string name="status_bar_network_traffic_style_disable">Uitgeschakeld</string>
+    <string name="status_bar_network_traffic_style_up">Uitgaand</string>
+    <string name="status_bar_network_traffic_style_down">Inkomend</string>
+    <string name="status_bar_network_traffic_style_all">Uitgaand en inkomend</string>
+    <!-- Long-press power for torch -->
+    <string name="torch_long_press_power_gesture_title">Aan/uit-knop lang indrukken voor zaklamp</string>
+    <string name="torch_long_press_power_gesture_desc">Zaklamp inschakelen door lang op de aan/uit-knop te drukken als het scherm uit is</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Vingerafdruksnelkoppelingen</string>
+    <string name="fingerprint_shortcut_not_specified">Niet ingesteld</string>
+    <string name="fingerprint_shortcut_ok">Oké</string>
+    <string name="fingerprint_shortcut_edit">Bewerken</string>
+    <string name="fingerprint_shortcut_delete">Verwijderen</string>
+    <string name="fingerprint_shortcut_editer">Vingerafdruksnelkoppeling instellen</string>
 </resources>
