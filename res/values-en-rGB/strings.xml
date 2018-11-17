@@ -77,6 +77,7 @@
     <!-- Navigation Bar -->
     <!-- Power menu -->
     <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Premi a lungo per catturare parzialmente lo schermo</string>
     <string name="power_menu_airplane_title">Aeroplane mode</string>
     <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="torch_long_press_power_timeout_never">Never</string>
