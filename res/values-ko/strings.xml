@@ -26,7 +26,7 @@
     <string name="reset">초기화</string>
     <string name="advanced">세부설정</string>
     <string name="settings">설정</string>
-    <string name="name">이름:</string>
+    <string name="name">이름: </string>
     <string name="back">돌아가기</string>
     <string name="finish">마무리</string>
     <string name="next">다음</string>
@@ -295,7 +295,7 @@
     <string name="profile_entries_off">끄기</string>
     <string name="profile_entries_no_override">정의하지 않음</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">이름:</string>
+    <string name="profile_name_title">이름: </string>
     <string name="new_profile_name">&lt;새 프로필&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">이름 변경</string>
@@ -343,7 +343,7 @@
     <string name="profile_new_appgroup">새 앱 그룹</string>
     <string name="profile_delete_appgroup">이 앱 그룹을 삭제하시겠습니까?</string>
     <string name="profile_appgroup_name_prompt">새 앱 그룹의 이름을 입력하십시오</string>
-    <string name="profile_appgroup_name_title">이름:</string>
+    <string name="profile_appgroup_name_title">이름: </string>
     <string name="duplicate_appgroup_name">동일한 앱 그룹 이름이 이미 있습니다!</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">어플리케이션을 선택하세요</string>

@@ -36,7 +36,7 @@
     <string name="fingerprint_shortcut_settings_title">Scurtături senzor amprentă</string>
     <string name="fingerprint_shortcut_not_specified">Nespecificat</string>
     <string name="fingerprint_shortcut_ok">OK</string>
-    <string name="fingerprint_shortcut_edit">Editare</string>
+    <string name="fingerprint_shortcut_edit">Editare </string>
     <string name="fingerprint_shortcut_delete">Ștergeţi</string>
     <string name="fingerprint_shortcut_editer">Configurare scurtături senzor amprentă</string>
 </resources>

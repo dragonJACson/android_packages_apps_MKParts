@@ -26,7 +26,7 @@
     <string name="reset">Επαναφορά</string>
     <string name="advanced">Για προχωρημένους</string>
     <string name="settings">Ρυθμίσεις</string>
-    <string name="name">Όνομα:</string>
+    <string name="name">Όνομα: </string>
     <string name="back">Πίσω</string>
     <string name="finish">Τέλος</string>
     <string name="next">Επόμενο</string>
@@ -105,7 +105,7 @@
     <string name="profile_entries_on">Ενεργοποιημ.</string>
     <string name="profile_entries_off">ανενεργό</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Όνομα:</string>
+    <string name="profile_name_title">Όνομα: </string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Μετονομασία</string>
     <!-- Reset Profiles -->
@@ -124,7 +124,7 @@
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <!-- Title for application group setting screen -->
     <string name="profile_appgroups_title">Ομάδες εφαρμογών</string>
-    <string name="profile_appgroup_name_title">Όνομα:</string>
+    <string name="profile_appgroup_name_title">Όνομα: </string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Επιλογή εφαρμογής</string>
     <!-- Profiles - system settings -->

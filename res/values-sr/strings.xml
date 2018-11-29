@@ -23,7 +23,7 @@
     <string name="cancel">Поништи</string>
     <string name="add">Додај</string>
     <string name="reset">Поново постави</string>
-    <string name="name">Име:</string>
+    <string name="name">Име: </string>
     <string name="back">Назад</string>
     <string name="next">Следеће</string>
     <string name="on">Укључено</string>
@@ -97,7 +97,7 @@
     <string name="profile_entries_on">Укључено</string>
     <string name="profile_entries_off">Искључене</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Име:</string>
+    <string name="profile_name_title">Име: </string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Преименуј</string>
     <!-- Reset Profiles -->
@@ -111,7 +111,7 @@
     <!-- Profile Settings sound modes labels -->
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <!-- Title for application group setting screen -->
-    <string name="profile_appgroup_name_title">Име:</string>
+    <string name="profile_appgroup_name_title">Име: </string>
     <!-- Add application dialog box title -->
     <!-- Profiles - system settings -->
     <!-- Connection override toggles (not all are used at this time ) -->

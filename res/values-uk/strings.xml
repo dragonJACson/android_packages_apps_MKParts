@@ -26,7 +26,7 @@
     <string name="reset">Скинути</string>
     <string name="advanced">Розширений</string>
     <string name="settings">Налаштування</string>
-    <string name="name">Ім\'я:</string>
+    <string name="name">Ім\'я: </string>
     <string name="back">Назад</string>
     <string name="finish">Завершити</string>
     <string name="next">Далі</string>
@@ -294,7 +294,7 @@
     <string name="profile_entries_off">Вимкнути</string>
     <string name="profile_entries_no_override">Залишити без змін</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Ім\'я:</string>
+    <string name="profile_name_title">Ім\'я: </string>
     <string name="new_profile_name">&lt;новий профіль&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Перейменувати</string>
@@ -342,7 +342,7 @@
     <string name="profile_new_appgroup">Нова група програм</string>
     <string name="profile_delete_appgroup">Вилучити цю групу програм?</string>
     <string name="profile_appgroup_name_prompt">Введіть назву для нової групи програм</string>
-    <string name="profile_appgroup_name_title">Ім\'я:</string>
+    <string name="profile_appgroup_name_title">Ім\'я: </string>
     <string name="duplicate_appgroup_name">Ім’я групи програм вже існує!</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Вибрати додаток</string>

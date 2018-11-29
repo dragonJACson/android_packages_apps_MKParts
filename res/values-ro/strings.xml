@@ -26,7 +26,7 @@
     <string name="reset">Resetaţi</string>
     <string name="advanced">Avansat</string>
     <string name="settings">Setări</string>
-    <string name="name">Nume:</string>
+    <string name="name">Nume: </string>
     <string name="back">Înapoi</string>
     <string name="finish">Terminare</string>
     <string name="next">Mai departe</string>
@@ -294,7 +294,7 @@
     <string name="profile_entries_off">Oprit</string>
     <string name="profile_entries_no_override">Fără suprascriere</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Nume:</string>
+    <string name="profile_name_title">Nume: </string>
     <string name="new_profile_name">&lt;profil nou&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Redenumiţi</string>
@@ -342,7 +342,7 @@
     <string name="profile_new_appgroup">Grup nou de aplicații</string>
     <string name="profile_delete_appgroup">Ștergeți acest grup de aplicații?</string>
     <string name="profile_appgroup_name_prompt">Introdu un nume pentru noul grup de aplicații</string>
-    <string name="profile_appgroup_name_title">Nume:</string>
+    <string name="profile_appgroup_name_title">Nume: </string>
     <string name="duplicate_appgroup_name">Nume de grup de aplicații duplicat!</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Alege aplicația</string>
