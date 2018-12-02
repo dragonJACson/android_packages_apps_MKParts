@@ -143,7 +143,10 @@
     <string name="live_display_color_profile_srgb_summary">Cores precisas para o espaço de cor sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Cores precisas para o espaço de cor do DCI-P3</string>
+    <string name="live_display_color_profile_adobe_title">Adobe RGB</string>
+    <string name="live_display_color_profile_adobe_summary">Cores precisas para o espaço de cor Adobe RGB</string>
     <string name="live_display_reading_mode_title">Modo de leitura</string>
+    <string name="live_display_reading_mode_summary">Modo em tons de cinzento para leituras por longos períodos</string>
     <string name="color_calibration_title">Calibração de cores</string>
     <string name="color_calibration_summary">Calibra as cores da tela</string>
     <string name="color_red_title">Vermelho</string>
@@ -518,6 +521,8 @@
     <string name="expanded_desktop_style_hide_both">Ocultar ambas</string>
     <string name="expanded_desktop_nothing_to_show_text">Desligue o alternador para personalizar a área de trabalho expandida por aplicativo</string>
     <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Aplicações em ecrã cheio</string>
+    <string name="long_screen_settings_summary">Forçar aplicações antigas a usarem a apresentação em ecrã inteiro</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Notificação de carregamento</string>
     <string name="charging_sounds_enabled_title">Habilitar</string>
@@ -584,18 +589,31 @@
     <string name="style_automagic_dialog_content">Estilo sugerido: <b>%1$s</b> com <b>%2$s</b> como cor de realce.\nDeseja aplicá-lo?</string>
     <string name="style_automagic_dialog_positive">Aplicar</string>
     <string name="style_accent_default_name">Padrão</string>
+    <string name="style_dark_overlay_title">Modo Nocturno</string>
     <string name="style_dark_overlay_default">Padrão</string>
     <string name="style_dark_overlay_black">Preto</string>
     <string name="style_permission_error">É necessária a permissão de acesso ao armazenamento para analisar o seu papel de parede. Por favor, conceda a permissão para usar este recurso.</string>
     <!-- Trust interface -->
+    <string name="trust_category_features">Estado</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_enforcing">Forçado</string>
     <string name="trust_feature_selinux_value_disabled">Desativado</string>
+    <string name="trust_feature_selinux_explain">O SELinux dita que processos têm acesso a que ficheiros/pastas do seu dispositivo.\nIsto evita que aplicações e serviços possam aceder a ficheiros com os quais não é suposto lidarem. Desta forma um processo malicioso terá acesso limitado e assim a sua segurança é preservada.</string>
     <string name="trust_feature_root">Acesso superusuário</string>
     <string name="trust_feature_root_value_disabled">Desativado</string>
     <string name="trust_feature_root_value_adb">Somente ADB</string>
     <string name="trust_feature_root_value_apps">Aplicativos e ADB</string>
+    <string name="trust_feature_root_explain">O acesso root permite que aplicações e serviços escolhidos por si possam ultrapassar restrições de segurança, dando-lhes liberdade para que possam efetuar modificações ao sistema que poderão causar danos no seu dispositivo ou SO.</string>
+    <string name="trust_feature_security_patches">Patch de segurança do Android</string>
+    <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nFabricante: %2$s</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_new">atualizado</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_medium">desatualizado alguns meses</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_old">fora de validade</string>
+    <string name="trust_feature_security_patches_explain">Os patches de segurança são lançados mensalmente pela Google em cooperação com os fabricantes de SoC para corrigirem falhas que possam ser exploradas por aplicações maliciosas a fim de contornarem restrições de segurança e causarem danos permanentes no seu dispositivo. Os patches disponibilizados pela Google são aplicados todos os meses em todos os dispositivos suportados, mas os patches a código proprietário só podem ser aplicados pelo fabricante do seu dispositivo. Para manter o seu dispositivo seguro certifique-se de que a sua compilação MoKee está sempre atualizada e, se aplicável, certifique-se de que a sua imagem do fabricante é atualizada para a mais recente recomendada pela equipa MoKee.</string>
+    <string name="trust_feature_encryption">Encriptação</string>
     <string name="trust_feature_encryption_value_enabled">Ativo</string>
     <string name="trust_feature_encryption_value_disabled">Desativado</string>
     <string name="trust_category_tools">Privacidade</string>

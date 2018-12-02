@@ -452,7 +452,7 @@
     <string name="network_traffic_autohide_summary">Не отображать скорость передачи данных при отсутствии активности</string>
     <string name="network_traffic_units_title">Единицы измерения трафика</string>
     <string name="network_traffic_units_kilobits">Килобит в секунду (кБ/с)</string>
-    <string name="network_traffic_units_megabits">Мегабит в секунду (мБ/с)</string>
+    <string name="network_traffic_units_megabits">Мегабит в секунду (Мбит/с)</string>
     <string name="network_traffic_units_kilobytes">Килобайт в секунду (КБ/с)</string>
     <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
     <string name="network_traffic_show_units">Скорость передачи данных</string>
