@@ -19,11 +19,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic stuff used everywhere -->
+    <string name="loading">ກຳລັງໂຫລດ\u2026</string>
     <string name="reset">ຄືນຄ່າ</string>
     <string name="back">ກັບ</string>
+    <string name="next">ຕໍ່ໄປ</string>
     <string name="on">ເປີດ</string>
+    <string name="off">ປິດ</string>
     <string name="yes">ຕົກລົງ</string>
     <string name="search">ຊອກຫາ</string>
+    <string name="disabled">ປິດໃຊ້ງານ</string>
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <!-- Privacy Settings Header item -->
     <!-- Privacy Guard -->
@@ -36,8 +40,10 @@
     <!-- Common light settings strings -->
     <!-- Battery light settings -->
     <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_default_value">ຄ່າເລີ່ມຕົ້ນ</string>
     <!-- Lights settings, LED notification -->
     <!-- LiveDisplay -->
+    <string name="live_display_night">ກາງຄືນ</string>
     <string name="color_red_title">ແດງ</string>
     <string name="color_green_title">ຂຽວ</string>
     <string name="color_blue_title">ຟ້າ</string>
@@ -47,11 +53,14 @@
     <string name="adj_contrast_title">ຄວາມເຂັ້ມ</string>
     <!-- Button settings -->
     <string name="hardware_keys_menu_key_title">ປຸ່ມເມນູ</string>
+    <string name="volbtn_cursor_control_off">ປິດໃຊ້ງານ</string>
     <!-- Key backlight -->
+    <string name="backlight_summary_disabled">ປິດໃຊ້ງານ</string>
     <!-- Buttons - Enable navbar -->
     <!-- Navigation Bar -->
     <!-- Power menu -->
     <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_never">ບໍ່ເຄີຍ</string>
     <string name="torch_long_press_power_timeout_1min">1 ນາທີ</string>
     <string name="torch_long_press_power_timeout_2min">2 ນາທີ</string>
     <string name="torch_long_press_power_timeout_5min">5 ນາທີ</string>
@@ -63,6 +72,7 @@
     <string name="profile_menu_delete">ລຶບ</string>
     <!-- Profile mode options. -->
     <string name="profile_entries_on">ເປີດ</string>
+    <string name="profile_entries_off">ປິດ</string>
     <!-- Add Profile -->
     <!-- Rename Dialog  -->
     <!-- Reset Profiles -->
@@ -81,6 +91,7 @@
     <!-- Sound settings screen -->
     <string name="ring_mode_mute">ປີດສຽງ</string>
     <!-- Status bar -->
+    <string name="status_bar_quick_qs_pulldown_off">ປິດ</string>
     <!-- Status bar - icons -->
     <!-- Status bar - Clock -->
     <!-- Status bar - Battery -->
@@ -88,23 +99,31 @@
     <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">ຄວາມສະຫວ່າງ</string>
     <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_mode_disable">ປິດໃຊ້ງານ</string>
     <!-- Protected apps -->
     <!-- Contributors cloud activity -->
     <!-- Display : Rotation  -->
     <!-- Weather -->
     <!-- Power: Performance profiles -->
+    <string name="auto_power_save_never">ບໍ່ເຄີຍ</string>
     <!-- Applications: Expanded desktop -->
     <!-- Applications: Long screen -->
     <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_ringtone_silent">ງຽບ</string>
     <!-- Gestures: Touchscreen gestures -->
     <!-- Gesture: Stylus gestures -->
     <!-- Berry Lite -->
     <string name="style_title">ຮູບແບບ</string>
     <string name="style_global_title">ຮູບແບບ</string>
     <string name="style_automagic_dialog_positive">ນຳໃຊ້</string>
+    <string name="style_accent_default_name">ຄ່າເລີ່ມຕົ້ນ</string>
+    <string name="style_dark_overlay_default">ຄ່າເລີ່ມຕົ້ນ</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">ປິດໃຊ້ງານ</string>
+    <string name="trust_feature_root_value_disabled">ປິດໃຊ້ງານ</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_encryption_value_disabled">ປິດໃຊ້ງານ</string>
     <!-- Sms limit -->
 </resources>
