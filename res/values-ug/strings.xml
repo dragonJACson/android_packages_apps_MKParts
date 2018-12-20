@@ -96,6 +96,7 @@
     <string name="ring_mode_vibrate">تىترەت</string>
     <string name="ring_mode_mute">ئۈنسىز</string>
     <string name="media_volume_title">ۋاستە</string>
+    <string name="doze_title">مۇھىتنى كۆرسىتىدۇ</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">قوش چېكىلسە ئۇخلىتىدۇ</string>
     <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>

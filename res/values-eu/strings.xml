@@ -414,6 +414,7 @@
     <string name="status_bar_toggle_brightness_summary">Doitu distira egoera-barran zehar irristatuz</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">Pantaila modua</string>
+    <string name="network_traffic_mode_disable">Desgaituta</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Babesturiko aplikazioak</string>
     <string name="protected_apps_manager_summary">Kudeatu blokeo ziurrarekin ezkutatuko diren aplikazioak</string>
@@ -535,13 +536,16 @@
     <string name="style_accent_default_name">Lehenetsia</string>
     <string name="style_dark_overlay_default">Lehenetsia</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">Desgaituta</string>
     <string name="trust_feature_root">Root sarbidea</string>
+    <string name="trust_feature_root_value_disabled">Desgaituta</string>
     <string name="trust_feature_root_value_adb">ADB bakarrik</string>
     <string name="trust_feature_root_value_apps">ADB eta aplikazioak</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">Gaituta</string>
+    <string name="trust_feature_encryption_value_disabled">Desgaituta</string>
     <string name="trust_category_tools">Pribatutasuna</string>
     <!-- Sms limit -->
 </resources>

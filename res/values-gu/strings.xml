@@ -78,6 +78,7 @@
     <string name="ring_mode_normal">સામાન્ય</string>
     <string name="ring_mode_vibrate">વાઇબ્રેટ</string>
     <string name="media_volume_title">મીડિયા</string>
+    <string name="doze_title">વ્યાપક ડિસ્પ્લે</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">સ્લીપ માટે ડબલ-ટૅપ કરો</string>
     <string name="status_bar_double_tap_to_sleep_summary">પ્રદર્શન બંધ કરવા સ્ટેટસ બાર પર ડબલ-ટૅપ કરો</string>

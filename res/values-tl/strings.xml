@@ -352,21 +352,26 @@
     <string name="profile_lockmode_policy_disabled_summary">Ang profile opsyon nito ay hindi pinagana sa pamamagitan ng device administrator policy</string>
     <string name="profile_lockmode_insecure_summary">Huwag humingi ng PIN o password</string>
     <string name="profile_lockmode_disabled_summary">I-disable ang lock screen</string>
+    <string name="profile_airplanemode_title">Mode na naka-eroplano</string>
     <string name="profile_brightness_title">Liwanag ng screen</string>
     <string name="profile_brightness_override_summary">Itakda sa %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Liwanag ng override</string>
     <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Portable Wi\u2011Fi hotspot</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleData">Koneksyon ng data</string>
     <string name="toggleSync">Data na auto-sync</string>
     <string name="toggle2g3g4g">Ginustong uri ng network</string>
     <string name="toggle2g3g4g_msim">Mas gustong uri ng network (%1$s)</string>
+    <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Naka-ring na mode</string>
     <string name="ring_mode_normal">Karaniwan</string>
     <string name="ring_mode_mute">I-mute</string>
     <string name="ring_volume_title">Volyum ng ringer</string>
     <string name="media_volume_title">Media</string>
+    <string name="doze_title">Magpakilala sa pumapaligid</string>
     <!-- Status bar -->
     <string name="status_bar_quick_qs_pulldown_title">Madaliang paghatak pababa</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s ang gilid ng status bar ay hinila ng pababa ng Quick Settings</string>

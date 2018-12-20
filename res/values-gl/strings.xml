@@ -407,6 +407,8 @@
     <string name="status_bar_toggle_brightness">Control de brillo</string>
     <string name="status_bar_toggle_brightness_summary">Axustar o brillo arrastrando pola barra de estado</string>
     <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_mode_title">Modo de visualización</string>
+    <string name="network_traffic_mode_disable">Desactivado</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicacións protexidas</string>
     <string name="protected_apps_manager_summary">Xestiona que aplicacións están protexidas por un bloqueo de seguridade</string>
@@ -525,13 +527,19 @@
     <string name="style_global_title">Estilo</string>
     <string name="style_global_entry_dark">Escuro</string>
     <string name="style_automagic_dialog_positive">Aplicar</string>
+    <string name="style_accent_default_name">Defecto</string>
+    <string name="style_dark_overlay_default">Defecto</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">Desactivado</string>
     <string name="trust_feature_root">Acceso root</string>
+    <string name="trust_feature_root_value_disabled">Desactivado</string>
     <string name="trust_feature_root_value_adb">Só ADB</string>
     <string name="trust_feature_root_value_apps">Aplicacións e ADB</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">Activado</string>
+    <string name="trust_feature_encryption_value_disabled">Desactivado</string>
+    <string name="trust_category_tools">Privacidade</string>
     <!-- Sms limit -->
 </resources>

@@ -411,6 +411,8 @@
     <string name="status_bar_toggle_brightness">Контрола на осветленост</string>
     <string name="status_bar_toggle_brightness_summary">Прилагодете ја осветленоста со лизгање низ статусната лента</string>
     <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_mode_title">Режим на екранот</string>
+    <string name="network_traffic_mode_disable">Оневозможено</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Заштитени апликации</string>
     <string name="protected_apps_manager_summary">Управувајте со апликации кои се скриени зад безбедно заклучување</string>
@@ -530,9 +532,16 @@
     <string name="style_title">Стил</string>
     <string name="style_global_title">Стил</string>
     <string name="style_automagic_dialog_positive">Примени</string>
+    <string name="style_accent_default_name">Стандардно</string>
+    <string name="style_dark_overlay_default">Стандардно</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">Оневозможено</string>
+    <string name="trust_feature_root_value_disabled">Оневозможено</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_encryption_value_enabled">Овозможено</string>
+    <string name="trust_feature_encryption_value_disabled">Оневозможено</string>
+    <string name="trust_category_tools">Приватност</string>
     <!-- Sms limit -->
 </resources>

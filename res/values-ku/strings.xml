@@ -84,6 +84,7 @@
     <string name="ring_mode_vibrate">له‌رینه‌وه‌</string>
     <string name="ring_mode_mute">کپکردن</string>
     <string name="media_volume_title">میدیا</string>
+    <string name="doze_title">پیشاندەری دەوروبەر</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">دوجار-لێدان بۆ خه‌وتن</string>
     <string name="status_bar_double_tap_to_sleep_summary">دوجار دەستبدە لە شریتی دۆخ بۆ کوژانەوەی پیشاندان</string>

@@ -177,6 +177,7 @@
     <string name="ring_mode_vibrate">ಕಂಪಿಸು</string>
     <string name="ring_mode_mute">ಮೌನ</string>
     <string name="media_volume_title">ಮಾಧ್ಯಮ</string>
+    <string name="doze_title">ಆವರಿಸಿದ ಪರದೆ</string>
     <!-- Status bar -->
     <string name="status_bar_quick_qs_pulldown_off">ಆರಿಸು</string>
     <string name="status_bar_double_tap_to_sleep_title">ನಿದ್ರಿಸಲು ದ್ವಿಗುಣ-ಸ್ಪರ್ಶ</string>

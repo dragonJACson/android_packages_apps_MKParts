@@ -78,6 +78,7 @@
     <string name="ring_mode_normal">सामान्य</string>
     <string name="ring_mode_vibrate">कंपन करा</string>
     <string name="media_volume_title">मीडिया</string>
+    <string name="doze_title">अँबियन्ट प्रदर्शन</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">झोपेसाठी दुहेरी-टॅप करा</string>
     <string name="status_bar_double_tap_to_sleep_summary">प्रदर्शन बंद करण्यासाठी स्थिती बारवर दुहेरी-टॅप करा</string>

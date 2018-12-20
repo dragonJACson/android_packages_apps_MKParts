@@ -410,6 +410,8 @@
     <string name="status_bar_toggle_brightness">Helderheid beheer</string>
     <string name="status_bar_toggle_brightness_summary">Verander helderheid aan deur te gly oor die statusbalk</string>
     <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_mode_title">Skerm modus</string>
+    <string name="network_traffic_mode_disable">Gedeaktiveer</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Beskermde programme</string>
     <string name="protected_apps_manager_summary">Bestuur watter toepassings is verberg agter \'n veilige slot</string>
@@ -521,13 +523,19 @@
     <string name="style_global_title">Styl</string>
     <string name="style_global_entry_dark">Donker</string>
     <string name="style_automagic_dialog_positive">Pas toe</string>
+    <string name="style_accent_default_name">Verstek</string>
+    <string name="style_dark_overlay_default">Verstek</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">Gedeaktiveer</string>
     <string name="trust_feature_root">\'Root\' toegang</string>
+    <string name="trust_feature_root_value_disabled">Gedeaktiveer</string>
     <string name="trust_feature_root_value_adb">Slegs ADB</string>
     <string name="trust_feature_root_value_apps">Programme en ADB</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">Geaktiveer</string>
+    <string name="trust_feature_encryption_value_disabled">Gedeaktiveer</string>
+    <string name="trust_category_tools">Privaatheid</string>
     <!-- Sms limit -->
 </resources>

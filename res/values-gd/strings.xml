@@ -55,6 +55,7 @@
     <!-- Profiles - system settings -->
     <!-- Connection override toggles (not all are used at this time ) -->
     <!-- Sound settings screen -->
+    <string name="doze_title">Taisbeanadh cuairteach</string>
     <!-- Status bar -->
     <!-- Status bar - icons -->
     <!-- Status bar - Clock -->
@@ -74,6 +75,9 @@
     <!-- Gesture: Stylus gestures -->
     <!-- Berry Lite -->
     <!-- Trust interface -->
+    <string name="trust_feature_root">Inntrigeadh root</string>
+    <string name="trust_feature_root_value_adb">ADB a-mhàin</string>
+    <string name="trust_feature_root_value_apps">Aplacaidean is ADB</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->

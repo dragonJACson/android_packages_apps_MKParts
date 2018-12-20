@@ -79,6 +79,7 @@
     <string name="ring_mode_normal">సాధారణం</string>
     <string name="ring_mode_vibrate">వైబ్రేట్</string>
     <string name="media_volume_title">మీడియా</string>
+    <string name="doze_title">యాంబియెంట్ డిస్‌ప్లే</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">నిర్వీర్యం చేయడానికి రెండుసార్లు ట్యాప్ చేయండి</string>
     <string name="status_bar_double_tap_to_sleep_summary">డిస్ప్లేను ఆపివేయడానికి స్టేటస్ బార్ పైన రెండుసార్లు ట్యాప్ చేయండి</string>

@@ -87,6 +87,7 @@
     <string name="ring_mode_vibrate">Vibreeri</string>
     <string name="ring_mode_mute">Vaigista</string>
     <string name="media_volume_title">Meedia</string>
+    <string name="doze_title">Ambient kuva</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">Topelt koputus ekraani väljalülitamiseks</string>
     <string name="status_bar_double_tap_to_sleep_summary">Topeltpuudutage olekuriba ekraani väljalülitamiseks</string>

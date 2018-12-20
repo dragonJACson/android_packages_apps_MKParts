@@ -91,6 +91,7 @@
     <string name="ring_mode_normal">இயல்பு</string>
     <string name="ring_mode_vibrate">அதிர்வு</string>
     <string name="media_volume_title">மீடியா</string>
+    <string name="doze_title">சூழல்சார் திரை</string>
     <!-- Status bar -->
     <string name="status_bar_quick_qs_pulldown_off">அணை</string>
     <string name="status_bar_double_tap_to_sleep_title">உறங்குவதற்கு இருமுறை தட்டு</string>

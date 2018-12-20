@@ -19,5 +19,6 @@
     <!-- Application name -->
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_ok">\"D\'acord\"</string>
+    <string name="fingerprint_shortcut_edit">Edita</string>
     <string name="fingerprint_shortcut_delete">Suprimeix</string>
 </resources>

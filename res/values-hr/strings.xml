@@ -397,6 +397,7 @@
     <string name="status_bar_toggle_brightness_summary">Prilagodite svjetlinu klizanjem po statusnoj traci</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">Način prikaza</string>
+    <string name="network_traffic_mode_disable">Onemogućeno</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Zaštićene aplikacije</string>
     <string name="protected_apps_manager_summary">Upravljanje aplikacijama koje su skrivene iza sigurnog zaključavanja</string>
@@ -464,6 +465,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
     <!-- Applications: Long screen -->
     <!-- Sounds: Charging sounds -->
+    <string name="charging_sounds_enabled_title">Uključi</string>
     <string name="power_notifications_vibrate_title">Vibracija</string>
     <!-- Gestures: Touchscreen gestures -->
     <!-- Gesture: Stylus gestures -->
@@ -472,13 +474,19 @@
     <string name="style_global_title">Stil</string>
     <string name="style_global_entry_dark">Tamno</string>
     <string name="style_automagic_dialog_positive">Primijeni</string>
+    <string name="style_accent_default_name">Zadano</string>
+    <string name="style_dark_overlay_default">Zadano</string>
     <!-- Trust interface -->
+    <string name="trust_feature_selinux_value_disabled">Onemogućeno</string>
     <string name="trust_feature_root">Root pristup</string>
+    <string name="trust_feature_root_value_disabled">Onemogućeno</string>
     <string name="trust_feature_root_value_adb">Samo ADB</string>
     <string name="trust_feature_root_value_apps">Aplikacije i ADB</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
+    <string name="trust_feature_encryption_value_disabled">Onemogućeno</string>
     <string name="trust_category_tools">Privatnost</string>
     <!-- Sms limit -->
 </resources>

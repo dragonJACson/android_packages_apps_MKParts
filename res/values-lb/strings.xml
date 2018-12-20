@@ -92,6 +92,7 @@
     <string name="ring_mode_vibrate">Vibréieren</string>
     <string name="ring_mode_mute">Roueg</string>
     <string name="media_volume_title">Medien</string>
+    <string name="doze_title">Ambiente Schierm</string>
     <!-- Status bar -->
     <string name="status_bar_double_tap_to_sleep_title">Zweemol drécke fir auszemaachen</string>
     <string name="status_bar_double_tap_to_sleep_summary">Zweemol drécken op der Statusläischt mécht de Schierm aus</string>
