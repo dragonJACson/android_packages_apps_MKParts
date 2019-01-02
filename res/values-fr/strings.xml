@@ -143,6 +143,7 @@
     <string name="live_display_color_profile_srgb_summary">Couleurs correspondant exactement à l’espace colorimétrique sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Couleurs précises sur l\'espace de couleur DCI-P3</string>
+    <string name="live_display_color_profile_adobe_title">Adobe RVB</string>
     <string name="live_display_reading_mode_title">Mode Lecture</string>
     <string name="live_display_reading_mode_summary">Affichage en niveaux de gris pour les périodes de lecture prolongées</string>
     <string name="color_calibration_title">Calibrage des couleurs</string>
@@ -612,8 +613,13 @@
     <string name="trust_feature_security_patches_value_medium">obsolètes de quelques mois</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_security_patches_value_old">obsolète</string>
+    <string name="trust_feature_encryption">Chiffrement</string>
     <string name="trust_feature_encryption_value_enabled">Activé</string>
     <string name="trust_feature_encryption_value_disabled">Désactivé</string>
     <string name="trust_category_tools">Confidentialité</string>
+    <string name="trust_notification_alerts_title">Alertes de sécurité</string>
+    <string name="trust_onboarding_learn_more">En savoir plus</string>
+    <string name="trust_onboarding_done">Bien reçu</string>
     <!-- Sms limit -->
+    <string name="sms_security_check_limit_always_confirm">Toujours confirmer</string>
 </resources>
