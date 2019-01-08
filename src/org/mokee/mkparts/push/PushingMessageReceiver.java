@@ -108,13 +108,11 @@ public class PushingMessageReceiver extends BroadcastReceiver {
         notificationBuilder.setSmallIcon(R.drawable.ic_push_notify);
 
         PendingIntent pendingIntent;
-        if (!TextUtils.isEmpty(url)) {
-            Uri uri = Uri.parse(url);
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-            pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        } else {
-            if (TextUtils.isEmpty(clipboard)) return;
+        if (!TextUtils.isEmpty(clipboard)) {
             pendingIntent = copyToClipboardIntent(context, clipboard);
+        } else {
+            if (TextUtils.isEmpty(url)) return;
+            pendingIntent = openURLIntent(context, url);
         }
         notificationBuilder.setContentIntent(pendingIntent);
         notificationBuilder.setTicker(title);
@@ -131,7 +129,13 @@ public class PushingMessageReceiver extends BroadcastReceiver {
         notificationManager.notify((int) (System.currentTimeMillis() / 1000), notificationBuilder.build());
     }
 
-    private static PendingIntent copyToClipboardIntent(Context context, String clipboard) {
+    private PendingIntent openURLIntent(Context context, String url) {
+        Uri uri = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+    }
+
+    private PendingIntent copyToClipboardIntent(Context context, String clipboard) {
         Intent intent = new Intent(context, PushingMessageReceiver.class);
         intent.setAction(COPY_TO_CLIPBOARD_ACTION);
         intent.putExtra(PushingUtils.KEY_CLIPBOARD, clipboard);
