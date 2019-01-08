@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The MoKee Open Source Project
+ * Copyright (C) 2016-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +32,7 @@ import java.util.Set;
 
 import cn.jpush.android.api.JPushInterface;
 import cn.jpush.android.api.TagAliasCallback;
+import mokee.providers.MKSettings;
 
 import static org.mokee.mkparts.push.PushingMessageReceiver.MKPUSH_ALIAS;
 import static org.mokee.mkparts.push.PushingMessageReceiver.MKPUSH_TAGS;
@@ -48,16 +49,20 @@ public class MKPartsApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        if (!ActivityThread.currentProcessName().equals(getPackageName())) return;
-        // MoKeePush Interface
+        if (!ActivityThread.currentProcessName().equals(getPackageName()) || !MoKeeUtils.isSupportLanguage(true)
+                || MKSettings.System.getInt(getContentResolver(), MKSettings.System.RECEIVE_PUSH_NOTIFICATIONS, 1) != 1) return;
+
+        // Init MoKee Push Service
         prefs = getApplicationContext().getSharedPreferences(MKPUSH_PREF, 0);
         JPushInterface.setDebugMode(false);
         JPushInterface.init(this);
+
         // Set Alias
         String alias = Build.getUniqueID(this);
         String prefAlias = prefs.getString(MKPUSH_ALIAS, null);
         if (!alias.equals(prefAlias) && !TextUtils.isEmpty(alias))
             mHandler.sendMessage(mHandler.obtainMessage(MSG_SET_ALIAS, alias));
+
         // Set Tags
         Set<String> tags = new HashSet<>();
         tags.add(Build.PRODUCT);

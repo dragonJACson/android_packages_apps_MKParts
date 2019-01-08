@@ -26,4 +26,7 @@
   <string name="fingerprint_shortcut_delete">删除</string>
   <string name="fingerprint_shortcut_editer">设置指纹快速启动</string>
   <string name="fingerprint_shortcut_manage">管理指纹</string>
+  <!-- Push interface -->
+  <string name="push_notification">消息推送</string>
+  <string name="text_copied">文本已复制到剪贴板。</string>
 </resources>

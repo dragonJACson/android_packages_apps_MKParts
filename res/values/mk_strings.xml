@@ -28,4 +28,8 @@
     <string name="fingerprint_shortcut_editer">Set fingerprint shortcut</string>
     <string name="fingerprint_shortcut_manage">Manage fingerprints</string>
 
+    <!-- Push interface -->
+    <string name="push_notification">Push notification</string>
+    <string name="text_copied">Text copied to clipboard.</string>
+
 </resources>
