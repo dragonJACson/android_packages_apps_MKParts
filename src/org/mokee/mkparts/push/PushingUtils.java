@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,51 +16,43 @@
 
 package org.mokee.mkparts.push;
 
+import android.text.TextUtils;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Locale;
+
 public class PushingUtils {
 
-    public static boolean allowPush(String str1, String str2, int mode) {
-        String[] strs = str1.split(",");
-        for (int i = 0; i < strs.length; i++) {
-            switch (mode) {
-                case 1:
-                    if (strs[i].equals(str2)) {
-                        return true;
-                    }
-                    break;
-                default:
-                    if (str2.contains(strs[i])) {
-                        return true;
-                    }
-                    break;
+    public static final String KEY_TITLE = "title";
+    public static final String KEY_DEVICE = "device";
+    public static final String KEY_TYPE = "type";
+    public static final String KEY_URL = "url";
+    public static final String KEY_CLIPBOARD = "clipboard";
+
+    public static boolean verifyPush(String str1, String str2) {
+        String[] list = str1.split(",");
+        for (String value : list) {
+            if (TextUtils.equals(str2.toLowerCase(Locale.ENGLISH), value.toLowerCase(Locale.ENGLISH))) {
+                return true;
             }
         }
         return false;
     }
 
-    public static String getStringFromJson(String key, JSONObject customJson) {
-        String value = "0";
-        if (!customJson.isNull(key)) {
-            try {
-                value = customJson.getString(key);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-        return value;
+    public static String getStringFromJson(String key, JSONObject json) {
+        return getStringFromJson(key, json, null);
     }
 
-    public static int getIntFromJson(String key, JSONObject customJson) {
-        int value = 999;
-        if (!customJson.isNull(key)) {
+    public static String getStringFromJson(String key, JSONObject json, String def) {
+        if (!json.isNull(key)) {
             try {
-                value = Integer.valueOf(customJson.getString(key));
+                return json.getString(key);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
-        return value;
+        return def;
     }
 }
