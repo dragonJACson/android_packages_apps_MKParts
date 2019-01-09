@@ -298,8 +298,6 @@
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Dataanslutning</string>
-    <string name="toggle2g3g4g">Föredragen nätverkstyp</string>
-    <string name="toggle2g3g4g_msim">Föredragen nätverkstyp (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Ringningsläge</string>
@@ -352,8 +350,6 @@
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">Visningsläge</string>
     <string name="network_traffic_mode_disable">Inaktiverad</string>
-    <string name="network_traffic_units_kilobits">Kilobits per sekund (kb/s)</string>
-    <string name="network_traffic_show_units">Visa enheter</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Skyddade appar</string>
     <string name="protected_apps_manager_summary">Hantera vilka appar som döljs bakom ett säkert lås</string>

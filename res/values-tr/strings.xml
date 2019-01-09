@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Veri bağlantısı</string>
     <string name="toggleSync">Verileri otomatik senk. et</string>
-    <string name="toggle2g3g4g">Tercih edilen şebeke türü</string>
-    <string name="toggle2g3g4g_msim">Tercih edilen şebeke türü (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Zil sesi modu</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">Yükleme ve İndirme</string>
     <string name="network_traffic_autohide">Otomatik gizle</string>
     <string name="network_traffic_autohide_summary">Etkinlik olmadığında ağ göstergesini gizle</string>
-    <string name="network_traffic_units_title">Ağ ölçme birimi</string>
-    <string name="network_traffic_units_kilobits">Saniyede kilobit (kb/s)</string>
-    <string name="network_traffic_units_megabits">Saniyede megabit (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Saniyede kilobayt (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Saniyede megabayt (MB/sn)</string>
-    <string name="network_traffic_show_units">Birimleri göster</string>
-    <string name="network_traffic_show_units_summary">Durum çubuğunda ağ ölçme birimlerinin gösterilip gösterilmeyeceği</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Korunan uygulamalar</string>
     <string name="protected_apps_manager_summary">Güvenli kilitlemenin arkasında hangi uygulamaların gizlendiğini yönetin</string>

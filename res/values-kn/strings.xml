@@ -28,15 +28,22 @@
     <string name="advanced">ಮುಂದುವರೆದ</string>
     <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
     <string name="name">ಹೆಸರು</string>
+    <string name="back">ಹಿಂದೆ</string>
+    <string name="finish">ಮುಗಿಯಿತು</string>
     <string name="next">ಮುಂದಿನ</string>
     <string name="on">ಆರಂಭಿಸು</string>
     <string name="off">ಆರಿಸು</string>
     <string name="yes">ಹೌದು</string>
+    <string name="no">ಬೇಡ</string>
     <string name="search">ಹುಡುಕಿ</string>
     <string name="disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="enabled">ಸಕ್ರಿಯ</string>
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_title">ಗೌಪ್ಯತೆ</string>
     <!-- Privacy Guard -->
+    <string name="privacy_guard_switch_label">ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string name="privacy_guard_dlg_title">ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು?</string>
     <string name="privacy_guard_help_title">ಸಹಾಯ</string>
     <string name="privacy_guard_reset_title">ಮರುಹೊಂದಿಸು</string>
     <string name="privacy_guard_manager_show_system_apps">ಅಂತರ್ನಿರ್ಮಿತ ಆಪ್‍ಗಳನ್ನು ಪ್ರದರ್ಶಿಸು</string>
@@ -123,6 +130,7 @@
     <!-- Key backlight -->
     <string name="button_backlight_title">ಬ್ಯಾಕ್‌ಲೈಟ್</string>
     <string name="backlight_summary_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="backlight_summary_enabled">ಸಕ್ರಿಯ</string>
     <!-- Buttons - Enable navbar -->
     <!-- Navigation Bar -->
     <!-- Power menu -->
@@ -176,6 +184,7 @@
     <string name="ring_mode_normal">ಸಾಮಾನ್ಯ</string>
     <string name="ring_mode_vibrate">ಕಂಪಿಸು</string>
     <string name="ring_mode_mute">ಮೌನ</string>
+    <string name="notification_volume_title">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="media_volume_title">ಮಾಧ್ಯಮ</string>
     <string name="doze_title">ಆವರಿಸಿದ ಪರದೆ</string>
     <!-- Status bar -->
@@ -229,6 +238,8 @@
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_encryption_value_enabled">ಸಕ್ರಿಯ</string>
     <string name="trust_feature_encryption_value_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="trust_category_tools">ಗೌಪ್ಯತೆ</string>
     <!-- Sms limit -->
 </resources>

@@ -371,8 +371,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Conexiune de date</string>
     <string name="toggleSync">Auto-sincronizare date</string>
-    <string name="toggle2g3g4g">Tipul preferat de rețea</string>
-    <string name="toggle2g3g4g_msim">Tipul preferat de rețea (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Modul tonului de apel</string>
@@ -444,13 +442,6 @@
     <string name="network_traffic_mode_all">Încărcare și descărcare</string>
     <string name="network_traffic_autohide">Ascundere automată</string>
     <string name="network_traffic_autohide_summary">Ascunde monitorul de trafic atunci când nu există nici o activitate</string>
-    <string name="network_traffic_units_title">Unități de măsurare trafic</string>
-    <string name="network_traffic_units_kilobits">Kilobiţi pe secundă (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabiţi pe secundă (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes pe secundă (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes pe secundă (MB/s)</string>
-    <string name="network_traffic_show_units">Arată unităţi</string>
-    <string name="network_traffic_show_units_summary">Afișarea unităților de măsurare ale traficului în bara de stare</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicații protejate</string>
     <string name="protected_apps_manager_summary">Gestionați care aplicații sunt ascunse după o blocare sigură</string>

@@ -372,8 +372,6 @@
     <string name="toggleGPS">GPS-модуль</string>
     <string name="toggleData">Мабільныя дадзеныя</string>
     <string name="toggleSync">Аўтаматычнае сінхранізаваньне дадзеных</string>
-    <string name="toggle2g3g4g">Варыянт сеткі</string>
-    <string name="toggle2g3g4g_msim">Пераважны тып сеткі (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Рэжым выкліку</string>
@@ -447,13 +445,6 @@
     <string name="network_traffic_mode_all">Выходны і ўваходны</string>
     <string name="network_traffic_autohide">Хаваць аўтаматычна</string>
     <string name="network_traffic_autohide_summary">Хаваць індыкатар трафіку, калі няма актыўнасці</string>
-    <string name="network_traffic_units_title">Адзінкі вымярэння трафіку</string>
-    <string name="network_traffic_units_kilobits">Кілабіт у секунду (кБ/с)</string>
-    <string name="network_traffic_units_megabits">Мегабіт у секунду (Мб/с)</string>
-    <string name="network_traffic_units_kilobytes">Кілабайт у секунду (КБ/с)</string>
-    <string name="network_traffic_units_megabytes">Мегабайт у секунду (МБ/с)</string>
-    <string name="network_traffic_show_units">Паказаць адзінкі</string>
-    <string name="network_traffic_show_units_summary">Паказваць хуткасць перадачы дадзеных у радку стану</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Заблакаваць дадаткі</string>
     <string name="protected_apps_manager_summary">Кіраванне праграмамі, для запуску якіх патрабуецца ўвод пароля</string>

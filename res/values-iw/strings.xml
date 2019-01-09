@@ -360,8 +360,6 @@
     <string name="toggleWifiAp">‏נקודה חמה ניידת של Wi-Fi</string>
     <string name="toggleData">חיבור נתונים</string>
     <string name="toggleSync">סנכרון נתונים אוטומטי</string>
-    <string name="toggle2g3g4g">טכנולוגית רשת מועדפת</string>
-    <string name="toggle2g3g4g_msim">טכנולוגית רשת מועדפת (%1$s)</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">מצב צלצול</string>
     <string name="ring_mode_normal">רגיל</string>
@@ -432,13 +430,6 @@
     <string name="network_traffic_mode_all">הורדה והעלאה</string>
     <string name="network_traffic_autohide">הסתרה אוטומטית</string>
     <string name="network_traffic_autohide_summary">מנטר תעבורת הרשת יוסתר כאשר אין פעילות</string>
-    <string name="network_traffic_units_title">יחידות מידה לתעבורה</string>
-    <string name="network_traffic_units_kilobits">קילוביט לשנייה (kb/s)</string>
-    <string name="network_traffic_units_megabits">מגהביט לשנייה (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">קילובייט לשנייה (kB/s)</string>
-    <string name="network_traffic_units_megabytes">מגה בייט לשנייה (MB/s)</string>
-    <string name="network_traffic_show_units">הצג יחידות מידה</string>
-    <string name="network_traffic_show_units_summary">מציג את יחידות המידה של התעבורה בשורת המצב</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">יישומים מוגנים</string>
     <string name="protected_apps_manager_summary">נהל אילו יישומים מוסתרים בעזרת נעילה מאובטחת</string>

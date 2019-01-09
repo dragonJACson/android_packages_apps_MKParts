@@ -366,8 +366,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Koneksyon ng data</string>
     <string name="toggleSync">Mag-auto sync ng data</string>
-    <string name="toggle2g3g4g">Gustong uri ng network</string>
-    <string name="toggle2g3g4g_msim">Gustong uri ng network (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Moda na nakatunog</string>

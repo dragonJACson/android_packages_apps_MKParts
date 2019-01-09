@@ -375,8 +375,6 @@
     <string name="toggleGPS">GPS-модуль</string>
     <string name="toggleData">Мобильные данные</string>
     <string name="toggleSync">Автосинхронизация</string>
-    <string name="toggle2g3g4g">Предпочитаемый тип сети</string>
-    <string name="toggle2g3g4g_msim">Предпочитаемый тип сети (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Режим звонка</string>
@@ -450,13 +448,6 @@
     <string name="network_traffic_mode_all">Исходящая и входящая</string>
     <string name="network_traffic_autohide">Скрывать автоматически</string>
     <string name="network_traffic_autohide_summary">Не отображать скорость передачи данных при отсутствии активности</string>
-    <string name="network_traffic_units_title">Единицы измерения трафика</string>
-    <string name="network_traffic_units_kilobits">Килобит в секунду (кБ/с)</string>
-    <string name="network_traffic_units_megabits">Мегабит в секунду (Мбит/с)</string>
-    <string name="network_traffic_units_kilobytes">Килобайт в секунду (КБ/с)</string>
-    <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
-    <string name="network_traffic_show_units">Скорость передачи данных</string>
-    <string name="network_traffic_show_units_summary">Отображать скорость передачи данных в строке состояния</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Защищенные приложения</string>
     <string name="protected_apps_manager_summary">Управление приложениями, для запуска которых требуется ввод пароля</string>

@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Adatkapcsolat</string>
     <string name="toggleSync">Szinkronizálás</string>
-    <string name="toggle2g3g4g">Előnyben részesített hálózat típusa</string>
-    <string name="toggle2g3g4g_msim">Előnyben részesített hálózat típusa (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Csengetés mód</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">Feltöltés és letöltés</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
     <string name="network_traffic_autohide_summary">Elrejti a forgalomkijelzést, ha nincs tevékenység</string>
-    <string name="network_traffic_units_title">Hálózati forgalom mértékegysége</string>
-    <string name="network_traffic_units_kilobits">Kilobit / másodperc (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabit / másodperc (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobájt / másodperc (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabájt / másodperc (MB/s)</string>
-    <string name="network_traffic_show_units">Mértékegység megjelenítése</string>
-    <string name="network_traffic_show_units_summary">Hogy az Állapotsoron megjelenjenek az adatforgalom mértékegysége</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Védett alkalmazások</string>
     <string name="protected_apps_manager_summary">A biztonsági zár mögötti rejtett alkalmazások kezelése</string>

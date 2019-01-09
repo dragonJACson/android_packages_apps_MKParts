@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Datové připojení</string>
     <string name="toggleSync">Automatická synchronizace dat</string>
-    <string name="toggle2g3g4g">Upřednostňovaný typ sítě</string>
-    <string name="toggle2g3g4g_msim">Upřednostňovaný typ sítě (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Režim vyzvánění</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">Příchozí a odchozí data</string>
     <string name="network_traffic_autohide">Automaticky skrývat</string>
     <string name="network_traffic_autohide_summary">Skrýt indikátor datového provozu, pokud není žádná aktivita</string>
-    <string name="network_traffic_units_title">Jednotky měření síťového provozu</string>
-    <string name="network_traffic_units_kilobits">Kilobity za sekundu (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabity za sekundu (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobajty za sekundu (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabajty za sekundu (MB/s)</string>
-    <string name="network_traffic_show_units">Zobrazit jednotky</string>
-    <string name="network_traffic_show_units_summary">Zobrazení jednotek měření síť. provozu ve stavové liště</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Chráněné aplikace</string>
     <string name="protected_apps_manager_summary">Spravovat, které aplikace jsou skryté za bezpečným zámkem</string>

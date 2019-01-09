@@ -369,8 +369,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">데이터 연결</string>
     <string name="toggleSync">데이터 자동 동기화</string>
-    <string name="toggle2g3g4g">선호하는 통신 유형</string>
-    <string name="toggle2g3g4g_msim">선호하는 통신 유형 (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">벨소리 모드</string>
@@ -442,13 +440,6 @@
     <string name="network_traffic_mode_all">업로드와 다운로드</string>
     <string name="network_traffic_autohide">자동 숨기기</string>
     <string name="network_traffic_autohide_summary">아무런 활동이 없을 때 트래픽 모니터 숨기기</string>
-    <string name="network_traffic_units_title">트래픽 측정 단위</string>
-    <string name="network_traffic_units_kilobits">킬로비트/초 (kb/초)</string>
-    <string name="network_traffic_units_megabits">메가비트/초 (Mb/초)</string>
-    <string name="network_traffic_units_kilobytes">킬로바이트/초 (kB/초)</string>
-    <string name="network_traffic_units_megabytes">메가바이트/초 (MB/초)</string>
-    <string name="network_traffic_show_units">단위 표시</string>
-    <string name="network_traffic_show_units_summary">상태 표시줄에 트래픽 측정 단위를 표시할 것인지 설정합니다.</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">보호된 앱</string>
     <string name="protected_apps_manager_summary">보안 잠금 사용 시 숨길 앱 관리</string>

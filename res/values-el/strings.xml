@@ -359,8 +359,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Σύνδεση δεδομένων</string>
     <string name="toggleSync">Αυτόματος συγχρονισμός</string>
-    <string name="toggle2g3g4g">Προτιμώμενη λειτουργία δικτύου</string>
-    <string name="toggle2g3g4g_msim">Προτιμώμενη λειτουργία δικτύου (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Κουδούνισμα</string>
@@ -432,13 +430,6 @@
     <string name="network_traffic_mode_all">Αποστολή και λήψη</string>
     <string name="network_traffic_autohide">Αυτόματη απόκρυψη</string>
     <string name="network_traffic_autohide_summary">Απόκρυψη κίνησης δικτύου όταν δεν υπάρχει δραστηριότητα</string>
-    <string name="network_traffic_units_title">Μονάδες μέτρησης κίνησης</string>
-    <string name="network_traffic_units_kilobits">Kilobit ανά δευτερόλεπτο (kb/δ)</string>
-    <string name="network_traffic_units_megabits">Megabit ανά δευτερόλεπτο (Mb/δ)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte ανά δευτερόλεπτο (kB/δ)</string>
-    <string name="network_traffic_units_megabytes">Megabyte ανά δευτερόλεπτο (MB/δ)</string>
-    <string name="network_traffic_show_units">Εμφάνιση μονάδων</string>
-    <string name="network_traffic_show_units_summary">Επιλέξτε αν θα εμφανίζονται οι μονάδες μέτρησης κίνησης στη γραμμή κατάστασης</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Προστατευμένες εφαρμογές</string>
     <string name="protected_apps_manager_summary">Διαχειριστείτε ποιές εφαρμογές θα είναι κρυμμένες πίσω από ένα ασφαλές κλείδωμα</string>

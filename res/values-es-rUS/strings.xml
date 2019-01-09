@@ -143,6 +143,8 @@
     <string name="live_display_color_profile_srgb_summary">Colores fieles al espacio de color sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_color_profile_adobe_title">Adobe RGB</string>
+    <string name="live_display_color_profile_adobe_summary">Colores fieles al espacio de color Adobe RGB</string>
     <string name="live_display_reading_mode_title">Modo de lectura</string>
     <string name="live_display_reading_mode_summary">Modo de escala de grises para lectura a largo plazo</string>
     <string name="color_calibration_title">Calibración del color</string>
@@ -372,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática</string>
-    <string name="toggle2g3g4g">Tipo de red preferida</string>
-    <string name="toggle2g3g4g_msim">Tipo de red preferida (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Modo de llamadas</string>
@@ -447,13 +447,6 @@
     <string name="network_traffic_mode_all">Subida Y Bajada</string>
     <string name="network_traffic_autohide">Auto ocultar</string>
     <string name="network_traffic_autohide_summary">Ocultar al monitor de tráfico cuando no hay actividad</string>
-    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
-    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
-    <string name="network_traffic_show_units">Mostrar unidades</string>
-    <string name="network_traffic_show_units_summary">Si se muestran unidades de medida de tráfico en la barra de estado</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicaciones protegidas</string>
     <string name="protected_apps_manager_summary">Administrar aplicaciones que se ocultan detrás de un bloqueo seguro</string>

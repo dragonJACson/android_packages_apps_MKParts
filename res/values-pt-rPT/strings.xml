@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Ligação de dados</string>
     <string name="toggleSync">Sincronização automática de dados</string>
-    <string name="toggle2g3g4g">Tipo de rede preferida</string>
-    <string name="toggle2g3g4g_msim">Tipo de rede preferida (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Modo de toque</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">Envio e receção</string>
     <string name="network_traffic_autohide">Ocultar automaticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
-    <string name="network_traffic_units_title">Unidades de medida do tráfego</string>
-    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
-    <string name="network_traffic_show_units">Mostrar unidades</string>
-    <string name="network_traffic_show_units_summary">Mostrar as unidades de medida do tráfego na barra de estado</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicações protegidas</string>
     <string name="protected_apps_manager_summary">Gerir as aplicações que estão protegidas pelo bloqueio seguro</string>

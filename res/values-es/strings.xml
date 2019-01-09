@@ -202,10 +202,12 @@
     <string name="volume_answer_call_summary">Contestar llamadas entrantes presionando los botones de volumen</string>
     <string name="home_answer_call_title">Contestar la llamada</string>
     <string name="home_answer_call_summary">Contestar llamadas entrantes presionando el botón de inicio</string>
+    <string name="extras_title">Extras</string>
     <string name="additional_buttons_title">Botones adicionales</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Contraluz</string>
     <string name="button_backlight_enabled">Iluminar botones</string>
+    <string name="button_backlight_only_when_pressed_title">Iluminar los botones únicamente cuando se presionan</string>
     <string name="keyboard_backlight_enabled">Iluminar teclado</string>
     <string name="button_backlight_seekbar_title">Brillo de los botones</string>
     <string name="keyboard_backlight_seekbar_title">Brillo del teclado</string>
@@ -234,6 +236,7 @@
     <string name="power_menu_users_title">Selector de usuario</string>
     <string name="power_menu_bug_report_title">Informe de errores</string>
     <string name="power_menu_bug_report_disabled">Los informes de error están desactivados en las configuraciones de desarrollo</string>
+    <string name="power_menu_lockdown_title">Bloquear</string>
     <string name="volume_keys_control_ring_stream_title">Control del volumen del tono de llamada</string>
     <string name="volume_keys_control_ring_stream_summary_on">Las teclas de volumen controlan el volumen del tono de llamada</string>
     <string name="volume_keys_control_ring_stream_summary_off">Las teclas de volumen controlan el volumen multimedia</string>
@@ -370,8 +373,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática</string>
-    <string name="toggle2g3g4g">Tipo de red preferida</string>
-    <string name="toggle2g3g4g_msim">Tipo de red preferida (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Modo de llamadas</string>
@@ -403,6 +404,8 @@
     <string name="status_bar_system_icons_summary">Configurar que iconos se muestran en la barra de estado</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Reloj</string>
+    <string name="status_bar_clock_show_seconds_title">Mostrar segundos</string>
+    <string name="status_bar_clock_show_seconds_summary">Mostrar horas, minutos y segundos</string>
     <string name="status_bar_clock_position_title">Posición del reloj</string>
     <string name="status_bar_clock_position_right">Derecha</string>
     <string name="status_bar_clock_position_left">Izquierda</string>
@@ -443,13 +446,6 @@
     <string name="network_traffic_mode_all">Subida y descarga</string>
     <string name="network_traffic_autohide">Ocultar automáticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad</string>
-    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
-    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
-    <string name="network_traffic_show_units">Mostrar unidades</string>
-    <string name="network_traffic_show_units_summary">Mostrar/ocultar unidades de medida de tráfico en la barra de estado</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicaciones protegidas</string>
     <string name="protected_apps_manager_summary">Gestionar que aplicaciones se ocultarán detrás de un bloqueo seguro</string>
@@ -517,6 +513,7 @@
     <string name="expanded_desktop_style_hide_both">Ocultar ambas</string>
     <string name="expanded_desktop_nothing_to_show_text">Apagar el interruptor para personalizar el escritorio extendido sobre una base por aplicación</string>
     <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Aplicaciones en pantalla completa</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Sonidos de carga del dispositivo</string>
     <string name="charging_sounds_enabled_title">Activar</string>
@@ -568,24 +565,42 @@
     <string name="touchscreen_gesture_action_volume_up">Mayor volumen multimedia</string>
     <!-- Berry Lite -->
     <string name="style_title">Estilo</string>
+    <string name="style_summary">Elegir colores del sistema</string>
     <string name="style_global_title">Estilo</string>
+    <string name="style_global_entry_automatic">Automático (fondo de pantalla)</string>
     <string name="style_global_entry_light">Claro</string>
     <string name="style_global_entry_dark">Oscuro</string>
+    <string name="style_global_entry_time">Automático (hora del día)</string>
+    <string name="style_global_entry_app">Gestionado por %1$s</string>
+    <string name="style_accent_title">Color del énfasis</string>
+    <string name="style_accent_configuration_not_supported">El color de destaque actual es incompatible con el estilo seleccionado. Debes seleccionar otro color para proceder, ¿Continuar?</string>
+    <string name="style_accent_configuration_positive">Continuar</string>
+    <string name="style_automagic_title">Automágico</string>
+    <string name="style_automagic_description">Ajustar el estilo para coincidir con el fondo de pantalla</string>
+    <string name="style_automagic_dialog_content">Estilo sugerido: <b>%1$s</b> con el color de destaque en <b>%2$s</b>.\n¿Quieres aplicarlo?</string>
     <string name="style_automagic_dialog_positive">Aplicar</string>
     <string name="style_accent_default_name">Predeterminado</string>
+    <string name="style_dark_overlay_title">Modo oscuro</string>
     <string name="style_dark_overlay_default">Predeterminado</string>
     <string name="style_dark_overlay_black">Negro</string>
+    <string name="style_permission_error">Es necesario acceder al almacenamiento del dispositivo para poder analizar el fondo de pantalla. Por favor, concede el permiso para usar esta característica</string>
     <!-- Trust interface -->
+    <string name="trust_category_features">Estado</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
     <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
     <string name="trust_feature_root">Acceso administrativo</string>
     <string name="trust_feature_root_value_disabled">Deshabilitado</string>
     <string name="trust_feature_root_value_adb">Solo ADB</string>
     <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
+    <string name="trust_feature_security_patches">Nivel de parche de seguridad de Android</string>
+    <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProveedor: %2$s</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
     <string name="trust_category_tools">Privacidad</string>
+    <string name="trust_onboarding_description">Trust te ayuda a mantener tu equipo seguro y protege tu privacidad. \nEl icono de Trust sólo aparece cuando el contenido de la página ha sido verificado.</string>
     <!-- Sms limit -->
 </resources>

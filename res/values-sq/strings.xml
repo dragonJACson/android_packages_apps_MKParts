@@ -341,8 +341,6 @@
     <string name="toggleWifiAp">Hotspot Wi\u2011Fi Portabël</string>
     <string name="toggleData">Lidhja me internetin</string>
     <string name="toggleSync">Sinkronizim automatik i të dhënave</string>
-    <string name="toggle2g3g4g">Lloji i preferuar i rrjetit</string>
-    <string name="toggle2g3g4g_msim">Lloji i preferuar i rrjetit (%1$s)</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Profili i ziles</string>
     <string name="ring_mode_normal">Normale</string>
