@@ -362,8 +362,6 @@
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleData">Koneksyon ng data</string>
     <string name="toggleSync">Data na auto-sync</string>
-    <string name="toggle2g3g4g">Ginustong uri ng network</string>
-    <string name="toggle2g3g4g_msim">Mas gustong uri ng network (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Naka-ring na mode</string>

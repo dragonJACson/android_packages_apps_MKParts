@@ -372,8 +372,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Koneksi data</string>
     <string name="toggleSync">Otomatis sinkronkan data</string>
-    <string name="toggle2g3g4g">Jenis jaringan</string>
-    <string name="toggle2g3g4g_msim">Jenis jaringan (%1$s)</string>
     <string name="toggleNfc">Komunikasi jarak dekat</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Mode dering</string>
@@ -447,13 +445,6 @@
     <string name="network_traffic_mode_all">Download saja</string>
     <string name="network_traffic_autohide">Sembunyi otomatis</string>
     <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak ada aktivitas</string>
-    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
-    <string name="network_traffic_units_kilobits">Kilobit per detik (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per detik (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte per detik (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabyte per detik (MB/s)</string>
-    <string name="network_traffic_show_units">Tampilkan unit</string>
-    <string name="network_traffic_show_units_summary">Tampilkan unit</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplikasi dilindungi</string>
     <string name="protected_apps_manager_summary">Kelola aplikasi yang tersembunyi dengan kunci aman</string>

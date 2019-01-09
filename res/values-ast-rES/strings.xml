@@ -257,8 +257,6 @@
     <string name="profile_brightness_override_checkbox_label">Anular brilléu</string>
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleData">Conexón de datos</string>
-    <string name="toggle2g3g4g">Triba preferida de rede</string>
-    <string name="toggle2g3g4g_msim">Triba preferida de rede (%1$s)</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_vibrate">Vibrar</string>
     <string name="incoming_call_volume_title">Timbre</string>

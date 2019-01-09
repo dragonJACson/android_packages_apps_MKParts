@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">數據連線</string>
     <string name="toggleSync">自動同步資料</string>
-    <string name="toggle2g3g4g">網路類型偏好</string>
-    <string name="toggle2g3g4g_msim">網路類型偏好 (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">鈴響模式</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">上傳和下載</string>
     <string name="network_traffic_autohide">自動隱藏</string>
     <string name="network_traffic_autohide_summary">沒有活動時隱藏流量監測器</string>
-    <string name="network_traffic_units_title">流量單位</string>
-    <string name="network_traffic_units_kilobits">每秒千比特 (kb/s)</string>
-    <string name="network_traffic_units_megabits">每秒百萬比特 (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">每秒千位元組 (kB/s)</string>
-    <string name="network_traffic_units_megabytes">每秒百位元組(MB/s)</string>
-    <string name="network_traffic_show_units">顯示單位</string>
-    <string name="network_traffic_show_units_summary">是否在狀態欄中顯示流量單位</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">受保護的應用程式</string>
     <string name="protected_apps_manager_summary">管理安全鎖下隱藏的應用程式</string>

@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">数据连接</string>
     <string name="toggleSync">自动同步数据</string>
-    <string name="toggle2g3g4g">首选网络类型</string>
-    <string name="toggle2g3g4g_msim">首选网络类型 (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">响铃模式</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">上载和下载</string>
     <string name="network_traffic_autohide">自动隐藏</string>
     <string name="network_traffic_autohide_summary">在网络不活跃时隐藏状态栏网速</string>
-    <string name="network_traffic_units_title">网络流量单位</string>
-    <string name="network_traffic_units_kilobits">千比特每秒 (kb/s)</string>
-    <string name="network_traffic_units_megabits">兆比特每秒 (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">千字节每秒 (kB/s)</string>
-    <string name="network_traffic_units_megabytes">兆字节每秒 (MB/s)</string>
-    <string name="network_traffic_show_units">显示单位</string>
-    <string name="network_traffic_show_units_summary">是否在状态栏显示当前网速</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">受保护的应用</string>
     <string name="protected_apps_manager_summary">管理安全锁隐藏的应用</string>

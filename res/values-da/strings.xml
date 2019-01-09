@@ -348,8 +348,6 @@
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleData">Dataforbindelse</string>
     <string name="toggleSync">Auto-synk. data</string>
-    <string name="toggle2g3g4g">Foretrukken netværkstype</string>
-    <string name="toggle2g3g4g_msim">Foretrukken netværkstype (%1$s)</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Lydtilstand</string>
     <string name="ring_mode_normal">Normal</string>

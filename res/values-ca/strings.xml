@@ -346,8 +346,6 @@
     <string name="toggleWifiAp">Punt d\'accés Wi\u2011Fi portàtil</string>
     <string name="toggleData">Connexió de dades</string>
     <string name="toggleSync">Sincronització automàtica de dades</string>
-    <string name="toggle2g3g4g">Tipus de xarxa preferida</string>
-    <string name="toggle2g3g4g_msim">Tipus de xarxa preferida (%1$s)</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Mode del to de trucada</string>
     <string name="ring_mode_vibrate">Vibra</string>
@@ -415,13 +413,6 @@
     <string name="network_traffic_mode_all">Pujada i baixada</string>
     <string name="network_traffic_autohide">Amaga automàticament</string>
     <string name="network_traffic_autohide_summary">Amaga el monitor de trànsit quan no hi hagi activitat</string>
-    <string name="network_traffic_units_title">Unitats de mesura de trànsit</string>
-    <string name="network_traffic_units_kilobits">Kilobits per segon (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per segon (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per segon (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per segon (MB/s)</string>
-    <string name="network_traffic_show_units">Mostra les unitats</string>
-    <string name="network_traffic_show_units_summary">Si vols mostrar les unitats de mesura del trànsit a la barra d\'estat</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Aplicacions protegides</string>
     <string name="protected_apps_manager_summary">Gestiona quines aplicacions s\'amaguen darrere el bloqueig segur</string>

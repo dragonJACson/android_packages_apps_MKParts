@@ -372,8 +372,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Transmisja danych</string>
     <string name="toggleSync">Automatyczna synchronizacja danych</string>
-    <string name="toggle2g3g4g">Preferowany typ sieci</string>
-    <string name="toggle2g3g4g_msim">Preferowany typ sieci (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Opcje dzwonka</string>
@@ -447,13 +445,6 @@
     <string name="network_traffic_mode_all">Wysyłanie i pobieranie</string>
     <string name="network_traffic_autohide">Autoukrywanie</string>
     <string name="network_traffic_autohide_summary">Ukryj monitor ruchu przy braku aktywności</string>
-    <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
-    <string name="network_traffic_units_kilobits">Kilobitów na sekundę (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabitów na sekundę (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobajtów na sekundę (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabajtów na sekundę (MB/s)</string>
-    <string name="network_traffic_show_units">Pokaż jednostki</string>
-    <string name="network_traffic_show_units_summary">Określa, czy pokazywać jednostki pomiaru ruchu na pasku stanu</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Chronione aplikacje</string>
     <string name="protected_apps_manager_summary">Ustal, które aplikacje mają być ukryte za bezpieczną blokadą</string>

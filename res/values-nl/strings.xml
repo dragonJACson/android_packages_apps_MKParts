@@ -372,8 +372,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Gegevensverbinding</string>
     <string name="toggleSync">Gegevenssynchronisatie</string>
-    <string name="toggle2g3g4g">Voorkeursnetwerktype</string>
-    <string name="toggle2g3g4g_msim">Voorkeursnetwerktype (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Belstand</string>
@@ -446,11 +444,6 @@
     <string name="network_traffic_mode_all">Plaatsen en ophalen</string>
     <string name="network_traffic_autohide">Automatisch verbergen</string>
     <string name="network_traffic_autohide_summary">Verberg de verkeersmonitor wanneer er geen activiteit is</string>
-    <string name="network_traffic_units_kilobits">Kilobits per seconde (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per seconde (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per seconde (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per seconde (MB/s)</string>
-    <string name="network_traffic_show_units">Eenheden weergeven</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Beschermde apps</string>
     <string name="protected_apps_manager_summary">Beheren welke apps beschermd zijn</string>

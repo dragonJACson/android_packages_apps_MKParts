@@ -112,8 +112,8 @@
     <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
     <string name="live_display_color_temperature_summary">النهار: <xliff:g id="day_temperature">%1$d</xliff:g>K  الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">      اليوم</string>
-    <string name="live_display_night">      ليلي</string>
+    <string name="live_display_day"></string>
+    <string name="live_display_night"></string>
     <string name="live_display_outdoor_mode_title">الوضع التلقائي في الخارج</string>
     <string name="live_display_outdoor_mode_summary">زيادة الإضاءة والإشباع تلقائيًا تحت أشعة الشمس</string>
     <string name="live_display_low_power_title">الحد من استهلاك الطاقة</string>
@@ -149,16 +149,16 @@
     <string name="live_display_reading_mode_summary">وضع التدرج الرمادي للقراءة على المدى الطويل</string>
     <string name="color_calibration_title">معايرة الألوان</string>
     <string name="color_calibration_summary">معايرة للألوان في الشاشة</string>
-    <string name="color_red_title">      أحمر</string>
-    <string name="color_green_title">      أخضر</string>
-    <string name="color_blue_title">      أزرق</string>
+    <string name="color_red_title"></string>
+    <string name="color_green_title"></string>
+    <string name="color_blue_title"></string>
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">ضبط الصورة</string>
     <string name="picture_adjustment_summary">ضبط تدرج اللون والتشبع والكثافة والتباين</string>
-    <string name="adj_hue_title">      تدرج اللون</string>
-    <string name="adj_saturation_title">      التشبع</string>
-    <string name="adj_intensity_title">      الكثافة</string>
-    <string name="adj_contrast_title">      التباين</string>
+    <string name="adj_hue_title"></string>
+    <string name="adj_saturation_title"></string>
+    <string name="adj_intensity_title"></string>
+    <string name="adj_contrast_title"></string>
     <!-- Button settings -->
     <string name="button_pref_title">الأزرار</string>
     <string name="hardware_keys_power_key_title">زر الطاقة</string>
@@ -374,8 +374,6 @@
     <string name="toggleGPS">نظام تحديد المواقع</string>
     <string name="toggleData">اتصال البيانات</string>
     <string name="toggleSync">مزامنة البيانات تلقائيًا</string>
-    <string name="toggle2g3g4g">نوع الشبكة المفضل</string>
-    <string name="toggle2g3g4g_msim">نوع الشبكة المفضل (%1$s)</string>
     <string name="toggleNfc">الاتصال بالحقل القريب</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">وضع الرنين</string>
@@ -394,9 +392,9 @@
     <string name="status_bar_quick_qs_pulldown_summary">سحب الحافّة %1$s لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السّريعة</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">اليمين</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">اليسار</string>
-    <string name="status_bar_quick_qs_pulldown_off">إيقاف</string>
-    <string name="status_bar_quick_qs_pulldown_left">اليمين</string>
-    <string name="status_bar_quick_qs_pulldown_right">اليسار</string>
+    <string name="status_bar_quick_qs_pulldown_off">اليمين</string>
+    <string name="status_bar_quick_qs_pulldown_left">الـيسار</string>
+    <string name="status_bar_quick_qs_pulldown_right">إيقاف</string>
     <string name="status_bar_double_tap_to_sleep_title">المس مرتين لبدء وضع السكون</string>
     <string name="status_bar_double_tap_to_sleep_summary">الضغط مرتين فوق شريط الحالة لإطفاء الشاشة</string>
     <!-- Status bar - icons -->
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">التحميل و الرفع</string>
     <string name="network_traffic_autohide">إخفاء تلقائي</string>
     <string name="network_traffic_autohide_summary">إخفاء مراقبة حركة المرور عندما لا يكون هناك نشاط</string>
-    <string name="network_traffic_units_title">وحدات قياس حركة المرور</string>
-    <string name="network_traffic_units_kilobits">كيلوبت في الثانية (kb/s)</string>
-    <string name="network_traffic_units_megabits">ميجابت في الثانية (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">كيلوبايت في الثانية (kB/s)</string>
-    <string name="network_traffic_units_megabytes">ميغابايت في الثانية (MB/s)</string>
-    <string name="network_traffic_show_units">عرض الوحدات</string>
-    <string name="network_traffic_show_units_summary">ما إذا كان سيتم عرض وحدات قياس حركة المرور في شريط الحالة أم لا</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">التطبيقات المحمية</string>
     <string name="protected_apps_manager_summary">إدارة التطبيقات التي تكون مخفية خلف التأمين الآمن</string>

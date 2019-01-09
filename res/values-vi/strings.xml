@@ -371,8 +371,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Kết nối dữ liệu</string>
     <string name="toggleSync">Tự động đồng bộ dữ liệu</string>
-    <string name="toggle2g3g4g">Loại mạng ưa thích</string>
-    <string name="toggle2g3g4g_msim">Loại mạng ưu tiên (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Chế độ chuông</string>
@@ -444,13 +442,6 @@
     <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
     <string name="network_traffic_autohide">Tự động ẩn</string>
     <string name="network_traffic_autohide_summary">Ẩn giám sát lưu lượng mạng khi không có hoạt động</string>
-    <string name="network_traffic_units_title">Đơn vị đo lưu lượng</string>
-    <string name="network_traffic_units_kilobits">Kilobit mỗi giây (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabit mỗi giây (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte mỗi giây (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabit mỗi giây (Mb/s)</string>
-    <string name="network_traffic_show_units">Hiển thị các đơn vị</string>
-    <string name="network_traffic_show_units_summary">Hiển thị các đơn vị đo lưu lượng truy cập trong thanh trạng thái</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Các ứng dụng được bảo vệ</string>
     <string name="protected_apps_manager_summary">Quản lý các ứng dụng được ẩn sau khóa an toàn</string>

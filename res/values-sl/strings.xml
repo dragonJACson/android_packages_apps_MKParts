@@ -374,8 +374,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Podatkovna povezava</string>
     <string name="toggleSync">Sam. sinhroniziraj podatke</string>
-    <string name="toggle2g3g4g">Priljubljena vrsta omrežja</string>
-    <string name="toggle2g3g4g_msim">Priljubljena vrsta omrežja (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Način zvonjenja</string>
@@ -449,13 +447,6 @@
     <string name="network_traffic_mode_all">Poslano in prejeto</string>
     <string name="network_traffic_autohide">Samodejno skrij</string>
     <string name="network_traffic_autohide_summary">Skrij nadzornika prometa, ko ni dejavnosti</string>
-    <string name="network_traffic_units_title">Merske enote prometa</string>
-    <string name="network_traffic_units_kilobits">Kilobitov na sekundo (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabitov na sekundo (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobajtov na sekundo (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabajtov na sekundo (MB/s)</string>
-    <string name="network_traffic_show_units">Prikaži enote</string>
-    <string name="network_traffic_show_units_summary">Prikaz merskih enot prometa v vrstici stanja</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Zaščitene aplikacije</string>
     <string name="protected_apps_manager_summary">Upravljajte, katere aplikacije so skrite z varnim zaklepanjem</string>

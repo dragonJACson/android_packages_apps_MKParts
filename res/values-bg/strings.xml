@@ -369,8 +369,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Мобилни данни</string>
     <string name="toggleSync">Авто-синхронизиране на данни</string>
-    <string name="toggle2g3g4g">Предпочитан тип мрежа</string>
-    <string name="toggle2g3g4g_msim">Предпочитан тип мрежа (%1$s)</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">Режим на звънене</string>
@@ -442,13 +440,6 @@
     <string name="network_traffic_mode_all">Сваляне и качване</string>
     <string name="network_traffic_autohide">Автоматично скриване</string>
     <string name="network_traffic_autohide_summary">Скриване на трафик индикатора, когато няма дейност</string>
-    <string name="network_traffic_units_title">Трафик мерни единици</string>
-    <string name="network_traffic_units_kilobits">Килобита в секунда (Кб/с)</string>
-    <string name="network_traffic_units_megabits">Мегабита в секунда (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Килобайта в секунда (Кб/с)</string>
-    <string name="network_traffic_units_megabytes">Мегабайта в секунда (MB/s)</string>
-    <string name="network_traffic_show_units">Покажи единици</string>
-    <string name="network_traffic_show_units_summary">Дали да се показват мерните единици за измерване на трафика в лентата на състоянието</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Защитени приложения</string>
     <string name="protected_apps_manager_summary">Изберете кои приложения да се зареждат след въвеждане на парола</string>

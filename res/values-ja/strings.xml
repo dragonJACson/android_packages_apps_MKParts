@@ -372,8 +372,6 @@
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">データ接続</string>
     <string name="toggleSync">データの自動同期</string>
-    <string name="toggle2g3g4g">優先ネットワークの種類</string>
-    <string name="toggle2g3g4g_msim">優先ネットワークの種類（%1$s）</string>
     <string name="toggleNfc">NFC</string>
     <!-- Sound settings screen -->
     <string name="ring_mode_title">着信モード</string>
@@ -447,13 +445,6 @@
     <string name="network_traffic_mode_all">アップロードとダウンロード</string>
     <string name="network_traffic_autohide">自動非表示</string>
     <string name="network_traffic_autohide_summary">非アクティブ時にトラフィックモニターを非表示にする</string>
-    <string name="network_traffic_units_title">トラフィックの単位</string>
-    <string name="network_traffic_units_kilobits">キロビット毎秒</string>
-    <string name="network_traffic_units_megabits">メガビット毎秒</string>
-    <string name="network_traffic_units_kilobytes">キロバイト毎秒</string>
-    <string name="network_traffic_units_megabytes">メガバイト毎秒</string>
-    <string name="network_traffic_show_units">単位を表示</string>
-    <string name="network_traffic_show_units_summary">ステータスバーにネットワークトラフィックの単位を表示</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">アプリの保護</string>
     <string name="protected_apps_manager_summary">パスワードでロックしている場合に非表示にするアプリを管理する</string>
