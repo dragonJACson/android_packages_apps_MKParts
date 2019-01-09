@@ -132,7 +132,7 @@ public class PushingMessageReceiver extends BroadcastReceiver {
     private PendingIntent openURLIntent(Context context, String url) {
         Uri uri = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
     private PendingIntent copyToClipboardIntent(Context context, String clipboard) {
