@@ -19,4 +19,5 @@
     <!-- Application name -->
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">সম্পাদনা</string>
+    <!-- Push interface -->
 </resources>

@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Засах</string>
     <string name="fingerprint_shortcut_delete">Устгах</string>
+    <!-- Push interface -->
 </resources>

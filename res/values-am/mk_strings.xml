@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">አርትዕ</string>
     <string name="fingerprint_shortcut_delete">ሰርዝ</string>
+    <!-- Push interface -->
 </resources>

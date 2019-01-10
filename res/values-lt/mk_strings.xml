@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Redaguoti</string>
     <string name="fingerprint_shortcut_delete">Ištrinti</string>
+    <!-- Push interface -->
 </resources>

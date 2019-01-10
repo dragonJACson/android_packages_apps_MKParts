@@ -26,4 +26,7 @@
     <string name="fingerprint_shortcut_delete">حذف</string>
     <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
     <string name="fingerprint_shortcut_manage">إدارة بصمات الإصبع</string>
+    <!-- Push interface -->
+    <string name="push_notification">إرسال إشعار</string>
+    <string name="text_copied">تم نسخ النص إلى الحافظة.</string>
 </resources>

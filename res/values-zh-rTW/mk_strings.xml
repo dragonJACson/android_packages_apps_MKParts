@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">刪除</string>
     <string name="fingerprint_shortcut_editer">設定指紋捷徑</string>
     <string name="fingerprint_shortcut_manage">管理指紋</string>
+    <!-- Push interface -->
+    <string name="text_copied">文字已複製到剪貼簿</string>
 </resources>

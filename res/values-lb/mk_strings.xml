@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Änneren</string>
     <string name="fingerprint_shortcut_delete">Läschen</string>
+    <!-- Push interface -->
 </resources>

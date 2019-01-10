@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">რედაქტირება</string>
     <string name="fingerprint_shortcut_delete">წაშლა</string>
+    <!-- Push interface -->
 </resources>

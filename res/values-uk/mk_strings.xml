@@ -24,4 +24,5 @@
     <string name="fingerprint_shortcut_ok">ОК</string>
     <string name="fingerprint_shortcut_edit">Редагувати</string>
     <string name="fingerprint_shortcut_delete">Видалити</string>
+    <!-- Push interface -->
 </resources>

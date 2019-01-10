@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Խմբագրել</string>
     <string name="fingerprint_shortcut_delete">Ջնջել</string>
+    <!-- Push interface -->
 </resources>

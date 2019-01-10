@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Rediģēt</string>
     <string name="fingerprint_shortcut_delete">Dzēst</string>
+    <!-- Push interface -->
 </resources>

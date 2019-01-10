@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_ok">ശരി</string>
     <string name="fingerprint_shortcut_edit">തിരുത്തുക</string>
+    <!-- Push interface -->
 </resources>

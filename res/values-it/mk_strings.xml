@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">Elimina</string>
     <string name="fingerprint_shortcut_editer">Imposta scorciatoie</string>
     <string name="fingerprint_shortcut_manage">Gestisci le impronte digitali</string>
+    <!-- Push interface -->
+    <string name="text_copied">Testo copiato negli appunti.</string>
 </resources>

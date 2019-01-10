@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Redakti</string>
     <string name="fingerprint_shortcut_delete">Forigi</string>
+    <!-- Push interface -->
 </resources>

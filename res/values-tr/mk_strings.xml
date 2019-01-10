@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">Sil</string>
     <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
     <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
+    <!-- Push interface -->
+    <string name="text_copied">Metin panoya kopyalandı.</string>
 </resources>

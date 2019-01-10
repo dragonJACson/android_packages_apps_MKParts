@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_ok">Iawn</string>
     <string name="fingerprint_shortcut_delete">Dileu</string>
+    <!-- Push interface -->
 </resources>

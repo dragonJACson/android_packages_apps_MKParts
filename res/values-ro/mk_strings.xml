@@ -26,4 +26,5 @@
     <string name="fingerprint_shortcut_delete">Ștergeţi</string>
     <string name="fingerprint_shortcut_editer">Configurare scurtături senzor amprentă</string>
     <string name="fingerprint_shortcut_manage">Gestionați amprentele</string>
+    <!-- Push interface -->
 </resources>

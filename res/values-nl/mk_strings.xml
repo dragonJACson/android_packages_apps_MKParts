@@ -26,4 +26,5 @@
     <string name="fingerprint_shortcut_delete">Verwijderen</string>
     <string name="fingerprint_shortcut_editer">Vingerafdruksnelkoppeling instellen</string>
     <string name="fingerprint_shortcut_manage">Vingerafdrukbeheer</string>
+    <!-- Push interface -->
 </resources>

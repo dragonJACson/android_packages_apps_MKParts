@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">Удалить</string>
     <string name="fingerprint_shortcut_editer">Установить ярлык отпечатка пальца</string>
     <string name="fingerprint_shortcut_manage">Управление отпечатками</string>
+    <!-- Push interface -->
+    <string name="text_copied">Текст скопирован в буфер обмена.</string>
 </resources>

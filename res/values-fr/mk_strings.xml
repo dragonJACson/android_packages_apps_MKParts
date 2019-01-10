@@ -26,4 +26,7 @@
     <string name="fingerprint_shortcut_delete">Supprimer</string>
     <string name="fingerprint_shortcut_editer">Définir un raccourci d\'empreinte digitale</string>
     <string name="fingerprint_shortcut_manage">Gérer empreintes digitales</string>
+    <!-- Push interface -->
+    <string name="push_notification">Notification Push</string>
+    <string name="text_copied">Le texte a été copié dans le presse-papier.</string>
 </resources>

@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">Smazat</string>
     <string name="fingerprint_shortcut_editer">Nastavit zkratky otisku prstu</string>
     <string name="fingerprint_shortcut_manage">Správa otisků prstů</string>
+    <!-- Push interface -->
+    <string name="text_copied">Text zkopírován do schránky.</string>
 </resources>

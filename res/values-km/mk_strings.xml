@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">កែ</string>
     <string name="fingerprint_shortcut_delete">លុប</string>
+    <!-- Push interface -->
 </resources>

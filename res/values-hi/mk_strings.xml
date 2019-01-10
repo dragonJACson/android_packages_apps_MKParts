@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">संपादित करें</string>
     <string name="fingerprint_shortcut_delete">हटाएं</string>
+    <!-- Push interface -->
 </resources>

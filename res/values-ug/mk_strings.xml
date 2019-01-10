@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">تەھرىرلەش</string>
     <string name="fingerprint_shortcut_delete">ئۆچۈر</string>
+    <!-- Push interface -->
 </resources>

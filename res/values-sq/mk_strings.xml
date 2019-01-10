@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Redakto</string>
     <string name="fingerprint_shortcut_delete">Fshi</string>
+    <!-- Push interface -->
 </resources>

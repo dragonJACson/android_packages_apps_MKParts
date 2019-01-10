@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Edit</string>
+    <!-- Push interface -->
 </resources>

@@ -19,4 +19,5 @@
     <!-- Application name -->
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">સંપાદિત કરો</string>
+    <!-- Push interface -->
 </resources>

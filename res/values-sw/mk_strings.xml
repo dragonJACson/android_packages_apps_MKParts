@@ -20,4 +20,5 @@
     <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">Badilisha</string>
     <string name="fingerprint_shortcut_delete">Futa</string>
+    <!-- Push interface -->
 </resources>

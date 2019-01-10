@@ -26,4 +26,6 @@
     <string name="fingerprint_shortcut_delete">Törlés</string>
     <string name="fingerprint_shortcut_editer">Ujjlenyomat parancsikon beállítása</string>
     <string name="fingerprint_shortcut_manage">Ujjlenyomatok kezelése</string>
+    <!-- Push interface -->
+    <string name="text_copied">A szöveg a vágólapra másolódott.</string>
 </resources>

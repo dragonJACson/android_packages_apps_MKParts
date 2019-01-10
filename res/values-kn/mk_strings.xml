@@ -26,4 +26,5 @@
     <string name="fingerprint_shortcut_delete">ಅಳಿಸು</string>
     <string name="fingerprint_shortcut_editer">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿ ಸಂಯೋಜಿಸಿ</string>
     <string name="fingerprint_shortcut_manage">ಬೆರಳಚ್ಚುಗಳನ್ನು ನಿರ್ವ ಹಿಸು</string>
+    <!-- Push interface -->
 </resources>
