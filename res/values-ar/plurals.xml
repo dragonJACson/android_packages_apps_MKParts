@@ -17,11 +17,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="backlight_timeout_time">
-        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
-        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
+        <item quantity="zero"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> ثانية</item>
+        <item quantity="two"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
+        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
+        <item quantity="many"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="one">einmal</item>
-        <item quantity="other">%d Mal</item>
+        <item quantity="zero">%d مرات</item>
+        <item quantity="one">مرة</item>
+        <item quantity="two">%d مرات</item>
+        <item quantity="few">%d مرّات</item>
+        <item quantity="many">%d مرّات</item>
+        <item quantity="other">%d مرات</item>
     </plurals>
 </resources>

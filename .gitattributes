@@ -1,2 +1,3 @@
 assets/contributors.db
+res/values-*/plurals.xml merge=ours
 res/values-*/strings.xml merge=ours
