@@ -16,14 +16,17 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Paramètres de MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Raccourcis gestuels</string>
-  <string name="fingerprint_shortcut_not_specified">Non spécifié</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Modifier</string>
-  <string name="fingerprint_shortcut_delete">Supprimer</string>
-  <string name="fingerprint_shortcut_editer">Créer un raccourci gestuel</string>
-  <string name="fingerprint_shortcut_manage">Gérer empreintes digitales</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Paramètres de MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Raccourcis gestuels</string>
+    <string name="fingerprint_shortcut_not_specified">Non spécifié</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Modifier</string>
+    <string name="fingerprint_shortcut_delete">Supprimer</string>
+    <string name="fingerprint_shortcut_editer">Créer un raccourci gestuel</string>
+    <string name="fingerprint_shortcut_manage">Gérer empreintes digitales</string>
+    <!-- Push interface -->
+    <string name="push_notification">Notification Push</string>
+    <string name="text_copied">Le texte a été copié dans le presse-papier.</string>
 </resources>

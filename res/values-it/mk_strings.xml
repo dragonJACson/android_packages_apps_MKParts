@@ -16,14 +16,16 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Impostazioni Mokee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Scorciatoie sul sensore d\'impronte</string>
-  <string name="fingerprint_shortcut_not_specified">Non indicato</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Modifica</string>
-  <string name="fingerprint_shortcut_delete">Elimina</string>
-  <string name="fingerprint_shortcut_editer">Imposta scorciatoie</string>
-  <string name="fingerprint_shortcut_manage">Gestisci le impronte digitali</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Impostazioni Mokee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Scorciatoie sul sensore d\'impronte</string>
+    <string name="fingerprint_shortcut_not_specified">Non indicato</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Modifica</string>
+    <string name="fingerprint_shortcut_delete">Elimina</string>
+    <string name="fingerprint_shortcut_editer">Imposta scorciatoie</string>
+    <string name="fingerprint_shortcut_manage">Gestisci le impronte digitali</string>
+    <!-- Push interface -->
+    <string name="text_copied">Testo copiato negli appunti.</string>
 </resources>

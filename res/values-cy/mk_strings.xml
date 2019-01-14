@@ -16,6 +16,9 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <!-- Fingerprint shortcuts -->
+    <!-- Application name -->
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_ok">Iawn</string>
+    <string name="fingerprint_shortcut_delete">Dileu</string>
+    <!-- Push interface -->
 </resources>

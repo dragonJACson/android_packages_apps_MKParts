@@ -16,14 +16,15 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Nastavenia MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Skratky odtlačku prsta</string>
-  <string name="fingerprint_shortcut_not_specified">Nešpecifikované</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">Upraviť</string>
-  <string name="fingerprint_shortcut_delete">Vymazať</string>
-  <string name="fingerprint_shortcut_editer">Nastaviť skratku odtlačku prsta</string>
-  <string name="fingerprint_shortcut_manage">Spravovať odtlačky prstov</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Nastavenia MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Skratky odtlačku prsta</string>
+    <string name="fingerprint_shortcut_not_specified">Nešpecifikované</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">Upraviť</string>
+    <string name="fingerprint_shortcut_delete">Vymazať</string>
+    <string name="fingerprint_shortcut_editer">Nastaviť skratku odtlačku prsta</string>
+    <string name="fingerprint_shortcut_manage">Spravovať odtlačky prstov</string>
+    <!-- Push interface -->
 </resources>

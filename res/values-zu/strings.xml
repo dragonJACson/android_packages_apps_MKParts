@@ -18,92 +18,93 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Generic stuff used everywhere -->
-  <string name="reset">Setha kabusha</string>
-  <string name="back">Emuva</string>
-  <string name="on">Vuliwe</string>
-  <string name="yes">Yebo</string>
-  <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-  <!-- Privacy Settings Header item -->
-  <!-- Privacy Guard -->
-  <string name="privacy_guard_help_title">Usizo</string>
-  <string name="privacy_guard_reset_title">Setha kabusha</string>
-  <!-- Notification light dialogs -->
-  <string name="custom_time">Ngokwezifiso</string>
-  <string name="dialog_delete_title">Susa</string>
-  <!-- Values for the notification light pulse spinners -->
-  <!-- Common light settings strings -->
-  <!-- Battery light settings -->
-  <!-- Lights settings screen, notification light settings -->
-  <!-- Lights settings, LED notification -->
-  <!-- LiveDisplay -->
-  <string name="color_red_title">Okubomvu</string>
-  <string name="color_green_title">Okuluhlaza okotshani</string>
-  <string name="color_blue_title">Okuluhlaza okwesibhakabhaka</string>
-  <!-- LiveDisplay : Picture Adjustment -->
-  <string name="adj_hue_title">I-Hue</string>
-  <string name="adj_saturation_title">Gcwalisa isikhala</string>
-  <string name="adj_contrast_title">Ukugqama</string>
-  <!-- Button settings -->
-  <string name="hardware_keys_menu_key_title">Inkinobho yemenyu</string>
-  <!-- Key backlight -->
-  <!-- Buttons - Enable navbar -->
-  <!-- Navigation Bar -->
-  <!-- Power menu -->
-  <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="torch_long_press_power_timeout_1min">1 iminithi</string>
-  <string name="torch_long_press_power_timeout_2min">2 amaminithi</string>
-  <string name="torch_long_press_power_timeout_5min">5 amaminithi</string>
-  <string name="torch_long_press_power_timeout_10min">10 amaminithi</string>
-  <!-- Profiles -->
-  <string name="profile_menu_delete_title">Susa</string>
-  <!-- Profile triggers -->
-  <!-- Profiles settings  -->
-  <string name="profile_menu_delete">Susa</string>
-  <!-- Profile mode options. -->
-  <string name="profile_entries_on">Vuliwe</string>
-  <!-- Add Profile -->
-  <!-- Rename Dialog  -->
-  <!-- Reset Profiles -->
-  <string name="profile_reset_title">Setha kabusha</string>
-  <!-- Delete confimation messages -->
-  <!-- Profile network mode -->
-  <!-- Profile Config screen PreferenceGroup titles -->
-  <!-- Menu item for managing profiles -->
-  <!-- Profile settings screen, section header for settings related to notification profiles -->
-  <!-- Profile Settings sound modes labels -->
-  <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-  <!-- Title for application group setting screen -->
-  <!-- Add application dialog box title -->
-  <!-- Profiles - system settings -->
-  <!-- Connection override toggles (not all are used at this time ) -->
-  <!-- Sound settings screen -->
-  <string name="ring_mode_mute">Thulisa</string>
-  <!-- Status bar -->
-  <!-- Status bar - icons -->
-  <!-- Status bar - Clock -->
-  <!-- Status bar - Battery -->
-  <!-- Status bar - Battery percentage -->
-  <!-- Status bar - Brightness -->
-  <string name="status_bar_brightness_category">Ukugqama</string>
-  <!-- Status bar - Network Traffic -->
-  <!-- Protected apps -->
-  <!-- Contributors cloud activity -->
-  <!-- Display : Rotation  -->
-  <!-- Weather -->
-  <!-- Power: Performance profiles -->
-  <!-- Applications: Expanded desktop -->
-  <!-- Applications: Long screen -->
-  <!-- Sounds: Charging sounds -->
-  <!-- Gestures: Touchscreen gestures -->
-  <!-- Gesture: Stylus gestures -->
-  <!-- Berry Lite -->
-  <string name="style_title">Isitayela</string>
-  <string name="style_global_title">Isitayela</string>
-  <string name="style_automagic_dialog_positive">Sebenzisa</string>
-  <!-- Trust interface -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-  <!-- Sms limit -->
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">Setha kabusha</string>
+    <string name="back">Emuva</string>
+    <string name="on">Vuliwe</string>
+    <string name="yes">Yebo</string>
+    <string name="search">Sesha</string>
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <!-- Privacy Settings Header item -->
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_help_title">Usizo</string>
+    <string name="privacy_guard_reset_title">Setha kabusha</string>
+    <!-- Notification light dialogs -->
+    <string name="custom_time">Ngokwezifiso</string>
+    <string name="dialog_delete_title">Susa</string>
+    <!-- Values for the notification light pulse spinners -->
+    <!-- Common light settings strings -->
+    <!-- Battery light settings -->
+    <!-- Lights settings screen, notification light settings -->
+    <!-- Lights settings, LED notification -->
+    <!-- LiveDisplay -->
+    <string name="color_red_title">Okubomvu</string>
+    <string name="color_green_title">Okuluhlaza okotshani</string>
+    <string name="color_blue_title">Okuluhlaza okwesibhakabhaka</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="adj_hue_title">I-Hue</string>
+    <string name="adj_saturation_title">Gcwalisa isikhala</string>
+    <string name="adj_contrast_title">Ukugqama</string>
+    <!-- Button settings -->
+    <string name="hardware_keys_menu_key_title">Inkinobho yemenyu</string>
+    <!-- Key backlight -->
+    <!-- Buttons - Enable navbar -->
+    <!-- Navigation Bar -->
+    <!-- Power menu -->
+    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+    <string name="torch_long_press_power_timeout_1min">1 iminithi</string>
+    <string name="torch_long_press_power_timeout_2min">2 amaminithi</string>
+    <string name="torch_long_press_power_timeout_5min">5 amaminithi</string>
+    <string name="torch_long_press_power_timeout_10min">10 amaminithi</string>
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">Susa</string>
+    <!-- Profile triggers -->
+    <!-- Profiles settings  -->
+    <string name="profile_menu_delete">Susa</string>
+    <!-- Profile mode options. -->
+    <string name="profile_entries_on">Vuliwe</string>
+    <!-- Add Profile -->
+    <!-- Rename Dialog  -->
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Setha kabusha</string>
+    <!-- Delete confimation messages -->
+    <!-- Profile network mode -->
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <!-- Menu item for managing profiles -->
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <!-- Profile Settings sound modes labels -->
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <!-- Title for application group setting screen -->
+    <!-- Add application dialog box title -->
+    <!-- Profiles - system settings -->
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <!-- Sound settings screen -->
+    <string name="ring_mode_mute">Thulisa</string>
+    <!-- Status bar -->
+    <!-- Status bar - icons -->
+    <!-- Status bar - Clock -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Ukugqama</string>
+    <!-- Status bar - Network Traffic -->
+    <!-- Protected apps -->
+    <!-- Contributors cloud activity -->
+    <!-- Display : Rotation  -->
+    <!-- Weather -->
+    <!-- Power: Performance profiles -->
+    <!-- Applications: Expanded desktop -->
+    <!-- Applications: Long screen -->
+    <!-- Sounds: Charging sounds -->
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- Gesture: Stylus gestures -->
+    <!-- Berry Lite -->
+    <string name="style_title">Isitayela</string>
+    <string name="style_global_title">Isitayela</string>
+    <string name="style_automagic_dialog_positive">Sebenzisa</string>
+    <!-- Trust interface -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <!-- Sms limit -->
 </resources>

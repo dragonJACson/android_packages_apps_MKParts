@@ -16,13 +16,14 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Nga setting ng MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Mga fingerprint shortcut</string>
-  <string name="fingerprint_shortcut_not_specified">Hindi tinukoy</string>
-  <string name="fingerprint_shortcut_ok">OK</string>
-  <string name="fingerprint_shortcut_edit">I-edit</string>
-  <string name="fingerprint_shortcut_delete">Tanggalin</string>
-  <string name="fingerprint_shortcut_editer">I-set ang fingerprint shortcut</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Nga setting ng MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Mga fingerprint shortcut</string>
+    <string name="fingerprint_shortcut_not_specified">Hindi tinukoy</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">I-edit</string>
+    <string name="fingerprint_shortcut_delete">Tanggalin</string>
+    <string name="fingerprint_shortcut_editer">I-set ang fingerprint shortcut</string>
+    <!-- Push interface -->
 </resources>

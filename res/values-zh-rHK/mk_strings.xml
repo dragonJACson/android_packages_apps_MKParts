@@ -16,14 +16,16 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee 設定</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">指紋快捷方式</string>
-  <string name="fingerprint_shortcut_not_specified">未指定</string>
-  <string name="fingerprint_shortcut_ok">確定</string>
-  <string name="fingerprint_shortcut_edit">編輯</string>
-  <string name="fingerprint_shortcut_delete">刪除</string>
-  <string name="fingerprint_shortcut_editer">設定指紋快捷方式</string>
-  <string name="fingerprint_shortcut_manage">管理指紋</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee 設定</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">指紋快捷方式</string>
+    <string name="fingerprint_shortcut_not_specified">未指定</string>
+    <string name="fingerprint_shortcut_ok">確定</string>
+    <string name="fingerprint_shortcut_edit">編輯</string>
+    <string name="fingerprint_shortcut_delete">刪除</string>
+    <string name="fingerprint_shortcut_editer">設定指紋快捷方式</string>
+    <string name="fingerprint_shortcut_manage">管理指紋</string>
+    <!-- Push interface -->
+    <string name="text_copied">文字已複製到剪貼簿</string>
 </resources>

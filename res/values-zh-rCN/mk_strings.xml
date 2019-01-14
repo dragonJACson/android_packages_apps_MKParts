@@ -16,17 +16,17 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">魔趣设置</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">指纹快速启动</string>
-  <string name="fingerprint_shortcut_not_specified">未指定</string>
-  <string name="fingerprint_shortcut_ok">确定</string>
-  <string name="fingerprint_shortcut_edit">编辑</string>
-  <string name="fingerprint_shortcut_delete">删除</string>
-  <string name="fingerprint_shortcut_editer">设置指纹快速启动</string>
-  <string name="fingerprint_shortcut_manage">管理指纹</string>
-  <!-- Push interface -->
-  <string name="push_notification">消息推送</string>
-  <string name="text_copied">文本已复制到剪贴板。</string>
+    <!-- Application name -->
+    <string name="mkparts_title">魔趣设置</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">指纹快速启动</string>
+    <string name="fingerprint_shortcut_not_specified">未指定</string>
+    <string name="fingerprint_shortcut_ok">确定</string>
+    <string name="fingerprint_shortcut_edit">编辑</string>
+    <string name="fingerprint_shortcut_delete">删除</string>
+    <string name="fingerprint_shortcut_editer">设置指纹快速启动</string>
+    <string name="fingerprint_shortcut_manage">管理指纹</string>
+    <!-- Push interface -->
+    <string name="push_notification">消息推送</string>
+    <string name="text_copied">文本已复制到剪贴板。</string>
 </resources>

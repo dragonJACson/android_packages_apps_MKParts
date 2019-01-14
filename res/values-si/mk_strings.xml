@@ -16,7 +16,9 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_delete">මකන්න</string>
+    <!-- Application name -->
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_edit">සංස්කරණය කරන්න</string>
+    <string name="fingerprint_shortcut_delete">මකන්න</string>
+    <!-- Push interface -->
 </resources>

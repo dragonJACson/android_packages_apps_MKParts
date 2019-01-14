@@ -16,14 +16,15 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">MoKee Einstellungen</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Fingerabdruck-Verknüpfungen</string>
-  <string name="fingerprint_shortcut_not_specified">Keine Angabe</string>
-  <string name="fingerprint_shortcut_ok">Ok</string>
-  <string name="fingerprint_shortcut_edit">Bearbeiten</string>
-  <string name="fingerprint_shortcut_delete">Löschen</string>
-  <string name="fingerprint_shortcut_editer">Fingerabdruck-Verknüpfung festlegen</string>
-  <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
+    <!-- Application name -->
+    <string name="mkparts_title">MoKee Einstellungen</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Fingerabdruck-Verknüpfungen</string>
+    <string name="fingerprint_shortcut_not_specified">Keine Angabe</string>
+    <string name="fingerprint_shortcut_ok">Ok</string>
+    <string name="fingerprint_shortcut_edit">Bearbeiten</string>
+    <string name="fingerprint_shortcut_delete">Löschen</string>
+    <string name="fingerprint_shortcut_editer">Fingerabdruck-Verknüpfung festlegen</string>
+    <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
+    <!-- Push interface -->
 </resources>

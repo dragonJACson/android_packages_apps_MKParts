@@ -16,14 +16,15 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Ajustes de MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Accesos directos de huella digital</string>
-  <string name="fingerprint_shortcut_not_specified">No especificado</string>
-  <string name="fingerprint_shortcut_ok">Aceptar</string>
-  <string name="fingerprint_shortcut_edit">Editar</string>
-  <string name="fingerprint_shortcut_delete">Eliminar</string>
-  <string name="fingerprint_shortcut_editer">Establecer accesos directos de la huella digital</string>
-  <string name="fingerprint_shortcut_manage">Gestión de huellas dactilares</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Ajustes de MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Accesos directos de huella digital</string>
+    <string name="fingerprint_shortcut_not_specified">No especificado</string>
+    <string name="fingerprint_shortcut_ok">Aceptar</string>
+    <string name="fingerprint_shortcut_edit">Editar</string>
+    <string name="fingerprint_shortcut_delete">Eliminar</string>
+    <string name="fingerprint_shortcut_editer">Establecer accesos directos de la huella digital</string>
+    <string name="fingerprint_shortcut_manage">Gestión de huellas dactilares</string>
+    <!-- Push interface -->
 </resources>

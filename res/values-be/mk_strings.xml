@@ -16,14 +16,15 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Налады MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Цэтлікі адбіткаў пальцаў</string>
-  <string name="fingerprint_shortcut_not_specified">Не вызначана</string>
-  <string name="fingerprint_shortcut_ok">ОК</string>
-  <string name="fingerprint_shortcut_edit">Рэдагаваць</string>
-  <string name="fingerprint_shortcut_delete">Выдаліць</string>
-  <string name="fingerprint_shortcut_editer">Усталяваць цэтлік адбітка пальца</string>
-  <string name="fingerprint_shortcut_manage">Кіраванне адбіткамі</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Налады MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Цэтлікі адбіткаў пальцаў</string>
+    <string name="fingerprint_shortcut_not_specified">Не вызначана</string>
+    <string name="fingerprint_shortcut_ok">ОК</string>
+    <string name="fingerprint_shortcut_edit">Рэдагаваць</string>
+    <string name="fingerprint_shortcut_delete">Выдаліць</string>
+    <string name="fingerprint_shortcut_editer">Усталяваць цэтлік адбітка пальца</string>
+    <string name="fingerprint_shortcut_manage">Кіраванне адбіткамі</string>
+    <!-- Push interface -->
 </resources>

@@ -16,14 +16,17 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Application name -->
-  <string name="mkparts_title">Setelan MoKee</string>
-  <!-- Fingerprint shortcuts -->
-  <string name="fingerprint_shortcut_settings_title">Pintasan sidik jari</string>
-  <string name="fingerprint_shortcut_not_specified">Tidak ditentukan</string>
-  <string name="fingerprint_shortcut_ok">Oke</string>
-  <string name="fingerprint_shortcut_edit">Ubah</string>
-  <string name="fingerprint_shortcut_delete">Hapus</string>
-  <string name="fingerprint_shortcut_editer">Setel pintasan sidik jari</string>
-  <string name="fingerprint_shortcut_manage">Kelola sidik jari</string>
+    <!-- Application name -->
+    <string name="mkparts_title">Setelan MoKee</string>
+    <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Pintasan sidik jari</string>
+    <string name="fingerprint_shortcut_not_specified">Tidak ditentukan</string>
+    <string name="fingerprint_shortcut_ok">Oke</string>
+    <string name="fingerprint_shortcut_edit">Ubah</string>
+    <string name="fingerprint_shortcut_delete">Hapus</string>
+    <string name="fingerprint_shortcut_editer">Setel pintasan sidik jari</string>
+    <string name="fingerprint_shortcut_manage">Kelola sidik jari</string>
+    <!-- Push interface -->
+    <string name="push_notification">Pemberitahuan push</string>
+    <string name="text_copied">Teks disalin ke clipboard.</string>
 </resources>
