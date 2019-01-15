@@ -58,7 +58,7 @@ public class Utilities {
                 .apply();
     }
 
-    private static int getLastJobId(Context context) {
+    public static int getLastJobId(Context context) {
         return context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, Context.MODE_PRIVATE).getInt(KEY_LAST_JOB_ID, 0);
     }
 
