@@ -27,5 +27,6 @@
     <string name="fingerprint_shortcut_editer">設定指紋捷徑</string>
     <string name="fingerprint_shortcut_manage">管理指紋</string>
     <!-- Push interface -->
+    <string name="push_notification">推播通知</string>
     <string name="text_copied">文字已複製到剪貼簿</string>
 </resources>

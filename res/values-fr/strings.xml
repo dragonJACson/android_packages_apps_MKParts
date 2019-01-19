@@ -271,7 +271,7 @@
     <string name="wireless_networks_settings_title">Sans fil et réseaux</string>
     <!-- Profile triggers -->
     <string name="no_bluetooth_triggers">Aucun appareil Bluetooth appairé.\nAppuyez pour appairer l\'appareil Bluetooth avant de configurer les actions.</string>
-    <string name="no_wifi_triggers">Aucun point d\'accès Wi\u2011Fi configuré.\nAppuyez pour connecter le Wi\u2011Fi avant de configurer les actions.</string>
+    <string name="no_wifi_triggers">Aucun appareil Bluetooth associé.\n Appuyez pour associer l\'appareil Bluetooth avant de configurer les actions.</string>
     <string name="no_triggers_configured">Aucune action configurée. Appuyez pour en ajouter.</string>
     <string name="no_triggers_configured_nfc">Appuyez pour configurer une nouvelle action NFC.</string>
     <string name="profile_setup_setup_triggers_description">Veuillez sélectionner les actions qui activeront ce profil</string>
@@ -425,7 +425,7 @@
     <string name="status_bar_battery_style_text">Texte</string>
     <string name="status_bar_battery_style_hidden">Masquée</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Pourcentage de la pile</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percentage_default">Masqué</string>
     <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
     <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>

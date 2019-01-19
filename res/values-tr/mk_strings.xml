@@ -27,5 +27,6 @@
     <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
     <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
     <!-- Push interface -->
+    <string name="push_notification">Push bildirimleri</string>
     <string name="text_copied">Metin panoya kopyalandı.</string>
 </resources>

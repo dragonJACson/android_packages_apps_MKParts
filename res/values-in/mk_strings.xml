@@ -27,4 +27,6 @@
     <string name="fingerprint_shortcut_editer">Setel pintasan sidik jari</string>
     <string name="fingerprint_shortcut_manage">Kelola sidik jari</string>
     <!-- Push interface -->
+    <string name="push_notification">Pemberitahuan</string>
+    <string name="text_copied">Teks disalin ke clipboard.</string>
 </resources>
