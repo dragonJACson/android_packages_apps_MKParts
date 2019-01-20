@@ -17,16 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
-    <string name="mkparts_title">MoKee nastavitve</string>
     <!-- Fingerprint shortcuts -->
-    <string name="fingerprint_shortcut_settings_title">Bližnjice s prstnim odtisom</string>
-    <string name="fingerprint_shortcut_not_specified">Ni določeno</string>
-    <string name="fingerprint_shortcut_ok">V redu</string>
-    <string name="fingerprint_shortcut_edit">Uredi</string>
-    <string name="fingerprint_shortcut_delete">Izbriši</string>
-    <string name="fingerprint_shortcut_editer">Nastavite bližnjice s prstnim odtisom</string>
-    <string name="fingerprint_shortcut_manage">Upravljanje prstnih odtisov</string>
+    <string name="fingerprint_shortcut_edit">সম্পাদনা</string>
     <!-- Push interface -->
-    <string name="push_notification">Potisna obvestila</string>
-    <string name="text_copied">Besedilo je kopirano v odložišče.</string>
 </resources>

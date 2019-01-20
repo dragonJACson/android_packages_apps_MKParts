@@ -566,7 +566,7 @@
     <string name="style_global_title">Gaya</string>
     <string name="style_global_entry_automatic">Otomatis (wallpaper)</string>
     <string name="style_global_entry_light">Terang</string>
-    <string name="style_global_entry_dark">Suram</string>
+    <string name="style_global_entry_dark">Gelap</string>
     <string name="style_global_entry_time">Otomatis (waktu dalam sehari)</string>
     <string name="style_global_entry_app">Dikelola oleh %1$s</string>
     <string name="style_accent_title">Aksen warna</string>
