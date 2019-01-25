@@ -45,6 +45,7 @@ public class ReportingService extends IntentService {
         String deviceCarrier = Utilities.getCarrier(getApplicationContext());
         String deviceCarrierId = Utilities.getCarrierId(getApplicationContext());
 
+        final int oldJobId = Utilities.getLastJobId(getApplicationContext());
         final int jobId = Utilities.getNextJobId(getApplicationContext());
         Log.d(Utilities.TAG, "scheduling jobs id: " + jobId);
 
@@ -68,5 +69,8 @@ public class ReportingService extends IntentService {
                 .setExtras(reportBundle)
                 .setPersisted(true)
                 .build());
+
+        // cancel old job in case it didn't run yet
+        js.cancel(oldJobId);
     }
 }
