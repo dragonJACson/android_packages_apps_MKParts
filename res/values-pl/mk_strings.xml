@@ -27,4 +27,6 @@
     <string name="fingerprint_shortcut_editer">Ustaw skrót odcisków paców</string>
     <string name="fingerprint_shortcut_manage">Zarządzaj odciskami palców</string>
     <!-- Push interface -->
+    <string name="push_notification">Powiadomienia push</string>
+    <string name="text_copied">Tekst skopiowany do schowka.</string>
 </resources>
