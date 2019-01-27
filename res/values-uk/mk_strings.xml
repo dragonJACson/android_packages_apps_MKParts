@@ -24,5 +24,7 @@
     <string name="fingerprint_shortcut_ok">ОК</string>
     <string name="fingerprint_shortcut_edit">Редагувати</string>
     <string name="fingerprint_shortcut_delete">Видалити</string>
+    <string name="fingerprint_shortcut_editer">Додати відбиток</string>
+    <string name="fingerprint_shortcut_manage">Управління відбитками</string>
     <!-- Push interface -->
 </resources>
