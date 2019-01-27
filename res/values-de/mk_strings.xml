@@ -27,4 +27,6 @@
     <string name="fingerprint_shortcut_editer">Fingerabdruck-Verknüpfung festlegen</string>
     <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
     <!-- Push interface -->
+    <string name="push_notification">Push-Benachrichtigung</string>
+    <string name="text_copied">Text in Zwischenablage kopiert.</string>
 </resources>

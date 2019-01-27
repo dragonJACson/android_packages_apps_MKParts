@@ -141,6 +141,8 @@
     <string name="live_display_color_profile_srgb_summary">Кольори з точністю до колірного простору sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Кольори з точністю до колірного простору DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим читання</string>
+    <string name="live_display_reading_mode_summary">Режим градації сірого для тривалого читання</string>
     <string name="color_calibration_title">Калібрування кольору</string>
     <string name="color_calibration_summary">Калібрування кольору на екрані</string>
     <string name="color_red_title">Червоний</string>
@@ -200,6 +202,7 @@
     <!-- Key backlight -->
     <string name="button_backlight_title">Підсвічування</string>
     <string name="button_backlight_enabled">Підсвічування кнопок</string>
+    <string name="button_backlight_only_when_pressed_title">Підсвічування кнопок при натисканні</string>
     <string name="keyboard_backlight_enabled">Підсвічування клавіатури</string>
     <string name="button_backlight_seekbar_title">Яскравість кнопок</string>
     <string name="keyboard_backlight_seekbar_title">Яскравість клавіатури</string>
@@ -228,6 +231,7 @@
     <string name="power_menu_users_title">Перемикання користувачів</string>
     <string name="power_menu_bug_report_title">Звіт про помилку</string>
     <string name="power_menu_bug_report_disabled">Надсилання звітів про помилки вимкнено в налаштуваннях розробника</string>
+    <string name="power_menu_lockdown_title">Блокування</string>
     <string name="volume_keys_control_ring_stream_title">Регулювання гучності рингтону</string>
     <string name="volume_keys_control_ring_stream_summary_on">Клавіші регулювання гучності контролюють гучність дзвінка</string>
     <string name="volume_keys_control_ring_stream_summary_off">Клавіші регулювання гучності контролюють гучність медіа-файлів</string>
@@ -428,8 +432,14 @@
     <string name="status_bar_toggle_brightness">Керування яскравістю</string>
     <string name="status_bar_toggle_brightness_summary">Регулювати яскравість екрану рухом пальця по рядку стану</string>
     <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
     <string name="network_traffic_mode_title">Режим відображення</string>
     <string name="network_traffic_mode_disable">Вимкнено</string>
+    <string name="network_traffic_mode_up">Лише відправлення</string>
+    <string name="network_traffic_mode_down">Лише завантаження</string>
+    <string name="network_traffic_mode_all">Відправлення та завантаження</string>
+    <string name="network_traffic_autohide">Приховати автоматично</string>
+    <string name="network_traffic_autohide_summary">Не відображати швидкість при відсутності активності</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Захищені додатки</string>
     <string name="protected_apps_manager_summary">Керування додатками, для запуску яких потрібно ввести пароль</string>
@@ -497,6 +507,7 @@
     <string name="expanded_desktop_style_hide_both">Приховувати обидві</string>
     <string name="expanded_desktop_nothing_to_show_text">Вимкнути налаштування розширеного робочого столу для кожного додатку</string>
     <!-- Applications: Long screen -->
+    <string name="long_screen_settings_summary">Примусове використання повноекранного режиму застарілими застосунками</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Звуки зарядки</string>
     <string name="charging_sounds_enabled_title">Увімкнути</string>
@@ -511,6 +522,7 @@
     <string name="touchscreen_gestures_haptic_feedback_summary">Вібрація при розпізнаванні жесту</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Проведіть вниз двома пальцями</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Проведіть вгору одним пальцем</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Проведіть угору від кнопки \"Додому\"</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Проведіть вниз одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Проведіть вліво одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Проведіть вправо одним пальцем</string>
@@ -527,6 +539,11 @@
     <string name="touchscreen_gesture_letter_w_title">Намалюйте літеру \"W\"</string>
     <string name="touchscreen_gesture_letter_z_title">Намалюйте літеру «Z»</string>
     <!-- Gesture: Stylus gestures -->
+    <string name="touchscreen_gesture_swipe_up_stylus_title">Проведіть стилусом угору</string>
+    <string name="touchscreen_gesture_swipe_down_stylus_title">Проведіть стилусом вниз</string>
+    <string name="touchscreen_gesture_swipe_left_stylus_title">Проведіть стилусом ліворуч</string>
+    <string name="touchscreen_gesture_swipe_right_stylus_title">Проведіть стилусом праворуч</string>
+    <string name="touchscreen_gesture_long_press_stylus_title">Натисніть і утримуйте стилусом</string>
     <string name="touchscreen_gesture_action_dialog_title">Дія жесту</string>
     <string name="touchscreen_gesture_action_do_nothing">Нічого не робити</string>
     <string name="touchscreen_gesture_action_flashlight">Увімкнути або вимкнути ліхтарик</string>
@@ -538,9 +555,13 @@
     <string name="touchscreen_gesture_action_play_pause_music">Відтворити або призупинити відтворення музики</string>
     <string name="touchscreen_gesture_action_previous_track">Перейти до попереднього музичного треку</string>
     <string name="touchscreen_gesture_action_next_track">Перехід до наступного музичного треку</string>
+    <string name="touchscreen_gesture_action_volume_down">Зменшити гучність мультимедіа</string>
+    <string name="touchscreen_gesture_action_volume_up">Збільшити гучність мультимедіа</string>
     <!-- Berry Lite -->
     <string name="style_title">Стиль</string>
+    <string name="style_summary">Вибрати кольори системи</string>
     <string name="style_global_title">Стиль</string>
+    <string name="style_global_entry_automatic">Автоматично (шпалери)</string>
     <string name="style_global_entry_light">Світла</string>
     <string name="style_global_entry_dark">Темнота</string>
     <string name="style_automagic_dialog_positive">Застосувати</string>
@@ -560,4 +581,8 @@
     <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
     <string name="trust_category_tools">Конфіденційність</string>
     <!-- Sms limit -->
+    <string name="sms_security_check_limit_title">Обмеження SMS-повідомлень</string>
+    <string name="sms_security_check_limit_summary">Запитати дозвіл при відправці більше %s повідомлень протягом хвилини</string>
+    <string name="sms_security_check_limit_summary_none">Додаткам не дозволено надсилати будь-які повідомлення без підтвердження</string>
+    <string name="sms_security_check_limit_always_confirm">Завжди підтверджувати</string>
 </resources>

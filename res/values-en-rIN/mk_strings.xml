@@ -18,6 +18,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
     <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Fingerprint setup</string>
+    <string name="fingerprint_shortcut_not_specified">English</string>
     <string name="fingerprint_shortcut_ok">OK</string>
+    <string name="fingerprint_shortcut_edit">English</string>
+    <string name="fingerprint_shortcut_delete">English</string>
+    <string name="fingerprint_shortcut_editer">English, India</string>
+    <string name="fingerprint_shortcut_manage">English</string>
     <!-- Push interface -->
+    <string name="push_notification">English</string>
+    <string name="text_copied">English.</string>
 </resources>
