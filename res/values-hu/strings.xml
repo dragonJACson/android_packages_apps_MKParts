@@ -233,7 +233,7 @@
     <string name="power_menu_title">Kikapcsoló menü</string>
     <string name="power_menu_screenshot_title">Képernyőmentés</string>
     <string name="power_menu_screenshot_summary">Részleges képernyőmentésért nyomja hosszan</string>
-    <string name="power_menu_airplane_title">Repülőgép üzemmód</string>
+    <string name="power_menu_airplane_title">Repülőgép-üzemmód</string>
     <string name="power_menu_users_title">Felhasználóváltás</string>
     <string name="power_menu_bug_report_title">Hibabejelentés</string>
     <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
@@ -363,7 +363,7 @@
     <string name="profile_lockmode_policy_disabled_summary">Ez a profil opció le van tiltva az eszköz adminisztrátori házirendből</string>
     <string name="profile_lockmode_insecure_summary">Ne kérje a PIN-kódját vagy a jelszavát</string>
     <string name="profile_lockmode_disabled_summary">Képernyőzár letiltása</string>
-    <string name="profile_airplanemode_title">Repülőgép üzemmód</string>
+    <string name="profile_airplanemode_title">Repülőgép-üzemmód</string>
     <string name="profile_brightness_title">Képernyő fényerő</string>
     <string name="profile_brightness_override_summary">Beállítva a következőre: %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Fényerő felülírása</string>

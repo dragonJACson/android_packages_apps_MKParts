@@ -143,6 +143,8 @@
     <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正します</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正します</string>
+    <string name="live_display_color_profile_adobe_title">Adobe RGB</string>
+    <string name="live_display_color_profile_adobe_summary">Adobe RGB 色空間にします</string>
     <string name="live_display_reading_mode_title">読書モード</string>
     <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更します</string>
     <string name="color_calibration_title">色の調整</string>
