@@ -77,7 +77,9 @@
     <string name="pulse_speed_slow">Повільно</string>
     <string name="pulse_speed_very_slow">Дуже повільно</string>
     <!-- Common light settings strings -->
+    <string name="light_brightness_title">Рівень яскравості</string>
     <string name="light_brightness_normal">Нормально</string>
+    <string name="light_brightness_zen">Не турбувати</string>
     <!-- Battery light settings -->
     <string name="battery_light_title">Індикація батареї</string>
     <string name="battery_low_pulse_title">Блимати при розрядженій батареї</string>
@@ -199,6 +201,8 @@
     <string name="volume_answer_call_summary">Відповідати на вхідний виклик натисненням кнопок гучності</string>
     <string name="home_answer_call_title">Відповісти на виклик</string>
     <string name="home_answer_call_summary">Відповідати на вхідний виклик натисненням кнопки \"Додому\"</string>
+    <string name="extras_title">Додатки</string>
+    <string name="additional_buttons_title">Додаткові кнопки</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Підсвічування</string>
     <string name="button_backlight_enabled">Підсвічування кнопок</string>
@@ -430,6 +434,7 @@
     <string name="status_bar_toggle_brightness_summary">Регулювати яскравість екрану рухом пальця по рядку стану</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
+    <string name="network_traffic_settings_summary">Відображати поточну швидкість з\'єднання в рядку стану</string>
     <string name="network_traffic_mode_title">Режим відображення</string>
     <string name="network_traffic_mode_disable">Вимкнено</string>
     <string name="network_traffic_mode_up">Лише відправлення</string>
@@ -504,6 +509,7 @@
     <string name="expanded_desktop_style_hide_both">Приховувати обидві</string>
     <string name="expanded_desktop_nothing_to_show_text">Вимкнути налаштування розширеного робочого столу для кожного додатку</string>
     <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Повноекранні додатки</string>
     <string name="long_screen_settings_summary">Примусове використання повноекранного режиму застарілими застосунками</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Звуки зарядки</string>
@@ -561,6 +567,12 @@
     <string name="style_global_entry_automatic">Автоматично (шпалери)</string>
     <string name="style_global_entry_light">Світла</string>
     <string name="style_global_entry_dark">Темнота</string>
+    <string name="style_global_entry_time">Автоматично (час доби)</string>
+    <string name="style_global_entry_app">Керується %1$s</string>
+    <string name="style_accent_title">Віддінок кольору</string>
+    <string name="style_accent_configuration_not_supported">Поточний додатковий колір несумісний з обраним стилем. Щоб продовжити, потрібно вибрати інший додатковий колір, хочете продовжити?</string>
+    <string name="style_accent_configuration_positive">Продовжити</string>
+    <string name="style_automagic_title">Автоколір</string>
     <string name="style_automagic_dialog_positive">Застосувати</string>
     <string name="style_accent_default_name">За замовчуванням</string>
     <string name="style_dark_overlay_default">За замовчуванням</string>

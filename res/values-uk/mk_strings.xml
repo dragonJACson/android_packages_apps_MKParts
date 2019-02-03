@@ -27,4 +27,5 @@
     <string name="fingerprint_shortcut_editer">Додати відбиток</string>
     <string name="fingerprint_shortcut_manage">Управління відбитками</string>
     <!-- Push interface -->
+    <string name="push_notification">Push сповіщення</string>
 </resources>
