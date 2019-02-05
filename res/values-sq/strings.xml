@@ -404,7 +404,7 @@
     <string name="contributor_info_menu">Informacion rreth kontribuesit</string>
     <string name="contributor_info_msg"><b>Emri:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>                 <b>Pseudonimi:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>                 <b>Kontributet:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Informacion rreth kontribimeve</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Kontribuesit në total:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>                 <b>Kontribimet në total:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>                 <b>Përditësimi i fundit:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+    <string name="contributions_info_msg"><b>Kontribuesit në total:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>                 <b>Kontribimet në total:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>                 <b>Përditësimi i fundit:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Rrotullo automatikisht ekranin</string>
     <string name="display_rotation_title">Parametrat e rrotullimit</string>

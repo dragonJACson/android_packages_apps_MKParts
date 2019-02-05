@@ -450,13 +450,13 @@
     <string name="contributors_cloud_loading_message">正在载入贡献者数据\u2026</string>
     <string name="contributors_cloud_failed_message">无法读取贡献者数据</string>
     <string name="contributor_info_menu">贡献者信息</string>
-    <string name="contributor_info_msg"><![CDATA[<b>姓名：</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>姓名：</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>昵称：</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>提交数：</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>提交数：</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">贡献信息</string>
-    <string name="contributions_info_msg"><![CDATA[<b>贡献者总数：</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>贡献者总数：</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>提交总数：</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>最后更新：</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>最后更新：</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">自动旋转屏幕</string>
     <string name="display_rotation_title">旋转设置</string>

@@ -78,6 +78,7 @@
     <string name="pulse_speed_very_slow">Erittäin hidas</string>
     <!-- Common light settings strings -->
     <string name="light_brightness_normal">Normaali</string>
+    <string name="light_brightness_zen">Älä häiritse</string>
     <!-- Battery light settings -->
     <string name="battery_light_title">Akun valo</string>
     <string name="battery_low_pulse_title">Vilku jos akku lähes tyhjä</string>
@@ -139,6 +140,7 @@
     <string name="live_display_color_profile_reading_summary">Lämpimämpi värintoisto vähentämään silmien rasitusta</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Värit tarkentuu sRGB-väritilaan</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Värit tarkentuu DCI-P3-väritilaan</string>
     <string name="live_display_reading_mode_title">Lukutila</string>
     <string name="color_calibration_title">Värien kalibrointi</string>
@@ -197,6 +199,7 @@
     <string name="volume_answer_call_summary">Vastaa puheluun painamalla äänenvoimakkuusnäppäintä</string>
     <string name="home_answer_call_title">Vastaa puheluun</string>
     <string name="home_answer_call_summary">Vastaa puheluun painamalla kotinäppäintä</string>
+    <string name="extras_title">Ekstrat</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Taustavalo</string>
     <string name="button_backlight_enabled">Valaise painikkeet</string>
@@ -392,6 +395,7 @@
     <string name="status_bar_system_icons_summary">Määritä mitkä tilapalkin kuvakkeet näytetään</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Kello</string>
+    <string name="status_bar_clock_show_seconds_title">Näytä sekunnit</string>
     <string name="status_bar_clock_position_title">Kellon sijainti</string>
     <string name="status_bar_clock_position_right">Oikea</string>
     <string name="status_bar_clock_position_left">Vasen</string>
@@ -425,6 +429,10 @@
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">Näyttötila</string>
     <string name="network_traffic_mode_disable">Poistettu käytöstä</string>
+    <string name="network_traffic_mode_up">Vain lähetys</string>
+    <string name="network_traffic_mode_down">Vain lataus</string>
+    <string name="network_traffic_mode_all">Lähetys ja lataus</string>
+    <string name="network_traffic_autohide">Piilota automaattisesti</string>
     <!-- Protected apps -->
     <string name="protected_apps_manager_title">Suojatut sovellukset</string>
     <string name="protected_apps_manager_summary">Hallitse mitkä sovellukset ovat turvallisen lukituksen takana</string>
@@ -433,13 +441,13 @@
     <string name="contributors_cloud_loading_message">Ladataan kehittäjädataa\u2026</string>
     <string name="contributors_cloud_failed_message">Kehittäjien tietoja ei voitu ladata</string>
     <string name="contributor_info_menu">Kehittäjän tiedot</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Nimi:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>Nimi:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Nimimerkki:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Muutokset:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>Muutokset:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Kehittäjien tiedot</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Kehittäjiä yhteensä:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Kehittäjiä yhteensä:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Muutoksia yhteensä:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Päivitetty:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Päivitetty:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Näytön automaattinen kierto</string>
     <string name="display_rotation_title">Asennon asetukset</string>
@@ -506,6 +514,7 @@
     <string name="touchscreen_gestures_haptic_feedback_summary">Värinä kun kosketusnäytön ele tunnistetaan</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Pyyhkäise alas kahdella sormella</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Pyyhkäise ylös yhdellä sormella</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Pyyhkäise ylös kotinäppäimestä</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Pyyhkäise alas yhdellä sormella</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Pyykäise vasemmalle yhdellä sormella</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Pyyhkäise oikealle yhdellä sormella</string>
@@ -522,6 +531,7 @@
     <string name="touchscreen_gesture_letter_w_title">Piirrä \"W\"</string>
     <string name="touchscreen_gesture_letter_z_title">Piirrä \"Z\"</string>
     <!-- Gesture: Stylus gestures -->
+    <string name="touchscreen_gesture_long_press_stylus_title">Pitkä painallus stylus-kynällä</string>
     <string name="touchscreen_gesture_action_dialog_title">Eleen toiminto</string>
     <string name="touchscreen_gesture_action_do_nothing">Älä tee mitään</string>
     <string name="touchscreen_gesture_action_flashlight">Käynnistä taskulamppu</string>
@@ -533,13 +543,23 @@
     <string name="touchscreen_gesture_action_play_pause_music">Toista/Keskeytä musiikki</string>
     <string name="touchscreen_gesture_action_previous_track">Siirry edelliseen musiikkikappaleeseen</string>
     <string name="touchscreen_gesture_action_next_track">Siirry seuraavaan musiikkikappaleeseen</string>
+    <string name="touchscreen_gesture_action_volume_down">Pienennä median äänenvoimakkuutta</string>
+    <string name="touchscreen_gesture_action_volume_up">Nosta median äänenvoimakkuutta</string>
     <!-- Berry Lite -->
     <string name="style_title">Tyyli</string>
     <string name="style_global_title">Tyyli</string>
+    <string name="style_global_entry_automatic">Automaattinen (taustakuva)</string>
     <string name="style_global_entry_light">Vaalea</string>
     <string name="style_global_entry_dark">Tumma</string>
+    <string name="style_global_entry_app">Palvelun %1$s hallinnoima</string>
+    <string name="style_accent_title">Aksenttiväri</string>
+    <string name="style_accent_configuration_positive">Jatka</string>
+    <string name="style_automagic_title">Automagic</string>
+    <string name="style_automagic_dialog_content">Ehdotettu tyyli: <b>%1$s</b> ja <b>%2$s</b>
+aksentti \nOtetaanko käyttöön?</string>
     <string name="style_automagic_dialog_positive">Käytä</string>
     <string name="style_accent_default_name">Oletus</string>
+    <string name="style_dark_overlay_title">Tumma tila</string>
     <string name="style_dark_overlay_default">Oletus</string>
     <string name="style_dark_overlay_black">Musta</string>
     <!-- Trust interface -->
@@ -554,5 +574,13 @@
     <string name="trust_feature_encryption_value_enabled">Ota käyttöön</string>
     <string name="trust_feature_encryption_value_disabled">Poistettu käytöstä</string>
     <string name="trust_category_tools">Tietosuoja</string>
+    <string name="trust_onboarding_title">Toivota Trust tervetulleeksi</string>
+    <string name="trust_onboarding_description">Trust auttaa sinua pitämään laitteesi turvassa ja suojaa yksityisyyttäsi.\nTrust-kuvake näkyy vain kun sivun sisältö on varmistettu.</string>
+    <string name="trust_onboarding_learn_more">Lue lisää</string>
+    <string name="trust_onboarding_done">Selvä</string>
     <!-- Sms limit -->
+    <string name="sms_security_check_limit_title">Tekstiviestiraja</string>
+    <string name="sms_security_check_limit_summary">Sovellukset voivat lähettää %s viestiä 1 minuutissa ennenkuin vahvistus vaaditaan</string>
+    <string name="sms_security_check_limit_summary_none">Sovellukset eivät saa lähettää tekstiviestiä ilman vahvistusta</string>
+    <string name="sms_security_check_limit_always_confirm">Vahvista aina</string>
 </resources>

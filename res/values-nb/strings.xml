@@ -410,13 +410,13 @@
     <string name="contributors_cloud_loading_message">Laster inn data over bidragsytere\u2026</string>
     <string name="contributors_cloud_failed_message">Kunne ikke laste inn data over bidragsytere</string>
     <string name="contributor_info_menu">Bidragsytersinformasjon</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Navn:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+    <string name="contributor_info_msg"><b>Navn:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
                  <b>Kallenavn:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Utfører:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+                 <b>Utfører:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">Bidragsinfo</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Totalt antall bidragsytere:</b><xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Totalt antall bidragsytere:</b><xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totalt antall utførelser:</b><xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Siste oppdatering:</b><xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Siste oppdatering:</b><xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Auto-rotasjon skjerm</string>
     <string name="display_rotation_title">Rotasjonsinnstillinger</string>

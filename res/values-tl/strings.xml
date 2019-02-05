@@ -416,9 +416,9 @@
     <string name="contributors_cloud_failed_message">Hindi ma-load ang mga data ng contributor</string>
     <string name="contributor_info_menu">Impormasyon ng contributor</string>
     <string name="contributions_info_menu">Impormasyon ng mga kontribusyon</string>
-    <string name="contributions_info_msg"><![CDATA[<b>Kabuuan ng mga kontribyutor:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>Kabuuan ng mga kontribyutor:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Kabuuan na mga gawa:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Huling pagbabago:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
+                 <b>Huling pagbabago:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Awtomatikong pag-ikot ng screen</string>
     <string name="display_rotation_title">Mga setting ng pag-ikot</string>
