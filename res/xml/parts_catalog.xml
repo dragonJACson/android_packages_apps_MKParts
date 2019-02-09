@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016 The CyanogenMod Project
-     Copyright (C) 2016-2017 The MoKee Open Source Project
+     Copyright (C) 2016-2019 The MoKee Open Source Project
                    2017 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -129,4 +129,10 @@
           android:title="@string/trust_title"
           android:fragment="org.mokee.mkparts.trust.TrustPreferences"
           mk:xmlRes="@xml/trust_preferences" />
+
+    <part android:key="bottom_gesture_navigation_settings"
+          android:title="@string/bottom_gesture_navigation_settings_title"
+          android:fragment="org.mokee.mkparts.gestures.BottomGestureNavigationSettings"
+          mk:xmlRes="@xml/bottom_gesture_navigation_settings" />
+
 </parts-catalog>

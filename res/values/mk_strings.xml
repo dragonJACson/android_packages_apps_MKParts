@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	Copyright (C) 2015-2018 The MoKee Open Source Project
+	Copyright (C) 2015-2019 The MoKee Open Source Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -31,5 +31,11 @@
     <!-- Push interface -->
     <string name="push_notification">Push notification</string>
     <string name="text_copied">Text copied to clipboard.</string>
+
+    <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Custom bottom navigation gestures</string>
+    <string name="bottom_gesture_navigation_settings_info">Navigation bar will be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
+    <string name="use_bottom_gesture_navigation_title">Bottom navigation gestures</string>
+    <string name="use_bottom_gesture_navigation_summary">Use bottom swipe up gestures for navigation</string>
 
 </resources>
