@@ -18,7 +18,13 @@
 package org.mokee.mkparts.gestures;
 
 import android.os.Bundle;
+import android.os.RemoteException;
 import android.support.v7.preference.Preference;
+import android.util.Log;
+import android.view.IWindowManager;
+import android.view.WindowManagerGlobal;
+
+import com.android.settingslib.widget.FooterPreference;
 
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
@@ -32,13 +38,28 @@ public class BottomGestureNavigationSettings extends SettingsPreferenceFragment 
 
     private static final String KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_LENGTH = "bottom_gesture_navigation_swipe_length";
     private static final String KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_TIMEOUT = "bottom_gesture_navigation_swipe_timeout";
+    private static final String KEY_FOOTER_PREF = "footer_preference";
 
     private IntervalSeekBarPreference mBottomGestureNavigationSwipeTriggerLength;
     private IntervalSeekBarPreference mBottomGestureNavigationSwipeTriggerTimeout;
+    private FooterPreference mBottomGestureNavigationFooterPreference;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.bottom_gesture_navigation_settings);
+
+        mBottomGestureNavigationFooterPreference = (FooterPreference) findPreference(KEY_FOOTER_PREF);
+        // Only visible on devices that does not have a navigation bar already
+        boolean hasNavigationBar = true;
+        try {
+            IWindowManager windowManager = WindowManagerGlobal.getWindowManagerService();
+            hasNavigationBar = windowManager.hasNavigationBar();
+            if (!hasNavigationBar) {
+                mBottomGestureNavigationFooterPreference.setTitle(R.string.bottom_gesture_navigation_settings_navkeys_help_text);
+            }
+        } catch (RemoteException e) {
+            Log.e(TAG, "Error getting navigation bar status");
+        }
 
         mBottomGestureNavigationSwipeTriggerLength = (IntervalSeekBarPreference) findPreference(KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_LENGTH);
         int value = MKSettings.System.getInt(getContentResolver(),

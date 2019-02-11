@@ -46,7 +46,7 @@
         android:dependency="use_bottom_gesture_navigation" />
 
     <com.android.settingslib.widget.FooterPreference
-        android:key="bottom_gesture_navigation_footer_preference"
+        android:key="footer_preference"
         android:selectable="false"
         android:title="@string/bottom_gesture_navigation_settings_help_text" />
 
