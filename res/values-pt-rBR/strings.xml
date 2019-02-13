@@ -603,7 +603,21 @@
     <string name="trust_feature_security_patches_explain">Os patches de segurança são lançados mensalmente pela Google em cooperação com os fabricantes de SoC para corrigirem falhas que possam ser exploradas por aplicações maliciosas a fim de contornarem restrições de segurança e causarem danos permanentes no seu dispositivo. Os patches disponibilizados pela Google são aplicados todos os meses em todos os dispositivos suportados, mas os patches a código proprietário só podem ser aplicados pelo fabricante do seu dispositivo. Para manter o seu dispositivo seguro certifique-se de que a sua compilação MoKee está sempre atualizada e, se aplicável, certifique-se de que a sua imagem do fabricante é atualizada para a mais recente recomendada pela equipa MoKee.</string>
     <string name="trust_feature_encryption">Encriptação</string>
     <string name="trust_feature_encryption_value_enabled">Ativo</string>
+    <string name="trust_feature_encryption_value_nolock">Requer uma tela de bloqueio segura</string>
     <string name="trust_feature_encryption_value_disabled">Desativado</string>
+    <string name="trust_feature_encryption_explain">Criptografar o seu dispositivo impede o acesso aos seus dados quando o telefone não está inicializado no Android. Isto é importante caso o seu telefone seja roubado, impedindo que outros leiam suas mensagens, contatos e outras informações particulares sem o seu código de acesso.\nPara tornar a criptografia mais eficaz, defina um código de acesso da tela de bloqueio.</string>
     <string name="trust_category_tools">Privacidade</string>
+    <string name="trust_notification_alerts_title">Alertas de segurança</string>
+    <string name="trust_warnings_alerts_intro">Você pode selecionar quais alertas de segurança deseja receber. Para a sua segurança, recomendamos que ative todos os alertas</string>
+    <string name="trust_warnings_selinux">Status do SELinux</string>
+    <string name="trust_warnings_keys">Assinatura da versão</string>
+    <string name="trust_onboarding_title">Diga oi à Trust</string>
+    <string name="trust_onboarding_description">A Trust ajuda você a manter o seu dispositivo seguro e a proteger a sua privacidade.\nO ícone da Trust só será exibido quando o conteúdo da página tiver sido verificado.</string>
+    <string name="trust_onboarding_learn_more">Saiba mais</string>
+    <string name="trust_onboarding_done">Entendi</string>
     <!-- Sms limit -->
+    <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
+    <string name="sms_security_check_limit_summary">Apps podem enviar %s mensagens em 1 minuto antes de exigirem confirmação</string>
+    <string name="sms_security_check_limit_summary_none">Apps não têm permissão para enviar mensagens sem confirmação</string>
+    <string name="sms_security_check_limit_always_confirm">Sempre confirmar</string>
 </resources>

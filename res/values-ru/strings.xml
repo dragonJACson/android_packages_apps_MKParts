@@ -616,6 +616,8 @@
     <string name="trust_onboarding_description">Trust помогает вам защитить ваше устройство и вашу конфиденциальность.\nЗначок Trust отображается для того, чтобы помочь вам проверить безопасность содержимого</string>
     <string name="trust_onboarding_learn_more">Узнайте больше</string>
     <string name="trust_onboarding_done">Понятно</string>
+    <string name="trust_restrict_usb_title">Ограничить USB</string>
+    <string name="trust_restrict_usb_summary">Отключить определение новых USB-гаджетов, когда устройство заблокировано</string>
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">Ограничение SMS-сообщений</string>
     <string name="sms_security_check_limit_summary">Отображать предупреждение, если за 15 минут было отправлено более %s SMS-сообщений</string>
