@@ -615,6 +615,8 @@
     <string name="trust_onboarding_description">Güvenlik cihazınızın güvenliğini sağlamanıza ve gizliliğinizi korumanıza yardımcı olur.\nGüvenlik içeriğinin güvenliğini kontrol ederek size yardımcı olacak güvenlik simgesi görünecektir</string>
     <string name="trust_onboarding_learn_more">Daha fazla bilgi edin</string>
     <string name="trust_onboarding_done">Anladım</string>
+    <string name="trust_restrict_usb_title">USB\'yi kısıtla</string>
+    <string name="trust_restrict_usb_summary">Cihaz kilitlendiğinde yeni USB aygıtlarını devre dışı bırak</string>
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">SMS mesaj sınırı</string>
     <string name="sms_security_check_limit_summary">15 dakika içinde %s den fazla SMS mesajı gönderildiğinde bir uyarı görüntüle</string>

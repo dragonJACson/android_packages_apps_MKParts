@@ -615,6 +615,8 @@
     <string name="trust_onboarding_description">安全中心能保障你的设备安全并保护你的隐私。\n你可以通过显示的安全图标检查内容的安全性。</string>
     <string name="trust_onboarding_learn_more">了解详情</string>
     <string name="trust_onboarding_done">我知道了</string>
+    <string name="trust_restrict_usb_title">限制 USB</string>
+    <string name="trust_restrict_usb_summary">当设备锁定时禁用新的 USB 小工具</string>
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">短信限制</string>
     <string name="sms_security_check_limit_summary">在 15 分钟内发送超过 %s 条短信时显示警报</string>

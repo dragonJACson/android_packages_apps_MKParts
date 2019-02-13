@@ -617,6 +617,8 @@
 \nTrust ikona se bo prikazala samo, ko bo vsebina strani potrjena.</string>
     <string name="trust_onboarding_learn_more">Več o tem</string>
     <string name="trust_onboarding_done">Razumem</string>
+    <string name="trust_restrict_usb_title">Omejitev USB</string>
+    <string name="trust_restrict_usb_summary">Onemogoči nove pripomočke USB, ko je naprava zaklenjena</string>
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">Omejitev sporočil SMS</string>
     <string name="sms_security_check_limit_summary">Aplikacije lahko pošljejo %s sporočil v eni minuti, preden je zahtevana potrditev</string>
