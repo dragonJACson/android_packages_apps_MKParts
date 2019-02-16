@@ -30,4 +30,15 @@
     <string name="push_notification">Notifiche push</string>
     <string name="text_copied">Testo copiato negli appunti.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Gesti di navigazione inferiore</string>
+    <string name="bottom_gesture_navigation_settings_summary">Usa i gesti di scorrimento inferiore per la navigazione</string>
+    <string name="bottom_gesture_navigation_settings_help_text">La barra di navigazione sarà nascosta!\n\nGestioni disponibili:\n\nIndietro\n- Scorri verso sinistra o destra\n\nHome\n- Scorri verso il centro\n\nApp recenti\n- Scorri verso l\'alto dal centro e tieni premuto\n\nTieni premuto home\n- Scorri verso l\'alto e tieni premuto al centro</string>
+    <string name="bottom_gesture_navigation_settings_navkeys_help_text">I pulsanti hardware saranno disabilitati!\n\nGesti disponibili:\n\nIndietro\n- Scorri verso l\'alto sul lato sinistro o destro\n\nHome\n- Scorri verso il centro\n\nApp recenti\n- Scorri verso l\'alto dal centro e tieni premuto\n\nTieni premuto home\n- Scorri verso l\'alto e tieni premuto al centro</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Altezza dell\'area di scorrimento</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Altezza dal basso per attivare lo scorrimento</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Tempo di attesa dello scorrimento</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Tempo prima che l\'azione dello scorrimento venga avviata</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

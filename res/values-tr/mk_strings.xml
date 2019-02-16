@@ -30,4 +30,15 @@
     <string name="push_notification">Push bildirimleri</string>
     <string name="text_copied">Metin panoya kopyalandı.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Alt gezinme hareketleri</string>
+    <string name="bottom_gesture_navigation_settings_summary">Gezinme için yukarı kaydırma hareketlerini kullan</string>
+    <string name="bottom_gesture_navigation_settings_help_text">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nSon uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nAna ekrana uzun basın\n- Kısa hızlı yukarı kaydırın ve merkezde tutun</string>
+    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nSon uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nAna ekrana uzun basın\n- Kısa hızlı yukarı kaydırın ve merkezde tutun</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Kaydırma alanı yüksekliği</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Kaydırmayı etkinleştirmek için alt yükseklik</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Kaydırma eylemi zamanı</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Hareket eylemi başlamadan önce zaman aşımı</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

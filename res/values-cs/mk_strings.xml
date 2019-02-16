@@ -30,4 +30,15 @@
     <string name="push_notification">Nabízená upozornění</string>
     <string name="text_copied">Text zkopírován do schránky.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Dolní navigační gesta</string>
+    <string name="bottom_gesture_navigation_settings_summary">Pro navigaci použít gesto potáhnutí zdola nahoru</string>
+    <string name="bottom_gesture_navigation_settings_help_text">Navigační panel bude skryt!\n\nDostupná gesta:\n\nZpět\n- Přejeďte na levé nebo pravé straně\n\nDomů\n- Přejeďte nahoru\n\nNedávne aplikace\n- Přejeďte nahoru a podržte\n\nDlouhý stisk Domů\n- Krátce přejeďte nahoru a podržte uprostřed</string>
+    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Hardwarová tlačítka budou zakázána!\n\nDostupná gesta:\n\nZpět\n- Přejeďte na levé nebo pravé straně\n\nDomů\n- Přejeďte nahoru\n\nNedávne aplikace\n- Přejeďte nahoru a podržte\n\nDlouhý stisk Domů\n- Krátce přejeďte nahoru a podržte uprostřed</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Výška spouštěcí oblasti pro gesto</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Výška odspodu ke spuštění gesta</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Časový limit spuštění gesta</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Časový limit před zahájením akcí gesty</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>
