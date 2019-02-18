@@ -30,8 +30,8 @@
     <string name="push_notification">推播通知</string>
     <string name="text_copied">文字已複製到剪貼簿</string>
     <!-- OP like Navigation Gestures -->
-    <string name="bottom_gesture_navigation_settings_title">全面屏手勢</string>
-    <string name="bottom_gesture_navigation_settings_summary">使用從熒幕底部向上滑動的手勢進行導航操作</string>
+    <string name="bottom_gesture_navigation_settings_title">底部手勢操作</string>
+    <string name="bottom_gesture_navigation_settings_summary">使用底部向上滑動手勢進行導航操作</string>
     <string name="bottom_gesture_navigation_settings_help_text">導航列將被隱藏！\n\n支援的手勢功能：\n\n返回上一步\n-從左側或右側向上滑動\n\n返回主頁\n-從中間向上滑動\n\n近期任務列表\n-從中間向上滑動後停留\n\n長按主頁鍵快捷功能\n-從中間向上短滑後停留</string>
     <string name="bottom_gesture_navigation_settings_navkeys_help_text">實體按鍵將被禁用！\n\n支援的手勢功能：\n\n返回上一步\n-從左側或右側向上滑動\n\n返回主頁\n-從中間向上滑動\n\n近期任務列表\n-從中間向上滑動後停留\n\n長按主頁鍵快捷功能\n-從中間向上短滑後停留</string>
     <string name="bottom_gesture_navigation_swipe_length_title">滑動區域高度</string>

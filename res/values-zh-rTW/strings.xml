@@ -125,7 +125,7 @@
     <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
     <string name="live_display_color_profile_natural_title">自然</string>
     <string name="live_display_color_profile_natural_summary">現實的色彩和自然的膚色</string>
-    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_title">增強模式</string>
     <string name="live_display_color_profile_dynamic_summary">增強的色彩和明亮的白色</string>
     <string name="live_display_color_profile_cinema_title">劇院</string>
     <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
@@ -137,7 +137,7 @@
     <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
     <string name="live_display_color_profile_adaptive_title">自動調整</string>
     <string name="live_display_color_profile_adaptive_summary">自動按環境條件調整顏色</string>
-    <string name="live_display_color_profile_reading_title">讀取中</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
     <string name="live_display_color_profile_reading_summary">溫暖的色彩少眼睛疲勞</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">顏色準確到 sRGB 色域</string>
