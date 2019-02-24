@@ -28,5 +28,9 @@
     <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
     <!-- Push interface -->
     <string name="push_notification">Push-Benachrichtigung</string>
+    <string name="text_copied">Text in Zwischenablage kopiert.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

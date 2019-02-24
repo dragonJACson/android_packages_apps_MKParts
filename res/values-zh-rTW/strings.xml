@@ -584,8 +584,8 @@
     <!-- Trust interface -->
     <string name="trust_category_features">狀態</string>
     <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">執行中</string>
-    <string name="trust_feature_selinux_value_disabled">停用</string>
+    <string name="trust_feature_selinux_value_enforcing">強制模式</string>
+    <string name="trust_feature_selinux_value_disabled">停用模式</string>
     <string name="trust_feature_selinux_explain">SELinux 規定了哪些程式可以存取您的裝置上的哪些檔案。\n這個機制可以防止應用程式和服務存取它們不該訪問的檔案，因此惡意程式的存取也會受到限制，從而保護了您的安全。</string>
     <string name="trust_feature_root">Root 權限</string>
     <string name="trust_feature_root_value_disabled">停用</string>
