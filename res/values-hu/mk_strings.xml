@@ -19,7 +19,7 @@
     <!-- Application name -->
     <string name="mkparts_title">MoKee-beállítások</string>
     <!-- Fingerprint shortcuts -->
-    <string name="fingerprint_shortcut_settings_title">Ujjlenyomat parancsikonok</string>
+    <string name="fingerprint_shortcut_settings_title">Ujjlenyomat-parancsikonok</string>
     <string name="fingerprint_shortcut_not_specified">Nincs megadva</string>
     <string name="fingerprint_shortcut_ok">Rendben</string>
     <string name="fingerprint_shortcut_edit">Szerkeztés</string>
