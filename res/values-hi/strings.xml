@@ -18,7 +18,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Generic stuff used everywhere -->
     <string name="loading">लोड हो रहा\u2026</string>
     <string name="dlg_ok">ठीक है</string>
     <string name="cancel">रद्द करें</string>
@@ -35,33 +34,23 @@
     <string name="off">बंद</string>
     <string name="yes">हां</string>
     <string name="search">खोज</string>
-    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-    <!-- Privacy Settings Header item -->
-    <!-- Privacy Guard -->
     <string name="privacy_guard_help_title">सहायता</string>
     <string name="privacy_guard_reset_title">रीसेट करें</string>
     <string name="privacy_guard_manager_show_system_apps">अंतःस्थापित ऐप दिखाएँ</string>
     <string name="privacy_guard_advanced_settings_title">उन्नत</string>
-    <!-- Notification light dialogs -->
     <string name="default_time">सामान्य</string>
     <string name="custom_time">कस्टम</string>
     <string name="dialog_delete_title">हटाएं</string>
-    <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_normal">सामान्य</string>
     <string name="pulse_speed_normal">सामान्य</string>
-    <!-- Common light settings strings -->
     <string name="light_brightness_normal">सामान्य</string>
-    <!-- Battery light settings -->
-    <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_advanced_title">उन्नत</string>
     <string name="keywords_lights_brightness_level">एल ई डी की चमक मंद करें</string>
     <string name="notification_light_automagic">स्वचालित रूप से रंग चुनें</string>
     <string name="notification_light_automagic_summary">स्वचालित रूप से रंग चुन रहा है</string>
-    <!-- Lights settings, LED notification -->
     <string name="led_notification_title">प्रकाश सेटिंग</string>
     <string name="led_notification_text">एलईडी लाइट सेटिंग्स के द्वारा सक्षम किया गया</string>
     <string name="notification_light_no_apps_summary">प्रति एप नियंत्रण को जोड़ने के लिए, \'%1$s\' को सक्रिय करें, और मेनू बार पर \'\u002b\' दबाएँ</string>
-    <!-- LiveDisplay -->
     <string name="live_display_summary">पठनीयता में सुधार और आँख पर पड़ने वाले दबाव को कम करने के लिए दिन के समय और परिवेश की स्थितियों के आधार पर अपनी स्क्रीन ऑप्टिमाइज़ करें</string>
     <string name="live_display_mode">प्रदर्शन मोड</string>
     <string name="live_display_color_temperature_title">रंग का तापमान</string>
@@ -105,23 +94,18 @@
     <string name="color_red_title">लाल</string>
     <string name="color_green_title">हरा</string>
     <string name="color_blue_title">नीला</string>
-    <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">चित्र समायोजन</string>
     <string name="picture_adjustment_summary">छटा, संतृप्ति, तीव्रता, और कंट्रास्ट समायोजित करें</string>
     <string name="adj_hue_title">ह्यू</string>
     <string name="adj_saturation_title">संतृप्तता</string>
     <string name="adj_intensity_title">तीव्रता</string>
     <string name="adj_contrast_title">कंट्रास्‍ट</string>
-    <!-- Button settings -->
     <string name="hardware_keys_menu_key_title">मेनू बटन</string>
-    <!-- Key backlight -->
     <string name="backlight_timeout_title">प्रकाश का समय समाप्त</string>
     <string name="backlight_timeout_unlimited">बंद नही करें</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g> के लिए सक्षम किया गया</string>
-    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">ऑन-स्क्रीन नेविगेशन पट्टी सक्षम करें</string>
     <string name="disable_navkeys_summary">ऑनस्क्रीन नाविगेशन पट्टी शुरू करें और हार्डवेअर बटन बंद करें</string>
-    <!-- Navigation Bar -->
     <string name="navigation_bar_category">नेविगेशन पट्टी</string>
     <string name="navigation_bar_title">बटन और लेआउट</string>
     <string name="navigation_bar_left_summary">नेविगेशन पट्टी को स्क्रीन की बायीं और लैंड स्केप मोड में रखें</string>
@@ -130,7 +114,6 @@
     <string name="navigation_bar_home_long_press_title">होम बटन को लम्बे समय तक दबाने पर प्रतिक्रिया</string>
     <string name="navigation_bar_home_double_tap_title">होम को दो बार दबाने पर कारवाई करे</string>
     <string name="navigation_bar_app_switch_long_press_title">हाल ही के लम्बे समय तक दबाने वाली क्रियाएं</string>
-    <!-- Power menu -->
     <string name="power_menu_title">पावर मेन्यू</string>
     <string name="power_menu_screenshot_title">स्क्रीनशॉट</string>
     <string name="power_menu_screenshot_summary">आंशिक स्क्रीनशॉट के लिए लंबे समय प्रेस करें</string>
@@ -140,7 +123,6 @@
     <string name="power_menu_bug_report_disabled">त्रुटि रिपोर्ट को डवलपमेंट सेटिंग में अक्षम किया जा रहा है</string>
     <string name="power_menu_lockdown_title">लॉकडाउन</string>
     <string name="camera_double_tap_power_gesture_title">कैमरा खोलने के लिए दो बार पावर कुंजी को दबाएँ</string>
-    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="camera_double_tap_power_gesture_desc">अपनी स्क्रीन को अनलॉक किये बिना तुरंत कैमरा खोले</string>
     <string name="torch_long_press_power_gesture_title">टॉर्च के लिए लंबे समय तक प्रेस करें</string>
     <string name="torch_long_press_power_gesture_desc">डिस्प्ले बंद होने पर पावर कुंजी को लम्बे समय तक दबाकर टॉर्च को सक्रिय करें</string>
@@ -150,7 +132,6 @@
     <string name="torch_long_press_power_timeout_2min">2 मिनट</string>
     <string name="torch_long_press_power_timeout_5min">5 मिनट</string>
     <string name="torch_long_press_power_timeout_10min">10 मिनट</string>
-    <!-- Profiles -->
     <string name="profile_menu_delete_title">हटाएं</string>
     <string name="profile_action_none">अपरिवर्तित छोड़ें</string>
     <string name="profile_action_system">सिस्टम डिफ़ॉल्ट</string>
@@ -167,44 +148,28 @@
     <string name="profile_setup_actions_title">चरण 2: सेटअप क्रियाएं</string>
     <string name="profile_setup_actions_title_config">क्रियाओं को पुनः कन्फिगर करें</string>
     <string name="wireless_networks_settings_title">वायरलेस &amp; नेटवर्क</string>
-    <!-- Profile triggers -->
     <string name="no_bluetooth_triggers">कोई ब्लूटूथ डिवाइस नही जोड़ी गयी है।\n कॉन्फ़िगर ट्रिगर होने से पहले ब्लूटूथ डिवाइस जोड़ने के लिए टैप करें।</string>
     <string name="no_wifi_triggers">कोई वाई\u2011फाई बिंदु कॉन्फ़िगर नही किये गये हैं।\n ट्रिगर कॉन्फ़िगर करने से पहले वाई\u2011फाई कनेक्ट करने के लिए टैप करें।</string>
     <string name="no_triggers_configured">कोई भी ट्रिगर कॉन्फ़िगर नही कए गये हैं। अधिक जोड़ने के लिए टैप करें।</string>
     <string name="no_triggers_configured_nfc">एक नया एनएफसी ट्रिगर सेटअप करने के लिए टैप करें ।</string>
-    <!-- Profiles settings  -->
     <string name="profiles_add">जोड़ें</string>
     <string name="profile_menu_delete">हटाएं</string>
-    <!-- Profile mode options. -->
     <string name="profile_entries_on">चालू</string>
     <string name="profile_entries_off">बंद</string>
-    <!-- Add Profile -->
     <string name="profile_name_title">नाम</string>
-    <!-- Rename Dialog  -->
-    <!-- Reset Profiles -->
     <string name="profile_reset_title">रीसेट करें</string>
-    <!-- Delete confimation messages -->
-    <!-- Profile network mode -->
-    <!-- Profile Config screen PreferenceGroup titles -->
-    <!-- Menu item for managing profiles -->
-    <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <!-- Profile Settings sound modes labels -->
     <string name="lights_mode">लाइट मोड</string>
     <string name="vibrate_mode">कंपन मोड</string>
     <string name="choose_soundtone">अधिसूचना टोन चुने</string>
     <string name="choose_ringtone">रिंगटोन का चयन करें</string>
     <string name="ringtone_title">फ़ोन रिंगटोन</string>
-    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">अधिसूचना टोन</string>
-    <!-- Title for application group setting screen -->
     <string name="profile_new_appgroup">नया ऐप समूह</string>
     <string name="profile_delete_appgroup">इस समूह को हटायें</string>
     <string name="profile_appgroup_name_prompt">नये एप ग्रुप के लिए नाम दर्ज करें</string>
     <string name="profile_appgroup_name_title">नाम</string>
     <string name="duplicate_appgroup_name">डुप्लिकेट ऐप समूह का नाम!</string>
-    <!-- Add application dialog box title -->
     <string name="profile_choose_app">ऐप का चयन करे</string>
-    <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">सिस्टम सेटिंग</string>
     <string name="profile_lockmode_title">लॉक स्क्रीन मोड</string>
     <string name="profile_lockmode_policy_disabled_summary">यह प्रोफ़ाइल विकल्प किसी डिवाइस व्यवस्थापक नीति द्वारा अक्षम किया गया है</string>
@@ -214,7 +179,6 @@
     <string name="profile_brightness_title">स्क्रीन की चमक</string>
     <string name="profile_brightness_override_summary">%1$d%% पर निर्धारित करें</string>
     <string name="profile_brightness_override_checkbox_label">चमक को रद्द करें</string>
-    <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleWifi">वाई\u2011फाई</string>
     <string name="toggleWifiAp">पोर्टेबल वाई\u2011फाई हॉटस्पॉट</string>
     <string name="toggleBluetooth">ब्लूटूथ</string>
@@ -222,7 +186,6 @@
     <string name="toggleData">डेटा कनेक्शन</string>
     <string name="toggleSync">ऑटो-सिंक्रोनाइज़ डेटा</string>
     <string name="toggleNfc">एनएफसी</string>
-    <!-- Sound settings screen -->
     <string name="ring_mode_normal">सामान्य</string>
     <string name="ring_mode_vibrate">कंपन करें</string>
     <string name="ring_mode_mute">म्यूट करें</string>
@@ -232,7 +195,6 @@
     <string name="media_volume_title">माध्यम</string>
     <string name="alarm_volume_title">अलार्म</string>
     <string name="doze_title">परिवेशी प्रदर्शन</string>
-    <!-- Status bar -->
     <string name="status_bar_title">स्टेटस बार</string>
     <string name="status_bar_quick_qs_pulldown_title">त्वरित गति से नीचे खींचिए</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">बाएं</string>
@@ -242,12 +204,10 @@
     <string name="status_bar_quick_qs_pulldown_right">दाएँ</string>
     <string name="status_bar_double_tap_to_sleep_title">निद्रा के लिए दो बार टैप करें</string>
     <string name="status_bar_double_tap_to_sleep_summary">डिस्प्ले को बंद करने के लिए स्थिति पट्टी पर दो बार टैप करें</string>
-    <!-- Status bar - icons -->
     <string name="status_bar_icons_title">स्थिति पट्टी चिह्न</string>
     <string name="status_bar_notif_count_title">अधिसूचना गणना दिखाएँ</string>
     <string name="status_bar_notif_count_summary">लंबित सूचनाओं की संख्या प्रदर्शित करें</string>
     <string name="status_bar_system_icons_title">प्रणाली चिह्न</string>
-    <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">घड़ी</string>
     <string name="status_bar_clock_show_seconds_title">सेकंड दिखाएँ</string>
     <string name="status_bar_clock_show_seconds_summary">घंटे, मिनट और सेकंड दिखाएं</string>
@@ -257,39 +217,19 @@
     <string name="status_bar_clock_position_center">मध्य</string>
     <string name="status_bar_am_pm_title">ऐऍम/पीऍम शैली</string>
     <string name="status_bar_am_pm_normal">सामान्य</string>
-    <!-- Status bar - Battery -->
-    <!-- Status bar - Battery percentage -->
-    <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">स्क्रीन की रोशनी</string>
-    <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">प्रदर्शन मोड</string>
-    <!-- Protected apps -->
     <string name="protected_apps_manager_title">रक्षित ऐप</string>
-    <!-- Contributors cloud activity -->
-    <!-- Display : Rotation  -->
-    <!-- Weather -->
     <string name="status_bar_show_weather_title">मौसम दिखाएँ</string>
-    <!-- Power: Performance profiles -->
     <string name="auto_power_save_never">कभी नहीं</string>
-    <!-- Applications: Expanded desktop -->
-    <!-- Applications: Long screen -->
-    <!-- Sounds: Charging sounds -->
     <string name="power_notifications_vibrate_title">कंपन करें</string>
     <string name="charging_sounds_ringtone_silent">मौन</string>
-    <!-- Gestures: Touchscreen gestures -->
-    <!-- Gesture: Stylus gestures -->
-    <!-- Berry Lite -->
     <string name="style_title">शैली</string>
     <string name="style_global_title">शैली</string>
     <string name="style_global_entry_light">हल्का</string>
     <string name="style_automagic_dialog_positive">*</string>
     <string name="style_dark_overlay_black">काली</string>
-    <!-- Trust interface -->
     <string name="trust_feature_root">मूल पहुँच</string>
     <string name="trust_feature_root_value_adb">केवल एडीबी</string>
     <string name="trust_feature_root_value_apps">ऐप और एडीबी</string>
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Sms limit -->
 </resources>

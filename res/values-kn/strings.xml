@@ -18,7 +18,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Generic stuff used everywhere -->
     <string name="loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
     <string name="dlg_ok">ಸರಿ</string>
     <string name="cancel">ರದ್ದು</string>
@@ -38,10 +37,7 @@
     <string name="search">ಹುಡುಕಿ</string>
     <string name="disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="enabled">ಸಕ್ರಿಯ</string>
-    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-    <!-- Privacy Settings Header item -->
     <string name="privacy_settings_title">ಗೌಪ್ಯತೆ</string>
-    <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು</string>
     <string name="privacy_guard_dlg_title">ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು?</string>
     <string name="privacy_guard_dlg_text">ಗೌಪ್ಯತೆ ರಕ್ಷಣೆ ಸಕ್ರಿಯದಲ್ಲಿದ್ದಾಗ ಕಿರುತಂತ್ರಾಂಶಕ್ಕೆ ವೈಯಕ್ತಿಕ ದತ್ತಾಂಶಗಳಾದ ಸಂಪರ್ಕಗಳು, ಸಂದೇಶಗಳು ಅಥವಾ ಕರೆ ದಾಖಲೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಅಸಾಧ್ಯ.</string>
@@ -55,7 +51,6 @@
     <string name="privacy_guard_manager_show_system_apps">ಅಂತರ್ನಿರ್ಮಿತ ಆಪ್‍ಗಳನ್ನು ಪ್ರದರ್ಶಿಸು</string>
     <string name="privacy_guard_advanced_settings_title">ಮುಂದುವರೆದ</string>
     <string name="privacy_guard_notification_title">ಅಧಿಸೂಚನೆಗಳನ್ನು ತೋರಿಸು</string>
-    <!-- Notification light dialogs -->
     <string name="edit_light_settings">ಬೆಳಕಿನ ಸಂಯೋಜನೆಗಳನ್ನು ಪರಿಷ್ಕರಿಸಿ</string>
     <string name="pulse_speed_title">ಮಿಡಿತದ ಅವಧಿ ಮತ್ತು ವೇಗ</string>
     <string name="default_time">ಸಾಮಾನ್ಯ</string>
@@ -63,7 +58,6 @@
     <string name="dialog_delete_title">ಅಳಿಸು</string>
     <string name="dialog_delete_message">ಆಯ್ಕೆಮಾಡಿದ ಅಂಶಗಳನ್ನು ತೆಗೆಯಬೇಕೇ?</string>
     <string name="brightness">ಪ್ರಕಾಶಮಾನ ಮಟ್ಟ</string>
-    <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">ಯಾವಾಗಲೂ ಆರಂಭಿತ</string>
     <string name="pulse_length_very_short">ಅತೀ ಚಿಕ್ಕ</string>
     <string name="pulse_length_short">ಚಿಕ್ಕ</string>
@@ -75,18 +69,15 @@
     <string name="pulse_speed_normal">ಸಾಮಾನ್ಯ</string>
     <string name="pulse_speed_slow">ನಿಧಾನ</string>
     <string name="pulse_speed_very_slow">ಅತೀ ನಿಧಾನ</string>
-    <!-- Common light settings strings -->
     <string name="light_brightness_title">ಪ್ರಖರತೆಯ ಮಟ್ಟಗಳು</string>
     <string name="light_brightness_normal">ಸಾಮಾನ್ಯ</string>
     <string name="light_brightness_zen">ಅಡಚಣೆ ಮಾಡದಿರು</string>
-    <!-- Battery light settings -->
     <string name="battery_light_title">ಬ್ಯಾಟರಿ ದೀಪ</string>
     <string name="battery_low_pulse_title">ಬ್ಯಾಟರಿ ಕಡಿಮೆಯಾದರೆ ಪಲ್ಸ್ ಬರಲಿ</string>
     <string name="battery_light_list_title">ಬಣ್ಣಗಳು</string>
     <string name="battery_light_low_color_title">ಬ್ಯಾಟರಿ ಕಡಿಮೆ</string>
     <string name="battery_light_medium_color_title">ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
     <string name="battery_light_full_color_title">ಸಂಪೂರ್ಣ ಚಾರ್ಜಗೊಂಡ</string>
-    <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">ಅಧಿಸೂಚನೆ ಬೆಳಕು</string>
     <string name="notification_light_general_title">ಸಾಮಾನ್ಯ</string>
     <string name="notification_light_advanced_title">ಮುಂದುವರೆದ</string>
@@ -101,10 +92,8 @@
     <string name="keywords_lights_brightness_level">led ಪ್ರಕಾಶಮಾನವನ್ನು ಕಡಿಮೆಗೊಳಿಸು</string>
     <string name="notification_light_automagic">ಸ್ವಯಂ ಬಣ್ಣಗಳನ್ನು ಆರಿಸು</string>
     <string name="notification_light_automagic_summary">ಸ್ವಯಂ ಬಣ್ಣಗಳನ್ನು ಆರಿಸುತ್ತಿದೆ</string>
-    <!-- Lights settings, LED notification -->
     <string name="led_notification_title">ಬೆಳಕಿನ ಸಂಯೋಜನೆಗಳು</string>
     <string name="led_notification_text">LED ಬೆಳಕು ಸಕ್ರಿಯಗೊಳ್ಳಲ್ಪಡುವ ಸಂಯೋಜನೆಗಳು</string>
-    <!-- LiveDisplay -->
     <string name="live_display_mode">ಪ್ರದರ್ಶನ ರೀತಿ</string>
     <string name="live_display_color_temperature_title">ಕಲರ್ ತಾಪಮಾನ</string>
     <string name="live_display_day">ದಿನ</string>
@@ -145,14 +134,12 @@
     <string name="color_red_title">ಕೆಂಪು</string>
     <string name="color_green_title">ಹಸಿರು</string>
     <string name="color_blue_title">ನೀಲಿ</string>
-    <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">ಚಿತ್ರದ ಹೊಂದಾಣಿಕೆ</string>
     <string name="picture_adjustment_summary">ರಂಗು, ಆರ್ದ್ರೀಯತೆ, ತೀವ್ರತೆ ಮತ್ತು ವೈದೃಶ್ಯ ಹೊಂದಿಸು</string>
     <string name="adj_hue_title">ವರ್ಣ</string>
     <string name="adj_saturation_title">ಸ್ಯಾಚುರೇಶನ್</string>
     <string name="adj_intensity_title">ತೀವ್ರತೆ</string>
     <string name="adj_contrast_title">ಕಾಂಟ್ರಾಸ್ಟ್‌‌</string>
-    <!-- Button settings -->
     <string name="button_pref_title">ಗುಂಡಿಗಳು</string>
     <string name="hardware_keys_power_key_title">ವಿದ್ಯುತ್ ಗುಂಡಿ</string>
     <string name="hardware_keys_home_key_title">ಮುಖಪುಟ ಗುಂಡಿ</string>
@@ -186,13 +173,9 @@
     <string name="volbtn_cursor_control_on">ಧ್ವನಿ ಮೇಲೆ/ಕೆಳಗೆ ಕರ್ಸರ್ ಅನ್ನು ಎಡಕ್ಕೆ/ಬಲಕ್ಕೆ ಚಲಾಯಿಸುತ್ತದೆ</string>
     <string name="volbtn_cursor_control_on_reverse">ಧ್ವನಿ ಮೇಲೆ/ಕೆಳಗೆ ಕರ್ಸರ್ ಅನ್ನು ಬಲಕ್ಕೆ/ಎಡಕ್ಕೆ ಚಲಾಯಿಸುತ್ತದೆ</string>
     <string name="power_end_call_title">ಕರೆ ಕೊನೆಗೊಳಿಸು</string>
-    <!-- Key backlight -->
     <string name="button_backlight_title">ಬ್ಯಾಕ್‌ಲೈಟ್</string>
     <string name="backlight_summary_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="backlight_summary_enabled">ಸಕ್ರಿಯ</string>
-    <!-- Buttons - Enable navbar -->
-    <!-- Navigation Bar -->
-    <!-- Power menu -->
     <string name="power_menu_title">ವಿದ್ಯುತ್ ಮೆನು</string>
     <string name="power_menu_screenshot_title">ತೆರೆಸೆರೆ</string>
     <string name="power_menu_screenshot_summary">ಭಾಗಶಃ ಪರದೆಚಿತ್ರಕ್ಕೆ ಒತ್ತಿ-ಹಿಡಿಯಿರಿ</string>
@@ -200,125 +183,82 @@
     <string name="power_menu_users_title">ಬಳಕೆದಾರರನ್ನು ವರ್ಗಾಯಿಸಿ</string>
     <string name="power_menu_bug_report_title">ದೋಷ ವರದಿ</string>
     <string name="power_menu_bug_report_disabled">ಅಭಿವೃದ್ಧಿ ಸಂಯೋಜನೆಗಳಲ್ಲಿ ದೋಷ ವರದಿ ಮಾಡುವಿಕೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
-    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="torch_long_press_power_timeout_never">ಎಂದಿಗೂ</string>
     <string name="torch_long_press_power_timeout_1min">1 ನಿಮಿಷ</string>
     <string name="torch_long_press_power_timeout_2min">2 ನಿಮಿಷಗಳು</string>
     <string name="torch_long_press_power_timeout_5min">5 ನಿಮಿಷಗಳು</string>
     <string name="torch_long_press_power_timeout_10min">10 ನಿಮಿಷಗಳು</string>
-    <!-- Profiles -->
     <string name="profile_menu_delete_title">ಅಳಿಸು</string>
     <string name="profile_tabs_wifi">ವೈ\u2011ಫೈ</string>
     <string name="profile_tabs_bluetooth">ಬ್ಲೂಟೂತ್</string>
     <string name="profile_tabs_nfc">ಎನ್ಎಫ್‍ಸಿ</string>
-    <!-- Profile triggers -->
-    <!-- Profiles settings  -->
     <string name="profiles_add">ಸೇರಿಸಿ</string>
     <string name="profile_menu_delete">ಅಳಿಸು</string>
-    <!-- Profile mode options. -->
     <string name="profile_entries_on">ಆರಂಭಿಸು</string>
     <string name="profile_entries_off">ಆರಿಸು</string>
-    <!-- Add Profile -->
     <string name="profile_name_title">ಹೆಸರು</string>
-    <!-- Rename Dialog  -->
-    <!-- Reset Profiles -->
     <string name="profile_reset_title">ಮರುಹೊಂದಿಸು</string>
-    <!-- Delete confimation messages -->
-    <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_4g">LTE</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
     <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
-    <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_volumeoverrides_title">ಧ್ವನಿಯ ಶಕ್ತಿ ಅತಿಕ್ರಮಣಗಳು</string>
     <string name="connection_state_enabled">ಸಕ್ರಿಯ</string>
     <string name="volume_override_summary">%1$s/%2$s ಗೆ ಹೊಂದಿಸಿದೆ</string>
     <string name="profile_volume_override_checkbox_label">ಧ್ವನಿಯ ಶಕ್ತಿ ಅತಿಕ್ರಮಿಸು</string>
-    <!-- Menu item for managing profiles -->
-    <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <!-- Profile Settings sound modes labels -->
     <string name="lights_mode">ಬೆಳಕಿನ ರೀತಿ</string>
     <string name="vibrate_mode">ಕಂಪನ ರೀತಿ</string>
     <string name="choose_soundtone">ಸೂಚನೆ ನಾದ ಆರಿಸು</string>
     <string name="choose_ringtone">ಗಂಟೆನಾದ ಆರಿಸು</string>
     <string name="ringtone_title">ಫೋನ್ ರಿಂಗ್‌ಟೋನ್</string>
-    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">ಸೂಚನೆಯ ನಾದ</string>
-    <!-- Title for application group setting screen -->
     <string name="profile_applist_title">ತಂತ್ರಾಂಶಗಳು</string>
     <string name="profile_new_appgroup">ಹೊಸ ತಂತ್ರಾಂಶ ಗುಂಪು</string>
     <string name="profile_appgroup_name_title">ಹೆಸರು</string>
-    <!-- Add application dialog box title -->
     <string name="profile_choose_app">ತಂತ್ರಾಂಶ ಆಯ್ಕೆಮಾಡಿ</string>
-    <!-- Profiles - system settings -->
     <string name="profile_airplanemode_title">ಏರ್ಪ್ಲೇನ್ ಮಾದರಿ</string>
-    <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleWifi">ವೈ\u2011ಫೈ</string>
     <string name="toggleBluetooth">ಬ್ಲೂಟೂತ್</string>
     <string name="toggleGPS">ಜಿಪಿಎಸ್</string>
     <string name="toggleNfc">ಎನ್ಎಫ್‍ಸಿ</string>
-    <!-- Sound settings screen -->
     <string name="ring_mode_normal">ಸಾಮಾನ್ಯ</string>
     <string name="ring_mode_vibrate">ಕಂಪಿಸು</string>
     <string name="ring_mode_mute">ಮೌನ</string>
     <string name="notification_volume_title">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="media_volume_title">ಮಾಧ್ಯಮ</string>
     <string name="doze_title">ಆವರಿಸಿದ ಪರದೆ</string>
-    <!-- Status bar -->
     <string name="status_bar_quick_qs_pulldown_off">ಆರಿಸು</string>
     <string name="status_bar_double_tap_to_sleep_title">ನಿದ್ರಿಸಲು ದ್ವಿಗುಣ-ಸ್ಪರ್ಶ</string>
     <string name="status_bar_double_tap_to_sleep_summary">ಪ್ರದರ್ಶನವನ್ನು ಆಫ್ ಮಾಡಲು ಸ್ಟೇಟಸ್ ಬಾರ್‍ ಮೇಲೆ ದ್ವಿಗುಣ-ಸ್ಪರ್ಶಿಸಿ</string>
-    <!-- Status bar - icons -->
-    <!-- Status bar - Clock -->
     <string name="status_bar_am_pm_normal">ಸಾಮಾನ್ಯ</string>
-    <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_text">ಪಠ್ಯ</string>
-    <!-- Status bar - Battery percentage -->
-    <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">ಪ್ರಖರತೆ</string>
-    <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">ಪ್ರದರ್ಶನ ರೀತಿ</string>
     <string name="network_traffic_mode_disable">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
-    <!-- Protected apps -->
     <string name="protected_apps_manager_title">ಸಂರಕ್ಷಿತ ಆಪ್ಸ್</string>
-    <!-- Contributors cloud activity -->
-    <!-- Display : Rotation  -->
     <string name="display_rotation_0_title">0 ಡಿಗ್ರಿಗಳು</string>
     <string name="display_rotation_90_title">90 ಡಿಗ್ರಿಗಳು</string>
     <string name="display_rotation_180_title">180 ಡಿಗ್ರಿಗಳು</string>
     <string name="display_rotation_270_title">270 ಡಿಗ್ರಿಗಳು</string>
-    <!-- Weather -->
     <string name="weather_settings_general_settings_title">ಸಾಮಾನ್ಯ</string>
     <string name="status_bar_show_weather_title">ಹವಾಮಾನ ಪ್ರದರ್ಶಿಸು</string>
-    <!-- Power: Performance profiles -->
     <string name="auto_power_save_never">ಎಂದಿಗೂ</string>
-    <!-- Applications: Expanded desktop -->
-    <!-- Applications: Long screen -->
-    <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_enabled_title">ಸಕ್ರಿಯ</string>
     <string name="power_notifications_vibrate_title">ಕಂಪಿಸು</string>
     <string name="charging_sounds_ringtone_silent">ನಿಶ್ಯಬ್ದ</string>
-    <!-- Gestures: Touchscreen gestures -->
-    <!-- Gesture: Stylus gestures -->
-    <!-- Berry Lite -->
     <string name="style_title">ಶೈಲಿ</string>
     <string name="style_global_title">ಶೈಲಿ</string>
     <string name="style_global_entry_dark">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
     <string name="style_automagic_dialog_positive">ಅನ್ವಯಿಸು</string>
     <string name="style_accent_default_name">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <string name="style_dark_overlay_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
-    <!-- Trust interface -->
     <string name="trust_feature_selinux_value_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="trust_feature_root">ರೂಟ್ ಪ್ರವೇಶ</string>
     <string name="trust_feature_root_value_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="trust_feature_root_value_adb">ಎಡಿಬಿ ಮಾತ್ರ</string>
     <string name="trust_feature_root_value_apps">ಆಪ್ಸ್ ಮತ್ತು ಎಡಿಬಿ</string>
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">ಸಕ್ರಿಯ</string>
     <string name="trust_feature_encryption_value_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="trust_category_tools">ಗೌಪ್ಯತೆ</string>
-    <!-- Sms limit -->
 </resources>

@@ -18,7 +18,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Generic stuff used everywhere -->
     <string name="loading">Naglo-load \ u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Kanselahin</string>
@@ -38,10 +37,7 @@
     <string name="search">Hanapin</string>
     <string name="disabled">Hindi pinagana</string>
     <string name="enabled">Pinagana</string>
-    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
-    <!-- Privacy Settings Header item -->
     <string name="privacy_settings_title">Privacy</string>
-    <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Paganahin ang Privacy Guard</string>
     <string name="privacy_guard_dlg_title">Paganahin ang Privacy Guard?</string>
     <string name="privacy_guard_dlg_text">Kapag gumagana ang Privacy Guard, ang app ay hindi makaka-access sa personal data kagaya ng mga kontak, mga tala ng mga mensahe o tawag.</string>
@@ -56,7 +52,6 @@
     <string name="privacy_guard_manager_show_system_apps">Ipakita ang built-in na mga app</string>
     <string name="privacy_guard_advanced_settings_title">Advanced</string>
     <string name="privacy_guard_notification_title">Magpakita ang notipikasyon</string>
-    <!-- Notification light dialogs -->
     <string name="edit_light_settings">I-edit ang mga light setting</string>
     <string name="pulse_speed_title">Pulse taas at bilis</string>
     <string name="default_time">Normal</string>
@@ -64,7 +59,6 @@
     <string name="dialog_delete_title">Tanggalin</string>
     <string name="dialog_delete_message">Tanggalin ang napiling mga item?</string>
     <string name="brightness">Ang antas ng liwanag</string>
-    <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Laging naka-on</string>
     <string name="pulse_length_very_short">Napaka-ikli</string>
     <string name="pulse_length_short">Maikli</string>
@@ -76,16 +70,13 @@
     <string name="pulse_speed_normal">Normal</string>
     <string name="pulse_speed_slow">Mabagal</string>
     <string name="pulse_speed_very_slow">Napakabagal</string>
-    <!-- Common light settings strings -->
     <string name="light_brightness_normal">Karaniwan</string>
-    <!-- Battery light settings -->
     <string name="battery_light_title">Liwanag ng baterya</string>
     <string name="battery_low_pulse_title">Pulse kung mababa ang baterya</string>
     <string name="battery_light_list_title">Mga kulay</string>
     <string name="battery_light_low_color_title">Mababa ang baterya</string>
     <string name="battery_light_medium_color_title">Nagkakarga</string>
     <string name="battery_light_full_color_title">Ganap na na-charge</string>
-    <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Liwanag ng notipikasyon</string>
     <string name="notification_light_general_title">Pangkalahatan</string>
     <string name="notification_light_advanced_title">Advanced</string>
@@ -100,11 +91,9 @@
     <string name="keywords_lights_brightness_level">pagdilim pinatnubayan ng pagliliwanag</string>
     <string name="notification_light_automagic">Awtomatikong pumili ng mga kulay</string>
     <string name="notification_light_automagic_summary">Awtomatikong pumipili ng mga kulay</string>
-    <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Liwanag na mga setting</string>
     <string name="led_notification_text">LED na ilaw ay pinagana sa pamamagitan ng mga setting</string>
     <string name="notification_light_no_apps_summary">Magdagdag ng bawat app kontrol, isaaktibo ang \'%1$s\' at pindutin ang \'\u002b\' sa menu bar</string>
-    <!-- LiveDisplay -->
     <string name="live_display_summary">I-optimize ang iyong screen batay sa panahon ng araw at ambient na kondisyon upang mapabuti itong basahin at mabawasan ang pananakit ng mata</string>
     <string name="live_display_mode">Anyo ng display</string>
     <string name="live_display_color_temperature_title">Ang temperatura ng kulay</string>
@@ -146,14 +135,12 @@
     <string name="color_red_title">Pula</string>
     <string name="color_green_title">Berde</string>
     <string name="color_blue_title">Asul</string>
-    <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Pagsasaayos ng litrato</string>
     <string name="picture_adjustment_summary">I-ayos ang hue, saturation, intensity, at contrast</string>
     <string name="adj_hue_title">Hue</string>
     <string name="adj_saturation_title">Lunod</string>
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Ang pagkakaiba</string>
-    <!-- Button settings -->
     <string name="button_pref_title">Mga pindutan</string>
     <string name="hardware_keys_power_key_title">Pindutan ng Power</string>
     <string name="hardware_keys_home_key_title">Pindutan ng Home</string>
@@ -199,7 +186,6 @@
     <string name="home_answer_call_summary">Sagutin ang mga papasok na tawag sa pamamagitan ng pag-pindut ng home na pindutan</string>
     <string name="extras_title">Mga extra</string>
     <string name="additional_buttons_title">Karagdagang mga pindutan</string>
-    <!-- Key backlight -->
     <string name="button_backlight_title">Backlight</string>
     <string name="button_backlight_enabled">Tanglaw ng mga pindutan</string>
     <string name="keyboard_backlight_enabled">Tanglawan sa keyboard</string>
@@ -210,10 +196,8 @@
     <string name="backlight_summary_disabled">Hindi pinagana</string>
     <string name="backlight_summary_enabled_with_timeout">Pinagana para sa <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Pinagana</string>
-    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Paganahin ang nav bar sa iskren</string>
     <string name="disable_navkeys_summary">Paganahin ang on-screen navigation bar at huwag paganihin ang mga button ng hardweyr</string>
-    <!-- Navigation Bar -->
     <string name="navigation_bar_category">Ang navigation bar</string>
     <string name="navigation_bar_title">Mga Pindutan at plano</string>
     <string name="navigation_bar_left_summary">Ilagay ang navigation bar sa kaliwang bahagi ng iskren sa moda na landscape</string>
@@ -222,7 +206,6 @@
     <string name="navigation_bar_home_long_press_title">Matagalang pagpindut na aksyon sa Home</string>
     <string name="navigation_bar_home_double_tap_title">Aksyon na pag-tap ng doble ng Home</string>
     <string name="navigation_bar_app_switch_long_press_title">Matagalang pagpindut na aksyon sa Recents</string>
-    <!-- Power menu -->
     <string name="power_menu_title">Menu ng power</string>
     <string name="power_menu_screenshot_title">Mga screenhot</string>
     <string name="power_menu_screenshot_summary">Pindutin nang matagal para sa bahagyang screenshot</string>
@@ -231,7 +214,6 @@
     <string name="power_menu_bug_report_title">Ulat sa bug</string>
     <string name="power_menu_bug_report_disabled">Ang pag-uulat ng bug ay hindi pinagana sa mga setting ng development</string>
     <string name="camera_double_tap_power_gesture_title">Pindutin ang pindutan ng power makalawang beses para sa kamera</string>
-    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="camera_double_tap_power_gesture_desc">Mabilis na buksan ang kamera nang walang unlocking sa iyong screen</string>
     <string name="torch_long_press_power_timeout_title">Awtomatikong nag-turn torch off</string>
     <string name="torch_long_press_power_timeout_never">Hindi kailanman</string>
@@ -239,7 +221,6 @@
     <string name="torch_long_press_power_timeout_2min">2 minuto</string>
     <string name="torch_long_press_power_timeout_5min">5 minuto</string>
     <string name="torch_long_press_power_timeout_10min">10 minuto</string>
-    <!-- Profiles -->
     <string name="profile_menu_delete_title">Tanggalin</string>
     <string name="profile_action_none">Iwanan na walang nagbabago</string>
     <string name="profile_action_system">Default na system</string>
@@ -256,14 +237,12 @@
     <string name="profile_setup_actions_title">Hakbang 2: I-setup ng mga aksyon</string>
     <string name="profile_setup_actions_title_config">I-reconfigure ang mga aksyon</string>
     <string name="wireless_networks_settings_title">Wireless &amp; mga network</string>
-    <!-- Profile triggers -->
     <string name="no_bluetooth_triggers">Walang Bluetooth na mga device na nakapares.\nI-tap para ipares sa Bluetooth na gamit bago magsasaayos ng mga trigger.</string>
     <string name="no_wifi_triggers">Walang Wi\u2011Fi na mga access point na naka-configure.\nI-Tap para ikonekta sa Wi\u2011Fi bago magsasaayos ng mga trigger.</string>
     <string name="no_triggers_configured">Walang mga trigger na nakaayos. I-Tap para magdagdag ng higit pa.</string>
     <string name="no_triggers_configured_nfc">Tapikin upang i-setup ng isang bagong NFC tirgger.</string>
     <string name="profile_setup_setup_triggers_description">Pakipili ng mga trigger na mag activate sa profile na ito</string>
     <string name="profile_setup_actions_description">Ngayon i-configure kung ano ang mangyayari kapag na-activate ang profile</string>
-    <!-- Profiles settings  -->
     <string name="profiles_settings_title">Mga profile ng sistema</string>
     <string name="profiles_add">Magdagdag</string>
     <string name="profile_menu_delete">Tanggalin</string>
@@ -287,43 +266,33 @@
     <string name="profile_app_group_category_title">Mga override na notipikasyon</string>
     <string name="profile_app_group_item_instructions">Magdagdag o magtanggal ng mga grupo</string>
     <string name="profile_app_group_item_instructions_summary">Magdagdag o mag-alis ng mga pangkat na nag-o-override ng notipikasyon sa profile na ito</string>
-    <!-- Profile mode options. -->
     <string name="profile_entries_on">Naka-on</string>
     <string name="profile_entries_off">I-off</string>
     <string name="profile_entries_no_override">Walang override</string>
-    <!-- Add Profile -->
     <string name="profile_name_title">Pangalan</string>
     <string name="new_profile_name">&lt;bagong profile&gt;</string>
-    <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Palitan ang pangalan</string>
     <string name="rename_dialog_message">Gumawa ng bagong pangalan</string>
     <string name="rename_dialog_hint">Gumawa ng pangalan ng profile</string>
-    <!-- Reset Profiles -->
     <string name="profile_reset_title">I-reset</string>
     <string name="profile_reset_message">Tanggalin ang lahat ng mga profile na nai-likha at mga pangkat ng app at ibalik ang mga ito sa default?</string>
-    <!-- Delete confimation messages -->
     <string name="profile_app_delete_confirm">Tanggalin ang app na ito?</string>
-    <!-- Profile network mode -->
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G o 3G</string>
     <string name="profile_networkmode_2g3g4g">2G o 3G o LTE</string>
-    <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_volumeoverrides_title">Tunog ng mga override</string>
     <string name="connection_state_enabled">I-enable</string>
     <string name="volume_override_summary">Itakda sa %1$s/%2$s</string>
     <string name="profile_volume_override_checkbox_label">Tunog ng override</string>
-    <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Mga profile</string>
     <string name="profile_profile_manage">I-manage ang profile</string>
     <string name="profile_appgroups_manage">Mga app group</string>
     <string name="profile_appgroup_manage">I-manage ang app group</string>
-    <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Mga setting ng profile</string>
     <string name="profile_trigger_connect">Naka-konek</string>
     <string name="profile_trigger_disconnect">Naka-diskonek</string>
     <string name="profile_trigger_notrigger">Walang trigger</string>
-    <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Naka-notipikasyon na mode</string>
     <string name="ringer_mode">Naka-ring na mode</string>
     <string name="lights_mode">Naka-ilaw na mode</string>
@@ -331,9 +300,7 @@
     <string name="choose_soundtone">Pumili ng notification tone</string>
     <string name="choose_ringtone">Pumili ng rigntone</string>
     <string name="ringtone_title">Ringtone ng telepono</string>
-    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">Tunog sa notipikasyon</string>
-    <!-- Title for application group setting screen -->
     <string name="profile_appgroups_title">Mga app group</string>
     <string name="profile_applist_title">Mga app</string>
     <string name="profile_new_appgroup">Bagong app group</string>
@@ -341,9 +308,7 @@
     <string name="profile_appgroup_name_prompt">Gumawa ng pangalan para sa bagong app group</string>
     <string name="profile_appgroup_name_title">Pangalan</string>
     <string name="duplicate_appgroup_name">Kopyahin ang pangalan ng app group!</string>
-    <!-- Add application dialog box title -->
     <string name="profile_choose_app">Pumili ng app</string>
-    <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">Mga setting ng sistema</string>
     <string name="profile_lockmode_title">Mode na naka lock screen</string>
     <string name="profile_lockmode_policy_disabled_summary">Ang profile opsyon nito ay hindi pinagana sa pamamagitan ng device administrator policy</string>
@@ -353,21 +318,18 @@
     <string name="profile_brightness_title">Liwanag ng screen</string>
     <string name="profile_brightness_override_summary">Itakda sa %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Liwanag ng override</string>
-    <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Portable Wi\u2011Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleData">Koneksyon ng data</string>
     <string name="toggleSync">Data na auto-sync</string>
     <string name="toggleNfc">NFC</string>
-    <!-- Sound settings screen -->
     <string name="ring_mode_title">Naka-ring na mode</string>
     <string name="ring_mode_normal">Karaniwan</string>
     <string name="ring_mode_mute">I-mute</string>
     <string name="ring_volume_title">Volyum ng ringer</string>
     <string name="media_volume_title">Media</string>
     <string name="doze_title">Magpakilala sa pumapaligid</string>
-    <!-- Status bar -->
     <string name="status_bar_quick_qs_pulldown_title">Madaliang paghatak pababa</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s ang gilid ng status bar ay hinila ng pababa ng Quick Settings</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Kaliwa</string>
@@ -377,26 +339,21 @@
     <string name="status_bar_quick_qs_pulldown_right">Kanan</string>
     <string name="status_bar_double_tap_to_sleep_title">I-tap ng dalwang beses upang patulugin</string>
     <string name="status_bar_double_tap_to_sleep_summary">Magdakawang tap sa status bar upang i-off ang display</string>
-    <!-- Status bar - icons -->
     <string name="status_bar_notif_count_title">Ipakita ang bilang ng notipikasyon</string>
     <string name="status_bar_notif_count_summary">I-display ang bilang nga mga notipikasyon na dapat gawin</string>
     <string name="status_bar_system_icons_summary">Kontrolin kung aling mga icon ng status bar ang ipapakita</string>
-    <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Orasan</string>
     <string name="status_bar_clock_position_title">Posisyon ng orasan</string>
     <string name="status_bar_clock_position_right">Kanan</string>
     <string name="status_bar_clock_position_left">Kaliwa</string>
     <string name="status_bar_am_pm_normal">Karaniwan</string>
-    <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo ng estado ng baterya</string>
     <string name="status_bar_battery_style_circle">Bilog</string>
     <string name="status_bar_battery_style_text">Teksto</string>
     <string name="status_bar_battery_style_hidden">Nakatago</string>
-    <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Porsyento ng battery</string>
     <string name="status_bar_battery_percentage_text_inside">Sa loob ng icon</string>
     <string name="status_bar_battery_percentage_text_next">Sunod sa icon</string>
-    <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">Ang liwanag</string>
     <string name="status_bar_brightness_slider_title">Slider ng liwanag</string>
     <string name="status_bar_brightness_slider_summary">I-adjust ang liwanag mula sa Quick Settings</string>
@@ -404,13 +361,10 @@
     <string name="status_bar_brightness_slider_auto_summary">Ipakita ang toggle para sa naiaangkop malapit sa slider</string>
     <string name="status_bar_toggle_brightness">Kontrol ng liwanag</string>
     <string name="status_bar_toggle_brightness_summary">I-adjust ang liwanag na galing sa sliding kabila sa status bar</string>
-    <!-- Status bar - Network Traffic -->
     <string name="network_traffic_mode_title">Magpakita ng paraan</string>
     <string name="network_traffic_mode_disable">Naka-disable</string>
-    <!-- Protected apps -->
     <string name="protected_apps_manager_title">Mga protektadong app</string>
     <string name="protected_apps_manager_summary">Pamahalaan ang anomang mga app na nakatago sa likod ng secure na lock</string>
-    <!-- Contributors cloud activity -->
     <string name="contributors_cloud_fragment_title">Mga kontribyutor</string>
     <string name="contributors_cloud_loading_message">Naglo-load ang mga data ng contributor \u2026</string>
     <string name="contributors_cloud_failed_message">Hindi ma-load ang mga data ng contributor</string>
@@ -419,7 +373,6 @@
     <string name="contributions_info_msg"><b>Kabuuan ng mga kontribyutor:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Kabuuan na mga gawa:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Huling pagbabago:</b> <xliff:g id="date">%3$s</xliff:g></string>
-    <!-- Display : Rotation  -->
     <string name="accelerometer_title">Awtomatikong pag-ikot ng screen</string>
     <string name="display_rotation_title">Mga setting ng pag-ikot</string>
     <string name="display_rotation_enabled">Pinapagana ang auto-rotation</string>
@@ -431,7 +384,6 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
-    <!-- Weather -->
     <string name="weather_settings_title">Lagay ng panahon</string>
     <string name="weather_settings_no_services_prompt">Walang lagay na panahon na nagkakaloob ng mga serbisyo na na-install</string>
     <string name="weather_settings_no_services_summary">Mag-install ng lagay ng panahon na nagpapakaloob para maka tanggap ng mga update ng lagay ng panahon</string>
@@ -446,7 +398,6 @@
     <string name="weather_settings_keyword">lagay ng panahon</string>
     <string name="status_bar_show_weather_title">Ipakita ang lagay ng panahon</string>
     <string name="status_bar_show_weather_summary">Ipakita ang kasalukuyang temperatura sa status bar</string>
-    <!-- Power: Performance profiles -->
     <string name="perf_profile_settings_title">Saver ng baterya at performance</string>
     <string name="perf_profile_settings_summary">I-adjust ang power saving na mga tampok at device performance</string>
     <string name="perf_profile_overview_summary">Kasalukuyang profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
@@ -460,7 +411,6 @@
     <string name="auto_power_save_summary_on">Awtomatikong i-enable ang power save na mode sa %s na baterya</string>
     <string name="auto_power_save_summary_off">Huwag awtomatikong i-enable ang power save na mode</string>
     <string name="auto_power_save_never">Hindi kailanman</string>
-    <!-- Applications: Expanded desktop -->
     <string name="expanded_desktop_settings_title">Pinalawak ang desktop</string>
     <string name="expanded_desktop_settings_summary">I-expand ang iyong magagamit na desktop space sa pagtago ng status bar, navigation bar, o pareho</string>
     <string name="expanded_desktop_options_title">I-customize ang mga pagpipilian</string>
@@ -470,14 +420,11 @@
     <string name="expanded_desktop_style_hide_navigation">Itago ang navigation bar</string>
     <string name="expanded_desktop_style_hide_both">Itago pareho</string>
     <string name="expanded_desktop_nothing_to_show_text">Patayin ang switch para i-customize ang iyong expanded na desktop sa isang per-app basis</string>
-    <!-- Applications: Long screen -->
-    <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Mga tunog ng pag-charge</string>
     <string name="charging_sounds_enabled_title">I-enable</string>
     <string name="charging_sounds_enabled_summary">I-play ang tunog kapag nagkonekta or hindi komokonekta sa power source</string>
     <string name="charging_sounds_ringtone_title">Tunog ng notipikasyon</string>
     <string name="charging_sounds_ringtone_silent">Tahimik</string>
-    <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Mga kilos ng touchscreen</string>
     <string name="touchscreen_gesture_settings_summary">Gawin ang various na touchscreen na mga gestures para sa madaling mga aksyon</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Tugun ng haptic</string>
@@ -500,7 +447,6 @@
     <string name="touchscreen_gesture_letter_v_title">Iguhit ang letrang \"V\"</string>
     <string name="touchscreen_gesture_letter_w_title">Iguhit ang letrang \"W\"</string>
     <string name="touchscreen_gesture_letter_z_title">Iguhit ang letrang \"Z\"</string>
-    <!-- Gesture: Stylus gestures -->
     <string name="touchscreen_gesture_swipe_up_stylus_title">I-swipe pataas gamit ang stylus</string>
     <string name="touchscreen_gesture_swipe_down_stylus_title">I-swipe pababa gamit ang stylus</string>
     <string name="touchscreen_gesture_swipe_left_stylus_title">I-swipe kaliwa gamit ang stylus</string>
@@ -519,7 +465,6 @@
     <string name="touchscreen_gesture_action_next_track">Laktawin ang susunod na music track</string>
     <string name="touchscreen_gesture_action_volume_down">Pahinaan ang media volume</string>
     <string name="touchscreen_gesture_action_volume_up">Pataasin ang media volume</string>
-    <!-- Berry Lite -->
     <string name="style_title">Istilo</string>
     <string name="style_global_title">Istilo</string>
     <string name="style_global_entry_light">Liwanag</string>
@@ -528,17 +473,12 @@
     <string name="style_accent_default_name">Pangunahin</string>
     <string name="style_dark_overlay_default">Pangunahin</string>
     <string name="style_dark_overlay_black">Itim</string>
-    <!-- Trust interface -->
     <string name="trust_feature_selinux_value_disabled">Naka-disable</string>
     <string name="trust_feature_root">Pahintulot sa root</string>
     <string name="trust_feature_root_value_disabled">Naka-disable</string>
     <string name="trust_feature_root_value_adb">ADB lamang</string>
     <string name="trust_feature_root_value_apps">Mga app at ADB</string>
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
-    <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_encryption_value_enabled">Pinagana</string>
     <string name="trust_feature_encryption_value_disabled">Naka-disable</string>
     <string name="trust_category_tools">Ang palihim</string>
-    <!-- Sms limit -->
 </resources>
