@@ -319,10 +319,10 @@
     <string name="duplicate_appgroup_name">Már létező alkalmazáscsoport!</string>
     <string name="profile_choose_app">Válasszon alkalmazást</string>
     <string name="profile_system_settings_title">Rendszer beállítások</string>
-    <string name="profile_lockmode_title">Képernyőzár módja</string>
+    <string name="profile_lockmode_title">Záróképernyő-mód</string>
     <string name="profile_lockmode_policy_disabled_summary">Ez a profil opció le van tiltva az eszköz adminisztrátori házirendből</string>
     <string name="profile_lockmode_insecure_summary">Ne kérje a PIN-kódját vagy a jelszavát</string>
-    <string name="profile_lockmode_disabled_summary">Képernyőzár letiltása</string>
+    <string name="profile_lockmode_disabled_summary">Záróképernyő-letiltás</string>
     <string name="profile_airplanemode_title">Repülőgép-üzemmód</string>
     <string name="profile_brightness_title">Képernyő fényerő</string>
     <string name="profile_brightness_override_summary">Beállítva a következőre: %1$d%%</string>
@@ -416,7 +416,7 @@
     <string name="display_rotation_enabled">Automatikus forgatás engedélyezve</string>
     <string name="display_rotation_disabled">Automatikus forgatás letiltva</string>
     <string name="display_rotation_unit">fok</string>
-    <string name="display_lockscreen_rotation_title">Képernyőzár elforgatása</string>
+    <string name="display_lockscreen_rotation_title">Záróképernyő-elforgatás</string>
     <string name="display_rotation_category_title">Forgatás módok</string>
     <string name="display_rotation_0_title">0 fok</string>
     <string name="display_rotation_90_title">90 fok</string>
@@ -544,9 +544,9 @@
     <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön MoKee kiadása mindig naprakész-e.</string>
     <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Engedélyezve</string>
-    <string name="trust_feature_encryption_value_nolock">Biztonságos zárolási képernyő szükséges</string>
+    <string name="trust_feature_encryption_value_nolock">Biztonságos Záróképernyő szükséges</string>
     <string name="trust_feature_encryption_value_disabled">Kikapcsolva</string>
-    <string name="trust_feature_encryption_explain">Ha készüléke titkosításra kerül, azzal megakadályozza hogy kikapcsolt vagy recovery módban hozzáférhessenek adataihoz. Ez különösen fontos, ha telefonját ellopják, és megakadályozza, hogy megnézhesse az üzeneteket, névjegyeket és más személyes információkat jelszó használata nélkül.\nA titkosítás hatékonyabbá tételéhez biztonsági képernyőzárat kell beállítania.</string>
+    <string name="trust_feature_encryption_explain">Ha készüléke titkosításra kerül, azzal megakadályozza hogy kikapcsolt vagy recovery módban hozzáférhessenek adataihoz. Ez különösen fontos, ha telefonját ellopják, és megakadályozza, hogy megnézhesse az üzeneteket, névjegyeket és más személyes információkat jelszó használata nélkül.\nA titkosítás hatékonyabbá tételéhez biztonsági záróképernyőt kell beállítania.</string>
     <string name="trust_category_tools">Adatvédelem</string>
     <string name="trust_notification_alerts_title">Biztonsági figyelmeztetések</string>
     <string name="trust_warnings_alerts_intro">Kiválaszthatja azokat a biztonsági eseményeket, amikről értesítést kíván kapni. Saját biztonsága érdekében ajánlott, hogy engedélyezze az összes figyelmeztetést</string>
