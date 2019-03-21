@@ -410,6 +410,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
     <string name="charging_sounds_enabled_title">Uključi</string>
     <string name="power_notifications_vibrate_title">Vibracija</string>
+    <string name="charging_sounds_ringtone_silent">Bešumno</string>
     <string name="style_title">Stil</string>
     <string name="style_global_title">Stil</string>
     <string name="style_global_entry_dark">Tamno</string>
