@@ -278,7 +278,7 @@
     <string name="profile_remove_current_profile">Nem törölheti az aktuális profilt!</string>
     <string name="profile_app_group_category_title">Értesítés-felülbírálás</string>
     <string name="profile_app_group_item_instructions">Csoportok hozzáadása, vagy eltávolítása</string>
-    <string name="profile_app_group_item_instructions_summary">Felülbírált értesítésekkel rendelkező alkalmazáscsoportok hozzáadása ehhez a profilhoz</string>
+    <string name="profile_app_group_item_instructions_summary">Hozzáad vagy eltávolít értesítés által felülírt alkalmazáscsoportokat ehhez a profilhoz</string>
     <string name="profile_entries_on">Be</string>
     <string name="profile_entries_off">Ki</string>
     <string name="profile_entries_no_override">Nincs felülbírálás</string>
