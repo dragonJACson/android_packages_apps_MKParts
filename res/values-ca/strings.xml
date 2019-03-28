@@ -54,6 +54,7 @@
     <string name="privacy_guard_notification_title">Mostra una notificació</string>
     <string name="edit_light_settings">Edita els ajustos de llum</string>
     <string name="pulse_speed_title">Durada i velocitat del parpalleig</string>
+    <string name="default_time">Normal</string>
     <string name="custom_time">Personalitzat</string>
     <string name="dialog_delete_title">Esborra</string>
     <string name="dialog_delete_message">Vols treure l\'element seleccionat?</string>
@@ -61,13 +62,16 @@
     <string name="pulse_length_always_on">Sempre encès</string>
     <string name="pulse_length_very_short">Molt curt</string>
     <string name="pulse_length_short">Curt</string>
+    <string name="pulse_length_normal">Normal</string>
     <string name="pulse_length_long">Llarg</string>
     <string name="pulse_length_very_long">Molt llarg</string>
     <string name="pulse_speed_very_fast">Molt ràpid</string>
     <string name="pulse_speed_fast">Ràpid</string>
+    <string name="pulse_speed_normal">Normal</string>
     <string name="pulse_speed_slow">Lent</string>
     <string name="pulse_speed_very_slow">Molt lent</string>
     <string name="light_brightness_title">Nivells de lluminositat</string>
+    <string name="light_brightness_normal">Normal</string>
     <string name="light_brightness_zen">No molestis</string>
     <string name="battery_light_title">Llum de la bateria</string>
     <string name="battery_low_pulse_title">Parpalleja si la bateria està baixa</string>
@@ -308,6 +312,7 @@
     <string name="toggleData">Connexió de dades</string>
     <string name="toggleSync">Sincronització automàtica de dades</string>
     <string name="ring_mode_title">Mode del to de trucada</string>
+    <string name="ring_mode_normal">Normal</string>
     <string name="ring_mode_vibrate">Vibra</string>
     <string name="ring_mode_mute">Silencia</string>
     <string name="ring_volume_title">Volum del to de trucada</string>
@@ -338,6 +343,7 @@
     <string name="status_bar_clock_position_center">Centrat</string>
     <string name="status_bar_am_pm_title">Estil AM/PM</string>
     <string name="status_bar_am_pm_info">El format de 24 hores està activat</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Petit</string>
     <string name="status_bar_am_pm_hidden">Amagat</string>
     <string name="status_bar_battery_title">Indicador de bateria</string>
