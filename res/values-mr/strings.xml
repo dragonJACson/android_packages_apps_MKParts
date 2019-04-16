@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">रीसेट करा</string>
-    <string name="next">"पुढील"</string>
+    <string name="next">पुढील</string>
     <string name="privacy_guard_reset_title">रीसेट करा</string>
     <string name="privacy_guard_manager_show_system_apps">अंगभूत अनुप्रयोग दर्शवा</string>
     <string name="default_time">सामान्य</string>

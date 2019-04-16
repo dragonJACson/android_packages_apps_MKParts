@@ -18,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="next">"ପରବର୍ତ୍ତୀ"</string>
+    <string name="next">ପରବର୍ତ୍ତୀ</string>
     <string name="privacy_guard_manager_show_system_apps">ବିଲ୍‍ଟ୍‍-ଇନ୍‍ ଆପ୍ଲିକେସନ୍‍ ପ୍ରଦର୍ଶନ କରନ୍ତୁ</string>
     <string name="default_time">ସାଧାରଣ</string>
     <string name="pulse_length_normal">ସାଧାରଣ</string>

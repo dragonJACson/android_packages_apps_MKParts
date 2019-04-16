@@ -52,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Системные приложения</string>
     <string name="privacy_guard_advanced_settings_title">Расширенные настройки</string>
     <string name="privacy_guard_notification_title">Показывать уведомления</string>
+    <string name="channel_light_settings_name">Предпросмотр настроек освещения</string>
     <string name="edit_light_settings">Изменение настроек индикатора</string>
     <string name="pulse_speed_title">Длительность и скорость мигания</string>
     <string name="default_time">Обычный</string>
@@ -525,7 +526,7 @@
     <string name="style_accent_default_name">По умолчанию</string>
     <string name="style_dark_overlay_title">Тёмный режим</string>
     <string name="style_dark_overlay_default">По умолчанию</string>
-    <string name="style_dark_overlay_black">Чёрная</string>
+    <string name="style_dark_overlay_black">Чёрный</string>
     <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
     <string name="trust_category_features">Состояние</string>
     <string name="trust_feature_selinux">SELinux</string>

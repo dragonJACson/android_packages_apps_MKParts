@@ -133,6 +133,7 @@
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
     <string name="live_display_reading_mode_title">Modo de lectura</string>
+    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
     <string name="color_calibration_title">Calibración de color</string>
     <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
     <string name="color_red_title">Rojo</string>
@@ -458,6 +459,7 @@
     <string name="expanded_desktop_style_hide_both">Ocultar ambas</string>
     <string name="expanded_desktop_nothing_to_show_text">Apagar el interruptor para personalizar el escritorio extendido sobre una base por aplicación</string>
     <string name="long_screen_settings_title">Aplicaciones en pantalla completa</string>
+    <string name="long_screen_settings_summary">Forzar las aplicaciones desfasadas a usar el modo pantalla completa</string>
     <string name="charging_sounds_settings_title">Sonidos de carga del dispositivo</string>
     <string name="charging_sounds_enabled_title">Activar</string>
     <string name="charging_sounds_enabled_summary">Reproducir un sonido al conectar o desconectar el cargador</string>
@@ -528,12 +530,19 @@
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
     <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
+    <string name="trust_feature_selinux_explain">SELinux controla cuáles procesos tienen acceso a las rutas y archivos en su dispositivo.\nEsto evita que las aplicaciones accedan a archivos no permitidos: De esta forma se evita el uso malintencionado para mantener su seguridad.</string>
     <string name="trust_feature_root">Acceso administrativo</string>
     <string name="trust_feature_root_value_disabled">Deshabilitado</string>
     <string name="trust_feature_root_value_adb">Solo ADB</string>
     <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
+    <string name="trust_feature_root_explain">El acceso Raíz permite a las aplicaciones y servicios que usted elija saltarse la seguridad y restricciones, permitiendo hacer modificaciones al sistema poniendo en peligro su dispositivo o sistema Android.</string>
     <string name="trust_feature_security_patches">Nivel de parche de seguridad de Android</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProveedor: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">actualizado</string>
+    <string name="trust_feature_security_patches_value_medium">varios meses desactualizado</string>
+    <string name="trust_feature_security_patches_value_old">desactualizado</string>
+    <string name="trust_feature_security_patches_explain">Security patches are released monthly by Google in cooperation with SoC vendors to address flaws which could be exploited by malicious apps to bypass security restrictions and cause permanent damage to your device. Patches made available by Google are applied every month on all supported devices, but patches to proprietary code can only be applied by your device\'s manufacturer. To keep your device safe make sure your MoKee build is always up-to-date, and (if applicable) ensure your vendor image is updated to the latest one recommended by MoKee.</string>
+    <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
     <string name="trust_category_tools">Privacidad</string>

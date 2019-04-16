@@ -556,6 +556,8 @@
     <string name="trust_onboarding_description">Trust permet d\'assurer la sécurité de votre appareil et de protéger votre vie privée. L\'icône Trust ne s\'affiche que lorsque le contenu de la page a été vérifié.</string>
     <string name="trust_onboarding_learn_more">En savoir plus</string>
     <string name="trust_onboarding_done">Bien reçu</string>
+    <string name="trust_restrict_usb_title">Restreindre l\'USB</string>
+    <string name="trust_restrict_usb_summary">Désactiver les nouveaux périphériques USB lorsque l\'appareil est verrouillé</string>
     <string name="sms_security_check_limit_title">Limite des SMS</string>
     <string name="sms_security_check_limit_summary">Les applications peuvent envoyer %s messages en une minute avant qu\'une confirmation ne soit requise</string>
     <string name="sms_security_check_limit_summary_none">Les applications ne sont pas autorisées à envoyer des messages sans confirmation</string>
