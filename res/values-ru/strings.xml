@@ -530,7 +530,7 @@
     <string name="style_accent_default_name">По умолчанию</string>
     <string name="style_dark_overlay_title">Тёмный режим</string>
     <string name="style_dark_overlay_default">По умолчанию</string>
-    <string name="style_dark_overlay_black">Чёрная</string>
+    <string name="style_dark_overlay_black">Чёрный</string>
     <string name="style_permission_error">Разрешение на доступ к хранилищу необходимо для анализа ваших обоев, пожалуйста, предоставьте разрешение для использования этой функции</string>
     <string name="trust_category_features">Состояние</string>
     <string name="trust_feature_selinux">SELinux</string>

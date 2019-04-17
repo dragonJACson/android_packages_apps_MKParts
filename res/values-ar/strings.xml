@@ -26,7 +26,7 @@
     <string name="reset">إعادة تعيين</string>
     <string name="advanced">خيارات متقدمة</string>
     <string name="settings">الإعدادات</string>
-    <string name="name">الإسم:</string>
+    <string name="name">الإسم</string>
     <string name="back">رجوع</string>
     <string name="finish">إنهاء</string>
     <string name="next">القادم</string>
@@ -65,7 +65,7 @@
     <string name="pulse_length_normal">عادي</string>
     <string name="pulse_length_long">طويل</string>
     <string name="pulse_length_very_long">طويل جداً</string>
-    <string name="pulse_speed_very_fast">سريع جدًا</string>
+    <string name="pulse_speed_very_fast">سريع جداً</string>
     <string name="pulse_speed_fast">سريع</string>
     <string name="pulse_speed_normal">عادي</string>
     <string name="pulse_speed_slow">بطيء</string>
