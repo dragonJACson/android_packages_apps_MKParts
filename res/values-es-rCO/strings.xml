@@ -544,7 +544,9 @@
     <string name="trust_feature_security_patches_explain">Security patches are released monthly by Google in cooperation with SoC vendors to address flaws which could be exploited by malicious apps to bypass security restrictions and cause permanent damage to your device. Patches made available by Google are applied every month on all supported devices, but patches to proprietary code can only be applied by your device\'s manufacturer. To keep your device safe make sure your MoKee build is always up-to-date, and (if applicable) ensure your vendor image is updated to the latest one recommended by MoKee.</string>
     <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
+    <string name="trust_feature_encryption_value_nolock">Ocultar en la pantalla de bloqueo</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
+    <string name="trust_feature_encryption_explain">Encrypting your device prevents access to your data when your phone is not booted into Android. This is particularly important if your phone is stolen, as it prevents people from reading your messages, contacts, and other private information without your password.\nTo make the encryption more effective you need to set a secure lock screen password.</string>
     <string name="trust_category_tools">Privacidad</string>
     <string name="trust_onboarding_description">Trust te ayuda a mantener tu equipo seguro y protege tu privacidad. \nEl icono de Trust sólo aparece cuando el contenido de la página ha sido verificado.</string>
 </resources>
