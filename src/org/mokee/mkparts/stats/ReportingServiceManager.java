@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,8 +27,6 @@ import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.mokee.os.Build;
-
 public class ReportingServiceManager extends BroadcastReceiver {
 
     public static final String ACTION_LAUNCH_SERVICE =
@@ -46,65 +44,57 @@ public class ReportingServiceManager extends BroadcastReceiver {
 
     private static final long MILLIS_PER_HOUR = 60L * 60L * 1000L;
     private static final long MILLIS_PER_DAY = 24L * MILLIS_PER_HOUR;
-    private static final long UPDATE_INTERVAL = 3L * MILLIS_PER_DAY;
+    private static final long UPDATE_INTERVAL = 1L * MILLIS_PER_DAY;
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             setAlarm(ctx);
-        } else {
+        } else if (intent.getAction().equals(ACTION_LAUNCH_SERVICE)) {
             launchService(ctx);
         }
     }
 
-    public static void setAlarm(Context ctx) {
-        SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
+    public static void setAlarm(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(ANONYMOUS_PREF, Context.MODE_PRIVATE);
 
         long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
         String currentVersion = Utilities.getVersion();
         String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
+
         if (lastSynced == 0 || !currentVersion.equals(prefVersion)) {
-            launchService(ctx);
+            launchService(context);
             return;
         }
         long millisFromNow = (lastSynced + UPDATE_INTERVAL) - System.currentTimeMillis();
 
         Intent intent = new Intent(ACTION_LAUNCH_SERVICE);
-        intent.setClass(ctx, ReportingServiceManager.class);
+        intent.setClass(context, ReportingServiceManager.class);
 
-        AlarmManager alarmManager = (AlarmManager) ctx.getSystemService(Context.ALARM_SERVICE);
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         alarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + millisFromNow,
-            PendingIntent.getBroadcast(ctx, 0, intent, 0));
+            PendingIntent.getBroadcast(context, 0, intent, 0));
         Log.d(Utilities.TAG, "Next sync attempt in : " + millisFromNow / MILLIS_PER_HOUR + " hours");
     }
 
-    public static void launchService(Context ctx) {
-        final SharedPreferences prefs = ctx.getSharedPreferences(ANONYMOUS_PREF, 0);
+    public static void launchService(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(ANONYMOUS_PREF, Context.MODE_PRIVATE);
         long lastSynced = prefs.getLong(ANONYMOUS_LAST_CHECKED, 0);
         String currentVersion = Utilities.getVersion();
         String prefVersion = prefs.getString(ANONYMOUS_VERSION, currentVersion);
 
         boolean shouldSync = false;
-        if (lastSynced == 0) {
-            shouldSync = true;
-        } else if (System.currentTimeMillis() - lastSynced >= UPDATE_INTERVAL) {
-            shouldSync = true;
-        } else if (!currentVersion.equals(prefVersion)) {
+        if (lastSynced == 0 || !currentVersion.equals(prefVersion)
+                || System.currentTimeMillis() - lastSynced >= UPDATE_INTERVAL) {
             shouldSync = true;
         }
-        if (shouldSync && Utilities.isWifiOnly(ctx) ||
-                shouldSync && !Utilities.isWifiOnly(ctx) && !TextUtils.isEmpty(SystemProperties.get("gsm.version.baseband"))) {
-            Intent sIntent = new Intent();
-            if (prefs.getLong(ANONYMOUS_FLASH_TIME, 0) == 0
-                    || !prefs.getString(ANONYMOUS_UNIQUE_ID, "").equals(Build.getUniqueID(ctx))) {
-                sIntent.setClass(ctx, ReportingService.class);
-                ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
-            } else {
-                sIntent.setClass(ctx, UpdatingService.class);
-                ctx.startServiceAsUser(sIntent, UserHandle.OWNER);
-            }
+        if (shouldSync && Utilities.isWifiOnly(context) ||
+                shouldSync && !Utilities.isWifiOnly(context) && !TextUtils.isEmpty(SystemProperties.get("gsm.version.baseband"))) {
+            Intent intent = new Intent();
+            intent.setClass(context, ReportingService.class);
+            context.startServiceAsUser(intent, UserHandle.OWNER);
         } else {
-            setAlarm(ctx);
+            setAlarm(context);
         }
     }
 }
