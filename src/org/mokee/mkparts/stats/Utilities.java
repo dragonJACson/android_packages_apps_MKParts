@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,18 +53,19 @@ public class Utilities {
     }
 
     public static void updateLastSynced(Context context) {
-        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).edit()
+        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, Context.MODE_PRIVATE).edit()
                 .putLong(ReportingServiceManager.ANONYMOUS_LAST_CHECKED, System.currentTimeMillis())
-                .commit();
+                .apply();
     }
 
     public static int getLastJobId(Context context) {
-        return context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).getInt(KEY_LAST_JOB_ID, 0);
+        return context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, Context.MODE_PRIVATE).getInt(KEY_LAST_JOB_ID, 0);
     }
 
     private static void setLastJobId(Context context, int id) {
-        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, 0).edit()
-                .putInt(KEY_LAST_JOB_ID, id).commit();
+        context.getSharedPreferences(ReportingServiceManager.ANONYMOUS_PREF, Context.MODE_PRIVATE).edit()
+                .putInt(KEY_LAST_JOB_ID, id)
+                .apply();
     }
 
     public static int getNextJobId(Context context) {

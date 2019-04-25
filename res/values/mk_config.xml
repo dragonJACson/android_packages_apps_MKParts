@@ -16,7 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="stats_report_url">https://stats.mokeedev.com/index.php/Submit/flash</string>
-    <string name="stats_update_url">https://stats.mokeedev.com/index.php/Submit/updatev2</string>
+    <string name="stats_report_url">https://api.mokeedev.com/stats/report</string>
 
 </resources>
