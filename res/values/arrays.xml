@@ -142,13 +142,13 @@
         <item>@string/profile_action_disable</item>
         <item>@string/profile_action_enable</item>
     </string-array>
-    
+
     <string-array name="profile_doze_entries" translatable="false">
         <item>@string/profile_action_none</item>
         <item>@string/profile_action_enable</item>
         <item>@string/profile_action_disable</item>
     </string-array>
-    
+
     <string-array name="profile_notification_light_entries" translatable="false">
         <item>@string/profile_action_none</item>
         <item>@string/profile_action_enable</item>
@@ -271,12 +271,14 @@
         <item>@string/status_bar_battery_style_icon_portrait</item>
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_text</item>
+        <item>@string/status_bar_battery_style_q</item>
     </string-array>
 
     <string-array name="status_bar_battery_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
 
     <string-array name="status_bar_battery_percentage_entries" translatable="false">
