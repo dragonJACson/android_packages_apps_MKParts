@@ -43,9 +43,7 @@ public class Utilities {
     }
 
     public static String getCountryCode(Context ctx) {
-        TelephonyManager tm = (TelephonyManager) ctx.getSystemService(Context.TELEPHONY_SERVICE);
-        String countryCode = tm.getNetworkCountryIso();
-        return TextUtils.isEmpty(countryCode) ? "Unknown" : countryCode;
+        return ctx.getResources().getConfiguration().getLocales().get(0).getCountry();
     }
 
     public static String getVersion() {
