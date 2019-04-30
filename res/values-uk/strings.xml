@@ -523,6 +523,7 @@
     <string name="style_accent_configuration_not_supported">Поточний додатковий колір несумісний з обраним стилем. Щоб продовжити, потрібно вибрати інший додатковий колір, хочете продовжити?</string>
     <string name="style_accent_configuration_positive">Продовжити</string>
     <string name="style_automagic_title">Автоколір</string>
+    <string name="style_automagic_description">Стиль підбирається на основі ваших шпалер</string>
     <string name="style_automagic_dialog_positive">Застосувати</string>
     <string name="style_accent_default_name">За замовчуванням</string>
     <string name="style_dark_overlay_default">За замовчуванням</string>
