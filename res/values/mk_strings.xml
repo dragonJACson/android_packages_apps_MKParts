@@ -47,4 +47,8 @@
     <string name="unit_px">px</string>
     <string name="unit_msec">ms</string>
 
+    <!-- Old Mobile Type -->
+    <string name="use_old_mobiletype_title">Use old mobile type style</string>
+    <string name="use_old_mobiletype_summary">Merge signal and type icons</string>
+
 </resources>

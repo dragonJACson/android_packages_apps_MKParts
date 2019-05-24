@@ -42,4 +42,9 @@
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">像素</string>
     <string name="unit_msec">毫秒</string>
+
+    <!-- Old Mobile Type -->
+    <string name="use_old_mobiletype_title">使用旧的移动类型样式</string>
+    <string name="use_old_mobiletype_summary">合并信号和类型图标</string>
+
 </resources>
