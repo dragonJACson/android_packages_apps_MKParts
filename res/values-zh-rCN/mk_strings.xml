@@ -47,4 +47,6 @@
     <string name="use_old_mobiletype_title">使用旧的移动类型样式</string>
     <string name="use_old_mobiletype_summary">合并信号和类型图标</string>
 
+    <string name="volte_icon_title">VoLTE 图标</string>
+    <string name="volte_icon_summary">可用时显示 VoLTE 图标</string>
 </resources>
