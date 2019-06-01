@@ -546,4 +546,14 @@
     <string name="trust_feature_encryption_value_enabled">Ativado</string>
     <string name="trust_feature_encryption_value_disabled">Desativada</string>
     <string name="trust_category_tools">Privacidade</string>
+    <string name="trust_notification_alerts_title">Alertas de segurança</string>
+    <string name="trust_warnings_selinux">Estado de SELinux</string>
+    <string name="trust_warnings_keys">Assinatura da compilação</string>
+    <string name="trust_onboarding_title">Diga olá ao Trust</string>
+    <string name="trust_onboarding_description">O Trust ajuda-o a manter o seu dispositivo seguro e protege a sua privacidade.\nO ícone do Trust só irá aparecer quando os conteúdos da página tiverem sido verificados.</string>
+    <string name="trust_onboarding_learn_more">Saber mais</string>
+    <string name="trust_onboarding_done">Percebi</string>
+    <string name="trust_restrict_usb_title">Restringir USB</string>
+    <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
+    <string name="sms_security_check_limit_always_confirm">Confirmar sempre</string>
 </resources>
