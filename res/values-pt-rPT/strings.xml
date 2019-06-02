@@ -394,7 +394,7 @@
     <string name="network_traffic_mode_title">Modo de visualização</string>
     <string name="network_traffic_mode_disable">Desativado</string>
     <string name="network_traffic_mode_up">Apenas envio</string>
-    <string name="network_traffic_mode_down">Apenas receção</string>
+    <string name="network_traffic_mode_down">Transferir apenas</string>
     <string name="network_traffic_mode_all">Envio e receção</string>
     <string name="network_traffic_autohide">Ocultar automaticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
