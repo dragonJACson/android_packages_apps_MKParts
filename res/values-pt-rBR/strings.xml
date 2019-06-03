@@ -556,6 +556,7 @@
     <string name="trust_onboarding_description">A Trust ajuda você a manter o seu dispositivo seguro e a proteger a sua privacidade.\nO ícone da Trust só será exibido quando o conteúdo da página tiver sido verificado.</string>
     <string name="trust_onboarding_learn_more">Saiba mais</string>
     <string name="trust_onboarding_done">Entendi</string>
+    <string name="trust_restrict_usb_title">Restringir USB</string>
     <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
     <string name="sms_security_check_limit_summary">Apps podem enviar %s mensagens em 1 minuto antes de exigirem confirmação</string>
     <string name="sms_security_check_limit_summary_none">Apps não têm permissão para enviar mensagens sem confirmação</string>
