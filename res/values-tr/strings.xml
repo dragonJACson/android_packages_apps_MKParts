@@ -375,10 +375,8 @@
     <string name="status_bar_battery_title">Pil göstergesi</string>
     <string name="status_bar_battery_style_title">Pil durumu stili</string>
     <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
-    <string name="status_bar_battery_style_icon_landscape">Yatay simge</string>
     <string name="status_bar_battery_style_circle">Daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
-    <string name="status_bar_battery_style_hidden">Gizle</string>
     <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
     <string name="status_bar_battery_percentage_default">Gizle</string>
     <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>

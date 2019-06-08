@@ -374,10 +374,8 @@
     <string name="status_bar_battery_title">Індыкатар батарэі</string>
     <string name="status_bar_battery_style_title">Варыянт адлюстроўваньня жывелкі</string>
     <string name="status_bar_battery_style_icon_portrait">Вертыкальны значок</string>
-    <string name="status_bar_battery_style_icon_landscape">Гарызантальны значок</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_text">Тэкст</string>
-    <string name="status_bar_battery_style_hidden">Схаваць</string>
     <string name="status_bar_battery_percentage_title">Працэнт зарада батарэі</string>
     <string name="status_bar_battery_percentage_default">Схаваць</string>
     <string name="status_bar_battery_percentage_text_inside">Унутры значка</string>

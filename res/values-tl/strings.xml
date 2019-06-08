@@ -350,7 +350,6 @@
     <string name="status_bar_battery_style_title">Estilo ng estado ng baterya</string>
     <string name="status_bar_battery_style_circle">Bilog</string>
     <string name="status_bar_battery_style_text">Teksto</string>
-    <string name="status_bar_battery_style_hidden">Nakatago</string>
     <string name="status_bar_battery_percentage_title">Porsyento ng battery</string>
     <string name="status_bar_battery_percentage_text_inside">Sa loob ng icon</string>
     <string name="status_bar_battery_percentage_text_next">Sunod sa icon</string>
