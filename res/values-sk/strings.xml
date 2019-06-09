@@ -374,10 +374,8 @@
     <string name="status_bar_battery_title">Indikátor stavu batérie</string>
     <string name="status_bar_battery_style_title">Zobrazenie stavu batérie</string>
     <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
-    <string name="status_bar_battery_style_icon_landscape">Ikona na šírku</string>
     <string name="status_bar_battery_style_circle">Kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Skryté</string>
     <string name="status_bar_battery_percentage_title">Percentá batérie</string>
     <string name="status_bar_battery_percentage_default">Skryté</string>
     <string name="status_bar_battery_percentage_text_inside">Vo vnútri ikony</string>

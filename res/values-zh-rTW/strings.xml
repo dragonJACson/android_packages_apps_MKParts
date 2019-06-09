@@ -375,10 +375,8 @@
     <string name="status_bar_battery_title">電池指示燈</string>
     <string name="status_bar_battery_style_title">電池狀態樣式</string>
     <string name="status_bar_battery_style_icon_portrait">直立圖示</string>
-    <string name="status_bar_battery_style_icon_landscape">橫向圖示</string>
     <string name="status_bar_battery_style_circle">環狀圖示</string>
     <string name="status_bar_battery_style_text">純文字</string>
-    <string name="status_bar_battery_style_hidden">隱藏</string>
     <string name="status_bar_battery_percentage_title">電量百分比</string>
     <string name="status_bar_battery_percentage_default">隱藏</string>
     <string name="status_bar_battery_percentage_text_inside">圖示內</string>

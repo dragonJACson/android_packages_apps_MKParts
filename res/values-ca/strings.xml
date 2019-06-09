@@ -349,9 +349,7 @@
     <string name="status_bar_battery_title">Indicador de bateria</string>
     <string name="status_bar_battery_style_title">Estil de l\'estat de la bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Icona vertical</string>
-    <string name="status_bar_battery_style_icon_landscape">Icona horitzontal</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
-    <string name="status_bar_battery_style_hidden">Amagat</string>
     <string name="status_bar_battery_percentage_title">Percentatge de bateria</string>
     <string name="status_bar_battery_percentage_default">Amagat</string>
     <string name="status_bar_battery_percentage_text_inside">Dins la icona</string>

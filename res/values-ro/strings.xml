@@ -372,10 +372,8 @@
     <string name="status_bar_battery_title">Indicator baterie</string>
     <string name="status_bar_battery_style_title">Stilul stării bateriei</string>
     <string name="status_bar_battery_style_icon_portrait">Iconiță portret</string>
-    <string name="status_bar_battery_style_icon_landscape">Iconiță peisaj</string>
     <string name="status_bar_battery_style_circle">Cerc</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Ascunsă</string>
     <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
     <string name="status_bar_battery_percentage_default">Ascuns</string>
     <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>

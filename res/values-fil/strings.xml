@@ -366,10 +366,8 @@
     <string name="status_bar_battery_title">Tagapagpahiwatig ng baterya</string>
     <string name="status_bar_battery_style_title">Estilo ng status ng baterya</string>
     <string name="status_bar_battery_style_icon_portrait">Litrato ng ikono</string>
-    <string name="status_bar_battery_style_icon_landscape">Tanawin ng ikono</string>
     <string name="status_bar_battery_style_circle">Bilog</string>
     <string name="status_bar_battery_style_text">Ang teksto</string>
-    <string name="status_bar_battery_style_hidden">Nakatago</string>
     <string name="status_bar_battery_percentage_title">Porsyento ng baterya</string>
     <string name="status_bar_battery_percentage_default">Nakatago</string>
     <string name="status_bar_battery_percentage_text_inside">Sa loob ng ikono</string>
