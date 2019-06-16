@@ -184,6 +184,8 @@
     <string name="power_end_call_summary">Güç tuşuna basarak mevcut gelen çağrıyı sonlandır</string>
     <string name="swap_volume_buttons_title">Yeniden ata</string>
     <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
+    <string name="volume_panel_on_left_title">Sol ses paneli</string>
+    <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>
     <string name="button_wake_title">Cihazı uyandır</string>
     <string name="volume_answer_call_title">Çağrıya cevap ver</string>
     <string name="volume_answer_call_summary">Ses tuşlarına basarak gelen çağrıları cevapla</string>
