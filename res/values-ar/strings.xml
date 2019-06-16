@@ -202,7 +202,7 @@
     <string name="backlight_timeout_title">مهلة الإضاءة</string>
     <string name="backlight_timeout_unlimited">لا تطفئ</string>
     <string name="backlight_summary_disabled">معطل</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled_with_timeout">تمكين ل <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">مفعل</string>
     <string name="disable_navkeys_title">تفعيل شريط التنقل على الشاشة</string>
     <string name="disable_navkeys_summary">تفعيل شريط التنقل على الشاشة وتعطيل أزرار الجهاز</string>
