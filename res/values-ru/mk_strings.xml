@@ -32,8 +32,9 @@
     <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Нижние навигационные жесты</string>
     <string name="bottom_gesture_navigation_settings_summary">Использовать жесты снизу вверх для навигации</string>
-    <string name="bottom_gesture_navigation_settings_help_text">Панель навигации будет скрыта!\n\nДоступные жесты:\n\nНазад\n- Жест слева на право или наоборот\n\nДомой\n- Жест снизу вверх к центру экрана\n\nНедавние приложения\n- Жест снизу вверх к центру экрана и удержание\n\nДолгое удержание кнопки \"Домой\"\n- Короткий жест снизу вверх и удержание в центре экрана</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Аппаратные кнопки будут отключены!\n\nДоступные жесты:\n\nНазад\n- Жест слева на право или наоборот\n\nДомой\n- Жест снизу вверх к центру экрана\n\nНедавние приложения\n- Жест снизу вверх к центру экрана и удержание\n\nДолгое удержание кнопки \"Домой\"\n- Короткий жест снизу вверх и удержание в центре экрана</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Использовать жесты снизу вверх вместо аппаратных кнопок</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Использовать жесты снизу вверх вместо кнопок навигации экрана</string>
+    <string name="bottom_gesture_navigation_settings_text">Доступные жесты:\n\nНазад\n- Жест влево или вправо\n\nДомой\n- Жест к центру экрана\n\nНедавние приложения\n- Жест к центру экрана и удержание\n\nУдержание кнопки «Домой»\n- Короткий жест вверх и удержание в центре экрана</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Высота области жестов</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Высота снизу экрана для срабатывания жестов</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Время обработки жеста</string>

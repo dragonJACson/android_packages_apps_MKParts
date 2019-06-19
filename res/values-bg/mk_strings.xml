@@ -24,5 +24,6 @@
     <string name="fingerprint_shortcut_edit">Редактиране</string>
     <string name="fingerprint_shortcut_delete">Изтриване</string>
     <!-- Push interface -->
+    <string name="push_notification">Известия</string>
     <!-- OP like Navigation Gestures -->
 </resources>
