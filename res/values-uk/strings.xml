@@ -52,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Показати системні програми</string>
     <string name="privacy_guard_advanced_settings_title">Додатково</string>
     <string name="privacy_guard_notification_title">Показувати сповіщення</string>
+    <string name="channel_light_settings_name">Light settings preview</string>
     <string name="edit_light_settings">Змінити налаштування світлового індикатора</string>
     <string name="pulse_speed_title">Тривалість та швидкість мигання</string>
     <string name="default_time">Звичайний</string>
