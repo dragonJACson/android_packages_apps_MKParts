@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee instellingen</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Vingerafdruksnelkoppelingen</string>
     <string name="fingerprint_shortcut_not_specified">Niet ingesteld</string>
     <string name="fingerprint_shortcut_ok">Oké</string>
@@ -26,6 +24,4 @@
     <string name="fingerprint_shortcut_delete">Verwijderen</string>
     <string name="fingerprint_shortcut_editer">Vingerafdruksnelkoppeling instellen</string>
     <string name="fingerprint_shortcut_manage">Vingerafdrukbeheer</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
 </resources>

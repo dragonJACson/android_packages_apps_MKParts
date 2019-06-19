@@ -16,15 +16,11 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee 설정</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">지문 인식 바로가기</string>
     <string name="fingerprint_shortcut_not_specified">지정되지 않음</string>
     <string name="fingerprint_shortcut_ok">확인</string>
     <string name="fingerprint_shortcut_edit"> 수정</string>
     <string name="fingerprint_shortcut_delete">삭제</string>
     <string name="fingerprint_shortcut_editer">지문인식 바로가기 설정</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
 </resources>

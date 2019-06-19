@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Mga setting ng MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Mga shortcut ng tatak ng daliri</string>
     <string name="fingerprint_shortcut_not_specified">Hindi tinukoy</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,6 +24,4 @@
     <string name="fingerprint_shortcut_delete">Burahin</string>
     <string name="fingerprint_shortcut_editer">Magtakda ng shortcut ng tatak ng daliri</string>
     <string name="fingerprint_shortcut_manage">Ang fingerprint ay i-manage</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
 </resources>

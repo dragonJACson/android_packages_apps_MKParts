@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">मोकी सेटिंग</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">फ़िंगरप्रिंट शॉर्टकट</string>
     <string name="fingerprint_shortcut_not_specified">अनिर्दिष्ट</string>
     <string name="fingerprint_shortcut_ok">ठीक है</string>
@@ -26,7 +24,5 @@
     <string name="fingerprint_shortcut_delete">हटाएं</string>
     <string name="fingerprint_shortcut_editer">फ़िंगरप्रिंट शॉर्टकट स्थापित करें</string>
     <string name="fingerprint_shortcut_manage">फ़िंगरप्रिंट प्रबंधित करें</string>
-    <!-- Push interface -->
     <string name="push_notification">पुश अधिसूचना</string>
-    <!-- OP like Navigation Gestures -->
 </resources>

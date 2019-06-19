@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee beállítások</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Ujjlenyomat parancsikonok</string>
     <string name="fingerprint_shortcut_not_specified">Nincs megadva</string>
     <string name="fingerprint_shortcut_ok">Rendben</string>
@@ -26,10 +24,8 @@
     <string name="fingerprint_shortcut_delete">Törlés</string>
     <string name="fingerprint_shortcut_editer">Ujjlenyomat parancsikon beállítása</string>
     <string name="fingerprint_shortcut_manage">Ujjlenyomatok kezelése</string>
-    <!-- Push interface -->
     <string name="push_notification">Azonnali értesítés</string>
     <string name="text_copied">A szöveg a vágólapra másolódott.</string>
-    <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Alsó vezérlőmozdulatok</string>
     <string name="bottom_gesture_navigation_settings_summary">Lentről felfelé csúsztatási mozdulatokat használhat a navigációhoz</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Lentről felfelé csúsztatási mozdulatokat használhat a hardvergombok helyett</string>

@@ -16,14 +16,10 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee настройки</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_not_specified">Не е зададено</string>
     <string name="fingerprint_shortcut_ok">Окей</string>
     <string name="fingerprint_shortcut_edit">Редактиране</string>
     <string name="fingerprint_shortcut_delete">Изтриване</string>
-    <!-- Push interface -->
     <string name="push_notification">Известия</string>
-    <!-- OP like Navigation Gestures -->
 </resources>

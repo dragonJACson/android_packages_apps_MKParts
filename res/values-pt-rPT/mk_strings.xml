@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Configurações MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Atalhos de impressão digital</string>
     <string name="fingerprint_shortcut_not_specified">Não especificado</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,7 +24,5 @@
     <string name="fingerprint_shortcut_delete">Eliminar</string>
     <string name="fingerprint_shortcut_editer">Definir atalhos de impressão digital</string>
     <string name="fingerprint_shortcut_manage">Gerir impressões digitais</string>
-    <!-- Push interface -->
     <string name="text_copied">Texto copiado para a área de transferência</string>
-    <!-- OP like Navigation Gestures -->
 </resources>
