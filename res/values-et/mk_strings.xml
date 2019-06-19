@@ -17,9 +17,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
+    <string name="mkparts_title">MoKee seaded</string>
     <!-- Fingerprint shortcuts -->
+    <string name="fingerprint_shortcut_settings_title">Sõrmejälgede otseteed</string>
+    <string name="fingerprint_shortcut_not_specified">Määramata</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Muuda</string>
     <string name="fingerprint_shortcut_delete">Kustuta</string>
+    <string name="fingerprint_shortcut_editer">Sõrmejälgede otseteede seadistamine</string>
+    <string name="fingerprint_shortcut_manage">Sõrmejälgede haldamine</string>
     <!-- Push interface -->
+    <string name="push_notification">Rakenduse teavitus</string>
+    <string name="text_copied">Lõikelauale kopeeritud tekst.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Alumise navigeerimise žestid</string>
+    <string name="bottom_gesture_navigation_settings_summary">Kasutage navigeerimiseks alt üles liikuvaid žeste</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Kasutage riistvaravõtmete asemel altpoolt liikuvaid žeste</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Kasutage ekraani navigeerimisklahvide asemel altpoolt liikuvaid žeste</string>
+    <string name="bottom_gesture_navigation_settings_text">Saadaolevad žestid:\n\nTagasi\n- Pühkige üles vasakule või paremale poole\n\nKodu\n- Pühkige üles keskele\n\nViimased rakendused\n- Pühkige üles keskele ja hoidke all\n\nPikk vajutus kodul\n- Lühike pühkimine üles ja hoidke keskel</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Pühkige käivituskõrgust</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Kõrgus alt pühkimisega käivitamiseks</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Pühkige käivitusaja vallandamiseks</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Aegumine enne žesti tegevust on alanud</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

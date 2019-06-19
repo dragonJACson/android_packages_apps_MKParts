@@ -31,9 +31,10 @@
     <string name="text_copied">تم نسخ النص إلى الحافظة.</string>
     <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">إيماءات التنقل السفلية</string>
-    <string name="bottom_gesture_navigation_settings_summary">إستخدام إيماءات التمرير السريع لأعلى للتنقل</string>
-    <string name="bottom_gesture_navigation_settings_help_text">سيتم إخفاء شريط التنقل!\n\nالإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nضغط مطول على الرئيسية\n- اسحب سريعاً لأعلى مع الاستمرار في المركز</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">سيتم تعطيل ازرار الجهاز!\n\nالإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nضغط مطول على الرئيسية\n- اسحب سريعاً لأعلى مع الاستمرار في المركز</string>
+    <string name="bottom_gesture_navigation_settings_summary">إستخدام إيماءة السحب لأعلى من الأسفل للتنقل</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">إستخدام إيماءات السحب لأعلى من الأسفل بدلاً من مفاتيح الجهاز</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">إستخدام إيماءات السحب لأعلى من الأسفل بدلاً من مفاتيح التنقل على الشاشة</string>
+    <string name="bottom_gesture_navigation_settings_text">الإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى في الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرّر سريعاً لأعلى من الوسط مع الأستمرار\n\nضغط مطول على الرئيسية\n- مرّر سريعاً لأعلى مع الاستمرار في المركز</string>
     <string name="bottom_gesture_navigation_swipe_length_title">إرتفاع تمرير المشغل</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">الارتفاع من الأسفل إلى تمرير المشغل</string>
     <string name="bottom_gesture_navigation_action_timeout_title">مهلة تمرير المشغل</string>

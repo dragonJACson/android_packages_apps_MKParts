@@ -30,4 +30,14 @@
     <string name="push_notification">Notification Push</string>
     <string name="text_copied">Le texte a été copié dans le presse-papier.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="bottom_gesture_navigation_settings_title">Gestes de navigation du bas</string>
+    <string name="bottom_gesture_navigation_settings_summary">Utilisez les gestes du bas pour la navigation</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Utilisez des gestes de bas en haut au lieu de clés matérielles</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Hauteur de la zone de balayage</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Hauteur du bas pour déclencher le balayage</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Délai de déclenchement du balayage</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Délai avant le début de l\'action déclenchée par le geste</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>
