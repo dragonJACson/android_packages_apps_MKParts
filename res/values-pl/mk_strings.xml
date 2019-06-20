@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Ustawienia MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Skróty odcisków palców</string>
     <string name="fingerprint_shortcut_not_specified">Nie określono</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,14 +24,10 @@
     <string name="fingerprint_shortcut_delete">Usuń</string>
     <string name="fingerprint_shortcut_editer">Ustaw skrót odcisków paców</string>
     <string name="fingerprint_shortcut_manage">Zarządzaj odciskami palców</string>
-    <!-- Push interface -->
     <string name="push_notification">Powiadomienia push</string>
     <string name="text_copied">Tekst skopiowany do schowka.</string>
-    <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Dolne gesty nawigacji</string>
     <string name="bottom_gesture_navigation_settings_summary">Użyj gestu przeciągnięcia z dołu do góry do nawigacji</string>
-    <string name="bottom_gesture_navigation_settings_help_text">Pasek nawigacji będzie schowany!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Przyciski nawigacji będą wyłączone!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Wysokość pola przeciągania</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Wysokość pola przeciągania od dołu</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Czas bezczynności dla przeciągania</string>

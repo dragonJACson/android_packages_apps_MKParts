@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee ಸಂಯೋಜನೆಗಳು</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿಗಳು</string>
     <string name="fingerprint_shortcut_not_specified">ಸೂಚಿಸಿಲ್ಲ</string>
     <string name="fingerprint_shortcut_ok">ಸರಿ</string>
@@ -26,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">ಅಳಿಸು</string>
     <string name="fingerprint_shortcut_editer">ಬೆರಳಚ್ಚು ಕಿರುದಾರಿ ಸಂಯೋಜಿಸಿ</string>
     <string name="fingerprint_shortcut_manage">ಬೆರಳಚ್ಚುಗಳನ್ನು ನಿರ್ವ ಹಿಸು</string>
-    <!-- Push interface -->
     <string name="push_notification">ಅಧಿಸೂಚನೆಯನ್ನು ಪೋಸ್ಟ್ ಮಾಡು</string>
     <string name="text_copied">ಪಠ್ಯವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ನಕಲಿಸಿದೆ.</string>
-    <!-- OP like Navigation Gestures -->
 </resources>

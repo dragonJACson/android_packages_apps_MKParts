@@ -16,10 +16,6 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_ok">ശരി</string>
     <string name="fingerprint_shortcut_edit">തിരുത്തുക</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
 </resources>

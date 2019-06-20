@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Cài đặt MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Thiết lập vân tay</string>
     <string name="fingerprint_shortcut_not_specified">Chưa xác định</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,6 +24,5 @@
     <string name="fingerprint_shortcut_delete">Xóa</string>
     <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
     <string name="fingerprint_shortcut_manage">Quản lý vân tay</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
+    <string name="push_notification">Thông báo đẩy</string>
 </resources>

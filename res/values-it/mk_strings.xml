@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Impostazioni Mokee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Scorciatoie sul sensore d\'impronte</string>
     <string name="fingerprint_shortcut_not_specified">Non indicato</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,14 +24,13 @@
     <string name="fingerprint_shortcut_delete">Elimina</string>
     <string name="fingerprint_shortcut_editer">Imposta scorciatoie</string>
     <string name="fingerprint_shortcut_manage">Gestisci le impronte digitali</string>
-    <!-- Push interface -->
     <string name="push_notification">Notifiche push</string>
     <string name="text_copied">Testo copiato negli appunti.</string>
-    <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Gesti di navigazione inferiore</string>
-    <string name="bottom_gesture_navigation_settings_summary">Usa i gesti di scorrimento inferiore per la navigazione</string>
-    <string name="bottom_gesture_navigation_settings_help_text">La barra di navigazione sarà nascosta!\n\nGestioni disponibili:\n\nIndietro\n- Scorri verso sinistra o destra\n\nHome\n- Scorri verso il centro\n\nApp recenti\n- Scorri verso l\'alto dal centro e tieni premuto\n\nTieni premuto home\n- Scorri verso l\'alto e tieni premuto al centro</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">I pulsanti hardware saranno disabilitati!\n\nGesti disponibili:\n\nIndietro\n- Scorri verso l\'alto sul lato sinistro o destro\n\nHome\n- Scorri verso il centro\n\nApp recenti\n- Scorri verso l\'alto dal centro e tieni premuto\n\nTieni premuto home\n- Scorri verso l\'alto e tieni premuto al centro</string>
+    <string name="bottom_gesture_navigation_settings_summary">Scorri verso l\'alto dalla parte inferiore dello schermo per la navigazione</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Usa i gesti di scorrimento dal basso invece dei tasti hardware</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Usa i gesti di scorrimento dal basso invece dei tasti di navigazione a schermo</string>
+    <string name="bottom_gesture_navigation_settings_text">Gesti disponibili:\n\nIndietro\n- Scorri verso l\'alto a sinistra o a destra\n\nHome\n- Scorri verso l\'alto dal centro\n\nRecenti\n- Scorri verso l\'alto e tieni premuto\n\nTieni premuto Home\n- Scorrimento breve e tieni premuto nel centro</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Altezza dell\'area di scorrimento</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Altezza dal basso per attivare lo scorrimento</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Tempo di attesa dello scorrimento</string>

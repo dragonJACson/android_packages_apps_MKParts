@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">MoKee ayarları</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Parmak izi kısayolları</string>
     <string name="fingerprint_shortcut_not_specified">Belirtilmemiş</string>
     <string name="fingerprint_shortcut_ok">Tamam</string>
@@ -26,14 +24,13 @@
     <string name="fingerprint_shortcut_delete">Sil</string>
     <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
     <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
-    <!-- Push interface -->
     <string name="push_notification">Push bildirimleri</string>
     <string name="text_copied">Metin panoya kopyalandı.</string>
-    <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Alt gezinme hareketleri</string>
-    <string name="bottom_gesture_navigation_settings_summary">Gezinme için yukarı kaydırma hareketlerini kullan</string>
-    <string name="bottom_gesture_navigation_settings_help_text">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nSon uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nAna ekrana uzun basın\n- Kısa hızlı yukarı kaydırın ve merkezde tutun</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nSon uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nAna ekrana uzun basın\n- Kısa hızlı yukarı kaydırın ve merkezde tutun</string>
+    <string name="bottom_gesture_navigation_settings_summary">Gezinme için alttan yukarı kaydırma hareketlerini kullan</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Donanım tuşları yerine alttan yukarı kaydırma hareketlerini kullan</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Ekran gezinme tuşları yerine alttan yukarı kaydırma hareketlerini kullan</string>
+    <string name="bottom_gesture_navigation_settings_text">Kullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nSon uygulamalar\n- Ortadan hızlıca yukarı kaydırın\n\nAna ekrana uzun basın\n- Kısa bir şekilde hızlıca yukarı kaydırın ve merkezde tutun</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Kaydırma alanı yüksekliği</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Kaydırmayı etkinleştirmek için alt yükseklik</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Kaydırma eylemi zamanı</string>

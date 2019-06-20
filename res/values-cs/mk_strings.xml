@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Nastavení MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Zkratky otisku prstu</string>
     <string name="fingerprint_shortcut_not_specified">Nespecifikováno</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -26,14 +24,13 @@
     <string name="fingerprint_shortcut_delete">Smazat</string>
     <string name="fingerprint_shortcut_editer">Nastavit zkratky otisku prstu</string>
     <string name="fingerprint_shortcut_manage">Správa otisků prstů</string>
-    <!-- Push interface -->
     <string name="push_notification">Nabízená upozornění</string>
     <string name="text_copied">Text zkopírován do schránky.</string>
-    <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Dolní navigační gesta</string>
     <string name="bottom_gesture_navigation_settings_summary">Pro navigaci použít gesto potáhnutí zdola nahoru</string>
-    <string name="bottom_gesture_navigation_settings_help_text">Navigační panel bude skryt!\n\nDostupná gesta:\n\nZpět\n- Přejeďte na levé nebo pravé straně\n\nDomů\n- Přejeďte nahoru\n\nNedávne aplikace\n- Přejeďte nahoru a podržte\n\nDlouhý stisk Domů\n- Krátce přejeďte nahoru a podržte uprostřed</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Hardwarová tlačítka budou zakázána!\n\nDostupná gesta:\n\nZpět\n- Přejeďte na levé nebo pravé straně\n\nDomů\n- Přejeďte nahoru\n\nNedávne aplikace\n- Přejeďte nahoru a podržte\n\nDlouhý stisk Domů\n- Krátce přejeďte nahoru a podržte uprostřed</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Použít gesto potáhnutí zdola nahoru namísto hardwarových tlačítek</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Použít gesto potáhnutí zdola nahoru namísto softwarových tlačítek</string>
+    <string name="bottom_gesture_navigation_settings_text">Dostupná gesta:\n\nZpět\n- Přejeďte na levé nebo pravé straně\n\nDomů\n- Přejeďte nahoru\n\nNedávne aplikace\n- Přejeďte nahoru a podržte\n\nDlouhý stisk Domů\n- Krátce přejeďte nahoru a podržte uprostřed</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Výška spouštěcí oblasti pro gesto</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Výška odspodu ke spuštění gesta</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Časový limit spuštění gesta</string>

@@ -16,11 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">ການຕັ້ງຄ່າ MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_edit">ແກ້ໄຂ</string>
     <string name="fingerprint_shortcut_delete">ລຶບ</string>
-    <!-- Push interface -->
-    <!-- OP like Navigation Gestures -->
 </resources>
