@@ -16,9 +16,14 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
-    <!-- Fingerprint shortcuts -->
+    <string name="mkparts_title">MoKee seaded</string>
+    <string name="fingerprint_shortcut_settings_title">Sõrmejälgede otseteed</string>
+    <string name="fingerprint_shortcut_not_specified">Määramata</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Muuda</string>
     <string name="fingerprint_shortcut_delete">Kustuta</string>
-    <!-- Push interface -->
+    <string name="fingerprint_shortcut_editer">Sõrmejälgede otseteede seadistamine</string>
+    <string name="fingerprint_shortcut_manage">Sõrmejälgede haldamine</string>
+    <string name="push_notification">Rakenduse teavitus</string>
+    <string name="text_copied">Lõikelauale kopeeritud tekst.</string>
 </resources>

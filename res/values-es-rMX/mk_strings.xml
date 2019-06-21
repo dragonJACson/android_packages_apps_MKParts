@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Ajustes de MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Configuración de Huella dactilar</string>
     <string name="fingerprint_shortcut_not_specified">No especificado</string>
     <string name="fingerprint_shortcut_ok">Aceptar</string>
@@ -26,7 +24,6 @@
     <string name="fingerprint_shortcut_delete">Borrar</string>
     <string name="fingerprint_shortcut_editer">Acceso directo a Huella dactilar</string>
     <string name="fingerprint_shortcut_manage">Administrar huellas</string>
-    <!-- Push interface -->
     <string name="push_notification">Notificación Push</string>
     <string name="text_copied">Texto copiado al portapapeles.</string>
 </resources>

@@ -16,9 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Application name -->
     <string name="mkparts_title">Настройки MoKee</string>
-    <!-- Fingerprint shortcuts -->
     <string name="fingerprint_shortcut_settings_title">Ярлыки отпечатков пальцев</string>
     <string name="fingerprint_shortcut_not_specified">Ярлык не установлен</string>
     <string name="fingerprint_shortcut_ok">ОК</string>
@@ -26,7 +24,6 @@
     <string name="fingerprint_shortcut_delete">Удалить</string>
     <string name="fingerprint_shortcut_editer">Установить ярлык отпечатка пальца</string>
     <string name="fingerprint_shortcut_manage">Управление отпечатками</string>
-    <!-- Push interface -->
     <string name="push_notification">Push-уведомление</string>
     <string name="text_copied">Текст скопирован в буфер обмена.</string>
 </resources>
