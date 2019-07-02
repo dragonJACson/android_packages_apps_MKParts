@@ -553,5 +553,15 @@
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
     <string name="trust_feature_encryption_explain">Encrypting your device prevents access to your data when your phone is not booted into Android. This is particularly important if your phone is stolen, as it prevents people from reading your messages, contacts, and other private information without your password.\nTo make the encryption more effective you need to set a secure lock screen password.</string>
     <string name="trust_category_tools">Privacidad</string>
+    <string name="trust_notification_alerts_title">Alertas de seguridad</string>
+    <string name="trust_warnings_selinux">Estado de SELinux</string>
+    <string name="trust_warnings_keys">Firma de compilación</string>
+    <string name="trust_onboarding_title">Diga hola a Trust</string>
     <string name="trust_onboarding_description">Trust te ayuda a mantener tu equipo seguro y protege tu privacidad. \nEl icono de Trust sólo aparece cuando el contenido de la página ha sido verificado.</string>
+    <string name="trust_onboarding_learn_more">Saber más</string>
+    <string name="trust_onboarding_done">¡Entendido!</string>
+    <string name="sms_security_check_limit_title">Límite de mensajes SMS</string>
+    <string name="sms_security_check_limit_summary">Las aplicaciones pueden enviar hasta %s SMS en 1 minuto antes de requerir confirmación</string>
+    <string name="sms_security_check_limit_summary_none">Las aplicaciones no están autorizadas a enviar mensajes SMS sin confirmación</string>
+    <string name="sms_security_check_limit_always_confirm">Confirmar siempre</string>
 </resources>
