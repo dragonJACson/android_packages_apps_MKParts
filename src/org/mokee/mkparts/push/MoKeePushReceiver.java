@@ -41,9 +41,9 @@ import org.mokee.mkparts.R;
 import cn.jpush.android.api.JPushInterface;
 import mokee.providers.MKSettings;
 
-public class PushingMessageReceiver extends BroadcastReceiver {
+public class MoKeePushReceiver extends BroadcastReceiver {
 
-    public static final String TAG = PushingMessageReceiver.class.getSimpleName();
+    public static final String TAG = MoKeePushReceiver.class.getSimpleName();
 
     public static final String MKPUSH_ALIAS = "pref_alias";
     public static final String MKPUSH_TAGS = "pref_tags";
@@ -136,7 +136,7 @@ public class PushingMessageReceiver extends BroadcastReceiver {
     }
 
     private PendingIntent copyToClipboardIntent(Context context, String clipboard) {
-        Intent intent = new Intent(context, PushingMessageReceiver.class);
+        Intent intent = new Intent(context, MoKeePushReceiver.class);
         intent.setAction(COPY_TO_CLIPBOARD_ACTION);
         intent.putExtra(PushingUtils.KEY_CLIPBOARD, clipboard);
         return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
