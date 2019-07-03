@@ -25,4 +25,5 @@
     <string name="fingerprint_shortcut_editer">Acceso directo a Huella dactilar</string>
     <string name="fingerprint_shortcut_manage">Administrar huellas</string>
     <string name="push_notification">Push notification</string>
+    <string name="text_copied">Texto copiado al portapapeles.</string>
 </resources>
