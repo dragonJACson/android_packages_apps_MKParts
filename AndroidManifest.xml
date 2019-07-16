@@ -47,7 +47,10 @@
     <protected-broadcast android:name="org.mokee.mkparts.PART_CHANGED" />
     <protected-broadcast android:name="org.mokee.mkparts.REFRESH_PART" />
     <protected-broadcast android:name="org.mokee.mkparts.gestures.UPDATE_SETTINGS" />
+
+    <protected-broadcast android:name="cmd_msg" />
     <protected-broadcast android:name="custom_msg" />
+    <protected-broadcast android:name="cn.jpush.android.intent.CONNECTION" />
     <protected-broadcast android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
 
     <!-- MOKEE PUSH PERMISSION START -->
