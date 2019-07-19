@@ -308,7 +308,7 @@
     <string name="sound_mode">通知模式</string>
     <string name="ringer_mode">鈴響模式</string>
     <string name="lights_mode">指示燈模式</string>
-    <string name="vibrate_mode">震動模式</string>
+    <string name="vibrate_mode">振動模式</string>
     <string name="choose_soundtone">選取通知音效</string>
     <string name="choose_ringtone">選取鈴聲</string>
     <string name="ringtone_title">電話鈴聲</string>
@@ -339,7 +339,7 @@
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">鈴響模式</string>
     <string name="ring_mode_normal">正常</string>
-    <string name="ring_mode_vibrate">震動</string>
+    <string name="ring_mode_vibrate">振動</string>
     <string name="ring_mode_mute">靜音</string>
     <string name="ring_volume_title">鈴聲音量</string>
     <string name="incoming_call_volume_title">鈴聲</string>
@@ -464,13 +464,13 @@
     <string name="charging_sounds_settings_title">充電音效</string>
     <string name="charging_sounds_enabled_title">啟用</string>
     <string name="charging_sounds_enabled_summary">接上或移除電源時播放音效</string>
-    <string name="power_notifications_vibrate_title">震動</string>
+    <string name="power_notifications_vibrate_title">振動</string>
     <string name="charging_sounds_ringtone_title">通知音效</string>
     <string name="charging_sounds_ringtone_silent">静音</string>
     <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
     <string name="touchscreen_gesture_settings_summary">執行各種觸控螢幕手勢以進行快速動作</string>
-    <string name="touchscreen_gestures_haptic_feedback_title">觸控震動</string>
-    <string name="touchscreen_gestures_haptic_feedback_summary">檢測到觸控螢幕手勢時震動</string>
+    <string name="touchscreen_gestures_haptic_feedback_title">觸控振動</string>
+    <string name="touchscreen_gestures_haptic_feedback_summary">檢測到觸控螢幕手勢時振動</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">用兩根手指向下滑動</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">用一根手指向上滑動</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">從主畫面鍵往上滑</string>
