@@ -22,6 +22,7 @@
     <string name="back">Atpakaļ</string>
     <string name="next">Nākamais</string>
     <string name="on">Ieslēgts</string>
+    <string name="off">Izslēgt</string>
     <string name="yes">Jā</string>
     <string name="search">Meklēt</string>
     <string name="privacy_guard_help_title">Palīdzība</string>
@@ -44,10 +45,13 @@
     <string name="profile_menu_delete_title">Dzēst</string>
     <string name="profile_menu_delete">Dzēst</string>
     <string name="profile_entries_on">Ieslēgts</string>
+    <string name="profile_entries_off">Izslēgt</string>
     <string name="profile_reset_title">Atiestatīt</string>
     <string name="ring_mode_vibrate">Vibrēt</string>
     <string name="ring_mode_mute">Izslēgt skaņu</string>
+    <string name="notification_volume_title">Paziņojums</string>
     <string name="media_volume_title">Multivide</string>
+    <string name="status_bar_quick_qs_pulldown_off">Izslēgt</string>
     <string name="status_bar_double_tap_to_sleep_title">Lai iemidzinātu, veiciet dubultu piesitienu</string>
     <string name="status_bar_brightness_category">Spilgtums</string>
     <string name="protected_apps_manager_title">Aizsargātās lietotnes</string>
