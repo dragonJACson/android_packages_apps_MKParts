@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2015 The CyanogenMod Project
      Copyright (C) 2015 The MoKee Open Source Project
-                   2018 The LineageOS Project
+                   2018-2019 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,8 +21,7 @@
         android:title="@*mokee.platform:string/live_display_title">
 
     <PreferenceCategory
-        android:key="live_display_options"
-        android:title="@*mokee.platform:string/live_display_title">
+        android:key="live_display_options">
 
         <!-- Color profile -->
         <ListPreference
