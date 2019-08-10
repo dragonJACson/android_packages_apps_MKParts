@@ -547,6 +547,7 @@
     <string name="trust_feature_encryption_explain">Encrypting your device prevents access to your data when your phone is not booted into Android. This is particularly important if your phone is stolen, as it prevents people from reading your messages, contacts, and other private information without your password.\nTo make the encryption more effective you need to set a secure lock screen password.</string>
     <string name="trust_category_tools">Privacidad</string>
     <string name="trust_notification_alerts_title">Alertas de seguridad</string>
+    <string name="trust_warnings_alerts_intro">You can select the security issues you want to be warned about. For your safety, it is recommended to enable all alerts</string>
     <string name="trust_warnings_selinux">Estado de SELinux</string>
     <string name="trust_warnings_keys">Firma de compilación</string>
     <string name="trust_onboarding_title">Diga hola a Trust</string>

@@ -26,4 +26,16 @@
     <string name="fingerprint_shortcut_manage">Spravovať odtlačky prstov</string>
     <string name="push_notification">Push notifikácia</string>
     <string name="text_copied">Text skopírovaný do schránky.</string>
+    <string name="bottom_gesture_navigation_settings_title">Navigačné gestá</string>
+    <string name="bottom_gesture_navigation_settings_summary">Pre navigáciu použiť gesto potiahnutia zospodu nahor</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Pre navigáciu použiť gesto potiahnutia zospodu nahor namiesto fyzických tlačidiel</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Pre navigáciu použiť gesto potiahnutia zospodu nahor namiesto softvérových tlačidiel</string>
+    <string name="bottom_gesture_navigation_settings_text">Navigačný panel musí byť vypnutý!\n\nDostupné gestá:\n\nSpäť\n- Potiahnite prstom na ľavej alebo pravej strane\n\nDomov\n- Potiahnite prstom nahor\n\nNedávne aplikácie\n- Potiahnite prstom nahor a podržte\n\nPosledná aplikácia\n- Krátko potiahnite prstom nahor a podržte v strede</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Spustenie potiahnutím</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Spustenie potiahnutia zo spodu</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Potiahnutie spôsobí pauzu</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Pauza pre začatím akcie gesta</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

@@ -52,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Zobraziť systémové aplikácie</string>
     <string name="privacy_guard_advanced_settings_title">Rozšírené</string>
     <string name="privacy_guard_notification_title">Zobraziť upozornenia</string>
+    <string name="channel_light_settings_name">Náhľad nastavení svetelnosti</string>
     <string name="edit_light_settings">Upraviť svetelnú signalizáciu</string>
     <string name="pulse_speed_title">Dĺžka a rýchlosť pulzov</string>
     <string name="default_time">Normálny</string>
@@ -183,6 +184,8 @@
     <string name="power_end_call_summary">Stlačením tlačidla Napájanie sa ukončí prebiehajúci hovor</string>
     <string name="swap_volume_buttons_title">Preorientovať</string>
     <string name="swap_volume_buttons_summary">Po otočení obrazovky prevrátiť aj zmysel tlačidiel hlasitosti</string>
+    <string name="volume_panel_on_left_title">Zobraziť panel vľavo</string>
+    <string name="volume_panel_on_left_summary">Zobraziť panel hlasitosti na ľavej strane obrazovky</string>
     <string name="button_wake_title">Prebudiť zariadenie</string>
     <string name="volume_answer_call_title">Prijať hovor</string>
     <string name="volume_answer_call_summary">Prijať prichádzajúci hovor stlačením niektorého z tlačidiel hlasitosti</string>
@@ -555,6 +558,8 @@
     <string name="trust_onboarding_description">Trust pomáha udržiavať vaše zariadenie v bezpečí a chráni vaše súkromie.\nZobrazí sa ikona Trust, ktorá vám pomôže kontrolovať bezpečnosť obsahu</string>
     <string name="trust_onboarding_learn_more">Zistiť viac</string>
     <string name="trust_onboarding_done">Chápem to</string>
+    <string name="trust_restrict_usb_title">Obmedziť USB</string>
+    <string name="trust_restrict_usb_summary">Nepovoliť nové USB zariadenia ak je telefón uzamknutý</string>
     <string name="sms_security_check_limit_title">Limit SMS správ</string>
     <string name="sms_security_check_limit_summary">Zobrazenie upozornenie, ak bolo odoslaných viac ako %s SMS správ za 15 minút</string>
     <string name="sms_security_check_limit_summary_none">Aplikácie nemajú povolené odosielanie žiadnych správ bez potvrdenia</string>
