@@ -28,6 +28,7 @@
     <string name="text_copied">Tekst skopiowany do schowka.</string>
     <string name="bottom_gesture_navigation_settings_title">Dolne gesty nawigacji</string>
     <string name="bottom_gesture_navigation_settings_summary">Użyj gestu przeciągnięcia z dołu do góry do nawigacji</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use bottom swipe up gestures instead of hardware keys</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Wysokość pola przeciągania</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Wysokość pola przeciągania od dołu</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Czas bezczynności dla przeciągania</string>
