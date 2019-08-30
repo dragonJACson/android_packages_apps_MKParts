@@ -17,6 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mkparts_title">MoKee Settings</string>
+    <string name="fingerprint_shortcut_settings_title">Fingerprint shortcuts</string>
+    <string name="fingerprint_shortcut_not_specified">Not specified</string>
     <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Edit</string>
+    <string name="fingerprint_shortcut_editer">Set fingerprint shortcut</string>
+    <string name="fingerprint_shortcut_manage">Manage fingerprints</string>
+    <string name="push_notification">Push notification</string>
 </resources>
