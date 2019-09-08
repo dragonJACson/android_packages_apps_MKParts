@@ -26,4 +26,16 @@
     <string name="fingerprint_shortcut_manage">Kelola sidik jari</string>
     <string name="push_notification">Pemberitahuan push</string>
     <string name="text_copied">Teks disalin ke clipboard.</string>
+    <string name="bottom_gesture_navigation_settings_title">Bottom navigation gestures</string>
+    <string name="bottom_gesture_navigation_settings_summary">Use bottom swipe up gestures for navigation</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use bottom swipe up gestures instead of hardware keys</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Use bottom swipe up gestures instead of screen navigation keys</string>
+    <string name="bottom_gesture_navigation_settings_text">Available gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Swipe trigger height</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Height from bottom to trigger swipe</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Swipe trigger timeout</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Timeout before the gesture action is started</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2016 The MoKee Open Source Project
- *               2017 The LineageOS Project
+ *               2017-2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,6 +29,7 @@ import android.support.v14.preference.PreferenceFragment;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -119,6 +120,25 @@ public class PartsActivity extends SettingsDrawerActivity implements
         if (getActionBar() != null) {
             getActionBar().setDisplayHomeAsUpEnabled(true);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        if (menu == null) {
+            return false;
+        }
+
+        final MenuItem searchItem = menu.add(Menu.NONE, Menu.NONE, Menu.NONE, R.string.search_menu);
+        searchItem.setIcon(R.drawable.ic_search_24dp);
+        searchItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        searchItem.setOnMenuItemClickListener(item -> {
+                Intent intent = new Intent("com.android.settings.action.SETTINGS_SEARCH");
+                intent.setPackage("com.android.settings.intelligence");
+                startActivity(intent);
+                return true;
+            });
+
+        return true;
     }
 
     @Override
