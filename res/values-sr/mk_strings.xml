@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mkparts_title">МоКее Подешаванја</string>
-    <string name="fingerprint_shortcut_settings_title">Пречица за отисак прста</string>
-    <string name="fingerprint_shortcut_not_specified">Не дефинисано</string>
+    <string name="fingerprint_shortcut_settings_title">Пречице за отисак прста</string>
+    <string name="fingerprint_shortcut_not_specified">Није дефинисано</string>
     <string name="fingerprint_shortcut_ok">ОК</string>
     <string name="fingerprint_shortcut_edit">Уреди</string>
     <string name="fingerprint_shortcut_delete">Избриши</string>
