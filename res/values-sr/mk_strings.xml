@@ -16,7 +16,26 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">МоКее Подешаванја</string>
+    <string name="fingerprint_shortcut_settings_title">Пречице за отисак прста</string>
+    <string name="fingerprint_shortcut_not_specified">Није дефинисано</string>
     <string name="fingerprint_shortcut_ok">ОК</string>
     <string name="fingerprint_shortcut_edit">Уреди</string>
     <string name="fingerprint_shortcut_delete">Избриши</string>
+    <string name="fingerprint_shortcut_editer">Подесити пречицу за отисак прста</string>
+    <string name="fingerprint_shortcut_manage">Подешаванје отиска прста</string>
+    <string name="push_notification">Нотификације које видите</string>
+    <string name="text_copied">Текст је копиран у клиборд.</string>
+    <string name="bottom_gesture_navigation_settings_title">Навигационе гесте</string>
+    <string name="bottom_gesture_navigation_settings_summary">Користи превлачење прстом нагоре гесту за навигацију</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Користи превлачење прстом нагоре гесту уместо тастера уређаја</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Користи превлачење прстом нагоре гесту уместо навигације приказане на екрану</string>
+    <string name="bottom_gesture_navigation_settings_text">Доступне гест: \n\n Назад \n- Превуците прстом према горе са леве или десне стране \n\nПочетак\n- Превуците прстом према центру \n\nЧесте апликације \n-Превуците прстом према центру и држите\n\nДуго притисните home \n-Кратко превуците прстом према горе и држите у средини</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Дужина шаблона за превлачење прстом</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Висина од доле шаблона за превлачење прстом</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Трајанје шаблона за превлачење прстом</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Пауза док геста се не покрене</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">пиксел</string>
+    <string name="unit_msec">ms</string>
 </resources>
