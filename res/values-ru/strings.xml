@@ -35,6 +35,7 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="search">Поиск</string>
+    <string name="search_menu">Поиск настроек</string>
     <string name="disabled">Выключен</string>
     <string name="enabled">Включен</string>
     <string name="privacy_settings_title">Конфиденциальность</string>

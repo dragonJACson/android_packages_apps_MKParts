@@ -398,7 +398,7 @@
     <string name="network_traffic_mode_up">Само слање</string>
     <string name="network_traffic_mode_down">Само преузимање</string>
     <string name="network_traffic_mode_all">Слање и преузимање</string>
-    <string name="network_traffic_autohide">Аутоматско сакривање</string>
+    <string name="network_traffic_autohide">Аутоматски сакриј</string>
     <string name="network_traffic_autohide_summary">Сакриј контролу протока у одсуству активности</string>
     <string name="protected_apps_manager_title">Заштићене апликације</string>
     <string name="protected_apps_manager_summary">Управљајте апликацијама које за покретање захтевају унос лозинке.</string>
