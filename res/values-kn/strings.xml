@@ -206,10 +206,17 @@
     <string name="profile_setup_actions_title">ಹಂತ 2: ಕ್ರಿಯೆಗಳನ್ನು ಹೊಂದಿಸು</string>
     <string name="profile_setup_actions_title_config">ಕ್ರಿಯೆಗಳನ್ನು ಮರುಸಂಯೋಜಿಸು</string>
     <string name="no_triggers_configured">ಯಾವುದೇ ಪ್ರಚೋದಕಗಳನ್ನು ಸಂರಚಿಸಿಲ್ಲ. ಮತ್ತಷ್ಟನ್ನು ಸೇರಿಸಲು ಸ್ಪರ್ಶಿಸಿ.</string>
+    <string name="profiles_settings_title">ಸಿಸ್ಟಂ ಪ್ರೊಫೈಲ್ಸ್</string>
     <string name="profiles_add">ಸೇರಿಸಿ</string>
     <string name="profile_menu_delete">ಅಳಿಸು</string>
     <string name="profile_settings_title">ಕಿರುಪರಿಚಯ</string>
+    <string name="profile_empty_list_profiles_off">ವ್ಯವಸ್ಥೆಯ ರೇಖಾಕೃತಿಗಳನ್ನು ಸಂರಚಿಸಲು ಮತ್ತು ಬಳಸಲು, ರೇಖಾಕೃತಿಗಳನ್ನು ಸಶಕ್ತಿಸು.</string>
     <string name="profile_settings_summary_off">ಕಿರುಪರಿಚಯಗಳು ನಿಷ್ರಿಯವಾಗಿವೆ</string>
+    <string name="profile_write_touch_tag">ಬರೆಯಲು ನಾಮಪಟ್ಟಿಯನ್ನು ಸ್ಪರ್ಶಿಸಿ</string>
+    <string name="profile_write_success">ನಾಮಪಟ್ಟಿ ಯಶಸ್ವಿಯಾಗಿ ಬರೆದಿದೆ</string>
+    <string name="profile_write_failed">ನಾಮಪಟ್ಟಿ ಬರೆಯುವಲ್ಲಿ ವಿಫಲವಾಯಿತು!</string>
+    <string name="profile_selected">ಆಯ್ಕೆಮಾಡಿದ ರೇಖಾಕೃತಿ: %1$s</string>
+    <string name="profile_unknown_nfc_tag">ಅಜ್ಞಾತ ರೇಖಾಕೃತಿ</string>
     <string name="profile_entries_on">ಆರಂಭಿಸು</string>
     <string name="profile_entries_off">ಆರಿಸು</string>
     <string name="profile_name_title">ಹೆಸರು</string>
