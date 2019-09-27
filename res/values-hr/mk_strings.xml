@@ -16,6 +16,12 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">MoKee podešavanja</string>
+    <string name="fingerprint_shortcut_settings_title">Prečaci otiska prsta</string>
+    <string name="fingerprint_shortcut_not_specified">Nije definirano</string>
     <string name="fingerprint_shortcut_edit">Uređivanje</string>
     <string name="fingerprint_shortcut_delete">Izbriši</string>
+    <string name="fingerprint_shortcut_editer">Podesi prečace otiska prsta</string>
+    <string name="fingerprint_shortcut_manage">Upravljanje otiscima prsta</string>
+    <string name="push_notification">Obavijesti</string>
 </resources>
