@@ -300,6 +300,7 @@
     <string name="profile_brightness_override_checkbox_label">Prekorači osvjetljenje</string>
     <string name="toggleWifi">Wi‑Fi</string>
     <string name="toggleWifiAp">Prijenosni Wi-Fi Hotspot</string>
+    <string name="toggleGPS">GPS</string>
     <string name="toggleData">Podatkovna veza</string>
     <string name="toggleSync">Autom. sinkronizacija podataka</string>
     <string name="ring_mode_title">Način zvonjenja</string>
@@ -310,6 +311,7 @@
     <string name="incoming_call_volume_title">Zvuk zvona</string>
     <string name="notification_volume_title">Obavijest</string>
     <string name="media_volume_title">Medija</string>
+    <string name="alarm_volume_title">Alarm</string>
     <string name="doze_title">Ambijentni prikaz</string>
     <string name="status_bar_title">Traka statusa</string>
     <string name="status_bar_quick_qs_pulldown_title">Brzo potezanje</string>
@@ -324,7 +326,11 @@
     <string name="status_bar_icons_title">Ikone trake statusa</string>
     <string name="status_bar_notif_count_title">Prikaži broj obavijesti</string>
     <string name="status_bar_notif_count_summary">Prikaži broj neriješenih obavijesti</string>
+    <string name="status_bar_system_icons_title">Sustavne ikone</string>
     <string name="status_bar_system_icons_summary">Uredi prikazane ikone trake statusa</string>
+    <string name="status_bar_clock_title">Sat</string>
+    <string name="status_bar_clock_show_seconds_title">Prikaži sekunde</string>
+    <string name="status_bar_clock_show_seconds_summary">Prikaži sate, minute i sekunde</string>
     <string name="status_bar_clock_position_title">Izgled sata</string>
     <string name="status_bar_clock_position_right">Desni</string>
     <string name="status_bar_clock_position_left">Lijevi</string>
@@ -334,6 +340,7 @@
     <string name="status_bar_am_pm_normal">Normalan</string>
     <string name="status_bar_am_pm_small">Malen</string>
     <string name="status_bar_am_pm_hidden">Skriveno</string>
+    <string name="status_bar_battery_title">Pokazivač baterije</string>
     <string name="status_bar_battery_style_title">Stil baterije</string>
     <string name="status_bar_battery_style_icon_portrait">Okomita ikona</string>
     <string name="status_bar_battery_style_circle">Krug</string>
@@ -343,10 +350,21 @@
     <string name="status_bar_battery_percentage_text_inside">Unutar ikone</string>
     <string name="status_bar_battery_percentage_text_next">Pokraj ikone</string>
     <string name="status_bar_brightness_category">Svjetlina</string>
+    <string name="status_bar_brightness_slider_title">Klizač osvjetljenja zaslona</string>
+    <string name="status_bar_brightness_slider_summary">Podesite svjetlinu u Brzim postavkama</string>
+    <string name="status_bar_brightness_slider_auto_title">Automatska svjetlina</string>
+    <string name="status_bar_brightness_slider_auto_summary">Prikaži prečac za prilagodljivu svjetlinu pored klizača</string>
     <string name="status_bar_toggle_brightness">Kontrola svjetline</string>
     <string name="status_bar_toggle_brightness_summary">Prilagodite svjetlinu klizanjem po statusnoj traci</string>
+    <string name="network_traffic_settings_title">Praćenje mrežnog prometa</string>
+    <string name="network_traffic_settings_summary">Prikaži trenutne razine mrežnog prometa na traci statusa</string>
     <string name="network_traffic_mode_title">Način prikaza</string>
     <string name="network_traffic_mode_disable">Onemogućeno</string>
+    <string name="network_traffic_mode_up">Samo poslano</string>
+    <string name="network_traffic_mode_down">Samo preuzeto</string>
+    <string name="network_traffic_mode_all">Poslano i preuzeto</string>
+    <string name="network_traffic_autohide">Automatski sakrij</string>
+    <string name="network_traffic_autohide_summary">Sakrij praćenje prometa kada nema aktivnosti</string>
     <string name="protected_apps_manager_title">Zaštićene aplikacije</string>
     <string name="protected_apps_manager_summary">Upravljanje aplikacijama koje su skrivene iza sigurnog zaključavanja</string>
     <string name="contributors_cloud_fragment_title">Suradnici</string>
@@ -381,6 +399,7 @@
     <string name="weather_settings_providers_title">Pružatelji</string>
     <string name="weather_settings_temp_units_title">Jedinica temperature</string>
     <string name="weather_settings_temp_celsius">Celzij</string>
+    <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
     <string name="weather_settings_keyword">vrijeme</string>
     <string name="status_bar_show_weather_title">Pokaži prognozu</string>
     <string name="status_bar_show_weather_summary">Prikaži trenutnu temperaturu na traci statusa</string>
@@ -406,6 +425,7 @@
     <string name="expanded_desktop_style_hide_navigation">Sakrij navigacijsku traku</string>
     <string name="expanded_desktop_style_hide_both">Sakrij oboje</string>
     <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
+    <string name="long_screen_settings_title">Apl. koje koriste cijeli zaslon</string>
     <string name="charging_sounds_enabled_title">Uključi</string>
     <string name="power_notifications_vibrate_title">Vibracija</string>
     <string name="charging_sounds_ringtone_silent">Bešumno</string>
