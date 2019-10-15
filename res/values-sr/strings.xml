@@ -537,13 +537,13 @@
     <string name="trust_feature_root_value_disabled">Онемогућено</string>
     <string name="trust_feature_root_value_adb">Само ADB</string>
     <string name="trust_feature_root_value_apps">Апликације и ADB</string>
-    <string name="trust_feature_root_explain">РООТ приступ телефону омогућава директан приступ свим подешаванјима телефонима што може да утиче на сигурност и заштиту телефона и уједно може да оштети ваш телефон.</string>
-    <string name="trust_feature_security_patches">Андроид сигуроносна подешаванја</string>
+    <string name="trust_feature_root_explain">РООТ приступ телефону омогућава директан приступ свим подешавањима телефона што може да утиче на сигурност и заштиту телефона и уједно може да оштети ваш телефон.</string>
+    <string name="trust_feature_security_patches">Андроид сигуроносна подешавања</string>
     <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
     <string name="trust_feature_security_patches_value_new">освежено</string>
-    <string name="trust_feature_security_patches_value_medium">прошло је неколико месеци од заднјег освежаванја</string>
+    <string name="trust_feature_security_patches_value_medium">прошло је неколико месеци од задњег освежавања</string>
     <string name="trust_feature_security_patches_value_old">застарело</string>
-    <string name="trust_feature_security_patches_explain">Сигуроносна освежаванја се раде на месечном нивоу од стране Гоогле-а. Производјач телефона је одговаран за брзину примена ових освежаванја ( updates) на ваш модел телефона. Да би вам телефон био што сигурнији увек радите сигуроносна освежаванја инсталиранјем најновије актуелне верзије МоКее Ром-а за ваш уредјај.</string>
+    <string name="trust_feature_security_patches_explain">Сигуроносна освежавања се раде на месечном нивоу од стране Гоогле-а. Произвођач телефона је одговаран за брзину примена ових освежавања ( updates) на ваш модел телефона. Да би вам телефон био што сигурнији увек радите сигуроносна освежавања инсталирањем најновије актуелне верзије MoKee Ром-а за ваш уређај. Такође проверите да је vendor image освежен на најновију верзију препоручену од стране MoKee.</string>
     <string name="trust_feature_encryption">Енкрипција</string>
     <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
     <string name="trust_feature_encryption_value_nolock">Потребно је да имате закључавање екрана</string>
@@ -560,7 +560,7 @@
     <string name="trust_onboarding_done">Прихватам</string>
     <string name="trust_restrict_usb_title">Ограничи USB</string>
     <string name="trust_restrict_usb_summary">Онемогући нови USB уређај када је андроид уређај закључан</string>
-    <string name="sms_security_check_limit_title">СМС порука ограниченје</string>
+    <string name="sms_security_check_limit_title">СМС порука ограничење</string>
     <string name="sms_security_check_limit_summary">Апликација може да пошаље %s порука у једном минуту пре него је потребна потврда</string>
     <string name="sms_security_check_limit_summary_none">Апликацијама није дозвољено слање порука без потврде</string>
     <string name="sms_security_check_limit_always_confirm">Увек поврди</string>

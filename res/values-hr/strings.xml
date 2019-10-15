@@ -19,6 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="loading">Učitavanje\u2026</string>
+    <string name="dlg_ok">OK</string>
     <string name="cancel">Odustani</string>
     <string name="add">Dodaj</string>
     <string name="choose_app">Odaberite aplikaciju</string>
@@ -69,7 +70,9 @@
     <string name="pulse_speed_normal">Normalan</string>
     <string name="pulse_speed_slow">Sporo</string>
     <string name="pulse_speed_very_slow">Jako sporo</string>
+    <string name="light_brightness_title">Nivo osvjetljenja</string>
     <string name="light_brightness_normal">Normalan</string>
+    <string name="light_brightness_zen">Ne smetaj</string>
     <string name="battery_light_title">Baterijsko svjetlo</string>
     <string name="battery_low_pulse_title">Pulsiraj ako je baterija slaba</string>
     <string name="battery_light_list_title">Boje</string>
@@ -97,6 +100,7 @@
     <string name="live_display_mode">Način prikaza</string>
     <string name="live_display_color_temperature_title">Temperatura boje</string>
     <string name="live_display_color_temperature_summary">Dan: <xliff:g id="day_temperature">%1$d</xliff:g>K Noć: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dan</string>
     <string name="live_display_night">Noć</string>
     <string name="live_display_outdoor_mode_title">Automatski vanjski način</string>
@@ -122,6 +126,14 @@
     <string name="live_display_color_profile_basic_summary">Koristite ne kalibriran zaslon</string>
     <string name="live_display_color_profile_adaptive_title">Prilagodljiv</string>
     <string name="live_display_color_profile_adaptive_summary">Boje se prilagođavaju ambijentnim uslovima</string>
+    <string name="live_display_color_profile_reading_title">Čitanje</string>
+    <string name="live_display_color_profile_reading_summary">Toplije boje za manje naprezanje očiju</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Boje su točne prema sRGB prostoru boja</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Boje su točne prema DCI-P3 prostoru boja</string>
+    <string name="live_display_reading_mode_title">Način za čitanje</string>
+    <string name="live_display_reading_mode_summary">Sivi način za dugoročno čitanje</string>
     <string name="color_calibration_title">Kalibracija boje</string>
     <string name="color_calibration_summary">Kalibriraj boje zaslona</string>
     <string name="color_red_title">Crveno</string>
@@ -155,6 +167,8 @@
     <string name="hardware_keys_action_sleep">Isključi zaslon</string>
     <string name="hardware_keys_action_last_app">Posljednja aplikacija</string>
     <string name="hardware_keys_action_split_screen">Podijeljeni ekran</string>
+    <string name="hardware_keys_action_single_handed_left">Način rada s jednom rukom (lijeva)</string>
+    <string name="hardware_keys_action_single_handed_right">Način rada s jednom rukom (desna)</string>
     <string name="camera_sleep_on_release_title">Zavirivanje zaslona</string>
     <string name="camera_sleep_on_release_summary">Polupritisak će držati zaslon uključen samo dok se tipka drži pritisnuta</string>
     <string name="camera_launch_title">Pokreni kameru</string>
@@ -174,8 +188,11 @@
     <string name="volume_answer_call_summary">Odgovori na dolazne pozive pritiskom na tipke za podešavanje glasnoće</string>
     <string name="home_answer_call_title">Odgovori na poziv</string>
     <string name="home_answer_call_summary">Odgovorite na dolazne pozive pritiskom na početnu tipku.</string>
+    <string name="extras_title">Dodaci</string>
+    <string name="additional_buttons_title">Dodatne tipke</string>
     <string name="button_backlight_title">Pozadinsko osvjetljenje</string>
     <string name="button_backlight_enabled">Osvjetljenje tipki</string>
+    <string name="button_backlight_only_when_pressed_title">Osvijetli gumbe samo pri pritisku</string>
     <string name="keyboard_backlight_enabled">Osvjetljenje tipkovnice</string>
     <string name="button_backlight_seekbar_title">Svjetlina tipki</string>
     <string name="keyboard_backlight_seekbar_title">Svjetlina tipkovnice</string>
@@ -201,8 +218,13 @@
     <string name="power_menu_users_title">Zamjena korisnika</string>
     <string name="power_menu_bug_report_title">Prijava greške</string>
     <string name="power_menu_bug_report_disabled">Izvještavanje greški je onemogućeno u razvojnim postavkama</string>
+    <string name="power_menu_lockdown_title">Zaključani ekran</string>
     <string name="camera_double_tap_power_gesture_title">Pritisnite tipku napajanja dva puta za kameru</string>
     <string name="camera_double_tap_power_gesture_desc">Brzo otvaranje fotoaparata bez otključavanja zaslona</string>
+    <string name="torch_long_press_power_gesture_title">Dugi pritisak za svjetiljku</string>
+    <string name="torch_long_press_power_gesture_desc">Aktivirajte svjetiljku dugim pritiskom tipke napajanja dok je zaslon isključen</string>
+    <string name="torch_long_press_power_timeout_title">Automatski isključi svjetiljku</string>
+    <string name="torch_long_press_power_timeout_never">Nikad</string>
     <string name="torch_long_press_power_timeout_1min">1 minuta</string>
     <string name="torch_long_press_power_timeout_2min">2 minute</string>
     <string name="torch_long_press_power_timeout_5min">5 minuta</string>
@@ -215,6 +237,8 @@
     <string name="profile_trigger_a2dp_connect">Na A2DP povezivanje</string>
     <string name="profile_trigger_a2dp_disconnect">Na A2DP prekid veze</string>
     <string name="profile_tabs_wifi">Wi‑Fi</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_nfc">NFC</string>
     <string name="profile_triggers_header">Okidači koji će aktivirati ovaj profil</string>
     <string name="profile_setup_setup_triggers_title">Korak 1: Dodaj okidače</string>
     <string name="profile_setup_setup_triggers_title_config">Izmijeni okidače: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -261,6 +285,11 @@
     <string name="profile_reset_title">Poništi</string>
     <string name="profile_reset_message">Izbrisati sve korisničke profile i grupe aplikacija i vratiti na zadano?</string>
     <string name="profile_app_delete_confirm">Ukloniti ovu aplikaciju?</string>
+    <string name="profile_networkmode_2g">2G</string>
+    <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_4g">LTE</string>
+    <string name="profile_networkmode_2g3g">2G/3G</string>
+    <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
     <string name="profile_volumeoverrides_title">Promjenjiva glasnoća</string>
     <string name="connection_state_enabled">Uključi</string>
     <string name="volume_override_summary">Postavi na %1$s/%2$s</string>
@@ -300,9 +329,11 @@
     <string name="profile_brightness_override_checkbox_label">Prekorači osvjetljenje</string>
     <string name="toggleWifi">Wi‑Fi</string>
     <string name="toggleWifiAp">Prijenosni Wi-Fi Hotspot</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">Podatkovna veza</string>
     <string name="toggleSync">Autom. sinkronizacija podataka</string>
+    <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Način zvonjenja</string>
     <string name="ring_mode_normal">Normalan</string>
     <string name="ring_mode_vibrate">Vibriraj</string>
@@ -426,12 +457,16 @@
     <string name="expanded_desktop_style_hide_both">Sakrij oboje</string>
     <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
     <string name="long_screen_settings_title">Apl. koje koriste cijeli zaslon</string>
+    <string name="long_screen_settings_summary">Prisili naslijeđene aplikacije za korištenje omjera slike na cijelom zaslonu</string>
     <string name="charging_sounds_enabled_title">Uključi</string>
     <string name="power_notifications_vibrate_title">Vibracija</string>
     <string name="charging_sounds_ringtone_silent">Bešumno</string>
     <string name="style_title">Stil</string>
     <string name="style_global_title">Stil</string>
     <string name="style_global_entry_dark">Tamno</string>
+    <string name="style_accent_configuration_positive">Nastavi</string>
+    <string name="style_automagic_title">Automagic</string>
+    <string name="style_automagic_description">Podesite stil da se podudara s pozadinom</string>
     <string name="style_automagic_dialog_positive">Primijeni</string>
     <string name="style_accent_default_name">Zadano</string>
     <string name="style_dark_overlay_default">Zadano</string>

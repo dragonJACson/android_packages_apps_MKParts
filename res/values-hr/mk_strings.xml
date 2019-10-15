@@ -19,6 +19,7 @@
     <string name="mkparts_title">MoKee podešavanja</string>
     <string name="fingerprint_shortcut_settings_title">Prečaci otiska prsta</string>
     <string name="fingerprint_shortcut_not_specified">Nije definirano</string>
+    <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Uređivanje</string>
     <string name="fingerprint_shortcut_delete">Izbriši</string>
     <string name="fingerprint_shortcut_editer">Podesi prečace otiska prsta</string>
