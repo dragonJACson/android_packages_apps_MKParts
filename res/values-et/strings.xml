@@ -406,13 +406,13 @@
     <string name="contributors_cloud_loading_message">Laadin toetajate infot\u2026</string>
     <string name="contributors_cloud_failed_message">Toetajate andmete laadimine ebaõnnestus</string>
     <string name="contributor_info_menu">Toetajate info</string>
-    <string name="contributor_info_msg">&lt;b&gt;Nimi:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Hüüdnimi:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Muudatused:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributor_info_msg">&lt;b&gt;Nimi:&lt;/b&gt; &lt;xliff:g id=\"name\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Hüüdnimi:&lt;/b&gt; &lt;xliff:g id=\"nick\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Muudatused:&lt;/b&gt; &lt;xliff:g id=\"commits\"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="contributions_info_menu">Toetuste info</string>
-    <string name="contributions_info_msg">&lt;b&gt;Toetajaid kokku:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Muudatusi kokku:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Viimane uuendus:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributions_info_msg">&lt;b&gt;Toetajaid kokku:&lt;/b&gt; &lt;xliff:g id=\"total_contributors\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Muudatusi kokku:&lt;/b&gt; &lt;xliff:g id=\"total_commits\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Viimane uuendus:&lt;/b&gt; &lt;xliff:g id=\"date\"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="accelerometer_title">Pööra ekraani automaatselt</string>
     <string name="display_rotation_title">Pööramise seaded</string>
     <string name="display_rotation_enabled">Automaatne pööramine lubatud</string>
