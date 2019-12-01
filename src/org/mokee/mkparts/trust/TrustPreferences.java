@@ -45,7 +45,7 @@ public class TrustPreferences extends SettingsPreferenceFragment {
     private ListPreference mSmsLimitPref;
 
     private PreferenceCategory mWarnScreen;
-    private SwitchPreference mWarnSELinuxPref;
+    // private SwitchPreference mWarnSELinuxPref;
     private SwitchPreference mWarnKeysPref;
 
     private TrustInterface mInterface;
@@ -70,7 +70,7 @@ public class TrustPreferences extends SettingsPreferenceFragment {
         mSmsLimitPref = (ListPreference) mToolsCategory.findPreference("sms_security_check_limit");
 
         mWarnScreen = (PreferenceCategory) findPreference("trust_category_warnings");
-        mWarnSELinuxPref = (SwitchPreference) mWarnScreen.findPreference("trust_warning_selinux");
+        // mWarnSELinuxPref = (SwitchPreference) mWarnScreen.findPreference("trust_warning_selinux");
         mWarnKeysPref = (SwitchPreference) mWarnScreen.findPreference("trust_warning_keys");
 
         mSELinuxPref.setOnPreferenceClickListener(p ->
@@ -84,8 +84,8 @@ public class TrustPreferences extends SettingsPreferenceFragment {
         mSmsLimitPref.setOnPreferenceChangeListener((p, v) ->
                 onSmsLimitChanged(Integer.parseInt((String) v)));
 
-        mWarnSELinuxPref.setOnPreferenceChangeListener((p, v) ->
-                onWarningChanged((Boolean) v, TrustInterface.TRUST_WARN_SELINUX));
+        // mWarnSELinuxPref.setOnPreferenceChangeListener((p, v) ->
+        //         onWarningChanged((Boolean) v, TrustInterface.TRUST_WARN_SELINUX));
         mWarnKeysPref.setOnPreferenceChangeListener((p, v) ->
                 onWarningChanged((Boolean) v, TrustInterface.TRUST_WARN_PUBLIC_KEY));
         setup();
@@ -107,7 +107,7 @@ public class TrustPreferences extends SettingsPreferenceFragment {
 
         int currentFeatures = MKSettings.Secure.getInt(getContext().getContentResolver(),
                 MKSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
-        mWarnSELinuxPref.setChecked((currentFeatures & TrustInterface.TRUST_WARN_SELINUX) != 0);
+        // mWarnSELinuxPref.setChecked((currentFeatures & TrustInterface.TRUST_WARN_SELINUX) != 0);
         mWarnKeysPref.setChecked((currentFeatures & TrustInterface.TRUST_WARN_PUBLIC_KEY) != 0);
 
         if (!isTelephony()) {
