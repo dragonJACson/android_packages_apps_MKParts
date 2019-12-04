@@ -29,6 +29,8 @@
     <string name="bottom_gesture_navigation_settings_title">Gestes de navigation du bas</string>
     <string name="bottom_gesture_navigation_settings_summary">Utilisez les gestes du bas pour la navigation</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Utilisez des gestes de bas en haut au lieu de clés matérielles</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Utilisez des gestes de bas en haut au lieu de clés de navigation d’écran</string>
+    <string name="bottom_gesture_navigation_settings_text">Gestes disponibles:\n\nArrière\n- glissez en haut au côté gauche ou droit\n\nAccueil\n- glissez en haut au centre\n\nApplications récentes\n- glissez en haut au centre et tenez\n\nAppuyez longuement Accueil\n- court glissement en haut et maintenir au centre</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Hauteur de la zone de balayage</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Hauteur du bas pour déclencher le balayage</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Délai de déclenchement du balayage</string>
