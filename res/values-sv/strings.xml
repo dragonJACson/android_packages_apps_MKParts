@@ -266,6 +266,7 @@
     <string name="ring_mode_mute">Ljud av</string>
     <string name="ring_volume_title">Ringsignalsvolym</string>
     <string name="incoming_call_volume_title">Ringsignal</string>
+    <string name="notification_volume_title">Notifikation</string>
     <string name="media_volume_title">Media</string>
     <string name="alarm_volume_title">Alarm</string>
     <string name="doze_title">Omgivningsskärm</string>

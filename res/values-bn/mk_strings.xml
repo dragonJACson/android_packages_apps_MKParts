@@ -16,5 +16,8 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">মকি সেটিংস</string>
+    <string name="fingerprint_shortcut_settings_title">আঙ্গুলের ছাপ শর্টকাট</string>
+    <string name="fingerprint_shortcut_not_specified">উল্লেখ করা হয়নি</string>
     <string name="fingerprint_shortcut_edit">Edit</string>
 </resources>

@@ -17,7 +17,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mkparts_title">MoKee-inställningar</string>
+    <string name="fingerprint_shortcut_not_specified">Inte angivet</string>
     <string name="fingerprint_shortcut_ok">OK</string>
     <string name="fingerprint_shortcut_edit">Redigera</string>
     <string name="fingerprint_shortcut_delete">Ta bort</string>
+    <string name="fingerprint_shortcut_manage">Hantera fingeravtryck</string>
+    <string name="push_notification">Push-meddelande</string>
 </resources>

@@ -35,6 +35,7 @@
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="search">Chercher</string>
+    <string name="search_menu">Paramètres de recherche</string>
     <string name="disabled">Désactiver</string>
     <string name="enabled">Activé</string>
     <string name="privacy_settings_title">Confidentialité</string>
@@ -52,6 +53,7 @@
     <string name="privacy_guard_manager_show_system_apps">Afficher les applications système</string>
     <string name="privacy_guard_advanced_settings_title">Options avancées</string>
     <string name="privacy_guard_notification_title">Afficher les notifications</string>
+    <string name="channel_light_settings_name">Aperçu des paramètres d\'éclairage</string>
     <string name="edit_light_settings">Modifier les paramètres de la DEL</string>
     <string name="pulse_speed_title">Durée et vitesse du clignotement</string>
     <string name="default_time">Standard</string>
@@ -183,6 +185,8 @@
     <string name="power_end_call_summary">Mettre fin à l’appel en cours en appuyant sur le bouton marche/arrêt</string>
     <string name="swap_volume_buttons_title">Réorienter</string>
     <string name="swap_volume_buttons_summary">Inverser les boutons de volume lorsque l\'écran pivote</string>
+    <string name="volume_panel_on_left_title">Afficher le panneau à gauche</string>
+    <string name="volume_panel_on_left_summary">Afficher le panneau de volume sur le côté gauche de l\'écran</string>
     <string name="button_wake_title">Réveiller l\'appareil</string>
     <string name="volume_answer_call_title">Répondre à l\'appel</string>
     <string name="volume_answer_call_summary">Répondre aux appels entrants en appuyant sur les boutons de volume</string>
