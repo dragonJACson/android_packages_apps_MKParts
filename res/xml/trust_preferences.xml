@@ -69,10 +69,10 @@
             android:icon="@drawable/ic_info"
             android:summary="@string/trust_warnings_alerts_intro" />
 
-        <SwitchPreference
+<!--         <SwitchPreference
             android:key="trust_warning_selinux"
             android:summary="@string/trust_warnings_selinux"
-            android:defaultValue="true" />
+            android:defaultValue="true" /> -->
 
         <SwitchPreference
             android:key="trust_warning_keys"
