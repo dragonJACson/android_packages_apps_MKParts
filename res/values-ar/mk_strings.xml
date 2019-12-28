@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">حذف</string>
     <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
     <string name="fingerprint_shortcut_manage">إدارة بصمات الإصبع</string>
-    <string name="push_notification">إرسال إشعار</string>
-    <string name="text_copied">تم نسخ النص إلى الحافظة.</string>
     <string name="bottom_gesture_navigation_settings_title">إيماءات التنقل السفلية</string>
     <string name="bottom_gesture_navigation_settings_summary">إستخدام إيماءة السحب لأعلى من الأسفل للتنقل</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">إستخدام إيماءات السحب لأعلى من الأسفل بدلاً من مفاتيح الجهاز</string>

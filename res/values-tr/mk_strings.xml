@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Sil</string>
     <string name="fingerprint_shortcut_editer">Parmak izi kısayolu ayarla</string>
     <string name="fingerprint_shortcut_manage">Parmak izlerini yönet</string>
-    <string name="push_notification">Push bildirimleri</string>
-    <string name="text_copied">Metin panoya kopyalandı.</string>
     <string name="bottom_gesture_navigation_settings_title">Alt gezinme hareketleri</string>
     <string name="bottom_gesture_navigation_settings_summary">Gezinme için alttan yukarı kaydırma hareketlerini kullan</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Donanım tuşları yerine alttan yukarı kaydırma hareketlerini kullan</string>

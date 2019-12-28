@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Избриши</string>
     <string name="fingerprint_shortcut_editer">Подесити пречицу за отисак прста</string>
     <string name="fingerprint_shortcut_manage">Подешавање отиска прста</string>
-    <string name="push_notification">Нотификације које видите</string>
-    <string name="text_copied">Текст је копиран у клиборд.</string>
     <string name="bottom_gesture_navigation_settings_title">Навигационе гесте</string>
     <string name="bottom_gesture_navigation_settings_summary">Користи превлачење прстом нагоре гесту за навигацију</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Користи превлачење прстом нагоре гесту уместо тастера уређаја</string>

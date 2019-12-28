@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Excluir</string>
     <string name="fingerprint_shortcut_editer">Definir o atalho de impressão digital</string>
     <string name="fingerprint_shortcut_manage">Gerenciar impressões digitais</string>
-    <string name="push_notification">Notificações Push</string>
-    <string name="text_copied">Texto copiado para a área de transferência.</string>
     <string name="bottom_gesture_navigation_settings_title">Gestos de navegação inferior</string>
     <string name="bottom_gesture_navigation_settings_summary">Use os gestos de deslizar para baixo para navegação</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use os gestos de deslize para baixo em vez de chaves de hardware</string>

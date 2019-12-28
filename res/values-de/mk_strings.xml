@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Löschen</string>
     <string name="fingerprint_shortcut_editer">Fingerabdruck-Verknüpfung festlegen</string>
     <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
-    <string name="push_notification">Push-Benachrichtigung</string>
-    <string name="text_copied">Text in Zwischenablage kopiert.</string>
     <string name="bottom_gesture_navigation_settings_title">geniale Navigations-Gesten</string>
     <string name="bottom_gesture_navigation_settings_summary">Vom unteren Bildschirmrand nach oben wischen, um zu navigieren</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Gesten-Navigation anstelle der klassischen Steuerung verwenden</string>

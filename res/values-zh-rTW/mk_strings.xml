@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">刪除</string>
     <string name="fingerprint_shortcut_editer">設定指紋捷徑</string>
     <string name="fingerprint_shortcut_manage">管理指紋</string>
-    <string name="push_notification">推播通知</string>
-    <string name="text_copied">文字已複製到剪貼簿</string>
     <string name="bottom_gesture_navigation_settings_title">底部手勢操作</string>
     <string name="bottom_gesture_navigation_settings_summary">使用底部向上滑動手勢進行導航操作</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">使用底部向上滑動的手勢，而不是實體按鍵</string>

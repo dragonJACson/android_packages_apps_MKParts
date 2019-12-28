@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Удалить</string>
     <string name="fingerprint_shortcut_editer">Установить ярлык отпечатка пальца</string>
     <string name="fingerprint_shortcut_manage">Управление отпечатками</string>
-    <string name="push_notification">Push-уведомление</string>
-    <string name="text_copied">Текст скопирован в буфер обмена.</string>
     <string name="bottom_gesture_navigation_settings_title">Нижние навигационные жесты</string>
     <string name="bottom_gesture_navigation_settings_summary">Использовать жесты снизу вверх для навигации</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Использовать жесты снизу вверх вместо аппаратных кнопок</string>

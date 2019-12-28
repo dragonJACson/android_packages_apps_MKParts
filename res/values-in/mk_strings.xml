@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Hapus</string>
     <string name="fingerprint_shortcut_editer">Setel pintasan sidik jari</string>
     <string name="fingerprint_shortcut_manage">Kelola sidik jari</string>
-    <string name="push_notification">Pemberitahuan push</string>
-    <string name="text_copied">Teks disalin ke clipboard.</string>
     <string name="bottom_gesture_navigation_settings_title">Bottom navigation gestures</string>
     <string name="bottom_gesture_navigation_settings_summary">Use bottom swipe up gestures for navigation</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use bottom swipe up gestures instead of hardware keys</string>

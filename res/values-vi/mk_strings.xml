@@ -24,5 +24,4 @@
     <string name="fingerprint_shortcut_delete">Xóa</string>
     <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
     <string name="fingerprint_shortcut_manage">Quản lý vân tay</string>
-    <string name="push_notification">Thông báo đẩy</string>
 </resources>
