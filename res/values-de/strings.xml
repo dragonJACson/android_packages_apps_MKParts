@@ -53,6 +53,7 @@
     <string name="privacy_guard_manager_show_system_apps">System-Apps anzeigen</string>
     <string name="privacy_guard_advanced_settings_title">Erweitert</string>
     <string name="privacy_guard_notification_title">Benachrichtigung anzeigen</string>
+    <string name="channel_light_settings_name">Vorschau der Lichteinstellungen</string>
     <string name="edit_light_settings">LED-Einstellungen ändern</string>
     <string name="pulse_speed_title">Pulsdauer und Geschwindigkeit</string>
     <string name="default_time">Standard</string>
@@ -184,6 +185,8 @@
     <string name="power_end_call_summary">Aktuellen Anruf durch Drücken der Ein-/Aus-Taste beenden</string>
     <string name="swap_volume_buttons_title">Umkehren</string>
     <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn das Gerät gedreht wird</string>
+    <string name="volume_panel_on_left_title">Panel links anzeigen</string>
+    <string name="volume_panel_on_left_summary">Lautstärkeregler auf der linken Seite des Bildschirms anzeigen</string>
     <string name="button_wake_title">Gerät aufwecken</string>
     <string name="volume_answer_call_title">Anruf annehmen</string>
     <string name="volume_answer_call_summary">Eingehende Anrufe durch Drücken der Lautstärketaste annehmen</string>
@@ -555,6 +558,8 @@
     <string name="trust_onboarding_description">Trust hilft ihnen, ihr Gerät sicher zu halten und schützt Ihre Privatsphäre.\n Das Trust-Symbol wird angezeigt, um Ihnen bei der Überprüfung der Sicherheit der Inhalte zu helfen</string>
     <string name="trust_onboarding_learn_more">Weitere Infos</string>
     <string name="trust_onboarding_done">Verstanden</string>
+    <string name="trust_restrict_usb_title">USB einschränken</string>
+    <string name="trust_restrict_usb_summary">Keine neuen USB-Geräte zulassen, wenn das Gerät gesperrt ist</string>
     <string name="sms_security_check_limit_title">SMS Nachrichten Beschränkung</string>
     <string name="sms_security_check_limit_summary">Apps können %s Nachrichten in einer minute senden bevor eine Bestätigung erforderlich ist</string>
     <string name="sms_security_check_limit_summary_none">Apps dürfen keine Nachricht ohne Bestätigung versenden</string>
