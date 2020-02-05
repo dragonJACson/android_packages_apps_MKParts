@@ -24,5 +24,4 @@
     <string name="fingerprint_shortcut_delete">Eliminar</string>
     <string name="fingerprint_shortcut_editer">Definir atalhos de impressão digital</string>
     <string name="fingerprint_shortcut_manage">Gerir impressões digitais</string>
-    <string name="text_copied">Texto copiado para a área de transferência</string>
 </resources>

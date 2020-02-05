@@ -21,5 +21,4 @@
     <string name="fingerprint_shortcut_ok">Окей</string>
     <string name="fingerprint_shortcut_edit">Редактиране</string>
     <string name="fingerprint_shortcut_delete">Изтриване</string>
-    <string name="push_notification">Известия</string>
 </resources>

@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">删除</string>
     <string name="fingerprint_shortcut_editer">设置指纹快速启动</string>
     <string name="fingerprint_shortcut_manage">管理指纹</string>
-    <string name="push_notification">消息推送</string>
-    <string name="text_copied">文本已复制到剪贴板。</string>
     <string name="bottom_gesture_navigation_settings_title">全面屏手势</string>
     <string name="bottom_gesture_navigation_settings_summary">使用从屏幕底部向上滑动的手势进行导航操作</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">使用从屏幕底部向上滑动的手势替代实体按键</string>

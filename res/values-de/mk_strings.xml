@@ -24,14 +24,15 @@
     <string name="fingerprint_shortcut_delete">Löschen</string>
     <string name="fingerprint_shortcut_editer">Fingerabdruck-Verknüpfung festlegen</string>
     <string name="fingerprint_shortcut_manage">Fingerabdrücke verwalten</string>
-    <string name="push_notification">Push-Benachrichtigung</string>
-    <string name="text_copied">Text in Zwischenablage kopiert.</string>
     <string name="bottom_gesture_navigation_settings_title">geniale Navigations-Gesten</string>
     <string name="bottom_gesture_navigation_settings_summary">Vom unteren Bildschirmrand nach oben wischen, um zu navigieren</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Gesten-Navigation anstelle der klassischen Steuerung verwenden</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_bar">Gesten-Navigation anstelle der klassischen Steuerung verwenden</string>
     <string name="bottom_gesture_navigation_settings_text">Die Navigationsleiste muss deaktiviert werden!\n\nVerfügbare Gesten:\n\nZurück                 - auf der Linken oder rechten Seite nach oben wischen\nStart                 - Mittig nach oben wischen\nVerlauf                - Mittig nach oben wischen und halten\nStart (Langes Drücken) - Mittig kurz nach oben wischen und halten</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Wischbereich</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Höhe von unten, ab der eine Wischgeste erkannt wird</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Erkennungsdauer für Wischgesten</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Dauer bis zum Start der Aktion der Geste</string>
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">px</string>
     <string name="unit_msec">ms</string>

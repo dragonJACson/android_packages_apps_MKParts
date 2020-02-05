@@ -24,6 +24,4 @@
     <string name="fingerprint_shortcut_delete">削除</string>
     <string name="fingerprint_shortcut_editer">指紋認証のショートカットを設定</string>
     <string name="fingerprint_shortcut_manage">指紋の管理</string>
-    <string name="push_notification">プッシュ通知</string>
-    <string name="text_copied">テキストをクリップボードにコピーしました。</string>
 </resources>

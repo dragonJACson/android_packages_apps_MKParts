@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Vymazať</string>
     <string name="fingerprint_shortcut_editer">Nastaviť skratku odtlačku prsta</string>
     <string name="fingerprint_shortcut_manage">Spravovať odtlačky prstov</string>
-    <string name="push_notification">Push notifikácia</string>
-    <string name="text_copied">Text skopírovaný do schránky.</string>
     <string name="bottom_gesture_navigation_settings_title">Navigačné gestá</string>
     <string name="bottom_gesture_navigation_settings_summary">Pre navigáciu použiť gesto potiahnutia zospodu nahor</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Pre navigáciu použiť gesto potiahnutia zospodu nahor namiesto fyzických tlačidiel</string>

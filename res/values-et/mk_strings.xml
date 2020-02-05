@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Kustuta</string>
     <string name="fingerprint_shortcut_editer">Sõrmejälgede otseteede seadistamine</string>
     <string name="fingerprint_shortcut_manage">Sõrmejälgede haldamine</string>
-    <string name="push_notification">Rakenduse teavitus</string>
-    <string name="text_copied">Lõikelauale kopeeritud tekst.</string>
     <string name="bottom_gesture_navigation_settings_title">Alumise navigeerimise žestid</string>
     <string name="bottom_gesture_navigation_settings_summary">Kasutage navigeerimiseks alt üles liikuvaid žeste</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Kasutage riistvaravõtmete asemel altpoolt liikuvaid žeste</string>

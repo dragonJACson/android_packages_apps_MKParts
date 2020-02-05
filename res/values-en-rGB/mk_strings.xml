@@ -23,5 +23,4 @@
     <string name="fingerprint_shortcut_edit">Edit</string>
     <string name="fingerprint_shortcut_editer">Set fingerprint shortcut</string>
     <string name="fingerprint_shortcut_manage">Manage fingerprints</string>
-    <string name="push_notification">Push notification</string>
 </resources>

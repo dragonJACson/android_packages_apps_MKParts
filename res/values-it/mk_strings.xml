@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Elimina</string>
     <string name="fingerprint_shortcut_editer">Imposta scorciatoie</string>
     <string name="fingerprint_shortcut_manage">Gestisci le impronte digitali</string>
-    <string name="push_notification">Notifiche push</string>
-    <string name="text_copied">Testo copiato negli appunti.</string>
     <string name="bottom_gesture_navigation_settings_title">Gesti di navigazione inferiore</string>
     <string name="bottom_gesture_navigation_settings_summary">Scorri verso l\'alto dalla parte inferiore dello schermo per la navigazione</string>
     <string name="bottom_gesture_navigation_settings_summary_nav_keys">Usa i gesti di scorrimento dal basso invece dei tasti hardware</string>

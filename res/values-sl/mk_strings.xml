@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Izbriši</string>
     <string name="fingerprint_shortcut_editer">Nastavite bližnjice s prstnim odtisom</string>
     <string name="fingerprint_shortcut_manage">Upravljanje prstnih odtisov</string>
-    <string name="push_notification">Potisna obvestila</string>
-    <string name="text_copied">Besedilo je kopirano v odložišče.</string>
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">sl. točk</string>
     <string name="unit_msec">ms</string>

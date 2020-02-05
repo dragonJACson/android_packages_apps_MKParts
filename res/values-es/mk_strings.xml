@@ -24,8 +24,6 @@
     <string name="fingerprint_shortcut_delete">Borrar</string>
     <string name="fingerprint_shortcut_editer">Acceso directo a Huella dactilar</string>
     <string name="fingerprint_shortcut_manage">Administrar huellas</string>
-    <string name="push_notification">Push notification</string>
-    <string name="text_copied">Texto copiado al portapapeles.</string>
     <string name="bottom_gesture_navigation_settings_title">Gestos de navegación inferior</string>
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">px</string>

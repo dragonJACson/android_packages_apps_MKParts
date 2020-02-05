@@ -22,5 +22,4 @@
     <string name="fingerprint_shortcut_edit">Redigera</string>
     <string name="fingerprint_shortcut_delete">Ta bort</string>
     <string name="fingerprint_shortcut_manage">Hantera fingeravtryck</string>
-    <string name="push_notification">Push-meddelande</string>
 </resources>
